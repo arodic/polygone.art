@@ -11,10 +11,10 @@ const path = require("path");
 
 // Get an API key here
 // https://developers.google.com/poly/develop/api
-const API_KEY = "GETYOUROWNAPIKEY";
+const API_KEY = "get your own api key";
 const API_URL = "https://poly.googleapis.com/v1/assets";
 
-async function fileOrfolderExists(pathName) {
+async function fileOrFolderExists(pathName) {
   try {
     await fs.access(pathName);
     return true;
@@ -28,10 +28,12 @@ let page = 0
 const getModelLists = async (pageToken = "") => {
   const fileName = `assetsLists/assets_${page}.json`;
   const rawdata = await got(`${API_URL}?key=${API_KEY}&pageToken=${pageToken}&pageSize=100`);
-  const jsonExists = await fileOrfolderExists(path.resolve(fileName));
+  const jsonExists = await fileOrFolderExists(path.resolve(fileName));
   if (!jsonExists) {
-    console.log('Writing', page);
+    console.log('Writing', page, 'total', JSON.parse(rawdata.body).totalSize);
     await fs.writeFile(fileName, rawdata.body);
+  } else {
+    console.log('Skipping', page, 'total', JSON.parse(rawdata.body).totalSize);
   }
   const nextPageToken = JSON.parse(rawdata.body).nextPageToken;
   if (nextPageToken) {
