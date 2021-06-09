@@ -11,7 +11,7 @@ const path = require("path");
 
 // Get an API key here
 // https://developers.google.com/poly/develop/api
-const API_KEY = "AIzaSyApKim9TN1edBLm4H58hoPL8fZ53hTo8ms";
+const API_KEY = "GETYOUROWNAPIKEY";
 const API_URL = "https://poly.googleapis.com/v1/assets";
 
 async function fileOrfolderExists(pathName) {
