@@ -1,15 +1,15 @@
 {
-  "name": "polygon",
+  "name": "polygon-download",
   "version": "1.0.0",
   "description": "",
-  "main": "getLists.js",
+  "main": "downloadAssets.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "got": "^11.8.2",
-    "sanitize-filename": "^1.6.3"
+    "got": "^11.8.2"
   }
 }

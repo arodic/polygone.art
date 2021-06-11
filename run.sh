@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cd /polygon; sleep 10; node ./getAssets.js;
+cd /polygon; sleep 10; node ./downloadAssets.js;
