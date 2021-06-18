@@ -7,45 +7,13 @@ import path from "path";
 import stream from "stream";
 import fs_ from "fs";
 import { promises as fs } from "fs";
-import { fileOrFolderExists, createDirectory, API_URL, API_KEY, POLY_VIEW_URL } from "./utils.js";
+import { fileOrFolderExists, createDirectory, ASSETS_FILENAME } from "./utils.js";
 import { promisify } from "util";
 
 const pipeline = promisify(stream.pipeline);
 
-async function downloadModel(id) {
-  const assetPath = `assets/${id}/`;
-  const rawAssetData = await got(`${API_URL}/${id}?key=${API_KEY}`);
-  let assetData = JSON.parse(rawAssetData.body);
-
-  console.log('Fetching additional data for', id);
-  const htmlData = await got(`${POLY_VIEW_URL}/${id}`);
-  const htmlText = String(htmlData.body);
-  const likesMatch = htmlText.match(new RegExp('data-base-likes="(.[^"]+)"'));
-  const likes = likesMatch ? Number(likesMatch[1]) : 0;
-  const authorIdMatch = htmlText.match(new RegExp('(?<=<a href="\.\/user\/)[^"]*'));
-
-  if (!authorIdMatch) console.log('Cannot find author for', id);
-  const authorId = authorIdMatch ? authorIdMatch[0] : '';
-
-  assetData = {
-    id: id,
-    name: assetData.displayName,
-    description: assetData.description,
-    authorId: authorId,
-    authorName: assetData.authorName,
-    createTime: assetData.createTime,
-    updateTime: assetData.updateTime,
-    license: assetData.license,
-    visibility: assetData.visibility,
-    category: "",
-    likes: likes,
-    isCurated: assetData.isCurated || false,
-    ...assetData
-  };
-
-  delete assetData.name;
-  delete assetData.displayName;
-
+async function downloadModel(assetData) {
+  const assetPath = `assets/${assetData.id}/`;
   const assetDataFilename = `${assetPath}data.json`;
   await createDirectory(assetDataFilename);
 
@@ -54,7 +22,7 @@ async function downloadModel(id) {
   const strippedAssetData = JSON.parse(JSON.stringify(assetData));
 
   if (assetData.thumbnail) {
-    const thumbnailPath = `${assetPath}${assetData.thumbnail.relativePath}`;
+    let thumbnailPath = `${assetPath}${assetData.thumbnail.relativePath}`;
     const thumbnailExists = await fileOrFolderExists(path.resolve(thumbnailPath));
     if (!thumbnailExists) {
       console.log(`Downloading thumbnail: ${thumbnailPath}`);
@@ -104,7 +72,7 @@ async function downloadModel(id) {
 
 async function downloadAllModels() {
   console.log(`Downloading assets from assets.json`);
-  const assets = JSON.parse(await fs.readFile('category_all.json')).assets;
+  const assets = JSON.parse(await fs.readFile(ASSETS_FILENAME)).assets;
   await createDirectory('assets');
   for (let i = 0; i < assets.length; i++) {
     await downloadModel(assets[i]).catch(console.error);
