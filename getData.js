@@ -34,7 +34,7 @@ const CATEGORIES = [
 async function getPage(pageToken, category) {
   console.log('Processing category', category || 'all', 'page', page);
 
-  const rawAssetPage = await got(`${API_URL}?key=${API_KEY}&pageToken=${pageToken}&category=${category}&pageSize=100`);
+  const rawAssetPage = await got(`${API_URL}?key=${API_KEY}&pageToken=${pageToken}&category=${category}&orderBy=NEWEST&pageSize=100`);
   const assetPage = JSON.parse(rawAssetPage.body);
 
   for (let i = 0; i < assetPage.assets.length; i++) {
@@ -68,7 +68,7 @@ async function getPage(pageToken, category) {
 
     const assetMatch = !!assets[id];
 
-    if (assetMatch === -1) {
+    if (!assetMatch) {
       console.log('Fetching additional data for', id);
 
       const htmlData = await got(`${POLY_VIEW_URL}/${id}`);
@@ -139,7 +139,7 @@ async function getData() {
   for (let i = 0; i < CATEGORIES.length; i++) {
     page = 0;
     pageToken = '';
-    while (pageToken || page === 0) {
+    while ((pageToken || page === 0) && page < 3) {
       pageToken = await getPage(pageToken, CATEGORIES[i]).catch(console.error);
       page++;
       if (page % 100 === 0) {

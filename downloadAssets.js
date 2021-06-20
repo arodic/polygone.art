@@ -12,8 +12,9 @@ import { promisify } from "util";
 
 const pipeline = promisify(stream.pipeline);
 
-async function downloadModel(assetData) {
-  const assetPath = `assets/${assetData.id}/`;
+async function downloadModel(id, assetData) {
+  console.log('Downloading', id);
+  const assetPath = `assets/${id}/`;
   const assetDataFilename = `${assetPath}data.json`;
   await createDirectory(assetDataFilename);
 
@@ -31,7 +32,7 @@ async function downloadModel(assetData) {
         fs_.createWriteStream(thumbnailPath)
       ));
     }
-    delete strippedAssetData.thumbnail.url;
+    delete strippedAssetData.thumbnail;
   }
 
   for (let i = 0; i < assetData.formats.length; i++) {
@@ -62,7 +63,6 @@ async function downloadModel(assetData) {
     }
   };
 
-  console.log('Writing', assetDataFilename);
   await fs.writeFile(assetDataFilename, JSON.stringify(strippedAssetData, null, 4));
 
   await Promise.all(pipelines).catch((err) => {
@@ -72,10 +72,10 @@ async function downloadModel(assetData) {
 
 async function downloadAllModels() {
   console.log(`Downloading assets from assets.json`);
-  const assets = JSON.parse(await fs.readFile(ASSETS_FILENAME)).assets;
+  const assets = JSON.parse(await fs.readFile(ASSETS_FILENAME));
   await createDirectory('assets');
-  for (let i = 0; i < assets.length; i++) {
-    await downloadModel(assets[i]).catch(console.error);
+  for (let key in assets) {
+    await downloadModel(key, assets[key]).catch(console.error);
   }
 }
 
