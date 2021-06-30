@@ -1,15 +1,21 @@
 {
-  "name": "polygon-download",
+  "name": "polygone.art",
   "version": "1.0.0",
   "description": "",
-  "main": "downloadAssets.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "got": "^11.8.2",
+    "sharp": "^0.28.3"
+  },
   "dependencies": {
-    "got": "^11.8.2"
+    "archiver": "^5.3.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
   }
 }

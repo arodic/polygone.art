@@ -1,6 +1,11 @@
-# polygon-download
+# Polygone Art
 
-This script can be used to download all poly.google.com assets before the sevice shuts down on June 30th.
+This is an archive of free 3D assets salvaged from [Google Poly](poly.google.com) which is now [gone forever](https://killedbygoogle.com/) 🪦
 
-`npm install`
-`node downloadAssets.js`
+The goal of this project is to preserve the artwork and make it available to artists, researchers and general public.
+
+This content is published under a [CC-BY License](https://creativecommons.org/licenses/by/4.0/). You're free to use this as long as you credit the author. [Learn more](https://support.google.com/poly/answer/7418679).
+
+This website does not use cookies and its [open-source](https://github.com/arodic/polygone.art).
+
+Torrent download links will be added here later. Please come back soon.

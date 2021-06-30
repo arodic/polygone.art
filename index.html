@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+    <title>Polygone Art - Free 3D Assets</title>
+
+    <meta name="description" content="This is an archive of free CC-BY-licensed 3D assets salvaged from poly.google.com before the shut down on June 30th 2021." />
+    <meta name="keywords" content="Google Poly, 3D Models, Tilt Brush, Download, Assets, Free, Creative Commons, CC-BY, gltf, obj, fbx" />
+
+    <meta itemprop="name" content="This is an archive of free CC-BY-licensed 3D assets" />
+    <meta itemprop="description" content="This is an archive of free CC-BY-licensed 3D assets salvaged from poly.google.com before the shut down on June 30th 2021." />
+
+    <!-- Web application enable -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- Web application name -->
+    <meta name="application-name" content="This is an archive of free CC-BY-licensed 3D assets" />
+    <meta name="apple-mobile-web-app-title" content="This is an archive of free CC-BY-licensed 3D assets" />
+
+    <!-- Browser UI color -->
+    <meta name="theme-color" content="#f5f5f5" />
+    <meta name="msapplication-TileColor" content="#f5f5f5" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f5f5f5" />
+
+    <!-- Home screen icons -->
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <meta itemprop="image" content="./images/polygone-512.png" />
+    <meta name="msapplication-TileImage" content="./images/polygone-144-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./images/polygone-144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./images/polygone-152.png">
+
+    <!-- Other icons -->
+    <link rel="icon" type="image/png" href="./images/polygone-512.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/polygone-192.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./images/polygone-96.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/polygone-32-alt.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/polygone-16.png" />
+    <link rel="apple-touch-icon" href="./images/polygone-152.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./images/polygone-72.png">
+
+    <!-- Social sharing data -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Polygone Art - Free 3D Assets" />
+    <meta name="twitter:description" content="This is an archive of free CC-BY-licensed 3D assets salvaged from poly.google.com before the shut down on June 30th 2021." />
+    <meta name="twitter:site" content="polygone.art" />
+    <meta name="twitter:creator" content="akirodic" />
+    <meta name="twitter:image" content="https://polygone.art/images/polygone-512.png">
+    <meta name="twitter:image:alt" content="Polygone Art">
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Polygone Art - Free 3D Assets" />
+    <meta property="og:description" content="This is an archive of free CC-BY-licensed 3D assets salvaged from poly.google.com before the shut down on June 30th 2021." />
+    <meta property="og:image" content="https://polygone.art/images/polygone-512.png" />
+    <meta property="og:locale" content="en_US" />
+    <style>
+      html {
+        font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
+        width: 100%;
+        height: 100%;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+      io-main-page {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      io-notify {
+        display: none !important;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module">
+    import {Node, Options, Path} from "./components/iogui.js";
+    import {IoSelectorTabs, IoThemeSingleton, IoStorageFactory as $} from "./components/iogui.js";
+    import "./components/poly-gallery.js";
+    import "./components/poly-model-view.js";
+    import "./components/poly-icons.js";
+    import "./components/poly-artist-list.js";
+
+    import {$PAGE, $TYPE, $SIZE, $FILTER, $GUID} from './components/poly-state.js';
+
+    IoThemeSingleton.cssSpacing = 8;
+    IoThemeSingleton.cssFontSize = 15;
+    IoThemeSingleton.cssBorderRadius = 0;
+
+    const NAVIGATION_OPTIONS = new Options([
+      {label: 'About', value: 'about'},
+      {label: 'Catalog', value: 'catalog'},
+      {label: 'Artists', value: 'artists'},
+    ], {
+      path: new Path({string: $PAGE})
+    });
+
+    const TYPE_OPTIONS = new Options([
+      {label: 'All Models', value: 'all'},
+      {label: 'Tilt Brush', value: 'tilt'},
+      {label: '3D Mesh', value: '!tilt'}
+    ], {
+      path: new Path({string: $TYPE})
+    });
+
+    const SIZE_OPTIONS = new Options([
+      {label: 'X-Small', value: '32x32'},
+      {label: 'Small', value: '64x64'},
+      {label: 'Medium', value: '128x128'},
+      {label: 'Large', value: '256x256'},
+      {label: 'X-Large', value: '512x512'}
+    ], {
+      path: new Path({string: $SIZE})
+    });
+
+    const FILTER_OPTIONS = new Options([
+      {label: 'All', value: ''},
+      {label: 'animals', value: 'animals'},
+      {label: 'architecture', value: 'architecture'},
+      {label: 'art', value: 'art'},
+      {label: 'culture', value: 'culture'},
+      {label: 'food', value: 'food'},
+      {label: 'history', value: 'history'},
+      {label: 'nature', value: 'nature'},
+      {label: 'objects', value: 'objects'},
+      {label: 'people', value: 'people'},
+      {label: 'scenes', value: 'scenes'},
+      {label: 'science', value: 'science'},
+      {label: 'tech', value: 'tech'},
+      {label: 'transport', value: 'transport'},
+      {label: 'travel', value: 'travel'},
+    ], {
+      path: new Path({string: $FILTER})
+    });
+
+    export class IoMainPage extends IoSelectorTabs {
+      static get Style() {
+        return /* css */`
+          :host .catalog {
+            flex-direction: column;
+            display: flex;
+            flex: 1 1 auto;
+            overflow: hidden;
+          }
+          :host .catalog > io-option-menu {
+            display: block;
+          }
+          :host .catalog > .settings {
+            display: flex;
+            padding: var(--io-spacing);
+            position: relative;
+          }
+          :host .catalog > .settings io-option-menu {
+            padding: 0;
+            margin-right: var(--io-spacing);
+            width: 8em;
+          }
+          :host .filterInput {
+            padding-right:var(--io-item-height);
+            flex: 1 1 auto;
+          }
+          :host .filterInput:empty:before {
+            content: '\\1F50D';
+            white-space: pre;
+            padding: 0 0.25em;
+            visibility: visible;
+            opacity: 0.33;
+          }
+          :host .filterButton {
+            position: absolute;
+            right: var(--io-spacing);
+            margin: var(--io-border-width);
+            height: calc(var(--io-item-height) - var(--io-border-width)  - var(--io-border-width));
+          }
+          :host .sizeButton {
+            position: fixed;
+            top: 0;
+            right: 0;
+            margin: var(--io-border-width);
+            height: calc(var(--io-item-height) - var(--io-border-width)  - var(--io-border-width));
+          }
+          :host io-icon g {
+            fill: var(--io-color);
+          }
+        `
+      }
+      static get Properties() {
+        return {
+          role: 'main',
+          class: 'main',
+          cache: true,
+          horizontal: true,
+          options: NAVIGATION_OPTIONS,
+          selected: NAVIGATION_OPTIONS.path.bind('root'),
+          guid: $GUID,
+          elements: [
+            ['io-md-view', {name: 'about', path: './README.md'}],
+            ['div', {name: 'catalog', class: 'catalog'}, [
+              ['div', {class: 'settings'}, [
+                ['io-option-menu', {options: TYPE_OPTIONS, value: $TYPE.value}],
+                ['io-string', {class: 'filterInput', value: $FILTER, live: true}],
+                ['div', [
+                  ['io-button', {class: 'filterButton', label: '▾'}],
+                  ['io-context-menu', {options: FILTER_OPTIONS, value: $FILTER.value, position: 'bottom'}],
+                ]],
+                ['div', {class: 'sizeButton'}, [
+                  ['io-icon', {icon: 'poly:grid'}],
+                  ['io-context-menu', {options: SIZE_OPTIONS, value: $SIZE.value, position: 'bottom'}],
+                ]]
+              ]],
+              ['poly-gallery'],
+            ]],
+            ['poly-model-view', {name: 'model'}],
+            ['poly-artist-list', {name: 'artists'}],
+          ]
+        };
+      }
+      static get Listeners() {
+        return {
+          'thumbnail-clicked': 'onThumbnailClicked'
+        }
+      }
+      selectedChanged() {
+        super.selectedChanged();
+        // TODO: unhack. Fix ui-gui
+        if (this.selected === 'model') {
+          this.options[1].__properties.selected.value = false;
+          this.options[1].changed();
+        } else {
+          this.guid = '';
+        }
+      }
+      onThumbnailClicked(event) {
+        this.guid = event.detail;
+        $PAGE.value = 'model'
+      }
+    }
+    IoMainPage.Register();
+    </script>
+    <noscript>JavaScript is required to view this page!</noscript>
+    <io-main-page></io-main-page>
+  </body>
+</html>
