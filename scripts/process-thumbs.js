@@ -69,7 +69,6 @@ async function process() {
         }
       });
   }
-  console.log(i);
   console.log('Writing', THUMBS_CSV_FILENAME);
   await fs.writeFile(THUMBS_CSV_FILENAME, thumbs);
 }

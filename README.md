@@ -6,6 +6,6 @@ The goal of this project is to preserve the artwork and make it available to art
 
 This content is published under a [CC-BY License](https://creativecommons.org/licenses/by/4.0/). You're free to use this as long as you credit the author. [Learn more](https://support.google.com/poly/answer/7418679).
 
-This website does not use cookies and its [open-source](https://github.com/arodic/polygone.art).
+This website does not use cookies, it is open-source and hosted on [github](https://github.com/arodic/polygone.art).
 
 Torrent download links will be added here later. Please come back soon.

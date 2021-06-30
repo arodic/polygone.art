@@ -21,7 +21,7 @@ async function archiveModel(id, assetData) {
   assetData = JSON.parse(await fs.readFile(assetDataPath));
 
   for (let i = 0; i < assetData.formats.length; i++) {
-    const formatArchivePath = archivePath + `/${assetData.formats[i].formatType}.zip`;
+    const formatArchivePath = archivePath + `${assetData.formats[i].formatType}.zip`;
     const archiveExists = await fileOrFolderExists(path.resolve(formatArchivePath));
 
     if (!archiveExists) {

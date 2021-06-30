@@ -13,7 +13,7 @@ import { promisify } from "util";
 const pipeline = promisify(stream.pipeline);
 
 async function downloadModel(id, assetData) {
-  console.log('Downloading', id);
+  // console.log('Downloading', id);
   const assetPath = `../assets/${id}/`;
   const assetDataFilename = `${assetPath}data.json`;
   await createDirectory(assetDataFilename);
@@ -74,10 +74,9 @@ async function downloadAllModels() {
   console.log(`Downloading assets from assets.json`);
   const assets = JSON.parse(await fs.readFile(ASSETS_FILENAME));
   await createDirectory('assets');
-  // for (let key in assets) {
-  //   await downloadModel(key, assets[key]).catch(console.error);
-  // }
-  await downloadModel('0__Cm7bBPkh', assets['0__Cm7bBPkh']).catch(console.error);
+  for (let key in assets) {
+    await downloadModel(key, assets[key]).catch(console.error);
+  }
 }
 
 downloadAllModels().catch(console.error);
