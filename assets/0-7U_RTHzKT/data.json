@@ -1,0 +1,65 @@
+{
+    "name": "Jungle gym",
+    "description": "#playground",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T22:03:55.117249Z",
+    "updateTime": "2021-05-28T09:44:02.603640Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "playground"
+    ],
+    "likes": 18,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "JungleGym.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "JungleGym.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "JungleGym_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5376"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "JungleGym.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "JungleGym.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "JungleGym_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5376"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+    }
+}
