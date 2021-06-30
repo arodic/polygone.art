@@ -1,0 +1,61 @@
+{
+    "name": "edd",
+    "description": "ed edd n eddy gamecube model",
+    "authorId": "7tyY--f7CG7",
+    "authorName": "onix m",
+    "createTime": "2019-12-22T21:49:16.739854Z",
+    "updateTime": "2020-07-08T09:21:31.895340Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Edd/doubled.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Edd/doubled.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Edd/doubled.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1787"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "doubled.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "doubled.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Edd/doubled.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1787"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

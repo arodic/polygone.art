@@ -1,0 +1,60 @@
+{
+    "name": "Cat3d",
+    "authorId": "1dUlzn5jkOE",
+    "authorName": "Nanthachaphorn Pawakanan",
+    "createTime": "2019-07-15T12:35:54.004121Z",
+    "updateTime": "2020-09-23T09:27:25.466678Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Cat3d.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cat3d.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Cat3d.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "880"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Cat3d.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cat3d.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Cat3d.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "880"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

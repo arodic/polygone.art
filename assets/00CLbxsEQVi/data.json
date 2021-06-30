@@ -1,0 +1,63 @@
+{
+    "name": "Edge Tool",
+    "description": "VR art tool to assist in drawing lines along hard surface straight edges in VR art and animation programs like AnimVR. Best when used with a line tool",
+    "authorId": "0haFmgQ6r71",
+    "authorName": "Laddie Ervin",
+    "createTime": "2018-03-11T01:58:07.302901Z",
+    "updateTime": "2020-10-07T09:26:43.030941Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Edge Tool.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Edge_Tool.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "F:/VR Test/~VR Tools/Edge Tool/Edge Tool/Edge_ToolSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1600"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Edge Tool.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Edge Tool.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "F:/VR Test/~VR Tools/Edge Tool/Edge Tool/Edge_ToolSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1600"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

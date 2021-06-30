@@ -1,0 +1,60 @@
+{
+    "name": "Uttag",
+    "authorId": "aP5jO4Mbv8J",
+    "authorName": "Linus Jörgensen",
+    "createTime": "2019-06-17T11:57:11.192322Z",
+    "updateTime": "2020-02-25T19:51:39.776226Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "IMG_20190617_122619.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "IMG_20190617_122619.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Test.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "name": "1992 McLaren F1",
+    "description": "Used to be the fastest McLaren ever.",
+    "authorId": "bFnhZ6GuS2Z",
+    "authorName": "Mythreya X Upadrasta",
+    "createTime": "2020-09-21T00:17:14.794949Z",
+    "updateTime": "2020-09-24T09:33:01.530408Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SportsCar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "carFrontBits.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "SportsCar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "carBackBits.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carTire.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "111622"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "SportsCar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SportsCar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "carFrontBits.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carTire.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carBackBits.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "111622"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 4.329780281177466e-17,
+            "y": 0.7071067811865476,
+            "z": 0.7071067811865475,
+            "w": 4.329780281177467e-17
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}
