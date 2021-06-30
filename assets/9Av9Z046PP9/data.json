@@ -1,0 +1,63 @@
+{
+    "name": "TItle3DTest",
+    "description": "meh, didn't work",
+    "authorId": "1HCkO0xJkhX",
+    "authorName": "Derky Sprawl",
+    "createTime": "2018-10-18T08:50:02.398534Z",
+    "updateTime": "2020-08-15T10:03:28.301556Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cakesinspace.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cakesinspace.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Cakesinspace.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cakesinspace.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cakesinspace.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "cakesinspace.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

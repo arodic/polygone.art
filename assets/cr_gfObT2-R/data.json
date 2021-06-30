@@ -1,0 +1,66 @@
+{
+    "name": "Bar",
+    "description": "#house #building",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T16:39:44.569649Z",
+    "updateTime": "2021-05-23T12:57:53.581561Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "house",
+        "building"
+    ],
+    "likes": 48,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_BAR.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_BAR.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "barSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5274"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_BAR.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_BAR.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "barSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5274"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#dce775"
+    }
+}

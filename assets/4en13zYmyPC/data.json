@@ -1,0 +1,63 @@
+{
+    "name": "gothic arch",
+    "description": "wargaming terrain",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-07-22T17:26:35.140051Z",
+    "updateTime": "2020-09-26T09:42:33.483662Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gothic_arch_2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gothic_arch_2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "grmarble.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "43818"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "gothic_arch_2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "grmarble.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "gothic_arch_2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "43818"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

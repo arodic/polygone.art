@@ -1,0 +1,64 @@
+{
+    "name": "Rainbow Ball",
+    "description": "This rainbow ball has less than 1000 Triangles, should be just enough for a wave tunnel.\n#TheWaveVR",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-11-02T15:44:48.877878Z",
+    "updateTime": "2020-10-05T09:49:43.312513Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "TheWaveVR"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ramball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "basicrainbowrot.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ramball.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "988"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "ramball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ramball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "basicrainbowrot.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "988"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

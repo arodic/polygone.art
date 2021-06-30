@@ -1,0 +1,60 @@
+{
+    "name": "totc disky",
+    "authorId": "61x8MUkCOAm",
+    "authorName": "nate insolitum",
+    "createTime": "2020-11-22T19:18:55.845575Z",
+    "updateTime": "2020-11-22T19:28:23.965115Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "complexspanus.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "totcgrad.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "complexspanus.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4608"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "complexspanus.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "complexspanus.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "totcgrad.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4608"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

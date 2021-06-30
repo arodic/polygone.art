@@ -1,0 +1,54 @@
+{
+    "name": "pumpkin",
+    "authorId": "a2HqPbKd_7_",
+    "authorName": "Oli Fordham",
+    "createTime": "2018-10-17T16:33:36.170884Z",
+    "updateTime": "2020-10-06T09:44:07.768430Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pumpkin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pumpkin.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "912"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "pumpkin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pumpkin.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "912"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

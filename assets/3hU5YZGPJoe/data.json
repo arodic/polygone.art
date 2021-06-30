@@ -1,0 +1,55 @@
+{
+    "name": "ztest",
+    "description": "#test",
+    "authorId": "bCFZTmTxTfV",
+    "authorName": "zandria test",
+    "createTime": "2018-04-12T11:00:09.618473Z",
+    "updateTime": "2020-10-05T09:42:24.278884Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "test"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "intersection.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "intersection.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1518"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "intersection.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "intersection.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1518"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

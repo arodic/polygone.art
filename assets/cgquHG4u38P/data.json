@@ -1,0 +1,79 @@
+{
+    "name": "Park",
+    "description": "This is my first upload so i'm sorry its not that good it just something I put together.",
+    "authorId": "6yv_rnE6YJi",
+    "authorName": "Diceey",
+    "createTime": "2020-06-07T19:04:07.111425Z",
+    "updateTime": "2020-06-07T19:23:09.749422Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "900"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {},
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1896"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1896"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

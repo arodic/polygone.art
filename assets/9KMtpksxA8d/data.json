@@ -1,0 +1,61 @@
+{
+    "name": "Player",
+    "description": "From Mountain Ash Workshop",
+    "authorId": "fCDtq6KVXZ-",
+    "authorName": "Thomas Burmeister",
+    "createTime": "2020-02-24T15:59:57.610397Z",
+    "updateTime": "2020-06-08T10:01:26.594594Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "player.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "player.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BakedPlayer.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2030"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "player.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BakedPlayer.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "player.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2030"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

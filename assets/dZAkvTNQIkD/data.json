@@ -1,0 +1,59 @@
+{
+    "name": "Generic Male Model T-Pose",
+    "description": "generic male model from Adobe Fuse",
+    "authorId": "40Pj0YYcSOh",
+    "authorName": "Daniel Sierra",
+    "createTime": "2019-01-25T01:38:12.019511Z",
+    "updateTime": "2021-01-16T02:48:26.981266Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 15,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "AdobeFuseModelMale.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "AdobeFuseModelMale_Body_Specular.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "AdobeFuseModelMale.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30562"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "AdobeFuseModelMale.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "AdobeFuseModelMale.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30562"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#37474f"
+    }
+}

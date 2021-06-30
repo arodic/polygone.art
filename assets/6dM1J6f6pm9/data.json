@@ -1,0 +1,68 @@
+{
+    "name": "Cat",
+    "description": "#cat #feline #mammal #domestic",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-28T19:36:35.422074Z",
+    "updateTime": "2021-06-08T13:16:18.176778Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "cat",
+        "feline",
+        "mammal",
+        "domestic"
+    ],
+    "likes": 177,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Cat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Cat.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Cat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "594"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Cat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Cat.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Cat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "594"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#64b5f6"
+    }
+}

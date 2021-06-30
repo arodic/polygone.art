@@ -1,0 +1,79 @@
+{
+    "name": "Red Apple",
+    "description": "Apple",
+    "authorId": "8UmoLUWbQDV",
+    "authorName": "Timothy Walden",
+    "createTime": "2019-03-18T21:58:20.057441Z",
+    "updateTime": "2020-06-24T09:55:49.376001Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {},
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "533"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "533"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "408"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

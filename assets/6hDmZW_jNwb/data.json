@@ -1,0 +1,55 @@
+{
+    "name": "LCJH8218 鹿",
+    "description": "這是我出去玩得時候看到的動物，它很可愛，在草原上奔跑。",
+    "authorId": "cI7L4vjBPrB",
+    "authorName": "楊壹婷",
+    "createTime": "2018-06-22T06:49:39.063340Z",
+    "updateTime": "2020-08-20T09:55:29.842349Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tinker.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8038"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tinker.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tinker.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8038"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

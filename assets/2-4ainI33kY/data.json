@@ -1,0 +1,61 @@
+{
+    "name": "Peter",
+    "authorId": "5gyGPf9ERUP",
+    "authorName": "Artasia (Arts For All)",
+    "createTime": "2019-08-11T14:10:47.912455Z",
+    "updateTime": "2020-08-03T09:33:15.054573Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "peter.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "peter.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "239178"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "peter.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "peter.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "239178"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

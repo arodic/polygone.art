@@ -1,0 +1,69 @@
+{
+    "name": "good beverage",
+    "description": "it must be good",
+    "authorId": "dqU-AvRdfPc",
+    "authorName": "Tony Miller",
+    "createTime": "2020-09-29T01:05:46.694586Z",
+    "updateTime": "2020-09-29T09:49:33.621258Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "good_beverage.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "good_beverage.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "good-beverage.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "good-beverage_bg.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "444"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "good_beverage.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "good-beverage.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "good-beverage_bg.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "good_beverage.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "444"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

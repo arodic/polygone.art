@@ -1,0 +1,71 @@
+{
+    "name": "Laptop CAD",
+    "description": "Laptop con software CAD",
+    "authorId": "9l5RGip82Ts",
+    "authorName": "Alexander Aragón Chamorro",
+    "createTime": "2020-07-20T03:17:18.265046Z",
+    "updateTime": "2020-07-20T03:23:19.278657Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Laptop.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Laptop.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cad6e71d943.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "d2d5c60eee066053.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6851"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Laptop.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cad6e71d943.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "d2d5c60eee066053.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Laptop.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6851"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

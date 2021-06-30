@@ -1,0 +1,78 @@
+{
+    "name": "shuttle",
+    "authorId": "eT7yqUL1I8M",
+    "authorName": "Zebra Weg",
+    "createTime": "2018-12-13T12:02:34.244322Z",
+    "updateTime": "2020-02-25T20:00:28.686963Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {},
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "208"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "208"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "129"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "tiger",
+    "authorId": "7N5NZ8btI2p",
+    "authorName": "胡幼雯",
+    "createTime": "2020-10-13T07:24:15.678474Z",
+    "updateTime": "2020-10-13T07:47:26.005276Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tiger.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tiger.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16760"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tiger.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tiger.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16760"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

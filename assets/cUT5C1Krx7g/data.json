@@ -1,0 +1,72 @@
+{
+    "name": "Gear VR controller",
+    "description": "Samsung Gear VR controller",
+    "authorId": "5JLgtDEpY2w",
+    "authorName": "Luis González",
+    "createTime": "2017-08-02T16:41:52.082925Z",
+    "updateTime": "2021-03-16T07:19:20.584730Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated"
+    ],
+    "likes": 13,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "230"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "230"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "230"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#7e57c2"
+    }
+}

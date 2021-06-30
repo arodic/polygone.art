@@ -1,0 +1,64 @@
+{
+    "name": "Indoor Soccer Scene",
+    "description": "Scene built from 360 video using Walkabout Worlds software",
+    "authorId": "3FmNhpQce60",
+    "authorName": "Walk About",
+    "createTime": "2017-11-01T20:02:45.570036Z",
+    "updateTime": "2020-10-07T10:07:00.139883Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated"
+    ],
+    "likes": 30,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gym.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gym.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gym.obj.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14986"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "gym.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gym.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "gym.obj.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14986"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

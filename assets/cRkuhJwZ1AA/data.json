@@ -1,0 +1,55 @@
+{
+    "name": "Cherry",
+    "description": "Simple shape",
+    "authorId": "8bp1OkB_yYC",
+    "authorName": "Keiko Moonlight-Lullaby",
+    "createTime": "2017-11-05T14:45:35.823186Z",
+    "updateTime": "2020-09-26T10:16:32.127150Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cherry2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cherry2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9666"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cherry2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cherry2.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9666"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

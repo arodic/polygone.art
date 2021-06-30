@@ -1,0 +1,60 @@
+{
+    "name": "GB pizza_base",
+    "authorId": "avTdnbYBjTL",
+    "authorName": "András Kassai",
+    "createTime": "2019-11-02T17:05:09.476369Z",
+    "updateTime": "2020-06-07T09:47:22.136700Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pizza_base.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "pizza_base.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "192"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "pizza_base.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pizza_base.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "base.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "192"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

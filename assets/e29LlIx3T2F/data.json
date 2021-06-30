@@ -1,0 +1,64 @@
+{
+    "name": "Slice of pizza",
+    "description": "#food",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-12T00:57:37.079036Z",
+    "updateTime": "2021-06-14T21:16:03.504237Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated"
+    ],
+    "likes": 43,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "slice of pizza.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "slice of pizza.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "pizzaTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "122"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "slice of pizza.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "slice of pizza.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pizzaTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "122"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

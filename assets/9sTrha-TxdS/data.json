@@ -1,0 +1,68 @@
+{
+    "name": "Bison",
+    "description": "#brown #plains #animal #mammal",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T16:27:47.164049Z",
+    "updateTime": "2021-06-16T12:41:25.941427Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "brown",
+        "plains",
+        "animal",
+        "mammal"
+    ],
+    "likes": 61,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BisonPlains.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BisonPlains.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BisonPlains_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1494"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "BisonPlains.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BisonPlains.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "BisonPlains_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1494"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4caf50"
+    }
+}

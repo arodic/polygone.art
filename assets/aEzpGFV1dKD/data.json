@@ -1,0 +1,61 @@
+{
+    "name": "OBJ Lighthouse Blend Prod",
+    "description": "OBJ Lighthouse Blend Prod",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-11-30T17:57:43.778542Z",
+    "updateTime": "2020-09-14T10:09:49.897713Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "blender_export.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "blender_export.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4684"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "blender_export.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "blender_export.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4684"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

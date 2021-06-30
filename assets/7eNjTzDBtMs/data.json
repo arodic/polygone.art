@@ -1,0 +1,78 @@
+{
+    "name": "kidney",
+    "authorId": "8aBe79gJW3J",
+    "authorName": "John Heibel",
+    "createTime": "2019-05-17T00:18:25.329874Z",
+    "updateTime": "2020-02-25T21:12:40.088443Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {},
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "192"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "170"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "192"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

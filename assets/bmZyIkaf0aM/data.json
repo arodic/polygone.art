@@ -1,0 +1,55 @@
+{
+    "name": "fcat pyramid",
+    "description": "test object",
+    "authorId": "6Np9rVbtxlD",
+    "authorName": "James Kaczynski",
+    "createTime": "2019-11-29T01:50:27.357710Z",
+    "updateTime": "2020-09-28T10:13:35.382657Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "thing.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "thing.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18584"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "thing.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "thing.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18584"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

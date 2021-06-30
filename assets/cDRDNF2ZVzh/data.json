@@ -1,0 +1,71 @@
+{
+    "name": "boxtestMindshowtexturealigned",
+    "description": "I noticed I put the textures on wall were the wrong way on last test model so I corrected it.",
+    "authorId": "dJ4wwo8Eqlj",
+    "authorName": "ben feltham",
+    "createTime": "2018-05-04T06:20:10.088258Z",
+    "updateTime": "2020-10-06T10:16:29.282454Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "backgroundboxtesting.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "backgroundboxtesting.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "woodfloor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "woodwalls.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "backgroundboxtesting.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "backgroundboxtesting.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "woodfloor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "woodwalls.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

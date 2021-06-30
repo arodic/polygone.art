@@ -1,0 +1,64 @@
+{
+    "name": "single shell",
+    "description": "wargaming terrain",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-05T06:37:29.907191Z",
+    "updateTime": "2021-05-31T11:27:26.670788Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "single shell.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "single shell.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "obus tete jaune.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "756"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "single shell.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "single shell.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "obus tete jaune.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "756"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

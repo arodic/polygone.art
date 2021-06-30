@@ -1,0 +1,63 @@
+{
+    "name": "Leaf 2",
+    "description": "Another 3D scanned leaf.",
+    "authorId": "2VV4f3bozG0",
+    "authorName": "Hendrik Bartusch",
+    "createTime": "2020-01-03T20:37:43.659816Z",
+    "updateTime": "2020-09-15T10:04:14.948309Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "blatt2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "blatt.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "blatt2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "570"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "blatt2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "blatt2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "blatt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "570"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#286363"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "planet – matlab export  demo",
+    "description": "Demo export of triangular meshes from MATLAB.\ndemonstrating the export of vertex colours in obj\n\nMeshes were exported using:\nhttps://www.mathworks.com/matlabcentral/fileexchange/72906-save-wavefront-obj-files-simple-or-colour?s_tid=prof_contriblnk\n\nafter they were built using:\nhttps://www.mathworks.com/matlabcentral/fileexchange/75241-build-mesh-or-voxel-spheres-ellipsoids-and-test-objects?s_tid=prof_contriblnk",
+    "authorId": "0T75Gh_kC18",
+    "authorName": "benny kacerovsky",
+    "createTime": "2020-06-15T08:27:25.108217Z",
+    "updateTime": "2020-10-07T09:55:53.124827Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "demo2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "demo2.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "229648"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "demo2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "demo2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "229648"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

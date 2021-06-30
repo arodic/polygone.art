@@ -1,0 +1,60 @@
+{
+    "name": "mettaur",
+    "authorId": "3zDhvy_UTwR",
+    "authorName": "SHRIMP NOODLES ANIMATION",
+    "createTime": "2019-06-02T04:28:05.963176Z",
+    "updateTime": "2020-02-25T20:36:17.392893Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Met.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Met.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "42252"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Met.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Met.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "42252"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

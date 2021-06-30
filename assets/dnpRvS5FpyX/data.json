@@ -1,0 +1,54 @@
+{
+    "name": "Miniature Golf Course",
+    "description": "This is my miniature golf course I made in IDW Introduction to Engineering Design class",
+    "authorId": "182hsUZLk-s",
+    "authorName": "Angelina Jerantowski",
+    "createTime": "2019-05-11T23:20:20.373718Z",
+    "updateTime": "2020-07-15T10:19:14.338043Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "golf assembly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "golf assembly.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4898"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "golf assembly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "golf assembly.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4898"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

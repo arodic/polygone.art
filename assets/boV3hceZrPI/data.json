@@ -1,0 +1,55 @@
+{
+    "name": "sample crane",
+    "description": "a little tower crane",
+    "authorId": "8N9-V7vcH3d",
+    "authorName": "william water",
+    "createTime": "2019-08-27T03:00:08.490738Z",
+    "updateTime": "2020-02-25T22:09:25.247339Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "crane.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "crane.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "76"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "crane.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "crane.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "76"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Horse",
+    "description": "#horse #stallion #equine #colt",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-28T19:33:33.821801Z",
+    "updateTime": "2021-06-08T10:10:21.501666Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "horse",
+        "stallion",
+        "equine",
+        "colt"
+    ],
+    "likes": 14,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Horse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Horse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Horse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "722"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Horse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Horse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Horse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "722"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

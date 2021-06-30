@@ -1,0 +1,62 @@
+{
+    "name": "pile01c_250k8k",
+    "authorId": "8IPU9hNNnCL",
+    "authorName": "Oodelay",
+    "createTime": "2019-10-20T07:25:17.266305Z",
+    "updateTime": "2020-02-25T21:03:01.584551Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Pile01b_simplified_3d_mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Pile01b_simplified_3d_mesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Pile01b_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "250000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Pile01b_simplified_3d_mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Pile01b_simplified_3d_mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Pile01b_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "250000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

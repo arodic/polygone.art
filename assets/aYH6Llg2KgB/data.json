@@ -1,0 +1,52 @@
+{
+    "name": "My left brain hemisphere",
+    "description": "This is a mesh of my left brain hemisphere, based on a High Res MRI scan and some processes to extract the cortical surface. ",
+    "authorId": "10LP1vqqeaN",
+    "authorName": "Thomas Jubault",
+    "createTime": "2017-11-01T19:13:28.957088Z",
+    "updateTime": "2020-10-02T10:13:39.913933Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 16,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lh.pial.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "284908"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "lh.pial.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lh.pial.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "284908"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.5000000000000003,
+            "y": -0.49999999999999967,
+            "z": -0.4999999999999999,
+            "w": -0.5000000000000002
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f57f17"
+    }
+}

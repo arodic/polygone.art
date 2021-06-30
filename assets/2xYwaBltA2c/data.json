@@ -1,0 +1,80 @@
+{
+    "name": "Great white shark",
+    "description": "Taken from the deep sea.",
+    "authorId": "3ljk79p0Ei6",
+    "authorName": "Rémy Tauziac (crazyrems)",
+    "createTime": "2018-08-15T20:11:01.667726Z",
+    "updateTime": "2021-06-07T11:19:28.886682Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 14,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {},
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "546"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "546"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "509"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#01579b"
+    }
+}

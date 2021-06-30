@@ -1,0 +1,54 @@
+{
+    "name": "mountaintest",
+    "description": "check",
+    "authorId": "7su79tuV1jp",
+    "authorName": "Hans Mortelmans",
+    "createTime": "2019-05-09T13:29:02.751316Z",
+    "updateTime": "2020-06-23T09:53:23.322982Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mountain_polyreduce.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mountain_polyreduce.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "536"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mountain_polyreduce.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mountain_polyreduce.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "536"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

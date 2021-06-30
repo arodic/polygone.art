@@ -1,0 +1,53 @@
+{
+    "name": "Moon",
+    "description": "an ice moon that has either  had an meteor hit or been shot with a weapon .",
+    "authorId": "07ii1gSnFI3",
+    "authorName": "Veronicca Lakewood",
+    "createTime": "2020-10-20T07:48:37.606276Z",
+    "updateTime": "2020-11-15T09:19:13.661566Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "moon.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "moon.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "234299"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "moon.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "moon.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "234299"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

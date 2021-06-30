@@ -1,0 +1,68 @@
+{
+    "name": "Triface",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-13T13:42:00.465354Z",
+    "updateTime": "2020-10-06T10:26:40.234907Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "triface.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "greengridecit.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "stengel.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "triface.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "29410"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "triface.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "triface.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "greengridecit.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "stengel.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "29410"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

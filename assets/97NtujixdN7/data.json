@@ -1,0 +1,75 @@
+{
+    "name": "Frog",
+    "description": "#amphibian #toad #croak #pond\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:50:39.546576Z",
+    "updateTime": "2021-06-02T02:10:35.297447Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated",
+        "amphibian",
+        "toad",
+        "croak",
+        "pond"
+    ],
+    "likes": 15,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "frog.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "frog.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "frogEyeTxt.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "frogBodyTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2176"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "frog.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "frog.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "frogBodyTxt.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "frogEyeTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2176"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

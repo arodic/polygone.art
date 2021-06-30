@@ -1,0 +1,55 @@
+{
+    "name": "Snow Man",
+    "description": "snow man",
+    "authorId": "fMwAXq3PSow",
+    "authorName": "7thString",
+    "createTime": "2020-08-22T00:25:34.243046Z",
+    "updateTime": "2020-08-22T00:34:01.197429Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "snow_ma.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "snow_ma.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "207642"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "snow_ma.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "snow_ma.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "207642"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

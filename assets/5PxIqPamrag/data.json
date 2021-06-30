@@ -1,0 +1,63 @@
+{
+    "name": "Jellyfish",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T00:11:24.795156Z",
+    "updateTime": "2021-06-06T09:47:49.468305Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 15,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Jellyfish.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Jellyfish.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Jellyfish.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "432"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Jellyfish.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Jellyfish.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Jellyfish.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "432"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Oscar glossy",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-20T11:05:44.408461Z",
+    "updateTime": "2020-10-04T10:02:25.659312Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "oscar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "yellowsteel1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "oscar.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64901"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "oscar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "oscar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "yellowsteel1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64901"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.7071067811865477,
+            "w": -0.7071067811865474
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

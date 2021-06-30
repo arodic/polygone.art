@@ -1,0 +1,46 @@
+{
+    "name": "experiment",
+    "authorId": "3qnC2wzK5Zm",
+    "authorName": "Louis Netter",
+    "createTime": "2018-05-11T09:35:21.783387Z",
+    "updateTime": "2020-09-02T10:10:02.997611Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "25650"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

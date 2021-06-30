@@ -1,0 +1,63 @@
+{
+    "name": "WallArt 14 4by3",
+    "description": "WallArt 14 4by3",
+    "authorId": "aBUEszOyrle",
+    "authorName": "G-Dub",
+    "createTime": "2020-03-07T22:16:07.675390Z",
+    "updateTime": "2020-10-04T10:13:52.033412Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poster.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "poster.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "poster.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

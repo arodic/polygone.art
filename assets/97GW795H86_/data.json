@@ -1,0 +1,61 @@
+{
+    "name": "SXFART1",
+    "description": "SXFART1",
+    "authorId": "d_thHAOWxi0",
+    "authorName": "Daniel Smi",
+    "createTime": "2018-08-22T22:49:14.456096Z",
+    "updateTime": "2020-02-25T21:31:28.510761Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "skybox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "wooden-restaurant-2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "skybox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "wooden-restaurant-2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "skybox.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

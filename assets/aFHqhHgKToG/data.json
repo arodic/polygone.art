@@ -1,0 +1,55 @@
+{
+    "name": "test_upload_from_sketchfab",
+    "description": "test upload included mtl and obj",
+    "authorId": "1a-shgZ9GTt",
+    "authorName": "Jimmy F",
+    "createTime": "2018-07-09T18:56:21.658510Z",
+    "updateTime": "2020-10-07T10:13:15.002389Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "StroodleDoodleApp_22.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "StroodleDoodleApp_22.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2704"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "StroodleDoodleApp_22.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "StroodleDoodleApp_22.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2704"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Cone",
+    "authorId": "fgYaKYMQpQy",
+    "authorName": "Alexandre Poirier",
+    "createTime": "2018-07-13T07:53:22.392369Z",
+    "updateTime": "2020-09-24T10:05:16.779072Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cone2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cone2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cone2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cone2.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

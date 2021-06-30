@@ -1,0 +1,70 @@
+{
+    "name": "Mask",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-03-26T03:38:45.822856Z",
+    "updateTime": "2021-06-03T19:09:45.615570Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "phantom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "phantom.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "phantom_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5608"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "phantom.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "phantom.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "phantom_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "phantom_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5608"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.4999999999999999,
+            "y": 0.5,
+            "z": 0.5,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

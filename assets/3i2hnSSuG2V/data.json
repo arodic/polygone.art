@@ -1,0 +1,77 @@
+{
+    "name": "Wallmodul optimized",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-12-10T09:08:09.963346Z",
+    "updateTime": "2021-01-19T01:31:32.195925Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wallmodul-opt.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wallmodul-opt.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "wall-texture.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tarmac.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ridge.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "900"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "wallmodul-opt.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tarmac.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "wallmodul-opt.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ridge.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "wall-texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "900"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

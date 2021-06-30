@@ -1,0 +1,55 @@
+{
+    "name": "RigModels.com",
+    "description": "3d search engine",
+    "authorId": "8cxj_CjYQ9Q",
+    "authorName": "Rig Models",
+    "createTime": "2020-12-04T13:27:21.886397Z",
+    "updateTime": "2020-12-04T13:34:21.043586Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "RigModels.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "RigModels.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1394"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "RigModels.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "RigModels.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1394"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

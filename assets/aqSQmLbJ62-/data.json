@@ -1,0 +1,64 @@
+{
+    "name": "Spike Clam",
+    "description": "MultiVerse Specimen Kepler-17a: Spike Clam \n\nA 3D fractal shape created with mandelbulb 3D and ZBrush.",
+    "authorId": "eND1LxQUhNO",
+    "authorName": "Don Whitaker",
+    "createTime": "2017-12-01T10:59:44.357153Z",
+    "updateTime": "2020-04-14T20:19:44.009293Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Painting.OBJ",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Painting.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Painting.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4982"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Painting.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Painting.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Painting.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4982"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865477,
+            "w": -0.7071067811865474
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#263238"
+    }
+}

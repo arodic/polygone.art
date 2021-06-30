@@ -1,0 +1,71 @@
+{
+    "name": "Mirror Portrait",
+    "authorId": "asEoHS0qATy",
+    "authorName": "Dmitry Vrubel",
+    "createTime": "2017-12-13T19:04:21.294360Z",
+    "updateTime": "2020-10-02T09:32:04.141335Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "EVEREST_1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "EVEREST_1.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "EVEREST_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "EVEREST_1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "EVEREST_1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "EVEREST_1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Deltek",
+    "authorId": "01JWJCHgU6B",
+    "authorName": "Elyza Anne (Ely)",
+    "createTime": "2019-04-13T07:41:28.064531Z",
+    "updateTime": "2020-09-26T10:22:35.026702Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "deltek-v4.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "deltek-v4.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "45801"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "deltek-v4.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "deltek-v4.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "45801"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "name": "Sandcastle",
+    "description": "#sand #toy #building",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T20:59:17.632999Z",
+    "updateTime": "2021-06-02T23:18:57.867013Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "sand",
+        "toy",
+        "building"
+    ],
+    "likes": 104,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SandCastle.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SandCastle.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SandCastle_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2692"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "SandCastle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SandCastle.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SandCastle_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2692"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fff176"
+    }
+}

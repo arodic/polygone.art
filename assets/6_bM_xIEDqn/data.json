@@ -1,0 +1,50 @@
+{
+    "name": "The Best Bow",
+    "description": "*twang!*",
+    "authorId": "0fqgxB_NIFM",
+    "authorName": "Cashel H",
+    "createTime": "2019-06-19T15:05:29.993482Z",
+    "updateTime": "2020-05-10T09:51:41.487981Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bow.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "bow.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#212121"
+    }
+}

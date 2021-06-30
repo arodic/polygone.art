@@ -1,0 +1,67 @@
+{
+    "name": "Kangaroo",
+    "description": "#wildlife #australia #marsupial",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-27T20:51:12.054214Z",
+    "updateTime": "2021-06-08T10:01:20.876819Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "wildlife",
+        "australia",
+        "marsupial"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Kangaroo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Kangaroo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Kangaroo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "760"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Kangaroo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Kangaroo.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Kangaroo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "760"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

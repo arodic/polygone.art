@@ -1,0 +1,62 @@
+{
+    "name": "GAC COLLECTION TEST",
+    "authorId": "a-3bsTeSlK6",
+    "authorName": "MIA ART COLLECTION",
+    "createTime": "2020-03-26T03:10:11.555275Z",
+    "updateTime": "2020-03-27T10:43:51.063961Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "artwork_T.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "artwork_T.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Brushed_02.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6820"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "artwork_T.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "artwork_T.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Brushed_02.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6820"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

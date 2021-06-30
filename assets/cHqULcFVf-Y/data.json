@@ -1,0 +1,75 @@
+{
+    "name": "BUSTER SWORD GRIMECRAFT",
+    "description": "bust it up",
+    "authorId": "2JAhLwI7G3t",
+    "authorName": "Clarke Nordhauser (GRIMECRAFT)",
+    "createTime": "2019-02-20T06:11:43.140254Z",
+    "updateTime": "2021-03-22T19:23:20.621613Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bustertest.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "Blade_albedo.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Blade_metallic.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Blade_normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Blade_roughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bustertest.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16008"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Blade_albedo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16008"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

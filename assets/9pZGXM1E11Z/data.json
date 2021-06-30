@@ -1,0 +1,64 @@
+{
+    "name": "Rainbow Tube Test",
+    "description": "A textured rainbow tube made in blenderto be used in #TheWaveVR as a scroller",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-01-09T18:38:51.403230Z",
+    "updateTime": "2020-10-03T10:07:57.967364Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "TheWaveVR"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rainbow tube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rainbow tube.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "basicrainbow.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1344"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rainbow tube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rainbow tube.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "basicrainbow.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1344"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

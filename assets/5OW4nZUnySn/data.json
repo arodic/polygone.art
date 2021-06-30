@@ -1,0 +1,55 @@
+{
+    "name": "vvr2",
+    "description": "work!",
+    "authorId": "7gtWq32lldE",
+    "authorName": "cloudy fire",
+    "createTime": "2018-06-29T21:23:58.525859Z",
+    "updateTime": "2020-02-25T20:43:58.973192Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "first file --vr--.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "first file --vr--.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3168"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "first file --vr--.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "first file --vr--.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3168"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

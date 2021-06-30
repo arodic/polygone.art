@@ -1,0 +1,50 @@
+{
+    "name": "3D Dublin City Model tile",
+    "description": "This 3D Dublin model represents 500 x 500 meters of the city, available as a sample of a larger 12.25 km2 AccuCities digital 3D city model.\nDownload in CAD or FBX for free from \nhttps://www.accucities.com/product/free-3d-dublin-city-model-sample/",
+    "authorId": "5H4eR5QFE59",
+    "authorName": "Michal Konicek",
+    "createTime": "2020-05-08T19:50:38.192733Z",
+    "updateTime": "2021-05-10T17:27:00.381582Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "264088"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Dublin_Level_3_Sample_ZERO.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {
+                "triangleCount": "264088"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

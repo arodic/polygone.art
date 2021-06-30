@@ -1,0 +1,53 @@
+{
+    "name": "poliovirus protomer",
+    "description": "colored by chain",
+    "authorId": "5tssF9YcoNC",
+    "authorName": "Arthur Olson",
+    "createTime": "2020-10-07T23:13:42.827988Z",
+    "updateTime": "2020-10-07T23:22:39.999174Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "polio-sub.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "polio-sub.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7008"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "polio-sub.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "polio-sub.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7008"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

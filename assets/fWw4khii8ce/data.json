@@ -1,0 +1,64 @@
+{
+    "name": "firecube1",
+    "description": "lv25\n#lv25",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-04-27T22:40:54.226890Z",
+    "updateTime": "2020-10-04T10:35:10.427015Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture",
+        "lv25"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "firewoodcube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "firewoodcube.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BurnedWood_emissive.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "firewoodcube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BurnedWood_emissive.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "firewoodcube.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

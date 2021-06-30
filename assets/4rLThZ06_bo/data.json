@@ -1,0 +1,57 @@
+{
+    "name": "ROBOT",
+    "description": "Blender",
+    "authorId": "9q7Ql4XtoxT",
+    "authorName": "Andreas Korn",
+    "createTime": "2020-10-30T08:54:51.199745Z",
+    "updateTime": "2020-10-30T09:04:48.985815Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Robot3_OBJ_1001_NormalOpenGL.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Robot3_OBJ_1001_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "116433"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Robot_3c_exp_Poly__FBX.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {
+                "triangleCount": "116433"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

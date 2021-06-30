@@ -1,0 +1,64 @@
+{
+    "name": "Duck of Liberty scan by Qlone",
+    "description": "A rubber duck in the form of the statue of liberty, scanned with the Qlone app:\nwww.qlone.pro",
+    "authorId": "0ufeUD0_PwI",
+    "authorName": "Ronen Horovitz",
+    "createTime": "2017-11-27T15:47:02.753019Z",
+    "updateTime": "2020-10-06T10:36:25.763992Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_Duck of liberty_20171127_162459987.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "94328"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model_Duck of liberty_20171127_162459987.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_Duck of liberty_20171127_162459987.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "94328"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

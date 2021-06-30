@@ -1,0 +1,62 @@
+{
+    "name": "ArmAnimate #FV1",
+    "authorId": "01O5AGZco7f",
+    "authorName": "Fragmastre TV",
+    "createTime": "2020-07-01T22:03:08.937438Z",
+    "updateTime": "2020-07-30T10:22:14.795658Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "animate1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "1200px-Rainbow-gradient-fully-saturated-diagonal.svg.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "animate1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "80"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "animate1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "animate1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1200px-Rainbow-gradient-fully-saturated-diagonal.svg.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "80"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

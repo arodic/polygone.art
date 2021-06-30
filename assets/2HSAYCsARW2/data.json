@@ -1,0 +1,60 @@
+{
+    "name": "Maestro Cristian",
+    "authorId": "7zlNendEN4o",
+    "authorName": "CRISTIAN MARTINEZ BAUTISTA",
+    "createTime": "2020-06-01T23:57:36.931191Z",
+    "updateTime": "2020-06-02T09:38:05.978474Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "shifu.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "shifu.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "shifu.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "shifu.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "shifu.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "shifu.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

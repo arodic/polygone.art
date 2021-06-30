@@ -1,0 +1,60 @@
+{
+    "name": "sff_general_banner",
+    "authorId": "2zH1M2YtE8z",
+    "authorName": "Idea Ink",
+    "createTime": "2018-11-12T07:32:50.734445Z",
+    "updateTime": "2020-02-25T20:39:33.811754Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "general.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "general.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "generaltex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "general.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "generaltex.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "general.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

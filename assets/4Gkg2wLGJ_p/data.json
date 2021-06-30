@@ -1,0 +1,68 @@
+{
+    "name": "Dolphin",
+    "description": "#underwater #sea #ocean #porpoise",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-29T02:14:36.428872Z",
+    "updateTime": "2021-06-08T10:34:18.085080Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "underwater",
+        "sea",
+        "ocean",
+        "porpoise"
+    ],
+    "likes": 109,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Dolphin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Dolphin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Dolphin_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "654"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Dolphin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Dolphin.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Dolphin_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "654"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#78909c"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "sm club stage adjusted",
+    "description": "Stage height lowered",
+    "authorId": "bhj3O4zat8d",
+    "authorName": "Ross B",
+    "createTime": "2019-06-11T22:22:56.762770Z",
+    "updateTime": "2020-09-27T10:04:37.091776Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "smclub.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "smclub.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "144"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "smclub.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "smclub.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "144"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

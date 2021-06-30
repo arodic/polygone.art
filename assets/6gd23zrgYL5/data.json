@@ -1,0 +1,60 @@
+{
+    "name": "sff_aifinance_banner",
+    "authorId": "2zH1M2YtE8z",
+    "authorName": "Idea Ink",
+    "createTime": "2018-11-12T07:38:42.405918Z",
+    "updateTime": "2020-09-29T09:55:11.963369Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "aifinance.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "aifinance.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "aifinancetex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "aifinance.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "aifinancetex.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "aifinance.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

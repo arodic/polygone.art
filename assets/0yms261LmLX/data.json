@@ -1,0 +1,64 @@
+{
+    "name": "Tree",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-03-16T07:22:31.702269Z",
+    "updateTime": "2020-10-03T09:29:21.795753Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "paintedtree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "paintedtree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "paintedtree_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "75000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "paintedtree.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "paintedtree.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "paintedtree_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "paintedtree_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "75000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

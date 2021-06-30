@@ -1,0 +1,72 @@
+{
+    "name": "musicbake",
+    "description": "lv22\n#lv22",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-02-01T07:37:15.473160Z",
+    "updateTime": "2020-05-25T20:48:29.970515Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "lv22"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "musicbake.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "MagicTriangloidStone_basecolor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MagicTriangloidStone_emissive.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MagicTriangloidStone_metallic.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "musicbake.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "246016"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "musicbake.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "musicbake.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "MagicTriangloidStone_basecolor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "246016"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "lasergreenspinner",
+    "description": "lv9\n#lv9",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2019-03-05T00:11:56.662135Z",
+    "updateTime": "2020-10-04T10:28:10.908263Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "lv9"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Laserspin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Laserspin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "laser-3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1080"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Laserspin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "laser-3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Laserspin.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1080"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "sars spike-reduced",
+    "description": "colored by subunit",
+    "authorId": "5tssF9YcoNC",
+    "authorName": "Arthur Olson",
+    "createTime": "2020-10-01T18:29:03.173998Z",
+    "updateTime": "2020-10-01T18:37:07.217723Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "spike1-reduced.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "spike1-reduced.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "spike1-wrl-to_tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "spike1-reduced.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "spike1-reduced.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "spike1-wrl-to_tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "headphones",
+    "description": "made with Gravity Sketch tutorial",
+    "authorId": "05SylwG57HZ",
+    "authorName": "Irvin Hwang",
+    "createTime": "2020-11-18T02:16:42.565542Z",
+    "updateTime": "2020-11-18T02:24:46.669333Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "headphones.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "headphones.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "33604"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "headphones.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "headphones.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "33604"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

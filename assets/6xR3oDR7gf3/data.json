@@ -1,0 +1,63 @@
+{
+    "name": "Pot à anse",
+    "description": "Pot à anse découvert dans Nécropole du Piol de Cimiez, avenue des Arènes en1958. \nFouilles Rigoir.",
+    "authorId": "6Rjxsb4SCr0",
+    "authorName": "Musée d'Archéologie de Nice / Cimiez",
+    "createTime": "2020-05-14T07:16:19.634082Z",
+    "updateTime": "2020-10-05T09:56:39.875308Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pot-à-anse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pot-à-anse.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "pot-à-anse.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1308485"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "pot-à-anse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pot-à-anse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pot-à-anse.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1308485"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

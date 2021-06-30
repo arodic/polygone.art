@@ -1,0 +1,69 @@
+{
+    "name": "Bobcat",
+    "description": "#cat #bobcat #lynx #predator #bigcat",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-28T19:04:10.261121Z",
+    "updateTime": "2021-06-08T10:09:46.851835Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "cat",
+        "bobcat",
+        "lynx",
+        "predator",
+        "bigcat"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Bobcat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Bobcat.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Bobcat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "666"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Bobcat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Bobcat.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Bobcat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "666"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

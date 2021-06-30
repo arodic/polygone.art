@@ -1,0 +1,49 @@
+{
+    "name": "fy_iceworld",
+    "description": "export of fy_iceworld.bsp with Crafty 1.0.2, with func_buyzone model deleted for cleaner presentation\n\noriginal map by Fantasy",
+    "authorId": "c_uLLmGLKLq",
+    "authorName": "Robert Yang",
+    "createTime": "2020-04-10T18:41:14.617184Z",
+    "updateTime": "2020-10-05T09:31:08.027589Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fy_iceworld.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fy_iceworld.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "613"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "fy_iceworld.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "613"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#21272e"
+    }
+}

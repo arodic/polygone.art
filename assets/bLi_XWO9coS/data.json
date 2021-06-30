@@ -1,0 +1,74 @@
+{
+    "name": "mushroom",
+    "authorId": "9GD3-NEn3PG",
+    "authorName": "Phillip Layford",
+    "createTime": "2018-11-09T01:42:58.475865Z",
+    "updateTime": "2020-08-25T10:12:01.045141Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "thumbnail.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model.obj",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model-triangulated.obj",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model.gltf",
+                    "contentType": "model/gltf+json"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "218"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "218"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

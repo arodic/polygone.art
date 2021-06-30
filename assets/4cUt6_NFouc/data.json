@@ -1,0 +1,71 @@
+{
+    "name": "cyberpunk girl",
+    "description": "cyberpunk",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-08T23:08:19.162044Z",
+    "updateTime": "2021-05-30T06:06:31.369678Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 57,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cyberpunk.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cyberpunk.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "phong1_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "phong2_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16062"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cyberpunk.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "phong2_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "cyberpunk.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "phong1_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16062"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#80cbc4"
+    }
+}

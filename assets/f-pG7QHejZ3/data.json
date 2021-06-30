@@ -1,0 +1,54 @@
+{
+    "name": "Juego Silla Voladora",
+    "authorId": "5JxGDRkVF7-",
+    "authorName": "Eliza González Sánchez",
+    "createTime": "2019-12-14T07:47:31.906450Z",
+    "updateTime": "2021-05-03T23:04:12.039538Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "silla.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "silla.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13740"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "silla.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "silla.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13740"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#5c9aab"
+    }
+}

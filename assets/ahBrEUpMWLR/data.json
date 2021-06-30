@@ -1,0 +1,61 @@
+{
+    "name": "Mario ch st mat2 01 P",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2019-04-01T20:56:54.019646Z",
+    "updateTime": "2020-02-25T21:52:46.215216Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mario_obj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mario_obj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "marioD.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "145536"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mario_obj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mario_obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "marioD.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "145536"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffc107"
+    }
+}

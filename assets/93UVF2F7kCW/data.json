@@ -1,0 +1,55 @@
+{
+    "name": "3D Model Test",
+    "description": "3ds max model\nObj+tex\nLow Poys test 1st",
+    "authorId": "4KnvRD37VqZ",
+    "authorName": "Su Thong",
+    "createTime": "2018-11-07T15:29:23.655032Z",
+    "updateTime": "2020-09-29T10:04:13.993648Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ShoesUpload.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ShoesUpload.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6996"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ShoesUpload.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ShoesUpload.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6996"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Blender Character",
+    "description": "UnRiggen",
+    "authorId": "8j2EGsiY5xd",
+    "authorName": "VinceBlok",
+    "createTime": "2020-11-17T08:45:02.914459Z",
+    "updateTime": "2020-11-17T08:54:08.805664Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "papi.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "papi.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "papi_Laag_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "344382"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "papi.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "papi.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "papi_Laag_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "344382"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

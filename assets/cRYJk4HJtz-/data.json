@@ -1,0 +1,63 @@
+{
+    "name": "spirit2",
+    "description": "Alpine Sampling phase1",
+    "authorId": "cjUiv8DCWJj",
+    "authorName": "Peter Marius Jensen",
+    "createTime": "2020-10-20T16:46:20.362246Z",
+    "updateTime": "2020-10-20T16:54:27.209581Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "spirit.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "spirit.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "spirit01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10959"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "spirit.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "spirit01.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "spirit.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10959"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "name": "Engine FBX Prod",
+    "description": "Engine FBX Prod",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-11-02T14:54:56.597538Z",
+    "updateTime": "2020-06-05T09:56:07.572398Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "316_Valves_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "316_Valves_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "316_Valves_LODa_0.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "316_Valves_LODa.fplmesh",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "316_Valves_LODa_1.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "316_Valves_R.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28855"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "316_Valves_R.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "316_Valves_N.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28855"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4caf50"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "GS in 3D",
+    "authorId": "08d1hz1smuB",
+    "authorName": "Ari Fadyl",
+    "createTime": "2018-07-02T06:32:46.304400Z",
+    "updateTime": "2020-08-30T09:36:13.537053Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19532"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "mesh.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19532"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -1,
+            "y": 2.220446049250313e-16,
+            "z": -2.220446049250313e-16,
+            "w": 4.930380657631324e-32
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

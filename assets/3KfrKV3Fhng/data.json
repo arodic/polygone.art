@@ -1,0 +1,56 @@
+{
+    "name": "Bubble Cloud",
+    "description": "Built in 3ds Max for an upcoming Tilt Brush project",
+    "authorId": "fa4m5c69h51",
+    "authorName": "Robert Mirabelle",
+    "createTime": "2017-11-16T02:58:05.002225Z",
+    "updateTime": "2020-10-03T09:40:31.804845Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wind_cloud.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "wind_cloud.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "43648"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "wind_cloud.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wind_cloud.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "43648"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#37474f"
+    }
+}

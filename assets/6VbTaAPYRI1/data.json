@@ -1,0 +1,62 @@
+{
+    "name": "Bloom 360",
+    "authorId": "cdCmJ0o49__",
+    "authorName": "Lintufriikki",
+    "createTime": "2018-03-21T12:11:26.856292Z",
+    "updateTime": "2020-10-07T09:56:09.226580Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "sphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

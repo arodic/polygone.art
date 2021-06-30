@@ -1,0 +1,65 @@
+{
+    "name": "11",
+    "description": "11",
+    "authorId": "aYPUShDBCFU",
+    "authorName": "Ivan Kolganov",
+    "createTime": "2018-02-28T10:26:49.288597Z",
+    "updateTime": "2020-09-23T10:11:12.881966Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CO_2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CO_2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CO_2/ATOMIC_COFFEE_CUP_2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8467"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CO_2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CO_2/ATOMIC_COFFEE_CUP_2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "CO_2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8467"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 1.1102230246251565e-16,
+            "z": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

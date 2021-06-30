@@ -1,0 +1,52 @@
+{
+    "name": "Projekt Inżynierski",
+    "authorId": "9l9GauXLXvg",
+    "authorName": "Joanna Waluś",
+    "createTime": "2020-01-14T17:44:47.894829Z",
+    "updateTime": "2020-04-20T09:27:15.236318Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "test.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "392686"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "392686"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

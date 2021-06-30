@@ -1,0 +1,63 @@
+{
+    "name": "Rainbow Horse",
+    "description": "Because Smells asked\nModel originally by EVOL",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-10-22T02:29:15.874730Z",
+    "updateTime": "2020-10-06T10:38:29.351384Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "horsebow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "horsebow.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "basicrainbow.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "70532"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "horsebow.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "horsebow.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "basicrainbow.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "70532"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "OBJ prod dog MTL PNG",
+    "description": "MTL PNG",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2019-02-01T15:41:41.161976Z",
+    "updateTime": "2020-02-25T20:48:41.672932Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Dog with a collar tex1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Dog with a collar tex1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1122"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Dog with a collar tex1.OBJ",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Dog with a collar tex1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1122"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

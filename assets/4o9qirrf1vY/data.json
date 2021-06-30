@@ -1,0 +1,55 @@
+{
+    "name": "Donut!",
+    "description": "Its a donut, made in blender. My first project!",
+    "authorId": "0ykEb_GbTPR",
+    "authorName": "yeah",
+    "createTime": "2019-04-10T21:12:33.456445Z",
+    "updateTime": "2020-09-23T09:44:29.876277Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "donut.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "donut.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "994560"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "donut.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "donut.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "994560"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f8bbd0"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Voxel Carrinha",
+    "description": "Teste em MagicaVoxcel exportando com bake",
+    "authorId": "5CBK24l8eTn",
+    "authorName": "Correia Antunes",
+    "createTime": "2017-11-28T11:44:07.569678Z",
+    "updateTime": "2020-09-25T09:32:35.165764Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "carrinha.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "carrinha.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "carrinha.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2894"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "carrinha.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "carrinha.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "carrinha.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2894"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#795548"
+    }
+}

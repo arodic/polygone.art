@@ -1,0 +1,46 @@
+{
+    "name": "planet",
+    "authorId": "f5tBQdBHnOs",
+    "authorName": "MinemoTV",
+    "createTime": "2017-12-25T18:20:25.188721Z",
+    "updateTime": "2019-08-06T16:32:54.794320Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35580"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Johnny",
+    "description": "Little Blender Test ",
+    "authorId": "bZTfUTfcx8j",
+    "authorName": "Jörg H.",
+    "createTime": "2018-12-16T11:45:21.903611Z",
+    "updateTime": "2020-07-21T09:25:15.256Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bot3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bot3.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15321"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bot3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bot3.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15321"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

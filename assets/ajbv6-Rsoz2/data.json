@@ -1,0 +1,60 @@
+{
+    "name": "Modell 1",
+    "authorId": "cov4gAaVWHN",
+    "authorName": "Tarjei Ødegård",
+    "createTime": "2020-01-15T15:52:55.577054Z",
+    "updateTime": "2020-05-16T10:13:24.803446Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Model.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49984"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Model.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49984"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

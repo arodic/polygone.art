@@ -1,0 +1,65 @@
+{
+    "name": "Flying Saucer",
+    "description": "#UFO",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T00:51:42.625104Z",
+    "updateTime": "2021-05-13T14:35:49.969821Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "UFO"
+    ],
+    "likes": 11,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "FlyingSacuer.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "FlyingSacuer.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "FlyingSaucer_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "FlyingSacuer.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "FlyingSacuer.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "FlyingSaucer_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#cddc39"
+    }
+}

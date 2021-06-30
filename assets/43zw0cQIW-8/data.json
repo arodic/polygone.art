@@ -1,0 +1,61 @@
+{
+    "name": "testimport",
+    "description": "test\n\n\n",
+    "authorId": "dvzkrI8ZRGl",
+    "authorName": "Marc Williams",
+    "createTime": "2019-06-17T20:55:15.113872Z",
+    "updateTime": "2020-02-25T20:28:25.479769Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tilttest.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tilttest.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "HankySoft4.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tilttest.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "HankySoft4.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tilttest.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

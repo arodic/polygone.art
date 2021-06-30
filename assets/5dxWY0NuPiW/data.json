@@ -1,0 +1,55 @@
+{
+    "name": "Goblin",
+    "description": "A goblin wearing some things",
+    "authorId": "cgq1-UxtKRw",
+    "authorName": "Eric Oudin",
+    "createTime": "2018-01-19T07:10:59.943644Z",
+    "updateTime": "2020-10-06T09:47:34.351756Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GoblinClothed.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GoblinClothed.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2972"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "GoblinClothed.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "GoblinClothed.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2972"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#311b92"
+    }
+}

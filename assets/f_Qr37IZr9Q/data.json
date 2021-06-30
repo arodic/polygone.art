@@ -1,0 +1,48 @@
+{
+    "name": "tv",
+    "authorId": "ffQWh5nP0r4",
+    "authorName": "Quentin Paden",
+    "createTime": "2019-03-06T21:48:20.820984Z",
+    "updateTime": "2020-06-20T10:24:42.459483Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textures/material_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/material_metallicRoughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/material_normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "60"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

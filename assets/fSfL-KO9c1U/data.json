@@ -1,0 +1,52 @@
+{
+    "name": "pyramid 2.0",
+    "authorId": "aq22uCxKR02",
+    "authorName": "Marcos Vega",
+    "createTime": "2017-11-20T20:42:27.206137Z",
+    "updateTime": "2020-04-12T10:19:29.269329Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tinker.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tinker.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tinker.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

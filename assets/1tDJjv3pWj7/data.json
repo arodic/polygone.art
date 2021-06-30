@@ -1,0 +1,60 @@
+{
+    "name": "hand",
+    "authorId": "1ldbMKYRVvH",
+    "authorName": "Galip Yakınay (Gineymay TV)",
+    "createTime": "2020-12-02T14:08:08.863254Z",
+    "updateTime": "2020-12-02T14:15:29.017403Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hand.OBJ",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hand_mapNew.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Hand.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8808"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "hand.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hand.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hand_mapNew.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8808"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

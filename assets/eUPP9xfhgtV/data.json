@@ -1,0 +1,55 @@
+{
+    "name": "Tooth",
+    "description": "Low poly tooth with a simple white material",
+    "authorId": "9OleYu8BdaK",
+    "authorName": "Ignác Boros",
+    "createTime": "2017-11-03T22:48:54.711741Z",
+    "updateTime": "2020-10-06T10:32:45.282873Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tooth.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tooth.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "176"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tooth.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tooth.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "176"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#42a5f5"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Sculpt [Ugo]",
+    "authorId": "8NppdwrX5Ua",
+    "authorName": "Delano Athias",
+    "createTime": "2018-11-03T23:21:38.942886Z",
+    "updateTime": "2020-05-30T09:48:29.116678Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3D_sculpt.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "45520"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "3D_sculpt.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "3D_sculpt.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "45520"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

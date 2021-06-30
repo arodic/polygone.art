@@ -1,0 +1,79 @@
+{
+    "name": "server rack",
+    "description": "servers rack",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-07-31T21:14:53.692514Z",
+    "updateTime": "2021-01-01T19:02:46.089490Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ServerV2+console.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ServerV2+console.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "console.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "rack.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "servers.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1104"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ServerV2+console.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rack.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ServerV2+console.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "servers.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "console.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1104"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

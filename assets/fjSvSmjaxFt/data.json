@@ -1,0 +1,61 @@
+{
+    "name": "AkuVR HBWave Trains Scroller",
+    "description": "Remixed from https://poly.google.com/view/2uq2_lZBMvE",
+    "authorId": "akgdfmEG5pb",
+    "authorName": "Aku",
+    "createTime": "2021-02-10T22:26:39.687740Z",
+    "updateTime": "2021-02-10T22:33:08.374328Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "train_carriages_01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "train_carriages_01.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bullet Train Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "285440"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "train_carriages_01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bullet Train Texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "train_carriages_01.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "285440"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

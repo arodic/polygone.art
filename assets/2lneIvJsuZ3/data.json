@@ -1,0 +1,63 @@
+{
+    "name": "brushes",
+    "description": "painting",
+    "authorId": "bsBAW4RP1zX",
+    "authorName": "Alain Dumenieu",
+    "createTime": "2018-11-23T09:08:20.298643Z",
+    "updateTime": "2020-09-24T09:46:01.863985Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh.3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.3.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tex01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "67399"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mesh.3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.3.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tex01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "67399"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

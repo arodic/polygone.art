@@ -1,0 +1,63 @@
+{
+    "name": "Uncanny",
+    "description": "First mobile face scan",
+    "authorId": "8Ik8lTheKcc",
+    "authorName": "Bernd Warnders",
+    "createTime": "2019-10-16T04:17:22.016750Z",
+    "updateTime": "2020-02-25T21:11:44.887858Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "20191016_053312.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model_face.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "898"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "20191016_053312.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "20191016_053312.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model_face.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "898"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

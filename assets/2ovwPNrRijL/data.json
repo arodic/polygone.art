@@ -1,0 +1,66 @@
+{
+    "name": "Snake",
+    "description": "#reptile #wildlife",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-27T20:54:49.428018Z",
+    "updateTime": "2021-06-08T10:04:14.640996Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "reptile",
+        "wildlife"
+    ],
+    "likes": 14,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Snake.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Snake.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Snake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "334"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Snake.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Snake.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Snake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "334"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e6ee9c"
+    }
+}

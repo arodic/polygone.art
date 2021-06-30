@@ -1,0 +1,63 @@
+{
+    "name": "umbrella",
+    "description": "umbrella",
+    "authorId": "auQI3OcAJtK",
+    "authorName": "Gomesh Karnchanapayap",
+    "createTime": "2019-10-26T04:52:47.399675Z",
+    "updateTime": "2020-09-20T10:33:29.547307Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "umbrella2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "umbrella.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "umbrella2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "514"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "umbrella2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "umbrella2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "umbrella.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "514"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

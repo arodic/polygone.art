@@ -1,0 +1,64 @@
+{
+    "name": "orbblog",
+    "description": "lv11\n#lv11",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2019-05-27T19:59:50.773413Z",
+    "updateTime": "2020-09-29T09:50:45.286781Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "lv11"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bgu.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "th.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bgu.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6508"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bgu.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bgu.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "th.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6508"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

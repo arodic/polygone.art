@@ -1,0 +1,63 @@
+{
+    "name": "Mouse3D",
+    "authorId": "97poRdPVTDV",
+    "authorName": "Seb S",
+    "createTime": "2020-05-27T15:12:32.060401Z",
+    "updateTime": "2020-05-27T15:19:44.205132Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fil.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fil.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "fil.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "191897"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "fil.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fil.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fil.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "191897"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "flower",
+    "authorId": "bwZm9Q1nD_z",
+    "authorName": "CDLA VR",
+    "createTime": "2018-08-22T18:47:43.267479Z",
+    "updateTime": "2020-02-25T20:19:18.068979Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "flower.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "flower.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "364"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "flower.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "flower.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "364"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

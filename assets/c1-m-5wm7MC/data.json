@@ -1,0 +1,55 @@
+{
+    "name": "Chateau petblo v0.2",
+    "description": "pre tiltbrush",
+    "authorId": "bhj3O4zat8d",
+    "authorName": "Ross B",
+    "createTime": "2018-07-18T00:35:19.517732Z",
+    "updateTime": "2020-09-27T10:19:54.316113Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tinker.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12778"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tinker.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tinker.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12778"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "cube",
+    "authorId": "bwtbWnbuau8",
+    "authorName": "Min-Yi Tsai",
+    "createTime": "2019-04-19T14:24:00.341082Z",
+    "updateTime": "2020-09-24T10:07:21.207480Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cube.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cube.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

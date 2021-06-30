@@ -1,0 +1,63 @@
+{
+    "name": "TCU",
+    "description": "東京都市大学　横浜キャンパス",
+    "authorId": "c_zy0Z9aEIe",
+    "authorName": "Hideo Miyachi",
+    "createTime": "2019-02-27T08:58:47.344724Z",
+    "updateTime": "2020-05-14T10:21:19.095595Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "garden2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "garden2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "garden2/garden201.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "100001"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "garden2/garden2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "garden2/garden2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "garden2/garden201.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "100001"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

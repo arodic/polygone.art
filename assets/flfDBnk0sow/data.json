@@ -1,0 +1,49 @@
+{
+    "name": "riguru",
+    "description": "#東方Project #リグル・ナイトバグ",
+    "authorId": "ePv9377kBMp",
+    "authorName": "T Tanaka (tatmos)",
+    "createTime": "2019-07-09T12:33:28.546071Z",
+    "updateTime": "2020-09-28T10:34:13.532033Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "55296"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Materials Test - Transparancy",
+    "description": "Another materials test, this one to test transparency levels under certain conditions\nTransparancy\nM1 75% M2 50% M3 25%\nT50 with Specularity hardness levels\nM4 50 M5 100 M6 200\nT50 with Mirror attributes \nM7 Ref50 M8 Ref50 Fres1 M9 Ref50 Fres 1\n",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-09-30T00:04:41.741650Z",
+    "updateTime": "2020-10-05T09:39:29.036385Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mat test transparancy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat test transparancy.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mat test transparancy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat test transparancy.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

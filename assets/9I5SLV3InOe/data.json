@@ -1,0 +1,56 @@
+{
+    "name": "U/G Bus",
+    "description": "low poly",
+    "authorId": "e6pAD8DIeuG",
+    "authorName": "Bruce S",
+    "createTime": "2019-07-18T02:33:49.921035Z",
+    "updateTime": "2020-06-07T10:05:35.686536Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bussmall.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bussmall.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "700000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bussmall.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bussmall.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "700000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

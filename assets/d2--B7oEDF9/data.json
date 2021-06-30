@@ -1,0 +1,59 @@
+{
+    "name": "tv",
+    "description": "tv",
+    "authorId": "9nrIdhBrw47",
+    "authorName": "Thommy Eriksson",
+    "createTime": "2021-02-03T12:32:29.350350Z",
+    "updateTime": "2021-02-03T12:41:12.042460Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TV_fbx/tv.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "TV_fbx/tv/tv.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tv.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

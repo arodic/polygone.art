@@ -1,0 +1,49 @@
+{
+    "name": "my squiggle",
+    "description": "made on blender",
+    "authorId": "42XWWREYfJA",
+    "authorName": "Ana Meisel",
+    "createTime": "2019-05-17T17:26:37.883362Z",
+    "updateTime": "2020-02-25T20:53:43.626661Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "squiggle.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "768"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "squiggle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "squiggle.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "768"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

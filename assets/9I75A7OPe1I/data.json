@@ -1,0 +1,60 @@
+{
+    "name": "Dreaming Angel",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-09-03T08:22:53.233621Z",
+    "updateTime": "2020-10-05T10:05:54.909345Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "angeldream.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "angeldream.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "angel.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "angeldream.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "angel.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "angeldream.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4a148c"
+    }
+}

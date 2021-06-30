@@ -1,0 +1,63 @@
+{
+    "name": "Burger",
+    "authorId": "6goDuF2nVJx",
+    "authorName": "Nasrin Tohidi",
+    "createTime": "2018-06-13T06:03:26.443606Z",
+    "updateTime": "2021-06-03T18:36:53.929169Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated"
+    ],
+    "likes": 24,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Hamburger.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Hamburger.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Hamburger_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1095"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Hamburger.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Hamburger_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Hamburger.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1095"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Rubik",
+    "description": "4 X 4 Rubik Cube",
+    "authorId": "65Wtk5pU7kX",
+    "authorName": "Rohit Padma",
+    "createTime": "2019-03-24T06:16:02.216220Z",
+    "updateTime": "2020-09-26T09:58:21.263498Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rubik_new.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rubik_new.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rubik_new.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rubik_new.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

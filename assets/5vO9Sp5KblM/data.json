@@ -1,0 +1,71 @@
+{
+    "name": "necron altar",
+    "description": "necron",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2020-07-19T03:15:01.699409Z",
+    "updateTime": "2020-11-04T07:34:03.049749Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "altar_LOpolyinitialShadingGroup1_diffuse_3833862537641075654.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "lambert1.002_diffuse_15148051510026831590.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "scene.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9230"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lambert1.002_diffuse_15148051510026831590.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "altar_LOpolyinitialShadingGroup1_diffuse_3833862537641075654.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9230"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0d3b16"
+    }
+}

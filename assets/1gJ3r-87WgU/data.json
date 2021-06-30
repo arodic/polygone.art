@@ -1,0 +1,63 @@
+{
+    "name": "Under the pavement",
+    "description": "photogrammetry external scene",
+    "authorId": "fieKjqUEHUM",
+    "authorName": "Marco di Ioia",
+    "createTime": "2018-11-20T16:03:08.612089Z",
+    "updateTime": "2020-09-13T11:37:31.086421Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "under_the_pavement_upload_poly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "under_the_pavement_upload_poly.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Z:/fotomodellazione_titine/nikon/under_the_pavement/textures/textures_low/pavimento04_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9876"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "under_the_pavement_upload_poly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "under_the_pavement_upload_poly.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Z:/fotomodellazione_titine/nikon/under_the_pavement/textures/textures_low/pavimento04_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9876"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

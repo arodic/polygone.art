@@ -1,0 +1,56 @@
+{
+    "name": "Sod",
+    "description": "A simple slice of grass",
+    "authorId": "fa4m5c69h51",
+    "authorName": "Robert Mirabelle",
+    "createTime": "2017-11-16T02:08:20.189428Z",
+    "updateTime": "2021-06-14T05:09:13.675804Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 37,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earth_sod.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_sod.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "184002"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "earth_sod.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_sod.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "184002"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#795548"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "name": "audio visualizer",
+    "description": "made in tilt brish",
+    "authorId": "aFlinnovzOo",
+    "authorName": "Ethan Robinson",
+    "createTime": "2019-08-24T23:12:11.824163Z",
+    "updateTime": "2020-09-24T10:01:22.743889Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13412"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

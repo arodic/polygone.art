@@ -1,0 +1,52 @@
+{
+    "name": "Sars2-spike-trimer",
+    "authorId": "9XerOBbv57G",
+    "authorName": "Arthur Olson",
+    "createTime": "2020-10-14T23:02:00.097124Z",
+    "updateTime": "2020-10-14T23:09:16.202935Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SARS2-geoms.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SARS2-geoms.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "SARS2-geoms.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SARS2-geoms.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

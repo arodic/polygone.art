@@ -1,0 +1,47 @@
+{
+    "name": "SM - Turkle Disc",
+    "authorId": "ff5AHSfMiEc",
+    "authorName": "Scott Marshall",
+    "createTime": "2019-09-21T22:05:29.769112Z",
+    "updateTime": "2020-10-31T17:47:11.229530Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4000"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

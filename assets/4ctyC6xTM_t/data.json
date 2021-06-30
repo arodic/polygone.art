@@ -1,0 +1,47 @@
+{
+    "name": "hey",
+    "description": "ho",
+    "authorId": "6TvdWNJBmJE",
+    "authorName": "Kourosh Hekmatara",
+    "createTime": "2020-03-30T12:36:11.704548Z",
+    "updateTime": "2020-04-09T09:43:40.995971Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "354"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "354"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

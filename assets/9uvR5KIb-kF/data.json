@@ -1,0 +1,63 @@
+{
+    "name": "Maquette Photogrammetry",
+    "authorId": "5Nh7Tn-LaKq",
+    "authorName": "laurent lescop",
+    "createTime": "2020-12-01T10:02:33.046679Z",
+    "updateTime": "2020-12-01T10:07:50.299941Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "MAQUETTE.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "MAQUETTE.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "MAQUETTE01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "173338"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "MAQUETTE.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "MAQUETTE.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "MAQUETTE01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "173338"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

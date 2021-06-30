@@ -1,0 +1,71 @@
+{
+    "name": "World",
+    "description": "ARTV2609",
+    "authorId": "1rKzLX1xgV2",
+    "authorName": "Rhiannon Johannes",
+    "createTime": "2019-09-19T00:09:15.860126Z",
+    "updateTime": "2020-05-10T09:36:07.044668Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Rhiannon_VR_World.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Rhiannon_VR_World.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "GroundColor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "kitstill13.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3320"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Rhiannon_VR_World.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GroundColor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "kitstill13.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Rhiannon_VR_World.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3320"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

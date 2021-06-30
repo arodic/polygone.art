@@ -1,0 +1,70 @@
+{
+    "name": "Test Scan",
+    "authorId": "25Umr-Lkl5z",
+    "authorName": "Marcel Vijfwinkel",
+    "createTime": "2019-07-06T20:24:47.625255Z",
+    "updateTime": "2020-06-02T09:55:28.864473Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "loods.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "loods.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "loods.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "loods1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "loods.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "loods.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "loods.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "loods1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

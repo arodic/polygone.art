@@ -1,0 +1,61 @@
+{
+    "name": "totc tfx 138b jpg",
+    "description": "Test of a tunnel object with a jpg texture, jpgs have no transparency, so by default are 24bit",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-08-03T16:39:13.756258Z",
+    "updateTime": "2020-02-25T20:44:57.618483Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tfx138b.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tfx138b.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tfx138b.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tfx138b.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tfx138b.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tfx138b.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ad1457"
+    }
+}

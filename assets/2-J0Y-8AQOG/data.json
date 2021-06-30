@@ -1,0 +1,69 @@
+{
+    "name": "Church",
+    "description": "#chapel #religion #building #worship #structure",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-12T04:09:24.341697Z",
+    "updateTime": "2021-06-08T10:20:43.214474Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated",
+        "chapel",
+        "religion",
+        "building",
+        "worship",
+        "structure"
+    ],
+    "likes": 17,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_CHURCH.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_CHURCH.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "churchSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4062"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_CHURCH.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_CHURCH.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "churchSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4062"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e57373"
+    }
+}

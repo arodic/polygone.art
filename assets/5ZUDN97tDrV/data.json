@@ -1,0 +1,60 @@
+{
+    "name": "cat",
+    "authorId": "0L2dfwEpVei",
+    "authorName": "Parnchat Srifuengprang",
+    "createTime": "2019-12-25T03:30:42.628686Z",
+    "updateTime": "2020-07-07T09:50:41.825028Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cat.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "380"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cat.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "cat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "380"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

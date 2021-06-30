@@ -1,0 +1,64 @@
+{
+    "name": "The Flash - 3D-Raw Scan",
+    "description": "The Flash - Armageddon Auckland 2017 (Raw Scan)",
+    "authorId": "dA0sW6sbJg5",
+    "authorName": "Sabry at 3Dfy me",
+    "createTime": "2017-11-05T00:23:26.098614Z",
+    "updateTime": "2021-03-14T21:15:13.157699Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 57,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tex_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "150000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tex_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "150000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

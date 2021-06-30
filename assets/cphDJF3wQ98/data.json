@@ -1,0 +1,63 @@
+{
+    "name": "Candy Pod TheWaveVR",
+    "description": "Eat this to Tide you over.",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-03-04T20:20:54.817016Z",
+    "updateTime": "2020-10-07T10:24:35.803834Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "POD.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "POD.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tide_Pod.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1734"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "POD.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "POD.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tide_Pod.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1734"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9800"
+    }
+}

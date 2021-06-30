@@ -1,0 +1,61 @@
+{
+    "name": "Rainbow",
+    "description": "From Mountain Ash",
+    "authorId": "fCDtq6KVXZ-",
+    "authorName": "Thomas Burmeister",
+    "createTime": "2020-02-24T16:50:41.273778Z",
+    "updateTime": "2020-06-07T10:16:28.653564Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Rainbow.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BakedRainbow.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Rainbow.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1728"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Rainbow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Rainbow.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BakedRainbow.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1728"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Lightfamily",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-19T19:45:36.995808Z",
+    "updateTime": "2020-09-23T09:47:08.514104Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lightfamilygloss.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lightfamily4.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "lightfamilygloss.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "lightfamilygloss.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lightfamilygloss.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lightfamily4.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Random Object",
+    "authorId": "9PWxvWcQBK9",
+    "authorName": "Lucian Paraian",
+    "createTime": "2017-11-02T11:37:44.343118Z",
+    "updateTime": "2020-06-23T10:28:42.714217Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test-object.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "test-object.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7362"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "test-object.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test-object.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7362"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f44336"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "AN Full Body 01 30 12 201",
+    "authorId": "3Y8HUuVPYpt",
+    "authorName": "Markus Wintersberger",
+    "createTime": "2017-12-30T17:07:35.349306Z",
+    "updateTime": "2021-04-28T07:58:06.711512Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_mesh.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "199316"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model_mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "199316"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

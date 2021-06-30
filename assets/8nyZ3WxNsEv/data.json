@@ -1,0 +1,60 @@
+{
+    "name": "cave",
+    "authorId": "2nSeh0RVoac",
+    "authorName": "Ornnalin Tienprasid",
+    "createTime": "2018-12-19T06:55:33.013969Z",
+    "updateTime": "2020-09-24T10:07:51.482439Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rain.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rain.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5208"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "rain.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rain.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "rain.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5208"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

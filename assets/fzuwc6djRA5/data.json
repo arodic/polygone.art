@@ -1,0 +1,49 @@
+{
+    "name": "3D Sunshine export test",
+    "description": "Minecraft from 3D Sunshine",
+    "authorId": "58aTCd09Spk",
+    "authorName": "TTS Junior Technology",
+    "createTime": "2018-02-22T08:26:46.110871Z",
+    "updateTime": "2020-09-25T10:46:21.611939Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "DEMO Mountain Island.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "23388"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "DEMO Mountain Island.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "DEMO Mountain Island.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "23388"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

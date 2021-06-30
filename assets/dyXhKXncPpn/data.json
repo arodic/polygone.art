@@ -1,0 +1,60 @@
+{
+    "name": "test",
+    "authorId": "a9EPUjKjCX5",
+    "authorName": "Sianvy",
+    "createTime": "2020-05-04T00:07:36.115112Z",
+    "updateTime": "2020-05-15T10:21:17.654667Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "candle1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "candle1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "test.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

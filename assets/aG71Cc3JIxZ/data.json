@@ -1,0 +1,63 @@
+{
+    "name": "book",
+    "description": "just a old book",
+    "authorId": "cMpONNIls_C",
+    "authorName": "Casper",
+    "createTime": "2018-08-21T16:30:18.661941Z",
+    "updateTime": "2020-10-21T20:24:36.581749Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "untitled.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "untitled.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "untitled.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1380"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "untitled.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "untitled.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "untitled.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1380"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

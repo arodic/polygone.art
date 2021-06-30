@@ -1,0 +1,71 @@
+{
+    "name": "snow diorama base",
+    "description": "dioramas",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-11T03:19:02.037378Z",
+    "updateTime": "2020-02-25T21:05:04.825813Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "snow base.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "snow base.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "DIORAMAinitialShadingGroup1SG_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "DIORAMAinitialShadingGroup2_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44560"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "snow base.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "DIORAMAinitialShadingGroup1SG_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "snow base.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "DIORAMAinitialShadingGroup2_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44560"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

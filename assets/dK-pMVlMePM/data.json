@@ -1,0 +1,77 @@
+{
+    "name": "LALO",
+    "description": "PRUEBA",
+    "authorId": "8DZja8nGSPE",
+    "authorName": "Asdrúbal Gómez",
+    "createTime": "2021-03-10T17:24:28.368946Z",
+    "updateTime": "2021-03-10T17:31:18.634023Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ONIROMAN.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pasadizo.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ONIROMAN.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "enviroment.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "plano chico js.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24432"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "ONIROMAN.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ONIROMAN.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "plano chico js.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "pasadizo.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "enviroment.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24432"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

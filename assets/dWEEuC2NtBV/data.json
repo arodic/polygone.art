@@ -1,0 +1,57 @@
+{
+    "name": "Chocolate Cupcake",
+    "description": "#food #dessert #cupcake\nGeometric chocolate blue cupcake.",
+    "authorId": "9jR_jOSXv0W",
+    "authorName": "Jay Zawrotny",
+    "createTime": "2019-12-25T05:48:53.288949Z",
+    "updateTime": "2021-05-16T22:01:43.998692Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "dessert",
+        "cupcake"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cupcake.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cupcake.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2500"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cupcake.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cupcake.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2500"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9d00"
+    }
+}

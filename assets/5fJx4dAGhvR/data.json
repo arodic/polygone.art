@@ -1,0 +1,62 @@
+{
+    "name": "stemup tea 茶",
+    "authorId": "fPKloI-bGDa",
+    "authorName": "Beach Zeng",
+    "createTime": "2019-12-16T08:13:01.070516Z",
+    "updateTime": "2020-10-06T09:56:04.183736Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tea.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tea.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tea.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1687"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tea.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tea.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tea.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1687"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#82d7ff"
+    }
+}

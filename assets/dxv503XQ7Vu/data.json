@@ -1,0 +1,55 @@
+{
+    "name": "Budweiser",
+    "description": "Logo Budweiser ",
+    "authorId": "fo3-bJcrxWs",
+    "authorName": "Christian ludena",
+    "createTime": "2019-08-09T11:11:00.056935Z",
+    "updateTime": "2020-09-25T10:34:56.598499Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "72"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "boomerang.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "boomerang.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "72"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

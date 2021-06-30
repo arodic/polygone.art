@@ -1,0 +1,60 @@
+{
+    "name": "Extrusion GL3",
+    "authorId": "bsWSGscRwof",
+    "authorName": "Harold Sikkema",
+    "createTime": "2019-07-07T19:28:37.864523Z",
+    "updateTime": "2020-10-07T09:50:09.103747Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gl3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Layer 1.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "gl3.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3420"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "gl3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gl3.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Layer 1.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3420"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

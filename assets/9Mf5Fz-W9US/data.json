@@ -1,0 +1,62 @@
+{
+    "name": "MEAT &  FAT",
+    "authorId": "asEoHS0qATy",
+    "authorName": "Dmitry Vrubel",
+    "createTime": "2017-11-17T16:10:01.859741Z",
+    "updateTime": "2020-08-26T10:06:45.870247Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "1model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "1model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4430"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "1model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "1model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4430"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "venus",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-18T13:21:55.331483Z",
+    "updateTime": "2020-10-03T10:11:01.010598Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "venus.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "yellowsteel.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "venus.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48316"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "venus.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "venus.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "yellowsteel.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48316"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

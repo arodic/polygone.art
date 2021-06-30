@@ -1,0 +1,70 @@
+{
+    "name": "Food - Acorn squash photoscan",
+    "authorId": "8thLXW_3dT8",
+    "authorName": "Adam Gillikin",
+    "createTime": "2018-10-25T03:09:48.741347Z",
+    "updateTime": "2020-03-06T10:43:57.089524Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "squash-second/sq2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "squash-second/sq2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "squash-second/sq2_squash.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "squash-second/sq2_GeneratedMat2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "175062"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sq2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sq2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "squash-second/sq2_GeneratedMat2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "squash-second/sq2_squash.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "175062"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e0e0e0"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "hand",
+    "authorId": "bwZm9Q1nD_z",
+    "authorName": "CDLA VR",
+    "createTime": "2018-07-25T18:10:36.360072Z",
+    "updateTime": "2020-02-25T22:58:07.603489Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hand.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hand.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "364"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "hand.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "hand.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "364"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

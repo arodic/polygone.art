@@ -1,0 +1,53 @@
+{
+    "name": "Empty pyramid",
+    "description": "Sirkut",
+    "authorId": "fOtdRVf7-r1",
+    "authorName": "Bill Baran (Sirkut)",
+    "createTime": "2018-07-21T02:03:32.405069Z",
+    "updateTime": "2020-07-21T10:15:51.022778Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "emptypyramid.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "emptypyramid.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "emptypyramid.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "emptypyramid.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

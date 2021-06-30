@@ -1,0 +1,67 @@
+{
+    "name": "Kangaroo rat",
+    "description": "#rodent #mammal #prey",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:37:25.795363Z",
+    "updateTime": "2021-06-05T22:03:07.261577Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "rodent",
+        "mammal",
+        "prey"
+    ],
+    "likes": 11,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "KangarooRats.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "KangarooRats.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "KangarooRats_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "828"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "KangarooRats.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "KangarooRats.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "KangarooRats_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "828"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff5722"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "mettalic test",
+    "description": "metal ball",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-04-16T18:56:14.310918Z",
+    "updateTime": "2020-10-04T10:06:21.254856Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "metallic ball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "metallic ball.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "metallic ball_layer_002.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1488"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "metallic ball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "metallic ball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "metallic ball_layer_002.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1488"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

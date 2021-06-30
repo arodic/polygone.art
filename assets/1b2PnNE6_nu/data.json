@@ -1,0 +1,66 @@
+{
+    "name": "oobe 02",
+    "description": "oobe test",
+    "authorId": "cdCmJ0o49__",
+    "authorName": "Lintufriikki",
+    "createTime": "2018-02-20T12:49:36.929230Z",
+    "updateTime": "2020-10-06T09:34:56.476126Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "obtab.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "obtab.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tabletuv.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "320"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "obtab.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "obtab.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tabletuv.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "320"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865477,
+            "y": 2.7755575615628914e-16,
+            "z": 5.551115123125783e-17,
+            "w": 0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

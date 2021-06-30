@@ -1,0 +1,63 @@
+{
+    "name": "House",
+    "description": "It's a house.",
+    "authorId": "05h6R42L3px",
+    "authorName": "Sanghun Jeong",
+    "createTime": "2018-09-15T12:42:52.896624Z",
+    "updateTime": "2021-02-13T11:57:05.522782Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "House.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "House.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "House.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7196"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "House.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "House.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "House.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7196"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

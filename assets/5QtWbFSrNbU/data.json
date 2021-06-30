@@ -1,0 +1,66 @@
+{
+    "name": "Draft (bozza) 3D scavi Teatro",
+    "description": "Teatro Roimano di Terracina, stato dei lavori al 6 Ottobre 2020",
+    "authorId": "1gt3XoEYK1j",
+    "authorName": "Paolo Giannetti",
+    "createTime": "2020-10-07T13:42:23.332996Z",
+    "updateTime": "2020-12-27T18:24:57.861488Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "modelloteatro.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "modelloteatro.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "modelloteatro.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "629011"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "modelloteatro.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "modelloteatro.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "modelloteatro.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "629011"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.16924964596684847,
+            "y": 0.08810578900788955,
+            "z": 0.4532649906707711,
+            "w": 0.8707139458603035
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0d0000"
+    }
+}

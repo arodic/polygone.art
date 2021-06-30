@@ -1,0 +1,63 @@
+{
+    "name": "Pokeball",
+    "authorId": "3DbS1dfd_R6",
+    "authorName": "Mediathequeplv plv",
+    "createTime": "2021-02-03T17:24:35.420395Z",
+    "updateTime": "2021-02-03T17:33:38.479104Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pokeball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pokeball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pokeball.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "29544"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "pokeball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pokeball.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "pokeball.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "29544"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

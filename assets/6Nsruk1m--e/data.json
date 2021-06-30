@@ -1,0 +1,55 @@
+{
+    "name": "tulipe-color",
+    "description": "blender export tulipe color",
+    "authorId": "bDPjR68Gozg",
+    "authorName": "williams thery",
+    "createTime": "2018-08-10T12:00:52.217333Z",
+    "updateTime": "2020-02-25T20:56:29.256259Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "blender_export.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "blender_export.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "52306"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tmpdx47brep/blender_export.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tmpdx47brep/tmpdx47brep/blender_export.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "52306"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c8e6c9"
+    }
+}

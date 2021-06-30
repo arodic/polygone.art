@@ -1,0 +1,66 @@
+{
+    "name": "old hat",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-24T18:15:41.188497Z",
+    "updateTime": "2020-02-25T23:13:18.636541Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hat2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hat2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "hat2_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "hat2_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "hat2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hat2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hat2_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

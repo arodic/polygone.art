@@ -1,0 +1,80 @@
+{
+    "name": "Base Character",
+    "description": "First creation using blocks. Coming from Blender modeling there are a few thing I find... clunky with Blocks, specially its annoying tendency of breaking quads into tris and that not allowing me to properly subdivide... Also the lack of the ability to constraint the moving into x,y and z both local and global is a bit disappointing... Welp, it is a new tool and will improve over time. So far I am finding it very nice, especially the duplication tool which allowed me to make the hair... SO far: The grabbing tool is very nice (if a little clunky at times, specially if it is trying to help you snap shapes together), the modify tool could do with some improvements! Congratulations google for the amazing tool!\nGetting used to blocs weird UI... But it is taking Time",
+    "authorId": "3F7nREgBzIf",
+    "authorName": "Anderson Borba",
+    "createTime": "2020-04-28T23:18:21.896947Z",
+    "updateTime": "2020-09-27T10:25:36.664682Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "blocks",
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {},
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1026"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1026"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "700"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

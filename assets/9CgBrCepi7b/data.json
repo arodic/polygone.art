@@ -1,0 +1,55 @@
+{
+    "name": "Bubbles-sound interaction",
+    "description": "An incoming soundwave scatters from a 'cloud' of 32 bubbles, each with radius 'a' and distance '4a' apart. 'ka=2', with 'k' the wavenumber. The wave goes in the positive z-direction. Simulated with a numerical boundary element method. The absolute pressure profile is shown.",
+    "authorId": "11gpgAPOzKc",
+    "authorName": "evert klaseboer",
+    "createTime": "2020-01-30T03:50:12.753858Z",
+    "updateTime": "2020-04-25T09:57:16.435808Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BubCloud_ka2AbsolutePressure.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BubCloud_ka2AbsolutePressure.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64408"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "BubCloud_ka2AbsolutePressure.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Henry.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64408"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e8e8e8"
+    }
+}

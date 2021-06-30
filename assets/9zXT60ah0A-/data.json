@@ -1,0 +1,62 @@
+{
+    "name": "Mapua University",
+    "authorId": "01JWJCHgU6B",
+    "authorName": "Elyza Anne (Ely)",
+    "createTime": "2019-04-11T20:36:38.563367Z",
+    "updateTime": "2020-10-06T10:11:43.037891Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mapua.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mapua.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mapua.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2522"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mapua.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mapua.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mapua.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2522"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffcdd2"
+    }
+}

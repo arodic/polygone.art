@@ -1,0 +1,61 @@
+{
+    "name": "sky rotate",
+    "description": "sky rotate",
+    "authorId": "6EAUO9l9EA2",
+    "authorName": "micah O",
+    "createTime": "2020-03-27T10:12:31.914522Z",
+    "updateTime": "2020-10-02T10:06:06.213643Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sky.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "7eed0481-2cd5-4d11-abae-dcbf62a666e6.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sky.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "896"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sky.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sky.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "7eed0481-2cd5-4d11-abae-dcbf62a666e6.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "896"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

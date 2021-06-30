@@ -1,0 +1,63 @@
+{
+    "name": "Zajíc",
+    "description": "Amálie Blažková\nKeramika, glazovaná",
+    "authorId": "aHIKJt0tCgx",
+    "authorName": "Vojtech Blazek",
+    "createTime": "2019-11-26T17:01:32.945539Z",
+    "updateTime": "2020-02-25T22:42:57.363973Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "26397"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Model.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "26397"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#574b4b"
+    }
+}

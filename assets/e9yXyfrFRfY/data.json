@@ -1,0 +1,60 @@
+{
+    "name": "rodman",
+    "authorId": "7FuYfXuQKDE",
+    "authorName": "Osbaldo Jimenez",
+    "createTime": "2020-11-18T16:36:45.131940Z",
+    "updateTime": "2020-11-18T16:44:28.651001Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dennis.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dennis.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dennis.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "dennis.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dennis.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "dennis.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

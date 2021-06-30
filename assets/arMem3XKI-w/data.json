@@ -1,0 +1,60 @@
+{
+    "name": "Wave Hyper Hug",
+    "authorId": "7Cmyu9ePGeU",
+    "authorName": "Josh Miranda",
+    "createTime": "2021-03-29T21:01:38.062552Z",
+    "updateTime": "2021-03-29T21:07:41.508805Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hyperhug.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hyperhug.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "hyper hug.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "hyperhug.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hyperhug.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hyper hug.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

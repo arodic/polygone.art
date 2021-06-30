@@ -1,0 +1,60 @@
+{
+    "name": "Faucet",
+    "description": "#water\n#sink\n#clean\n#hose",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T18:19:54.417572Z",
+    "updateTime": "2021-05-28T09:23:07.264491Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "water",
+        "sink",
+        "clean",
+        "hose"
+    ],
+    "likes": 24,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "faucet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "faucet.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "696"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "faucet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "faucet.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "696"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b0bec5"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "ハロウィンかぼちゃ",
+    "description": "かぼちゃでーた　",
+    "authorId": "7IvztHr_HAl",
+    "authorName": "ra aki",
+    "createTime": "2020-11-02T03:11:24.673136Z",
+    "updateTime": "2020-11-02T03:17:37.172173Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "kabocha.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kabocha.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "kabocha.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4386"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "kabocha.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "kabocha.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kabocha.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4386"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

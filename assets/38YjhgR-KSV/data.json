@@ -1,0 +1,71 @@
+{
+    "name": "dark eldar helmet",
+    "description": "dark eldar helmet",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-03T06:05:30.914636Z",
+    "updateTime": "2020-10-07T09:32:38.403214Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "helmet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "helmet.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "helmet guerrier_deco_color.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "helmet guerrier_Helmet_color.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2160"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "helmet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "helmet.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "helmet guerrier_deco_color.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "helmet guerrier_Helmet_color.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2160"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff5722"
+    }
+}

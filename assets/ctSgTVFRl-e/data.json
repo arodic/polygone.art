@@ -1,0 +1,60 @@
+{
+    "name": "BBQ 2",
+    "authorId": "e_COL5StXBR",
+    "authorName": "Oliver Arguello",
+    "createTime": "2020-09-07T11:25:33.313464Z",
+    "updateTime": "2020-09-30T10:30:06.431380Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bbq/BBQ.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bbq/HSM0001_BBQ.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "bbq/BBQ.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2974"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "BBQ.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BBQ.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bbq/HSM0001_BBQ.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2974"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

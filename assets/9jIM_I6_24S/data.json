@@ -1,0 +1,63 @@
+{
+    "name": "raft 2",
+    "description": "rafts",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T10:08:35.294720Z",
+    "updateTime": "2020-12-06T23:46:51.006289Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "raft2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bambu_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "raft2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "21984"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "raft2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "raft2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bambu_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "21984"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

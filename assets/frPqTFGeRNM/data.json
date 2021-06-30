@@ -1,0 +1,64 @@
+{
+    "name": "東京タワー",
+    "description": "東京タワーとビル群です",
+    "authorId": "99VuVXH6oer",
+    "authorName": "Kenta Imai",
+    "createTime": "2017-11-29T13:49:54.610843Z",
+    "updateTime": "2021-06-08T11:11:04.894469Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 25,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tokyo_tower_town_working.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tokyo_tower_town_working.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tokyo_tower_town_working.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16636"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tokyo_tower_town_working.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tokyo_tower_town_working.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tokyo_tower_town_working.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16636"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

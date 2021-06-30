@@ -1,0 +1,63 @@
+{
+    "name": "Tree",
+    "description": "Tree",
+    "authorId": "aoqR4MaQEHl",
+    "authorName": "Daniel O'Connor",
+    "createTime": "2021-01-14T19:49:40.001086Z",
+    "updateTime": "2021-01-14T19:55:27.148278Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TreeV2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Extra_Soft.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TreeV2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "706880"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "TreeV2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TreeV2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Extra_Soft.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "706880"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

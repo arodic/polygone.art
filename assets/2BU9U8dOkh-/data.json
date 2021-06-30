@@ -1,0 +1,64 @@
+{
+    "name": "seashell",
+    "description": "Low Poly Seashell\n",
+    "authorId": "fM3S1ABcci5",
+    "authorName": "Dario Demi (D911C)",
+    "createTime": "2017-12-02T22:08:07.939124Z",
+    "updateTime": "2020-10-07T05:05:04.313974Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "conchiglia.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "conchiglia.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "conchiglia/textures/UVconchiglia.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "448"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "conchiglia.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "conchiglia.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "conchiglia/textures/UVconchiglia.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "448"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#546e7a"
+    }
+}

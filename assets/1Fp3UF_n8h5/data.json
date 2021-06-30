@@ -1,0 +1,67 @@
+{
+    "name": "French fries",
+    "description": "#potato #fastfood #chips\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:27:18.948528Z",
+    "updateTime": "2021-06-03T14:12:39.782838Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "potato",
+        "fastfood",
+        "chips"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "FrenchFries.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "FrenchFries.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "FrenchFries_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "460"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "FrenchFries.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "FrenchFries.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "FrenchFries_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "460"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

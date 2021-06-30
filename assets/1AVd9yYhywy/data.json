@@ -1,0 +1,51 @@
+{
+    "name": "gltf material test",
+    "description": "testing out material properties for gltf",
+    "authorId": "40Pj0YYcSOh",
+    "authorName": "Daniel Sierra",
+    "createTime": "2019-02-09T00:24:21.939284Z",
+    "updateTime": "2020-05-31T09:31:41.671484Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GLTF_MAT_TEST.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "AlphaDot.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "FractalNoise1_Tex.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "FractalNoise1_Tex1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "GLTF_MAT_TEST_data.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4324"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "sphere.",
+    "authorId": "e6vXL0-AIkw",
+    "authorName": "文化創意產業系楊庭華",
+    "createTime": "2019-10-07T07:57:47.560269Z",
+    "updateTime": "2020-06-04T09:34:56.330982Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

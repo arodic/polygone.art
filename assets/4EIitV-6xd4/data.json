@@ -1,0 +1,79 @@
+{
+    "name": "Tissue Box",
+    "description": "Puffs tissue box\n\nBy Jane Kim\n",
+    "authorId": "dBpdl1y5sUo",
+    "authorName": "Jane Kim",
+    "createTime": "2018-04-07T17:45:31.027365Z",
+    "updateTime": "2021-02-23T01:17:17.673966Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tissue.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tissue.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tissuetop.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tissueside.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tissue.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "72109"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tissue.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tissue.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tissue.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tissueside.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tissuetop.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "72109"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#5c6bc0"
+    }
+}

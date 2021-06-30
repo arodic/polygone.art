@@ -1,0 +1,63 @@
+{
+    "name": "photo rocks 2",
+    "description": "diorama",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-11T05:43:21.941629Z",
+    "updateTime": "2021-02-09T05:47:54.721835Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "photo rocks 1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "photo rocks 1.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Rocks2_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "281782"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "photo rocks 1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "photo rocks 1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Rocks2_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "281782"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#004d40"
+    }
+}

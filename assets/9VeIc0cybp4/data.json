@@ -1,0 +1,64 @@
+{
+    "name": "Aeroplane",
+    "description": "Just for fun.",
+    "authorId": "cYHzFtRYodi",
+    "authorName": "Gilang Romadhan",
+    "createTime": "2018-04-28T12:08:30.457860Z",
+    "updateTime": "2020-12-10T06:32:56.231604Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 31,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Plane.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Plane.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Color plane map.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "590"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Plane.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Color plane map.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Plane.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "590"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

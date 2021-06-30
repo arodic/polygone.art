@@ -1,0 +1,66 @@
+{
+    "name": "Heron",
+    "description": "#bird #wildlife",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-27T19:26:47.188002Z",
+    "updateTime": "2021-06-08T09:56:40.448265Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "bird",
+        "wildlife"
+    ],
+    "likes": 13,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Heron.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Heron.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Heron.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "668"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Heron.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Heron.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Heron.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "668"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#bcaaa4"
+    }
+}

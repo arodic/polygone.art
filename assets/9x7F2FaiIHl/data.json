@@ -1,0 +1,56 @@
+{
+    "name": "balloon",
+    "description": "birthday ,  cake\ndesign by Jarlan Perez",
+    "authorId": "7wWSL6BMhDl",
+    "authorName": "M Smith Jonn",
+    "createTime": "2018-04-06T14:12:34.068165Z",
+    "updateTime": "2021-05-26T01:33:09.090105Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 11,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "balloon.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "balloon.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "balloon.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "balloon.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#78909c"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Blue Illusion",
+    "description": "RFX\nevol",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2019-02-07T06:03:24.257331Z",
+    "updateTime": "2020-10-15T07:35:21.689016Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "illusion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "illusion.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6800"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "illusion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "illusion.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6800"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#01579b"
+    }
+}

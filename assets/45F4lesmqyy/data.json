@@ -1,0 +1,53 @@
+{
+    "name": "Iron man",
+    "description": "super hero",
+    "authorId": "9zbNDfRW20i",
+    "authorName": "JORDAN DARIO NARVAEZ QUINTANILLA",
+    "createTime": "2019-06-11T14:45:18.136192Z",
+    "updateTime": "2020-09-09T09:42:10.573214Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "IronMan.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "IronMan.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "217038"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "IronMan.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "IronMan.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "217038"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

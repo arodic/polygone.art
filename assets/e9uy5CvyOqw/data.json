@@ -1,0 +1,68 @@
+{
+    "name": "Peach",
+    "description": "#fruit #plant #seed #juicy\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T21:26:13.018439Z",
+    "updateTime": "2020-10-05T10:27:04.272330Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "fruit",
+        "plant",
+        "seed",
+        "juicy"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "peach.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "peach.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "peachTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "576"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "peach.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "peach.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "peachTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "576"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

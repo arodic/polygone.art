@@ -1,0 +1,63 @@
+{
+    "name": "Voxel Sculpture",
+    "description": "Object for testing Google Poly",
+    "authorId": "3HjlRVNccCv",
+    "authorName": "April Whitehead",
+    "createTime": "2019-04-02T14:13:56.377189Z",
+    "updateTime": "2020-10-03T09:56:34.774757Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cubo5.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cubo5.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cubo5.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12340"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cubo5.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cubo5.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "cubo5.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12340"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#263238"
+    }
+}

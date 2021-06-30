@@ -1,0 +1,63 @@
+{
+    "name": "tin barricade",
+    "description": "barricade",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T10:00:02.713490Z",
+    "updateTime": "2020-06-30T23:05:57.022909Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tin fence.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Tin_fence_tx_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tin fence.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1068"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tin fence.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tin fence.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tin_fence_tx_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1068"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

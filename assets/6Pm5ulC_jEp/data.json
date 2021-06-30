@@ -1,0 +1,58 @@
+{
+    "name": "whatnot",
+    "authorId": "9uDMQBrjNrO",
+    "authorName": "Ben Bradley",
+    "createTime": "2021-01-16T22:49:20.203372Z",
+    "updateTime": "2021-01-16T22:54:48.342906Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "travel"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "low_poly_tree/Lowpoly_tree_sample.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "low_poly_tree/Lowpoly_tree_sample.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "low_poly_tree/Lowpoly_tree_sample.obj",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

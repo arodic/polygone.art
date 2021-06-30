@@ -1,0 +1,55 @@
+{
+    "name": "Metal Donut",
+    "description": "its... a metal donut.",
+    "authorId": "cC9XcLKXQN7",
+    "authorName": "edenzo gaming",
+    "createTime": "2020-06-18T22:04:59.957373Z",
+    "updateTime": "2020-09-21T09:43:23.313203Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "donut.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "donut.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19280"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "donut.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "donut.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19280"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Speedbag",
+    "description": "Speedbag for workouts",
+    "authorId": "6waaP2xvrDS",
+    "authorName": "Glen Rickey",
+    "createTime": "2018-04-22T14:50:33.677834Z",
+    "updateTime": "2020-09-26T09:36:35.571175Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "speedbag.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "speedbag.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1208"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "speedbag.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "speedbag.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1208"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

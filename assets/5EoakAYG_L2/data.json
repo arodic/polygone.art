@@ -1,0 +1,61 @@
+{
+    "name": "Faune de Cimiez",
+    "description": "Statue de Faune en bronze",
+    "authorId": "6Rjxsb4SCr0",
+    "authorName": "Musée d'Archéologie de Nice / Cimiez",
+    "createTime": "2020-05-13T17:03:24.015762Z",
+    "updateTime": "2020-10-05T09:46:59.427779Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Faune.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Faune.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Faune.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Faune.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Faune.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Faune.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

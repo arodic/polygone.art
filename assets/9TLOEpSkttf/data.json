@@ -1,0 +1,62 @@
+{
+    "name": "Voxel bathroom",
+    "authorId": "cLheo93IjJ8",
+    "authorName": "Anonymous",
+    "createTime": "2019-03-19T22:34:53.105492Z",
+    "updateTime": "2020-10-07T10:09:29.402044Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bathroom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bathroom.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bathroom_jam_new.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9614"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "bathroom.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bathroom_jam_new.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bathroom.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9614"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#37474f"
+    }
+}

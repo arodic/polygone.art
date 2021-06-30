@@ -1,0 +1,63 @@
+{
+    "name": "Low Poly Chess - Pawn",
+    "authorId": "ccxIgpSaIlA",
+    "authorName": "Leo Battle",
+    "createTime": "2017-12-22T15:02:19.431889Z",
+    "updateTime": "2020-09-26T09:49:11.865186Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pawn.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "white.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "pawn.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "542"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "pawn.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pawn.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "white.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "542"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

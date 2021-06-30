@@ -1,0 +1,55 @@
+{
+    "name": "Maqueta Virtual UAO",
+    "description": "Proceso productivo virtual Ingeniería Industrial UAO",
+    "authorId": "9l5RGip82Ts",
+    "authorName": "Alexander Aragón Chamorro",
+    "createTime": "2020-07-26T22:55:11.969507Z",
+    "updateTime": "2020-09-02T10:11:33.946736Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Maqueta_Light.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Maqueta_Light.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "38104"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Maqueta_Light.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Maqueta_Light.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "38104"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

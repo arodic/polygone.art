@@ -1,0 +1,67 @@
+{
+    "name": "Randy",
+    "description": "ATHF",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-08T07:40:54.158986Z",
+    "updateTime": "2020-10-07T09:58:39.025488Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "randy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "randy.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "randy.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4480"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "randy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "randy.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "randy.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4480"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff5722"
+    }
+}

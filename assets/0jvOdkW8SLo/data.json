@@ -1,0 +1,62 @@
+{
+    "name": "k1",
+    "authorId": "8rw-TyLX8vg",
+    "authorName": "埋文太郎",
+    "createTime": "2019-06-21T07:32:36.778106Z",
+    "updateTime": "2020-09-16T09:28:56.175080Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "51316"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "mesh.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "51316"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

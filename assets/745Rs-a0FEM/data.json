@@ -1,0 +1,68 @@
+{
+    "name": "Pina colada",
+    "description": "#alcohol #drink #tropical #cocktail",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T16:04:12.037845Z",
+    "updateTime": "2021-06-03T18:26:35.887520Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "alcohol",
+        "drink",
+        "tropical",
+        "cocktail"
+    ],
+    "likes": 30,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PinaColada.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PinaColada.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "PinaColada_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "686"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "PinaColada.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PinaColada.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PinaColada_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "686"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#80deea"
+    }
+}

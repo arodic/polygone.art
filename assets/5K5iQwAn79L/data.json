@@ -1,0 +1,49 @@
+{
+    "name": "Donut",
+    "description": "A simple Chocolate dipped donut",
+    "authorId": "304TvyvPJxa",
+    "authorName": "Gabriel D",
+    "createTime": "2020-12-12T21:46:36.689923Z",
+    "updateTime": "2020-12-12T21:52:38.116231Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2316"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Donut.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {
+                "triangleCount": "2316"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8a0ec4"
+    }
+}

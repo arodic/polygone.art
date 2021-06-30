@@ -1,0 +1,66 @@
+{
+    "name": "Blender",
+    "description": "#appliance #kitchen",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-20T15:23:07.885938Z",
+    "updateTime": "2021-06-08T08:42:58.785533Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated",
+        "appliance",
+        "kitchen"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Blender 2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Blender 2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Blender Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1274"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Blender 2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Blender 2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Blender Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1274"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffc107"
+    }
+}

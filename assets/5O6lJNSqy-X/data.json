@@ -1,0 +1,50 @@
+{
+    "name": "Globe",
+    "description": "Globe",
+    "authorId": "c80pACzSL15",
+    "authorName": "shoaib lodhi",
+    "createTime": "2018-02-01T09:27:33.253774Z",
+    "updateTime": "2020-10-06T09:57:03.247324Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "globe.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "globe.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "62185"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "globe.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "62185"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0277bd"
+    }
+}

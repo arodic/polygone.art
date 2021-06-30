@@ -1,0 +1,80 @@
+{
+    "name": "Skate pool with Graffiti - VR",
+    "description": "This is an low poly photoscan model with two panoramic images for the environment. The skate pool is located in Lagoa, Rio de Janeiro, Brazil. The scan was shot with a Sony alpha 7 on a tripod shooting 3 exposure brackets from 96 positions around the edge of the pool. The two panos were shot with a Nikon D40 with Nodal Ninja, exposure wedge of 10 photos to capture HDR images. Everything here is pretty tonemapped to be bright, but all source textures are 16-bit float, so I will next try bringing them into Unity for realtime lighting. There is a full description of this workflow at my blog here.\nhttp://tojek.com/vfx/?p=326",
+    "authorId": "5-wxGoDx7tw",
+    "authorName": "Jon Tojek",
+    "createTime": "2017-12-09T00:19:19.293987Z",
+    "updateTime": "2021-03-07T21:16:00.088377Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 38,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scan_skate02_diorama_v05.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scan_skate02_diorama_v05.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model/scan_skate02_v06.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model/pano_skate02b_baked.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model/pano_skate02a_baked.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13143"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model/scan_skate02_diorama_v05.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model/scan_skate02_diorama_v05.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model/pano_skate02a_baked.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model/pano_skate02b_baked.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model/scan_skate02_v06.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13143"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

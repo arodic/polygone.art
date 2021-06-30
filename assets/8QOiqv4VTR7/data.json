@@ -1,0 +1,53 @@
+{
+    "name": "Farlab Logo",
+    "description": "An on demand 3D printing service farlabhq.com #logo",
+    "authorId": "8oPvij2waMz",
+    "authorName": "Bryan Chappell",
+    "createTime": "2017-11-03T15:50:02.907257Z",
+    "updateTime": "2020-10-07T10:03:51.131859Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "logo"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Farlab 3D.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "36"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Farlab 3D.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Farlab 3D.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865476,
+            "y": -5.551115123125783e-17,
+            "z": -3.3306690738754696e-16,
+            "w": 0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1a237e"
+    }
+}

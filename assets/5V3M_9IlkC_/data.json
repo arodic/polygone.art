@@ -1,0 +1,67 @@
+{
+    "name": "Feather",
+    "description": "#bird #plummage",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:05:15.645238Z",
+    "updateTime": "2021-06-05T22:01:11.517289Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "bird",
+        "plummage"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "feather.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "feather.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "featherTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "feather.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "feather.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "featherTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffc107"
+    }
+}

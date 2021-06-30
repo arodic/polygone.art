@@ -1,0 +1,63 @@
+{
+    "name": "Lighthouse Blender Poly 11-5",
+    "description": "Lighthouse Blender Poly 11-5",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-11-05T16:06:03.644801Z",
+    "updateTime": "2020-05-15T09:53:36.027019Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "blender_export.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "blender_export.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lighthouse_baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "555"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "blender_export.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lighthouse_baked.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "blender_export.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "555"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

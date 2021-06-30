@@ -1,0 +1,60 @@
+{
+    "name": "GB onion",
+    "authorId": "avTdnbYBjTL",
+    "authorName": "András Kassai",
+    "createTime": "2019-11-02T17:13:09.297627Z",
+    "updateTime": "2020-06-04T10:19:59.264359Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "onion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "onion.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "onion.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "84"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "onion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "onion.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "onion.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "84"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

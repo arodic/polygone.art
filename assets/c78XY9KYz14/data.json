@@ -1,0 +1,63 @@
+{
+    "name": "Abstract Spiral",
+    "description": "EVOL\nRFX",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2019-03-05T08:05:56.261324Z",
+    "updateTime": "2020-09-25T10:26:18.866862Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Abstract.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "_.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Abstract.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "92"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Abstract.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Abstract.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "_.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "92"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

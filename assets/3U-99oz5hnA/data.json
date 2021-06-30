@@ -1,0 +1,63 @@
+{
+    "name": "iPhone",
+    "description": "「まるごとわかる3Dドットモデリング入門」第3章で作成したiPhoneのドットモデル",
+    "authorId": "dfVTEEFCPaC",
+    "authorName": "げんげん（gengen）",
+    "createTime": "2018-08-24T19:13:21.671930Z",
+    "updateTime": "2020-10-07T09:42:21.811693Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "iPhone.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "iPhone.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "iPhone.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "508"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "iPhone.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "iPhone.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "iPhone.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "508"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

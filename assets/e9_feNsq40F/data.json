@@ -1,0 +1,62 @@
+{
+    "name": "TheEnd",
+    "authorId": "1HCkO0xJkhX",
+    "authorName": "Derky Sprawl",
+    "createTime": "2018-10-19T00:28:15.132124Z",
+    "updateTime": "2020-08-20T10:28:39.627181Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "theend.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "theend.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TheEnd.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "theend.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TheEnd.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "theend.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Panorama 4:1 Image TheWaveVR",
+    "description": "Replace panorama.jpg with any 4:1 panoramic image max size 4096 x 1024",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-02-11T19:07:36.980713Z",
+    "updateTime": "2020-10-03T10:18:51.376145Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "panorama.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "panorama.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "panorama.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "panorama.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "panorama.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "panorama.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Lighthouse DnOBJ Up stag",
+    "description": "Lighthouse DnOBJ Up stag",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-10-24T21:50:54.621152Z",
+    "updateTime": "2020-03-02T10:55:40.661237Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lighthouse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lighthouse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lighthouse_baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "555"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "lighthouse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lighthouse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "lighthouse_baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "555"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

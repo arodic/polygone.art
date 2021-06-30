@@ -1,0 +1,63 @@
+{
+    "name": "swordman",
+    "description": "a swordman",
+    "authorId": "05h6R42L3px",
+    "authorName": "Sanghun Jeong",
+    "createTime": "2018-10-05T08:26:56.257398Z",
+    "updateTime": "2021-02-13T11:45:09.188152Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SwordMan.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SwordMan.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SwordMan.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "494"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "SwordMan.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SwordMan.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SwordMan.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "494"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

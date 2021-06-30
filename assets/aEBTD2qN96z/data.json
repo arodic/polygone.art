@@ -1,0 +1,55 @@
+{
+    "name": "jack2.0",
+    "authorId": "5idOtchBo8q",
+    "authorName": "julien vantard",
+    "createTime": "2018-01-11T16:55:33.566238Z",
+    "updateTime": "2021-02-15T01:56:54.108599Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "jackobj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "jackobj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "454004"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "jackobj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "jackobj.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "454004"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#006064"
+    }
+}

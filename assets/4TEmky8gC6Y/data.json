@@ -1,0 +1,61 @@
+{
+    "name": "Minecraft",
+    "description": "cool",
+    "authorId": "cKRopEcDG7C",
+    "authorName": "Andres Carranza",
+    "createTime": "2019-11-11T02:47:36.400770Z",
+    "updateTime": "2020-02-25T20:32:28.517886Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "minecraft-steve.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "minecraft-steve.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Herobrine.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "84"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "minecraft-steve.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Herobrine.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "minecraft-steve.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "84"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#da0f0f"
+    }
+}

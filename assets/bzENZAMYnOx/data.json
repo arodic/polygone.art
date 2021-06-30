@@ -1,0 +1,65 @@
+{
+    "name": "bee fantasy",
+    "description": "animal",
+    "authorId": "7wWSL6BMhDl",
+    "authorName": "M Smith Jonn",
+    "createTime": "2018-03-27T13:19:51.013521Z",
+    "updateTime": "2021-06-07T11:13:18.863058Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "google poly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "google poly.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "a8.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1206"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "google poly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "a8.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "google poly.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1206"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 1,
+            "w": 2.220446049250313e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

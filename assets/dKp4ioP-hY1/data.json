@@ -1,0 +1,64 @@
+{
+    "name": "部屋",
+    "description": "部屋",
+    "authorId": "99VuVXH6oer",
+    "authorName": "Kenta Imai",
+    "createTime": "2017-11-28T13:12:41.847013Z",
+    "updateTime": "2021-06-08T11:12:58.096692Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "myroom.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "myroom.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "myroom.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1902"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "myroom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "myroom.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "myroom.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1902"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

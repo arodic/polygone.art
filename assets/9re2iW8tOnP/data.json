@@ -1,0 +1,66 @@
+{
+    "name": "Eel",
+    "description": "#underwater #wildlife ",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-27T20:12:07.960721Z",
+    "updateTime": "2021-06-08T10:00:02.739889Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "underwater",
+        "wildlife"
+    ],
+    "likes": 11,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Eel.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Eel.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Eel.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "280"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Eel.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Eel.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Eel.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "280"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#37474f"
+    }
+}

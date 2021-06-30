@@ -1,0 +1,63 @@
+{
+    "name": "Sphinx",
+    "description": "Limestone sphinx, 9.6 cm.\nThe National Museum of Denmark: Inv. no. 10449.",
+    "authorId": "7Enw2A4yrRU",
+    "authorName": "Athana Lindia Nationalmuseet",
+    "createTime": "2020-11-22T00:08:51.568981Z",
+    "updateTime": "2020-12-27T18:02:13.088563Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "10449/10449.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "10449/10449.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "10449/G:/objects/figurines/10449-/10449.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "420524"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "10449.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "10449.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "10449/G:/objects/figurines/10449-/10449.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "420524"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

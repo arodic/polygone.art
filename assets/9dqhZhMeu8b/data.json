@@ -1,0 +1,62 @@
+{
+    "name": "Lighthouse OBJDnOBJUp stag",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-12-10T21:52:36.151175Z",
+    "updateTime": "2020-03-02T10:52:34.422110Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lighthouse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lighthouse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lighthouse_baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "555"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "lighthouse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lighthouse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "lighthouse_baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "555"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Missile",
+    "description": "#rocket #weapon",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-21T19:46:56.284390Z",
+    "updateTime": "2021-06-03T15:00:39.932209Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated",
+        "rocket",
+        "weapon"
+    ],
+    "likes": 43,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Missile.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Missile.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "DefaultMaterial_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1642"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Missile.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Missile.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "DefaultMaterial_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1642"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffb74d"
+    }
+}

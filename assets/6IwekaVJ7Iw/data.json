@@ -1,0 +1,53 @@
+{
+    "name": "matrix  symbol2",
+    "description": "matrixscene1",
+    "authorId": "6EAUO9l9EA2",
+    "authorName": "micah O",
+    "createTime": "2019-08-31T12:52:13.200659Z",
+    "updateTime": "2020-10-06T09:57:51.080727Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "matrix_2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "matrix_2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "matrix_2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "matrix_2.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+    }
+}

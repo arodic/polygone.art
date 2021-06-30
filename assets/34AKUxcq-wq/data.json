@@ -1,0 +1,63 @@
+{
+    "name": "Cosmic microwave sphere",
+    "description": "Cosmic microwave background on sphere with bumps\n\nMade with Blender 3D (free Linux\\Mac PC app)",
+    "authorId": "0g8ddPDWI7Q",
+    "authorName": "Smirnoff Alexander",
+    "createTime": "2017-11-03T08:21:18.543228Z",
+    "updateTime": "2020-12-18T13:26:05.994795Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cosmic_microwave.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cosmic_microwave.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15872"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cosmic_microwave.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cosmic_microwave.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15872"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

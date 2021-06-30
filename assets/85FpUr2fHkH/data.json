@@ -1,0 +1,65 @@
+{
+    "name": "Basketball court",
+    "description": "#sports",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T23:04:48.448222Z",
+    "updateTime": "2021-05-23T11:13:36.117480Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "sports"
+    ],
+    "likes": 37,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BasketBallCourt.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BasketBallCourt.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BasketBallCourt_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "780"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "BasketBallCourt.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BasketBallCourt.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "BasketBallCourt_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "780"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#64b5f6"
+    }
+}

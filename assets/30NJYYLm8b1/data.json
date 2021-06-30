@@ -1,0 +1,47 @@
+{
+    "name": "Utah Teapot",
+    "description": "Teapot model by Martin Newell",
+    "authorId": "cXwnOFoS8Rv",
+    "authorName": "Andrew Wagner",
+    "createTime": "2020-11-19T04:42:12.917245Z",
+    "updateTime": "2020-11-19T04:51:48.994593Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "teapot.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "6320"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "teapot.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "teapot.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6320"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Wolf",
+    "description": "#dog",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-14T21:56:56.660593Z",
+    "updateTime": "2021-06-08T06:00:16.052419Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "dog"
+    ],
+    "likes": 26,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PUSHILIN_wolf.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PUSHILIN_wolf.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PUSHILIN_wolf.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "320"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "PUSHILIN_wolf.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PUSHILIN_wolf.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "PUSHILIN_wolf.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "320"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#37474f"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Cherub test1",
+    "authorId": "ebqHefpisrG",
+    "authorName": "Byron Alfonso Perez Gutierrez",
+    "createTime": "2020-05-14T13:55:00.104862Z",
+    "updateTime": "2020-05-14T14:03:26.194786Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cherub3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cherub3.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "cherub3.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "222928"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cherub3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cherub3.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cherub3.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "222928"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Flamingo",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-13T13:33:56.415802Z",
+    "updateTime": "2020-07-10T07:46:03.882293Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "flamingo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CH_NPC_ENV_Flamingo_A01_D_NWCEVA.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "flamingo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1440"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "flamingo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "flamingo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CH_NPC_ENV_Flamingo_A01_D_NWCEVA.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1440"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "bad train",
+    "description": "A strangely warped & crumpled piece of vintage IRT rolling stock",
+    "authorId": "13-pIoNY9Mx",
+    "authorName": "Luke Jaeger",
+    "createTime": "2018-11-29T02:19:49.655684Z",
+    "updateTime": "2020-09-23T10:21:48.687312Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tex01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "72264"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tex01.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tex.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "72264"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

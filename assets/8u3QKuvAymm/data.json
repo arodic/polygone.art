@@ -1,0 +1,62 @@
+{
+    "name": "Señalización de PARE",
+    "authorId": "bv7AKt5TXtZ",
+    "authorName": "Mario Barretto",
+    "createTime": "2018-12-23T17:39:22.275845Z",
+    "updateTime": "2020-06-06T10:01:24.917323Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "stopSign.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "stopSign.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "stopSignTxt.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "stopSign.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "stopSign.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "stopSignTxt.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f44336"
+    }
+}

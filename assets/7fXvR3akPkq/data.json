@@ -1,0 +1,63 @@
+{
+    "name": "XES LOGO",
+    "description": "XES logo",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2018-04-11T20:53:01.506794Z",
+    "updateTime": "2020-09-28T10:00:14.001765Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poster.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "poster.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

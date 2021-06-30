@@ -1,0 +1,63 @@
+{
+    "name": "DOSTOEWSKI",
+    "authorId": "asEoHS0qATy",
+    "authorName": "Dmitry Vrubel",
+    "createTime": "2017-12-08T12:24:50.626867Z",
+    "updateTime": "2020-09-27T09:51:05.054824Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "DOSTOEWSKI.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "DOSTOEWSKI.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "DOSTOEWSKI.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "DOSTOEWSKI.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "DOSTOEWSKI.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "DOSTOEWSKI.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

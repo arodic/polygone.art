@@ -1,0 +1,68 @@
+{
+    "name": "studio",
+    "authorId": "bSwI-39cbCP",
+    "authorName": "Anonymous",
+    "createTime": "2018-04-03T21:10:40.949216Z",
+    "updateTime": "2020-08-27T10:13:00.663222Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "initialShadingGroup_base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "initialShadingGroup_metallic_roughness.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "initialShadingGroup_base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "initialShadingGroup_metallic_roughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

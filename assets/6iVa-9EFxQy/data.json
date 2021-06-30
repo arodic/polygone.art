@@ -1,0 +1,53 @@
+{
+    "name": "spikesphere",
+    "description": "relent311",
+    "authorId": "8qC68ooAFzP",
+    "authorName": "Relent311",
+    "createTime": "2019-05-01T02:27:37.072450Z",
+    "updateTime": "2020-09-29T09:46:38.370108Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "spikesphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "spikesphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14400"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "spikesphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "spikesphere.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14400"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

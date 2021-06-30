@@ -1,0 +1,65 @@
+{
+    "name": "Black hole",
+    "description": "#space #cosmos",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-26T14:47:39.758145Z",
+    "updateTime": "2021-06-08T09:55:40.161452Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "space",
+        "cosmos"
+    ],
+    "likes": 22,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BlackHole.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BlackHole.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "BlackHole_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1572"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "BlackHole.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BlackHole.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BlackHole_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1572"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#37474f"
+    }
+}

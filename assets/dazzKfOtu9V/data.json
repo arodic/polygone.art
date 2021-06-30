@@ -1,0 +1,61 @@
+{
+    "name": "犬の像",
+    "description": "犬の像",
+    "authorId": "4iApZE2V3ed",
+    "authorName": "Yoshinaga Tatsuki (僕秩)",
+    "createTime": "2021-01-01T22:29:30.565846Z",
+    "updateTime": "2021-01-01T22:37:53.692666Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "textured_output.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured_output.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textured_output.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "523786"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "textured_output.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured_output.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textured_output.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "523786"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

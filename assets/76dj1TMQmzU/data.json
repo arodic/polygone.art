@@ -1,0 +1,64 @@
+{
+    "name": "Mini me - danrojas",
+    "description": "3D scan from Robert Hernandez at #NAHJ2018 :)",
+    "authorId": "eYU0_U8FLC-",
+    "authorName": "Daniel Rojas Roa",
+    "createTime": "2018-07-21T05:43:36.903129Z",
+    "updateTime": "2020-08-28T09:58:59.030843Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "NAHJ2018"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_texture.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model_mesh.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "198360"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model_mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "198360"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

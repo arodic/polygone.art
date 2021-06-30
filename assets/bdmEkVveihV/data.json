@@ -1,0 +1,61 @@
+{
+    "name": "DC9Poster",
+    "description": "TheWaveVR The Wave VR Dead Channel Moike",
+    "authorId": "9-GSRLfpTro",
+    "authorName": "Moike",
+    "createTime": "2019-03-12T05:00:54.177284Z",
+    "updateTime": "2020-09-24T10:20:41.471213Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poster.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "poster.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "poster.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "poster.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

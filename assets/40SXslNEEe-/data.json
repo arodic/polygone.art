@@ -1,0 +1,60 @@
+{
+    "name": "cube 8",
+    "authorId": "2HqS8eksUEG",
+    "authorName": "Tim Hennessey",
+    "createTime": "2018-05-04T20:05:30.998338Z",
+    "updateTime": "2020-09-24T09:48:59.928380Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cube.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Baja_Blast_Logo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cube.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Baja_Blast_Logo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0288d1"
+    }
+}

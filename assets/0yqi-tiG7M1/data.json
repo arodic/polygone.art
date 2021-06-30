@@ -1,0 +1,55 @@
+{
+    "name": "God Trident",
+    "description": "A divine trident . ",
+    "authorId": "6_TpQd6qGPH",
+    "authorName": "kewal kishan",
+    "createTime": "2019-06-05T18:07:18.848807Z",
+    "updateTime": "2020-02-25T19:59:06.749045Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "trident.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "trident.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8644"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "trident.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "trident.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8644"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Tree",
+    "description": "It's a tree.",
+    "authorId": "05h6R42L3px",
+    "authorName": "Sanghun Jeong",
+    "createTime": "2018-09-16T06:21:38.728746Z",
+    "updateTime": "2021-02-13T12:02:57.769481Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Tree_Tall.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Tree_Tall.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tree_Tall.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1900"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Tree_Tall.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Tree_Tall.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Tree_Tall.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1900"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

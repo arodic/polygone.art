@@ -1,0 +1,60 @@
+{
+    "name": "illusion natty",
+    "authorId": "eGovNLf2UJT",
+    "authorName": "Natasha M",
+    "createTime": "2020-04-18T00:51:05.412165Z",
+    "updateTime": "2020-06-09T22:07:30.062846Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "illusion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "illusion.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "illusion/illusion.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "124"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "illusion/illusion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "illusion/illusion.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "illusion/illusion.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "124"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

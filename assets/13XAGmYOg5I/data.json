@@ -1,0 +1,61 @@
+{
+    "name": "Cupcake",
+    "authorId": "1vqwLPGBNZI",
+    "authorName": "Vira Shah",
+    "createTime": "2019-03-18T22:27:06.015361Z",
+    "updateTime": "2020-09-22T09:28:35.087716Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16250"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16250"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

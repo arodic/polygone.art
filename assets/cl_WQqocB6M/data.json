@@ -1,0 +1,55 @@
+{
+    "name": "Hussar robot",
+    "description": "The famous Polish hussar cavalry in a form of a robot. UVs, textures, armature attached.\n\nContact me via:\nwww.loganimate.pl",
+    "authorId": "a2Jf_XXdg4z",
+    "authorName": "Wyswobodzeni do wolności",
+    "createTime": "2018-04-28T17:28:05.384426Z",
+    "updateTime": "2020-02-25T22:25:48.035867Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hussar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hussar.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "262512"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "hussar/hussar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hussar/hussar.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "262512"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0288d1"
+    }
+}

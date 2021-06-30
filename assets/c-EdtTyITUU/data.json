@@ -1,0 +1,46 @@
+{
+    "name": "Bomb",
+    "authorId": "2w2rKPSHfno",
+    "authorName": "Wuttidech Tarbsuntea",
+    "createTime": "2019-11-14T03:01:15.827522Z",
+    "updateTime": "2020-05-19T10:28:54.616998Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "boom.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "300"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "boom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "boom.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "300"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

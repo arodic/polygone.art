@@ -1,0 +1,60 @@
+{
+    "name": "Lanscape Test",
+    "authorId": "4Fz7nVL9P6e",
+    "authorName": "Carl Moleta",
+    "createTime": "2019-06-04T01:37:11.202395Z",
+    "updateTime": "2020-03-27T10:47:08.425165Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "skybox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "skybox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

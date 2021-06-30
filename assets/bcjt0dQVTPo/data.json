@@ -1,0 +1,59 @@
+{
+    "name": "Brain Model from MRI",
+    "description": "Surface model of a brain from an MRI scan, segmented to include both gray and white matter.",
+    "authorId": "df9AYSrjG2_",
+    "authorName": "Andreas Jakl",
+    "createTime": "2017-11-02T10:10:26.351426Z",
+    "updateTime": "2021-04-30T00:13:23.026617Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 30,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BrainModel-Gray.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BrainModel-Gray.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "91258"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "BrainModel-Gray.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BrainModel-Gray.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "91258"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.5,
+            "w": 0.5
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

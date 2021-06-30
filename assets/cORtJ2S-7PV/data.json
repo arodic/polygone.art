@@ -1,0 +1,55 @@
+{
+    "name": "rose",
+    "description": "flower",
+    "authorId": "7wWSL6BMhDl",
+    "authorName": "M Smith Jonn",
+    "createTime": "2018-04-01T03:25:59.711953Z",
+    "updateTime": "2020-09-25T10:22:38.952704Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rose pink.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rose pink.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1910"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rose pink.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rose pink.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1910"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c5e1a5"
+    }
+}

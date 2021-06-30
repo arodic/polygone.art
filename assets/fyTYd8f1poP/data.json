@@ -1,0 +1,65 @@
+{
+    "name": "Highway",
+    "description": "#roads",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-11T04:58:07.922780Z",
+    "updateTime": "2021-05-23T12:56:01.052867Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "roads"
+    ],
+    "likes": 12,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_HIGHWAY.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_HIGHWAY.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "highwaySurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "804"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_HIGHWAY.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_HIGHWAY.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "highwaySurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "804"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+    }
+}

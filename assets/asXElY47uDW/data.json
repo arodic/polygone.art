@@ -1,0 +1,60 @@
+{
+    "name": "Sappho PG",
+    "authorId": "aBUEszOyrle",
+    "authorName": "G-Dub",
+    "createTime": "2020-01-27T01:59:44.698443Z",
+    "updateTime": "2020-10-04T10:16:01.652843Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poster.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "poster.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "poster.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

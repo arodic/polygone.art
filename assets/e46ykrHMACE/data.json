@@ -1,0 +1,63 @@
+{
+    "name": "machinery",
+    "description": "cyberpunk",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T09:42:49.292830Z",
+    "updateTime": "2020-06-06T10:27:04.970725Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "red machines.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "red machines.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "MAT_scifiContainers_01_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6952"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "red machines.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "red machines.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "MAT_scifiContainers_01_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6952"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "lion",
+    "authorId": "1_pZZOjghSY",
+    "authorName": "Risa Pizza",
+    "createTime": "2018-10-16T16:01:39.745906Z",
+    "updateTime": "2021-04-07T06:12:02.813461Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lion.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lion/lion.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "396"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "lion/lion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lion/lion.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "lion/lion.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "396"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

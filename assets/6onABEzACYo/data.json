@@ -1,0 +1,63 @@
+{
+    "name": "Graffiti Wall Test",
+    "description": "I don't think I spelled that right. ",
+    "authorId": "1HCkO0xJkhX",
+    "authorName": "Derky Sprawl",
+    "createTime": "2018-10-04T09:51:30.671249Z",
+    "updateTime": "2020-08-29T09:52:18.028489Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GrafftiWall1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "GrafftiWall1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "wildtextures-grunge-graffiti-street-wall.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "GrafftiWall1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "wildtextures-grunge-graffiti-street-wall.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "GrafftiWall1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

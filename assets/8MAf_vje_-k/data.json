@@ -1,0 +1,67 @@
+{
+    "name": "Deer",
+    "description": "#deer #elk #antlers",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T20:52:22.313161Z",
+    "updateTime": "2021-06-08T11:18:27.913161Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "deer",
+        "elk",
+        "antlers"
+    ],
+    "likes": 17,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PUSHILIN_deer.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PUSHILIN_deer.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PUSHILIN_deer.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "626"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "PUSHILIN_deer.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PUSHILIN_deer.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "PUSHILIN_deer.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "626"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#388e3c"
+    }
+}

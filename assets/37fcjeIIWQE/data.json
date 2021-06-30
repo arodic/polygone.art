@@ -1,0 +1,55 @@
+{
+    "name": "Maqueta Industrial UAO",
+    "description": "Maqueta Virtual Ingeniería Industrial UAO",
+    "authorId": "9l5RGip82Ts",
+    "authorName": "Alexander Aragón Chamorro",
+    "createTime": "2020-07-26T20:44:37.296586Z",
+    "updateTime": "2020-09-04T09:39:36.209230Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Maqueta_Light.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Maqueta_Light.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "40024"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Maqueta_Light.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Maqueta_Light.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "40024"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "name": "test",
+    "description": "first upload",
+    "authorId": "7SkclI9tOWl",
+    "authorName": "Samuel Williams",
+    "createTime": "2017-11-02T23:30:08.491293Z",
+    "updateTime": "2020-06-01T09:59:33.491449Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "joe_3_mm.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "610004"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "joe_3_mm.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "joe_3_mm.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "610004"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "Remix-TheWaveVR",
+    "description": "TheWaveVR",
+    "authorId": "br9ugLqKeUG",
+    "authorName": "The Wave",
+    "createTime": "2018-01-06T23:22:35.346651Z",
+    "updateTime": "2020-11-23T12:19:27.072122Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "animals",
+        "curated"
+    ],
+    "likes": 20,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "183830"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    },
+    "remixInfo": {
+        "sourceAsset": [
+            "assets/0Bvdf1H6zHC"
+        ]
+    }
+}

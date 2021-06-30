@@ -1,0 +1,56 @@
+{
+    "name": "Beholder",
+    "description": "Beholder creature made with Doodle3D Transform by Nico van Dijk",
+    "authorId": "0ThWURXrSLo",
+    "authorName": "Rick Companje",
+    "createTime": "2017-11-07T16:29:10.964810Z",
+    "updateTime": "2021-06-06T12:57:16.210306Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "object.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "material.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15044"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "object.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "object.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15044"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

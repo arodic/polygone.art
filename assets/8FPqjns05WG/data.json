@@ -1,0 +1,63 @@
+{
+    "name": "Psychedelic 06 16:9 Poster 25%",
+    "description": "TheWaveVR - 25% Transparent",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-02-11T04:02:50.801497Z",
+    "updateTime": "2020-09-16T10:02:54.399523Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poster.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "poster.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "poster.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

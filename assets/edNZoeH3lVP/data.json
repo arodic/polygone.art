@@ -1,0 +1,68 @@
+{
+    "name": "Bike",
+    "description": "#bicycle #ride #wheels #pedal",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-11T01:21:58.299211Z",
+    "updateTime": "2021-05-19T15:13:14.215579Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "bicycle",
+        "ride",
+        "wheels",
+        "pedal"
+    ],
+    "likes": 61,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Bike.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bike.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bike Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5742"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Bike.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bike.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Bike Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5742"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#78909c"
+    }
+}

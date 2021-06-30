@@ -1,0 +1,60 @@
+{
+    "name": "Chris's Head",
+    "authorId": "dcfhazabb4P",
+    "authorName": "Chris Melvin",
+    "createTime": "2020-04-22T21:24:46.918782Z",
+    "updateTime": "2020-05-09T10:10:29.051059Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "head3d.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "head3d.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "head3d.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "head3d.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "head3d.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "head3d.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

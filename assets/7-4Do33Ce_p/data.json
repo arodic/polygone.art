@@ -1,0 +1,53 @@
+{
+    "name": "石膏像ヘルメス",
+    "description": "フォトグラメトリによる３Dモデル",
+    "authorId": "frKfDfNgP6S",
+    "authorName": "鈴木一太郎",
+    "createTime": "2020-11-26T17:12:22.034264Z",
+    "updateTime": "2020-12-02T00:50:28.317509Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CL_HERMES_TXTR.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "79998"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "HERMES.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {
+                "triangleCount": "79998"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

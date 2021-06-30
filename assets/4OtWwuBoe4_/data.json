@@ -1,0 +1,60 @@
+{
+    "name": "Deep Sea Dream",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-10-27T19:09:23.176157Z",
+    "updateTime": "2020-10-07T09:45:58.689733Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "deepseadream.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "deepseadreamsphere.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "deepseadream.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1890"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "deepseadream.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "deepseadream.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "deepseadreamsphere.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1890"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

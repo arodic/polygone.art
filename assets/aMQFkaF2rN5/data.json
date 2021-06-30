@@ -1,0 +1,67 @@
+{
+    "name": "Volcano Glitch",
+    "description": "Wave VR Sample Test",
+    "authorId": "b2ikoEeSajv",
+    "authorName": "Antoine Carr",
+    "createTime": "2019-10-22T06:57:41.715605Z",
+    "updateTime": "2020-11-05T11:29:31.536670Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Volcano.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "Volcano_albedo.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Volcano_emissive.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Volcano_normal.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Volcano_specular.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "34452"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "34452"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

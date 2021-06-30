@@ -1,0 +1,65 @@
+{
+    "name": "Basketball",
+    "description": "#sports",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T03:52:37.180030Z",
+    "updateTime": "2021-05-19T19:51:24.728329Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "sports"
+    ],
+    "likes": 38,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Basketball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Basketball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "DefaultMaterial_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "768"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Basketball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Basketball.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "DefaultMaterial_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "768"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

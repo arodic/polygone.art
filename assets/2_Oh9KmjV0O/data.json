@@ -1,0 +1,55 @@
+{
+    "name": "Gravestone",
+    "description": "O' Praise the holy spirit and help this poor lost soul",
+    "authorId": "ddAU2OVphIb",
+    "authorName": "Ryc0re Animations",
+    "createTime": "2021-02-25T04:20:50.207900Z",
+    "updateTime": "2021-02-25T04:27:13.645252Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "grave.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "grave.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "140"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "grave.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "grave.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "140"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

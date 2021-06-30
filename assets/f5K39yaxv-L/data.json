@@ -1,0 +1,67 @@
+{
+    "name": "Copper Briefs",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-24T15:55:07.940058Z",
+    "updateTime": "2020-02-25T23:04:12.099098Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "coppergroin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "coppergroin.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "coppergroin_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "coppergroin_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "coppergroin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "coppergroin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "coppergroin_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": -0.5,
+            "z": -0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Moulin de la minière",
+    "description": "Photogrametrie et visualisation 3D via prises de vue drone",
+    "authorId": "aMpRxxc8nDd",
+    "authorName": "Nuno Marcelino - Invideo",
+    "createTime": "2019-01-08T18:59:13.892910Z",
+    "updateTime": "2020-03-27T09:43:00.206918Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "travel"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "miniere7.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "miniere7.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "miniere.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "734881"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "miniere7.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "miniere7.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "miniere.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "734881"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "teste 3d",
+    "description": "tete 3d",
+    "authorId": "6uylRD_LWXM",
+    "authorName": "Carlos Eduardo",
+    "createTime": "2018-10-30T14:42:00.860857Z",
+    "updateTime": "2020-05-17T09:59:42.423302Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "teste obj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "teste obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "teste obj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "teste obj.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

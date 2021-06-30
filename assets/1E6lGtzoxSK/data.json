@@ -1,0 +1,62 @@
+{
+    "name": "Moon",
+    "authorId": "67YjztdDvFd",
+    "authorName": "BlackSheepA1",
+    "createTime": "2019-10-27T09:59:44.196025Z",
+    "updateTime": "2020-10-07T09:32:36.976561Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Moon.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Moon.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Moon/material2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Moon.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Moon.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Moon/material2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

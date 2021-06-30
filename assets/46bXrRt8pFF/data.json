@@ -1,0 +1,66 @@
+{
+    "name": "Wolf",
+    "description": "#wolf #animal #creature",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-06T17:10:26.100849Z",
+    "updateTime": "2021-06-16T12:39:57.456890Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "wolf",
+        "animal",
+        "creature"
+    ],
+    "likes": 132,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Wolves.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Wolves.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Wolves_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "948"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Wolves.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Wolves.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Wolves_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "948"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

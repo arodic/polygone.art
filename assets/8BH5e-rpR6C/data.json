@@ -1,0 +1,63 @@
+{
+    "name": "Minecraft Fan Art",
+    "description": "Made in Magicavoxel",
+    "authorId": "7spF0lg3keT",
+    "authorName": "Ivan Mercado",
+    "createTime": "2019-06-16T06:29:18.525773Z",
+    "updateTime": "2020-10-08T01:03:58.558845Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fishing.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fishing.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fishing.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "130502"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "fishing.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fishing.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fishing.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "130502"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "name": "Cocina Minecraft",
+    "description": "Cocina estilo Minecraft.\nCon materiales usados y objetos.",
+    "authorId": "3tcYL3XHpq2",
+    "authorName": "Anonymous",
+    "createTime": "2019-10-11T12:09:51.816700Z",
+    "updateTime": "2021-04-05T12:10:16.402552Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Cocina.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Minecraft.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Blanca.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Cocina.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Ladrillos.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9560"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Cocina.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cocina.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Minecraft.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Blanca.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Ladrillos.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9560"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b1e2f2"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "SANS",
+    "authorId": "bd1eBQd3ppf",
+    "authorName": "iTeen経堂",
+    "createTime": "2020-02-15T07:54:01.291492Z",
+    "updateTime": "2020-04-18T09:55:56.828229Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sans.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sans.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sans.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3290"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sans.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sans.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "sans.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3290"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "mapa1",
+    "authorId": "3dg2tBGUN0w",
+    "authorName": "Guest66666",
+    "createTime": "2019-07-01T20:58:20.716989Z",
+    "updateTime": "2020-04-02T09:42:31.477808Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mapacapitalavenida.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mapacapitalavenida.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mapa-cap-avenida.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mapacapitalavenida.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mapacapitalavenida.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mapa-cap-avenida.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

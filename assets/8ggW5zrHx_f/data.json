@@ -1,0 +1,49 @@
+{
+    "name": "tiger",
+    "description": "tiger",
+    "authorId": "8W96JW2JnsP",
+    "authorName": "Johnny Yeh",
+    "createTime": "2020-10-12T12:48:41.188677Z",
+    "updateTime": "2020-10-12T12:57:49.313250Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tiger.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {
+                "triangleCount": "5516"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5516"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

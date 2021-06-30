@@ -1,0 +1,62 @@
+{
+    "name": "SM - Woods",
+    "authorId": "ff5AHSfMiEc",
+    "authorName": "Scott Marshall",
+    "createTime": "2019-09-26T23:17:51.861561Z",
+    "updateTime": "2020-10-04T09:30:18.302182Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Woods.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Woods.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Woods/_8.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Woods.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Woods/_8.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Woods.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

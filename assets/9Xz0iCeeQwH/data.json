@@ -1,0 +1,69 @@
+{
+    "name": "Candle",
+    "description": "Candle for day of the dead altar",
+    "authorId": "e6c_7cSGxbe",
+    "authorName": "Miriam Bautista",
+    "createTime": "2018-11-01T21:50:07.360659Z",
+    "updateTime": "2020-09-23T10:04:30.865046Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "thumbnail.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model-triangulated.obj",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model.gltf",
+                    "contentType": "model/gltf+json"
+                },
+                {
+                    "relativePath": "model.obj",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

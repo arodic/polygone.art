@@ -1,0 +1,63 @@
+{
+    "name": "kreuz",
+    "description": "holzkreuz",
+    "authorId": "8Az5mbGdEko",
+    "authorName": "kai stachowiak",
+    "createTime": "2017-11-06T13:22:32.443037Z",
+    "updateTime": "2020-10-06T09:50:32.307670Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cross_kst.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cross_kst.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Mat_Farbe_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7168"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cross_kst.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cross_kst.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Mat_Farbe_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7168"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

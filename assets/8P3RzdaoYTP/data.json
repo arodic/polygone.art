@@ -1,0 +1,68 @@
+{
+    "name": "Ballpark",
+    "description": "#ballpark #park #field #baseball",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-02T00:32:11.401507Z",
+    "updateTime": "2021-06-08T10:36:06.490725Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "ballpark",
+        "park",
+        "field",
+        "baseball"
+    ],
+    "likes": 16,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_BALLPARK.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_BALLPARK.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ball_parkSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2224"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_BALLPARK.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_BALLPARK.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ball_parkSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2224"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e6ee9c"
+    }
+}

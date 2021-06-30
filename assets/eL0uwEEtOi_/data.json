@@ -1,0 +1,56 @@
+{
+    "name": "Andys Tree House",
+    "description": "Errors in polygons and materials.\nRemix of the Original Tree House\nby Danny Bittman. First attempt at converting direct from LWO to OBJ while preserving textures.",
+    "authorId": "f_uYg_Ji_8B",
+    "authorName": "Andy Wood",
+    "createTime": "2018-03-07T05:11:29.890297Z",
+    "updateTime": "2020-10-07T10:29:26.272708Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "andytreehouse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "andytreehouse.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "25740"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "andytreehouse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "andytreehouse.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "25740"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

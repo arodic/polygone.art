@@ -1,0 +1,62 @@
+{
+    "name": "TheAwakening #FV6",
+    "authorId": "01O5AGZco7f",
+    "authorName": "Fragmastre TV",
+    "createTime": "2020-09-13T18:15:44.185544Z",
+    "updateTime": "2020-10-04T09:41:48.808929Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "theawakening.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lightspeed.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "theawakening.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "756"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "theawakening.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "theawakening.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lightspeed.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "756"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

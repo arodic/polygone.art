@@ -1,0 +1,64 @@
+{
+    "name": "Cake",
+    "description": "My cake",
+    "authorId": "942JZrptVNA",
+    "authorName": "12KX2 QLDA",
+    "createTime": "2018-03-28T04:14:40.264801Z",
+    "updateTime": "2020-09-22T10:28:42.238756Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "40130"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "40130"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 1,
+            "w": 2.220446049250313e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

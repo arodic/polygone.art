@@ -1,0 +1,63 @@
+{
+    "name": "A woman",
+    "description": "It's a woman.",
+    "authorId": "05h6R42L3px",
+    "authorName": "Sanghun Jeong",
+    "createTime": "2018-09-21T11:18:35.076280Z",
+    "updateTime": "2021-02-13T11:50:55.767465Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Woman.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Woman.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Woman.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "512"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Woman.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Woman.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Woman.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "512"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

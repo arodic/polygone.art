@@ -1,0 +1,60 @@
+{
+    "name": "Swan",
+    "authorId": "bsWSGscRwof",
+    "authorName": "Harold Sikkema",
+    "createTime": "2019-07-09T18:41:46.464577Z",
+    "updateTime": "2020-09-24T09:40:16.391278Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "swan.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "swan.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "swan.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "swan.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "swan.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "swan.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

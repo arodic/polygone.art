@@ -1,0 +1,73 @@
+{
+    "name": "BooBoo",
+    "description": "My Chocolate Lab",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-22T21:15:29.251937Z",
+    "updateTime": "2020-10-04T10:24:12.400584Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Booboo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Booboo.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "booeye.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "boojColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180352"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Booboo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Booboo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "boojColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "booeye.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180352"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffc107"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "name": "Simple soccer football",
+    "description": "Made with Blender 3D",
+    "authorId": "0g8ddPDWI7Q",
+    "authorName": "Smirnoff Alexander",
+    "createTime": "2017-11-17T12:05:33.055041Z",
+    "updateTime": "2021-05-12T18:07:52.616003Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 34,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "white.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "black.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13200"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ball.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "black.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "white.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13200"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

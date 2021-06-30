@@ -1,0 +1,71 @@
+{
+    "name": "RENOVATION",
+    "authorId": "asEoHS0qATy",
+    "authorName": "Dmitry Vrubel",
+    "createTime": "2017-12-12T12:34:05.066970Z",
+    "updateTime": "2020-09-29T09:42:21.906292Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "RENOVATION.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "RENOVATION.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "RENOVATION.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "RENOVATION.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "RENOVATION.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "RENOVATION.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

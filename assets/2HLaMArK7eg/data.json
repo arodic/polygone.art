@@ -1,0 +1,62 @@
+{
+    "name": "petblo rbt zup",
+    "authorId": "bhj3O4zat8d",
+    "authorName": "Ross B",
+    "createTime": "2020-02-21T09:59:35.513376Z",
+    "updateTime": "2020-10-02T09:33:50.822690Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "zup.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "__.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "zup.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "288"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "zup.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "zup.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "__.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "288"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

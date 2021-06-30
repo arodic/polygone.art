@@ -1,0 +1,63 @@
+{
+    "name": "Femur",
+    "description": "scanned femur using itseez3d",
+    "authorId": "bSW5ivTWdbH",
+    "authorName": "Greg Dorsainville",
+    "createTime": "2017-12-12T18:26:13.663434Z",
+    "updateTime": "2020-10-06T10:22:51.580342Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 14,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "46462"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model_mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_mesh.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "46462"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

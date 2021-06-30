@@ -1,0 +1,58 @@
+{
+    "name": "Poly",
+    "description": "#Poly #Logo",
+    "authorId": "frOCLI33vmO",
+    "authorName": "Anonymous",
+    "createTime": "2017-11-02T19:20:08.830386Z",
+    "updateTime": "2020-10-07T09:31:44.190190Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated",
+        "Poly",
+        "Logo"
+    ],
+    "likes": 28,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poly.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "poly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poly.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "UV - Optics Osiris",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2020-01-12T11:32:36.743764Z",
+    "updateTime": "2021-04-10T17:40:28.445808Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "osiris-sculpt-textured.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "osiris-sculpt.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "osiris-sculpt-textured.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "63823"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "osiris-sculpt-textured.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "osiris-sculpt-textured.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "osiris-sculpt.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "63823"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#011c39"
+    }
+}

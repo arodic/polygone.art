@@ -1,0 +1,60 @@
+{
+    "name": "Ape",
+    "authorId": "12xRa-THv2n",
+    "authorName": "Noah Chang",
+    "createTime": "2019-10-31T08:17:25.825206Z",
+    "updateTime": "2020-10-03T09:43:26.636613Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "APE.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "APE.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gorillaUV.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "23768"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "APE.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "APE.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "gorillaUV.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "23768"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "simple Y 220",
+    "description": "20x220x20",
+    "authorId": "1WW26PGEhA7",
+    "authorName": "平井貴明",
+    "createTime": "2019-07-07T04:38:16.827890Z",
+    "updateTime": "2020-02-25T21:38:58.340080Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "a02_01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mini.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "a02_01.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "a02_01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "a02_01.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mini.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

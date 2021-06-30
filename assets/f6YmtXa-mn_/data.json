@@ -1,0 +1,63 @@
+{
+    "name": "chocolate cookie",
+    "description": "low poly cookie and real texture photo",
+    "authorId": "fM3S1ABcci5",
+    "authorName": "Dario Demi (D911C)",
+    "createTime": "2017-12-01T01:11:58.150403Z",
+    "updateTime": "2020-10-07T10:38:39.689096Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gocciole.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gocciole.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gocciole/textures/Texture_gocciole.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "224"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "gocciole.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gocciole.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "gocciole/textures/Texture_gocciole.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "224"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#795548"
+    }
+}

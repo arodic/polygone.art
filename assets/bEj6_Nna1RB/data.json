@@ -1,0 +1,63 @@
+{
+    "name": "Máquina de escribir",
+    "description": "Máquina de escribir de la compañía Underwood Typewriter",
+    "authorId": "fMvT6B7wmmb",
+    "authorName": "Museo de la ETSII",
+    "createTime": "2020-07-29T09:20:36.287645Z",
+    "updateTime": "2020-07-29T09:26:36.367586Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "MaquinaDeEscribir.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "MaquinaDeEscribir.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "MaquinaDeEscribir01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "577132"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "MaquinaDeEscribir.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "MaquinaDeEscribir.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "MaquinaDeEscribir01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "577132"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

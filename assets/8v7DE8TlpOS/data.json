@@ -1,0 +1,54 @@
+{
+    "name": "House NC",
+    "authorId": "9FAxOYh48Lj",
+    "authorName": "Ilya Peltsverger",
+    "createTime": "2021-01-27T17:10:07.269098Z",
+    "updateTime": "2021-01-27T19:11:13.074693Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene_mesh_textured.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene_mesh_textured.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "962712"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "scene_mesh_textured.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene_mesh_textured.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "962712"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

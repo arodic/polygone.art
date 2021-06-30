@@ -1,0 +1,61 @@
+{
+    "name": "Wall mount (Flag pole holder)",
+    "description": "A 3D model of a wall mount/flag pole holder. Made using Agisoft. Was trying to model larger objects but ultimately failed. Only succeeded with this one because I learnt how to mask the background. The reflectivity of the pole holder cause it to not render too well.",
+    "authorId": "aDQIROH5dyn",
+    "authorName": "Wen Jun Cyril Chin",
+    "createTime": "2020-10-27T11:09:53.356029Z",
+    "updateTime": "2020-10-27T11:15:03.411949Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "flagpole.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "flagpole.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "flagpole.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "85114"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "flagpole.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "flagpole.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "flagpole.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "85114"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

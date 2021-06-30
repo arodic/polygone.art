@@ -1,0 +1,95 @@
+{
+    "name": "demo 1",
+    "description": "sample resolution demo 3d photogrametry model",
+    "authorId": "c7pPSSntc9e",
+    "authorName": "Craig Wilson (EMPIRE AERIAL)",
+    "createTime": "2020-04-29T04:54:15.158413Z",
+    "updateTime": "2020-05-15T09:36:42.884377Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene_mesh_textured.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene_mesh_textured.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_00_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_01_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_02_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_03_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_04_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "313730"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "scene_mesh_textured.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene_mesh_textured.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_00_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_01_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_02_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_03_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_04_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "313730"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

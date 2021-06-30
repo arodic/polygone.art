@@ -1,0 +1,68 @@
+{
+    "name": "Floor",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-12-14T14:58:28.562080Z",
+    "updateTime": "2020-10-05T09:28:20.682324Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "floor.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tarmac.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ridge.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "floor.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "floor.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "floor.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ridge.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tarmac.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

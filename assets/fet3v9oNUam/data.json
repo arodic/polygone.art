@@ -1,0 +1,60 @@
+{
+    "name": "Goku Ref",
+    "authorId": "0amLF__n6gQ",
+    "authorName": "Richard Garabedian",
+    "createTime": "2019-06-04T16:32:30.160578Z",
+    "updateTime": "2020-03-29T02:16:13.661756Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "goku.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "goku.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "goku.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "goku.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "goku.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "goku.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

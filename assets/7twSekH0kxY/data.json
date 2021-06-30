@@ -1,0 +1,62 @@
+{
+    "name": "Muñeco de nieve OLAF",
+    "authorId": "5Bl8Y3rSjaW",
+    "authorName": "VALERIA AVILES CARRILLO",
+    "createTime": "2020-05-15T23:38:46.852192Z",
+    "updateTime": "2020-06-10T09:57:54.708137Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "OLAF_2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "OLAF_2.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "OLAF.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14999"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "OLAF_2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "OLAF_2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "OLAF.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14999"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#90d1d1"
+    }
+}

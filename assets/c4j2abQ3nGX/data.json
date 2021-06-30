@@ -1,0 +1,60 @@
+{
+    "name": "tea",
+    "authorId": "bwZm9Q1nD_z",
+    "authorName": "CDLA VR",
+    "createTime": "2018-08-21T22:59:42.849626Z",
+    "updateTime": "2020-08-06T10:13:32.100039Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tea.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tea.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "220"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tea.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tea.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "220"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

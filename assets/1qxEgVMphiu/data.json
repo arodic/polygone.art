@@ -1,0 +1,60 @@
+{
+    "name": "Model Tree",
+    "authorId": "fCDtq6KVXZ-",
+    "authorName": "Thomas Burmeister",
+    "createTime": "2020-02-19T13:10:13.904919Z",
+    "updateTime": "2020-10-06T09:37:40.280269Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "t1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "t1.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "t1baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1556"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "t1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "t1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "t1baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1556"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

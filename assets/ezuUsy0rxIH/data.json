@@ -1,0 +1,59 @@
+{
+    "name": "Toy Car",
+    "description": "This is the replica of a random toy car of my sister. I thought that looked dope, so I made a low-poly copy of it. =b",
+    "authorId": "8g4BykJXFtO",
+    "authorName": "Max Erickson",
+    "createTime": "2020-10-31T09:41:13.360744Z",
+    "updateTime": "2020-10-31T21:54:11.843400Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "colorPalette.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1692"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "policecar.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "colorPalette.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1692"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fbff00"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Dog-Bone Sample (DBS)",
+    "description": "A Dog-Bone Sample (DBS) is a cylindrical (or flat) specimen with a reduced section in the\ncentral area, where the rupture is independent of contact conditions.\nIt is a testing geometry for the characterisation of materials in mechanics.\n\nNOTE: The 3D model was created in SOLIDWORKS (edition 2014) with a .sldprt extension. The model was converted into a .slt then into a .obj file. The transition file (.slt) explains the triangular aspect (top of the specimen) for the discretisation. ",
+    "authorId": "1Jj5ZRUL-mf",
+    "authorName": "Y D",
+    "createTime": "2020-06-17T02:56:13.256682Z",
+    "updateTime": "2020-07-02T12:28:06.977211Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "DBS object.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "2824"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "DBS object.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "DBS object.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2824"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

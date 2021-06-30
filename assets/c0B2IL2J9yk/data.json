@@ -1,0 +1,60 @@
+{
+    "name": "bike",
+    "authorId": "7FuYfXuQKDE",
+    "authorName": "Osbaldo Jimenez",
+    "createTime": "2020-12-07T06:30:09.467828Z",
+    "updateTime": "2020-12-07T06:35:28.426448Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "anahi.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "anahi.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "anahi.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "anahi.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "anahi.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "anahi.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f2b3b3"
+    }
+}

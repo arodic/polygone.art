@@ -1,0 +1,67 @@
+{
+    "name": "Parrot",
+    "description": "#parrot #bird #beak",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-02T00:20:57.756220Z",
+    "updateTime": "2021-06-10T06:45:52.181552Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "parrot",
+        "bird",
+        "beak"
+    ],
+    "likes": 19,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "parrot.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "parrot.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "parrotTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2956"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "parrot.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "parrot.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "parrotTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2956"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#dce775"
+    }
+}

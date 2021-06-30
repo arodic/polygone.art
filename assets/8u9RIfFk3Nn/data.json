@@ -1,0 +1,60 @@
+{
+    "name": "sff_marketinfra_6",
+    "authorId": "2zH1M2YtE8z",
+    "authorName": "Idea Ink",
+    "createTime": "2018-11-12T10:21:23.133980Z",
+    "updateTime": "2020-09-30T10:10:12.226649Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "koop.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "koop.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kooptex.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "koop.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kooptex.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "koop.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

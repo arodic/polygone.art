@@ -1,0 +1,64 @@
+{
+    "name": "fish",
+    "description": "red fish",
+    "authorId": "anoGlC6T-E0",
+    "authorName": "Kelli Ray",
+    "createTime": "2018-03-27T09:41:37.754323Z",
+    "updateTime": "2021-06-07T11:15:14.196813Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 23,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "google poly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "google poly.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "20140102035711124274.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4280"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "google poly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "google poly.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "20140102035711124274.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4280"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#81c784"
+    }
+}

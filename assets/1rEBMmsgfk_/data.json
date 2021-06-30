@@ -1,0 +1,71 @@
+{
+    "name": "Avocado",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T20:51:48.794587Z",
+    "updateTime": "2021-06-08T09:31:27.297307Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated"
+    ],
+    "likes": 15,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "avocado.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "avocado.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "avocadoHalfSliceTxt.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "avocadoTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "336"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "avocado.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "avocado.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "avocadoTxt.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "avocadoHalfSliceTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "336"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

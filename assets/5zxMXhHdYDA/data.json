@@ -1,0 +1,55 @@
+{
+    "name": "Cartoon Rocket",
+    "description": "A simple rocket. Can be used as an asset for games....",
+    "authorId": "eJAGPFx135o",
+    "authorName": "Zendoom",
+    "createTime": "2020-10-13T02:09:03.303642Z",
+    "updateTime": "2020-10-24T06:25:10.456984Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "RocketAseet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "RocketAseet.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10692"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "RocketAseet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "RocketAseet.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10692"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

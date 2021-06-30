@@ -1,0 +1,63 @@
+{
+    "name": "Pixel Phaser",
+    "description": "for those tiny pixelated Away missions",
+    "authorId": "7mCZedSUZk1",
+    "authorName": "Kai-Arne Reiter",
+    "createTime": "2018-01-30T11:41:58.078397Z",
+    "updateTime": "2020-06-23T10:15:58.444119Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "phaser.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "phaser.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "phaser.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1224"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "phaser.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "phaser.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "phaser.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1224"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

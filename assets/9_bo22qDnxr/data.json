@@ -1,0 +1,63 @@
+{
+    "name": "Hull Bulkhead",
+    "description": "Spaceship hull bulkhead",
+    "authorId": "bjgZArqWTIz",
+    "authorName": "Vincent Burgess",
+    "createTime": "2019-01-12T06:28:29.237418Z",
+    "updateTime": "2020-06-12T10:07:36.172925Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Hull.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Hull.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Hull.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1564"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Hull.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Hull.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Hull.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1564"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

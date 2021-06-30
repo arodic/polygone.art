@@ -1,0 +1,67 @@
+{
+    "name": "Canoe",
+    "description": "#paddle #row #boat\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T19:27:54.465908Z",
+    "updateTime": "2021-01-26T07:03:27.277396Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "paddle",
+        "row",
+        "boat"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_CANOE.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_CANOE.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "CanoeSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "380"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_CANOE.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_CANOE.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CanoeSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "380"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#cddc39"
+    }
+}

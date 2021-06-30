@@ -1,0 +1,72 @@
+{
+    "name": "eyemonster",
+    "description": "lv30\n#lv30",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-11-10T02:30:48.156334Z",
+    "updateTime": "2020-11-10T02:38:26.246432Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture",
+        "lv30"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bodyuv.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bodyuv.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "bodyuv_Layer_3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bodyuv_Layer_4.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "466"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bodyuv.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bodyuv.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bodyuv_Layer_3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bodyuv_Layer_4.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "466"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

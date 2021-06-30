@@ -1,0 +1,61 @@
+{
+    "name": "Test",
+    "description": "My love",
+    "authorId": "4UgCcCLWyQu",
+    "authorName": "Xia Li",
+    "createTime": "2020-10-24T06:31:17.502631Z",
+    "updateTime": "2020-10-24T06:46:38.702484Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "WechatIMG10307&WechatIMG10307_alpha.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "WechatIMG10307&WechatIMG10307_alpha.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

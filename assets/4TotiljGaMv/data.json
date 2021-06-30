@@ -1,0 +1,61 @@
+{
+    "name": "测试",
+    "authorId": "dw4_u6MtmKk",
+    "authorName": "gkj hjkh",
+    "createTime": "2019-07-21T18:23:50.875549Z",
+    "updateTime": "2020-10-02T09:48:35.006521Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "01.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

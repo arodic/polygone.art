@@ -1,0 +1,54 @@
+{
+    "name": "Headphones",
+    "authorId": "fE6Puv1-e36",
+    "authorName": "Michael Fuchs",
+    "createTime": "2017-11-01T13:50:03.666644Z",
+    "updateTime": "2020-11-08T06:55:01.058058Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "headphones.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "headphones.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8168"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "headphones.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "headphones.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8168"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#424242"
+    }
+}

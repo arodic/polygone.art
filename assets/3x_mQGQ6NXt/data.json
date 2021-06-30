@@ -1,0 +1,60 @@
+{
+    "name": "grass",
+    "authorId": "f4oMEHS8BRt",
+    "authorName": "VHS Vintage Vault",
+    "createTime": "2020-12-23T18:23:52.610037Z",
+    "updateTime": "2020-12-23T18:29:10.174642Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "grass.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "grass.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textures6/Grass.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "78469"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "grass.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "grass.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "textures6/Grass.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "78469"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

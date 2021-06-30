@@ -1,0 +1,47 @@
+{
+    "name": "Trying monstermash.zone",
+    "description": "Monster Mash allows you to generate 3D models from sketches and animate them",
+    "authorId": "dMXBNlsANXa",
+    "authorName": "Doron Adler",
+    "createTime": "2021-01-04T09:56:49.374839Z",
+    "updateTime": "2021-01-04T10:02:16.583234Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "VroomVroom.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "433"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "VroomVroom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "VroomVroom.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "433"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#7a701a"
+    }
+}

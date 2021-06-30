@@ -1,0 +1,76 @@
+{
+    "name": "test-ola",
+    "authorId": "f4oMEHS8BRt",
+    "authorName": "VHS Vintage Vault",
+    "createTime": "2021-01-08T18:20:58.316001Z",
+    "updateTime": "2021-01-08T18:27:55.348745Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "OLA.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "OLA.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textures8/Roofing_Shingles_Composition_Gray.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures8/asphalt2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures8/Grass.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "104409"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "OLA.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "OLA.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "textures8/asphalt2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures8/Grass.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures8/Roofing_Shingles_Composition_Gray.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "104409"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

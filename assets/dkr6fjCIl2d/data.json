@@ -1,0 +1,60 @@
+{
+    "name": "necrosis",
+    "authorId": "7FuYfXuQKDE",
+    "authorName": "Osbaldo Jimenez",
+    "createTime": "2020-11-18T15:56:42.112071Z",
+    "updateTime": "2020-11-18T16:03:13.265297Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "test.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "test.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "test.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

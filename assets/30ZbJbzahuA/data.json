@@ -1,0 +1,110 @@
+{
+    "name": "Arcade Machine",
+    "authorId": "9oD47BdnwL9",
+    "authorName": "Sarah Burton",
+    "createTime": "2019-07-31T05:48:42.661362Z",
+    "updateTime": "2020-09-22T09:39:08.502245Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "arcade.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "arcade.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "metal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "buttons_yellow.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "knobs_red.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "knobs_blue.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade_blue.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade_red.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "screen.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32404"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "arcade.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "arcade_blue.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade_red.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "buttons_yellow.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "knobs_blue.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "knobs_red.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "metal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "screen.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32404"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#7cc5d9"
+    }
+}

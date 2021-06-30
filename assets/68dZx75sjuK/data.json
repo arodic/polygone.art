@@ -1,0 +1,56 @@
+{
+    "name": "Balustrady na betonie",
+    "description": "Compass demo",
+    "authorId": "1i_R82B9L_a",
+    "authorName": "Micha Suchorzeski",
+    "createTime": "2019-09-26T12:35:26.776377Z",
+    "updateTime": "2020-09-23T09:50:46.914407Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hologram.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hologram.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "23822"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "hologram.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hologram.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "23822"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.4999999999999999,
+            "z": 0.5000000000000001,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

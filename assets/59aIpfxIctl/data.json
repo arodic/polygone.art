@@ -1,0 +1,60 @@
+{
+    "name": "cactus",
+    "authorId": "f7DeFfnCZbw",
+    "authorName": "Katya Kamenkovich",
+    "createTime": "2020-11-08T19:24:55.383434Z",
+    "updateTime": "2020-11-08T19:34:24.446019Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "texturedMesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cactus/texture_1001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5905"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cactus/texturedMesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cactus/texture_1001.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "cactus/texturedMesh.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5905"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

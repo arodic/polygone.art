@@ -1,0 +1,55 @@
+{
+    "name": "Banana 1",
+    "description": "www.spaulmichael.us",
+    "authorId": "6ByGydIGpMy",
+    "authorName": "Paul Michael",
+    "createTime": "2018-03-29T16:23:01.722980Z",
+    "updateTime": "2020-02-25T19:57:24.347859Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "banana01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "banana01.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6552"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "banana01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "banana01.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6552"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "amethyst",
+    "authorId": "0bi3sUb0jtx",
+    "authorName": "Flashy Sprinkles",
+    "createTime": "2018-06-12T23:13:42.507329Z",
+    "updateTime": "2020-09-22T10:34:29.505716Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "amethyst.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "amethyst.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "amethyst.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "amethyst.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "amethyst.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "amethyst.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

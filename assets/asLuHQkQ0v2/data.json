@@ -1,0 +1,63 @@
+{
+    "name": "simple08 height 300",
+    "description": "Simple .obj\n\nシンプルオブジェクト。高さ300 幅250",
+    "authorId": "1WW26PGEhA7",
+    "authorName": "平井貴明",
+    "createTime": "2019-07-04T12:52:02.476224Z",
+    "updateTime": "2020-02-25T21:55:11.377220Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "simple08.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple08.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "t001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "simple08.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple08.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "t001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

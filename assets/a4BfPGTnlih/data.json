@@ -1,0 +1,66 @@
+{
+    "name": "Dix park stump",
+    "description": "Scanned in bright sunlight with structure 3D scanner. Only attempted one time. Surfaces are really inaccurate and ugly (grass is a difficult background). However, the volume and surface area seem true-to-form.",
+    "authorId": "7uqTwvd2mwr",
+    "authorName": "Colin Keenan",
+    "createTime": "2018-03-23T01:01:27.811632Z",
+    "updateTime": "2020-10-06T10:15:02.886269Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Model.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49980"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Model.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49980"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865474,
+            "y": -1.5700924586837754e-16,
+            "z": 0.7071067811865477,
+            "w": -1.5700924586837747e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

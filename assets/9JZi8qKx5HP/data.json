@@ -1,0 +1,63 @@
+{
+    "name": "メイプルキノコvol1",
+    "description": "メイプルストーリーのモンスターであるメイプルキノコの3Dドットモデリングを作りました(^^)/",
+    "authorId": "7JFEvn0MZOq",
+    "authorName": "KEN IMOTO",
+    "createTime": "2019-12-26T15:57:01.838675Z",
+    "updateTime": "2020-07-01T09:58:35.054923Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "meipulvox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "meipulvox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "meipulvox.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3234"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "meipulvox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "meipulvox.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "meipulvox.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3234"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

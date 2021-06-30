@@ -1,0 +1,49 @@
+{
+    "name": "Rocket",
+    "description": "pew pew",
+    "authorId": "bJruK3E0VVD",
+    "authorName": "Ayesha HOQUE",
+    "createTime": "2018-03-15T01:20:15.172103Z",
+    "updateTime": "2020-06-20T10:03:12.486096Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rocket.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "1020"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rocket.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rocket.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1020"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#7986cb"
+    }
+}

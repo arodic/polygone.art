@@ -1,0 +1,64 @@
+{
+    "name": "light",
+    "authorId": "7YDEHchuYzx",
+    "authorName": "Anonymous",
+    "createTime": "2018-04-26T09:36:09.434905Z",
+    "updateTime": "2020-10-01T09:54:20.882246Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "light.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "light.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "light/Sphere002VRayCompleteMap.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "52776"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "light/light.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "light/light.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "light/Sphere002VRayCompleteMap.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "light/Sphere002VRayRawReflectionFilterMap.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "52776"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

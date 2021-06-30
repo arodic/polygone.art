@@ -1,0 +1,60 @@
+{
+    "name": "Cube 1 DVFX",
+    "authorId": "a0MpLW6oYrn",
+    "authorName": "Dau Vinci",
+    "createTime": "2019-04-13T19:14:57.641608Z",
+    "updateTime": "2020-09-23T10:27:05.729397Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Cube1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Txtr 1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Cube1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Cube1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cube1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Txtr 1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

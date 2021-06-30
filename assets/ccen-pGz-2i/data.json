@@ -1,0 +1,60 @@
+{
+    "name": "3D_Scanner_App_Wishbone_2",
+    "authorId": "3DALkjyq1wn",
+    "authorName": "David Rosenwasser",
+    "createTime": "2020-12-02T20:00:46.110581Z",
+    "updateTime": "2020-12-02T20:09:25.603588Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "textured_output-4.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured_output.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textured_output.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "214037"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "textured_output-4.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured_output-4.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textured_output.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "214037"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

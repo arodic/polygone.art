@@ -1,0 +1,77 @@
+{
+    "name": "1447 Seismograph FBX",
+    "description": "1447 Seismograph FBX\nBy: Vida Systems",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-11-28T19:56:14.380784Z",
+    "updateTime": "2020-09-23T10:30:38.227544Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1447_Seismograph_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1447_Seismograph_D.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8929"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "1447_Seismograph_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "1447_Seismograph_LODa.fplmesh",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1447_Seismograph_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1447_Seismograph_R.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1447_Seismograph_LODa.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1447_Seismograph_D.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8929"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

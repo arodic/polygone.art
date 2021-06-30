@@ -1,0 +1,55 @@
+{
+    "name": "Art TetraPod",
+    "description": "Model that was originally a glass piece made by an artist at the Chrysler Museum",
+    "authorId": "6jOBw42MKaD",
+    "authorName": "John Shull",
+    "createTime": "2018-07-23T13:13:18.897661Z",
+    "updateTime": "2020-09-24T10:17:09.627937Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TetraFix.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TetraFix.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2706"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "TetraFix.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TetraFix.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2706"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

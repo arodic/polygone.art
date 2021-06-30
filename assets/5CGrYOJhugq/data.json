@@ -1,0 +1,67 @@
+{
+    "name": "Disk",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-30T05:01:34.835799Z",
+    "updateTime": "2020-11-16T07:36:54.182999Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wood_circle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wood_circle.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "wood_circle_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "wood_circle.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "wood_circle.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "wood_circle_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wood_circle_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

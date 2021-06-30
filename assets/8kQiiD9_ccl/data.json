@@ -1,0 +1,60 @@
+{
+    "name": "whirl",
+    "authorId": "bwZm9Q1nD_z",
+    "authorName": "CDLA VR",
+    "createTime": "2018-08-08T16:54:22.134885Z",
+    "updateTime": "2020-04-24T10:00:28.139366Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "whirl.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "whirl.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "406"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "whirl.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "whirl.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "406"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

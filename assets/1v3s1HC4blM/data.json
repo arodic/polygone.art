@@ -1,0 +1,64 @@
+{
+    "name": "Voxel war level",
+    "description": "War zone area made using voxels",
+    "authorId": "5SnESU2uWKH",
+    "authorName": "Ponniah K",
+    "createTime": "2018-04-19T10:54:53.054112Z",
+    "updateTime": "2020-02-25T20:08:03.259665Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BattleGround_03.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BattleGround_03.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "BattleGround_03.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1620"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "BattleGround_03.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BattleGround_03.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BattleGround_03.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1620"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 0.7071067811865479,
+            "w": 0.7071067811865471
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+    }
+}

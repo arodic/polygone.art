@@ -1,0 +1,67 @@
+{
+    "name": "Patrick",
+    "description": "Patrick Star",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-20T10:12:37.028133Z",
+    "updateTime": "2021-06-02T17:34:31.349458Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 11,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Patrick.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Patrick.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SBshorts.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2991"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Patrick.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Patrick.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SBshorts.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2991"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff5722"
+    }
+}

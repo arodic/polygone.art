@@ -1,0 +1,64 @@
+{
+    "name": "tanks",
+    "description": "tanks",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-05T07:33:33.006853Z",
+    "updateTime": "2021-04-25T23:50:24.924369Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 16,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "shadowsword.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tex_0011_0out.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "shadowsword.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "122168"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "shadowsword.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "shadowsword.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tex_0011_0out.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "122168"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

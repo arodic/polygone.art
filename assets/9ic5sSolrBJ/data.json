@@ -1,0 +1,60 @@
+{
+    "name": "bitter",
+    "authorId": "bwZm9Q1nD_z",
+    "authorName": "CDLA VR",
+    "createTime": "2018-08-22T18:45:55.823816Z",
+    "updateTime": "2020-09-24T10:17:12.019265Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bitter.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bitter.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "348"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bitter.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bitter.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Marker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "348"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

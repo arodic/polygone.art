@@ -1,0 +1,52 @@
+{
+    "name": "piramide",
+    "authorId": "cszTsRU04d8",
+    "authorName": "Maddalena Mezzadri",
+    "createTime": "2019-12-03T13:57:00.150608Z",
+    "updateTime": "2020-09-17T09:45:27.468164Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "piramide.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "piramide.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "piramide.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "piramide.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

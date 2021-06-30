@@ -1,0 +1,61 @@
+{
+    "name": "ダイヤモンド戦士",
+    "description": "けんのさやをつくりました。",
+    "authorId": "bd1eBQd3ppf",
+    "authorName": "iTeen経堂",
+    "createTime": "2019-03-24T06:21:45.006067Z",
+    "updateTime": "2020-09-22T10:23:50.218955Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "shou.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "shou.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "shou.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "642"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "shou.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "shou.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "shou.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "642"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

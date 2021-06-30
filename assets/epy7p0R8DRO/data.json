@@ -1,0 +1,60 @@
+{
+    "name": "Model from 3D scanner AlphaAR",
+    "authorId": "f2n9jl51Aa7",
+    "authorName": "Kristjan Kolbre",
+    "createTime": "2019-03-05T13:52:36.994569Z",
+    "updateTime": "2020-02-25T22:59:56.254684Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49979"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Model.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49979"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

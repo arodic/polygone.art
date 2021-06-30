@@ -1,0 +1,55 @@
+{
+    "name": "School of Fishes by Zi Fong",
+    "description": "Simple Low Poly Model done with Cinema 4D",
+    "authorId": "8rtH5fD3K9t",
+    "authorName": "Zi Fong Yong",
+    "createTime": "2019-01-04T17:54:52.287220Z",
+    "updateTime": "2021-04-09T10:02:06.304562Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fish.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fish.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15840"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "fish.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fish.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15840"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "nuka cola",
+    "description": "vending machines",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-08T23:24:05.419585Z",
+    "updateTime": "2021-01-04T04:51:47.638080Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "nuka cola.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "nuka cola.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "None_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "446"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "nuka cola.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "nuka cola.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "None_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "446"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

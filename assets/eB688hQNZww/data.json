@@ -1,0 +1,62 @@
+{
+    "name": "BlueRockV1",
+    "description": "Ugly experiment number one!",
+    "authorId": "a_oqqknkDDy",
+    "authorName": "Cool Baby",
+    "createTime": "2018-02-05T17:45:41.654823Z",
+    "updateTime": "2020-09-25T10:35:22.121589Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model_material0000_map_Kd.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "26637"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_material0000_map_Kd.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "26637"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": -1,
+            "w": 2.220446049250313e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

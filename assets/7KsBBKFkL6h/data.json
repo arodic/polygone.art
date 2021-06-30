@@ -1,0 +1,63 @@
+{
+    "name": "Compito n.5 TR Modellazione 3D",
+    "description": "\"Geoide metallizzato\"  Modellazione digitale \n3D TR",
+    "authorId": "0EfCC1GZur_",
+    "authorName": "Samuele Lazzeretti",
+    "createTime": "2020-06-03T11:13:58.879873Z",
+    "updateTime": "2020-07-12T09:56:06.154465Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Geoide metallizzato.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "Geoide metallizzato.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Geoide metallizzato.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Geoide metallizzato.obj",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2534"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2534"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0f2922"
+    }
+}

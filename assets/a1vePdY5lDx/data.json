@@ -1,0 +1,55 @@
+{
+    "name": "AW Tech",
+    "description": "Logo for an AR project",
+    "authorId": "bD6_f32GV4s",
+    "authorName": "Austin White",
+    "createTime": "2019-07-19T12:05:34.559086Z",
+    "updateTime": "2020-10-07T10:10:18.994174Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3dmodel/aw.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "3dmodel/aw.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "528"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "aw.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "aw.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "528"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

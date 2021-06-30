@@ -1,0 +1,67 @@
+{
+    "name": "Stop sign",
+    "description": "#vehicle #driving #halt",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-12T00:36:38.465814Z",
+    "updateTime": "2021-06-17T08:06:06.434083Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "vehicle",
+        "driving",
+        "halt"
+    ],
+    "likes": 33,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "stopSign.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "stopSign.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "stopSignTxt.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "stopSign.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "stopSign.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "stopSignTxt.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1565c0"
+    }
+}

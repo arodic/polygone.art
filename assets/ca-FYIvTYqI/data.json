@@ -1,0 +1,66 @@
+{
+    "name": "Wing",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-30T05:05:58.689942Z",
+    "updateTime": "2020-10-14T20:23:25.209386Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Woodenwing.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Woodenwing.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Woodenwing_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Woodenwing_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Woodenwing.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Woodenwing.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Woodenwing_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

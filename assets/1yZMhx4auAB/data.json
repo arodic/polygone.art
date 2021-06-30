@@ -1,0 +1,65 @@
+{
+    "name": "Almond",
+    "description": "#nut",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T07:09:35.000951Z",
+    "updateTime": "2020-10-09T17:46:23.474621Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "nut"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "almond.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "almond.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "almondTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "80"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "almond.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "almond.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "almondTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "80"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#5c6bc0"
+    }
+}

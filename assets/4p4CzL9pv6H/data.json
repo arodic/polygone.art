@@ -1,0 +1,63 @@
+{
+    "name": "Kungfu",
+    "description": "It's Kungfu!",
+    "authorId": "05h6R42L3px",
+    "authorName": "Sanghun Jeong",
+    "createTime": "2018-10-06T02:25:02.967916Z",
+    "updateTime": "2021-02-13T11:39:23.916039Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Kungfu.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Kungfu.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Kungfu.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "852"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Kungfu.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Kungfu.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Kungfu.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "852"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#616161"
+    }
+}

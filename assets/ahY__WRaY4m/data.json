@@ -1,0 +1,64 @@
+{
+    "name": "handface",
+    "description": "lv30\n#lv30",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-11-10T02:26:23.297364Z",
+    "updateTime": "2020-11-10T02:31:28.908691Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "lv30"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "faceghand.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "faceghand.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "faceghand_Layer_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1726"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "faceghand.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "faceghand.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "faceghand_Layer_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1726"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

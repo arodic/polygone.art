@@ -1,0 +1,52 @@
+{
+    "name": "glas",
+    "authorId": "61q4Bto6WLc",
+    "authorName": "Filip Svensson",
+    "createTime": "2020-10-07T16:27:12.023021Z",
+    "updateTime": "2020-10-07T16:35:27.696429Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "spegel.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "spegel.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3704"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "spegel.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "spegel.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3704"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

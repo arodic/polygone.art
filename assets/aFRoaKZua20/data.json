@@ -1,0 +1,61 @@
+{
+    "name": "my product name here",
+    "description": "some data about my product here",
+    "authorId": "aqV6F4v2Hqd",
+    "authorName": "skylr chamberlin",
+    "createTime": "2018-03-16T00:11:44.898749Z",
+    "updateTime": "2020-08-03T10:08:42.886524Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test_upload.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "test_upload.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tone_map.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "37198"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "test_upload.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test_upload.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tone_map.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "37198"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

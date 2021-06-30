@@ -1,0 +1,59 @@
+{
+    "name": "Rock Mof",
+    "description": "Rock mof também conhecido como Gabriel Agreste. Modelador Vito (8 Anos)",
+    "authorId": "0NvxTcyOduT",
+    "authorName": "Rafael Guimarães dos Santos",
+    "createTime": "2020-03-18T17:43:49.053562Z",
+    "updateTime": "2020-03-18T17:49:41.068131Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rockmof_Idle.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "rockmof.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rockmof.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

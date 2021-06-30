@@ -1,0 +1,60 @@
+{
+    "name": "sm eyeball",
+    "authorId": "61x8MUkCOAm",
+    "authorName": "nate insolitum",
+    "createTime": "2020-04-13T22:59:20.708680Z",
+    "updateTime": "2020-05-04T05:54:23.998486Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "smeyeball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "eyeball.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "smeyeball.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "512"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "smeyeball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "smeyeball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "eyeball.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "512"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

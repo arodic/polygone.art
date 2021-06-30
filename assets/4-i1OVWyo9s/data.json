@@ -1,0 +1,60 @@
+{
+    "name": "Lotus",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-13T13:39:15.121474Z",
+    "updateTime": "2020-07-31T09:43:47.683957Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lotus.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pages.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "lotus.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "45421"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "lotus.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lotus.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pages.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "45421"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "name": "Chicken drumstick",
+    "description": "#meat #leg #bird #fowl",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T01:31:46.806718Z",
+    "updateTime": "2021-06-10T07:50:46.560404Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "meat",
+        "leg",
+        "bird",
+        "fowl"
+    ],
+    "likes": 21,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chickenDrumstick.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chickenDrumstick.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "chickenDrumstickTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "512"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "chickenDrumstick.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chickenDrumstick.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chickenDrumstickTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "512"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": -0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

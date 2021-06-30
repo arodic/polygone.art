@@ -1,0 +1,54 @@
+{
+    "name": "moiresquare #FV5",
+    "authorId": "01O5AGZco7f",
+    "authorName": "Fragmastre TV",
+    "createTime": "2020-08-17T03:32:57.841832Z",
+    "updateTime": "2020-08-28T09:34:34.078803Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "moiresquares.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "moiresquares.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1024"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "moiresquares.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "moiresquares.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1024"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

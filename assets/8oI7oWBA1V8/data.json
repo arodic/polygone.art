@@ -1,0 +1,68 @@
+{
+    "name": "Command pod",
+    "description": "#space #shuttle #ship #rocket",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T15:02:30.290030Z",
+    "updateTime": "2021-04-22T21:37:25.821827Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "space",
+        "shuttle",
+        "ship",
+        "rocket"
+    ],
+    "likes": 30,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mk1CommandPod.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mk1CommandPod.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Mk1CommandPod_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "220"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mk1CommandPod.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mk1CommandPod.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Mk1CommandPod_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "220"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

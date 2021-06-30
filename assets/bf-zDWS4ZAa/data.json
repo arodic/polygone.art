@@ -1,0 +1,63 @@
+{
+    "name": "東京タワー",
+    "description": "「まるごとわかる3Dドットモデリング入門」を参考に制作",
+    "authorId": "5-akQIAYfxg",
+    "authorName": "野村侑暉",
+    "createTime": "2019-09-02T03:08:13.990969Z",
+    "updateTime": "2020-02-25T22:06:59.022466Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tokyotower.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tokyotower.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tokyotower.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2980"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tokyotower.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tokyotower.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tokyotower.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2980"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

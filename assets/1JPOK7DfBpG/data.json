@@ -1,0 +1,61 @@
+{
+    "name": "Rory",
+    "authorId": "5gyGPf9ERUP",
+    "authorName": "Artasia (Arts For All)",
+    "createTime": "2019-08-11T14:16:47.383670Z",
+    "updateTime": "2020-03-06T10:30:41.925210Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rory.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "rory.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "362764"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rory.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rory.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "362764"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

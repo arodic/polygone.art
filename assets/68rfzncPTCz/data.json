@@ -1,0 +1,55 @@
+{
+    "name": "Small Planet",
+    "description": "A simple and small planet",
+    "authorId": "dz2FFZRvXQs",
+    "authorName": "Julien Savoie",
+    "createTime": "2017-11-04T01:26:39.199656Z",
+    "updateTime": "2020-10-01T09:54:11.081540Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "planet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "planet.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "168"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "planet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "planet.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "168"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#212121"
+    }
+}

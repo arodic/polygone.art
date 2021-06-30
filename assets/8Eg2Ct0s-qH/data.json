@@ -1,0 +1,55 @@
+{
+    "name": "totc triangles upon triangles",
+    "authorId": "61x8MUkCOAm",
+    "authorName": "nate insolitum",
+    "createTime": "2019-02-21T00:20:02.568530Z",
+    "updateTime": "2020-09-28T10:04:14.094004Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "triangletentis.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "triangletentis.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8400"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "triangletentis.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "triangletentis.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8400"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

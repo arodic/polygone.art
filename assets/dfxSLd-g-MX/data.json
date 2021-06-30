@@ -1,0 +1,60 @@
+{
+    "name": "ozzworks studio",
+    "authorId": "7FuYfXuQKDE",
+    "authorName": "Osbaldo Jimenez",
+    "createTime": "2020-11-18T16:20:44.232005Z",
+    "updateTime": "2020-11-18T16:25:48.424804Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "studio.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "studio.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "studio.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "studio.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "studio.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "studio.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

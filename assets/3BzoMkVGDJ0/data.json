@@ -1,0 +1,69 @@
+{
+    "name": "gh",
+    "description": "gh test",
+    "authorId": "dwEsj-fapoL",
+    "authorName": "Ghareep Media",
+    "createTime": "2019-10-19T00:16:23.318778Z",
+    "updateTime": "2020-02-25T20:19:45.958382Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "GenMod_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Fabric_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "33272"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "scene.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GenMod_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scene.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Fabric_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "33272"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#6b2929"
+    }
+}

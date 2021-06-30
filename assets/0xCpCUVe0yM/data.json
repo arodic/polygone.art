@@ -1,0 +1,66 @@
+{
+    "name": "Bone House",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-03-17T22:52:44.404038Z",
+    "updateTime": "2020-10-14T20:20:06.230990Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bonehouse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bonehouse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bonehouse_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59999"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "bonehouse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bonehouse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "bonehouse_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bonehouse_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59999"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

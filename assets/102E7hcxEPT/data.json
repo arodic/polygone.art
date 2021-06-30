@@ -1,0 +1,67 @@
+{
+    "name": "Harp",
+    "description": "#string #music #instrument\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T21:45:40.849093Z",
+    "updateTime": "2021-05-28T09:32:36.881378Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "string",
+        "music",
+        "instrument"
+    ],
+    "likes": 23,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Harp.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Harp.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Harp_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1370"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Harp.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Harp.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Harp_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1370"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ba68c8"
+    }
+}

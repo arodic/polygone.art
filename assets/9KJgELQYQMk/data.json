@@ -1,0 +1,63 @@
+{
+    "name": "controller",
+    "description": "xbox controller",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2020-07-19T01:30:13.549025Z",
+    "updateTime": "2021-06-17T17:45:40.011148Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "xbone.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "xbone.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "material_0_diffuse_10417718307664115985.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "40000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "xbone.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "material_0_diffuse_10417718307664115985.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "xbone.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "40000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1dd1a1"
+    }
+}

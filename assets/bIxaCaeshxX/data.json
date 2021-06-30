@@ -1,0 +1,76 @@
+{
+    "name": "FBX earth 1",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2020-04-23T18:57:29.991192Z",
+    "updateTime": "2020-06-03T10:11:23.054056Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1450_RichterScale_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1450_RichterScale_D.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6884"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "1450_RichterScale_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "1450_RichterScale_D.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1450_RichterScale_LODa.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1450_RichterScale_LODa.fplmesh",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1450_RichterScale_LODa.motiveanim",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1450_RichterScale_N.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6884"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#cf8080"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "the house",
+    "authorId": "9VK-Tsv8SrG",
+    "authorName": "Natthanan Maingam",
+    "createTime": "2018-12-19T06:28:39.637924Z",
+    "updateTime": "2020-06-05T09:47:52.772821Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "h.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "h.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "h.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "690"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "h.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "h.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "h.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "690"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "BigSky Skybox At the River",
+    "description": "BigSky Skybox At the River",
+    "authorId": "0hXMopAW2Mk",
+    "authorName": "Paul Benedict",
+    "createTime": "2019-04-26T21:24:47.577607Z",
+    "updateTime": "2021-04-29T17:03:53.445035Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "skybox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "skybox.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "skybox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

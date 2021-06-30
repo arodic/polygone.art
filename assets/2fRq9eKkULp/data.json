@@ -1,0 +1,71 @@
+{
+    "name": "Finland - 2 Euro, Tove Jansson",
+    "description": "Finland's 2 euros coin from 2014, which marks 100 Years since the Birth of Tove Jansson.",
+    "authorId": "dMXBNlsANXa",
+    "authorName": "Doron Adler",
+    "createTime": "2018-09-09T07:33:00.454200Z",
+    "updateTime": "2020-09-24T09:42:53.832811Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "euro_coin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "euro_coin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "euro_coin_texture_0002.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "euro_coin_texture_0003.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "96"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "euro_coin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "euro_coin_texture_0002.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "euro_coin_texture_0003.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "euro_coin.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "96"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

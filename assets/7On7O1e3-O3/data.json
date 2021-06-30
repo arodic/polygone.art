@@ -1,0 +1,62 @@
+{
+    "name": "chicken",
+    "authorId": "0KfUsHJIjaN",
+    "authorName": "Atiwit Juntaburt",
+    "createTime": "2018-08-17T08:34:07.553214Z",
+    "updateTime": "2020-10-07T09:58:51.828691Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chicken.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chicken.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chicken.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "974"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "chicken.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chicken.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "chicken.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "974"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

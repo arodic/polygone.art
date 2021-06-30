@@ -1,0 +1,54 @@
+{
+    "name": "textur",
+    "description": "q",
+    "authorId": "5Z4WL6KKs3Z",
+    "authorName": "Максим Легких",
+    "createTime": "2020-01-03T17:44:50.091812Z",
+    "updateTime": "2020-02-25T21:25:42.048784Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "home.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "home.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "31820"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "home.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "home.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "31820"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR"
+    }
+}

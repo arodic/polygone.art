@@ -1,0 +1,48 @@
+{
+    "name": "test",
+    "description": "Using thinkercad to export a cube \nupload to poly.google.com\nline 7 is error\ndelete it",
+    "authorId": "7Z9Gp0Bb-YA",
+    "authorName": "Meng-Hsi Chiu",
+    "createTime": "2018-09-10T22:15:16.425660Z",
+    "updateTime": "2020-07-16T10:22:13.803897Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tinker.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tinker.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tinker.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865477,
+            "w": -0.7071067811865474
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#81c784"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "tom cartoon",
+    "description": "Tom cartoon model",
+    "authorId": "0GJw32doznq",
+    "authorName": "Nouri Mohamed",
+    "createTime": "2018-02-06T18:54:07.274954Z",
+    "updateTime": "2020-10-04T10:36:42.429513Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TOM.PSDout.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "t0363_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TOM.PSDout.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4420"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "TOM.PSDout.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TOM.PSDout.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "t0363_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4420"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

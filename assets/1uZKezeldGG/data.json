@@ -1,0 +1,56 @@
+{
+    "name": "DeLorean DMC-12",
+    "description": "DeLorean DMC-12 - Low Poly",
+    "authorId": "4Geo5crhSCw",
+    "authorName": "David Sirera",
+    "createTime": "2017-11-04T19:50:26.062800Z",
+    "updateTime": "2021-06-08T16:16:13.564466Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 29,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "DMC.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "DMC.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6250"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "DMC.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "DMC.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6250"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

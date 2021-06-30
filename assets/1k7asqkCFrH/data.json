@@ -1,0 +1,67 @@
+{
+    "name": "L'amphitéâtre",
+    "description": "Source: Google Poly",
+    "authorId": "dBYzggZTroF",
+    "authorName": "SVT Vernant",
+    "createTime": "2019-11-10T09:06:20.373306Z",
+    "updateTime": "2020-03-09T09:31:04.077198Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Coliseum.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Coliseum.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Coliseum Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24154"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Coliseum.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Coliseum.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Coliseum Texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Ground Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24154"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

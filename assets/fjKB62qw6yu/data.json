@@ -1,0 +1,63 @@
+{
+    "name": "Atari \"Vader\" VCS - Low Poly",
+    "description": "Low poly simple texture flat black Atari \"Vader\" VCS console (sans wires & joystick) ",
+    "authorId": "caIkY9w3EiA",
+    "authorName": "Andrew Kreckler",
+    "createTime": "2019-02-04T17:27:34.653570Z",
+    "updateTime": "2021-03-20T09:19:58.930138Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "VA2_o.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "VA2_o.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "VaderAtari2600_tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3186"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "VA2_o.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "VA2_o.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "VaderAtari2600_tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3186"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

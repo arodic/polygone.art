@@ -1,0 +1,64 @@
+{
+    "name": "Felt Material",
+    "description": "#sparkle_kitty",
+    "authorId": "3dVB0GT8oMI",
+    "authorName": "sirkitree",
+    "createTime": "2018-02-28T01:24:17.508690Z",
+    "updateTime": "2020-10-06T09:29:39.967913Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "sparkle"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "felt.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "felt.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "felt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "felt.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "felt.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "felt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "piano",
+    "authorId": "2MHTWkbWEmZ",
+    "authorName": "Pinmanat Johjong",
+    "createTime": "2019-12-26T03:25:37.446014Z",
+    "updateTime": "2020-02-25T22:46:12.459014Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "piano.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "piano.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "piano.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "610"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "piano.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "piano.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "piano.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "610"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

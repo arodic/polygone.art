@@ -1,0 +1,87 @@
+{
+    "name": "Humvee3D",
+    "description": "Credit to original 3d Artist. I downloaded from web to test",
+    "authorId": "fS8M7ckkvaB",
+    "authorName": "Gis Proo",
+    "createTime": "2019-12-29T10:58:43.278308Z",
+    "updateTime": "2021-01-08T21:12:21.807942Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "humvee.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "humvee.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "TEX_0023.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TEX_0024.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TEX_0025.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TEX_0026.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "26839"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "humvee.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "humvee.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TEX_0023.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TEX_0025.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TEX_0026.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TEX_0024.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "26839"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

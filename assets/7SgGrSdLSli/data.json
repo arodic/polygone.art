@@ -1,0 +1,62 @@
+{
+    "name": "요원리지형테스트",
+    "authorId": "8xoI3MwcEp4",
+    "authorName": "Jacky Ryu",
+    "createTime": "2018-10-24T06:34:48.735333Z",
+    "updateTime": "2020-02-25T21:10:12.595818Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "render.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "render.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "render/__.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7085"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "render.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "render.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "render/__.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7085"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#212121"
+    }
+}

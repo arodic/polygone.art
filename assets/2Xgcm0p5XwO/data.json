@@ -1,0 +1,67 @@
+{
+    "name": "Venus-1",
+    "description": "Venus with cloudlayer",
+    "authorId": "9sCWvtZF2Hy",
+    "authorName": "James Ripps",
+    "createTime": "2020-02-09T18:58:55.836232Z",
+    "updateTime": "2020-07-30T09:31:04.632643Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Venus_Color_C.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Venus_Color_B.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Venus_Color_A.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Venus_Atmosphere.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Venus_Color_D.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24700"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "venus.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {
+                "triangleCount": "24700"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

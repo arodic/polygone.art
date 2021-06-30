@@ -1,0 +1,56 @@
+{
+    "name": "Unlit Fire",
+    "description": "A small campfire not lit.",
+    "authorId": "cgq1-UxtKRw",
+    "authorName": "Eric Oudin",
+    "createTime": "2018-01-19T07:33:24.358435Z",
+    "updateTime": "2020-10-04T10:32:50.864724Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "UnlitFire.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "UnlitFire.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "804"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "UnlitFire.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "UnlitFire.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "804"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff5722"
+    }
+}

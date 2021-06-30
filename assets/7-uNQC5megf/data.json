@@ -1,0 +1,67 @@
+{
+    "name": "Chick",
+    "description": "#baby #bird #avian",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-21T14:10:35.506549Z",
+    "updateTime": "2021-06-08T11:43:45.872379Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "baby",
+        "bird",
+        "avian"
+    ],
+    "likes": 31,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Chick.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Chick.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Chick.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "272"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Chick.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Chick.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Chick.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "272"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4caf50"
+    }
+}

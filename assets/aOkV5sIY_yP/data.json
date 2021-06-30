@@ -1,0 +1,64 @@
+{
+    "name": "Macbook Pro Inspired Laptop",
+    "description": "Quick Macbook-esque design in MagicaVoxel",
+    "authorId": "fiWcqu-mtpw",
+    "authorName": "Philippos Slicher",
+    "createTime": "2017-11-09T14:15:27.772232Z",
+    "updateTime": "2021-06-08T18:36:34.806254Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mac.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mac.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Mac.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mac.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mac.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Mac.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f44336"
+    }
+}

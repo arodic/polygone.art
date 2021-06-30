@@ -1,0 +1,63 @@
+{
+    "name": "3Dselfie",
+    "authorId": "3H5_VaUf4-K",
+    "authorName": "Mohamed Benboubker",
+    "createTime": "2018-03-04T14:58:38.975478Z",
+    "updateTime": "2020-09-24T10:23:21.801892Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8764"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8764"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 1,
+            "y": 2.220446049250313e-16,
+            "z": 2.220446049250313e-16,
+            "w": 4.930380657631324e-32
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

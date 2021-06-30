@@ -1,0 +1,67 @@
+{
+    "name": "Stool",
+    "description": "#seat #rest #chair\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:01:36.249149Z",
+    "updateTime": "2020-10-08T15:30:54.062618Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "seat",
+        "rest",
+        "chair"
+    ],
+    "likes": 16,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BarSeats.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BarSeats.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BarSeats_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "352"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "BarSeats.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BarSeats.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "BarSeats_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "352"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffc107"
+    }
+}

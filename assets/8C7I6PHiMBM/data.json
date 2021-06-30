@@ -1,0 +1,61 @@
+{
+    "name": "OPEN Space",
+    "description": "OPEN Space",
+    "authorId": "1ODk9j_wpJu",
+    "authorName": "Marby Corros",
+    "createTime": "2019-01-29T13:24:21.405381Z",
+    "updateTime": "2020-09-24T10:09:52.051377Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "JRoom.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "JRoom.obj.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "JRoom.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18712"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "JRoom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "JRoom.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "JRoom.obj.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18712"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

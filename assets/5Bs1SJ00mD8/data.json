@@ -1,0 +1,61 @@
+{
+    "name": "pollinate",
+    "description": "this is a pollinate logo",
+    "authorId": "aqV6F4v2Hqd",
+    "authorName": "skylr chamberlin",
+    "createTime": "2018-03-16T00:00:35.667648Z",
+    "updateTime": "2020-02-25T20:41:17.521780Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test_upload.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "test_upload.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tone_map.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "37198"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "test_upload.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test_upload.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tone_map.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "37198"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

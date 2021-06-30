@@ -1,0 +1,55 @@
+{
+    "name": "Beer",
+    "description": "Beer",
+    "authorId": "9MFumfMaRyf",
+    "authorName": "Miho Yamada",
+    "createTime": "2020-06-06T09:03:20.016548Z",
+    "updateTime": "2020-06-06T09:10:22.112375Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BEER.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BEER.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2828"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "BEER.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BEER.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2828"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f0d824"
+    }
+}

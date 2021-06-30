@@ -1,0 +1,87 @@
+{
+    "name": "Hermit Test",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-12-13T18:48:50.057795Z",
+    "updateTime": "2020-11-05T11:39:00.124659Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hermit.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hermit.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Beard.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Skin.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Lantern.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "CloakStaff.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35710"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "hermit.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Beard.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "CloakStaff.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "hermit.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Lantern.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Skin.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35710"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

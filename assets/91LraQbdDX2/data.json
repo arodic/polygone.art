@@ -1,0 +1,67 @@
+{
+    "name": "wide leaf",
+    "description": "holon test",
+    "authorId": "dH421hXstxG",
+    "authorName": "Maf'j Alvarez",
+    "createTime": "2020-11-03T14:36:14.116919Z",
+    "updateTime": "2020-12-18T13:49:49.215728Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "leaf.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "wc-normal-3.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "leaf.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "leaf-wide.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "356"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "leaf.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "leaf.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "leaf-wide.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "356"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name": "Vine",
+    "description": "#plant",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T20:03:37.465077Z",
+    "updateTime": "2021-06-08T09:13:01.226485Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "plant"
+    ],
+    "likes": 54,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Kelp.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Kelp.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Kelp_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "596"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Kelp.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Kelp.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Kelp_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "596"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#a5d6a7"
+    }
+}

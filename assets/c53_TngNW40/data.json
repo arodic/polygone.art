@@ -1,0 +1,68 @@
+{
+    "name": "Dice",
+    "description": "#game #piece #token #gambling",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-21T14:50:54.678900Z",
+    "updateTime": "2021-03-01T15:39:14.394378Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "game",
+        "piece",
+        "token",
+        "gambling"
+    ],
+    "likes": 12,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dice.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dice.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dice Txt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "dice.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dice.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "dice Txt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9800"
+    }
+}

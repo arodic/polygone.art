@@ -1,0 +1,68 @@
+{
+    "name": "Camel",
+    "description": "#caravan #desert #mammal #hump",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T06:16:30.798749Z",
+    "updateTime": "2021-06-08T11:54:41.510205Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "caravan",
+        "desert",
+        "mammal",
+        "hump"
+    ],
+    "likes": 13,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Camel.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Camel.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Camel.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "822"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Camel.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Camel.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Camel.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "822"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#d32f2f"
+    }
+}

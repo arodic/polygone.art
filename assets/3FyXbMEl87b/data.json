@@ -1,0 +1,55 @@
+{
+    "name": "first car",
+    "description": "my very first car",
+    "authorId": "cC9XcLKXQN7",
+    "authorName": "edenzo gaming",
+    "createTime": "2020-08-09T10:28:27.577181Z",
+    "updateTime": "2020-08-27T09:35:12.340822Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "car.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "car.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15266"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "car.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "car.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15266"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

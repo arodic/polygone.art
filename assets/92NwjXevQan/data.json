@@ -1,0 +1,60 @@
+{
+    "name": "money",
+    "authorId": "7FuYfXuQKDE",
+    "authorName": "Osbaldo Jimenez",
+    "createTime": "2020-12-07T06:32:09.245305Z",
+    "updateTime": "2020-12-07T06:39:47.720135Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "money.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "money.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "money.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "money.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "money.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "money.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f5dddd"
+    }
+}

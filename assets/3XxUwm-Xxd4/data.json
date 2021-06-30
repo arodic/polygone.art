@@ -1,0 +1,60 @@
+{
+    "name": "key1 HDRI test",
+    "authorId": "0sPp40EnH97",
+    "authorName": "Kyung Lee",
+    "createTime": "2019-12-20T02:12:18.421953Z",
+    "updateTime": "2020-10-04T09:41:13.327528Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "a.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "entrance_hall.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "a.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2400"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "a.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "a.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "entrance_hall.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2400"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name": "Moon",
+    "description": "#space",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T03:50:45.974596Z",
+    "updateTime": "2021-04-26T02:01:58.360030Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "space"
+    ],
+    "likes": 39,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "1226 Moon.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "1226 Moon.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SphereSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1610"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "1226 Moon.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "1226_Moon.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SphereSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1610"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

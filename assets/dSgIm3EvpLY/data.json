@@ -1,0 +1,63 @@
+{
+    "name": "SexyBillboard",
+    "description": "For a skit",
+    "authorId": "1HCkO0xJkhX",
+    "authorName": "Derky Sprawl",
+    "createTime": "2018-11-26T02:03:32.429539Z",
+    "updateTime": "2020-06-22T10:17:36.769063Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Billboard Greenscreen.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Billboard Greenscreen.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Billboard texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1930"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Billboard Greenscreen.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Billboard texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Billboard Greenscreen.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1930"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

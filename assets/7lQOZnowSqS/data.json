@@ -1,0 +1,67 @@
+{
+    "name": "Menu",
+    "description": "#restaurant #ordering #meal",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-21T14:29:07.714010Z",
+    "updateTime": "2021-06-07T13:13:31.512889Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "restaurant",
+        "ordering",
+        "meal"
+    ],
+    "likes": 12,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Menu.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Menu.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Menu_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "268"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Menu.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Menu.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Menu_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "268"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4caf50"
+    }
+}

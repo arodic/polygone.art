@@ -1,0 +1,71 @@
+{
+    "name": "beat mania 3",
+    "description": "beat mania",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2019-01-14T10:02:59.426855Z",
+    "updateTime": "2020-09-23T10:29:39.220206Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "beat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "beat.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "symmetrics_baseColor_17832851910588591680.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "asymmetrics_baseColor_6672996682974157280.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8042"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "beat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "asymmetrics_baseColor_6672996682974157280.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "symmetrics_baseColor_17832851910588591680.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "beat.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8042"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Sword",
+    "description": "Samurai Sword ",
+    "authorId": "368naJ7ZuGZ",
+    "authorName": "Sejpalsinh Jadeja",
+    "createTime": "2020-09-23T09:52:44.131466Z",
+    "updateTime": "2020-09-23T10:00:51.162400Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "swad.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "swad.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "458"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "swad.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "swad.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "458"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f3b0ff"
+    }
+}

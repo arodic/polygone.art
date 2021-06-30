@@ -1,0 +1,63 @@
+{
+    "name": "Biface",
+    "description": "digitalização 3D de um biface paleolítico.",
+    "authorId": "6EtNmSLiPSa",
+    "authorName": "artur coelho",
+    "createTime": "2017-12-02T13:49:29.856179Z",
+    "updateTime": "2020-10-06T09:31:44.562Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "biface.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "biface.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "biface01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35436"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "biface.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "biface.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "biface01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35436"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "test1c model w alpha masked",
+    "description": "test1c",
+    "authorId": "6EAUO9l9EA2",
+    "authorName": "micah O",
+    "createTime": "2019-09-15T11:53:21.518731Z",
+    "updateTime": "2020-02-25T22:53:11.775015Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_with_alpha.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_with_alpha.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "eae6bb99-f3de-4cf9-bb87-0ac4cbaaa480.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model_with_alpha.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "eae6bb99-f3de-4cf9-bb87-0ac4cbaaa480.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model_with_alpha.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Kanji",
+    "description": "kanji",
+    "authorId": "cPIQVyhHnwG",
+    "authorName": "Michael H",
+    "createTime": "2019-07-27T19:29:37.811893Z",
+    "updateTime": "2020-02-25T20:42:25.535630Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "untitled.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "untitled.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kanji.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "untitled.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kanji.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "untitled.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

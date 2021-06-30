@@ -1,0 +1,67 @@
+{
+    "name": "Knee Meows",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-24T15:25:49.927358Z",
+    "updateTime": "2020-06-20T09:27:21.446293Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "kneepad.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "kneepad.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kneepad_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "kneepad.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kneepad.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "kneepad_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "kneepad_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "y": 0.7071067811865476,
+            "z": -1.570092458683775e-16,
+            "w": 1.5700924586837752e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "DVFX TESTE",
+    "authorId": "a0MpLW6oYrn",
+    "authorName": "Dau Vinci",
+    "createTime": "2019-05-12T21:29:24.320833Z",
+    "updateTime": "2020-10-06T10:17:52.770097Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "teste.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "teste.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Trippy Txtr.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "teste.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Trippy Txtr.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "teste.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00695c"
+    }
+}

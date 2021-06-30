@@ -1,0 +1,63 @@
+{
+    "name": "bird",
+    "description": "animal",
+    "authorId": "9SXO0lC7rwC",
+    "authorName": "Minh Nguyen Tri",
+    "createTime": "2018-03-30T09:04:30.654536Z",
+    "updateTime": "2020-09-26T10:09:58.803374Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bird.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bird.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "2016011410514225669.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1348"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bird.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bird.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "2016011410514225669.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1348"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#d1c4e9"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "grot",
+    "authorId": "9GqKUFdcYbT",
+    "authorName": "Herman Statius Muller",
+    "createTime": "2019-12-31T13:43:19.133937Z",
+    "updateTime": "2020-09-01T10:18:04.666931Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "grot.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "grot.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "grot.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4632"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "grot.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "grot.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "grot.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4632"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

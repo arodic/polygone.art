@@ -1,0 +1,62 @@
+{
+    "name": "Big fish",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-13T13:33:33.206848Z",
+    "updateTime": "2020-12-24T22:36:21.455516Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fish1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SiamesT.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fish1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6822"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "fish1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fish1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SiamesT.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6822"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

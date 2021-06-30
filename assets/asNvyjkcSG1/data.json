@@ -1,0 +1,68 @@
+{
+    "name": "Hospital",
+    "description": "#hospital #clinic #building #structure",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T21:03:40.283827Z",
+    "updateTime": "2021-06-08T11:12:00.417797Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "hospital",
+        "clinic",
+        "building",
+        "structure"
+    ],
+    "likes": 38,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_HOSPITAL.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_HOSPITAL.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hospitalSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12736"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_HOSPITAL.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_HOSPITAL.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "hospitalSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12736"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

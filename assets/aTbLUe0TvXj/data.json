@@ -1,0 +1,55 @@
+{
+    "name": "sapin",
+    "authorId": "5idOtchBo8q",
+    "authorName": "julien vantard",
+    "createTime": "2018-01-07T20:13:44.502137Z",
+    "updateTime": "2020-10-06T10:14:35.525597Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sapin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sapin.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "125908"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sapin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sapin.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "125908"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 1,
+            "w": 2.220446049250313e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffee58"
+    }
+}

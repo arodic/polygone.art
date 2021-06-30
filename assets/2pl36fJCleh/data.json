@@ -1,0 +1,72 @@
+{
+    "name": "\"ДВЕ ВИКИ И ПРЕСЛИ\"",
+    "description": "Дмитрий ВРУБЕЛЬ и Виктория ТИМОФЕЕВА. Фрагмент квартирной эrспозиции \"Серая выставка или Дневник художника\". Бумага, акриловые и воднодисперсионные краски. Москва. Квартираная галерея Врубеля. 1996 год.",
+    "authorId": "asEoHS0qATy",
+    "authorName": "Dmitry Vrubel",
+    "createTime": "2017-12-30T17:53:38.291929Z",
+    "updateTime": "2020-02-25T20:16:27.625905Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "presley.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "presley.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "presley.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "presley.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "presley.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "presley.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

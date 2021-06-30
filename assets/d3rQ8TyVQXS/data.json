@@ -1,0 +1,64 @@
+{
+    "name": "Saadnayel train station",
+    "description": "Saadnayel train station",
+    "authorId": "7H1HcPvaZVf",
+    "authorName": "Mohamad Rahimy",
+    "createTime": "2020-04-25T15:30:12.138675Z",
+    "updateTime": "2020-06-06T10:21:10.436610Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "merged_simplified_3d_mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "merged_simplified_3d_mesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "merged_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1000000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "merged_simplified_3d_mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "merged_simplified_3d_mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "merged_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1000000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 0.7071067811865476,
+            "w": -0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

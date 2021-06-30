@@ -1,0 +1,60 @@
+{
+    "name": "sff_aifinance_3",
+    "authorId": "2zH1M2YtE8z",
+    "authorName": "Idea Ink",
+    "createTime": "2018-11-14T02:59:31.166464Z",
+    "updateTime": "2020-10-02T09:55:54.013009Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "joe.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "joe.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "joetex.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "joe.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "joetex.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "joe.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

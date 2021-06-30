@@ -1,0 +1,61 @@
+{
+    "name": "Flatscreen TV / Whiteboard",
+    "description": "Chroma key green whiteboard / television to use in Mindshow https://store.steampowered.com/app/382000/Mindshow/\n\nCreated in Blender",
+    "authorId": "3lQ_wwCf22q",
+    "authorName": "David Jeffries",
+    "createTime": "2018-11-23T14:32:24.606576Z",
+    "updateTime": "2020-10-02T09:45:12.176101Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Flatscreen.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Flatscreen.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Texture Bake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Flatscreen.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Flatscreen.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Texture Bake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

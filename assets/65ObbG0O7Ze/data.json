@@ -1,0 +1,66 @@
+{
+    "name": "Clam",
+    "description": "#oyster #shell",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T21:25:11.021849Z",
+    "updateTime": "2021-06-08T09:35:07.602515Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "oyster",
+        "shell"
+    ],
+    "likes": 17,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "clam.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "clam.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "clamTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "644"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "clam.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "clam.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "clamTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "644"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9800"
+    }
+}

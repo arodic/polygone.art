@@ -1,0 +1,47 @@
+{
+    "name": "Pyramid",
+    "description": "Basic geometry",
+    "authorId": "asIGO7osaZk",
+    "authorName": "Ian Crawford",
+    "createTime": "2020-05-22T03:16:46.414045Z",
+    "updateTime": "2020-07-03T09:38:49.359162Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pyramid.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "6"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "pyramid.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pyramid.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

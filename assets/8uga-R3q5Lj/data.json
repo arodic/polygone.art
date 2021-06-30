@@ -1,0 +1,71 @@
+{
+    "name": "eddie 1",
+    "description": "Test Character",
+    "authorId": "5aju6wtIB3k",
+    "authorName": "Jaskell",
+    "createTime": "2019-04-30T19:32:37.456764Z",
+    "updateTime": "2020-02-25T21:28:46.116452Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TESTBOY4.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TESTBOY4.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "TESTBOY4_packed0_diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TESTBOY4_packed0_normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TESTBOY4_packed0_specular.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19796"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "TESTBOY4.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TESTBOY4.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TESTBOY4_packed0_diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19796"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

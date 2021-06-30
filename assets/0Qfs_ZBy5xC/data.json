@@ -1,0 +1,69 @@
+{
+    "name": "Shotgun bullet",
+    "description": "#ammo #weapon #guns #artillery #projectile\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:54:31.588457Z",
+    "updateTime": "2021-05-28T09:29:32.721454Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "ammo",
+        "weapon",
+        "guns",
+        "artillery",
+        "projectile"
+    ],
+    "likes": 29,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Shotgun.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Shotgun.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "DefaultMaterial_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "942"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Shotgun.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Shotgun.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "DefaultMaterial_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "942"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

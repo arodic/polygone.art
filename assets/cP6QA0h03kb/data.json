@@ -1,0 +1,52 @@
+{
+    "name": "perro",
+    "description": "perro obj.",
+    "authorId": "1dXBsR2pDiv",
+    "authorName": "EMILIO MURO",
+    "createTime": "2017-11-04T14:52:17.492749Z",
+    "updateTime": "2020-09-29T10:17:45.919440Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "perro.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "perro.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4437"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "perro.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "4437"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 5.551115123125784e-17,
+            "y": 0.7071067811865478,
+            "w": -0.7071067811865474
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

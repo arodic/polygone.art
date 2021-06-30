@@ -1,0 +1,62 @@
+{
+    "name": "test1",
+    "authorId": "9qSrBIoE2Cv",
+    "authorName": "多田光利",
+    "createTime": "2018-05-23T08:47:07.943090Z",
+    "updateTime": "2020-03-07T10:35:10.807448Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "all.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "all.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "e016.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "97444"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "all.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "all.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "e016.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "97444"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Cappuccetto Rosso",
+    "description": "Una versione un po' cinese di uno studente del 2Binf del Marconi di Civitavecchia, as 2018/19",
+    "authorId": "3ON8CNgg6QV",
+    "authorName": "Claudio Capobianco",
+    "createTime": "2019-01-18T11:13:04.283484Z",
+    "updateTime": "2020-09-22T09:37:10.139072Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cappuccetto.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "888"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cappuccetto.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cappuccetto.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "888"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

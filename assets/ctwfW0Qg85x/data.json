@@ -1,0 +1,60 @@
+{
+    "name": "Dude",
+    "authorId": "fCDtq6KVXZ-",
+    "authorName": "Thomas Burmeister",
+    "createTime": "2020-03-05T13:55:31.151958Z",
+    "updateTime": "2020-06-08T10:17:23.617178Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dude.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BakedDude.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dude.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7248"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dude.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dude.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BakedDude.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7248"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

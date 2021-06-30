@@ -1,0 +1,62 @@
+{
+    "name": "Fish",
+    "authorId": "fCDtq6KVXZ-",
+    "authorName": "Thomas Burmeister",
+    "createTime": "2020-02-11T22:56:28.624366Z",
+    "updateTime": "2020-06-08T09:36:44.647049Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Fish.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Fish.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BakedFish.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "490"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Fish.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Fish.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "BakedFish.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "490"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

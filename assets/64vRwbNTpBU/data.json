@@ -1,0 +1,65 @@
+{
+    "name": "Cactus",
+    "description": "#GameBuilder #MagicaVoxel",
+    "authorId": "cnMuPeY5kuc",
+    "authorName": "Ashker Nms",
+    "createTime": "2019-06-29T13:35:17.986862Z",
+    "updateTime": "2020-10-07T09:57:03.057384Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "GameBuilder",
+        "MagicaVoxel"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cactus 01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cactus 01.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "cactus 01.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2244"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cactus 01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cactus 01.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cactus 01.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2244"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

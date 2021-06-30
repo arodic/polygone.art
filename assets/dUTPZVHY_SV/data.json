@@ -1,0 +1,60 @@
+{
+    "name": "karaoke",
+    "authorId": "0bi3sUb0jtx",
+    "authorName": "Flashy Sprinkles",
+    "createTime": "2018-11-15T17:44:45.280667Z",
+    "updateTime": "2020-10-05T10:27:14.319598Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "karaoke.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "karaoke.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "karaoke.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10596"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "karaoke.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "karaoke.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "karaoke.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10596"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+    }
+}

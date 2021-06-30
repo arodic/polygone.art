@@ -1,0 +1,64 @@
+{
+    "name": "home",
+    "description": "full room photogrammetry",
+    "authorId": "88otxZpA46b",
+    "authorName": "Shila Rastizadeh",
+    "createTime": "2018-03-19T14:19:27.690296Z",
+    "updateTime": "2020-10-06T09:37:11.154284Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wohnzimmer-1903.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wohnzimmer-1903.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "wohnzimmer-1903.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "199999"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "wohnzimmer-1903.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "wohnzimmer-1903.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "wohnzimmer-1903.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "199999"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 6.106226635438361e-16,
+            "y": 0.7071067811865477,
+            "z": -2.7755575615628914e-16,
+            "w": -0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

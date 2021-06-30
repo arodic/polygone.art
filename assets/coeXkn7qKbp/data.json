@@ -1,0 +1,73 @@
+{
+    "name": "Unity Modeling Ruler 2M cube",
+    "description": "This 2 meter cube ruler is precisely measured to allow modeling and direct import into Unity without need for scaling or rotation.\n\n1. Open and Save a Copy.  Import will not scale this correctly.  I'm still trying to figure out how to import properly\n\n2. Turn on Grid Snap and Model something.  Delete the rulers when you are done.\n\n3. Go to My Documents\\Blocks\\ and find the most recent folder.  Drag the entire folder containing .obj, .mtl and other files into Unity.\n\nFeedback: https://www.reddit.com/r/Unity3D/comments/71zfb9/google_blocks_precision_ruler_for_creating_unity/\n",
+    "authorId": "eDmSVe4TKwF",
+    "authorName": "YAMLcase",
+    "createTime": "2017-09-23T16:52:23.660727Z",
+    "updateTime": "2021-05-21T02:23:45.132173Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "blocks",
+        "architecture",
+        "curated"
+    ],
+    "likes": 41,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5760"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5760"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5760"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

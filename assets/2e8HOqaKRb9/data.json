@@ -1,0 +1,63 @@
+{
+    "name": "Champagne Castle",
+    "description": "Texture from HDRI Haven\nhttps://hdrihaven.com/",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-08-20T06:42:29.903781Z",
+    "updateTime": "2020-02-25T20:14:52.094209Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "champagne.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "champagne.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "champagne_castle_1_2k.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "champagne.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "champagne.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "champagne_castle_1_2k.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

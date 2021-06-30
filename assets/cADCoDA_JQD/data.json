@@ -1,0 +1,63 @@
+{
+    "name": "Masque de Silène",
+    "description": "Masque de Silène en bronze découvert sur l'épave de la Fourmique C (Golfe-Juan)\n\nIer siècle avant Jésus-Christ.",
+    "authorId": "6Rjxsb4SCr0",
+    "authorName": "Musée d'Archéologie de Nice / Cimiez",
+    "createTime": "2020-05-15T13:30:55.714731Z",
+    "updateTime": "2020-09-23T10:19:18.997102Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Silenevrai.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Silenevrai.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Silenevrai.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30082"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Silenevrai.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Silenevrai.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Silenevrai.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30082"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

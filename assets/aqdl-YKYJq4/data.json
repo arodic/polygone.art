@@ -1,0 +1,58 @@
+{
+    "name": "Party hat",
+    "description": "It's not a party unless you're wearing one! ",
+    "authorId": "2FzitRzVvlw",
+    "authorName": "Rebecca Zhang",
+    "createTime": "2017-11-02T21:03:14.267127Z",
+    "updateTime": "2020-08-04T10:10:19.338292Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PartyHat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PartyHat.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "190"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "PartyHat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PartyHat.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "190"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.5,
+            "y": -0.5,
+            "z": -0.5,
+            "w": -0.5
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

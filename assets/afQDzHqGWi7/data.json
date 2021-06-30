@@ -1,0 +1,63 @@
+{
+    "name": "Tokyo-test",
+    "description": "Test Obj",
+    "authorId": "7RSOTUbninl",
+    "authorName": "N A",
+    "createTime": "2018-10-22T05:51:38.924787Z",
+    "updateTime": "2020-08-14T10:12:40.477926Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tower-0.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tower-0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "tower-0.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3140"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tower-0.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tower-0.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tower-0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3140"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Movie / film camera on tripod",
+    "description": "Film camera on a tripod. I used a RED camera as an example.",
+    "authorId": "7Yevy9BwO-2",
+    "authorName": "Franziska Haaf",
+    "createTime": "2019-08-23T12:52:15.842477Z",
+    "updateTime": "2021-02-28T20:22:25.594259Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "camera.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "camera.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3510"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "camera.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "camera.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3510"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

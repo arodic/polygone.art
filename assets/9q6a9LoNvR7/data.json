@@ -1,0 +1,49 @@
+{
+    "name": "Brain",
+    "description": "Brain",
+    "authorId": "8aDM9A6aH3A",
+    "authorName": "Matias Badino",
+    "createTime": "2019-09-25T19:18:38.224051Z",
+    "updateTime": "2020-09-24T10:15:30.808243Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "brain.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "36632"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "brain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "brain.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36632"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

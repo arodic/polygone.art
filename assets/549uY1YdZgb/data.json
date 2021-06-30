@@ -1,0 +1,60 @@
+{
+    "name": "Palais",
+    "authorId": "9k6bkV12We_",
+    "authorName": "Mischa Schaub",
+    "createTime": "2019-06-07T05:36:48.700794Z",
+    "updateTime": "2020-02-25T20:39:43.854510Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Test2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "colorplan_003.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Test2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Test2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "colorplan_003.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

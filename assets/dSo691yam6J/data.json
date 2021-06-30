@@ -1,0 +1,55 @@
+{
+    "name": "3D OLD PLANE",
+    "description": "This 3D object represent one of the earliest first planes that came to light",
+    "authorId": "b0lndY6XEBU",
+    "authorName": "CHERIF Hani Salah Eddine (Speed Sniper)",
+    "createTime": "2019-08-22T07:19:07.747671Z",
+    "updateTime": "2020-09-25T10:35:57.889565Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "avion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "avion.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3264"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "avion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "avion.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3264"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b2ebf2"
+    }
+}

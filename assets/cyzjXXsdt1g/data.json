@@ -1,0 +1,62 @@
+{
+    "name": "Lowpoly White Mushroom",
+    "authorId": "bX9xlIZAApY",
+    "authorName": "Антон Ефременков",
+    "createTime": "2019-12-28T16:19:41.058812Z",
+    "updateTime": "2021-04-28T05:29:00.966631Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lowpoly-mushroom.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "lowpoly-mushroom.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "160"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "lowpoly-mushroom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lowpoly-mushroom.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "160"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3a6e2a"
+    }
+}

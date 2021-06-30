@@ -1,0 +1,60 @@
+{
+    "name": "Room",
+    "authorId": "eACReT-uUDc",
+    "authorName": "Thanakit Charoenchol",
+    "createTime": "2018-12-19T06:53:22.605843Z",
+    "updateTime": "2020-08-05T09:42:27.499380Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "room.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "room.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "room.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "540"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "room.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "room.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "room.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "540"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "smoothlex",
+    "authorId": "8IPU9hNNnCL",
+    "authorName": "Oodelay",
+    "createTime": "2020-04-17T17:43:12.873027Z",
+    "updateTime": "2020-04-17T17:50:07.924498Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "smoothy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "smoothy.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "84800"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "smoothy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "smoothy.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "84800"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

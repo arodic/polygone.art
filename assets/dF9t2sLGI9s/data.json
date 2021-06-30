@@ -1,0 +1,53 @@
+{
+    "name": "Dado",
+    "description": "Un dado rojo sin el número 6",
+    "authorId": "4laDNoSbrR0",
+    "authorName": "Rodrigo Ruiz",
+    "createTime": "2020-06-19T21:04:30.265428Z",
+    "updateTime": "2020-07-21T10:18:43.138222Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Dado.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "image0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Dado.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

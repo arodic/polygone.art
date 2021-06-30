@@ -1,0 +1,60 @@
+{
+    "name": "Mountain Face",
+    "authorId": "1_SO6fZeH9k",
+    "authorName": "Abigail Lavigne",
+    "createTime": "2020-09-23T19:11:15.175826Z",
+    "updateTime": "2020-11-09T19:01:00.477431Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mountain face 4.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mountain face 4.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "scene_dense_mesh_refine_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9999"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mountain face 4.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mountain face 4.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "scene_dense_mesh_refine_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9999"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

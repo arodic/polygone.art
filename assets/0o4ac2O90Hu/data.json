@@ -1,0 +1,66 @@
+{
+    "name": "Beer",
+    "description": "#can #alcohol",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-26T14:35:55.489090Z",
+    "updateTime": "2021-06-08T09:50:24.204533Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "can",
+        "alcohol"
+    ],
+    "likes": 44,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Beer.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Beer.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Beer_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "398"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Beer.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Beer.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Beer_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "398"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#81c784"
+    }
+}

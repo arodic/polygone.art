@@ -1,0 +1,55 @@
+{
+    "name": "display",
+    "description": "전시할 수 있는 공간입니다",
+    "authorId": "2V3tw2HNLiu",
+    "authorName": "Minchul Kim",
+    "createTime": "2017-11-03T07:54:18.166822Z",
+    "updateTime": "2020-10-06T09:59:19.317403Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "display.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "display.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1796"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "display.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "display.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1796"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

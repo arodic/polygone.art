@@ -1,0 +1,55 @@
+{
+    "name": "Trees & Rocks",
+    "description": "Made with 3D Maya",
+    "authorId": "3oAQ0p5zmLP",
+    "authorName": "Sham Al Bdour",
+    "createTime": "2017-11-27T15:14:34.100922Z",
+    "updateTime": "2020-10-07T10:16:13.015738Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "trees.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "trees.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4562"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "trees.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "trees.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4562"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "TV",
+    "description": "#technology #shows #movies",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T03:53:37.503473Z",
+    "updateTime": "2021-04-26T02:08:13.386738Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "technology",
+        "shows",
+        "movies"
+    ],
+    "likes": 29,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TV_01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TV_01.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "100"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "TV_01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TV_01.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "100"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -1.1102230246251565e-16,
+            "y": -0.7071067811865476,
+            "z": -0.7071067811865475,
+            "w": 1.1102230246251565e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

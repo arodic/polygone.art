@@ -1,0 +1,68 @@
+{
+    "name": "Golden eagle",
+    "description": "#bird #feathers #golden #beak",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T20:02:42.746301Z",
+    "updateTime": "2021-06-08T11:10:59.556488Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "bird",
+        "feathers",
+        "golden",
+        "beak"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GoldenEagle.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GoldenEagle.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "GoldenEagle_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1568"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "GoldenEagle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "GoldenEagle.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "GoldenEagle_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1568"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

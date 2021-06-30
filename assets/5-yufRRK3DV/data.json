@@ -1,0 +1,72 @@
+{
+    "name": "redspinner",
+    "description": "lv9\n#lv9",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2019-02-11T06:41:05.345733Z",
+    "updateTime": "2020-10-06T09:45:02.289136Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "lv9"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Spinner.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hypoton_00000.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fractalred_00000.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Spinner.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2016"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Spinner.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Spinner.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hypoton_00000.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fractalred_00000.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2016"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

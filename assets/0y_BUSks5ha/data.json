@@ -1,0 +1,63 @@
+{
+    "name": "dna strand",
+    "description": "6 bases",
+    "authorId": "9XerOBbv57G",
+    "authorName": "Arthur Olson",
+    "createTime": "2020-09-28T23:56:03.906729Z",
+    "updateTime": "2020-09-29T00:02:12.115526Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dna1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dna1.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "dna1_tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "864"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dna1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dna1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dna1_tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "864"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

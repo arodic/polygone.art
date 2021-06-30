@@ -1,0 +1,63 @@
+{
+    "name": "Super Simple Crate",
+    "description": "Made for the Weekly Game Jam but never used.",
+    "authorId": "2vPOUCHBqBT",
+    "authorName": "Nocturnal Wisp",
+    "createTime": "2018-01-28T22:29:26.401938Z",
+    "updateTime": "2021-06-16T12:28:23.271970Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Crate.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Crate.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Textures/crate2_diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "156"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Crate.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Crate.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Textures/crate2_diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "156"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

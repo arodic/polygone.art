@@ -1,0 +1,62 @@
+{
+    "name": "fragfire2 tfx",
+    "authorId": "01O5AGZco7f",
+    "authorName": "Fragmastre TV",
+    "createTime": "2020-05-27T16:37:42.609306Z",
+    "updateTime": "2020-09-05T09:59:57.737522Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fragfire2 tfx.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fragfire2 tfx.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "orange-background.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "fragfire2 tfx.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fragfire2 tfx.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "orange-background.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

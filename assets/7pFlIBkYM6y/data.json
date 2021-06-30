@@ -1,0 +1,71 @@
+{
+    "name": "ticket dispenser",
+    "description": "tickets",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2019-01-15T04:25:50.544262Z",
+    "updateTime": "2020-10-07T09:58:53.446688Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tickets.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "talon_diffuse_4182610456910466637.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ekran_diffuse_10077442803718166440.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "tickets.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "337070"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tickets.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tickets.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "talon_diffuse_4182610456910466637.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ekran_diffuse_10077442803718166440.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "337070"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

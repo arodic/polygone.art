@@ -1,0 +1,63 @@
+{
+    "name": "CocaColaCan",
+    "description": "Coca Cola Can",
+    "authorId": "eIUnfNk0Hs4",
+    "authorName": "Sebastian Gadafi Muñoz Campuzano",
+    "createTime": "2020-11-04T20:42:14.530587Z",
+    "updateTime": "2020-11-04T21:47:19.284398Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Colacan.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "Colacan_Material.001_Normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Colacan_Material.001_AlbedoTransparency.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Colacan_Material.001_MetallicSmoothness.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "380"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "380"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

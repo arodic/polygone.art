@@ -1,0 +1,49 @@
+{
+    "name": "Face Sketch",
+    "description": "My first attempt at Tilt Brush!",
+    "authorId": "e8CkyhIFHed",
+    "authorName": "Raymond Klecker",
+    "createTime": "2019-10-18T21:25:59.266829Z",
+    "updateTime": "2020-09-23T09:03:19.102042Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "art",
+        "curated"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "54846"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

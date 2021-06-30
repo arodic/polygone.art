@@ -1,0 +1,61 @@
+{
+    "name": "360 Photo Sphere",
+    "authorId": "2E_yxXvhmYl",
+    "authorName": "Kyle Pearson",
+    "createTime": "2020-01-25T18:35:22.776946Z",
+    "updateTime": "2020-10-06T09:47:42.350794Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sphere.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2380"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "sphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2380"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

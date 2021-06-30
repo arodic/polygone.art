@@ -1,0 +1,64 @@
+{
+    "name": "beef steak",
+    "description": "Low Poly beef steak and real photo texture",
+    "authorId": "fM3S1ABcci5",
+    "authorName": "Dario Demi (D911C)",
+    "createTime": "2017-11-30T23:49:23.853973Z",
+    "updateTime": "2020-10-03T10:17:04.886801Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bistecca_google.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bistecca_google.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bistecca_google/textures/map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "204"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "bistecca_google.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bistecca_google.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "bistecca_google/textures/map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "204"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#795548"
+    }
+}

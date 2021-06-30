@@ -1,0 +1,55 @@
+{
+    "name": "Blacker Black Materials Test",
+    "description": "Best way to make a material blacker is to increase the Specular Exponent (Ns in the mtl file) M1-M6 demonstrate this.\n\nSpecular exponent goes from 0 to 1000, 0 being dull and 1000 being mirror-like\n\nOf course the object will become shinier as a result. \n\nIn blender this is known as Specular Hardness\n\nAlso, setting the ILLUM value to a mirror effect (3,5) will make the object dark too, keep in mind that there will be a different illumination effect because of the mirror effect. M7- M9 demonstrate this effect\n\nIn Blender, setting mirror and giving it a <0 value will achieve this as well",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-10-27T03:42:30.273544Z",
+    "updateTime": "2020-09-28T09:57:51.157636Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "blacker.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "blacker.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "blacker.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "blacker.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

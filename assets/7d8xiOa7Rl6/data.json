@@ -1,0 +1,64 @@
+{
+    "name": "Wooden Mask",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-03-18T00:05:33.029799Z",
+    "updateTime": "2020-10-03T09:59:04.175444Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "woodenmask.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "woodenmask.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "woodenmask_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1999"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "woodenmask.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "woodenmask.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "woodenmask_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "woodenmask_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1999"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

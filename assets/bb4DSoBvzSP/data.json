@@ -1,0 +1,62 @@
+{
+    "name": "fly",
+    "authorId": "7ijP-ut00eJ",
+    "authorName": "Anonymous",
+    "createTime": "2018-04-26T15:15:01.230704Z",
+    "updateTime": "2021-06-06T04:26:54.842666Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bytt.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bytt.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "diffuse.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12808"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bytt.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bytt.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "diffuse.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12808"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4caf50"
+    }
+}

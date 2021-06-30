@@ -1,0 +1,65 @@
+{
+    "name": "Cat Tree",
+    "description": "#cat #cattree",
+    "authorId": "33gyX2WOI9H",
+    "authorName": "Pat Siefring",
+    "createTime": "2017-10-30T20:54:05.260938Z",
+    "updateTime": "2021-05-21T03:32:07.580130Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "cat",
+        "cattree"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SIEFRING_CatTree_LP.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SIEFRING_CatTree_LP.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "T_CatTree.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "572"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "SIEFRING_CatTree_LP.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "T_CatTree.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "SIEFRING_CatTree_LP.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "572"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#795548"
+    }
+}

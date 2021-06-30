@@ -1,0 +1,47 @@
+{
+    "name": "Possible Glacier on Mesa Wall",
+    "description": "Digital Terrain Map from the HiRISE instrument on the Mars Reconnaissance Orbiter\nhttps://www.uahirise.org/dtm/dtm.php?ID=ESP_019358_2225\nhttps://github.com/pearsonkyle/HiRISE-3D-Model",
+    "authorId": "2E_yxXvhmYl",
+    "authorName": "Kyle Pearson",
+    "createTime": "2019-09-20T21:56:29.836139Z",
+    "updateTime": "2020-10-06T10:38:19.269981Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hirise2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "image0.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "image1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "hirise2.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "227138"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

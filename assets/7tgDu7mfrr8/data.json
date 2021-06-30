@@ -1,0 +1,60 @@
+{
+    "name": "playa",
+    "authorId": "enb0r59lUig",
+    "authorName": "Justin Hart",
+    "createTime": "2021-03-27T09:10:57.902537Z",
+    "updateTime": "2021-03-27T09:19:43.376801Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "real_playa.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "real_playa.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "playa_tile.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "real_playa.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "playa_tile.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "real_playa.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

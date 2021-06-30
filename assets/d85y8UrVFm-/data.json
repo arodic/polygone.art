@@ -1,0 +1,63 @@
+{
+    "name": "c-64 monitor",
+    "description": "monitor",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T08:37:16.505597Z",
+    "updateTime": "2020-09-24T10:28:27.794501Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "c-64 monitor.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Default_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "c-64 monitor.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1380"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "c-64 monitor.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "c-64 monitor.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Default_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1380"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

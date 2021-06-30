@@ -1,0 +1,60 @@
+{
+    "name": "Penguin",
+    "authorId": "ayNsuplCv2r",
+    "authorName": "Byrd Polar",
+    "createTime": "2020-04-27T15:01:58.239348Z",
+    "updateTime": "2020-10-07T09:39:11.680169Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "penguin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "penguin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "penguin01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "833142"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "penguin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "penguin.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "penguin01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "833142"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

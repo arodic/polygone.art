@@ -1,0 +1,71 @@
+{
+    "name": "Mothman",
+    "description": "ATHF",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-08T09:22:30.285314Z",
+    "updateTime": "2020-09-06T09:40:51.217136Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mm.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mm.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mothmanface.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "mothmanbod.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "46768"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mm.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mothmanbod.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "mothmanface.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "mm.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "46768"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

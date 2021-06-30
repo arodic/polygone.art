@@ -1,0 +1,61 @@
+{
+    "name": "mandlebulb",
+    "description": "relent311",
+    "authorId": "8qC68ooAFzP",
+    "authorName": "Relent311",
+    "createTime": "2018-09-21T23:04:15.774682Z",
+    "updateTime": "2020-09-27T10:10:31.239713Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "untitled.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mandelbulb3d.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "untitled.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "untitled.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "untitled.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mandelbulb3d.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

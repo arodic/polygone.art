@@ -1,0 +1,55 @@
+{
+    "name": "Home Sphere",
+    "description": "Here is Home Sphere. It is a nice place to invite others to spend time.",
+    "authorId": "6p6YEDjt3AA",
+    "authorName": "Cody Rutty",
+    "createTime": "2018-01-23T22:56:32.402618Z",
+    "updateTime": "2020-10-04T10:18:02.550759Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24768"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24768"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#80deea"
+    }
+}

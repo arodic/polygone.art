@@ -1,0 +1,55 @@
+{
+    "name": "Bending tree in wind",
+    "description": "Tree bending calculated with a finite element code, forces are indicated with arrows. The original position of the tree is indicated as transparent. The leaves are just for show.",
+    "authorId": "11gpgAPOzKc",
+    "authorName": "evert klaseboer",
+    "createTime": "2020-09-25T11:14:46.954702Z",
+    "updateTime": "2020-09-29T10:13:53.718832Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TreeTest.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TreeTest.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3760"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "TreeTest.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Tree2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3760"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

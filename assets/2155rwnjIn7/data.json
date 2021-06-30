@@ -1,0 +1,61 @@
+{
+    "name": "Venus Model",
+    "description": "Low Res Venus Model",
+    "authorId": "6NjDF67XHu0",
+    "authorName": "Kyle Clark",
+    "createTime": "2019-02-04T00:49:08.049678Z",
+    "updateTime": "2020-07-16T09:29:25.014680Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "13901_Venus_v1_l3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "13901_Venus_v1_l3.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Venus_diff.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15872"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "13901_Venus_v1_l3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "13901_Venus_v1_l3.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Venus_diff.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15872"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

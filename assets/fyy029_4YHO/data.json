@@ -1,0 +1,63 @@
+{
+    "name": "TC24型汎用電車",
+    "description": "作ってみました",
+    "authorId": "bjHKgj-Aw2m",
+    "authorName": "Hankyu2000 (E235kei)",
+    "createTime": "2018-09-04T05:59:48.727459Z",
+    "updateTime": "2020-05-14T10:27:30.035076Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gametrain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gametrain.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gametrain.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "566"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "gametrain.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gametrain.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "gametrain.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "566"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Rayquaza t-pose",
+    "description": "Rayquaza t-pose",
+    "authorId": "7IL13WFJ_9V",
+    "authorName": "Greyson Kesling",
+    "createTime": "2021-03-25T15:00:25.453131Z",
+    "updateTime": "2021-03-25T15:07:31.430105Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rayquaza.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rayquaza.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model144.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2916"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "rayquaza.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rayquaza.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model144.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2916"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

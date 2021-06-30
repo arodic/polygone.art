@@ -1,0 +1,62 @@
+{
+    "name": "super mario plant",
+    "authorId": "a8eJZ9spBz4",
+    "authorName": "Fabio Staiano",
+    "createTime": "2018-02-22T16:18:20.787164Z",
+    "updateTime": "2020-10-03T09:53:53.350422Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plant.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "plant.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "plant.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1548"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "plant.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plant.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "plant.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1548"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

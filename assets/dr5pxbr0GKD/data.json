@@ -1,0 +1,62 @@
+{
+    "name": "SM - Smiley",
+    "authorId": "ff5AHSfMiEc",
+    "authorName": "Scott Marshall",
+    "createTime": "2019-08-16T23:46:09.100133Z",
+    "updateTime": "2020-09-29T10:20:06.023982Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Smiley.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Smiley/smile4.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Smiley.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Smiley.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Smiley.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Smiley/smile4.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

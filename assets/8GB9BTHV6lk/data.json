@@ -1,0 +1,63 @@
+{
+    "name": "simple07 foobarbazqux",
+    "description": "simple .obj\n\nシンプルオブジェクト",
+    "authorId": "1WW26PGEhA7",
+    "authorName": "平井貴明",
+    "createTime": "2019-07-03T13:01:20.479352Z",
+    "updateTime": "2020-06-07T10:03:17.933005Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "simple07.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple07.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "t001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "simple07.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple07.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "t001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

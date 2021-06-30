@@ -1,0 +1,61 @@
+{
+    "name": "Earth",
+    "description": "Model",
+    "authorId": "3rhRVFRTnX0",
+    "authorName": "Andreii Bezruchko",
+    "createTime": "2019-11-06T19:34:26.140953Z",
+    "updateTime": "2020-08-03T09:46:57.321328Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earth_ball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_ball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "earth_ball.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "earth_ball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_ball.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "earth_ball.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

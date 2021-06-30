@@ -1,0 +1,68 @@
+{
+    "name": "Zebra",
+    "description": "#wildlife #zoo #animal #stripes",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-29T01:58:47.290057Z",
+    "updateTime": "2021-06-08T10:29:10.719981Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "wildlife",
+        "zoo",
+        "animal",
+        "stripes"
+    ],
+    "likes": 24,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Zebra.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Zebra.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Zebra.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "686"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Zebra.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Zebra.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Zebra.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "686"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

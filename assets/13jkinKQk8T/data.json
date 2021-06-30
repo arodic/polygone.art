@@ -1,0 +1,54 @@
+{
+    "name": "petblo volcano blndr",
+    "authorId": "bhj3O4zat8d",
+    "authorName": "Ross B",
+    "createTime": "2019-03-06T02:13:07.591980Z",
+    "updateTime": "2020-06-04T09:23:44.815790Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "volcano.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "volcano.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12540"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "volcano.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "volcano.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12540"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

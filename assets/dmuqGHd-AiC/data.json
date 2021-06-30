@@ -1,0 +1,63 @@
+{
+    "name": "small bin",
+    "description": "trash",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T09:31:20.555562Z",
+    "updateTime": "2020-07-01T10:22:10.994374Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plastic box 1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "plastic box 1.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Material__40_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1548"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "plastic box 1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plastic box 1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Material__40_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1548"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

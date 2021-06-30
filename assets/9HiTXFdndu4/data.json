@@ -1,0 +1,60 @@
+{
+    "name": "Mountain ref",
+    "authorId": "0amLF__n6gQ",
+    "authorName": "Richard Garabedian",
+    "createTime": "2019-06-04T16:19:26.996865Z",
+    "updateTime": "2020-02-25T21:33:37.468680Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mountain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mountain.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mpountain.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mountain.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mpountain.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "mountain.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

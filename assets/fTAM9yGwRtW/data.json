@@ -1,0 +1,63 @@
+{
+    "name": "CPU",
+    "description": "Computer Components",
+    "authorId": "9ARYoQ2l_1v",
+    "authorName": "Xolani T Mabuza",
+    "createTime": "2021-01-15T11:46:48.402490Z",
+    "updateTime": "2021-06-16T14:08:23.014681Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9320"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "chip.FBX",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "chip_bump.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "chip_diffuse.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "chip_spec.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9320"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fcfcfc"
+    }
+}

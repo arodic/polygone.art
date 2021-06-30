@@ -1,0 +1,63 @@
+{
+    "name": "plaza",
+    "description": "floor",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-08T05:17:21.804422Z",
+    "updateTime": "2020-02-25T20:16:28.784059Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "courtyard.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "courtyard.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Material_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "54"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "courtyard.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "courtyard.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Material_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "54"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "World",
+    "description": "Low poly world",
+    "authorId": "1T6GF6_SE1w",
+    "authorName": "Gerardo De la Torre",
+    "createTime": "2018-08-16T00:59:12.342888Z",
+    "updateTime": "2020-09-13T10:28:31.733261Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "world.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "world.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "17984"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "world.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "world.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "17984"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

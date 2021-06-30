@@ -1,0 +1,56 @@
+{
+    "name": "Intersection",
+    "description": "A traffic intersection. No traffic lights, so proceed with caution.",
+    "authorId": "fdmGZ8QLHxA",
+    "authorName": "Bruno Oliveira",
+    "createTime": "2018-04-02T20:48:49.743694Z",
+    "updateTime": "2021-06-06T03:46:46.836836Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 45,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "intersection.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "intersection.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1518"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "intersection.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "intersection.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1518"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

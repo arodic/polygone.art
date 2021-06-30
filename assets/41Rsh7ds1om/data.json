@@ -1,0 +1,67 @@
+{
+    "name": "Truck",
+    "description": "#vehicle #automobile #shipping #transport",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-11T00:37:39.604301Z",
+    "updateTime": "2021-05-17T00:33:10.895170Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "vehicle",
+        "automobile",
+        "shipping"
+    ],
+    "likes": 13,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_TRUCK.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_TRUCK.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "truckSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2674"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_TRUCK.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_TRUCK.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "truckSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2674"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#64b5f6"
+    }
+}

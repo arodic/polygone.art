@@ -1,0 +1,54 @@
+{
+    "name": "Coffee Cup",
+    "authorId": "1eX8vl2ZcX3",
+    "authorName": "serenay tosun",
+    "createTime": "2017-11-02T08:42:38.712835Z",
+    "updateTime": "2020-10-06T09:40:37.658057Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "coffee_cup.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "coffee_cup.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5242"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "coffee_cup.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "coffee_cup.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5242"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#6d4c41"
+    }
+}

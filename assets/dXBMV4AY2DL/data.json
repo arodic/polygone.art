@@ -1,0 +1,68 @@
+{
+    "name": "Sheep",
+    "description": "#farm #mammal #livestock #wool",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:16:33.306772Z",
+    "updateTime": "2021-06-05T22:00:29.013857Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "farm",
+        "mammal",
+        "livestock",
+        "wool"
+    ],
+    "likes": 24,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Sheep.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Sheep.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Sheep_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "894"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Sheep.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Sheep.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Sheep_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "894"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

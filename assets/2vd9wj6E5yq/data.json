@@ -1,0 +1,63 @@
+{
+    "name": "Aya 3D Model",
+    "description": "By 3dmakura",
+    "authorId": "1r2ucCOxGsd",
+    "authorName": "Art Gabriel",
+    "createTime": "2020-06-22T14:34:27.874008Z",
+    "updateTime": "2021-06-10T13:10:46.565838Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "091_W_Aya_10K.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tex/091_W_Aya_2K_01.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "091_W_Aya_10K.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "091_W_Aya_10K.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "091_W_Aya_10K.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tex/091_W_Aya_2K_01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

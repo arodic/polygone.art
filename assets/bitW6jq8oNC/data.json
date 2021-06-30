@@ -1,0 +1,63 @@
+{
+    "name": "VoxelOldTruck",
+    "description": "Camión de plataforma realizado con MagicaVoxel",
+    "authorId": "d98V5i10Sd5",
+    "authorName": "pedro gavides",
+    "createTime": "2018-11-05T14:44:41.731817Z",
+    "updateTime": "2020-02-25T22:08:01.175795Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "VoxelOldTruck-V4.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "VoxelOldTruck-V4.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "VoxelOldTruck-V4.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "760"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "VoxelOldTruck-V4.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "VoxelOldTruck-V4.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "VoxelOldTruck-V4.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "760"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

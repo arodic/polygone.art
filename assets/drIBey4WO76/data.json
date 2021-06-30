@@ -1,0 +1,63 @@
+{
+    "name": "Pierre de Rosette",
+    "description": "Pierre de Rosette exposée au British Museum",
+    "authorId": "2oVUKG8a9TG",
+    "authorName": "FuntribeCorp",
+    "createTime": "2018-04-30T08:59:47.406233Z",
+    "updateTime": "2020-10-07T10:26:23.881224Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fiveHundred.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fiveHundred.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "fiveHundred.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "480264"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "fiveHundred.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fiveHundred.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fiveHundred.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "480264"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "name": "gun2",
+    "description": "guns",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-14T17:09:21.671090Z",
+    "updateTime": "2021-03-21T05:03:24.492731Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "shotgun.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "toprec_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "material_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "shotgun.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "botrec_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8816"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "shotgun.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "shotgun.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "material_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "botrec_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "toprec_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8816"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

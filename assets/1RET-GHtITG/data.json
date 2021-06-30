@@ -1,0 +1,64 @@
+{
+    "name": "fish",
+    "description": "animal",
+    "authorId": "3Hs93iusioT",
+    "authorName": "konta johanna",
+    "createTime": "2018-03-30T08:37:25.283598Z",
+    "updateTime": "2021-06-16T09:01:31.185453Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 29,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "google poly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "google poly.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pufferfish_purple-1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1040"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "google poly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "google poly.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "pufferfish_purple-1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1040"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0097a7"
+    }
+}

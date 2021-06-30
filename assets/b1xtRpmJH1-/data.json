@@ -1,0 +1,60 @@
+{
+    "name": "Green Shatter DVFX",
+    "authorId": "a0MpLW6oYrn",
+    "authorName": "Dau Vinci",
+    "createTime": "2019-04-10T20:35:29.926501Z",
+    "updateTime": "2020-07-19T10:07:32.252044Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GreenFin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GreenFin.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Shatter txtr Green.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1390"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "GreenFin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "GreenFin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Shatter txtr Green.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1390"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

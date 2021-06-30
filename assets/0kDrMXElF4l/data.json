@@ -1,0 +1,62 @@
+{
+    "name": "Mars  Rover",
+    "authorId": "1pKpXXOJ5x1",
+    "authorName": "Richard McLaughlin",
+    "createTime": "2018-03-28T12:18:00.642956Z",
+    "updateTime": "2020-10-05T09:30:51.590601Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SpaceRover.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpaceRover.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SpaceRover_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2274"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "SpaceRover.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpaceRover.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SpaceRover_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2274"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

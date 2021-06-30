@@ -1,0 +1,60 @@
+{
+    "name": "popi",
+    "authorId": "dCacOW8S6Va",
+    "authorName": "pierkiroule artefactory",
+    "createTime": "2019-07-24T15:26:03.280208Z",
+    "updateTime": "2020-10-04T09:54:54.174430Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "popi.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "popi.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PlanCouleur_de_Surface.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "800"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "popi.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PlanCouleur_de_Surface.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "popi.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "800"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

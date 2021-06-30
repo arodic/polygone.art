@@ -1,0 +1,53 @@
+{
+    "name": "coin",
+    "description": "coin",
+    "authorId": "5R6U-nDUnUh",
+    "authorName": "Felix Chang",
+    "createTime": "2020-01-06T10:17:30.916083Z",
+    "updateTime": "2020-02-25T22:39:59.169530Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3d-model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d-model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5222"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "3d-model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d-model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5222"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

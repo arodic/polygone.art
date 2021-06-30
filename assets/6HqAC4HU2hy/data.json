@@ -1,0 +1,62 @@
+{
+    "name": "fanshellA",
+    "authorId": "1OBfhfIrjBD",
+    "authorName": "Carl Giuffre",
+    "createTime": "2020-12-05T17:47:48.292611Z",
+    "updateTime": "2020-12-05T17:53:02.387713Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19504"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "shellAdecimated.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "spikeAdecimated.fbx",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "stemcoralAdecimated.fbx",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "branchcoralAdecimated.fbx",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19504"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

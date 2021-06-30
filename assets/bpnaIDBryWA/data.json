@@ -1,0 +1,63 @@
+{
+    "name": "Japanese Samurai warrior",
+    "description": "This is my first ever voxel character !",
+    "authorId": "49ohsQTCbte",
+    "authorName": "spacedogs",
+    "createTime": "2019-02-25T14:44:01.416725Z",
+    "updateTime": "2021-05-17T04:24:45.823717Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "basic_samurai.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "basic_samurai.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "basic_samurai.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "388"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "basic_samurai.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "basic_samurai.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "basic_samurai.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "388"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

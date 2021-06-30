@@ -1,0 +1,60 @@
+{
+    "name": "Painting",
+    "authorId": "a_ByaD_Je8k",
+    "authorName": "Kyle Arthur Gabriel",
+    "createTime": "2019-10-02T06:49:58.121368Z",
+    "updateTime": "2020-10-06T09:59:52.220648Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "alaltit.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "alaltit.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rice field/island-cloud-mod-obj/rice-outside.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20532"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "alaltit.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "alaltit.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rice field/island-cloud-mod-obj/rice-outside.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20532"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

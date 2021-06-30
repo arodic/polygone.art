@@ -1,0 +1,60 @@
+{
+    "name": "CAJA",
+    "authorId": "0_LzAR6_el-",
+    "authorName": "Gaston Ordás",
+    "createTime": "2020-10-02T19:58:52.027932Z",
+    "updateTime": "2020-10-02T20:05:46.245559Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CAJA-AR.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "caja.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "CAJA-AR.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CAJA-AR.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CAJA-AR.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "caja.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

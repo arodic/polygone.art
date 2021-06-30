@@ -1,0 +1,63 @@
+{
+    "name": "3D scan w/ Qlone with Texture",
+    "description": "3D scan of a mug using iOS Qlone App with Texture",
+    "authorId": "77ejXaFLwCp",
+    "authorName": "Thomas Aichberger",
+    "createTime": "2018-09-17T08:38:01.503571Z",
+    "updateTime": "2020-10-07T10:37:29.205969Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_New Qlone_20180914_170104858.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_New Qlone_20180914_170104858.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "208908"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model_New Qlone_20180914_170104858.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "208908"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

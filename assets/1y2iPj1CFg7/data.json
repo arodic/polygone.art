@@ -1,0 +1,59 @@
+{
+    "name": "Dolphin",
+    "description": "#mammal #marine #porpoise",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-21T03:24:01.204585Z",
+    "updateTime": "2021-06-05T16:27:55.030144Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "mammal",
+        "marine",
+        "porpoise"
+    ],
+    "likes": 15,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "NOVELO_DOLPHIN.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "NOVELO_DOLPHIN.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "706"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "NOVELO_DOLPHIN.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "NOVELO_DOLPHIN.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "706"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

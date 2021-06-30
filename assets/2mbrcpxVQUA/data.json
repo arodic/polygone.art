@@ -1,0 +1,67 @@
+{
+    "name": "guy",
+    "description": "a random guy",
+    "authorId": "fHdsatbDf3N",
+    "authorName": "Gersom Rink",
+    "createTime": "2019-08-16T08:50:19.703169Z",
+    "updateTime": "2020-06-06T09:37:19.958952Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "guy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "guy.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "guy_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "38250"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "guy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "guy.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "guy_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "guy_Packed0_Specular.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "38250"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

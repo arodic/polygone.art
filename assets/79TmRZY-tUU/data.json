@@ -1,0 +1,63 @@
+{
+    "name": "plant stand",
+    "description": "plant stand",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-08T07:17:20.973590Z",
+    "updateTime": "2020-02-25T21:06:18.219476Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "flower stand.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "01_-_Default_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "flower stand.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "470"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "flower stand.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "flower stand.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "01_-_Default_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "470"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

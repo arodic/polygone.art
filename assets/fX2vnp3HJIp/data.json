@@ -1,0 +1,64 @@
+{
+    "name": "PJ",
+    "description": "Face Scan on Xperia XZ",
+    "authorId": "6NRGy9dA616",
+    "authorName": "Jeffery Agyekum Adjei",
+    "createTime": "2018-02-06T18:47:11.115633Z",
+    "updateTime": "2021-03-07T21:23:59.276228Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "mesh.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9292"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mesh.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9292"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 1,
+            "y": -1.1102230246251565e-16,
+            "z": -2.7476618026966064e-16,
+            "w": -1.177569344012831e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

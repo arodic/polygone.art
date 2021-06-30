@@ -1,0 +1,62 @@
+{
+    "name": "Doggy",
+    "authorId": "cLheo93IjJ8",
+    "authorName": "Anonymous",
+    "createTime": "2019-03-19T22:56:52.802121Z",
+    "updateTime": "2020-10-03T10:29:09.800259Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "doge.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dog_out_side_window.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "doge.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2864"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "doge.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "doge.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dog_out_side_window.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2864"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

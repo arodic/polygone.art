@@ -1,0 +1,55 @@
+{
+    "name": "Gateway",
+    "description": "Gateway, export from sketchfab",
+    "authorId": "2Ud7THbNt-f",
+    "authorName": "Fuzion Corp",
+    "createTime": "2020-10-06T21:37:51.481043Z",
+    "updateTime": "2020-10-06T21:43:02.666109Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/Checkers_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/Checkers_emissive.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/Checkers_metallicRoughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Checkers_normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "17369"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

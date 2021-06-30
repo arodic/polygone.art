@@ -1,0 +1,63 @@
+{
+    "name": "angel",
+    "description": "angel",
+    "authorId": "fYHNBplndhx",
+    "authorName": "K W",
+    "createTime": "2019-06-03T12:14:09.822813Z",
+    "updateTime": "2020-10-02T10:18:34.434104Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "angel.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "angel.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "angel.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8152"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "angel.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "angel.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "angel.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8152"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

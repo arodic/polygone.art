@@ -1,0 +1,71 @@
+{
+    "name": "Anubis Statue",
+    "description": "A statue created from scratch with no reference image for my VR ride.",
+    "authorId": "9VKWugE4stI",
+    "authorName": "Zach Miller",
+    "createTime": "2018-04-25T05:05:39.197963Z",
+    "updateTime": "2020-09-25T10:13:46.984806Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "anubis.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "anubis.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textures/sceptertexture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/anubistexture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1981"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "anubis.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "anubis.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "textures/anubistexture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/sceptertexture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1981"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#455a64"
+    }
+}

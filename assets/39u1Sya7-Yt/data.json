@@ -1,0 +1,55 @@
+{
+    "name": "Materials Test - Mirror",
+    "description": "A test of the various mirror properties. done in Blender\nIt is notable, that changing the properties has little effect aside from enabling Mirror and giving it <0 value\nMirror Level\nM1 25% M2 50% M3 100%\nFresnel\nM4 .25 M5 .5 M6 1.0\nMirror Color\nM7 Red M8 Green M9 Same as Diffuse\n",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-09-29T21:42:11.404007Z",
+    "updateTime": "2020-10-06T09:36:01.281096Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mat test mirror.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat test mirror.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mat test mirror.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat test mirror.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

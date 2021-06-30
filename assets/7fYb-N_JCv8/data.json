@@ -1,0 +1,63 @@
+{
+    "name": "view cube",
+    "authorId": "0YbyWO37yon",
+    "authorName": "Tim Petri",
+    "createTime": "2018-09-10T20:22:29.885822Z",
+    "updateTime": "2020-06-06T09:59:36.009377Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Cube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cube.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CubeTexture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Cube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CubeTexture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Cube.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -1.9626155733547187e-16,
+            "y": 0.7071067811865475,
+            "z": 1.962615573354719e-16,
+            "w": -0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

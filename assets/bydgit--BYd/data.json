@@ -1,0 +1,68 @@
+{
+    "name": "Sled",
+    "description": "#snow #wood #winter #fun #outdoors",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-11T00:23:10.907511Z",
+    "updateTime": "2021-05-13T15:43:40.727018Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated",
+        "snow",
+        "wood",
+        "winter",
+        "fun",
+        "outdoors"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_SLED.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_SLED.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SledSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3336"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_SLED.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_SLED.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SledSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3336"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

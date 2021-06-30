@@ -1,0 +1,61 @@
+{
+    "name": "LH3, OBJ SC",
+    "description": "SC build, all files in one solo OBJ folder",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-08-09T17:32:22.472089Z",
+    "updateTime": "2020-07-20T10:03:09.210423Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Lighthouse_Surrounds.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lighthouse_Surrounds.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Lighthouse texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4684"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Lighthouse_Surrounds.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lighthouse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Lighthouse texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4684"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

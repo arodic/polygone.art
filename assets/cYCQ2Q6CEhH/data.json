@@ -1,0 +1,48 @@
+{
+    "name": "nbittest",
+    "authorId": "evMZY5xKCI9",
+    "authorName": "Seiji Irie",
+    "createTime": "2019-06-25T13:36:04.307383Z",
+    "updateTime": "2020-02-25T22:21:46.397418Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wavefront.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "30240"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "wavefront.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wavefront.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30240"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

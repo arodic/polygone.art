@@ -1,0 +1,63 @@
+{
+    "name": "TV obj",
+    "description": "TV obj",
+    "authorId": "9nrIdhBrw47",
+    "authorName": "Thommy Eriksson",
+    "createTime": "2021-01-27T21:26:01.154812Z",
+    "updateTime": "2021-01-27T21:33:15.617541Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TVobj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TVobj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TV_obj/TVobj/tv.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "TV_obj/TVobj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TV_obj/TVobj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "TV_obj/TVobj/tv.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

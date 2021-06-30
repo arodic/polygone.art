@@ -1,0 +1,65 @@
+{
+    "name": "Toco Toucan",
+    "description": "#bird",
+    "authorId": "f8cGQY15_-g",
+    "authorName": "Anonymous",
+    "createTime": "2017-11-10T21:19:12.526621Z",
+    "updateTime": "2021-06-06T12:57:43.957009Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "bird"
+    ],
+    "likes": 93,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TocoToucan.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TocoToucan.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TocoToucan_Albedo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1836"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "TocoToucan.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TocoToucan_Albedo.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TocoToucan.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1836"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

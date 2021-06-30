@@ -1,0 +1,71 @@
+{
+    "name": "Summertime",
+    "authorId": "asEoHS0qATy",
+    "authorName": "Dmitry Vrubel",
+    "createTime": "2017-12-11T22:23:45.608620Z",
+    "updateTime": "2020-09-13T09:37:52.966188Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "AUGUST.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "AUGUST.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "AUGUST.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "AUGUST.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "AUGUST.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "AUGUST.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

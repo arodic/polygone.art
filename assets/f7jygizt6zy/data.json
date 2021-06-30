@@ -1,0 +1,62 @@
+{
+    "name": "santa",
+    "authorId": "dXnme8ken15",
+    "authorName": "Kawin Kongwong",
+    "createTime": "2018-03-08T13:15:21.927095Z",
+    "updateTime": "2020-10-04T10:35:35.726167Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "santa.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "santa.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "santa.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28982"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "santa.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "santa.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "santa.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28982"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

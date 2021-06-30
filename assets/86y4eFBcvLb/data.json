@@ -1,0 +1,55 @@
+{
+    "name": "Compito n.5 TR Modelazione 3D",
+    "description": "\"Figura metallizzata\" in formato OBJ",
+    "authorId": "0EfCC1GZur_",
+    "authorName": "Samuele Lazzeretti",
+    "createTime": "2020-06-03T10:15:54.109485Z",
+    "updateTime": "2020-07-12T09:58:38.278350Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Geoide metallizzato.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Geoide metallizzato.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1196992"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Geoide metallizzato.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Geoide metallizzato.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1196992"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#112616"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Ape Minecraft",
+    "authorId": "12xRa-THv2n",
+    "authorName": "Noah Chang",
+    "createTime": "2019-10-31T08:25:19.740771Z",
+    "updateTime": "2020-02-25T20:17:16.612033Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Ape01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gorillaUV.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Ape01.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1200"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Ape01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Ape01.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gorillaUV.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1200"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

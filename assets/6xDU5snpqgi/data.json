@@ -1,0 +1,60 @@
+{
+    "name": "teste",
+    "authorId": "9gJM1F4d5gM",
+    "authorName": "Marcio Hanashiro",
+    "createTime": "2018-02-22T13:31:52.334021Z",
+    "updateTime": "2020-06-12T09:55:07.236954Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Laptop.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Laptop_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Laptop.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1240"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Laptop.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Laptop.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Laptop_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1240"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

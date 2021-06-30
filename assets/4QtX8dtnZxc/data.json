@@ -1,0 +1,61 @@
+{
+    "name": "drawing in three d",
+    "description": "wonderful drawing in 3D",
+    "authorId": "ftg0eaO0XQU",
+    "authorName": "Stéphane Trois Carres",
+    "createTime": "2018-12-04T07:06:44.871987Z",
+    "updateTime": "2020-09-03T09:44:06.202264Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sculpture_mapping_peinture.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sculpture_mapping_peinture.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mapping/carnet croquis (8).jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "568"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sculpture_mapping_peinture.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sculpture_mapping_peinture.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mapping/carnet croquis (8).jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "568"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "La Motilla del Azuer - Daimiel",
+    "description": "Global Digital Heritage model of La Motilla del Azuer - Daimiel, Spain",
+    "authorId": "bZeNds2-xUE",
+    "authorName": "Pjotr van Schothorst",
+    "createTime": "2020-03-31T11:39:59.589898Z",
+    "updateTime": "2020-09-13T11:38:23.011554Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Motilla_RealityCapture - 4K textures/Motilla_RealityCapture.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Motilla_RealityCapture - 4K textures/Motilla_RealityCapture.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Motilla_RealityCapture - 4K textures/Motilla_RealityCapture_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "596713"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Motilla_RealityCapture.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Motilla_RealityCapture.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Motilla_RealityCapture - 4K textures/Motilla_RealityCapture_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "596713"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

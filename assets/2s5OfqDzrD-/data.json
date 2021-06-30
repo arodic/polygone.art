@@ -1,0 +1,61 @@
+{
+    "name": "scsac",
+    "description": "ascscascac",
+    "authorId": "3Tok18WthJ0",
+    "authorName": "Gosman Eduardo Gallego Aguilar",
+    "createTime": "2020-04-02T23:27:23.575945Z",
+    "updateTime": "2020-04-02T23:36:54.367353Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "caja_cereal.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "caja_cereal.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "caja_cereal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "caja_cereal.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "caja_cereal.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "caja_cereal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

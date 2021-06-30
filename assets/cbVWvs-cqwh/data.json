@@ -1,0 +1,52 @@
+{
+    "name": "Gias Art",
+    "description": "This is the solution to my 8th grade 3D digital art project ",
+    "authorId": "13WNnY58Kpv",
+    "authorName": "Giovanna Antonini",
+    "createTime": "2020-03-06T13:22:49.298020Z",
+    "updateTime": "2020-07-22T10:16:49.339383Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tinker.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "260"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tinker.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tinker.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "260"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.5000000000000001,
+            "y": -0.5,
+            "z": -0.4999999999999999,
+            "w": -0.5
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

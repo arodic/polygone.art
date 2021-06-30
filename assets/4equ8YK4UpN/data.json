@@ -1,0 +1,60 @@
+{
+    "name": "test2",
+    "authorId": "1js-wwWqpHh",
+    "authorName": "Piotr K",
+    "createTime": "2020-11-04T14:20:40.066610Z",
+    "updateTime": "2020-11-04T14:30:21.001814Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "yourMesh (2).obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "diffuse_(3).png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "yourMesh (2).mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "196608"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "yourMesh (2).gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "yourMesh (2).bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "diffuse_(3).png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "196608"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

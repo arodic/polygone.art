@@ -1,0 +1,60 @@
+{
+    "name": "another lion 2",
+    "authorId": "3XUK2HSb-2H",
+    "authorName": "Nikki Morin",
+    "createTime": "2019-01-17T18:52:50.178278Z",
+    "updateTime": "2020-10-04T09:55:11.013562Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Lion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lion.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Lion_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1350"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Lion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lion.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Lion_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1350"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

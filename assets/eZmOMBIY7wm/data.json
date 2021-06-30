@@ -1,0 +1,60 @@
+{
+    "name": "pets st pauls",
+    "authorId": "bsWSGscRwof",
+    "authorName": "Harold Sikkema",
+    "createTime": "2019-07-08T19:18:29.612759Z",
+    "updateTime": "2020-09-29T10:24:19.942557Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pets.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pets.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Layer 1.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2024"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "pets.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Layer 1.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "pets.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2024"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

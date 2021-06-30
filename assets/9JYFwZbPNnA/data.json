@@ -1,0 +1,61 @@
+{
+    "name": "Flower",
+    "authorId": "ac9QZPgz-n-",
+    "authorName": "Katrina Tan Kit",
+    "createTime": "2019-04-03T02:57:51.099897Z",
+    "updateTime": "2020-06-07T10:07:26.579212Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Flower.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Flower.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "FlowerAlbedo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1382"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Flower.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "FlowerAlbedo.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Flower.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1382"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR"
+    }
+}

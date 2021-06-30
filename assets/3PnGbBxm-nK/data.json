@@ -1,0 +1,63 @@
+{
+    "name": "Cube Wall Color",
+    "description": "Primitive for TheWaveVR",
+    "authorId": "azC6kQRGFnZ",
+    "authorName": "Aaron Lemke",
+    "createTime": "2017-12-14T00:02:32.222704Z",
+    "updateTime": "2020-02-25T20:21:41.274389Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test_w_color.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test_w_color.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ash_uvgrid01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5328"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "test_w_color.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ash_uvgrid01.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "test_w_color.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5328"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

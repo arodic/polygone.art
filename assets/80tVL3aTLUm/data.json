@@ -1,0 +1,67 @@
+{
+    "name": "Mo Leaf",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-30T04:56:00.433363Z",
+    "updateTime": "2020-10-04T10:02:02.171923Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "simple_leaf_pink.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple_leaf_pink.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "simple_leaf_pink_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "simple_leaf_pink_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5455"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "simple_leaf_pink.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple_leaf_pink.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "simple_leaf_pink_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5455"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

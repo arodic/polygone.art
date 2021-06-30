@@ -1,0 +1,63 @@
+{
+    "name": "View Portal",
+    "description": "Spaceship Hull window",
+    "authorId": "bjgZArqWTIz",
+    "authorName": "Vincent Burgess",
+    "createTime": "2019-01-12T06:43:59.838039Z",
+    "updateTime": "2020-06-11T09:45:57.648284Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Window.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Window.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Window.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1952"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Window.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Window.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Window.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1952"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

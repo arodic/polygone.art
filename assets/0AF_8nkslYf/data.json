@@ -1,0 +1,63 @@
+{
+    "name": "AJ Water Cushion",
+    "description": "cushion obj credit to Miguelangelo Rosario",
+    "authorId": "7kL7JOnsH4x",
+    "authorName": "A J",
+    "createTime": "2018-10-30T05:55:13.235207Z",
+    "updateTime": "2020-10-06T09:29:46.683513Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cushion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cushion.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "waterSplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "752"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cushion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cushion.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "waterSplash.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "752"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

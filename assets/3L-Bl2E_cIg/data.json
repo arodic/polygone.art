@@ -1,0 +1,61 @@
+{
+    "name": "Regular Tree",
+    "description": "From, like, regular.",
+    "authorId": "8FRCVPnlgJ8",
+    "authorName": "Alex Gunderman",
+    "createTime": "2020-02-10T23:53:13.214582Z",
+    "updateTime": "2020-10-05T09:40:50.131831Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "beatbox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "beatbox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "palette.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "496"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "beatbox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "beatbox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "palette.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "496"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffff99"
+    }
+}

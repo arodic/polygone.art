@@ -1,0 +1,67 @@
+{
+    "name": "Turkey",
+    "description": "#bird #thanksgiving #gobble",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T21:47:45.353496Z",
+    "updateTime": "2021-06-08T09:41:20.141808Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "bird",
+        "thanksgiving",
+        "gobble"
+    ],
+    "likes": 22,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Turkey.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Turkey.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Turkey_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1800"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Turkey.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Turkey.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Turkey_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1800"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#006064"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "子供01",
+    "description": "子供のキャラクターその1。",
+    "authorId": "5s8klO-ECGO",
+    "authorName": "早川敦子",
+    "createTime": "2020-07-04T02:00:39.582988Z",
+    "updateTime": "2020-07-04T02:08:51.463192Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "doll-001.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "doll-001.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "doll-001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "272"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "doll-001.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "doll-001.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "doll-001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "272"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "tree",
+    "description": "I made it with magica voxel.",
+    "authorId": "eFhxQ44DjI4",
+    "authorName": "Karakure",
+    "createTime": "2018-07-10T10:01:44.818278Z",
+    "updateTime": "2020-09-17T09:29:56.800478Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tree.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tree.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "tree.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5136"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tree.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5136"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

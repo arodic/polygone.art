@@ -1,0 +1,61 @@
+{
+    "name": "test4",
+    "description": "test4",
+    "authorId": "8jvAsZWjKvI",
+    "authorName": "t&#x3c; zzz{{7777-1111}} “estth” Testerwgz{{7777-1111}}",
+    "createTime": "2017-11-24T14:49:14.125365Z",
+    "updateTime": "2020-02-25T23:01:44.300884Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cube.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cube.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cube.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "cube.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

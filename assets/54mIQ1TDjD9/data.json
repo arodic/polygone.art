@@ -1,0 +1,64 @@
+{
+    "name": "The Horse in Motion Filmstrip",
+    "description": "A filmstrip of one of the first motion pictures ever taken\nhttps://en.wikipedia.org/wiki/Sallie_Gardner_at_a_Gallop",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-01-29T17:09:13.216741Z",
+    "updateTime": "2020-10-02T09:48:36.961806Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "horsegallop.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "horsegallop.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "horsegalloping.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "horsegallop.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "horsegallop.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "horsegalloping.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

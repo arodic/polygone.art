@@ -1,0 +1,55 @@
+{
+    "name": "capratchet Blender Test",
+    "description": "tags: wave vr blender test capratchet",
+    "authorId": "3aGYwTO0P-m",
+    "authorName": "capratchet",
+    "createTime": "2019-03-05T01:32:36.483976Z",
+    "updateTime": "2020-10-02T10:32:38.885262Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "First_attempt.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "First_attempt.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "456"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "First_attempt.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "First_attempt.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "456"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

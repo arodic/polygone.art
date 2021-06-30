@@ -1,0 +1,53 @@
+{
+    "name": "Demo of MATLAB obj export",
+    "description": "Demo export of triangular meshes from MATLAB.\n\nMeshes were exported using:\nhttps://www.mathworks.com/matlabcentral/fileexchange/72906-save-wavefront-obj-files-simple-or-colour?s_tid=prof_contriblnk\n\nafter they were built using:\nhttps://www.mathworks.com/matlabcentral/fileexchange/75241-build-mesh-or-voxel-spheres-ellipsoids-and-test-objects?s_tid=prof_contriblnk",
+    "authorId": "0T75Gh_kC18",
+    "authorName": "benny kacerovsky",
+    "createTime": "2020-06-10T03:36:21.267368Z",
+    "updateTime": "2020-10-05T09:49:00.185665Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "demo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "demo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "75084"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "demo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "demo.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "75084"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#120011"
+    }
+}

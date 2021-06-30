@@ -1,0 +1,52 @@
+{
+    "name": "ship",
+    "authorId": "1_FlXPPSdtj",
+    "authorName": "SCAD MomeVR",
+    "createTime": "2020-03-12T08:38:15.447114Z",
+    "updateTime": "2020-08-31T10:23:45.988912Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ship.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ship.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120308"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "ship.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ship.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120308"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Bat purple",
+    "authorId": "e_COL5StXBR",
+    "authorName": "Oliver Arguello",
+    "createTime": "2020-09-07T15:32:11.204337Z",
+    "updateTime": "2020-09-29T10:25:06.499301Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "source/Bat1.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/Bat1_low_Bat_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Bat1_low_Bat_Normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4328"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bat1_low_Bat_Normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Bat1_low_Bat_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4328"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

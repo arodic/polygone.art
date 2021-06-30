@@ -1,0 +1,56 @@
+{
+    "name": "Mitsubishi L200",
+    "description": "L200 / Triton 3rd Generation\nPickup - Double cabin - offroad",
+    "authorId": "7BGcjxveUJO",
+    "authorName": "Muhammad Reyhan",
+    "createTime": "2018-03-25T08:59:52.032258Z",
+    "updateTime": "2021-06-10T20:26:00.583320Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 72,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "l200.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "l200.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2899"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "l200.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "l200.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2899"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

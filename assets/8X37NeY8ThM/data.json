@@ -1,0 +1,52 @@
+{
+    "name": "LMAO Empty",
+    "authorId": "98kqixQ_Wwg",
+    "authorName": "Max Nachamkin",
+    "createTime": "2019-01-08T20:09:10.852185Z",
+    "updateTime": "2020-10-06T10:08:21.356650Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "LMAO sphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "LMAO sphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "320"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "LMAO sphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "LMAO sphere.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "320"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

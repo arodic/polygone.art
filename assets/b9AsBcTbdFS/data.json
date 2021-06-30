@@ -1,0 +1,54 @@
+{
+    "name": "Snowman with a monocle",
+    "authorId": "2DmtNA7hEwY",
+    "authorName": "Laure De Mey",
+    "createTime": "2017-11-16T14:34:16.272941Z",
+    "updateTime": "2020-10-06T10:20:20.476362Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "snowman_big.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "snowman_big.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1998"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "snowman_big.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "snowman_big.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1998"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

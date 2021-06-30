@@ -1,0 +1,59 @@
+{
+    "name": "A330 Airbus",
+    "description": "Avión de largas distancias.  https://www.viajesydescuentos.com/tiquetes-baratos-la-aerolinea-wingo/",
+    "authorId": "2EGV5t3OMVD",
+    "authorName": "Andres Currea",
+    "createTime": "2021-05-01T06:58:15.753529Z",
+    "updateTime": "2021-05-01T07:03:35.686116Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3d-model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d-model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "3d-model.obj",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48382"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48382"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

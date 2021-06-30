@@ -1,0 +1,54 @@
+{
+    "name": "Dust2_mapa_bezteksture",
+    "authorId": "9lBUXo4DpKI",
+    "authorName": "ivica ristic",
+    "createTime": "2020-08-10T13:19:58.353548Z",
+    "updateTime": "2020-08-10T13:29:35.822822Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "source/de_dust2/de_dust2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "source/de_dust2/de_dust2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9929"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "de_dust2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "de_dust2.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9929"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

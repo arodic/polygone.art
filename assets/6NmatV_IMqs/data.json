@@ -1,0 +1,47 @@
+{
+    "name": "Cartoon Snake",
+    "description": "For sharing",
+    "authorId": "aoHOkdt61Bh",
+    "authorName": "KwunWah Tong",
+    "createTime": "2019-12-23T09:53:10.691559Z",
+    "updateTime": "2020-09-29T09:52:19.383674Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/snake_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/snake_metallicRoughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19064"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

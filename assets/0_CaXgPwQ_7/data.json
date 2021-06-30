@@ -1,0 +1,60 @@
+{
+    "name": "alex grey skybox",
+    "authorId": "72-7yT1sm07",
+    "authorName": "Robert S",
+    "createTime": "2019-04-15T23:13:08.903419Z",
+    "updateTime": "2020-10-07T09:27:50.669459Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "skybox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "skybox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

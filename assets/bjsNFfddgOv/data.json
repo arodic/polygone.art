@@ -1,0 +1,56 @@
+{
+    "name": "Low-poly landscape",
+    "description": "made in #b3d",
+    "authorId": "3dVB0GT8oMI",
+    "authorName": "sirkitree",
+    "createTime": "2018-03-24T15:54:53.693562Z",
+    "updateTime": "2021-02-18T10:41:52.721341Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "b3d"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "landscape.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "landscape.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5620"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "landscape.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "landscape.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5620"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

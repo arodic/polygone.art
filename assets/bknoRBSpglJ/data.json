@@ -1,0 +1,95 @@
+{
+    "name": "Cinema Valle 3d",
+    "description": "Cinema Valle 3d, sustefest2020, alteVir",
+    "authorId": "6m3B0r6yKt7",
+    "authorName": "Luis Alonso Cardona",
+    "createTime": "2020-09-03T19:01:33.174535Z",
+    "updateTime": "2020-09-20T10:20:20.938062Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cinema.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cinema.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "cemento.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "metal.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "piedraantigua.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tejaverde.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "azulejo.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "106660"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cinema.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cinema.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tejaverde.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "cemento.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "piedraantigua.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "metal.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "azulejo.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "106660"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

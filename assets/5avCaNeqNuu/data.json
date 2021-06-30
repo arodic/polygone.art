@@ -1,0 +1,62 @@
+{
+    "name": "SpaceShip",
+    "authorId": "eG3jZyjl2uJ",
+    "authorName": "KULDEEP CHAUHAN",
+    "createTime": "2018-05-12T05:59:15.447982Z",
+    "updateTime": "2020-11-15T04:00:30.900486Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plane.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plane.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "space.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15410"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "plane.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "plane.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "space.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15410"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

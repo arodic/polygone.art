@@ -1,0 +1,49 @@
+{
+    "name": "Spielwürfel",
+    "description": "a simple game cube",
+    "authorId": "0BdBJS24Wq5",
+    "authorName": "BrainFreeze",
+    "createTime": "2021-03-16T08:20:05.232800Z",
+    "updateTime": "2021-03-16T11:38:10.857325Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Würfel .gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Würfel .bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2748"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Würfel .obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "2748"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

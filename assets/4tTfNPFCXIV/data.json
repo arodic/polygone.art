@@ -1,0 +1,63 @@
+{
+    "name": "BigSky Alex Grey Interbeing",
+    "description": "BigSky Alex Grey Interbeing",
+    "authorId": "0hXMopAW2Mk",
+    "authorName": "Paul Benedict",
+    "createTime": "2019-04-26T22:41:05.754730Z",
+    "updateTime": "2021-06-08T01:37:22.292656Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "skybox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "skybox.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "skybox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

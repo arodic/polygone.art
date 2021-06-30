@@ -1,0 +1,52 @@
+{
+    "name": "My car scene",
+    "description": "3d car object created in Blender and exported as .obj to poly, then created scene using Tiltbrush on Quest.",
+    "authorId": "fF9esdRKxa3",
+    "authorName": "Benjamin Penaflor",
+    "createTime": "2020-06-13T20:48:37.683350Z",
+    "updateTime": "2020-09-02T10:21:29.447756Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3370"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    },
+    "remixInfo": {
+        "sourceAsset": [
+            "assets/b7_-Z5Yv6jV"
+        ]
+    }
+}

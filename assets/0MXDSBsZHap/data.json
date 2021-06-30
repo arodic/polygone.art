@@ -1,0 +1,61 @@
+{
+    "name": "AkuVR HBWave Earth NonCentered",
+    "description": "Original model by Robert Mirabelle https://poly.google.com/view/0nEWYSdUqRq",
+    "authorId": "akgdfmEG5pb",
+    "authorName": "Aku",
+    "createTime": "2021-03-07T20:37:04.524546Z",
+    "updateTime": "2021-03-07T20:44:40.436179Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Earth Rotator.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_ball.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Earth Rotator.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1920"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Earth Rotator.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Earth Rotator.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "earth_ball.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1920"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Alpha channel test",
+    "authorId": "0iPSjSj0qGW",
+    "authorName": "Brad Tucker",
+    "createTime": "2019-06-08T00:50:00.160621Z",
+    "updateTime": "2020-09-22T09:48:52.484617Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bird transp.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "20190513 brad bird 007.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bird transp.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bird transp.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bird transp.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "20190513 brad bird 007.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

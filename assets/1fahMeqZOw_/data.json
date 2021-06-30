@@ -1,0 +1,64 @@
+{
+    "name": "Cube Room",
+    "description": "A thematically neutral indoor environment created for prototyping/testing VR experiences. \n\nHas lots of right angles.",
+    "authorId": "f8cGQY15_-g",
+    "authorName": "Anonymous",
+    "createTime": "2017-10-19T14:43:56.548972Z",
+    "updateTime": "2021-06-08T10:21:23.880521Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 147,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CubeRoom.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CubeRoom_BakedDiffuse_4096.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "CubeRoom.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5364"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CubeRoom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CubeRoom.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CubeRoom_BakedDiffuse_4096.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5364"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

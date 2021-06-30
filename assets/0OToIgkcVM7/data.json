@@ -1,0 +1,66 @@
+{
+    "name": "Cow",
+    "description": "#animal #farm",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-12T00:55:22.665827Z",
+    "updateTime": "2021-06-16T12:43:02.863250Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "animal",
+        "farm"
+    ],
+    "likes": 92,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Cow.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cow.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Cow_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1242"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Cow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cow.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Cow_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1242"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

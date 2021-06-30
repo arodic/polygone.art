@@ -1,0 +1,62 @@
+{
+    "name": "Earth_1",
+    "authorId": "0cdxIIrOLmY",
+    "authorName": "Chaitanya Harde",
+    "createTime": "2020-01-09T07:31:25.552110Z",
+    "updateTime": "2020-08-03T10:21:28.168877Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earth.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "earth.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "253952"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "earth.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "earth.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "253952"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

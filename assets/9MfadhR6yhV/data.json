@@ -1,0 +1,60 @@
+{
+    "name": "totc psy ball stage",
+    "authorId": "61x8MUkCOAm",
+    "authorName": "nate insolitum",
+    "createTime": "2020-04-22T01:28:55.756072Z",
+    "updateTime": "2020-09-29T10:04:43.210019Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "psyballstage.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "psyballstage.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "totcgrad.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36560"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "psyballstage.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "psyballstage.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "totcgrad.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36560"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

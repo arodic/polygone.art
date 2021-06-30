@@ -1,0 +1,62 @@
+{
+    "name": "Pirate Coin",
+    "authorId": "fuRpkt2ESx0",
+    "authorName": "CAT Games",
+    "createTime": "2019-09-12T06:19:11.207184Z",
+    "updateTime": "2020-09-19T10:02:20.029422Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Coin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Coin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Coin.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "588"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Coin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Coin.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Coin.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "588"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

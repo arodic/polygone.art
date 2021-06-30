@@ -1,0 +1,68 @@
+{
+    "name": "sm groundswell 3 stage",
+    "authorId": "61x8MUkCOAm",
+    "authorName": "nate insolitum",
+    "createTime": "2020-02-27T01:08:38.117996Z",
+    "updateTime": "2020-09-25T10:13:37.423256Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "smstage.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "smstage.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tworiepmc.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smgradient.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "62024"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "smstage.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "smgradient.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smstage.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tworiepmc.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "62024"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

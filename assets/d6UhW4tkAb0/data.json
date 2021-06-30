@@ -1,0 +1,63 @@
+{
+    "name": "Earth Terrain",
+    "description": "For upcoming Tilt project. Probably the final draft I will make.  Built in 3ds Max.  I found a height map of Everest and isolated a small portion of it.  I created a high resolution plane in Max and displaced it using the height map.  In Photoshop, I took the same map and colorized it by carefully selecting eight 'height' by color range and assigning a color and texture. I used the resulting colored map in the diffuse slot of the material assigned to the plane.  Exported to .obj using the Mudbox preset.  Hit me up if you need additional details.  This was a laborious but interesting process.",
+    "authorId": "fa4m5c69h51",
+    "authorName": "Robert Mirabelle",
+    "createTime": "2017-11-24T03:32:44.531582Z",
+    "updateTime": "2021-02-08T13:33:37.039724Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 11,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "aethersphere_earth_terrain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "aethersphere_earth_terrain.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "aethersphere_earth_terrain.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "131064"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "aethersphere_earth_terrain.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "aethersphere_earth_terrain.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "aethersphere_earth_terrain.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "131064"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#455a64"
+    }
+}

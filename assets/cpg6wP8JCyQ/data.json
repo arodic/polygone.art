@@ -1,0 +1,68 @@
+{
+    "name": "Apple tree",
+    "description": "#plant #forest #fruit #flora\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T00:22:21.706450Z",
+    "updateTime": "2021-06-10T07:05:43.035473Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "plant",
+        "forest",
+        "fruit",
+        "flora"
+    ],
+    "likes": 75,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "AppleTree.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "AppleTree.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "AppleTree_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2150"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "AppleTree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "AppleTree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "AppleTree_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2150"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

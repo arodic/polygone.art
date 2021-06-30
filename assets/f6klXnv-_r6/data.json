@@ -1,0 +1,51 @@
+{
+    "name": "WraithBlank",
+    "description": "From Halo series",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-02T04:55:14.133829Z",
+    "updateTime": "2021-01-08T21:35:05.710634Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wrt.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "1116"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "wrt.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wrt.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1116"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865477,
+            "z": 5.551115123125783e-17,
+            "w": -0.7071067811865474
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

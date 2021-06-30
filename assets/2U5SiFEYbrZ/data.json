@@ -1,0 +1,60 @@
+{
+    "name": "Nestar",
+    "authorId": "eMpJ68l2i8D",
+    "authorName": "Matteo Rando",
+    "createTime": "2020-02-23T09:07:27.005767Z",
+    "updateTime": "2020-02-25T20:13:12.537382Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "nestar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "nestar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Leather_005_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "74203"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "nestar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "nestar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Leather_005_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "74203"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

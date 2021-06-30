@@ -1,0 +1,60 @@
+{
+    "name": "stone2",
+    "authorId": "0bi3sUb0jtx",
+    "authorName": "Flashy Sprinkles",
+    "createTime": "2018-08-29T14:41:18.495948Z",
+    "updateTime": "2020-12-13T20:06:12.817369Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "stone2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "stone2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "stone1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "stone2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "stone2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "stone1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

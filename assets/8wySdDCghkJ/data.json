@@ -1,0 +1,82 @@
+{
+    "name": "GolfCart",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-05T03:47:32.300024Z",
+    "updateTime": "2020-10-06T10:08:36.481364Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GolfCart.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gcbody.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "gcstuff.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "gcwheel.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "GolfCart.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1400"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "GolfCart.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "GolfCart.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gcstuff.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "gcwheel.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "gcbody.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1400"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

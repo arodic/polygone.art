@@ -1,0 +1,60 @@
+{
+    "name": "Fibo",
+    "authorId": "0bi3sUb0jtx",
+    "authorName": "Flashy Sprinkles",
+    "createTime": "2018-07-05T13:08:00.338392Z",
+    "updateTime": "2020-09-26T09:41:03.593845Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fibonacci.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fibonacci.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fibonacci.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30644"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "fibonacci.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fibonacci.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fibonacci.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30644"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

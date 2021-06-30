@@ -1,0 +1,71 @@
+{
+    "name": "Toy Truck",
+    "description": "A scan with Capturing Reality using 78 images",
+    "authorId": "1jL97FgqD7Y",
+    "authorName": "Nikolai Bockholt",
+    "createTime": "2021-03-24T09:40:49.393674Z",
+    "updateTime": "2021-03-24T09:48:32.131579Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "truck_low.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "truck_low.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "truck_low_u1_v1_diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "truck_low_u1_v1_normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "100578"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "truck_low.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "truck_low.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "truck_low_u1_v1_diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "truck_low_u1_v1_normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "100578"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3d3d3d"
+    }
+}

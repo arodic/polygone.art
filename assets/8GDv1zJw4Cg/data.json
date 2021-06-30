@@ -1,0 +1,79 @@
+{
+    "name": "McLaren F1",
+    "description": "One of the fastest cars ever!",
+    "authorId": "bFnhZ6GuS2Z",
+    "authorName": "Mythreya X Upadrasta",
+    "createTime": "2020-08-21T19:47:40.407413Z",
+    "updateTime": "2020-08-25T09:59:12.454349Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SportsCar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SportsCar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "carFrontBits.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carTire.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carBackBits.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "111622"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "SportsCar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "carFrontBits.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "SportsCar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "carBackBits.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carTire.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "111622"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

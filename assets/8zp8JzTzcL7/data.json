@@ -1,0 +1,61 @@
+{
+    "name": "couch",
+    "description": "couch",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-10-13T08:08:33.163293Z",
+    "updateTime": "2020-10-04T10:02:21.708685Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "couch.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "couch.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "material_0_baseColor_17832851910588591680.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "76069"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "couch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "couch.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "material_0_baseColor_17832851910588591680.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "76069"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

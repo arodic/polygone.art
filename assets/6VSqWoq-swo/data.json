@@ -1,0 +1,62 @@
+{
+    "name": "mushroom stemup 蘑菇",
+    "authorId": "fPKloI-bGDa",
+    "authorName": "Beach Zeng",
+    "createTime": "2019-12-23T07:35:28.245283Z",
+    "updateTime": "2020-10-05T09:56:04.876524Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mushroom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mushroom.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mushroom_basecolor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1008"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mushroom.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mushroom.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mushroom_basecolor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1008"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#6e6e6e"
+    }
+}

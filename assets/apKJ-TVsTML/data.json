@@ -1,0 +1,63 @@
+{
+    "name": "Kore statue head",
+    "description": "The kore head is 19.5 cm.\nThe National Museum of Denmark: Inv. no. 11569.",
+    "authorId": "7Enw2A4yrRU",
+    "authorName": "Athana Lindia Nationalmuseet",
+    "createTime": "2020-11-20T22:40:57.061672Z",
+    "updateTime": "2020-12-27T18:04:04.545243Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "kore_head.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "kore_head.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Kore-head/G:/objects/udstilling/kore_head/kore_head.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "53606"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Kore-head/kore_head.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Kore-head/kore_head.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Kore-head/G:/objects/udstilling/kore_head/kore_head.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "53606"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

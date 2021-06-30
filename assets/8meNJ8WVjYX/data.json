@@ -1,0 +1,56 @@
+{
+    "name": "Poliovirus-coarse surface",
+    "description": "60 protomer building blocks, each colored by 3 protein chains.",
+    "authorId": "9XerOBbv57G",
+    "authorName": "Arthur Olson",
+    "createTime": "2020-10-15T20:59:31.458544Z",
+    "updateTime": "2020-10-15T21:06:02.708984Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "blocks",
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "polio-capsid-20000.wrl.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "polio-capsid-20000.wrl.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "polio-capsid-20000.wrl.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "polio-capsid-20000.wrl.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#171717"
+    }
+}

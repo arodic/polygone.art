@@ -1,0 +1,47 @@
+{
+    "name": "MYP5_text",
+    "description": "3D text for MYP5 AR presentation",
+    "authorId": "2U2TFWVofSh",
+    "authorName": "Andrea Santini",
+    "createTime": "2020-11-24T16:20:05.191205Z",
+    "updateTime": "2020-11-24T16:31:23.721028Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "MYP5.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "388"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "MYP5.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "MYP5.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "388"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#5c5353"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Scanned test",
+    "description": "test",
+    "authorId": "aoqR4MaQEHl",
+    "authorName": "Daniel O'Connor",
+    "createTime": "2021-01-14T07:24:33.049610Z",
+    "updateTime": "2021-01-14T07:31:50.086762Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model_material0000_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "31394"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_material0000_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "31394"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.9216705904138981,
+            "y": -0.10220801320137929,
+            "z": 0.21918579164189028,
+            "w": 0.30337177447125957
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

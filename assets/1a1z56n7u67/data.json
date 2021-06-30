@@ -1,0 +1,56 @@
+{
+    "name": "Winter Island",
+    "description": "A winter island mainly meant for render testing. You can do whatever with it though!",
+    "authorId": "fkSSAPWUqdF",
+    "authorName": "SharkFin",
+    "createTime": "2017-11-01T19:39:56.392945Z",
+    "updateTime": "2021-05-22T16:05:22.491512Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 100,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "WinterIslandv2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "WinterIslandv2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4618"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "WinterIslandv2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "WinterIslandv2.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4618"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

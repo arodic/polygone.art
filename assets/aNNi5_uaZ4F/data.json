@@ -1,0 +1,63 @@
+{
+    "name": "Lampe à huile à la sphinge",
+    "description": "Lampe à huile découverte lors des fouilles de la nécropole Cap de Croix Avenue Cap de Croix à Cimiez",
+    "authorId": "6Rjxsb4SCr0",
+    "authorName": "Musée d'Archéologie de Nice / Cimiez",
+    "createTime": "2020-05-13T16:50:32.612577Z",
+    "updateTime": "2020-10-07T10:12:27.741435Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Lampe.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lampe.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Lampe.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1095990"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Lampe.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lampe.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Lampe.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1095990"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#202124"
+    }
+}

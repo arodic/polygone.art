@@ -1,0 +1,63 @@
+{
+    "name": "Tachikoma",
+    "description": "From Ghost in the Shell, Tachikoma, favorite your friend.",
+    "authorId": "celp7ig9j3-",
+    "authorName": "Cristian Brevis",
+    "createTime": "2017-12-07T06:05:45.547886Z",
+    "updateTime": "2020-09-04T10:21:05.268405Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "001 - tachikoma_voxel.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "001 - tachikoma_voxel.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tachikoma_voxel.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5390"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "001 - tachikoma_voxel.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "001 - tachikoma_voxel.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tachikoma_voxel.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5390"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#616161"
+    }
+}

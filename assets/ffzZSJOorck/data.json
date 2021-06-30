@@ -1,0 +1,66 @@
+{
+    "name": "Comet",
+    "description": "#space #asteroid",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T22:58:01.789540Z",
+    "updateTime": "2021-04-26T00:34:47.713904Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "space",
+        "asteroid"
+    ],
+    "likes": 32,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Comet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Comet.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Comet_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "518"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Comet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Comet.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Comet_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "518"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "grasshead",
+    "authorId": "0bi3sUb0jtx",
+    "authorName": "Flashy Sprinkles",
+    "createTime": "2018-12-26T18:56:45.309283Z",
+    "updateTime": "2020-10-04T10:06:44.120302Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "grasshead.OBJ",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "grasshead.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "grasshead.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6914"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "grasshead.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "grasshead.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "grasshead.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6914"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "name": "FBX Fish stag",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-12-07T15:45:40.367068Z",
+    "updateTime": "2020-02-25T22:20:18.780772Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1502_Fish_N2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1502_Fish_D2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "25126"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "1502_Fish_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "1502_fish_loda_1.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1502_Fish_D2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1502_fish_loda.fplmesh",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1502_fish_loda_0.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1502_Fish_N2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "25126"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

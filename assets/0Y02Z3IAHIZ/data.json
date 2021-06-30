@@ -1,0 +1,66 @@
+{
+    "name": "Blazek test",
+    "description": "Test nahrávání mtl a obj z Iphone 3d scanner",
+    "authorId": "aHIKJt0tCgx",
+    "authorName": "Vojtech Blazek",
+    "createTime": "2019-04-08T12:26:58.173218Z",
+    "updateTime": "2020-10-03T09:29:41.192228Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Model.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49984"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49984"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -1.0632884247878856e-17,
+            "y": 0.17364817766693033,
+            "z": 0.984807753012208,
+            "w": 6.030208312509488e-17
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

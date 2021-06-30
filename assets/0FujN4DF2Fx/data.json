@@ -1,0 +1,61 @@
+{
+    "name": "Neutral LUT",
+    "description": "LUTs are lookup images for changing the color grading of your image",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2021-01-01T18:35:08.250332Z",
+    "updateTime": "2021-01-01T18:43:16.291328Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "neutrallut.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "NeutralLdrLut.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "neutrallut.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "neutrallut.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "neutrallut.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "NeutralLdrLut.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

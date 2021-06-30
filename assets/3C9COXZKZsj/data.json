@@ -1,0 +1,65 @@
+{
+    "name": "Astronaut food",
+    "description": "#space",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T15:05:29.630565Z",
+    "updateTime": "2021-06-03T18:27:36.276325Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "space"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SpaceFood.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpaceFood.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SpaceFood_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2204"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "SpaceFood.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpaceFood.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SpaceFood_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2204"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

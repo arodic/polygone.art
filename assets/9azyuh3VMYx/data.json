@@ -1,0 +1,62 @@
+{
+    "name": "Martian Attack Dog",
+    "authorId": "00B2f2gorl7",
+    "authorName": "Luke Cassar",
+    "createTime": "2018-03-28T12:18:52.299237Z",
+    "updateTime": "2020-09-15T10:05:40.293722Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "MartianDog.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "MartianDog.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "MartianDog.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1206"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "MartianDog.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "MartianDog.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "MartianDog.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1206"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

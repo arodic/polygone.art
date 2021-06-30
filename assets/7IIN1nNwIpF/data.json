@@ -1,0 +1,63 @@
+{
+    "name": "Speedsnow",
+    "description": "Made in MagicaVoxel by Leo with Dada's help. He has a back mane that helps him control himself in the wind, and he's way faster than Snowrun",
+    "authorId": "0yVkSlQQ9T_",
+    "authorName": "Brian Moynihan",
+    "createTime": "2020-04-04T23:34:47.589070Z",
+    "updateTime": "2020-08-17T09:55:46.660286Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "speed_snow.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "speed_snow.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "speed_snow.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "324"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "speed_snow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "speed_snow.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "speed_snow.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "324"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

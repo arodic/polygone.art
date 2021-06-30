@@ -1,0 +1,68 @@
+{
+    "name": "Lwmr",
+    "authorId": "5aBNA_aId6P",
+    "authorName": "Retired Teenager",
+    "createTime": "2019-07-26T02:51:04.639579Z",
+    "updateTime": "2020-02-25T23:08:01.687310Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "controller.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture_1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "baked_mesh0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "controller.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5948"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "controller.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "controller.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "baked_mesh0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5948"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

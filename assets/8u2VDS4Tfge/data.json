@@ -1,0 +1,81 @@
+{
+    "name": "box",
+    "description": "falcon box",
+    "authorId": "1SaN5-yUM_c",
+    "authorName": "Anas Aji",
+    "createTime": "2021-02-24T19:19:57.433153Z",
+    "updateTime": "2021-02-24T19:26:07.177144Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "source/3d after edit.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/left side_1.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/top side_1.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/right side_1.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/front side.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "front side.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "left side_1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "top side_1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "right side_1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "First Christmas (Tree)",
+    "authorId": "42NmLlWJ7B6",
+    "authorName": "Chris Berno",
+    "createTime": "2018-07-02T17:12:36.720775Z",
+    "updateTime": "2020-08-20T10:05:07.162302Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "christmas_tree.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "branch.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "christmas_tree.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "11694"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "christmas_tree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "christmas_tree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "branch.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "11694"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

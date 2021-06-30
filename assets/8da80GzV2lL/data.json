@@ -1,0 +1,46 @@
+{
+    "name": "ufo",
+    "authorId": "4uLQrbkOK_C",
+    "authorName": "Basil Trunov",
+    "createTime": "2017-11-01T16:47:19.568493Z",
+    "updateTime": "2020-02-25T21:24:59.527562Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ufo.OBJ",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "10048"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "ufo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ufo.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10048"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

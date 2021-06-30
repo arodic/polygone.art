@@ -1,0 +1,60 @@
+{
+    "name": "JD6 Seahorse",
+    "authorId": "73VP5s1V3OU",
+    "authorName": "Jason Daniel",
+    "createTime": "2020-04-28T21:05:07.225660Z",
+    "updateTime": "2020-10-04T09:41:38.504564Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "horsesea.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "horsesea.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "01_-_Default_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10176"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "horsesea.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "horsesea.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "01_-_Default_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10176"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "ブルーベリーパープル",
+    "description": "東京都小平市のプログラミング教室ハッピーコンピューティングです。\n小平市のご当地ヒーローコダレンジャーのブルーベリーパープルを生徒さんにMagicaVoxelでモデリングしてもらいました。",
+    "authorId": "fPAvBoyugWy",
+    "authorName": "Takahiro Yamamoto",
+    "createTime": "2019-11-28T11:19:30.999276Z",
+    "updateTime": "2020-11-03T18:30:25.919549Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "purple.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "purple.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "purple.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "456"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "purple.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "purple.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "purple.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "456"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffff60"
+    }
+}

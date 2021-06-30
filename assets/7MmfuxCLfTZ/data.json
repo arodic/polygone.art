@@ -1,0 +1,63 @@
+{
+    "name": "NWIceFlowS14",
+    "description": "Ireland Ice Flow 14",
+    "authorId": "4p-hkH0udlA",
+    "authorName": "Bobby Law",
+    "createTime": "2019-03-27T12:33:16.455810Z",
+    "updateTime": "2020-02-25T21:09:06.092418Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene_14.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ice.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "scene.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2379"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "scene_14.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene_14.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ice.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2379"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "sm body",
+    "authorId": "61x8MUkCOAm",
+    "authorName": "nate insolitum",
+    "createTime": "2020-02-27T01:07:21.129097Z",
+    "updateTime": "2020-09-20T10:18:34.367984Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "smbody.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "smbody.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "smgradient.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9200"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "smbody.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "smbody.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "smgradient.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9200"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

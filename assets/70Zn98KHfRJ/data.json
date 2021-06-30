@@ -1,0 +1,62 @@
+{
+    "name": "stemup water 水",
+    "authorId": "fPKloI-bGDa",
+    "authorName": "Beach Zeng",
+    "createTime": "2019-12-16T08:19:26.647051Z",
+    "updateTime": "2020-09-28T09:56:36.541966Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "water.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "water.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "water.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1702"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "water.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "water.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "water.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1702"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#707070"
+    }
+}

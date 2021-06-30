@@ -1,0 +1,60 @@
+{
+    "name": "totc obelisk stage",
+    "authorId": "61x8MUkCOAm",
+    "authorName": "nate insolitum",
+    "createTime": "2019-08-28T22:44:26.932059Z",
+    "updateTime": "2020-09-12T21:24:16.704520Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "obeliskstage.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "obeliskstage.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "prplmaggrnloop.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3720"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "obeliskstage.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "obeliskstage.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "prplmaggrnloop.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3720"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

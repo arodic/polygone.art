@@ -1,0 +1,66 @@
+{
+    "name": "zooforo",
+    "description": "Scultura tratta dal Battistero di Parma",
+    "authorId": "cJiRan3UKv7",
+    "authorName": "Carlo Tondelli",
+    "createTime": "2020-06-12T15:02:01.591760Z",
+    "updateTime": "2020-09-13T10:34:15.275147Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "zoo_per_poly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "zoo_per_poly.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "zoo_per_poly.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "119964"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "zoo_per_poly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "zoo_per_poly.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "zoo_per_poly.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "119964"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.11538279331215046,
+            "y": 0.4125235753599315,
+            "z": 0.11538279331215046,
+            "w": 0.896213100655882
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

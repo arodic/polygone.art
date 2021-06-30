@@ -1,0 +1,60 @@
+{
+    "name": "yeah",
+    "authorId": "6ACrCgQ2kCj",
+    "authorName": "pierre garnier",
+    "createTime": "2019-11-01T13:33:00.255962Z",
+    "updateTime": "2020-04-26T10:02:47.983814Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wop.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "wop.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "wropcouleur.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1080"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "wop.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wop.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "wropcouleur.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1080"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

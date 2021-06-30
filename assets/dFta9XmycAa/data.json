@@ -1,0 +1,49 @@
+{
+    "name": "atera model",
+    "description": "a modol of an alien",
+    "authorId": "6ZwNo8ewoFk",
+    "authorName": "Bendzer",
+    "createTime": "2019-03-24T16:12:23.536161Z",
+    "updateTime": "2020-09-22T10:26:05.670265Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "new avatar.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "6679"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "new avatar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "new avatar.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6679"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

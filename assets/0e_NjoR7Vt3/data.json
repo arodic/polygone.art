@@ -1,0 +1,62 @@
+{
+    "name": "Caja cereal Kirby",
+    "authorId": "c3atQ62-XH_",
+    "authorName": "MARIA CAMILA REINA GOMEZ",
+    "createTime": "2020-04-12T01:02:48.713623Z",
+    "updateTime": "2021-05-07T20:32:16.309699Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "box.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "box.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Caja cereal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "box.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "box.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Caja cereal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "esfera",
+    "authorId": "dGesoIk1D09",
+    "authorName": "Jorge Gustavo Lamberti",
+    "createTime": "2019-08-16T20:37:43.665843Z",
+    "updateTime": "2020-03-27T10:01:53.095980Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chr_sword.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_sword.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "chr_sword.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1852"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "chr_sword.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_sword.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chr_sword.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1852"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

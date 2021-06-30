@@ -1,0 +1,55 @@
+{
+    "name": "Gerald Albano",
+    "description": "My Name",
+    "authorId": "2QFMIbMxoWG",
+    "authorName": "Gerald Albano",
+    "createTime": "2020-07-18T09:51:40.810581Z",
+    "updateTime": "2020-07-18T10:00:48.417557Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gerald.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gerald.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8290"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "gerald.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gerald.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8290"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

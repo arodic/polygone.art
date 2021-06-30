@@ -1,0 +1,67 @@
+{
+    "name": "Trash can",
+    "description": "#rubbish #bin #garbage",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T19:31:43.708409Z",
+    "updateTime": "2021-06-08T10:57:37.493785Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "rubbish",
+        "bin",
+        "garbage"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "OldFashioned.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "OldFashioned.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "OldFashioned_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "208"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "OldFashioned.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "OldFashioned.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "OldFashioned_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "208"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9575cd"
+    }
+}

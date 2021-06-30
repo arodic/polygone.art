@@ -1,0 +1,63 @@
+{
+    "name": "VRDSTV",
+    "description": "Might use this",
+    "authorId": "1HCkO0xJkhX",
+    "authorName": "Derky Sprawl",
+    "createTime": "2019-01-01T16:57:27.050165Z",
+    "updateTime": "2020-09-02T10:21:30.184848Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Flatscreen.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Flatscreen.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Texture Bake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Flatscreen.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Flatscreen.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Texture Bake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "name": "Starry Night",
+    "description": "Starry Nigh by Van Gogh.\n\nImage is from: https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg\n",
+    "authorId": "6u4gn3mUP_N",
+    "authorName": "Tim Gleason",
+    "createTime": "2018-01-17T15:06:54.277987Z",
+    "updateTime": "2020-10-01T09:52:02.610195Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "StarryNight.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "StarryNight.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "StarryNight.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "StarryNight.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "StarryNight.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "StarryNight.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

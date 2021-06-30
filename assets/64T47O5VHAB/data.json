@@ -1,0 +1,68 @@
+{
+    "name": "Caterpillar",
+    "description": "#bug #insect #larva #butterfly",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T22:06:29.591916Z",
+    "updateTime": "2021-06-06T09:38:10.405966Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "bug",
+        "insect",
+        "larva",
+        "butterfly"
+    ],
+    "likes": 20,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "caterpiller.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "caterpiller.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "caterpillerTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "784"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "caterpiller.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "caterpiller.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "caterpillerTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "784"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

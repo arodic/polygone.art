@@ -1,0 +1,47 @@
+{
+    "name": "Teapot",
+    "description": "Modello base per la progettazione di una teiera",
+    "authorId": "8q2KK2XDInU",
+    "authorName": "Paolo Volsi",
+    "createTime": "2020-09-23T17:46:45.066877Z",
+    "updateTime": "2020-10-04T10:04:09.931168Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "teapot light.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "188876"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "teapot light.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "teapot light.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "188876"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

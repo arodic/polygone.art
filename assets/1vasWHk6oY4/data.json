@@ -1,0 +1,63 @@
+{
+    "name": "緑でんでん",
+    "description": "メイプルストーリーのみどりでんでんを作りました",
+    "authorId": "7JFEvn0MZOq",
+    "authorName": "KEN IMOTO",
+    "createTime": "2019-12-27T01:15:50.423777Z",
+    "updateTime": "2020-10-03T09:35:43.087286Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "green_dendenvox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "green_dendenvox.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "green_dendenvox.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "376"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "green_dendenvox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "green_dendenvox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "green_dendenvox.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "376"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

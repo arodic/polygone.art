@@ -1,0 +1,60 @@
+{
+    "name": "DVFX Petals",
+    "authorId": "a0MpLW6oYrn",
+    "authorName": "Dau Vinci",
+    "createTime": "2019-05-13T02:53:50.926217Z",
+    "updateTime": "2020-10-01T10:32:39.757893Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "petals.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "petals.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "petals.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "400"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "petals.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "petals.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "petals.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "400"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

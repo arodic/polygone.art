@@ -1,0 +1,68 @@
+{
+    "name": "Lighthouse",
+    "description": "#beacon #signal #naval #tower\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T01:27:43.399809Z",
+    "updateTime": "2021-05-24T10:34:36.568932Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "beacon",
+        "signal",
+        "naval",
+        "tower"
+    ],
+    "likes": 33,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lighthouse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lighthouse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "lighthouse_baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "555"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "lighthouse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lighthouse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lighthouse_baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "555"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

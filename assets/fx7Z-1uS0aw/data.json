@@ -1,0 +1,63 @@
+{
+    "name": "pottery",
+    "description": "https://www.youtube.com/watch?v=4_75YyjE0Oc",
+    "authorId": "9msEV_0acvz",
+    "authorName": "Kỳ Nguyễn",
+    "createTime": "2018-06-30T14:04:00.281539Z",
+    "updateTime": "2020-09-28T10:30:00.103232Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gg.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gg.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "gg01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "161501"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "gg.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gg.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gg01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "161501"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

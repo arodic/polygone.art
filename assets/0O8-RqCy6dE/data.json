@@ -1,0 +1,53 @@
+{
+    "name": "Movie set chair",
+    "description": "A chair from a movie set.",
+    "authorId": "7Yevy9BwO-2",
+    "authorName": "Franziska Haaf",
+    "createTime": "2019-08-23T12:57:43.824480Z",
+    "updateTime": "2020-09-25T09:29:58.261321Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chair_01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chair_01.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "chair_01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chair_01.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9800"
+    }
+}

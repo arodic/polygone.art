@@ -1,0 +1,63 @@
+{
+    "name": "Ridgley's  Head",
+    "description": "My Head",
+    "authorId": "a5XGGG0V60r",
+    "authorName": "Zack Ridgley",
+    "createTime": "2020-04-22T19:37:51.074365Z",
+    "updateTime": "2020-04-22T19:43:42.086408Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Google Head.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "head3d.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Google Head.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "25000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Google Head.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Google Head.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "head3d.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "25000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

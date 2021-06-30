@@ -1,0 +1,48 @@
+{
+    "name": "Human skull",
+    "authorId": "0NRXlyxV1yp",
+    "authorName": "Fərid Zeynalov",
+    "createTime": "2019-06-18T09:48:30.849900Z",
+    "updateTime": "2021-03-14T14:07:24.225975Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "skull.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "56098"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "skull.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "skull.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "56098"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#546e7a"
+    }
+}

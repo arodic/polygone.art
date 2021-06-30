@@ -1,0 +1,59 @@
+{
+    "name": "VR AR Book",
+    "description": "Book about virtual and augmented reality for the usage in AR or VR. For the real usage klic here: https://www.absynt.sk/realita-virtualna\n",
+    "authorId": "9FkkStgc7G_",
+    "authorName": "Lucia e.g.",
+    "createTime": "2020-04-30T10:40:07.107272Z",
+    "updateTime": "2020-06-30T09:39:21.787981Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Skica3D.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "SkicaCover.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7192"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SkicaCover.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7192"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c7e9f0"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "DNA-duplex",
+    "description": "coarse surface of two strands",
+    "authorId": "9XerOBbv57G",
+    "authorName": "Arthur Olson",
+    "createTime": "2020-10-14T04:14:49.620428Z",
+    "updateTime": "2020-10-14T04:22:39.099255Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dna-duplex.wrl.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dna-duplex.wrl.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5932"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dna-duplex.wrl.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dna-duplex.wrl.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5932"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

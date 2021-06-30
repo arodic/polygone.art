@@ -1,0 +1,63 @@
+{
+    "name": "Low Poly Chess - Rook",
+    "authorId": "ccxIgpSaIlA",
+    "authorName": "Leo Battle",
+    "createTime": "2017-12-22T15:03:10.382807Z",
+    "updateTime": "2021-01-19T14:18:01.333046Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rook.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "white.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "rook.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rook.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rook.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "white.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

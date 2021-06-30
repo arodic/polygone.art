@@ -1,0 +1,61 @@
+{
+    "name": "Point",
+    "description": "Example",
+    "authorId": "9h1DVRWlzso",
+    "authorName": "Luis Bravo",
+    "createTime": "2021-03-18T19:05:04.478307Z",
+    "updateTime": "2021-03-18T19:14:34.939147Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Project Name.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pointpromo&pointpromo_alpha.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Project Name.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Project Name.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Project Name.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pointpromo&pointpromo_alpha.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

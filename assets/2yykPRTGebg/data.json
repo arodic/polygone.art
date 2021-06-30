@@ -1,0 +1,65 @@
+{
+    "name": "DINO",
+    "authorId": "bK8R_izFuvE",
+    "authorName": "Sebastian Camilo Salamanca Pamplona",
+    "createTime": "2020-05-15T23:38:32.204062Z",
+    "updateTime": "2020-06-02T09:38:00.974560Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dino.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dino.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "dino.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41291"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dino.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dino.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dino.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41291"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.4685431294435051,
+            "y": 0.468543129443505,
+            "z": 0.5295916689783619,
+            "w": 0.529591668978362
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

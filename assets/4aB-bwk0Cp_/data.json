@@ -1,0 +1,70 @@
+{
+    "name": "hcl",
+    "authorId": "7KaRtyu5BFp",
+    "authorName": "ar3d - Lorenzo Ramacciato",
+    "createTime": "2021-01-15T14:31:29.980861Z",
+    "updateTime": "2021-01-15T14:36:54.880098Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hcl.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "blu.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "hcl.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rosso.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6144"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "hcl.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hcl.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "blu.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "rosso.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6144"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Miners Corner Park",
+    "description": "A reference model for the Miners Corner park in the Seattle area, which I made as part of an art proposal. Lots of trees and open grass area.\n\nLike this model, but need something a bit different? I take commissions! http://peripheralarbor.com/commission/",
+    "authorId": "ej5So4VLSng",
+    "authorName": "Paul Spooner",
+    "createTime": "2018-09-25T18:44:58.911751Z",
+    "updateTime": "2021-03-19T19:35:38.726953Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "MinersCornerParkSite.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TextureAtlas.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MinersCornerParkSite.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120568"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "MinersCornerParkSite.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "MinersCornerParkSite.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TextureAtlas.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120568"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b2ebf2"
+    }
+}

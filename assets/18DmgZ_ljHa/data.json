@@ -1,0 +1,61 @@
+{
+    "name": "super mario coin",
+    "description": "super mario coin",
+    "authorId": "8Xm_UC4sbEl",
+    "authorName": "Adam West",
+    "createTime": "2019-12-24T18:05:02.574818Z",
+    "updateTime": "2020-10-06T09:33:25.529931Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Coin/Coin.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "Coin/Textures/coinbody00_alb.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Coin/Textures/coinbody00_nrm.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Coin/Textures/coinbody00_rgh.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "96"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "96"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

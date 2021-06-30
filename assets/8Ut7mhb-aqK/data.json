@@ -1,0 +1,66 @@
+{
+    "name": "Zebra",
+    "description": "#wild #zoo",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T21:52:00.795013Z",
+    "updateTime": "2021-06-08T09:41:31.494433Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "wild",
+        "zoo"
+    ],
+    "likes": 22,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Zebra.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Zebra.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Zebra_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "936"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Zebra.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Zebra.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Zebra_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "936"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c5cae9"
+    }
+}

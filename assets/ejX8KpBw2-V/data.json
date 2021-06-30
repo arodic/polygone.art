@@ -1,0 +1,67 @@
+{
+    "name": "Ring tailed cat",
+    "description": "#feline #pet #kitten",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:59:54.647230Z",
+    "updateTime": "2021-06-05T22:04:20.130670Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "feline",
+        "pet",
+        "kitten"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "RingtailedCat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "RingtailedCat.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "RingtailedCat_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "840"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "RingtailedCat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "RingtailedCat.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "RingtailedCat_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "840"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

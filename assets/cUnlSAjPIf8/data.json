@@ -1,0 +1,39 @@
+{
+    "name": "Nintendo Switch",
+    "description": "Gaming on the go",
+    "authorId": "3doXNeEoOZN",
+    "authorName": "Dalvin Sejour",
+    "createTime": "2020-04-11T01:50:24.978282Z",
+    "updateTime": "2021-01-17T00:02:38.664549Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "switch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "switch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19710"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff5959"
+    }
+}

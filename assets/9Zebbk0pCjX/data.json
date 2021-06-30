@@ -1,0 +1,61 @@
+{
+    "name": "ASAT",
+    "description": "DASGThank you poly by Google",
+    "authorId": "bDky1fJeI05",
+    "authorName": "Mason Lee",
+    "createTime": "2019-05-30T16:31:30.010939Z",
+    "updateTime": "2020-09-25T10:06:33.875884Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Satellite(1).obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Satellite_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Satellite.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "914"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Satellite(1).gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Satellite(1).bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Satellite_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "914"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

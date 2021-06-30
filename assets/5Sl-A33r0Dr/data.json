@@ -1,0 +1,58 @@
+{
+    "name": "materials test - MTL Examples",
+    "description": "A test to see what various materials could look like by editing the MTL file\n\nThese are written based on the examples given in the MTL spec \n\nhttp://paulbourke.net/dataformats/mtl/\n\nnot all will look correct through google poly",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-09-23T21:58:26.370276Z",
+    "updateTime": "2020-07-17T09:50:28.652582Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mat_test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat_test.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "55018"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mat_test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat_test.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "55018"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.6532814824381883,
+            "y": -0.2705980500730985,
+            "z": -0.27059805007309845,
+            "w": -0.6532814824381882
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

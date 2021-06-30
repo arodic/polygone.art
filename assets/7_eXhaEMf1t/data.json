@@ -1,0 +1,71 @@
+{
+    "name": "Can",
+    "description": "simple 3d coke can",
+    "authorId": "eG3jZyjl2uJ",
+    "authorName": "KULDEEP CHAUHAN",
+    "createTime": "2018-05-11T18:31:08.698584Z",
+    "updateTime": "2020-09-25T10:05:07.058326Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "can.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "can.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "coke top4.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "coke.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28815"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "can.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "can.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "coke top4.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "coke.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28815"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

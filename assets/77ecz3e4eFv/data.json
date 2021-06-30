@@ -1,0 +1,55 @@
+{
+    "name": "O",
+    "description": "Letter in Franklin Gothic",
+    "authorId": "8-IAkXnnd_e",
+    "authorName": "Hector Torres",
+    "createTime": "2018-07-29T23:36:14.773374Z",
+    "updateTime": "2021-05-10T01:23:36.106574Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "OO.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "OO.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "480"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "OO.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "OO.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "480"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

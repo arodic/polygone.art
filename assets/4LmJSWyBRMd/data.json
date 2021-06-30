@@ -1,0 +1,66 @@
+{
+    "name": "Blimp",
+    "description": "#aircraft #zepellin",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-26T14:42:32.755926Z",
+    "updateTime": "2021-06-08T09:48:54.648907Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "aircraft",
+        "zepellin"
+    ],
+    "likes": 19,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Blimp.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Blimp.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Blimp_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "478"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Blimp.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Blimp.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Blimp_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "478"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b2ebf2"
+    }
+}

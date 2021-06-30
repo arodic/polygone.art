@@ -1,0 +1,60 @@
+{
+    "name": "Hey Humans",
+    "authorId": "bsWSGscRwof",
+    "authorName": "Harold Sikkema",
+    "createTime": "2019-07-12T12:59:27.493909Z",
+    "updateTime": "2020-10-06T09:35:29.009573Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "heyhumans.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "humans!.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "heyhumans.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6744"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "heyhumans.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "heyhumans.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "humans!.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6744"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

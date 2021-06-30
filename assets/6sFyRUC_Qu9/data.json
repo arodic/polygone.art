@@ -1,0 +1,71 @@
+{
+    "name": "Composer SERGEY NEVSKY",
+    "authorId": "asEoHS0qATy",
+    "authorName": "Dmitry Vrubel",
+    "createTime": "2017-12-12T15:51:33.058051Z",
+    "updateTime": "2020-10-05T09:55:21.390707Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "NEWSKI.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "NEWSKI.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "NEWSKI.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "NEWSKI.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "papyrus.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "NEWSKI.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "NEWSKI.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Dobby",
+    "description": "Figurine Harry Potter",
+    "authorId": "4kohuJlRTOy",
+    "authorName": "benoit brizard",
+    "createTime": "2019-09-07T10:55:54.927975Z",
+    "updateTime": "2021-02-21T22:55:12.788004Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 13,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Dobby.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Dobby01.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Dobby.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "602132"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Dobby.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Dobby.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Dobby01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "602132"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.6903455270798549,
+            "y": -0.15304591873303094,
+            "z": -0.15304591873303092,
+            "w": -0.6903455270798547
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

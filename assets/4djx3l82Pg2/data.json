@@ -1,0 +1,63 @@
+{
+    "name": "sfpf fighter",
+    "description": "spaceships",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-07T10:37:09.588750Z",
+    "updateTime": "2020-12-06T23:49:40.689812Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fighter shuttle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fighter shuttle.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fuselage_001_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8488"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "fighter shuttle.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fuselage_001_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fighter shuttle.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8488"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#004d40"
+    }
+}

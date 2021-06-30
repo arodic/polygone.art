@@ -1,0 +1,63 @@
+{
+    "name": "sandhouse",
+    "description": "goodhouse",
+    "authorId": "fcdOZcMs_tp",
+    "authorName": "Parkpoom Namwongtakun",
+    "createTime": "2020-01-05T15:18:29.960954Z",
+    "updateTime": "2020-02-25T20:09:45.012833Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sandhouse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sandhouse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sandhouse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5124"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sandhouse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sandhouse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sandhouse.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5124"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

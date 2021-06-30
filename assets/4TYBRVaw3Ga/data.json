@@ -1,0 +1,63 @@
+{
+    "name": "astronaut",
+    "description": "EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+    "authorId": "9ekBUvHLmvM",
+    "authorName": "BrenZart",
+    "createTime": "2020-10-12T05:27:08.331654Z",
+    "updateTime": "2020-10-12T05:34:23.384610Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Astronaut.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Astronaut.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Astronaut_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1604"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Astronaut.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Astronaut.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Astronaut_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1604"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

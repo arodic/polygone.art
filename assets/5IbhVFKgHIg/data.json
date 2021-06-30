@@ -1,0 +1,55 @@
+{
+    "name": "Corvette Jelly",
+    "description": "A little clear Corvette-Class transport. It can carry 50MM metric tons at .3 times the speed of light. ",
+    "authorId": "6p6YEDjt3AA",
+    "authorName": "Cody Rutty",
+    "createTime": "2018-01-25T00:33:45.948161Z",
+    "updateTime": "2020-10-05T09:51:07.770344Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "corvette.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "corvette.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "203230"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "corvette.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "corvette.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "203230"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b39ddb"
+    }
+}

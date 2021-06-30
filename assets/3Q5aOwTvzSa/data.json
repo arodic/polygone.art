@@ -1,0 +1,60 @@
+{
+    "name": "Volcano Terrain",
+    "authorId": "fa4m5c69h51",
+    "authorName": "Robert Mirabelle",
+    "createTime": "2017-11-29T02:12:34.841002Z",
+    "updateTime": "2020-10-03T09:40:48.712706Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fire_terrain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fire_terrain.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "surface_smoke_Smoke.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "33792"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "fire_terrain.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "surface_smoke_Smoke.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "fire_terrain.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "33792"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

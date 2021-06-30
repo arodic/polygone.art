@@ -1,0 +1,63 @@
+{
+    "name": "Gazelle",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T21:21:55.492969Z",
+    "updateTime": "2021-06-08T09:35:46.621908Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "DamaGazelle.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "DamaGazelle.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "DamaGazelle_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1178"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "DamaGazelle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "DamaGazelle.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "DamaGazelle_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1178"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#689f38"
+    }
+}

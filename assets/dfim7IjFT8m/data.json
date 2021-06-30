@@ -1,0 +1,72 @@
+{
+    "name": "Villa 2",
+    "description": "Villa 2",
+    "authorId": "a0uhognC7fI",
+    "authorName": "John Hamilton",
+    "createTime": "2018-10-21T23:40:08.524039Z",
+    "updateTime": "2020-09-26T10:15:26.528296Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Villa.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Villa.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "LOUVRES.JPG",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "STONE11.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "416763"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Villa.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "STONE11.JPG",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Villa.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "LOUVRES.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "416763"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

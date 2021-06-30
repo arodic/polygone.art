@@ -1,0 +1,68 @@
+{
+    "name": "Twinkie",
+    "description": "#cake #dessert #pastry #sweets",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T00:23:05.095412Z",
+    "updateTime": "2021-06-03T17:53:34.713331Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "cake",
+        "dessert",
+        "pastry",
+        "sweets"
+    ],
+    "likes": 19,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "twinky.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "twinky.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "twinkyTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "552"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "twinky.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "twinky.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "twinkyTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "552"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

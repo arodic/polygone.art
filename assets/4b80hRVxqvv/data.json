@@ -1,0 +1,56 @@
+{
+    "name": "Dodge Charger",
+    "description": "Dodge Charger -Muscle Car - Low poly",
+    "authorId": "4Geo5crhSCw",
+    "authorName": "David Sirera",
+    "createTime": "2017-12-24T11:53:01.891060Z",
+    "updateTime": "2021-06-03T15:13:40.657757Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 65,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dodge.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dodge.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10524"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dodge.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dodge.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10524"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#bf360c"
+    }
+}

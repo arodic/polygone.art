@@ -1,0 +1,65 @@
+{
+    "name": "Camera",
+    "description": "#photography",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-20T15:40:41.254240Z",
+    "updateTime": "2021-06-17T21:26:25.955927Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated",
+        "photography"
+    ],
+    "likes": 27,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Camera .gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Camera .bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Camera Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2202"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Camera .obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Camera .mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Camera Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2202"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b2dfdb"
+    }
+}

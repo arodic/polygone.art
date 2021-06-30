@@ -1,0 +1,63 @@
+{
+    "name": "DATVSign",
+    "description": "Remixed from OneMoreDave, thanks!",
+    "authorId": "1HCkO0xJkhX",
+    "authorName": "Derky Sprawl",
+    "createTime": "2018-11-23T01:47:56.697457Z",
+    "updateTime": "2020-10-07T10:16:22.328417Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Billboard Greenscreen.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Billboard Greenscreen.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Billboard texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1930"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Billboard Greenscreen.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Billboard Greenscreen.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Billboard texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1930"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

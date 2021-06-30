@@ -1,0 +1,63 @@
+{
+    "name": "Smiling cylinder",
+    "description": "A cylinder that smiles",
+    "authorId": "fOuuFoc1HDP",
+    "authorName": "Lionel Brossi",
+    "createTime": "2019-08-11T00:21:56.097566Z",
+    "updateTime": "2020-02-25T22:31:28.074194Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "vela.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "vela.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CANUTOSMILE.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "256"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "vela.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CANUTOSMILE.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "vela.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "256"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

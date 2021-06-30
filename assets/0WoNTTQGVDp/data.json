@@ -1,0 +1,61 @@
+{
+    "name": "地下鉄の鏡",
+    "description": "地下鉄の鏡",
+    "authorId": "4iApZE2V3ed",
+    "authorName": "Yoshinaga Tatsuki (僕秩)",
+    "createTime": "2020-11-10T09:06:14.271682Z",
+    "updateTime": "2020-11-10T09:15:50.695751Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "textured_output.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured_output.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textured_output.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "85981"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "textured_output.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured_output.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textured_output.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "85981"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

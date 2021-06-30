@@ -1,0 +1,60 @@
+{
+    "name": "White Mouse",
+    "authorId": "1H84Jt15pKs",
+    "authorName": "Chris Hauck",
+    "createTime": "2020-07-26T17:56:55.714024Z",
+    "updateTime": "2020-07-26T18:02:09.643483Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mouse .gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mouse .bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Computer Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mouse .obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mouse .mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Computer Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

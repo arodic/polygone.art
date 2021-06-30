@@ -1,0 +1,63 @@
+{
+    "name": "gon transformation",
+    "description": "57121079-8",
+    "authorId": "dOSMcO1SRiQ",
+    "authorName": "Jirayus Piemsuwan",
+    "createTime": "2018-08-21T14:30:37.416979Z",
+    "updateTime": "2020-02-25T21:27:29.196533Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gon.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gon.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "gon.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "462"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "gon.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gon.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gon.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "462"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

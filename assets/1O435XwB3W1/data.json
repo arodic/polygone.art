@@ -1,0 +1,63 @@
+{
+    "name": "bee",
+    "description": "fantasy animal",
+    "authorId": "7wWSL6BMhDl",
+    "authorName": "M Smith Jonn",
+    "createTime": "2018-03-30T08:11:27.391066Z",
+    "updateTime": "2021-03-15T16:16:46.801650Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "google poly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "google poly.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "a8-2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1206"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "google poly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "a8-2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "google poly.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1206"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

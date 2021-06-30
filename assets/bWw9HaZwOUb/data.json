@@ -1,0 +1,63 @@
+{
+    "name": "pantone sphere",
+    "description": "it's a pantone sphere",
+    "authorId": "bTJ2rMmH0KY",
+    "authorName": "Joshua C. Jordan",
+    "createTime": "2020-06-23T18:52:56.687068Z",
+    "updateTime": "2020-07-27T10:09:41.196598Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "spheretest02.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "spheretest02.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "spheretexturetest.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "spheretest02.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "spheretest02.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "spheretexturetest.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

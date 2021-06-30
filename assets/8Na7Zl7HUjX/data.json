@@ -1,0 +1,60 @@
+{
+    "name": "sueloAuto",
+    "authorId": "cIJe6wk7TK1",
+    "authorName": "sustefest",
+    "createTime": "2020-11-08T21:39:33.473982Z",
+    "updateTime": "2020-11-08T21:47:05.516470Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "suelo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "suelo.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "piedraGris.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "suelo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "suelo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "piedraGris.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Water tower",
+    "description": "water tank modeled in blender\nTanke de agua",
+    "authorId": "2NcHE2U3k6E",
+    "authorName": "Miguel Angel",
+    "createTime": "2018-11-24T06:47:20.720896Z",
+    "updateTime": "2020-09-25T10:31:01.786557Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "WaterTank.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "WaterTank.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BAke.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "204"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "WaterTank.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BAke.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "WaterTank.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "204"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

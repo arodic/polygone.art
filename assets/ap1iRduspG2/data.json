@@ -1,0 +1,65 @@
+{
+    "name": "Purple Blue Ball TFX",
+    "description": "An attempt to make a black hole effect for a Wave Tunnel\n\n#WaveTunnels\n#TheWaveVR",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-11-03T03:16:57.258625Z",
+    "updateTime": "2020-09-30T10:16:36.440025Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "WaveTunnels",
+        "TheWaveVR"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "purbluball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "purbluball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "purblublagrad.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "988"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "purbluball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "purblublagrad.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "purbluball.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "988"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

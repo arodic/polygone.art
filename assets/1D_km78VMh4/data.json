@@ -1,0 +1,60 @@
+{
+    "name": "drcd flag trans",
+    "authorId": "cDuZFsigMIu",
+    "authorName": "Y. Z.",
+    "createTime": "2020-04-29T23:40:30.741826Z",
+    "updateTime": "2020-09-29T09:28:40.535314Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "drcd_flag.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "drcd_flag.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "flag_trans.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "94"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "drcd_flag.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "drcd_flag.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "flag_trans.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "94"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

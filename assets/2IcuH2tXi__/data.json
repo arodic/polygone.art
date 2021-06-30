@@ -1,0 +1,62 @@
+{
+    "name": "Boy",
+    "authorId": "cLheo93IjJ8",
+    "authorName": "Anonymous",
+    "createTime": "2019-03-19T23:02:35.614113Z",
+    "updateTime": "2020-10-03T09:37:16.974620Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "boy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "boy.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "boy2_jam.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1290"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "boy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "boy2_jam.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "boy.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1290"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

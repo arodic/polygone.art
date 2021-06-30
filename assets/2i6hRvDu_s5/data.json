@@ -1,0 +1,64 @@
+{
+    "name": "This is just a test",
+    "description": "#GBTerrainBlock #GBPointFilter",
+    "authorId": "cnMuPeY5kuc",
+    "authorName": "Ashker Nms",
+    "createTime": "2019-06-27T16:49:05.570037Z",
+    "updateTime": "2020-10-06T09:43:34.295463Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "GBTerrainBlock",
+        "GBPointFilter"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "custom request.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "custom request.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "custom request.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "custom request.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "custom request.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "custom request.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

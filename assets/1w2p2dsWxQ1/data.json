@@ -1,0 +1,62 @@
+{
+    "name": "SM Doll",
+    "authorId": "ff5AHSfMiEc",
+    "authorName": "Scott Marshall",
+    "createTime": "2020-11-01T01:32:20.866787Z",
+    "updateTime": "2020-11-11T00:24:59.250819Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "baby_sliced.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "baby_sliced/baby_sliced_Material_0.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "baby_sliced.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "52499"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "baby_sliced.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "baby_sliced.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "baby_sliced/baby_sliced_Material_0.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "52499"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

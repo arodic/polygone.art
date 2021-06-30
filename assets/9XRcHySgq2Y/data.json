@@ -1,0 +1,63 @@
+{
+    "name": "AJ Cushion holo1",
+    "description": "cushion obj credit to Miguelangelo Rosario",
+    "authorId": "7kL7JOnsH4x",
+    "authorName": "A J",
+    "createTime": "2018-10-30T22:39:56.499157Z",
+    "updateTime": "2020-10-05T10:10:27.116096Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cushion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "holo1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "cushion.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "752"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cushion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cushion.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "holo1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "752"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Desert",
+    "description": "#desert #cactus #rocks #sand",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T20:59:47.042893Z",
+    "updateTime": "2021-06-11T00:10:47.048593Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "desert",
+        "cactus",
+        "rocks",
+        "sand"
+    ],
+    "likes": 40,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_DESERT.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_DESERT.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "desertSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15530"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_DESERT.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_DESERT.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "desertSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15530"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

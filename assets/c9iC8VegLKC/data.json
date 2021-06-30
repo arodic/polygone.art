@@ -1,0 +1,63 @@
+{
+    "name": "emoji",
+    "description": "emoji",
+    "authorId": "anoGlC6T-E0",
+    "authorName": "Kelli Ray",
+    "createTime": "2018-03-30T14:44:29.591809Z",
+    "updateTime": "2020-10-07T10:21:59.444886Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "emoji.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "emoji.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "5.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "945"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "emoji.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "5.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "emoji.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "945"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Car",
+    "authorId": "aUBsTqnvpss",
+    "authorName": "Send_Hydrogen 。",
+    "createTime": "2019-12-26T03:30:40.105112Z",
+    "updateTime": "2020-02-25T20:16:55.540666Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "car.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "car.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "car.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2324"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "car.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "car.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "car.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2324"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

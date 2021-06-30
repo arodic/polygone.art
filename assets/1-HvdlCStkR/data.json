@@ -1,0 +1,62 @@
+{
+    "name": "Black Photography Backdrop",
+    "authorId": "28cnDCNo-8M",
+    "authorName": "Mike Shaw",
+    "createTime": "2020-11-06T00:51:49.230194Z",
+    "updateTime": "2020-11-06T01:00:59.479370Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "backdrop.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "backdrop.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "backdrop/Suede_Dark_Gray.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "372"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "backdrop.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "backdrop.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "backdrop/Suede_Dark_Gray.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "372"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

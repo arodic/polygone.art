@@ -1,0 +1,56 @@
+{
+    "name": "Apartment",
+    "description": "hi guys ..\nhow is it ?",
+    "authorId": "b_zSOZ54LTZ",
+    "authorName": "Sathishkumar Subramani",
+    "createTime": "2017-12-05T05:42:00.659234Z",
+    "updateTime": "2021-06-01T23:01:03.498226Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 105,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "apartment.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "apartment.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "231823"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "apartment.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "apartment.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "231823"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

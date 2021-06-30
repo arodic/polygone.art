@@ -1,0 +1,61 @@
+{
+    "name": "青戦士",
+    "description": "槍を工夫しました。",
+    "authorId": "bd1eBQd3ppf",
+    "authorName": "iTeen経堂",
+    "createTime": "2019-03-24T06:04:56.053849Z",
+    "updateTime": "2020-06-03T10:18:22.783538Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "minamoto.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "minamoto.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "minamoto.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "792"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "minamoto.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "minamoto.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "minamoto.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "792"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Test 2",
+    "description": "Test 2",
+    "authorId": "6LuAPZwoAr1",
+    "authorName": "David Lo",
+    "createTime": "2020-12-17T07:36:00.033686Z",
+    "updateTime": "2020-12-17T07:45:30.174829Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "stone1_20200401_v1/stone1_20200401_v1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "stone1_20200401_v1/stone1_20200401_v1.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "stone1_20200401_v1/stone1_20200401_v1__texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "112614"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "stone1_20200401_v1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "stone1_20200401_v1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "stone1_20200401_v1/stone1_20200401_v1__texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "112614"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

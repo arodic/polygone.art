@@ -1,0 +1,63 @@
+{
+    "name": "3D Test 07v4 6:T 0:B CAD TL50%",
+    "description": "TheWaveVR",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-02-11T22:16:32.061778Z",
+    "updateTime": "2020-09-25T10:44:43.309054Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3D.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "3D.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "3D.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "3D.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "3D.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "3D.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Gazebo",
+    "description": "A gazebo with ornate railings and a fountain at the center.",
+    "authorId": "fdmGZ8QLHxA",
+    "authorName": "Bruno Oliveira",
+    "createTime": "2017-12-09T22:26:31.065185Z",
+    "updateTime": "2021-06-06T03:52:01.325751Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 21,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gazebo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gazebo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "136088"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "gazebo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gazebo.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "136088"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1a237e"
+    }
+}

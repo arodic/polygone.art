@@ -1,0 +1,63 @@
+{
+    "name": "katana",
+    "description": "Katana - A JAPANESE SWORD",
+    "authorId": "9g_Zv9JE4_N",
+    "authorName": "Rahul Ram",
+    "createTime": "2018-09-30T13:19:20.428634Z",
+    "updateTime": "2021-06-01T18:07:10.393525Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 20,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "letstry.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "letstry.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "D:/content creation/sword/swordtex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "602"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "letstry.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "letstry.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "D:/content creation/sword/swordtex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "602"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#212121"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Apple",
+    "description": "Same as original looking Apple You can thank me on sejpalsinh21@gmail.com ",
+    "authorId": "368naJ7ZuGZ",
+    "authorName": "Sejpalsinh Jadeja",
+    "createTime": "2020-09-22T16:13:53.946306Z",
+    "updateTime": "2020-12-02T18:10:06.426934Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 18,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Apple.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Apple.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "apple.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8256"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Apple.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Apple.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "apple.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8256"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c49b9b"
+    }
+}

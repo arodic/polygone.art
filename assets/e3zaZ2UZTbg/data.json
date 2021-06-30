@@ -1,0 +1,63 @@
+{
+    "name": "Track",
+    "description": "track car.",
+    "authorId": "48Q8tJoIhDa",
+    "authorName": "Thunder Good",
+    "createTime": "2018-07-26T09:22:48.327762Z",
+    "updateTime": "2020-02-25T22:46:12.557197Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "track.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "track.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "track.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2932"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "track.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "track.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "track.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2932"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Ernesto",
+    "description": "Little guy made of wool.",
+    "authorId": "2VV4f3bozG0",
+    "authorName": "Hendrik Bartusch",
+    "createTime": "2019-02-03T19:55:18.925684Z",
+    "updateTime": "2020-08-03T10:25:29.156451Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "erno.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "erno.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "meshed-poisson_tex.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "46016"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "erno.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "erno.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "meshed-poisson_tex.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "46016"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

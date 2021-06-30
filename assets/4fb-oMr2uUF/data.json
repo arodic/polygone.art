@@ -1,0 +1,67 @@
+{
+    "name": "Jaguar",
+    "description": "#cat #feline #mammal #predator",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T01:12:22.946994Z",
+    "updateTime": "2021-05-27T12:30:36.495581Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated",
+        "cat",
+        "feline",
+        "mammal",
+        "predator"
+    ],
+    "likes": 50,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Jaguar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Jaguar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Jaguar_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1020"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Jaguar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Jaguar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Jaguar_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1020"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ad1457"
+    }
+}

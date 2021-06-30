@@ -1,0 +1,64 @@
+{
+    "name": "Poketnave",
+    "description": "Teste em MagicaVoxcel",
+    "authorId": "5CBK24l8eTn",
+    "authorName": "Correia Antunes",
+    "createTime": "2017-11-28T11:48:59.997024Z",
+    "updateTime": "2020-09-22T09:58:21.897317Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poketnave.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poketnave.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "poketnave.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1360"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "poketnave.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poketnave.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "poketnave.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1360"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

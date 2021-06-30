@@ -1,0 +1,64 @@
+{
+    "name": "crystal",
+    "description": "lv25\n#lv25",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-06-15T21:21:23.814555Z",
+    "updateTime": "2020-10-04T09:29:42.577500Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "lv25"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "crystallv25.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Comp 100.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "crystallv25.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "crystallv25.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "crystallv25.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Comp 100.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

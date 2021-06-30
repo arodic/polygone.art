@@ -1,0 +1,64 @@
+{
+    "name": "Ginkgo biloba seed",
+    "description": "Ginkgo biloba\n\nPhotographed from North Carolina State Herbarium 5/11/2018",
+    "authorId": "7uqTwvd2mwr",
+    "authorName": "Colin Keenan",
+    "createTime": "2018-05-15T19:17:49.526972Z",
+    "updateTime": "2021-06-16T14:15:33.343008Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ginkgo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ginkgo.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ginkgo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "ginkgo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ginkgo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ginkgo.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": -1,
+            "w": 2.220446049250313e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

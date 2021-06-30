@@ -1,0 +1,46 @@
+{
+    "name": "example",
+    "authorId": "eHKsQDyeU8f",
+    "authorName": "Nathan Domingos",
+    "createTime": "2020-02-20T14:48:35.158580Z",
+    "updateTime": "2020-02-25T23:15:32.910854Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "examplefusiontoobj.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "10864"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "examplefusiontoobj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "examplefusiontoobj.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10864"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

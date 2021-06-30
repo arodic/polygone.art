@@ -1,0 +1,63 @@
+{
+    "name": "guardian_of_the_circle",
+    "description": "Main platform for guardian of the circle project. inspired by the artist \"Shane Frost\". tags: capratchet wave vr shane frost guardian of the circle",
+    "authorId": "3aGYwTO0P-m",
+    "authorName": "capratchet",
+    "createTime": "2019-04-16T00:19:06.651683Z",
+    "updateTime": "2020-09-22T10:02:13.493325Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "guardian_of_the_circle_baked.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "guardian_of_the_circle_baked.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "guardian_of_the_circle_texture3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9698"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "guardian_of_the_circle_baked.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "guardian_of_the_circle_texture3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "guardian_of_the_circle_baked.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9698"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

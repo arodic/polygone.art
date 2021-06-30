@@ -1,0 +1,48 @@
+{
+    "name": "Experiment with Perfect Circle",
+    "description": "Experimenting with perfect circle technique discovered by Sabby Lighf.  Things I learned so far: There is a maximum size that the resulting polies can be expanded.  There is an edge that you encounter when using the teleport tool.  When you reach it, the teleport icon falls off the edge of the world to right below your feet.",
+    "authorId": "5ydzwEQxGb2",
+    "authorName": "Kevin W. Tharp",
+    "createTime": "2019-10-01T16:52:47.003416Z",
+    "updateTime": "2020-10-02T10:03:10.943554Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10374"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

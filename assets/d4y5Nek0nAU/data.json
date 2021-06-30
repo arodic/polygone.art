@@ -1,0 +1,60 @@
+{
+    "name": "Karla Dickens OBJ",
+    "authorId": "aR5SjcFaG4X",
+    "authorName": "Blake Stuart",
+    "createTime": "2020-05-07T10:30:55.238515Z",
+    "updateTime": "2020-07-13T10:17:36.560725Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Head.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bigheaddifuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Head.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1188"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Head.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Head.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bigheaddifuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1188"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

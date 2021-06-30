@@ -1,0 +1,64 @@
+{
+    "name": "Peanut the Bear",
+    "authorId": "15OoLWtPb6r",
+    "authorName": "Mike Goddard",
+    "createTime": "2020-10-14T03:20:19.834202Z",
+    "updateTime": "2020-11-24T04:46:44.077496Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "texturedMesh_clean_retopo_baked.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh_clean_retopo_baked.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Diffuse_Bake.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Normal_Bake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "144916"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "texturedMesh_clean_retopo_baked.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh_clean_retopo_baked.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Diffuse_Bake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "144916"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#272727"
+    }
+}

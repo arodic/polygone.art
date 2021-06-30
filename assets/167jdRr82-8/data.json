@@ -1,0 +1,61 @@
+{
+    "name": "Zeph Crazy Cube",
+    "description": "Crazy Cube 1",
+    "authorId": "6bgWN2YV65Z",
+    "authorName": "DJ Logitrax",
+    "createTime": "2019-03-18T20:47:00.481200Z",
+    "updateTime": "2020-02-25T20:00:12.003184Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Crazy Cube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Crazy Cube.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Cube Gradient.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Crazy Cube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Crazy Cube.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Cube Gradient.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

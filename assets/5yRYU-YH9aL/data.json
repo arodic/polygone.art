@@ -1,0 +1,56 @@
+{
+    "name": "Badtz-maru",
+    "description": "Badtz-maru from Sanrio modeled with Blender",
+    "authorId": "04engSSutGE",
+    "authorName": "Pia Leung",
+    "createTime": "2018-01-19T05:04:09.893475Z",
+    "updateTime": "2021-06-02T17:36:52.624672Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 39,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "badtz.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "badtz.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6038"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "badtz.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "badtz.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6038"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#80deea"
+    }
+}

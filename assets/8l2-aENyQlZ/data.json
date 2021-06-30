@@ -1,0 +1,64 @@
+{
+    "name": "doll β",
+    "description": "android girl",
+    "authorId": "d5y8GQW7-6Q",
+    "authorName": "Gyo Risha",
+    "createTime": "2018-08-03T10:53:37.665240Z",
+    "updateTime": "2020-10-04T10:03:34.179213Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "doll.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "doll.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "doll.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2312"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "doll.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "doll.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "doll.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2312"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

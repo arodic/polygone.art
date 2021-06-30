@@ -1,0 +1,64 @@
+{
+    "name": "Gold Ring",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-30T04:34:33.707288Z",
+    "updateTime": "2020-07-11T01:39:10.219160Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gold_ring.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gold_ring.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gold_ring_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "gold_ring.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gold_ring.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "gold_ring_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "gold_ring_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

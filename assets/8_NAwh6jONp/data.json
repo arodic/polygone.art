@@ -1,0 +1,68 @@
+{
+    "name": "ball",
+    "authorId": "bSwI-39cbCP",
+    "authorName": "Anonymous",
+    "createTime": "2018-01-24T22:23:47.327386Z",
+    "updateTime": "2020-09-24T10:08:52.416160Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "initialShadingGroup_base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "initialShadingGroup_metallic_roughness.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "initialShadingGroup_base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "initialShadingGroup_metallic_roughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

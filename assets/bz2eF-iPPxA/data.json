@@ -1,0 +1,62 @@
+{
+    "name": "IMAR",
+    "description": "Cerveza",
+    "authorId": "1WYnrh0RUMC",
+    "authorName": "URIEL MENDEZ GOMEZ",
+    "createTime": "2020-10-09T05:11:59.197995Z",
+    "updateTime": "2020-10-09T05:19:11.156837Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Corona.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Corona.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "C:/Users/Administrador/Desktop/Corona/BotellaText.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5152"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Corona.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Corona.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "C:/Users/Administrador/Desktop/Corona/BotellaText.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5152"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": -0.7071067811865476,
+            "w": -0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

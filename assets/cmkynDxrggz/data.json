@@ -1,0 +1,63 @@
+{
+    "name": "building brick",
+    "description": "brick",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-08T04:38:03.748649Z",
+    "updateTime": "2020-09-22T10:24:45.186891Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "brick.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Material_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "brick.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19390"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "brick.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "brick.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Material_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19390"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

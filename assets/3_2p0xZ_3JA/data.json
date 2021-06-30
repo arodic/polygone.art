@@ -1,0 +1,63 @@
+{
+    "name": "Water Terrain",
+    "description": "Built in 3ds Max for upcoming Tilt project",
+    "authorId": "fa4m5c69h51",
+    "authorName": "Robert Mirabelle",
+    "createTime": "2017-11-29T01:39:12.543062Z",
+    "updateTime": "2020-10-02T09:42:51.569070Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "water_terrain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "water_terrain.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "noise_Noise.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "33792"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "water_terrain.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "noise_Noise.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "water_terrain.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "33792"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4527a0"
+    }
+}

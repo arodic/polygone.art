@@ -1,0 +1,60 @@
+{
+    "name": "Domeular",
+    "authorId": "bFDOWCtx7hc",
+    "authorName": "john sibert",
+    "createTime": "2020-05-27T06:03:19.381265Z",
+    "updateTime": "2020-06-28T09:41:27.148881Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dome.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dome.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "dome/dichroic03.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "202"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dome.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dome.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dome/dichroic03.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "202"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

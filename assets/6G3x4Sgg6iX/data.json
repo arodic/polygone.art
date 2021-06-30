@@ -1,0 +1,73 @@
+{
+    "name": "A little Irish island",
+    "description": "I wanted to push the limits of scale in Blocks with this scene.\n\nThe houses are the smallest I could make them, I would prefer them to be smaller for this terrain. The ocean is pushed out to the edges of the boundary cube and hits the limits of the biggest object that you can make in Blocks.\n\nI really wish there was a grouping feature in Blocks, to get around this I saved out smaller objects like houses and imported them into the main scene. This works but then houses cannot be \"ungrouped\" to make variations. The paintbrush can paint individual parts after import so that helps a little for making variations in the main scene.\n\nEdge and vert controls scale with the scene which made them tiny on the hills and huge on the houses, I would prefer them to stay at some kind of display scale, it would make large scale work easier.\n\nSculpting verts and edges can be tedious, I wish there was some sort of soft select like Maya to sculpt large areas more easily.",
+    "authorId": "1b9F61Bj5l9",
+    "authorName": "John Huikku",
+    "createTime": "2017-07-08T01:16:13.413792Z",
+    "updateTime": "2021-04-26T01:39:07.843777Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "blocks",
+        "scenes",
+        "curated"
+    ],
+    "likes": 48,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "210162"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "210162"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "210162"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

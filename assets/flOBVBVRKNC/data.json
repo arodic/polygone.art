@@ -1,0 +1,63 @@
+{
+    "name": "guardian of the circle Asteroi",
+    "description": "Asteroid for guardian of the circle project. inspired by the artist \"Shane Frost\". tags: capratchet wave vr shane frost guardian of the circle",
+    "authorId": "3aGYwTO0P-m",
+    "authorName": "capratchet",
+    "createTime": "2019-04-16T00:44:35.157600Z",
+    "updateTime": "2020-10-07T10:41:13.150025Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "astroid_field_baked.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "astroid_field_baked.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "astroid_texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "astroid_field_baked.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "astroid_field_baked.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "astroid_texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

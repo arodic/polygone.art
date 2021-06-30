@@ -1,0 +1,85 @@
+{
+    "name": "Wave VJ Panel Mockup",
+    "description": "This is a mockup I made to demonstrate a few tweaks to the current panel that would add significant value for the preparation and performance aspects of VJing in Wave. \n\nOn the left we have a slider for the Base Scene sliders, a currently missing but important feature.\n\nAt the very bottom is a proposed 'Automation' section, each slider has a corresponding button for Sine and Audio Reactive. Activating the Sine would made the slider break apart as seen on the Active parameter, allowing you to set the minimum/maximum values, while the Amount would set the speed. The Waveform button would set this amount to react to the audio input ala Tilt Brush/Wave Objects.\n\nOn the right is a proposed Macro section. While in the Wave Maker, you would be able to set all sliders to certain positions you wish, then hit one of the Macro buttons, give it a name. Hitting this during a show would then set all these values to those set values. The Transition slider would determine how slowly the parameters would move to that new position, either smoothly at Slow, or instantaneously on Fast. The Reset button would immediately reset all values to their originals for that scene, useful for when things get out of control.\n\n",
+    "authorId": "eDQNH2MhG0o",
+    "authorName": "Lavender Harmony",
+    "createTime": "2019-05-21T04:26:16.196961Z",
+    "updateTime": "2020-09-20T10:17:10.790580Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "VJ Panel Mockup.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "VJ Panel Mockup.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sine.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "waveform.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Scenes.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "main.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4368"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "VJ Panel Mockup.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Scenes.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "main.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sine.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "waveform.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "VJ Panel Mockup.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4368"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

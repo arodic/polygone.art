@@ -1,0 +1,62 @@
+{
+    "name": "SkyBoxTest2",
+    "description": "This is  a test using a ZIP folder from blender containing the .jpg/.png and the .mtl + .obj file export. ",
+    "authorId": "dGkXt3OhRKP",
+    "authorName": "Scott D'Arcy",
+    "createTime": "2018-08-30T10:32:20.823386Z",
+    "updateTime": "2020-10-06T09:39:29.262181Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SkyBoxTest.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SkyBoxTest.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "miramar_large.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "432"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "SkyBoxTest.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "miramar_large.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "SkyBoxTest.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "432"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 1,
+            "w": 2.220446049250313e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

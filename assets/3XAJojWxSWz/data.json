@@ -1,0 +1,65 @@
+{
+    "name": "Lion",
+    "description": "#animal",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T22:15:50.997102Z",
+    "updateTime": "2021-06-16T12:45:27.872360Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "animal"
+    ],
+    "likes": 93,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Lion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lion.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Lion_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1350"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Lion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lion.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Lion_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1350"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

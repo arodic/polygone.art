@@ -1,0 +1,60 @@
+{
+    "name": "Carpet",
+    "authorId": "d-qi8GH95ix",
+    "authorName": "Leroy Patterson",
+    "createTime": "2020-03-16T20:46:20.742694Z",
+    "updateTime": "2020-03-27T11:15:23.460843Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "carpet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "carpet.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "carpet_files/texture0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "128"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "carpet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "carpet.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "carpet_files/texture0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "128"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00ff1e"
+    }
+}

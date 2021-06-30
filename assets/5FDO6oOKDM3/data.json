@@ -1,0 +1,62 @@
+{
+    "name": "Dino",
+    "authorId": "boFK_lTCcbf",
+    "authorName": "Rujeerat Noipreecha",
+    "createTime": "2018-08-17T14:33:04.683525Z",
+    "updateTime": "2020-09-23T09:51:48.786802Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Dino.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Dino.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Dino.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "546"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Dino.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Dino.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Dino.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "546"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

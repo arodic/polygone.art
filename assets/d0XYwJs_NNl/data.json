@@ -1,0 +1,63 @@
+{
+    "name": "simple13 4:1",
+    "description": "200x800x200",
+    "authorId": "1WW26PGEhA7",
+    "authorName": "平井貴明",
+    "createTime": "2019-07-06T03:14:05.406061Z",
+    "updateTime": "2020-06-10T10:22:19.764861Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "simple13.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mini.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "simple.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "simple13.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple13.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mini.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

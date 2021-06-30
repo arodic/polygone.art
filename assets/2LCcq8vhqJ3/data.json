@@ -1,0 +1,58 @@
+{
+    "name": "Turtle",
+    "description": "#shell #reptile",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T06:13:07.227323Z",
+    "updateTime": "2021-06-16T12:22:01.731379Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "shell",
+        "reptile"
+    ],
+    "likes": 64,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "turtle.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "turtle.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4026"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "turtle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "turtle.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4026"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#42a5f5"
+    }
+}

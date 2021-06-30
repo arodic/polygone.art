@@ -1,0 +1,64 @@
+{
+    "name": "bolt",
+    "description": "Low Poly Bolt",
+    "authorId": "fM3S1ABcci5",
+    "authorName": "Dario Demi (D911C)",
+    "createTime": "2017-12-04T18:33:00.075985Z",
+    "updateTime": "2020-10-03T09:32:37.431083Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bullone.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bullone.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bullone/textures/UV_bullone.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7892"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "bullone.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bullone.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "bullone/textures/UV_bullone.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7892"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#37474f"
+    }
+}

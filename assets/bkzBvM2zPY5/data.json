@@ -1,0 +1,64 @@
+{
+    "name": "Voxel Computer Monitor",
+    "description": "A very quick computer monitor (modeled after one of my LG 24MP88's) in MagicaVoxel!",
+    "authorId": "fiWcqu-mtpw",
+    "authorName": "Philippos Slicher",
+    "createTime": "2017-11-08T15:44:27.889458Z",
+    "updateTime": "2020-10-13T19:38:14.333856Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Screen.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Screen.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Screen.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "288"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Screen.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Screen.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Screen.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "288"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

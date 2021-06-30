@@ -1,0 +1,68 @@
+{
+    "name": "Left WMR controller",
+    "authorId": "5aBNA_aId6P",
+    "authorName": "Retired Teenager",
+    "createTime": "2019-07-14T02:11:22.850369Z",
+    "updateTime": "2020-10-01T09:45:11.530598Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "controller.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture_1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "baked_mesh0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "controller.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5948"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "controller.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "controller.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "baked_mesh0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5948"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Coin",
+    "description": "#currency #money",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T03:53:51.725655Z",
+    "updateTime": "2021-04-12T04:56:29.005527Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "currency",
+        "money"
+    ],
+    "likes": 33,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CHAHIN_COIN.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CHAHIN_COIN.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CHAHIN_COIN_TEXTURE.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "96"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CHAHIN_COIN.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CHAHIN_COIN.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "CHAHIN_COIN_TEXTURE.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "96"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

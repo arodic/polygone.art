@@ -1,0 +1,55 @@
+{
+    "name": "Candle",
+    "description": "Модель свечки, первый раз на сайте и немного запутался с выставлением параметров текстур. Не могу сделать, чтобы воск так не бликовал, как железная подставка, также хотелось бы куда нибудь засунуть карту ambient occlusion",
+    "authorId": "aW8PwFc71SC",
+    "authorName": "Mango Newbie",
+    "createTime": "2020-08-11T15:09:36.126595Z",
+    "updateTime": "2021-03-06T19:59:02.752709Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Candle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Candle.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2025"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Candle.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Candle.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2025"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

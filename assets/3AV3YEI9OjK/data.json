@@ -1,0 +1,83 @@
+{
+    "name": "car model",
+    "description": "car demo",
+    "authorId": "d6tmHcslaM8",
+    "authorName": "Anuj Kumar",
+    "createTime": "2020-04-02T09:24:11.877798Z",
+    "updateTime": "2020-07-31T09:39:43.149708Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "car_new.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "car_new.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "E:/3d poly test/car/car.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "D:/2020  ilabs work/display work/3d poly/car/3d poly test/car/spec-red.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "E:/3d poly test/car/wheel.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "D:/2020  ilabs work/display work/3d poly/car/3d poly test/car/wheel-normalsmap.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "D:/2020  ilabs work/display work/3d poly/car/3d poly test/car/wheel-spec.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "92596"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "car_new.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "car_new.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "E:/3d poly test/car/car.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "E:/3d poly test/car/wheel.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "92596"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "STANG I Edgar Poster",
+    "description": "Artwork by Roger Dean",
+    "authorId": "54L4qtpqJY0",
+    "authorName": "Mark Daniel T.",
+    "createTime": "2020-08-15T06:12:27.511249Z",
+    "updateTime": "2020-11-04T17:03:05.173682Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Edgar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Edgar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "EDGAR.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Edgar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Edgar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "EDGAR.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

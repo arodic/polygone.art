@@ -1,0 +1,79 @@
+{
+    "name": "drone2",
+    "description": "drone2",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-07-31T19:00:53.579214Z",
+    "updateTime": "2020-10-04T09:34:34.460310Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Part1_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Part2_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Part3_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "scene.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8418"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Part1_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Part2_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Part3_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8418"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

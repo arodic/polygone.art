@@ -1,0 +1,63 @@
+{
+    "name": "Flask",
+    "description": "A marble flask",
+    "authorId": "1ByQT45w12u",
+    "authorName": "Rahul Suxsena",
+    "createTime": "2019-05-05T18:23:48.505860Z",
+    "updateTime": "2020-08-11T10:07:29.331312Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "falsk.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "falsk.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "marble.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2624"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "falsk.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "marble.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "falsk.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2624"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

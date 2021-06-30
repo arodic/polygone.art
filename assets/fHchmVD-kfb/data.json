@@ -1,0 +1,73 @@
+{
+    "name": "SamusPrime1",
+    "description": "Metroid",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-03T06:57:30.955845Z",
+    "updateTime": "2020-09-26T10:30:50.578534Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SamP.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SamP.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SamusPhelmet.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "SamusPBody.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5100"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "SamP.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SamusPBody.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "SamusPhelmet.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "SamP.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5100"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

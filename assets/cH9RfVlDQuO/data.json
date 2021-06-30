@@ -1,0 +1,63 @@
+{
+    "name": "Chicken",
+    "description": "Simple Voxel Chicken",
+    "authorId": "42-aJ5But3i",
+    "authorName": "lnx00",
+    "createTime": "2018-12-06T19:06:08.275421Z",
+    "updateTime": "2021-04-07T05:32:20.779341Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Chicken.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Chicken.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Chicken.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "412"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Chicken.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Chicken.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Chicken.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "412"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00897b"
+    }
+}

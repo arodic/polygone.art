@@ -1,0 +1,72 @@
+{
+    "name": "tree",
+    "description": "lv9\n#lv9",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2019-02-10T21:51:04.787751Z",
+    "updateTime": "2020-09-14T09:55:19.626808Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "lv9"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "redtree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "redtree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fratcalbrush_00000.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "muzzel flash_00001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35232"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "redtree.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fratcalbrush_00000.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "muzzel flash_00001.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "redtree.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35232"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "poliovirus-subunit",
+    "description": "colored by chain",
+    "authorId": "9XerOBbv57G",
+    "authorName": "Arthur Olson",
+    "createTime": "2020-10-07T23:10:56.432152Z",
+    "updateTime": "2020-10-07T23:19:02.499782Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "polio-sub.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "polio-sub.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7008"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "polio-sub.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "polio-sub.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7008"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

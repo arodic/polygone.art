@@ -1,0 +1,52 @@
+{
+    "name": "Toy 3D",
+    "authorId": "b_zSOZ54LTZ",
+    "authorName": "Sathishkumar Subramani",
+    "createTime": "2018-01-29T10:51:50.772222Z",
+    "updateTime": "2020-10-07T10:33:14.811082Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "boy 3d.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "boy 3d.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "60408"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "boy 3d.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "boy 3d.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "60408"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffb74d"
+    }
+}

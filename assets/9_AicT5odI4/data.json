@@ -1,0 +1,58 @@
+{
+    "name": "Igloo OBJ stag",
+    "description": "Igloo OBJ stag 180",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-11-13T16:48:49.838428Z",
+    "updateTime": "2020-03-27T10:23:34.588180Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "igloo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "igloo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2532"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "igloo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "igloo.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2532"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7937520998290811,
+            "y": 0.1957158449135938,
+            "z": -0.13829546439215396,
+            "w": 0.5590413907710602
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

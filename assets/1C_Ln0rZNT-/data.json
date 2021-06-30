@@ -1,0 +1,48 @@
+{
+    "name": "Knäuel",
+    "description": "Digitla Art - Google Tilt Brush (Andreas Korn, Bonn/Germany; www.andreas-korn.de)",
+    "authorId": "9q7Ql4XtoxT",
+    "authorName": "Andreas Korn",
+    "createTime": "2019-10-08T06:57:57.916468Z",
+    "updateTime": "2020-10-07T09:31:36.679150Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "11260"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

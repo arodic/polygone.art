@@ -1,0 +1,63 @@
+{
+    "name": "GRID 2D 16x9",
+    "description": "VR art tool to assist in drawing in VR art and animation programs like AnimVR. Grid is LIGHT BLUE on TRANSPARENT background",
+    "authorId": "0haFmgQ6r71",
+    "authorName": "Laddie Ervin",
+    "createTime": "2018-03-14T20:02:46.998161Z",
+    "updateTime": "2021-01-03T00:44:55.937350Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Grid 01 16 x9.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Grid 01 16 x9.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PlaneSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Grid 01 16 x9.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Grid_01_16_x9.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "PlaneSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

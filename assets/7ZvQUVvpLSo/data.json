@@ -1,0 +1,53 @@
+{
+    "name": "Gray Blade Rapier",
+    "description": "A gray blade rapier, with explicitly-rendered shading for environments that can't render reflectiveness.",
+    "authorId": "85IG23oLwUQ",
+    "authorName": "Lupold Hass",
+    "createTime": "2020-12-02T23:15:41.833216Z",
+    "updateTime": "2020-12-02T23:20:55.922434Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rapier_selfshade_gray_m.obj/rapier_selfshade_gray_m.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rapier_selfshade_gray_m.obj/rapier_selfshade_gray_m.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5610"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rapier_selfshade_gray_m.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rapier_selfshade_gray_m.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5610"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

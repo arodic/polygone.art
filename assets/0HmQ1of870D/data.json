@@ -1,0 +1,64 @@
+{
+    "name": "FBX FF spac Ferris 5 P",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2019-06-05T20:15:06.862006Z",
+    "updateTime": "2020-07-15T09:26:51.157395Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ferris_wheel.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "ferris_wheel_AlbedoTransparency.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ferris_wheel_Emission.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ferris_wheel_MetallicSmoothness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ferris_wheel_Normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90462"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90462"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#22646b"
+    }
+}

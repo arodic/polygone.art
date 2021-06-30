@@ -1,0 +1,63 @@
+{
+    "name": "Pluto",
+    "description": "I scanned Pluto with the Qlone app",
+    "authorId": "0kMO2CjHbjK",
+    "authorName": "Rin At",
+    "createTime": "2017-11-19T15:35:26.638252Z",
+    "updateTime": "2021-02-11T08:34:45.890138Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_Pluto_20171119_162330052.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "215588"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model_Pluto_20171119_162330052.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_Pluto_20171119_162330052.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "215588"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

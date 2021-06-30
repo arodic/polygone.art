@@ -1,0 +1,68 @@
+{
+    "name": "arm_eye",
+    "authorId": "dBp33bVKvpK",
+    "authorName": "Steve Teeple",
+    "createTime": "2018-12-13T03:40:45.035547Z",
+    "updateTime": "2021-05-27T11:30:07.915273Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rezz_arm_eye.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rezz_arm_eye.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "arm_eye/arm_Base_Color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arm_eye/eye_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3738"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "arm_eye/rezz_arm_eye.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "arm_eye/rezz_arm_eye.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "arm_eye/eye_Base_Color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arm_eye/arm_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3738"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

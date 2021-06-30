@@ -1,0 +1,61 @@
+{
+    "name": "Grid - Torus",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2020-01-09T17:05:18.474072Z",
+    "updateTime": "2020-12-31T05:32:20.814827Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "torus.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gridblue.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "torus.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "27648"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "torus.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "torus.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gridblue.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "27648"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

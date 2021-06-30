@@ -1,0 +1,73 @@
+{
+    "name": "CAT",
+    "authorId": "4chTfxWoAFE",
+    "authorName": "artur stec",
+    "createTime": "2020-01-23T13:41:26.710857Z",
+    "updateTime": "2020-05-22T09:54:29.303363Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "texturedMesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture_1001.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_1002.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texturedMesh.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1002273"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "texturedMesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture_1001.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_1002.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1002273"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 1,
+            "y": 6.123233995736766e-17,
+            "z": 6.123233995736766e-17,
+            "w": 3.749399456654644e-33
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0e2410"
+    }
+}

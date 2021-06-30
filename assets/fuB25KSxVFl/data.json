@@ -1,0 +1,63 @@
+{
+    "name": "Binoculars",
+    "description": "A pair of binoculars",
+    "authorId": "6waaP2xvrDS",
+    "authorName": "Glen Rickey",
+    "createTime": "2018-04-22T08:07:19.618659Z",
+    "updateTime": "2020-10-07T10:39:08.660102Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "binocs.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "binocs.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Binocs-C.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2588"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "binocs.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "binocs.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Binocs-C.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2588"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

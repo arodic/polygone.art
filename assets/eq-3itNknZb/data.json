@@ -1,0 +1,55 @@
+{
+    "name": "Aula_ar_vr",
+    "description": "Modelo teste",
+    "authorId": "6uylRD_LWXM",
+    "authorName": "Carlos Eduardo",
+    "createTime": "2020-04-13T20:22:21.444846Z",
+    "updateTime": "2020-05-06T10:23:26.676578Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "VOLUMETRIA_AULA.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "VOLUMETRIA_AULA.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "66"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "VOLUMETRIA_AULA.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "VOLUMETRIA_AULA.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "66"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

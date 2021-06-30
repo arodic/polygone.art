@@ -1,0 +1,52 @@
+{
+    "name": "five rings",
+    "authorId": "ej_jzinKhaC",
+    "authorName": "Michael Pretz",
+    "createTime": "2020-10-14T21:05:13.211835Z",
+    "updateTime": "2020-10-14T21:13:25.388729Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "five_rings.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "five_rings.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4500"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "five_rings.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "five_rings.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4500"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

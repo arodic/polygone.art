@@ -1,0 +1,64 @@
+{
+    "name": "Chapel 2018",
+    "description": "Architecture Students Capture Chapel Hall using photogrammetry",
+    "authorId": "0WKvtNwxtrM",
+    "authorName": "Travis Feldman",
+    "createTime": "2019-04-25T14:33:03.778963Z",
+    "updateTime": "2020-10-05T10:35:09.407260Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chapel2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chapel2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chapel2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "879521"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "chapel2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chapel2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "chapel2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "879521"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

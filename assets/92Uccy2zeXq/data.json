@@ -1,0 +1,61 @@
+{
+    "name": "Red/White Inverted Cube TFX",
+    "description": "Normals are inverted, might make for an interesting tunnel",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-05-19T15:30:59.681145Z",
+    "updateTime": "2020-10-06T10:07:15.509463Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "invertedcuberedwhite.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "invertedcuberedwhite.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Redwhite.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "invertedcuberedwhite.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "invertedcuberedwhite.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Redwhite.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

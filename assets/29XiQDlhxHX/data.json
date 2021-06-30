@@ -1,0 +1,62 @@
+{
+    "name": "Super Mario 64 Debug Logo",
+    "authorId": "78pW4dHc6FO",
+    "authorName": "Alejandro Cermelo",
+    "createTime": "2018-12-20T18:05:13.096594Z",
+    "updateTime": "2020-10-06T09:39:38.171811Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earlylogo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earlylogo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "earlylogo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "440"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "earlylogo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earlylogo.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "earlylogo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "440"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

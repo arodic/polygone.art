@@ -1,0 +1,68 @@
+{
+    "name": "Ape",
+    "description": "#monkey #primate #jungle #simian",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-11T01:06:27.359960Z",
+    "updateTime": "2021-05-19T16:11:59.472473Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "monkey",
+        "primate",
+        "jungle",
+        "simian"
+    ],
+    "likes": 35,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Ape.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Ape.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Ape.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "628"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Ape.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Ape.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Ape.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "628"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffccbc"
+    }
+}

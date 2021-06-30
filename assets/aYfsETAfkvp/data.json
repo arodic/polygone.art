@@ -1,0 +1,60 @@
+{
+    "name": "T.F Micky",
+    "authorId": "fPAvBoyugWy",
+    "authorName": "Takahiro Yamamoto",
+    "createTime": "2020-10-08T09:22:56.399544Z",
+    "updateTime": "2020-10-08T09:28:32.981550Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "micky.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "micky.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "micky.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "560"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "micky.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "micky.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "micky.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "560"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

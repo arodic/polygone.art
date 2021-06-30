@@ -1,0 +1,55 @@
+{
+    "name": "low poly chess knights",
+    "description": "chess knight from a chessboard that was designed to match with an html/js/svg chessboard. https://s1pierro.github.io/echiquierJS/echiquier.html",
+    "authorId": "6nAhvq-Ze19",
+    "authorName": "Thomas Saint Pierre (s1pierro)",
+    "createTime": "2017-11-03T13:22:25.460253Z",
+    "updateTime": "2021-01-13T10:37:29.627625Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "knights.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "knights.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "knights.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "knights.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

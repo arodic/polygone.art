@@ -1,0 +1,68 @@
+{
+    "name": "Goose",
+    "description": "#goose #bird #feathers #wings",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-02T04:37:08.656942Z",
+    "updateTime": "2021-06-08T10:39:03.083314Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "goose",
+        "bird",
+        "feathers",
+        "wings"
+    ],
+    "likes": 23,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Goose.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Goose.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Goose.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "460"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Goose.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Goose.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Goose.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "460"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#78909c"
+    }
+}

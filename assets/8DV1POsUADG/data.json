@@ -1,0 +1,60 @@
+{
+    "name": "slime",
+    "authorId": "3zDhvy_UTwR",
+    "authorName": "SHRIMP NOODLES ANIMATION",
+    "createTime": "2019-09-13T18:44:46.094710Z",
+    "updateTime": "2020-06-11T10:01:50.733510Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Slime.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mon_001_001.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Slime.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Slime.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Slime.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mon_001_001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

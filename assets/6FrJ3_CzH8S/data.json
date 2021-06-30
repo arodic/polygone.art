@@ -1,0 +1,65 @@
+{
+    "name": "Alien",
+    "description": "#ufo",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T21:33:41.798176Z",
+    "updateTime": "2021-06-08T09:32:57.320924Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "ufo"
+    ],
+    "likes": 71,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Alien.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Alien.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Alien_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "982"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Alien.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Alien.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Alien_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "982"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Tasmanian wolf",
+    "description": "Low-poly tasmanian wolf",
+    "authorId": "fVTfKYRBWUk",
+    "authorName": "Gwym Hendawyr",
+    "createTime": "2017-11-15T13:33:23.347216Z",
+    "updateTime": "2021-03-03T11:31:48.205802Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tasmanian_wolf.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tasmanian_wolf.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tasmanian_wolf_uv.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "422"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tasmanian_wolf.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tasmanian_wolf.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tasmanian_wolf_uv.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "422"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4caf50"
+    }
+}

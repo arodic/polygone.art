@@ -1,0 +1,62 @@
+{
+    "name": "laserbeam",
+    "authorId": "bjgZArqWTIz",
+    "authorName": "Vincent Burgess",
+    "createTime": "2019-01-14T20:36:45.730407Z",
+    "updateTime": "2020-02-25T20:40:07.435470Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "LaserBeam.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "LaserBeam.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "LaserBeam.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "LaserBeam.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "LaserBeam.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "LaserBeam.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

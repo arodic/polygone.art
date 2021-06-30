@@ -1,0 +1,58 @@
+{
+    "name": "Fish",
+    "description": "simple fish",
+    "authorId": "fZUru2fd79B",
+    "authorName": "יוחנן חאיק",
+    "createTime": "2018-01-09T10:13:52.495347Z",
+    "updateTime": "2020-09-04T10:17:38.644856Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "shape_sphere.3DBuilder.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "shape_sphere.3DBuilder.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36542"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "shape_sphere.3DBuilder.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "shape_sphere.3DBuilder.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36542"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.4999999999999999,
+            "y": 0.5000000000000003,
+            "z": 0.5,
+            "w": -0.4999999999999999
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

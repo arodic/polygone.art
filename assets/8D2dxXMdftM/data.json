@@ -1,0 +1,86 @@
+{
+    "name": "Statue of Liberty",
+    "authorId": "dNSl3dbtoJc",
+    "authorName": "James L.",
+    "createTime": "2017-11-05T01:47:15.202125Z",
+    "updateTime": "2019-08-06T17:21:27.593803Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "LibertyStatue/LibertStatue.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "LibertyStatue/LibertStatue.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "LibertyStatue/Liberty-DecorazioniMarmo-2.bmp",
+                    "contentType": "image/bmp"
+                },
+                {
+                    "relativePath": "LibertyStatue/Liberty-GreenBronze-1.bmp",
+                    "contentType": "image/bmp"
+                },
+                {
+                    "relativePath": "LibertyStatue/Liberty-MattoniBasamento-1.bmp",
+                    "contentType": "image/bmp"
+                },
+                {
+                    "relativePath": "LibertyStatue/Liberty-PortaBronzo-1.bmp",
+                    "contentType": "image/bmp"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "42100"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "LibertStatue.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "LibertStatue.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "LibertyStatue/Liberty-GreenBronze-1.bmp",
+                    "contentType": "image/bmp"
+                },
+                {
+                    "relativePath": "LibertyStatue/Liberty-DecorazioniMarmo-2.bmp",
+                    "contentType": "image/bmp"
+                },
+                {
+                    "relativePath": "LibertyStatue/Liberty-MattoniBasamento-1.bmp",
+                    "contentType": "image/bmp"
+                },
+                {
+                    "relativePath": "LibertyStatue/Liberty-PortaBronzo-1.bmp",
+                    "contentType": "image/bmp"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "42100"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

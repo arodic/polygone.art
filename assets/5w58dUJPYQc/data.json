@@ -1,0 +1,63 @@
+{
+    "name": "Bass Violin",
+    "description": "Low poly bass violin.\n\nLike this model, but need something a bit different? I take commissions! http://peripheralarbor.com/commission/",
+    "authorId": "ej5So4VLSng",
+    "authorName": "Paul Spooner",
+    "createTime": "2018-09-25T17:53:32.388483Z",
+    "updateTime": "2021-05-10T07:37:18.035600Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 13,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BassBase.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BassBase.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TextureAtlas.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1628"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "BassBase.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TextureAtlas.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "BassBase.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1628"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

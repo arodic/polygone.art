@@ -1,0 +1,60 @@
+{
+    "name": "VJN64CART",
+    "authorId": "14nGTwh75DR",
+    "authorName": "Vertigo digital design",
+    "createTime": "2019-05-30T16:02:58.304885Z",
+    "updateTime": "2020-09-30T09:55:23.191594Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "n64game.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "n64game.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "n64carttex2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1758"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "n64game.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "n64carttex2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "n64game.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1758"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

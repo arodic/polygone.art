@@ -1,0 +1,71 @@
+{
+    "name": "Mayan Tablet",
+    "description": "My first museum photoscan.",
+    "authorId": "fCDtq6KVXZ-",
+    "authorName": "Thomas Burmeister",
+    "createTime": "2019-01-13T14:47:19.253691Z",
+    "updateTime": "2020-10-07T09:27:08.786256Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "artifact.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "artifact.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "MeshroomCache/Texturing/dfdd60b79262ff5ab9d0a5f271da9bfd570c305e/texture_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MeshroomCache/Texturing/dfdd60b79262ff5ab9d0a5f271da9bfd570c305e/texture_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "645771"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "artifact.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "artifact.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "MeshroomCache/Texturing/dfdd60b79262ff5ab9d0a5f271da9bfd570c305e/texture_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MeshroomCache/Texturing/dfdd60b79262ff5ab9d0a5f271da9bfd570c305e/texture_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "645771"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

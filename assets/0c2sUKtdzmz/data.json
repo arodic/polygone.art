@@ -1,0 +1,55 @@
+{
+    "name": "little people and turtledog",
+    "description": "sculpted with gravity sketch volume tool",
+    "authorId": "9ESN-yuhKLA",
+    "authorName": "Richard Byers",
+    "createTime": "2019-09-10T12:03:44.089447Z",
+    "updateTime": "2020-09-27T09:26:20.319394Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "little_people.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "little_people.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "878"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "little_people.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "little_people.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "878"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2e2d2d"
+    }
+}

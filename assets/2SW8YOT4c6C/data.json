@@ -1,0 +1,62 @@
+{
+    "name": "Chaise",
+    "authorId": "bVTSrmG5-Sy",
+    "authorName": "Phil 972",
+    "createTime": "2019-02-09T12:53:06.405193Z",
+    "updateTime": "2020-10-07T09:38:13.737483Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chair.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chair.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "chair_266.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "804"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "chair.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chair.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chair_266.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "804"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

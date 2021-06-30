@@ -1,0 +1,64 @@
+{
+    "name": "Rabbit",
+    "description": "I scanned this rabbit toy with the Qlone app",
+    "authorId": "0kMO2CjHbjK",
+    "authorName": "Rin At",
+    "createTime": "2017-11-19T16:58:35.048184Z",
+    "updateTime": "2020-10-02T05:05:06.852186Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_Bunny_20171119_173738032.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_Bunny_20171119_173738032.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "127696"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model_Bunny_20171119_173738032.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "127696"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

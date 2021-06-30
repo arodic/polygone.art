@@ -1,0 +1,54 @@
+{
+    "name": "vrhs1",
+    "description": "vrhs 1 test",
+    "authorId": "dPtUCuEOzuo",
+    "authorName": "thomas taylor",
+    "createTime": "2019-08-04T12:02:07.641319Z",
+    "updateTime": "2020-05-10T09:48:43.207715Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "himym apartment.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "himym apartment.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10615"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "himym apartment.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "himym apartment.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10615"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

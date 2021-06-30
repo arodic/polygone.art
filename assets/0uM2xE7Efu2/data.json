@@ -1,0 +1,63 @@
+{
+    "name": "Test",
+    "description": "EVOL",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-06-12T01:53:04.958919Z",
+    "updateTime": "2020-02-25T19:58:30.544581Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "makevr_0000.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "makevr_0000.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dans_blinn.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "11022"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "makevr_0000.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dans_blinn.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "makevr_0000.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "11022"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#7b1fa2"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Sample 3D",
+    "authorId": "0FiDIFonkbw",
+    "authorName": "i Brain",
+    "createTime": "2020-10-10T17:51:41.901299Z",
+    "updateTime": "2020-10-10T17:58:21.959461Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3d mech.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "2d home_texture.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "3d mech.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "999999"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "3d mech.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d mech.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "2d home_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "999999"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

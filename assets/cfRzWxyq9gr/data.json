@@ -1,0 +1,60 @@
+{
+    "name": "SM_Earth",
+    "authorId": "2YhaDr9wO-t",
+    "authorName": "David",
+    "createTime": "2020-11-18T09:05:24.462493Z",
+    "updateTime": "2020-11-18T09:39:13.217241Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SM_Earth.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SM_Earth.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "D:/Planetarium (1)/Planet_T/PlanetMaterialFiles/T_Earth.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1656"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "SM_Earth.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SM_Earth.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "D:/Planetarium (1)/Planet_T/PlanetMaterialFiles/T_Earth.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1656"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

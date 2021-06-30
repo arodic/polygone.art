@@ -1,0 +1,64 @@
+{
+    "name": "Archbold 2019",
+    "description": "Architecture class photogrammetry project, April 2019",
+    "authorId": "0WKvtNwxtrM",
+    "authorName": "Travis Feldman",
+    "createTime": "2019-05-02T15:23:35.459303Z",
+    "updateTime": "2020-09-25T10:17:15.304848Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "new_red_arch.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "new_red_arch_archbold.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "new_red_arch.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "485160"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "new_red_arch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "new_red_arch.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "new_red_arch_archbold.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "485160"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

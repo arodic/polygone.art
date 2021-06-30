@@ -1,0 +1,61 @@
+{
+    "name": "corn",
+    "description": "corny",
+    "authorId": "4xv3LTjzskf",
+    "authorName": "Enoch Bradshaw",
+    "createTime": "2019-06-01T00:27:32.332337Z",
+    "updateTime": "2020-09-27T09:41:57.292244Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cornie.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cornie.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "corntex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "924"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cornie.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cornie.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "corntex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "924"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "TNEG copa de sake",
+    "authorId": "e7pOs54S0UW",
+    "authorName": "Mauricio Martínez González",
+    "createTime": "2018-07-06T19:37:07.953777Z",
+    "updateTime": "2020-09-25T10:24:13.174296Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sake.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sake.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "vaso.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "566"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sake.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "vaso.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sake.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "566"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

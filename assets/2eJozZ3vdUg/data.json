@@ -1,0 +1,62 @@
+{
+    "name": "Edificio hormigon",
+    "authorId": "fKeurYogf9a",
+    "authorName": "jesus lopez",
+    "createTime": "2017-11-25T19:20:26.909131Z",
+    "updateTime": "2020-02-25T20:14:51.649866Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mifichero.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bakeado.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "mifichero.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "276"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mifichero.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mifichero.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bakeado.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "276"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#795548"
+    }
+}

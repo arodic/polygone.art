@@ -1,0 +1,60 @@
+{
+    "name": "rainbow circle natty",
+    "authorId": "eGovNLf2UJT",
+    "authorName": "Natasha M",
+    "createTime": "2020-04-17T21:53:53.801512Z",
+    "updateTime": "2020-05-04T09:47:58.805720Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rainbow/rainbow.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rainbow/rainbow.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rainbow/rainbowcircle.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "124"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rainbow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rainbow.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rainbow/rainbowcircle.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "124"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

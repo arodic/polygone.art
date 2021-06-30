@@ -1,0 +1,63 @@
+{
+    "name": "Earthworm",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T03:47:54.867436Z",
+    "updateTime": "2021-03-18T09:11:45.821127Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earthworm.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earthworm.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "earthwormTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "272"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "earthworm.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earthworm.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "earthwormTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "272"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f44336"
+    }
+}

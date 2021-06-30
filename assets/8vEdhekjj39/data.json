@@ -1,0 +1,63 @@
+{
+    "name": "LOVOT_vol1",
+    "description": "LOVOTを3Dドットモデルにしたものです。",
+    "authorId": "7JFEvn0MZOq",
+    "authorName": "KEN IMOTO",
+    "createTime": "2019-12-14T16:49:08.787016Z",
+    "updateTime": "2020-02-25T21:28:54.741751Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "LOVOT_head.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "LOVOT_head.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "LOVOT_head.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2710"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "LOVOT_head.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "LOVOT_head.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "LOVOT_head.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2710"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

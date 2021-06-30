@@ -1,0 +1,63 @@
+{
+    "name": "Klingon Bat'Leth",
+    "description": "Even pixelated warriors need weapons.",
+    "authorId": "7mCZedSUZk1",
+    "authorName": "Kai-Arne Reiter",
+    "createTime": "2018-01-30T11:08:22.173041Z",
+    "updateTime": "2020-07-29T10:20:44.542025Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Bat'leth.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bat'leth.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bat'leth.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "588"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Bat'leth.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bat'leth.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Bat'leth.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "588"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "name": "round window",
+    "description": "windows",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-10T03:12:36.548998Z",
+    "updateTime": "2020-05-20T22:44:03.657650Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "round window.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "round window.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "WINDOW_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Window_list_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "640"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "round window.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Window_list_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "round window.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "WINDOW_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "640"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Fotogrametría Zona 1",
+    "description": "Arqueología Cefa  04 de Enero 2020",
+    "authorId": "2R61MzY9V8C",
+    "authorName": "David Wolff",
+    "createTime": "2020-10-27T15:23:04.401383Z",
+    "updateTime": "2020-10-27T15:31:38.726145Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "20200104-Mb.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "20200104-Mb.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "20200104-Mb.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "390863"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "20200104-Mb.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "20200104-Mb.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "20200104-Mb.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "390863"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.18147647155664026,
+            "y": 0.04233783028414159,
+            "z": 0.1571893005865358,
+            "w": 0.9698274703158798
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

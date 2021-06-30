@@ -1,0 +1,71 @@
+{
+    "name": "Tagged Wall",
+    "description": "3D scan of wall to compare with photogrammetry scan of wall.",
+    "authorId": "2kVeLkCJT5n",
+    "authorName": "hasoevo",
+    "createTime": "2020-03-24T00:33:46.292587Z",
+    "updateTime": "2021-03-07T21:07:26.387227Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "20200323_155402.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "20200323_155402.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1584994049224_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1584994049224_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "112455"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "20200323_155402.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "1584994049224_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1584994049224_1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1584994049224.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "112455"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

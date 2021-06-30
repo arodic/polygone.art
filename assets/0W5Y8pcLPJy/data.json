@@ -1,0 +1,60 @@
+{
+    "name": "Rabbit",
+    "authorId": "fN1cJWDy5kV",
+    "authorName": "Kawintra Tirasintaworn",
+    "createTime": "2019-12-26T03:38:12.892642Z",
+    "updateTime": "2020-07-01T09:26:37.863303Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rabbit.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rabbit.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rabbit.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "504"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rabbit.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rabbit.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rabbit.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "504"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

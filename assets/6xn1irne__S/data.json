@@ -1,0 +1,63 @@
+{
+    "name": "Sonic the Hedgehog",
+    "description": "Sonic Heroes",
+    "authorId": "6IS9bGc3gON",
+    "authorName": "Katie Cox",
+    "createTime": "2020-06-12T14:00:02.915643Z",
+    "updateTime": "2021-06-03T16:13:56.408190Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 25,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Sonic the Hedgehog.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Sonic the Hedgehog.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Sonic the Hedgehog/sonic_t128.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1696"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Sonic the Hedgehog/Sonic the Hedgehog.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Sonic the Hedgehog/sonic_t128.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Sonic the Hedgehog/Sonic_the_Hedgehog.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1696"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

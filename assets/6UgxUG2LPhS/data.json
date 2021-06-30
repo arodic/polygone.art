@@ -1,0 +1,69 @@
+{
+    "name": "airmag lowres 13",
+    "description": "airmag lowres 13",
+    "authorId": "6Ihl8aCW4yj",
+    "authorName": "Weston Mitchell",
+    "createTime": "2019-08-22T18:56:28.604915Z",
+    "updateTime": "2020-10-07T09:56:41.688956Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "airMag_12_02.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "airmag_low_pm_fabric_mat_base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "airmag_low_pm_fabric_mat_metallic_roughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "airmag_low_pm_fabric_mat_normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12086"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "airmag_low_pm_fabric_mat_normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "airmag_low_pm_fabric_mat_base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12086"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

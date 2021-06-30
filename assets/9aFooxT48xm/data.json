@@ -1,0 +1,63 @@
+{
+    "name": "human body",
+    "description": "Model of the Human Body",
+    "authorId": "0SAZy1_BhxJ",
+    "authorName": "nathan stevens",
+    "createTime": "2019-07-10T15:03:08.424650Z",
+    "updateTime": "2020-10-01T10:06:26.917581Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "body.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "body.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "body/1_2048x2048_4182610456910466637.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "493120"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "body/body.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "body/1_2048x2048_4182610456910466637.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "body/body.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "493120"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

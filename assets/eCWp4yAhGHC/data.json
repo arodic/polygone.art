@@ -1,0 +1,63 @@
+{
+    "name": "Beetle",
+    "description": "Beetle",
+    "authorId": "bhVYnG0OsWU",
+    "authorName": "名川達也",
+    "createTime": "2018-08-16T00:19:25.271185Z",
+    "updateTime": "2020-09-24T10:35:13.406788Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Beetle.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Beetle.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Beetle.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "596"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Beetle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Beetle.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Beetle.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "596"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

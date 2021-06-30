@@ -1,0 +1,67 @@
+{
+    "name": "Kielbasa",
+    "description": "#sausage #polish #meat",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T05:57:08.026515Z",
+    "updateTime": "2020-10-03T09:39:00.605573Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "sausage",
+        "polish",
+        "meat"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "kielbasa.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kielbasa.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "kielbasaTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "240"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "kielbasa.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "kielbasa.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kielbasaTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "240"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4caf50"
+    }
+}

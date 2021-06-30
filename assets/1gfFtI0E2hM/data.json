@@ -1,0 +1,55 @@
+{
+    "name": "The 3D Banana",
+    "description": "this is 3d banana object, created in blender.\nMy Blog : https://cdtechnoart.blogspot.com/",
+    "authorId": "85mOQ-DSkRY",
+    "authorName": "Chandan Dharwal",
+    "createTime": "2020-07-21T18:35:08.602066Z",
+    "updateTime": "2020-10-02T09:33:45.035234Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "banana.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "banana.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1796"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "banana.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "banana.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1796"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#a3a041"
+    }
+}

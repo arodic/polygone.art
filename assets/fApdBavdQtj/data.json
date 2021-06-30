@@ -1,0 +1,63 @@
+{
+    "name": "Studio Obj Poly",
+    "description": "Studio Obj Poly",
+    "authorId": "9nrIdhBrw47",
+    "authorName": "Thommy Eriksson",
+    "createTime": "2021-03-22T19:09:07.522240Z",
+    "updateTime": "2021-03-22T19:22:48.321756Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "studion_obj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "studion_obj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "studion_obj/Plan_2__Kuggen.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6088"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "studion_obj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "studion_obj/Plan_2__Kuggen.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "studion_obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6088"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

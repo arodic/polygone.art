@@ -1,0 +1,60 @@
+{
+    "name": "minecraft",
+    "authorId": "3xPJ9loZyvs",
+    "authorName": "Narueporn Piathip",
+    "createTime": "2019-12-26T03:31:21.613081Z",
+    "updateTime": "2020-08-12T09:40:23.153086Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "minecraftvox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "minecraftvox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "minecraftvox.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3226"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "minecraftvox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "minecraftvox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "minecraftvox.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3226"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Lorcan",
+    "authorId": "fCDtq6KVXZ-",
+    "authorName": "Thomas Burmeister",
+    "createTime": "2020-03-04T18:18:22.219933Z",
+    "updateTime": "2020-06-08T09:52:40.564314Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "NAME.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BakedName.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "NAME.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6012"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "NAME.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "NAME.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BakedName.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6012"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

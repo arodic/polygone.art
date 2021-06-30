@@ -1,0 +1,74 @@
+{
+    "name": "'Tribute' Original Painting",
+    "description": "Original 30x30\" acrylic and pen work on cradled birch panel by Cody Rutty, a tribute to Dr. Seuss",
+    "authorId": "6p6YEDjt3AA",
+    "authorName": "Cody Rutty",
+    "createTime": "2020-09-22T16:48:41.614545Z",
+    "updateTime": "2020-10-04T10:03:21.550445Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tributeobj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Tribute.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tributeobj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "WoodFlooring044_COL_3K.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tributeobj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tributeobj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "WoodFlooring044_COL_3K.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Tribute.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.5,
+            "y": -0.5,
+            "z": -0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "test3",
+    "description": "test3",
+    "authorId": "dvzkrI8ZRGl",
+    "authorName": "Marc Williams",
+    "createTime": "2019-06-17T21:05:01.615717Z",
+    "updateTime": "2020-06-21T10:21:43.612374Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tilttest.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tilttest.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "HankySoft4.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tilttest.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "HankySoft4.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "tilttest.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

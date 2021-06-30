@@ -1,0 +1,63 @@
+{
+    "name": "GRIMECRAFT GEAR",
+    "description": "this sucks",
+    "authorId": "2JAhLwI7G3t",
+    "authorName": "Clarke Nordhauser (GRIMECRAFT)",
+    "createTime": "2019-03-17T09:31:44.998169Z",
+    "updateTime": "2020-10-03T09:40:45.079493Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "grimegear.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "grimegear.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "GCFFDisc.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4216"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "grimegear.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GCFFDisc.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "grimegear.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4216"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

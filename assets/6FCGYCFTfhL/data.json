@@ -1,0 +1,80 @@
+{
+    "name": "Chapman University Banner",
+    "description": "3D Model",
+    "authorId": "fS9uD8R1SIo",
+    "authorName": "Matthew Wisdom",
+    "createTime": "2021-01-13T02:06:31.095595Z",
+    "updateTime": "2021-01-13T02:14:54.121317Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture0.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "159939"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture0.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "159939"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.8660254037844386,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

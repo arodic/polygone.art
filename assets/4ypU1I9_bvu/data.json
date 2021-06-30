@@ -1,0 +1,63 @@
+{
+    "name": "pixel background",
+    "description": "pixel background",
+    "authorId": "8-IAkXnnd_e",
+    "authorName": "Hector Torres",
+    "createTime": "2018-10-23T17:15:50.230718Z",
+    "updateTime": "2020-10-04T09:48:56.342552Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pixels.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pixels.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "colorful-shapes-wallpaper-10.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "800"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "pixels.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "colorful-shapes-wallpaper-10.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "pixels.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "800"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

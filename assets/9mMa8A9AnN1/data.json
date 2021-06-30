@@ -1,0 +1,61 @@
+{
+    "name": "ミニストップ",
+    "description": "ミニストップ",
+    "authorId": "4iApZE2V3ed",
+    "authorName": "Yoshinaga Tatsuki (僕秩)",
+    "createTime": "2020-11-25T05:26:25.024646Z",
+    "updateTime": "2021-01-08T20:35:09.933765Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "textured_output.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured_output.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textured_output.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "905885"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "textured_output.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured_output.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textured_output.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "905885"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

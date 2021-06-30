@@ -1,0 +1,63 @@
+{
+    "name": "Pig",
+    "description": "Simple Voxel Pig",
+    "authorId": "42-aJ5But3i",
+    "authorName": "lnx00",
+    "createTime": "2018-12-06T19:03:39.397543Z",
+    "updateTime": "2021-04-07T05:39:53.074724Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Pig.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Pig.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Pig.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "718"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Pig.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Pig.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Pig.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "718"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

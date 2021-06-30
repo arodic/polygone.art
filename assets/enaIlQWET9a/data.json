@@ -1,0 +1,68 @@
+{
+    "name": "Asteroid",
+    "description": "#space #planetoid #galaxy #solarsystem",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-12T00:18:10.525606Z",
+    "updateTime": "2021-05-29T17:55:01.945236Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "space",
+        "planetoid",
+        "galaxy",
+        "solarsystem"
+    ],
+    "likes": 104,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Asteroids.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Asteroids.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Asteroids_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1678"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Asteroids.OBJ",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Asteroids.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Asteroids_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1678"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#bdbdbd"
+    }
+}

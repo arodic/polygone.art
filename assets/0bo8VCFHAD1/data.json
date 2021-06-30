@@ -1,0 +1,67 @@
+{
+    "name": "Empanada",
+    "description": "#taco #tortilla",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T20:39:05.759958Z",
+    "updateTime": "2020-07-23T09:23:58.159468Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "taco",
+        "tortilla"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "empanada.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "empanada.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "empanadaTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "352"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "empanada.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "empanada.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "empanadaTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "352"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4db6ac"
+    }
+}

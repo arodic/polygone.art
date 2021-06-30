@@ -1,0 +1,67 @@
+{
+    "name": "Elm tree",
+    "description": "#tree #leaves #foliage",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T20:55:40.961351Z",
+    "updateTime": "2021-06-10T15:16:26.563125Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "tree",
+        "leaves",
+        "foliage"
+    ],
+    "likes": 173,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ElmTree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ElmTree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ElmTree_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2253"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ElmTree.OBJ",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ElmTree.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ElmTree_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2253"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#aed581"
+    }
+}

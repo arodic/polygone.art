@@ -1,0 +1,61 @@
+{
+    "name": "Sharevox woo!",
+    "description": "lets vox!",
+    "authorId": "4oLojXydE_A",
+    "authorName": "Samuel Tate",
+    "createTime": "2018-08-07T04:39:21.974386Z",
+    "updateTime": "2020-09-29T09:42:59.953708Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Sharevox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PaletteA.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "PaletteA.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "780"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Sharevox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Sharevox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PaletteA.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "780"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

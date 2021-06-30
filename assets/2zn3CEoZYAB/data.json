@@ -1,0 +1,63 @@
+{
+    "name": "newtown church snacks",
+    "description": "after concert",
+    "authorId": "fVVTh4ouZB2",
+    "authorName": "Edward Yee",
+    "createTime": "2017-12-30T21:20:00.297875Z",
+    "updateTime": "2020-10-06T09:40:39.320205Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "export.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "export.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "snacks.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "60064"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "export.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "snacks.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "export.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "60064"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

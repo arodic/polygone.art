@@ -1,0 +1,55 @@
+{
+    "name": "Orthographic model",
+    "description": "3d model",
+    "authorId": "7013QSvAhaV",
+    "authorName": "Pratik Mohite",
+    "createTime": "2019-03-28T14:18:55.368397Z",
+    "updateTime": "2020-06-10T09:52:45.862682Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "isometric.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "isometric.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "112"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "isometric.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "isometric.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "112"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

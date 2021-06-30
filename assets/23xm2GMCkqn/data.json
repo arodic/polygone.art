@@ -1,0 +1,60 @@
+{
+    "name": "Ru- Potato",
+    "authorId": "bgDFGrSKnN9",
+    "authorName": "Ru",
+    "createTime": "2020-03-27T23:25:47.890339Z",
+    "updateTime": "2020-10-05T09:34:53.198123Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "potater.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "potater.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3204"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "potater.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "potater.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3204"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

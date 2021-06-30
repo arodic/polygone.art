@@ -1,0 +1,60 @@
+{
+    "name": "Rhino",
+    "authorId": "ffg8gYj2ooG",
+    "authorName": "Tom VanAntwerp",
+    "createTime": "2017-11-02T13:32:28.072752Z",
+    "updateTime": "2020-10-04T10:18:58.940819Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rhino.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rhino.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rhino-uv.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1025"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rhino.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rhino.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rhino-uv.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1025"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

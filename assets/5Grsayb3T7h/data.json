@@ -1,0 +1,71 @@
+{
+    "name": "TFX Open 032",
+    "description": "EVOL",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-11-22T04:27:37.231221Z",
+    "updateTime": "2020-09-27T09:48:53.055703Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sphere32.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere32.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sphere32/_.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sphere32/_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sphere32.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sphere32.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "sphere32/_.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sphere32/_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "48"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0277bd"
+    }
+}

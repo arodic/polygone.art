@@ -1,0 +1,63 @@
+{
+    "name": "gogh d",
+    "description": "goghd",
+    "authorId": "fYHNBplndhx",
+    "authorName": "K W",
+    "createTime": "2019-06-03T10:59:48.330763Z",
+    "updateTime": "2020-09-24T09:54:37.415970Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gogh_c.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gogh_c.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Background.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "gogh_c.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Background.JPG",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "gogh_c.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

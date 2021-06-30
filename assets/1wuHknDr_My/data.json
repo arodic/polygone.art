@@ -1,0 +1,63 @@
+{
+    "name": "TheWaveVR Social template",
+    "description": "Template for TheWaveVR users to put their social media links in.\n\nEither load this object in Tiltbrush and draw your name in, or edit the \"poster.jpg\" texture in the file. You can also download the photoshop template.\n\nhttps://drive.google.com/file/d/1GQ2RczkMPIJvAru_5OhGt-BaKyzEjgV7/view?usp=sharing\n\nFollow this guide by TheWaveVR Community Member & Resident DJ, EVOL, for how to load posters in Poly\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=1295481938",
+    "authorId": "1HastiYxLVw",
+    "authorName": "Rico Balakit",
+    "createTime": "2018-09-22T03:49:16.119546Z",
+    "updateTime": "2020-09-28T09:35:52.997457Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poster.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "poster.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "poster.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

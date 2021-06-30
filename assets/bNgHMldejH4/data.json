@@ -1,0 +1,63 @@
+{
+    "name": "たけの",
+    "description": "2020.2.2",
+    "authorId": "8N0Mmf754Om",
+    "authorName": "樋口詩乃",
+    "createTime": "2020-02-02T12:45:01.560601Z",
+    "updateTime": "2020-02-25T22:02:43.664705Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "takeno.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "takeno.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "taekno/takeno.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "117014"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "takeno.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "takeno.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "taekno/takeno.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "117014"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

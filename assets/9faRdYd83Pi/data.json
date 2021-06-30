@@ -1,0 +1,62 @@
+{
+    "name": "GRIMECRAFT Shadow",
+    "authorId": "2JAhLwI7G3t",
+    "authorName": "Clarke Nordhauser (GRIMECRAFT)",
+    "createTime": "2018-07-31T22:11:55.219725Z",
+    "updateTime": "2020-10-03T10:08:53.838233Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Shadow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Shadow.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Shadow/body.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4262"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Shadow/Shadow.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Shadow/Shadow.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Shadow/body.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4262"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

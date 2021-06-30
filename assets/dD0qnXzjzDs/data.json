@@ -1,0 +1,54 @@
+{
+    "name": "Exemplarobj",
+    "authorId": "2UVMY3rUj2h",
+    "authorName": "Artem Kuzmin",
+    "createTime": "2020-07-22T15:49:18.357081Z",
+    "updateTime": "2020-07-22T15:57:59.453291Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "house.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "house.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "726"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "house.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "house.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "726"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

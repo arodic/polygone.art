@@ -1,0 +1,75 @@
+{
+    "name": "Ukulele",
+    "description": "Simple ukulele",
+    "authorId": "7HObjVmKhpq",
+    "authorName": "Andrew Hosmanek",
+    "createTime": "2019-10-26T03:30:54.107571Z",
+    "updateTime": "2020-10-01T10:16:08.012496Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "704"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model.gltf",
+                    "contentType": "model/gltf+json"
+                },
+                {
+                    "relativePath": "model.obj",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model-triangulated.obj",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "thumbnail.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "704"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

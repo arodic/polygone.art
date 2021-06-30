@@ -1,0 +1,57 @@
+{
+    "name": "Gameboy",
+    "description": "Gameboy in parts made with Doodle3D Transform",
+    "authorId": "0ThWURXrSLo",
+    "authorName": "Rick Companje",
+    "createTime": "2017-11-07T16:27:39.653532Z",
+    "updateTime": "2020-12-11T21:47:29.504171Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated"
+    ],
+    "likes": 14,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "object.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "material.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2394"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "object.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "object.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2394"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

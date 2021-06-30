@@ -1,0 +1,67 @@
+{
+    "name": "Inverse",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-25T04:45:12.941907Z",
+    "updateTime": "2020-06-07T10:24:51.847188Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "StonePyramid.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "StonePyramid.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "StonePyramid_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "StonePyramid_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "StonePyramid.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "StonePyramid.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "StonePyramid_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Quick Clay Landslide in Alta",
+    "description": "Non-georeferenced DSM (Digital Surface Model) of landslide area in Alta, Norway, made from video clip by NRK Finmark.",
+    "authorId": "5VzxxGVX5_L",
+    "authorName": "yuki arakawa",
+    "createTime": "2020-06-04T15:09:49.831316Z",
+    "updateTime": "2020-10-07T10:08:15.907638Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "alta_quick_clay_DSM.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "alta_quick_clay_DSM.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "alta_quick_clay_DSM.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "alta_quick_clay_DSM.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

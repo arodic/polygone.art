@@ -1,0 +1,60 @@
+{
+    "name": "bloom tubb",
+    "authorId": "cdCmJ0o49__",
+    "authorName": "Lintufriikki",
+    "createTime": "2018-12-11T11:54:09.909537Z",
+    "updateTime": "2020-10-03T09:46:45.819016Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "race.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "race.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "checker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4800"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "race.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "race.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "checker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4800"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

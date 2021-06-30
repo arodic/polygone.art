@@ -1,0 +1,60 @@
+{
+    "name": "Light Grey Chair",
+    "authorId": "1H84Jt15pKs",
+    "authorName": "Chris Hauck",
+    "createTime": "2020-07-26T18:11:36.276402Z",
+    "updateTime": "2020-07-26T18:19:35.224533Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Chair.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Chair.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Chair_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Chair.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Chair.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Chair_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

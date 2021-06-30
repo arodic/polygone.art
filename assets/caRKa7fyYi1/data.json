@@ -1,0 +1,64 @@
+{
+    "name": "FBX ch pre ferris 3 P",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2019-12-03T21:06:13.254824Z",
+    "updateTime": "2020-10-01T10:20:31.193805Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90462"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ferris_wheel.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "ferris_wheel_AlbedoTransparency.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ferris_wheel_Emission.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ferris_wheel_MetallicSmoothness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ferris_wheel_Normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90462"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

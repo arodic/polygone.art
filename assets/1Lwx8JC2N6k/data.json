@@ -1,0 +1,63 @@
+{
+    "name": "Cocinero",
+    "description": "Personaje de MagicaVoxel",
+    "authorId": "d98V5i10Sd5",
+    "authorName": "pedro gavides",
+    "createTime": "2018-11-05T14:57:57.594323Z",
+    "updateTime": "2020-09-25T09:38:12.326353Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chr_butcher.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_butcher.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "chr_butcher.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "352"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "chr_butcher.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_butcher.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chr_butcher.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "352"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

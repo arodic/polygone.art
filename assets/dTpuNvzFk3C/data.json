@@ -1,0 +1,60 @@
+{
+    "name": "pringles",
+    "authorId": "01B0w7ZAsMz",
+    "authorName": "Mark Ellis",
+    "createTime": "2019-04-03T16:23:58.471650Z",
+    "updateTime": "2020-02-25T22:36:55.552988Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pringles.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pringles.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "pringles_image.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "638260"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "pringles.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pringles.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pringles_image.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "638260"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Test Game Builder",
+    "description": "Test Game Builder",
+    "authorId": "5Jc_brQ91yt",
+    "authorName": "Jakub Dlabal",
+    "createTime": "2019-12-04T11:58:35.658156Z",
+    "updateTime": "2020-03-17T22:27:38.792790Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "01.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "10996"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "01.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10996"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

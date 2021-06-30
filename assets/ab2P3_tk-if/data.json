@@ -1,0 +1,64 @@
+{
+    "name": "nopurpleflower",
+    "description": "lv9\n#lv9",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2019-02-11T21:14:00.353186Z",
+    "updateTime": "2020-09-24T10:16:36.256904Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "lv9"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "puple.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "purplelines_00000.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "puple.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "66012"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "puple.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "puple.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "purplelines_00000.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "66012"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

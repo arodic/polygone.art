@@ -1,0 +1,68 @@
+{
+    "name": "Blimp",
+    "description": "#dirigible #aircraft #airship #flying",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-21T13:55:02.533594Z",
+    "updateTime": "2021-03-20T09:36:02.210577Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "dirigible",
+        "aircraft",
+        "airship",
+        "flying"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_BLIMP.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_BLIMP.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "BlimpSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2634"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_BLIMP.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_BLIMP.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BlimpSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2634"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

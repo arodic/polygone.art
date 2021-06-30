@@ -1,0 +1,49 @@
+{
+    "name": "robot",
+    "description": "robot",
+    "authorId": "1O02-BC6qKE",
+    "authorName": "Ludovic Bouchard",
+    "createTime": "2018-11-08T15:38:41.614231Z",
+    "updateTime": "2020-02-25T20:28:48.683131Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "robot.dae.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "2703"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "robot.dae.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "robot.dae.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2703"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

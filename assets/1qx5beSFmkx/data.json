@@ -1,0 +1,64 @@
+{
+    "name": "porc",
+    "description": "Modelo Fotogramétrico de una Cabeza de cerdo, encontrada en un mercado de Lima, Perú",
+    "authorId": "9xf3eFFNl6J",
+    "authorName": "Esteve Ribera",
+    "createTime": "2018-09-26T23:27:51.302700Z",
+    "updateTime": "2020-02-25T20:06:51.987755Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "porc_retopo_03.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "porc_retopo_03.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "porc_retopo_03.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15757"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "porc_retopo_03.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "porc_retopo_03.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "porc_retopo_03.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15757"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

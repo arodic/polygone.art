@@ -1,0 +1,61 @@
+{
+    "name": "jet",
+    "description": "Private jet\n",
+    "authorId": "de47ug0Ljtv",
+    "authorName": "Henry Ponce",
+    "createTime": "2019-05-30T16:03:51.248525Z",
+    "updateTime": "2020-06-23T09:32:56.321014Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Jet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Jet.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Jet_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "618"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Jet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Jet.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Jet_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "618"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1a237e"
+    }
+}

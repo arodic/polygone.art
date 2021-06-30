@@ -1,0 +1,64 @@
+{
+    "name": "Arctic Fox (Sitting)",
+    "description": "A posed model of the arctic fox from Daydream Elements.",
+    "authorId": "f8cGQY15_-g",
+    "authorName": "Anonymous",
+    "createTime": "2017-10-19T16:30:36.608418Z",
+    "updateTime": "2021-06-06T21:36:45.827321Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 208,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ArcticFox_Posed.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ArcticFox_Posed.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ArcticFox_Diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1782"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ArcticFox_Posed.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ArcticFox_Diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ArcticFox_Posed.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1782"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e0e0e0"
+    }
+}

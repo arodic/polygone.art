@@ -1,0 +1,68 @@
+{
+    "name": "Blue rock",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-13T13:40:37.640312Z",
+    "updateTime": "2020-09-25T10:41:14.915170Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rock.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rock.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "stengel.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bluerock.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28565"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "rock.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "stengel.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bluerock.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "rock.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28565"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "EL TIEMPO",
+    "authorId": "4HwNCutabc9",
+    "authorName": "Nicolás Cortés Mejía",
+    "createTime": "2018-10-12T23:23:04.172402Z",
+    "updateTime": "2020-04-14T09:27:27.217105Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "periodico.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "periodico.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Periódico/periodico.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "179999"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Periódico/periodico.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Periódico/periodico.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Periódico/periodico.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "179999"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

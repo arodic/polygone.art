@@ -1,0 +1,63 @@
+{
+    "name": "TCU横浜キャンパス",
+    "description": "東京都市大学横浜キャンパスです。",
+    "authorId": "7C2UzvxFEPs",
+    "authorName": "宮地研究室",
+    "createTime": "2019-03-12T10:33:10.566401Z",
+    "updateTime": "2020-05-14T10:08:00.986571Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "garden2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "garden2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "garden201.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500002"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "garden2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "garden201.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "garden2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500002"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "frog monster",
+    "description": "animal",
+    "authorId": "3Hs93iusioT",
+    "authorName": "konta johanna",
+    "createTime": "2018-03-27T14:34:44.761109Z",
+    "updateTime": "2021-01-17T02:26:38.835217Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "google poly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "toad.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "google poly.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2012"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "google poly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "google poly.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "toad.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2012"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

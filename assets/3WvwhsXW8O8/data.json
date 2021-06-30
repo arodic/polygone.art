@@ -1,0 +1,60 @@
+{
+    "name": "Avatar Voxel Art",
+    "authorId": "3DbS1dfd_R6",
+    "authorName": "Mediathequeplv plv",
+    "createTime": "2021-02-03T16:25:04.921001Z",
+    "updateTime": "2021-02-03T16:34:57.763865Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "avatar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "avatar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "avatar.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "416"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "avatar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "avatar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "avatar.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "416"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

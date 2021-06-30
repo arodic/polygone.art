@@ -1,0 +1,61 @@
+{
+    "name": "Wooden Chair",
+    "description": "Wooden chair done using Sketchup ",
+    "authorId": "7Jw3StCASUW",
+    "authorName": "Misba Amar",
+    "createTime": "2020-04-12T17:30:43.864067Z",
+    "updateTime": "2020-05-04T03:11:13.051981Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chairmodel.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chairmodel.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "chairmodel/Wood_Floor_Light.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "388"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "chairmodel.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chairmodel.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chairmodel/Wood_Floor_Light.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "388"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "test",
+    "authorId": "cov4gAaVWHN",
+    "authorName": "Tarjei Ødegård",
+    "createTime": "2020-02-11T11:55:31.969804Z",
+    "updateTime": "2020-02-25T20:00:38.046310Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Bestum scan OBJ test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Model1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Model2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Bestum scan OBJ test.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "99971"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Bestum scan OBJ test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bestum scan OBJ test.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Model1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Model2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "99971"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

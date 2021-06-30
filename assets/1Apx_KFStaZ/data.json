@@ -1,0 +1,61 @@
+{
+    "name": "Dresses by Russo",
+    "description": "This is the first model I will attempt to edit in VR.   \nDimensions 3D Portraits LLC   \n406-203-8920",
+    "authorId": "dzIP0upYn7Y",
+    "authorName": "William Pedersen",
+    "createTime": "2019-06-27T16:00:50.780247Z",
+    "updateTime": "2020-09-16T09:22:57.381348Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model_mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_mesh.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

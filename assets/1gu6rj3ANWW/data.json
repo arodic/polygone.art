@@ -1,0 +1,60 @@
+{
+    "name": "DVFX Technicone",
+    "authorId": "a0MpLW6oYrn",
+    "authorName": "Dau Vinci",
+    "createTime": "2019-05-13T02:32:06.346791Z",
+    "updateTime": "2020-10-04T09:34:23.756110Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "technicone.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "raw.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "technicone.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "62"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "technicone.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "technicone.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "raw.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "62"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

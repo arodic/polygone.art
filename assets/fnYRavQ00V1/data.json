@@ -1,0 +1,55 @@
+{
+    "name": "Asteroid",
+    "description": "Just a simple asteroid",
+    "authorId": "f21R6N08tZc",
+    "authorName": "Brandon “Big Country” Reiner",
+    "createTime": "2020-01-27T01:21:57.271201Z",
+    "updateTime": "2020-10-07T10:30:28.741570Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Asteroid_1_LOW_MODEL_.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Asteroid_1_LOW_MODEL_.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "94864"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "asteroid/obj/Asteroid_1_LOW_MODEL_.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "asteroid/obj/Asteroid_1_LOW_MODEL_.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "94864"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

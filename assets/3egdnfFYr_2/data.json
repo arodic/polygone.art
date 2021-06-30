@@ -1,0 +1,55 @@
+{
+    "name": "Humanoid Low-Poly Rigged",
+    "description": "A humanoid model I made rigged, please note I am not all that good at rigging",
+    "authorId": "bK1SfmuNePE",
+    "authorName": "VinnyRulesGaming",
+    "createTime": "2020-06-30T01:25:00.335659Z",
+    "updateTime": "2021-05-19T16:58:00.262032Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "humanoid.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "humanoid.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "428"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "humanoid.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "humanoid.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "428"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

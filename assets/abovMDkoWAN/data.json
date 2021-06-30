@@ -1,0 +1,64 @@
+{
+    "name": "Voxel Pig",
+    "description": "Voxel art pig made with MagicaVoxel.",
+    "authorId": "3iIHqmcA2B-",
+    "authorName": "Mauri Helme",
+    "createTime": "2017-11-03T19:56:49.994109Z",
+    "updateTime": "2021-06-06T11:16:43.986665Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 12,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pig.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pig.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "pig.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "644"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "pig.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pig.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pig.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "644"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4caf50"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Google Poly, glTF, Blender 2.8",
+    "description": "Testing the pipeline between Google Poly, glTF and Blender 2.8",
+    "authorId": "6Tizh-ACI1a",
+    "authorName": "Satish Goda",
+    "createTime": "2019-03-15T00:40:45.267977Z",
+    "updateTime": "2020-10-07T10:25:17.836582Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BlenderTest.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "image0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "BlenderTest.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "39996"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#616161"
+    }
+}

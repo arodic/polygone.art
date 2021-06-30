@@ -1,0 +1,53 @@
+{
+    "name": "Double sofa",
+    "description": "Home furniture",
+    "authorId": "1ByQT45w12u",
+    "authorName": "Rahul Suxsena",
+    "createTime": "2019-03-24T09:49:08.083618Z",
+    "updateTime": "2020-10-07T09:45:31.090930Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "doublesofa.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "doublesofa.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18432"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "doublesofa.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "doublesofa.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18432"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffc107"
+    }
+}

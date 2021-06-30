@@ -1,0 +1,63 @@
+{
+    "name": "El Gato",
+    "description": "En este poly puedes ver a un gato de forma 3d, el gato es una de las mejores mascotas  ya que es limpio, cariñoso y fácil de domesticar. ",
+    "authorId": "3RKB6vizeKl",
+    "authorName": "Gloria Ducommun",
+    "createTime": "2018-08-22T03:29:03.348254Z",
+    "updateTime": "2020-12-15T15:11:02.517436Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 13,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cat-texture.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "cat.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1278"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cat.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cat-texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1278"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#039be5"
+    }
+}

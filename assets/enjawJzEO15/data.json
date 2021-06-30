@@ -1,0 +1,80 @@
+{
+    "name": "house plant1",
+    "description": "house plants",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-03T18:09:19.149620Z",
+    "updateTime": "2021-06-05T13:16:11.935106Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plant.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plant.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "STEM_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "LEAF_TWO_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "DIRT_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50960"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "plant.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "DIRT_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "STEM_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "plant.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "LEAF_TWO_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50960"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

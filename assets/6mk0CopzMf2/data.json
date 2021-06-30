@@ -1,0 +1,55 @@
+{
+    "name": "Montagne parlante",
+    "description": "Premier modele 3D pour Google Poly. ",
+    "authorId": "2sL86xrdi7r",
+    "authorName": "Guillaume JAOUEN",
+    "createTime": "2018-03-10T14:36:37.809751Z",
+    "updateTime": "2020-02-25T21:01:29.388657Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "montagne2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "montagne2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13454"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "montagne2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "montagne2.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13454"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

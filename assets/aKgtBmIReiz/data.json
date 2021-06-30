@@ -1,0 +1,72 @@
+{
+    "name": "hiarfail",
+    "description": "lv2\n#lv22",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-02-03T03:25:04.060915Z",
+    "updateTime": "2020-03-11T10:03:00.490068Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "lv22"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "spawn.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "spawn.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SwampMulch_basecolor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "256"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "spawn.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "spawn.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SwampMulch_basecolor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "SwampMulch_emissive.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "SwampMulch_metallic.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "256"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

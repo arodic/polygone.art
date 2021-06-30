@@ -1,0 +1,49 @@
+{
+    "name": "Big City",
+    "description": "Tilt at Brushes is a YouTube series. This is an example of what we teach you to paint. Feel free to use this as a starting point!",
+    "authorId": "4BydW247V98",
+    "authorName": "Shameless Mayhem",
+    "createTime": "2020-09-01T04:32:11.006833Z",
+    "updateTime": "2021-06-17T09:23:19.811958Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "architecture",
+        "curated"
+    ],
+    "likes": 111,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "470726"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

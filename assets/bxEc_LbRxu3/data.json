@@ -1,0 +1,67 @@
+{
+    "name": "Kash 3D Photogrametry",
+    "description": "Kash model with photogrametry texture. I had to downscale the texture from 8096*8096 to 4096*4096 for google",
+    "authorId": "6rbnyI-GuJb",
+    "authorName": "K H (Kash)",
+    "createTime": "2017-12-12T19:47:54.972489Z",
+    "updateTime": "2020-10-02T10:19:54.775884Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "1052_preview_model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "1052_preview_model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1052_1/1052_preview_model.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "409523"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "1052_1/1052_preview_model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "1052_1/1052_preview_model.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "1052_1/1052_preview_model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "409523"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": -0.5,
+            "z": 0.5,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

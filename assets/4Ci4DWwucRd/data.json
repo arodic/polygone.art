@@ -1,0 +1,65 @@
+{
+    "name": "Spider monkey",
+    "description": "#mammal",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T15:50:05.643587Z",
+    "updateTime": "2021-06-08T12:21:51.600178Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "mammal"
+    ],
+    "likes": 50,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SpiderMonkey.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpiderMonkey.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SpiderMonkey_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1270"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "SpiderMonkey.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpiderMonkey.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SpiderMonkey_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1270"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

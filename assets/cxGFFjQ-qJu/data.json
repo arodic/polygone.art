@@ -1,0 +1,63 @@
+{
+    "name": "SnowGlobeHQ",
+    "description": "4K Texture version of Pisa SnowGlobe for TCS Workshop",
+    "authorId": "fCDtq6KVXZ-",
+    "authorName": "Thomas Burmeister",
+    "createTime": "2019-10-09T11:06:31.451150Z",
+    "updateTime": "2020-10-06T10:28:25.245443Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SnowGlobeHQ.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SnowGlobeHQ.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "BakedHQ.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10851"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "SnowGlobeHQ.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SnowGlobeHQ.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BakedHQ.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10851"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

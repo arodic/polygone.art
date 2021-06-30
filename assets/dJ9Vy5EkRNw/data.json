@@ -1,0 +1,53 @@
+{
+    "name": "Island Sip",
+    "description": "Here is the island which produces the most sips for the juices. It has music and some old mine shafts, beware of the music. ",
+    "authorId": "6p6YEDjt3AA",
+    "authorName": "Cody Rutty",
+    "createTime": "2018-01-26T01:07:49.553741Z",
+    "updateTime": "2020-10-04T10:27:49.407166Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "island.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "island.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "301244"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "island.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "island.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "301244"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffab91"
+    }
+}

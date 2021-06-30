@@ -1,0 +1,62 @@
+{
+    "name": "Chinese fan",
+    "authorId": "fhRVFyn0vtC",
+    "authorName": "Jesse Seegers",
+    "createTime": "2018-07-30T09:36:25.311251Z",
+    "updateTime": "2020-09-28T10:04:07.612178Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fan.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "01.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "fan.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18078"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "fan.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fan.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18078"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

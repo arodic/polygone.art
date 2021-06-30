@@ -1,0 +1,72 @@
+{
+    "name": "lv22#lv22",
+    "description": "lv22\n#lv22",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-01-27T06:36:21.288840Z",
+    "updateTime": "2020-09-22T10:18:23.106707Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "lv22"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "grasslands.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "grasslands.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SwampMulch_basecolor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "SwampMulch_emissive.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "SwampMulch_metallic.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "187272"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "grasslands.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "grasslands.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SwampMulch_basecolor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "187272"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

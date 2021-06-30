@@ -1,0 +1,67 @@
+{
+    "name": "Whale",
+    "description": "#mammal #marine #cetacean",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T04:32:22.704507Z",
+    "updateTime": "2021-06-08T11:54:09.673107Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "mammal",
+        "marine",
+        "cetacean"
+    ],
+    "likes": 32,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Whale.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Whale.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Whale.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "422"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Whale.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Whale.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Whale.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "422"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fbc02d"
+    }
+}

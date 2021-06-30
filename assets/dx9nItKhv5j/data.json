@@ -1,0 +1,48 @@
+{
+    "name": "3D Liver Model",
+    "authorId": "8tsSdQqUXfL",
+    "authorName": "Roland Hope IV",
+    "createTime": "2020-05-12T16:43:25.269052Z",
+    "updateTime": "2020-07-22T10:20:01.895996Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/Fatty_liver_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Fatty_liver_metallicRoughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Fatty_liver_normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7502"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

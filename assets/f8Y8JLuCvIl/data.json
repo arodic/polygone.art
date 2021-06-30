@@ -1,0 +1,60 @@
+{
+    "name": "butterfly",
+    "authorId": "6n0OHbm9kfO",
+    "authorName": "Daphne David",
+    "createTime": "2019-04-24T13:26:11.287434Z",
+    "updateTime": "2020-10-03T10:34:20.374970Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bytt.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bytt.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "diffuse.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12808"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bytt.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bytt.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "diffuse.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12808"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

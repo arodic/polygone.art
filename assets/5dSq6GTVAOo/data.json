@@ -1,0 +1,64 @@
+{
+    "name": "PowerEggX で 簡易3D-MAP",
+    "description": "PowerEggX",
+    "authorId": "eiCQ8kPGixn",
+    "authorName": "Fish Sleeping",
+    "createTime": "2020-02-20T05:23:01.815749Z",
+    "updateTime": "2020-12-21T20:33:55.790171Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Map.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Map.1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Map.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "766529"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Map.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Map.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Map.1001.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "766529"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#454444"
+    }
+}

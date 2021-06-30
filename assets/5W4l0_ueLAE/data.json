@@ -1,0 +1,68 @@
+{
+    "name": "ballwall",
+    "description": "lv24\n#lv24",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-04-20T23:32:24.079633Z",
+    "updateTime": "2020-06-20T09:48:15.425746Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "lv24"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ballwall.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ballwall.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "MagicStoneFloorQuadrangle_emissive.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "80"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ballwall.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ballwall.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "MagicStoneFloorQuadrangle_emissive.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MagicStoneFloorQuadrangle_metallic.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "80"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

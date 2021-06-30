@@ -1,0 +1,60 @@
+{
+    "name": "blackRed2",
+    "authorId": "8Rfs7A9rTig",
+    "authorName": "Clara Schulz-Theißen",
+    "createTime": "2020-08-15T12:25:45.993240Z",
+    "updateTime": "2020-08-15T12:31:30.861851Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "black_red.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "blackRedTexture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "black_red.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5697"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "black_red.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "black_red.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "blackRedTexture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5697"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

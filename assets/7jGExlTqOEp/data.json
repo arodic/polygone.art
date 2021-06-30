@@ -1,0 +1,63 @@
+{
+    "name": "KI Studio",
+    "description": "The interior of EV2-2069 with some furniture removed to make circulation simpler, with emissive ceiling lights\n\nSketchup > export lgb\nBlender < import glb\nBlender > export glb (fixes problems\nGoogle Poly < import glb\nGoogle Poly make  WhiteSmoke 10% emissive (fluorescent lights)\nGoogle Poly set lighting to Medical Room., turn off shadows\nGoogle Poly publish\nGoogle Poly download glb\nHubs Spoke import glb\nHubs Spoke save project\nHubs Spoke open in Hubs",
+    "authorId": "fXvdXlb7TI6",
+    "authorName": "Paul McKone",
+    "createTime": "2020-07-06T21:42:26.275826Z",
+    "updateTime": "2020-09-19T10:01:57.853164Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Studio.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "image0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image4.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image5.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Studio.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "31985"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "barda",
+    "authorId": "cIJe6wk7TK1",
+    "authorName": "sustefest",
+    "createTime": "2020-11-08T22:31:47.560070Z",
+    "updateTime": "2020-11-08T22:37:32.747748Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "barda.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "textPiedra.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "barda.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "barda.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "barda.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textPiedra.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "2",
+    "description": "2",
+    "authorId": "a8ncu0EoqhV",
+    "authorName": "Pablo Mendez",
+    "createTime": "2020-05-28T03:51:07.289961Z",
+    "updateTime": "2020-08-12T09:55:39.846230Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3980"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "1.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3980"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c4242"
+    }
+}

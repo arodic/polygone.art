@@ -1,0 +1,64 @@
+{
+    "name": "ロックハート城",
+    "description": "群馬県 , Gunma, Japan\nロックハート城模型",
+    "authorId": "8N0Mmf754Om",
+    "authorName": "樋口詩乃",
+    "createTime": "2020-02-09T07:45:30.700394Z",
+    "updateTime": "2020-02-25T22:01:45.110588Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "oshiro.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "oshiro.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "shiro.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13103"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "oshiro.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "oshiro.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "shiro.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13103"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Eight ball",
+    "description": "#8ball #pool #cue #sports",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T07:15:54.152921Z",
+    "updateTime": "2021-05-29T09:20:31.645037Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "8ball",
+        "pool",
+        "cue",
+        "sports"
+    ],
+    "likes": 13,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "8ball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "8ball.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "8ball2Txt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "112"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "8ball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "8ball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "8ball2Txt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "112"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

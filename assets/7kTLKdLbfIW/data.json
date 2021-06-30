@@ -1,0 +1,53 @@
+{
+    "name": "Computed tomography",
+    "description": "Medical imaging",
+    "authorId": "3IZJKF2ZdVt",
+    "authorName": "Enter Inventive Studio",
+    "createTime": "2019-05-17T18:42:37.498707Z",
+    "updateTime": "2020-10-02T10:00:00.185496Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "064.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "064.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "222886"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "064.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "064.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "222886"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name": "Blue Grenade",
+    "description": "#GameBuilder #CustomRequest",
+    "authorId": "cnMuPeY5kuc",
+    "authorName": "Ashker Nms",
+    "createTime": "2019-07-09T07:54:58.472243Z",
+    "updateTime": "2020-10-06T10:16:53.019699Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "GameBuilder",
+        "CustomRequest"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "blue grenade.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "blue grenade.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "blue grenade.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "196"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "blue grenade.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "blue grenade.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "blue grenade.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "196"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

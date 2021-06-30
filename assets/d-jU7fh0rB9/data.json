@@ -1,0 +1,93 @@
+{
+    "name": "Eflatun Pinar",
+    "description": "First archeological #photogrammetry test of a site in Turkey using close up #drone footage.\n\nhttps://youtu.be/auzdapxdbH0?t=3m12s",
+    "authorId": "cZB48CfpyEn",
+    "authorName": "Florian Zeidler",
+    "createTime": "2018-04-17T17:21:38.107662Z",
+    "updateTime": "2020-10-11T14:45:57.710661Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "photogrammetry",
+        "drone"
+    ],
+    "likes": 15,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "eflatun.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "eflatun1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "eflatun1002.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "eflatun1003.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "eflatun1004.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "eflatun.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120879"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "eflatun.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "eflatun.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "eflatun1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "eflatun1002.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "eflatun1003.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "eflatun1004.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120879"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": -0.4999999999999999,
+            "z": -0.5,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9575cd"
+    }
+}

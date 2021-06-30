@@ -1,0 +1,53 @@
+{
+    "name": "Cerro Colorado Slope",
+    "description": "Cerro Colorado Landfill Cell Slope. Flown 2/28/2020.",
+    "authorId": "1KzEVNYlKc2",
+    "authorName": "Ken Ziegler",
+    "createTime": "2020-03-05T20:39:44.516444Z",
+    "updateTime": "2020-04-13T10:10:01.631145Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CerroSlope_simplified_3d_mesh.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {
+                "triangleCount": "999999"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CerroSlope_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "999999"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#5b92ac"
+    }
+}

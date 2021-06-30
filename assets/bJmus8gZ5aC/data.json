@@ -1,0 +1,63 @@
+{
+    "name": "Cartoon Face Cube",
+    "description": "A cartoon face! On a cube!",
+    "authorId": "5muspJ0WbwV",
+    "authorName": "Shawn Shah",
+    "createTime": "2019-06-15T18:26:37.674541Z",
+    "updateTime": "2020-09-23T10:13:00.544181Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "jimmy-cube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "jimmy-cube.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "jimmy-face.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "jimmy-cube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "jimmy-cube.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "jimmy-face.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

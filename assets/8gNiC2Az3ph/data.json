@@ -1,0 +1,62 @@
+{
+    "name": "Glitch Tube Rings",
+    "authorId": "c6WdjA8raYy",
+    "authorName": "Tom Seitz",
+    "createTime": "2020-03-07T00:28:33.440220Z",
+    "updateTime": "2020-03-07T00:35:26.352071Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tubediffraction.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tubediffraction.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texturething.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14336"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tubediffraction.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tubediffraction.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texturething.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14336"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

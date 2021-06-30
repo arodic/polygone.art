@@ -1,0 +1,63 @@
+{
+    "name": "Kamera 3D",
+    "description": "Overly fotorig",
+    "authorId": "5R9nGu2SpqB",
+    "authorName": "Gatis Zvejnieks",
+    "createTime": "2020-02-03T08:31:12.448240Z",
+    "updateTime": "2020-04-19T09:29:47.170773Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh_Model_low.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh_Model_low.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mesh_Model_low_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49998"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mesh_Model_low.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh_Model_low.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mesh_Model_low_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49998"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

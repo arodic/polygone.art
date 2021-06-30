@@ -1,0 +1,61 @@
+{
+    "name": "Graffiti Alley",
+    "description": "VR environment created from 3 360 photos that were converted to look like a cartoon digital drawings.",
+    "authorId": "2kVeLkCJT5n",
+    "authorName": "hasoevo",
+    "createTime": "2019-12-01T13:28:38.075942Z",
+    "updateTime": "2020-03-24T02:18:13.506619Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "combined.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "combined.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "image1572648332221.JPG.obj.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5387"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "combined.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "image1572648332221.JPG.obj.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "combined.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5387"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

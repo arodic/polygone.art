@@ -1,0 +1,61 @@
+{
+    "name": "Totem",
+    "description": "totem",
+    "authorId": "aBvsP3cPf4M",
+    "authorName": "Pedro Resende",
+    "createTime": "2020-06-12T00:56:42.592317Z",
+    "updateTime": "2020-09-18T10:55:00.524400Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "totem.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "totem.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "totem/_.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "totem.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "totem/_.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "totem.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

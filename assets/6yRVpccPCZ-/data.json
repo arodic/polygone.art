@@ -1,0 +1,60 @@
+{
+    "name": "dog2",
+    "authorId": "awhHWtFodSi",
+    "authorName": "Neil Nathanson",
+    "createTime": "2019-04-05T01:30:24.046388Z",
+    "updateTime": "2020-02-25T21:03:59.657961Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dog.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dog.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "789c7c42-6c31-4ee8-9a0e-8bee2ceb686d.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "dog.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dog.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "789c7c42-6c31-4ee8-9a0e-8bee2ceb686d.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

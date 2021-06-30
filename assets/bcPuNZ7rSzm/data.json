@@ -1,0 +1,52 @@
+{
+    "name": "flower",
+    "authorId": "ej_jzinKhaC",
+    "authorName": "Michael Pretz",
+    "createTime": "2020-10-28T00:55:37.947442Z",
+    "updateTime": "2020-10-28T01:02:04.047610Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "flower.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "flower.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "101962"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "flower.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "flower.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "101962"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

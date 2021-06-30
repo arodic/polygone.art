@@ -1,0 +1,72 @@
+{
+    "name": "gobiface",
+    "description": "lv25\n#lv25",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-06-15T21:54:24.275027Z",
+    "updateTime": "2020-10-04T09:33:45.863321Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "lv25"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "facegobi.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "facegobi.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "gobi00.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model_face.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "928"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "facegobi.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "facegobi.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gobi00.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model_face.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "928"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "JD sfx  cube obj test",
+    "authorId": "73VP5s1V3OU",
+    "authorName": "Jason Daniel",
+    "createTime": "2020-01-26T18:45:30.612231Z",
+    "updateTime": "2020-10-05T09:43:44.772446Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Cube OBJ test2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cube OBJ test2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "emission.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Cube OBJ test2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cube OBJ test2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "emission.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

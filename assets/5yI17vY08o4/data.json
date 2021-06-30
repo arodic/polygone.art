@@ -1,0 +1,63 @@
+{
+    "name": "simple06",
+    "description": "Size check for game builder\n\nシンプルオブジェクト",
+    "authorId": "1WW26PGEhA7",
+    "authorName": "平井貴明",
+    "createTime": "2019-07-03T12:37:49.109097Z",
+    "updateTime": "2020-06-05T09:48:38.487628Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "simple06.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple06.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "simple06.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "simple06.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple06.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "simple06.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

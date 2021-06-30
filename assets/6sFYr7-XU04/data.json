@@ -1,0 +1,61 @@
+{
+    "name": "Mural by Paul Deo",
+    "description": "PNG based",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2020-09-18T08:15:15.967510Z",
+    "updateTime": "2020-10-05T09:56:28.957363Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "paul-mural-01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "paul-mural-01.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "large-png-hires.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "paul-mural-01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "large-png-hires.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "paul-mural-01.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000cba"
+    }
+}

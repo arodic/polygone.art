@@ -1,0 +1,65 @@
+{
+    "name": "Road",
+    "description": "#street",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T16:56:50.692097Z",
+    "updateTime": "2021-03-20T07:47:27.155659Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "street"
+    ],
+    "likes": 49,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_ROAD.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_ROAD.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "roadSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_ROAD.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_ROAD.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "roadSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#bdbdbd"
+    }
+}

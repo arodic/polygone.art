@@ -1,0 +1,67 @@
+{
+    "name": "Space rover",
+    "description": "#space #rover #robot",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T19:28:47.630231Z",
+    "updateTime": "2021-05-28T22:49:26.144905Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated",
+        "space",
+        "rover",
+        "robot"
+    ],
+    "likes": 41,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SpaceRover.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpaceRover.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "SpaceRover_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2274"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "SpaceRover.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpaceRover.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SpaceRover_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2274"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

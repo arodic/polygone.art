@@ -1,0 +1,62 @@
+{
+    "name": "chicky",
+    "authorId": "8za-QdNOO_z",
+    "authorName": "Wimolrat Oonsang",
+    "createTime": "2018-08-17T08:26:19.051974Z",
+    "updateTime": "2020-09-23T09:33:12.723323Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chicken.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chicken.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "chicken.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "340"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "chicken.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chicken.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chicken.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "340"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

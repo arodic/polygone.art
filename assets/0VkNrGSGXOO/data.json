@@ -1,0 +1,69 @@
+{
+    "name": "Giraffe",
+    "description": "#mammal #African #tall #herbivore #neck",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:41:59.127803Z",
+    "updateTime": "2021-06-05T21:59:30.409395Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "mammal",
+        "African",
+        "tall",
+        "herbivore",
+        "neck"
+    ],
+    "likes": 19,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Giraffe.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Giraffe.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Giraffe_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1100"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Giraffe.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Giraffe.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Giraffe_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1100"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#cddc39"
+    }
+}

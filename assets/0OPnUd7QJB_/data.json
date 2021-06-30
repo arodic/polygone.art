@@ -1,0 +1,62 @@
+{
+    "name": "stemup hot chocolate 熱可可",
+    "authorId": "fPKloI-bGDa",
+    "authorName": "Beach Zeng",
+    "createTime": "2019-12-11T02:25:42.357715Z",
+    "updateTime": "2020-10-07T09:26:29.970546Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hot_chocolate_obj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hot chocolate_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "hot_chocolate_obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1122"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "hot_chocolate_obj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hot_chocolate_obj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hot chocolate_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1122"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#82d7ff"
+    }
+}

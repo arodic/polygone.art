@@ -1,0 +1,63 @@
+{
+    "name": "Animal cell",
+    "description": "3D animal Cell",
+    "authorId": "0SAZy1_BhxJ",
+    "authorName": "nathan stevens",
+    "createTime": "2019-07-10T14:18:08.860165Z",
+    "updateTime": "2021-04-23T17:35:42.078712Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Animal Cell.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Animal Cell.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "animal cell.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "61099"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Animal Cell.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Animal Cell.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "animal cell.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "61099"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

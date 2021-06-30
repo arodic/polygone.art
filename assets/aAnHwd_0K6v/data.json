@@ -1,0 +1,63 @@
+{
+    "name": "Matterhorn 1 Test",
+    "description": "Will be used in one of my Tilt Brush scenes. Edited to get some steeper slopes",
+    "authorId": "2vwFf_mC8uF",
+    "authorName": "Rein Bijlsma",
+    "createTime": "2019-07-19T10:27:24.033621Z",
+    "updateTime": "2020-12-05T05:03:30.658078Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Matterhorn1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Matterhorn1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "heightmap_ref_group.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "300000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Matterhorn1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "heightmap_ref_group.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Matterhorn1.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "300000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#251b47"
+    }
+}

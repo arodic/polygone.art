@@ -1,0 +1,63 @@
+{
+    "name": "VoxelFoodTruck",
+    "description": "Camión de comida realizado con MagicaVoxel",
+    "authorId": "d98V5i10Sd5",
+    "authorName": "pedro gavides",
+    "createTime": "2018-11-05T14:47:49.658849Z",
+    "updateTime": "2020-02-25T21:01:54.060173Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "VoxelOldTruck-V3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "VoxelOldTruck-V3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "VoxelOldTruck-V3.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1146"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "VoxelOldTruck-V3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "VoxelOldTruck-V3.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "VoxelOldTruck-V3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1146"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Turtle Composter",
+    "description": "This was made with blockbench, I originally wanted this to be for minecraft, but the model didn't work.",
+    "authorId": "cQ8v22wnTBB",
+    "authorName": "Awesomerocket Playz",
+    "createTime": "2020-11-17T23:36:42.956339Z",
+    "updateTime": "2020-11-17T23:44:16.084455Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PEW PEW LAZER GUN.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "turtl.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "60"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "PEW PEW LAZER GUN.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PEW PEW LAZER GUN.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "turtl.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "60"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Viking warrior voxel",
+    "authorId": "49ohsQTCbte",
+    "authorName": "spacedogs",
+    "createTime": "2019-03-04T15:00:42.629138Z",
+    "updateTime": "2021-05-17T04:21:22.407672Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "viking.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "viking.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "viking.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "776"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "viking.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "viking.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "viking.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "776"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Skeleton",
+    "description": "Test",
+    "authorId": "67K-ymhRQQ3",
+    "authorName": "Sachin Upadhyay",
+    "createTime": "2020-10-09T07:27:36.929907Z",
+    "updateTime": "2021-01-20T18:06:13.091104Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "skeleton.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "75379"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "skeleton.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "skeleton.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "75379"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#943b3b"
+    }
+}

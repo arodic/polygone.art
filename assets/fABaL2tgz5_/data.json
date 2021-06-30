@@ -1,0 +1,63 @@
+{
+    "name": "MundoGeo Leza",
+    "authorId": "dKQNn-InwIL",
+    "authorName": "Golgi Alvarez",
+    "createTime": "2018-11-30T02:54:49.022896Z",
+    "updateTime": "2020-08-03T10:30:15.843210Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "foromundo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "foromundo01.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "foromundo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "128169"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "foromundo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "foromundo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "foromundo01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "128169"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

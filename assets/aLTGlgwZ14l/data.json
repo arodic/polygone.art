@@ -1,0 +1,62 @@
+{
+    "name": "Doge",
+    "authorId": "0n1eNMmzKom",
+    "authorName": "Blocks Demo",
+    "createTime": "2017-11-28T23:14:13.064788Z",
+    "updateTime": "2021-03-03T11:38:44.715378Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dog.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dog.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "dog_texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "558"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dog.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dog.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dog_texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "558"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

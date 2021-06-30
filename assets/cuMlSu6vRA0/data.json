@@ -1,0 +1,62 @@
+{
+    "name": "Mothership",
+    "authorId": "bjgZArqWTIz",
+    "authorName": "Vincent Burgess",
+    "createTime": "2019-01-16T13:06:40.339385Z",
+    "updateTime": "2020-02-25T22:28:01.011297Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mothership.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mothership.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Mothership.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7256"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mothership.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mothership.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Mothership.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7256"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

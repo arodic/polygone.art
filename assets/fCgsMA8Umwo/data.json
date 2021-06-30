@@ -1,0 +1,61 @@
+{
+    "name": "Room Test Blender Copy",
+    "description": "Simple plane with photo to import into mindshow for set making",
+    "authorId": "5RPCBXJj3S9",
+    "authorName": "Anavrin",
+    "createTime": "2017-12-10T04:36:36.400571Z",
+    "updateTime": "2020-10-05T10:37:08.177645Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "set testblend.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "StockSnap_EGXWIV409M.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "set testblend.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "set testblend.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "set testblend.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "StockSnap_EGXWIV409M.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

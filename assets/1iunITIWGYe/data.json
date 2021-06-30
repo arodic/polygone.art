@@ -1,0 +1,71 @@
+{
+    "name": "BAR Stool",
+    "description": "EVOL",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-04-11T12:13:07.181034Z",
+    "updateTime": "2021-06-17T15:00:52.681038Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "stool.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "stool/alluminium.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "stool/M_03.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "stool.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "986"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "stool.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "stool.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "stool/M_03.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "stool/alluminium.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "986"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#212121"
+    }
+}

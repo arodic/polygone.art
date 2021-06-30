@@ -1,0 +1,62 @@
+{
+    "name": "Test - KnightMagicaVoxel",
+    "authorId": "f7wXM0obUwW",
+    "authorName": "Rory McJorrow",
+    "createTime": "2020-11-05T01:03:02.219288Z",
+    "updateTime": "2020-11-05T01:12:46.287032Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chr_knight.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_knight.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "chr_knight.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1124"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "chr_knight.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_knight.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chr_knight.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1124"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "name": "SPLORG | TheWaveVR Test Panel",
+    "description": "This shows brush behavior at different brightness levels (10 - 90%) along with smoke and hull brushes.",
+    "authorId": "2XgSD1ZwKmZ",
+    "authorName": "Simon W",
+    "createTime": "2018-11-02T01:19:19.431639Z",
+    "updateTime": "2020-09-30T10:38:25.613656Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22308"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

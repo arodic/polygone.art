@@ -1,0 +1,60 @@
+{
+    "name": "Test Reference image obj 1",
+    "authorId": "2nIjL8fg76x",
+    "authorName": "Azren Azimuddin",
+    "createTime": "2019-07-28T15:33:00.112629Z",
+    "updateTime": "2020-10-06T10:05:18.347665Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test ref 1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test ref 1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "qk .png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "test ref 1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "qk .png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "test ref 1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

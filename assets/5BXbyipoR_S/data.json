@@ -1,0 +1,61 @@
+{
+    "name": "Head Testing",
+    "authorId": "4aPB4cTBzQs",
+    "authorName": "Roberto De Lima",
+    "createTime": "2018-05-17T13:44:30.738753Z",
+    "updateTime": "2020-06-13T09:53:15.597832Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scan.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scan.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "scan.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "311738"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "scan.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "scan.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "scan.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "311738"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "BOTELLA",
+    "description": "123 TEST",
+    "authorId": "d_f3f6PfGFC",
+    "authorName": "Realidad Virtual MX",
+    "createTime": "2018-03-01T22:24:01.504881Z",
+    "updateTime": "2020-09-23T10:01:06.722754Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "botella.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "botella.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "1200px-Absolut_Vodka_logo.svg.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22592"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "botella.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "botella.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1200px-Absolut_Vodka_logo.svg.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22592"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

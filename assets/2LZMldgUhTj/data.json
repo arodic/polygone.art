@@ -1,0 +1,69 @@
+{
+    "name": "Gray fox",
+    "description": "#mammal #predator #vulpus #forest #woodland",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T20:44:10.650202Z",
+    "updateTime": "2021-06-05T22:03:44.823106Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "mammal",
+        "predator",
+        "vulpus",
+        "forest",
+        "woodland"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GraxyFox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GraxyFox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "GraxyFox_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1024"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "GraxyFox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "GraxyFox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "GraxyFox_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1024"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffc107"
+    }
+}

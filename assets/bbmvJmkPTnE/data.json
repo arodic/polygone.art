@@ -1,0 +1,55 @@
+{
+    "name": "Trash bin",
+    "description": "Regular white trash bin",
+    "authorId": "dBpdl1y5sUo",
+    "authorName": "Jane Kim",
+    "createTime": "2018-04-07T17:49:52.477671Z",
+    "updateTime": "2021-03-31T01:43:44.373405Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "trashbin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "trashbin.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "97020"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "trashbin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "trashbin.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "97020"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#616161"
+    }
+}

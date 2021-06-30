@@ -1,0 +1,55 @@
+{
+    "name": "Coffee",
+    "description": "Test upload 3d obj file",
+    "authorId": "4xr3GQYmmaH",
+    "authorName": "Ulzii V",
+    "createTime": "2019-10-06T05:53:48.698433Z",
+    "updateTime": "2020-10-01T09:36:05.673665Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "coffee.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "coffee.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "115154"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "coffee.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "coffee.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "115154"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

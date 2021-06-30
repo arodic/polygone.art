@@ -1,0 +1,66 @@
+{
+    "name": "DJ gear",
+    "description": "#music #electronic",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T03:55:56.340897Z",
+    "updateTime": "2021-05-29T09:15:26.931767Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "music",
+        "electronic"
+    ],
+    "likes": 21,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "DJGear.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "DJGear.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "DJGear_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1564"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "DJGear.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "DJGear.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "DJGear_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1564"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

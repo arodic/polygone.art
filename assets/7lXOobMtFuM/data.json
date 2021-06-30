@@ -1,0 +1,78 @@
+{
+    "name": "Legacy BLN",
+    "description": "Wallmodul-legacy",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-04-04T11:57:53.891649Z",
+    "updateTime": "2020-10-07T10:00:36.162419Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wallmodul_legacy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wallmodul_legacy.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kingspray-wall-orig-texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "tarmac.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ridge.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41824"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "wallmodul_legacy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kingspray-wall-orig-texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "tarmac.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ridge.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wallmodul_legacy.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41824"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#37474f"
+    }
+}

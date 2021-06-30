@@ -1,0 +1,63 @@
+{
+    "name": "yoshi",
+    "description": "it's Yoshi.",
+    "authorId": "59nqyaWWvWl",
+    "authorName": "Santa Fox",
+    "createTime": "2021-03-18T15:53:06.237345Z",
+    "updateTime": "2021-03-18T16:02:19.858136Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Yoshi/yoshi.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Yoshi/yoshi.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Yoshi/Tex_0002_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4440"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "yoshi.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "yoshi.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Yoshi/Tex_0002_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4440"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

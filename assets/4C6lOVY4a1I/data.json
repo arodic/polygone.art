@@ -1,0 +1,55 @@
+{
+    "name": "OLIVE",
+    "authorId": "0TUHHUDMglw",
+    "authorName": "Yumiko Akabori",
+    "createTime": "2018-03-21T06:00:13.592597Z",
+    "updateTime": "2020-09-27T09:42:22.594154Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "olive model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "olive_model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "23368"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "olive model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "olive model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "23368"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffc107"
+    }
+}

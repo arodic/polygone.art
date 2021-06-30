@@ -1,0 +1,75 @@
+{
+    "name": "1446 Epicenter FBX Prod",
+    "description": "1446 Epicenter FBX Prod",
+    "authorId": "1Iy5xSPxzju",
+    "authorName": "special Budzone",
+    "createTime": "2018-11-12T17:40:20.333806Z",
+    "updateTime": "2020-09-22T09:41:43.807992Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1446_Epicenter_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1446_Epicenter_D.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "73250"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "1446_Epicenter_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "1446_Epicenter_LODa.fplmesh",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1446_Epicenter_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1446_Epicenter_D.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1446_Epicenter_LODa.fplmat",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "73250"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Magic Cube TFX",
+    "description": "A simple application of Blenders magic texture in Cycles and baked on a cube.\nWorks well as a tunnel object for #TheWaveVR",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-04-06T21:57:34.077595Z",
+    "updateTime": "2020-04-17T23:57:50.308708Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "TheWaveVR"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "untitled.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "untitled.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Untitled.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "untitled.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "untitled.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Untitled.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4a148c"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Kirb orb poyo",
+    "description": "uv'd and textured, Look inside for a prize.\nwww.twitter.com/RichardULZ",
+    "authorId": "5yRKycVIJpe",
+    "authorName": "Richard Ziegler",
+    "createTime": "2018-03-02T20:12:15.011141Z",
+    "updateTime": "2021-04-07T09:50:49.290534Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "KirborbTextured.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "KirbDiffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "KirborbTextured.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2824"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "KirborbTextured.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "KirborbTextured.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "KirbDiffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2824"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0277bd"
+    }
+}

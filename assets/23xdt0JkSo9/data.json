@@ -1,0 +1,54 @@
+{
+    "name": "作業",
+    "authorId": "bFewJwjHm6j",
+    "authorName": "周湘芸",
+    "createTime": "2021-06-10T07:38:23.913673Z",
+    "updateTime": "2021-06-10T07:55:54.726391Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "human.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "human.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8294"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "human.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "human.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8294"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ababab"
+    }
+}

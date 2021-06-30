@@ -1,0 +1,72 @@
+{
+    "name": "mushroom",
+    "authorId": "9GD3-NEn3PG",
+    "authorName": "Phillip Layford",
+    "createTime": "2018-11-09T01:34:11.355990Z",
+    "updateTime": "2020-07-22T10:20:51.385504Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "thumbnail.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model-triangulated.obj",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model.obj",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model.gltf",
+                    "contentType": "model/gltf+json"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "152"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "152"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Speaker Test Model",
+    "description": "This a quick test model, but if you wanne you it, go a head.",
+    "authorId": "8YU9mPjKuAC",
+    "authorName": "Rafael Wortmann",
+    "createTime": "2019-02-02T13:58:32.916403Z",
+    "updateTime": "2020-07-19T09:25:32.310916Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SpekerTest_1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpekerTest_1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SpeakerDiffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "840"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "SpekerTest_1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpeakerDiffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "SpekerTest_1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "840"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

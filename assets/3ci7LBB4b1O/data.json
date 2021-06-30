@@ -1,0 +1,64 @@
+{
+    "name": "holeheart",
+    "description": "lv30\n#lv30",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-11-17T02:39:22.338155Z",
+    "updateTime": "2020-11-17T02:45:16.439623Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "lv30"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "HEART.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "HEART.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "HEART_Layer_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1662"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "HEART.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "HEART.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "HEART_Layer_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1662"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

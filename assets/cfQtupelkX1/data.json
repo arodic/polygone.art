@@ -1,0 +1,64 @@
+{
+    "name": "CubeCross",
+    "description": "Cruz de cubos realizada con MagicaVoxel",
+    "authorId": "d98V5i10Sd5",
+    "authorName": "pedro gavides",
+    "createTime": "2018-11-05T15:26:30.701875Z",
+    "updateTime": "2020-09-23T10:21:26.493686Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CubesCross.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CubesCross.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CubesCross.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CubesCross.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CubesCross.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "CubesCross.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

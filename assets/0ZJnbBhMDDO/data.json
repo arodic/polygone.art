@@ -1,0 +1,63 @@
+{
+    "name": "Planet W",
+    "description": "a greener version of 420",
+    "authorId": "4b_WIg3Ydqr",
+    "authorName": "Darrell Hargett",
+    "createTime": "2019-02-27T02:43:44.309788Z",
+    "updateTime": "2020-09-27T09:26:44.329205Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "planet_420_green.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "f5fbe16f-00d1-49ae-b1ac-1e41f31ddbbb.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "planet_420_green.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "988"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "planet_420_green.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "planet_420_green.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "f5fbe16f-00d1-49ae-b1ac-1e41f31ddbbb.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "988"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

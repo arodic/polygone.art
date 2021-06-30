@@ -1,0 +1,90 @@
+{
+    "name": "Giant statue of Rameses II",
+    "description": "The Memphis museum's colossal statue.",
+    "authorId": "bQPmQzZ5ajd",
+    "authorName": "Daniel Pett",
+    "createTime": "2020-05-18T14:17:22.953428Z",
+    "updateTime": "2020-12-27T18:15:15.417322Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ramesses.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ramesses.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ramesses.1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ramesses.1002.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ramesses.1003.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ramesses.1004.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500586"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ramesses.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ramesses.1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ramesses.1002.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ramesses.1003.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ramesses.1004.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ramesses.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500586"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865476,
+            "y": 1.232595164407831e-32,
+            "z": 8.659560562354933e-17,
+            "w": -0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#694a4a"
+    }
+}

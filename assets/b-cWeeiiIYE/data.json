@@ -1,0 +1,62 @@
+{
+    "name": "StarCollector",
+    "authorId": "bjgZArqWTIz",
+    "authorName": "Vincent Burgess",
+    "createTime": "2019-01-12T06:40:23.770740Z",
+    "updateTime": "2020-05-10T10:09:44.481230Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "StarCollector.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "StarCollector.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "StarCollector.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1032"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "StarCollector.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "StarCollector.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "StarCollector.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1032"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Vittoria",
+    "authorId": "5gyGPf9ERUP",
+    "authorName": "Artasia (Arts For All)",
+    "createTime": "2019-08-11T14:13:14.525385Z",
+    "updateTime": "2020-06-23T10:00:23.220517Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "vittoria.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "vittoria.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "335724"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "vittoria.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "vittoria.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "335724"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "name": "Fenway Miniature",
+    "description": "Fenway Park",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-20T09:35:22.911936Z",
+    "updateTime": "2020-09-04T09:53:12.087045Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "FPmini.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "FPmini.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bigsignsandlights.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "fenwaywall.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "fenway.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "786"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "FPmini.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "FPmini.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "bigsignsandlights.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "fenway.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "fenwaywall.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "786"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

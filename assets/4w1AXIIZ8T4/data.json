@@ -1,0 +1,64 @@
+{
+    "name": "DJI Spark Bricks",
+    "description": "Source images from: https://www.youtube.com/watch?v=brkAwcocr5I",
+    "authorId": "eBz2A3GvE1u",
+    "authorName": "Paul Picazo",
+    "createTime": "2019-05-24T03:56:04.625534Z",
+    "updateTime": "2020-09-25T09:51:55.930250Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "spark.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "spark.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "spark.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "595389"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "spark.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "spark.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "spark.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "595389"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#aed581"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Santo Antonio",
+    "description": "Santo nascido em Lisboa. Estudou em Coimbra e morreu em Itália.",
+    "authorId": "6ke5ME_DQ1v",
+    "authorName": "demetrius lacet",
+    "createTime": "2020-02-23T21:59:22.039571Z",
+    "updateTime": "2020-08-08T09:42:35.941859Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "santo_antonio.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "santo_antonio.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "santo_antonio.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35585"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "santo_antonio.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "santo_antonio.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "santo_antonio.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35585"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4f4747"
+    }
+}

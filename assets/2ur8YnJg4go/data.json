@@ -1,0 +1,63 @@
+{
+    "name": "FOTOGRAMETRIA",
+    "description": "FOTOGRAMETRIA DE CONJUNTO RESIDENCIAL",
+    "authorId": "1zAzqlvYYPC",
+    "authorName": "Fabian Fuentes",
+    "createTime": "2020-11-25T13:23:00.228838Z",
+    "updateTime": "2021-01-04T03:56:38.198466Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Torremolinos_simplified_3d_mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Torremolinos_simplified_3d_mesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Torremolinos_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "999999"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Torremolinos_simplified_3d_mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Torremolinos_simplified_3d_mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Torremolinos_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "999999"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#202124"
+    }
+}

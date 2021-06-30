@@ -1,0 +1,64 @@
+{
+    "name": "crystalcube",
+    "description": "lv26\n#lv26",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-07-01T04:02:06.592118Z",
+    "updateTime": "2020-08-08T09:36:03.103606Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "lv26"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "crystalbox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "crystalbox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "db8b1436-6c15-462f-8c7e-f3ec518e9f45.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "crystalbox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "crystalbox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "db8b1436-6c15-462f-8c7e-f3ec518e9f45.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

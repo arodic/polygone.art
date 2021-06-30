@@ -1,0 +1,61 @@
+{
+    "name": "water hipoly1",
+    "description": "water hipoly1",
+    "authorId": "6EAUO9l9EA2",
+    "authorName": "micah O",
+    "createTime": "2020-03-27T10:11:22.743179Z",
+    "updateTime": "2020-12-02T20:39:05.773194Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "water.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "water-103817.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "water.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "water.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "water.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "water-103817.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

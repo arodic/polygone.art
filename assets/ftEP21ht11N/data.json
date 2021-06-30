@@ -1,0 +1,63 @@
+{
+    "name": "Van Gofh Self Portrait",
+    "description": "vvvv",
+    "authorId": "dOiEGvjyQRS",
+    "authorName": "Vitus Sebastian Niedermayer",
+    "createTime": "2018-06-11T14:19:31.913036Z",
+    "updateTime": "2020-10-01T10:33:43.796304Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "VanGogh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "VanGogh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Self-Portrait_(Van_Gogh_September_1889).jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "VanGogh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "VanGogh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Self-Portrait_(Van_Gogh_September_1889).jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

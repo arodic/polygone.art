@@ -1,0 +1,60 @@
+{
+    "name": "Eluttag",
+    "authorId": "01AzzLY6BVH",
+    "authorName": "Linus Jörgensen",
+    "createTime": "2019-06-17T13:32:19.124252Z",
+    "updateTime": "2021-05-15T14:31:14.197838Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "eluttag.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "eluttag.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "eluttag.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "eluttag.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "eluttag.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "eluttag.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

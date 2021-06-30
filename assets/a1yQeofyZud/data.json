@@ -1,0 +1,79 @@
+{
+    "name": "That Space Ship!",
+    "description": "Space ship",
+    "authorId": "1YH8eaBJg7G",
+    "authorName": "Lin Fisher",
+    "createTime": "2019-01-09T08:09:44.149342Z",
+    "updateTime": "2020-08-01T10:04:27.378998Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Low_poly_UFO.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Low_poly_UFO.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ufo_diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ufo_diffuse2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1706"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Low_poly_UFO.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ufo_diffuse2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Low_poly_UFO.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ufo_diffuse_glow.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ufo_diffuse2_glow.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ufo_diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1706"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

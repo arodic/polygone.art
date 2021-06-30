@@ -1,0 +1,63 @@
+{
+    "name": "Tv  Robot",
+    "authorId": "0GJw32doznq",
+    "authorName": "Nouri Mohamed",
+    "createTime": "2018-02-06T19:04:13.186682Z",
+    "updateTime": "2021-05-30T22:29:05.802069Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TeeVee.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TeeVee.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Handle1Tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "732"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "TeeVee.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Handle1Tex.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TeeVee.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "732"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

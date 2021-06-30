@@ -1,0 +1,63 @@
+{
+    "name": "丸ポストレッド",
+    "description": "東京都小平市のプログラミング教室ハッピーコンピューティングです。\n小平市のご当地ヒーローコダレンジャーの丸ポストレッドです。\n生徒さんにMagicaVoxelでモデリングしてもらいました。",
+    "authorId": "fPAvBoyugWy",
+    "authorName": "Takahiro Yamamoto",
+    "createTime": "2019-11-28T12:11:45.310900Z",
+    "updateTime": "2020-09-15T09:33:46.601587Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "kodaranger-red.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kodaranger-red.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "kodaranger-red.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "444"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "kodaranger-red.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "kodaranger-red.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kodaranger-red.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "444"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffff60"
+    }
+}

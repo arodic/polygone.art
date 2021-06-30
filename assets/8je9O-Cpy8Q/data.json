@@ -1,0 +1,72 @@
+{
+    "name": "Portal World VR / AR Challenge",
+    "description": "Download the model...replace the textures with your own images ...upload to poly ...import to Tilt Brush and design your own Augmented Reality Portal World...upload to Poly and submit on the Arize Platform for AR...\nhttps://platform.arize.io/",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-10-25T10:22:52.588232Z",
+    "updateTime": "2021-02-09T04:37:38.386158Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 13,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "portal-world.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "portal-world.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sphere-inside-map.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "gate-ring.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16222"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "portal-world.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gate-ring.JPG",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "portal-world.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "sphere-inside-map.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16222"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ebebeb"
+    }
+}

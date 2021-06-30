@@ -1,0 +1,63 @@
+{
+    "name": "coral",
+    "description": "sea , kelp , fish",
+    "authorId": "anoGlC6T-E0",
+    "authorName": "Kelli Ray",
+    "createTime": "2018-04-01T02:04:02.499724Z",
+    "updateTime": "2021-06-10T01:34:53.970761Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Coral.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Coral.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "48-3.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1120"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Coral.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "48-3.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Coral.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1120"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9d24"
+    }
+}

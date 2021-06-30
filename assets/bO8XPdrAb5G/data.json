@@ -1,0 +1,68 @@
+{
+    "name": "Elk",
+    "description": "#moose #mammal #forest #deer",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-11T00:59:15.328420Z",
+    "updateTime": "2021-06-08T11:19:10.899248Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "moose",
+        "mammal",
+        "forest",
+        "deer"
+    ],
+    "likes": 26,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Elk.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Elk.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Elk_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1644"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Elk.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Elk.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Elk_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1644"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e0e0e0"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "name": "Barrel",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-03-17T20:57:21.378098Z",
+    "updateTime": "2020-10-03T09:46:29.983369Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "paintedbarrel.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "paintedbarrel.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "paintedbarrel_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12500"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "paintedbarrel.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "paintedbarrel.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "paintedbarrel_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "paintedbarrel_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12500"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 2.7755575615628914e-16,
+            "y": 4.930380657631324e-32,
+            "z": 1,
+            "w": -2.220446049250313e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Penguin",
+    "description": "#penguin #bird #seabird #flightless",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-28T19:08:28.606176Z",
+    "updateTime": "2021-06-08T10:09:06.787163Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "penguin",
+        "bird",
+        "seabird",
+        "flightless"
+    ],
+    "likes": 54,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Penguin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Penguin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Penguin.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "456"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Penguin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Penguin.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Penguin.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "456"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#80deea"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Charco de vino",
+    "authorId": "b4CZI3x9cDd",
+    "authorName": "Proyecto Trucha",
+    "createTime": "2020-09-05T05:51:13.689431Z",
+    "updateTime": "2020-09-05T05:56:27.168064Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "charco.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "charco.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "charco/Translucent_Glass_Gold.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "charco.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "charco.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "charco/Translucent_Glass_Gold.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

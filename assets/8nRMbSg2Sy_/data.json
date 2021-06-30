@@ -1,0 +1,64 @@
+{
+    "name": "Bus_export",
+    "authorId": "2dT9LE34e0O",
+    "authorName": "Larry Vallely",
+    "createTime": "2019-06-27T10:42:52.919722Z",
+    "updateTime": "2021-03-25T23:14:28.718980Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Bus_Export_MA.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bus_Export_MA.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bus_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6008"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Bus_Export_MA.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bus_Export_MA.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Bus_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Metal_Panels_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6008"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

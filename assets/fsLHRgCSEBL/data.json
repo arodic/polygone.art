@@ -1,0 +1,61 @@
+{
+    "name": "JP",
+    "description": "test",
+    "authorId": "7x-HW0qLif2",
+    "authorName": "Gabriel Rud",
+    "createTime": "2018-10-23T14:28:42.352519Z",
+    "updateTime": "2020-03-02T11:08:32.004229Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tut.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tut.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tut.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "97884"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tut.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tut.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tut.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "97884"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

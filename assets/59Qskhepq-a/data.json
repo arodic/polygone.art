@@ -1,0 +1,63 @@
+{
+    "name": "test",
+    "authorId": "5gATiWu5PbS",
+    "authorName": "朱宥銘",
+    "createTime": "2020-05-10T08:44:27.296737Z",
+    "updateTime": "2020-10-06T09:53:04.782406Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "1111-s.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "1111-s.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1111-s.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "100204"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "1111-s.OBJ",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "1111-s.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "1111-s.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "100204"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

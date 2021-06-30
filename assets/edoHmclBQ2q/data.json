@@ -1,0 +1,55 @@
+{
+    "name": "1:1 scale frame",
+    "description": "5 foot 9 male frame for use with room scale creations. removed eyes for vr. standard t-pose. made in makehuman with custom dimensions.",
+    "authorId": "9EJMrNNaRqs",
+    "authorName": "DizzyStormtrooper",
+    "createTime": "2020-06-10T00:10:45.687516Z",
+    "updateTime": "2020-12-06T07:27:11.769730Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "custombody.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "custombody.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3140"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "custombody.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "custombody.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3140"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

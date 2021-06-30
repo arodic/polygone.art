@@ -1,0 +1,63 @@
+{
+    "name": "Fossa",
+    "description": "Waterfall in Faroe Islands.",
+    "authorId": "poly_poobah",
+    "authorName": "Tim Gleason",
+    "createTime": "2019-09-30T23:24:15.234472Z",
+    "updateTime": "2020-08-29T09:29:45.674046Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fossa.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fossa.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fossa.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "691041"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "fossa.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fossa.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "fossa.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "691041"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#5e5e5e"
+    }
+}

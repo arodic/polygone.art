@@ -1,0 +1,97 @@
+{
+    "name": "Smelly Kitty",
+    "description": "#sparkle_kitty\n#sparkle_kitty_cats",
+    "authorId": "3dVB0GT8oMI",
+    "authorName": "sirkitree",
+    "createTime": "2018-08-10T14:07:33.719237Z",
+    "updateTime": "2020-10-06T10:23:06.585717Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "sparkle"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "smelly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "smelly.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "smelly/smelly_eye_base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smelly/smelly_eye_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smelly/smelly_eye_hlight.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smelly/smelly_body.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smelly/smelly_nose.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "17632"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "smelly/smelly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "smelly/smelly.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "smelly/smelly_eye_base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smelly/smelly_nose.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smelly/smelly_body.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smelly/smelly_eye_hlight.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "smelly/smelly_eye_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "17632"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

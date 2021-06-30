@@ -1,0 +1,62 @@
+{
+    "name": "onion stemup 洋蔥",
+    "authorId": "fPKloI-bGDa",
+    "authorName": "Beach Zeng",
+    "createTime": "2019-12-23T07:14:17.023107Z",
+    "updateTime": "2020-09-26T10:02:32.485207Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "onion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "onion.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "onion_basecolor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3484"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "onion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "onion.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "onion_basecolor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3484"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#82d7ff"
+    }
+}

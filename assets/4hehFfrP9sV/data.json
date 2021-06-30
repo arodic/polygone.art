@@ -1,0 +1,54 @@
+{
+    "name": "SM - Tree Vine",
+    "authorId": "e2oUf3zx5Ze",
+    "authorName": "Scott Marshall",
+    "createTime": "2020-07-02T11:49:31.296201Z",
+    "updateTime": "2020-09-25T09:50:33.600610Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "vigne.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "vigne.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "65195"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "vigne.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "vigne.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "65195"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

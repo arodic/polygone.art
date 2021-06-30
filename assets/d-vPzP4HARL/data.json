@@ -1,0 +1,63 @@
+{
+    "name": "titan elbow",
+    "description": "wargaming terrain",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-03-29T23:43:53.753706Z",
+    "updateTime": "2020-10-04T10:22:13.465784Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "elbow.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "elbow.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "modern-dark-texture-background_1035-11632.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19964"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "elbow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "elbow.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "modern-dark-texture-background_1035-11632.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19964"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

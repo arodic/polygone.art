@@ -1,0 +1,71 @@
+{
+    "name": "CAR",
+    "description": "3D car model\npolys 4222 \nverts 4608",
+    "authorId": "0W5b0vCvoho",
+    "authorName": "Ignition Labs",
+    "createTime": "2018-08-14T07:30:19.082203Z",
+    "updateTime": "2020-11-17T18:29:30.990341Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CAR.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CAR.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "E:/car/wheel.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "E:/car/car.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8274"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CAR.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CAR.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "E:/car/car.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "E:/car/wheel.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8274"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

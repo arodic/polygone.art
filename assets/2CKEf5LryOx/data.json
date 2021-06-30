@@ -1,0 +1,49 @@
+{
+    "name": "YouTube Gaming",
+    "description": "3d YouTube Gaming render",
+    "authorId": "2qqlYKhoLy7",
+    "authorName": "IzADunndeal",
+    "createTime": "2017-11-02T16:18:38.566684Z",
+    "updateTime": "2020-10-06T09:41:19.482579Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ygaming.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "142"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "ygaming.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ygaming.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "142"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b71c1c"
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "name": "SM Shamrock",
+    "authorId": "e2oUf3zx5Ze",
+    "authorName": "Scott Marshall",
+    "createTime": "2020-07-04T14:55:04.707309Z",
+    "updateTime": "2020-09-25T10:08:29.430362Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "shamrock.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "shamrock.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1580"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "shamrock.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "shamrock.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1580"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

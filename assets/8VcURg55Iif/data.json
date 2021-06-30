@@ -1,0 +1,64 @@
+{
+    "name": "imperial pouch",
+    "description": "wargaming terrain",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-05T06:34:28.725256Z",
+    "updateTime": "2021-05-31T11:20:38.733675Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "square pouch.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sacoche_4.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "square pouch.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4338"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "square pouch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "square pouch.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sacoche_4.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4338"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

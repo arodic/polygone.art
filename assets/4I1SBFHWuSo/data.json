@@ -1,0 +1,67 @@
+{
+    "name": "Ferret",
+    "description": "#animal #pet #fur",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T07:21:09.498299Z",
+    "updateTime": "2021-06-11T22:56:53.213378Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "animal",
+        "pet",
+        "fur"
+    ],
+    "likes": 100,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Ferret.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Ferret.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Ferret_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "794"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Ferret.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Ferret.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Ferret_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "794"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9800"
+    }
+}

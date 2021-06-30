@@ -1,0 +1,60 @@
+{
+    "name": "NCU",
+    "authorId": "bwtbWnbuau8",
+    "authorName": "Min-Yi Tsai",
+    "createTime": "2019-04-19T14:17:28.981004Z",
+    "updateTime": "2020-02-25T20:10:13.959338Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "NCU_site.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "NCU_site.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "NCUwellSite2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "NCU_site.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "NCUwellSite2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "example.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

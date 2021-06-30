@@ -1,0 +1,61 @@
+{
+    "name": "AkuVR mc_arena_v2",
+    "description": "V2 removes all transparency",
+    "authorId": "akgdfmEG5pb",
+    "authorName": "Aku",
+    "createTime": "2020-07-24T18:51:02.981809Z",
+    "updateTime": "2020-09-28T09:26:55.267092Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "noTransparents.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "noTransparents.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Atlas_51296.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "240078"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "noTransparents.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "noTransparents.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Atlas_51296.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "240078"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

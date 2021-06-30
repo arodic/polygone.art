@@ -1,0 +1,68 @@
+{
+    "name": "portal00",
+    "authorId": "58efQ-qStDH",
+    "authorName": "Thomas Huang",
+    "createTime": "2019-07-13T13:13:35.070648Z",
+    "updateTime": "2020-06-23T10:21:21.821001Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "portal.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "portal.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "CubeRoom_BakedDiffuse_4096.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "134792"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "portal.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "portal.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "CubeRoom_BakedDiffuse_4096.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "134792"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

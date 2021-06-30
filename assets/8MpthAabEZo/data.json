@@ -1,0 +1,62 @@
+{
+    "name": "Shrine",
+    "authorId": "8hQilTdSbbS",
+    "authorName": "s seki",
+    "createTime": "2020-01-02T06:10:23.452534Z",
+    "updateTime": "2020-05-14T09:58:32.055431Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hokora2_50k.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hokora2_50k.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "hokora2_50k.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "hokora2_50k.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hokora2_50k.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hokora2_50k.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4d3e3e"
+    }
+}

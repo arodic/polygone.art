@@ -1,0 +1,54 @@
+{
+    "name": "Beach Scene",
+    "description": "a scene of the beach!\nMade in 3d Builder",
+    "authorId": "3Y39jPOhbWS",
+    "authorName": "Greenpixel",
+    "createTime": "2018-06-02T17:32:01.853634Z",
+    "updateTime": "2020-09-25T09:36:04.877816Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "beachscene.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "beachscene.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2463"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "beachscene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "beachscene.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2463"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#01579b"
+    }
+}

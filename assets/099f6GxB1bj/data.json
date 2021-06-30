@@ -1,0 +1,68 @@
+{
+    "name": "Mountain",
+    "description": "#mountain #rock #steep #hill",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-04T20:17:10.545449Z",
+    "updateTime": "2021-06-10T07:10:18.488427Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "mountain",
+        "rock",
+        "steep",
+        "hill"
+    ],
+    "likes": 37,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_MONTAIN.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_MONTAIN.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "LandscapeSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "779"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_MONTAIN.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_MONTAIN.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "LandscapeSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "779"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#d7ccc8"
+    }
+}

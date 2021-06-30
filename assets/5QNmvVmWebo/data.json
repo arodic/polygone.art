@@ -1,0 +1,63 @@
+{
+    "name": "Fattoria",
+    "description": "fattoria alla periferia di Roma",
+    "authorId": "2ejZTAEQa6U",
+    "authorName": "sergio lino",
+    "createTime": "2019-03-25T08:26:41.506568Z",
+    "updateTime": "2020-05-12T09:48:59.377Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "santalucia.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "santalucia.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "santalucia.1001.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "409389"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "santalucia.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "santalucia.1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "santalucia.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "409389"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

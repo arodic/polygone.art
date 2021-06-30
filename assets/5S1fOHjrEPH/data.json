@@ -1,0 +1,60 @@
+{
+    "name": "Pizza",
+    "authorId": "2R_1Ww-4WSV",
+    "authorName": "Peemima Playz",
+    "createTime": "2020-12-07T15:56:55.196677Z",
+    "updateTime": "2020-12-07T16:04:29.237674Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pizza.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pizzaTxt.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "pizza.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2192"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "pizza.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pizza.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pizzaTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2192"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff7b00"
+    }
+}

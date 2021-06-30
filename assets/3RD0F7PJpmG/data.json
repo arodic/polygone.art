@@ -1,0 +1,62 @@
+{
+    "name": "DragonForged Logo Plaque",
+    "authorId": "ftfnm6rfco7",
+    "authorName": "E. Allen Soard (DragonForged)",
+    "createTime": "2020-10-11T12:49:43.925300Z",
+    "updateTime": "2020-10-11T12:59:14.974592Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plaque.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "DragonForged_black.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "plaque.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "plaque.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plaque.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "DragonForged_black.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

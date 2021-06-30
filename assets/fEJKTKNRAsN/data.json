@@ -1,0 +1,56 @@
+{
+    "name": "Cathedral",
+    "description": "A cathedral / church.",
+    "authorId": "fdmGZ8QLHxA",
+    "authorName": "Bruno Oliveira",
+    "createTime": "2017-12-09T05:32:11.148468Z",
+    "updateTime": "2021-06-08T11:13:55.221512Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 79,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cathedral.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cathedral.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9030"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "cathedral.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cathedral.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9030"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

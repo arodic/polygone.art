@@ -1,0 +1,63 @@
+{
+    "name": "Inquiry Cube - Level 1",
+    "description": "Can you determine what should be on the missing side?",
+    "authorId": "63fGD196tP3",
+    "authorName": "Joe Cossette",
+    "createTime": "2020-08-14T18:27:20.065840Z",
+    "updateTime": "2020-10-06T09:39:29.635293Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "level1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "level1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "level1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "level1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "level1.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "level1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#040836"
+    }
+}

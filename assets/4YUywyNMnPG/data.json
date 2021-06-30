@@ -1,0 +1,60 @@
+{
+    "name": "ushaka",
+    "authorId": "aY99YqCVQav",
+    "authorName": "Josh Moulton",
+    "createTime": "2019-07-10T10:34:59.246758Z",
+    "updateTime": "2020-06-24T09:42:01.219083Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ushaka.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ushaka.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ushaka.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ushaka.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ushaka.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ushaka.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

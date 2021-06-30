@@ -1,0 +1,48 @@
+{
+    "name": "Waldorf - Face Mesh",
+    "description": "Created using the online demo of  \"Large Pose 3D Face Reconstruction from a Single Image via Direct Volumetric Regression\"",
+    "authorId": "dMXBNlsANXa",
+    "authorName": "Doron Adler",
+    "createTime": "2020-05-01T19:51:24.917341Z",
+    "updateTime": "2020-09-25T09:57:57.788224Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Waldorf-Face.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "170742"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Waldorf-Face.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Waldorf-Face.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "170742"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 1,
+            "w": 6.123233995736766e-17
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

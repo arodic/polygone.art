@@ -1,0 +1,63 @@
+{
+    "name": "lobby 01",
+    "description": "first lobby test",
+    "authorId": "bTJ2rMmH0KY",
+    "authorName": "Joshua C. Jordan",
+    "createTime": "2020-06-23T19:37:45.388425Z",
+    "updateTime": "2020-08-28T09:48:28.326960Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lobby test 01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lobby test 01.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "spheretexturetest.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2618"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "lobby test 01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lobby test 01.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "spheretexturetest.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2618"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

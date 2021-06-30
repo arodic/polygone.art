@@ -1,0 +1,79 @@
+{
+    "name": "well-lit-house",
+    "description": "Trying to bake lite in textures.",
+    "authorId": "2VV4f3bozG0",
+    "authorName": "Hendrik Bartusch",
+    "createTime": "2019-04-06T18:54:57.062948Z",
+    "updateTime": "2020-05-10T09:49:06.067961Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test_haus.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test_haus.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Innen.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Boden.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Aussen.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "298"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "test_haus.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "test_haus.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Innen.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Boden.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Aussen.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "298"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2e7d32"
+    }
+}

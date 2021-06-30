@@ -1,0 +1,60 @@
+{
+    "name": "MOth 1",
+    "authorId": "9XqBD5JMl_l",
+    "authorName": "SS421",
+    "createTime": "2018-04-12T03:49:18.526934Z",
+    "updateTime": "2020-09-28T10:04:49.460755Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "moth.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "moth.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "moth.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "moth.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "moth.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "moth.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

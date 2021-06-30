@@ -1,0 +1,64 @@
+{
+    "name": "Goat",
+    "description": "#horn",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-14T21:50:56.024134Z",
+    "updateTime": "2021-06-08T05:53:58.428503Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "horn"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PUSHILIN_goat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PUSHILIN_goat.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "PUSHILIN_goat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "830"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "PUSHILIN_goat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PUSHILIN_goat.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PUSHILIN_goat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "830"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9800"
+    }
+}

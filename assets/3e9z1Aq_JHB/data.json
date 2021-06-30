@@ -1,0 +1,63 @@
+{
+    "name": "MDES Logo",
+    "description": "MDES Logo Project",
+    "authorId": "auQI3OcAJtK",
+    "authorName": "Gomesh Karnchanapayap",
+    "createTime": "2019-09-14T03:23:05.913521Z",
+    "updateTime": "2020-10-01T09:39:28.930320Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mascot_sm.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mascot_sm.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mascot_sm.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "990"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mascot_sm.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mascot_sm.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "mascot_sm.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "990"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#303030"
+    }
+}

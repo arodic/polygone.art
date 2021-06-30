@@ -1,0 +1,60 @@
+{
+    "name": "unicorn",
+    "authorId": "dU4PHhFqdPg",
+    "authorName": "Sirapruet Waiyaburana",
+    "createTime": "2019-12-25T03:44:59.915177Z",
+    "updateTime": "2020-02-25T20:40:09.733006Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "unicorn.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "unicorn.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "unicorn.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "742"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "unicorn.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "unicorn.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "unicorn.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "742"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

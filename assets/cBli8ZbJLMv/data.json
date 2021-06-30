@@ -1,0 +1,71 @@
+{
+    "name": "Alienhead",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-10-14T18:43:22.909200Z",
+    "updateTime": "2021-04-03T22:18:09.816768Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "alienhead.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "alienhead.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "alienhead-texture.JPG",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "head.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "82956"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "alienhead.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "head.JPG",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "alienhead.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "alienhead-texture.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "82956"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.4999999999999999,
+            "z": 0.5,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00173b"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "crystal",
+    "description": "lv26\n#lv26",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-07-01T00:02:27.075500Z",
+    "updateTime": "2020-08-12T10:12:46.004072Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "lv26"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "crystal.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bluecrystal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "crystal.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "756"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "crystal.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "crystal.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bluecrystal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "756"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

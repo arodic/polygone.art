@@ -1,0 +1,78 @@
+{
+    "name": "Skate Pool Rio de Janeiro",
+    "authorId": "5-wxGoDx7tw",
+    "authorName": "Jon Tojek",
+    "createTime": "2018-07-10T18:20:29.827022Z",
+    "updateTime": "2020-09-30T10:41:50.598387Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model/scan_skate02_diorama_v05.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model/scan_skate02_diorama_v05.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model/pano_skate02a_baked.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model/pano_skate02b_baked.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model/scan_skate02_v06.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13143"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "scan_skate02_diorama_v05.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scan_skate02_diorama_v05.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model/scan_skate02_v06.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model/pano_skate02b_baked.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model/pano_skate02a_baked.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13143"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Bloom Esa",
+    "authorId": "cdCmJ0o49__",
+    "authorName": "Lintufriikki",
+    "createTime": "2018-03-21T10:02:45.907561Z",
+    "updateTime": "2020-10-07T10:04:25.654636Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "names-esa.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "names-esa.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tabletuv.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "320"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "names-esa.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "names-esa.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tabletuv.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "320"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Jet",
+    "description": "#airplane #aircraft",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T22:48:39.169060Z",
+    "updateTime": "2021-06-17T08:02:44.506185Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "airplane",
+        "aircraft"
+    ],
+    "likes": 81,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Jet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Jet.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Jet_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "618"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Jet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Jet.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Jet_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "618"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0288d1"
+    }
+}

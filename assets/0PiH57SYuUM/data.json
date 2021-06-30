@@ -1,0 +1,59 @@
+{
+    "name": "Boeing 787",
+    "description": "Modelo 3d del Boieng 787  https://www.viajesydescuentos.com/en-viajes-exito-2-x-1-a-cartagena-o-santa-marta/",
+    "authorId": "10Yv7uUQ2mm",
+    "authorName": "Jimer Osorio",
+    "createTime": "2021-05-01T05:16:57.075094Z",
+    "updateTime": "2021-05-01T05:25:55.021249Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3d-model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d-model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "3d-model.obj",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "55914"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "55914"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

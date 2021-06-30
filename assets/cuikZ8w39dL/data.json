@@ -1,0 +1,68 @@
+{
+    "name": "pizza",
+    "authorId": "b2jXVWZsOSR",
+    "authorName": "Joe Ishikura",
+    "createTime": "2019-04-08T16:42:17.619742Z",
+    "updateTime": "2020-09-03T10:17:24.091605Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pizza_idle.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "pizza_AO.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "pizza_Diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "pizza_Normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "pizza_Roughness.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12000"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pizza_Diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

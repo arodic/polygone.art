@@ -1,0 +1,63 @@
+{
+    "name": "\"Bromo\", First test",
+    "description": "Just a test",
+    "authorId": "2vwFf_mC8uF",
+    "authorName": "Rein Bijlsma",
+    "createTime": "2019-06-29T06:13:29.060472Z",
+    "updateTime": "2020-12-05T05:02:02.175067Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BromoTestObj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BromoTestObj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bromo.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "575371"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "BromoTestObj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bromo.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "bromotestobj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "575371"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

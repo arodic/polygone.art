@@ -1,0 +1,55 @@
+{
+    "name": "Low poly hollow tube",
+    "description": "Low poly hollow tube shape can be used as low poly poles, tubes etc ",
+    "authorId": "dEIm57G09Br",
+    "authorName": "Vishwas Bhushan",
+    "createTime": "2020-09-26T22:53:42.044841Z",
+    "updateTime": "2020-11-13T06:27:01.169145Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "low-poly-cylinder.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "low-poly-cylinder.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "280"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "low-poly-cylinder.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "low-poly-cylinder.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "280"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c1edf7"
+    }
+}

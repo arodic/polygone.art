@@ -1,0 +1,63 @@
+{
+    "name": "tree",
+    "description": "「まるごとわかる3Dドットモデリング入門」第2章で作成した木のドットモデル",
+    "authorId": "dfVTEEFCPaC",
+    "authorName": "げんげん（gengen）",
+    "createTime": "2018-08-24T19:06:20.078580Z",
+    "updateTime": "2020-10-05T10:20:59.929854Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tree.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tree.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "tree.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1218"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tree.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1218"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

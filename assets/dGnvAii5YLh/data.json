@@ -1,0 +1,67 @@
+{
+    "name": "Crawling woman",
+    "description": "Woman crawling around.",
+    "authorId": "bjRVFp3GWDk",
+    "authorName": "Ronny Skog",
+    "createTime": "2018-07-15T18:45:57.899735Z",
+    "updateTime": "2021-03-11T01:25:19.828037Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Low_Crawl.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Low_Crawl.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "textures/zobra_spec.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/zobra_color.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7570"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Low_Crawl.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Low_Crawl.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textures/zobra_color.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7570"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

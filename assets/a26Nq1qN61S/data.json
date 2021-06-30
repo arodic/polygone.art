@@ -1,0 +1,63 @@
+{
+    "name": "SONIC R SONIC",
+    "authorId": "5jqDTw-7n8L",
+    "authorName": "WYATTMAN HABEL",
+    "createTime": "2020-12-05T19:59:51.527773Z",
+    "updateTime": "2021-06-03T16:34:10.420563Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sonic.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "player00.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sonic.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "286"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sonic.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sonic.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "player00.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "286"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 0.09584575252022398,
+            "w": 0.9953961983671789
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

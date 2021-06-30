@@ -1,0 +1,64 @@
+{
+    "name": "Barbarian woman",
+    "description": "Lowpoly barbarian woman for webgame",
+    "authorId": "fVTfKYRBWUk",
+    "authorName": "Gwym Hendawyr",
+    "createTime": "2017-11-03T10:14:12.891010Z",
+    "updateTime": "2021-02-18T23:29:46.319602Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 15,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "barbarian_f.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "barbarian_f.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "barbarian_f_uv.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "370"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "barbarian_f.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "barbarian_f.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "barbarian_f_uv.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "370"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

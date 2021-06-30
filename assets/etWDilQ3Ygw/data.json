@@ -1,0 +1,55 @@
+{
+    "name": "Funtime Foxy",
+    "description": "FNAF",
+    "authorId": "eawXMugg36o",
+    "authorName": "Shizvayne (Shizvayne)",
+    "createTime": "2019-05-04T02:35:08.068743Z",
+    "updateTime": "2020-10-05T10:26:51.808043Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "funfoxy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "funfoxy.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4698"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "funfoxy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "funfoxy.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4698"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Menger level 2",
+    "description": "Basic non rendered Menger lvl é polycube",
+    "authorId": "cfAmBP6THQO",
+    "authorName": "Eric Andres",
+    "createTime": "2019-05-26T05:40:41.786617Z",
+    "updateTime": "2020-02-25T19:53:41.982987Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "menger.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "2112"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "menger.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "menger.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2112"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 0.7071067811865476,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

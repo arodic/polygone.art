@@ -1,0 +1,66 @@
+{
+    "name": "Muzej",
+    "description": "Narodni muzej u Vlasotincu",
+    "authorId": "eec4EOrCkk7",
+    "authorName": "Saša Stojanović",
+    "createTime": "2019-11-23T23:49:30.266053Z",
+    "updateTime": "2020-10-05T10:31:45.874976Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "muzej3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "muzej3.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "muzej3_muzej.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "519906"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "muzej3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "muzej3.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "muzej3_muzej.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "519906"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.5000000000000001,
+            "y": -0.5000000000000001,
+            "z": -0.5,
+            "w": -0.5
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

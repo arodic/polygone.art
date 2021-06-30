@@ -1,0 +1,71 @@
+{
+    "name": "railcar",
+    "description": "cyberpunk",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-08T10:16:53.606390Z",
+    "updateTime": "2020-11-04T07:41:23.347626Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "railcar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "M_10378146_1_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "M_10378146_0_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "railcar.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4404"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "railcar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "railcar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "M_10378146_0_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "M_10378146_1_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4404"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

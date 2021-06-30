@@ -1,0 +1,60 @@
+{
+    "name": "eye",
+    "authorId": "6swV0fsV8mK",
+    "authorName": "Tyra Green",
+    "createTime": "2019-03-03T21:15:00.656178Z",
+    "updateTime": "2020-10-04T10:30:30.474387Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "neye.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Layer 1.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "neye.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8782"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "neye.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "neye.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Layer 1.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8782"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

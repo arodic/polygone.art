@@ -1,0 +1,55 @@
+{
+    "name": "Materials Test - Specularity",
+    "description": "A test to see the effects of varying specular levels -  done in Blender\nNotably, the hardness level (AKA Specular Exponent) has the most significant effect.\n\nSpecular Levels\nM1 0% M2 50% M3 100%\nHardness (S100)\nM4 50 M5 100 M6 200\nColor (S100)\nM7 Red M8 Green M9 Same as Diffuse ",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-09-29T21:02:18.338477Z",
+    "updateTime": "2020-10-06T10:20:39.919412Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mat test specular.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat test specular.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mat test specular.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat test specular.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

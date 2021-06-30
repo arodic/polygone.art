@@ -1,0 +1,64 @@
+{
+    "name": "Piramida u knez mihajlovoj",
+    "authorId": "eec4EOrCkk7",
+    "authorName": "Saša Stojanović",
+    "createTime": "2019-02-24T14:14:44.250009Z",
+    "updateTime": "2020-09-30T09:59:57.648028Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ground.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ground.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ground_piramida.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "70325"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ground.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ground.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ground_GeneratedMat2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ground_piramida.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "70325"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "glasses",
+    "authorId": "dBp33bVKvpK",
+    "authorName": "Steve Teeple",
+    "createTime": "2018-12-13T03:48:01.356909Z",
+    "updateTime": "2020-10-07T09:34:31.849118Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rezz_glasses.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rezz_glasses.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rezz_glasses/Glasses_Base_Color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "rezz_glasses/Glasses_lights_1_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16628"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "rezz_glasses/rezz_glasses.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rezz_glasses/Glasses_lights_1_Base_Color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "rezz_glasses/rezz_glasses.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rezz_glasses/Glasses_Base_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16628"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

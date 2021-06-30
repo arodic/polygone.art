@@ -1,0 +1,72 @@
+{
+    "name": "lasr spinner",
+    "description": "lv9\n#lv9",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2019-03-05T00:11:12.844797Z",
+    "updateTime": "2020-10-06T10:03:01.243164Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "lv9"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Laserspiner.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Laserspiner.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "laser.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image_fractals.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "70240"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Laserspiner.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "laser.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "image_fractals.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Laserspiner.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "70240"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "name": "AkuVR HBWave Terrain Scroller",
+    "description": "Original model by Robert Mirabelle https://poly.google.com/view/2SkKFl4GjIr",
+    "authorId": "akgdfmEG5pb",
+    "authorName": "Aku",
+    "createTime": "2021-03-07T21:07:08.938241Z",
+    "updateTime": "2021-03-07T21:13:16.776445Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "terrain_02.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "terrain_02.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "86904"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "terrain_02.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "terrain_02.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "86904"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

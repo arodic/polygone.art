@@ -1,0 +1,75 @@
+{
+    "name": "PlanetExpressShip",
+    "description": "From Futurama",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-05T06:31:59.602362Z",
+    "updateTime": "2021-03-31T10:19:04.173312Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 19,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PlanetExShip.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PlanetExShip.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fdshipgear.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Fshipbody.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "848"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "PlanetExShip.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fdshipgear.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Fshipbody.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "PlanetExShip.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "848"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fbc02d"
+    }
+}

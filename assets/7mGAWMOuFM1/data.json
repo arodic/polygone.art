@@ -1,0 +1,62 @@
+{
+    "name": "cubo",
+    "authorId": "fPwwXDkEssm",
+    "authorName": "arturo black fonseca",
+    "createTime": "2018-10-16T22:52:43.908967Z",
+    "updateTime": "2020-09-24T10:06:23.624829Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "cubo3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "cubo3.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Block-Idaho Ledgestone.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "92"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "cubo3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "cubo3.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Block-Idaho Ledgestone.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "92"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "name": "Porcelain dog",
+    "description": "Mainly a test-upload to check textures and everything I've done wrong when uploading :D",
+    "authorId": "4R_9ZsYBb-L",
+    "authorName": "Dennis and Debbie Club",
+    "createTime": "2020-11-06T14:45:46.588856Z",
+    "updateTime": "2020-11-06T14:52:49.428256Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dog.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/dog_ao-dog_roughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/dog_diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/dog_normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dog.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "84064"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#471717"
+    }
+}

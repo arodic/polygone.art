@@ -1,0 +1,70 @@
+{
+    "name": "Rocks",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-30T04:51:19.664219Z",
+    "updateTime": "2020-06-17T02:26:41.703670Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Rock2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Rock2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Rock2_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Rock2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Rock2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Rock2_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Rock2_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865474,
+            "y": -5.551115123125788e-17,
+            "z": -0.7071067811865477,
+            "w": 2.2204460492503136e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

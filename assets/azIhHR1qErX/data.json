@@ -1,0 +1,61 @@
+{
+    "name": "UFO Sr.",
+    "description": "The older and greater variant of UFO Jr.",
+    "authorId": "8FRCVPnlgJ8",
+    "authorName": "Alex Gunderman",
+    "createTime": "2020-02-10T21:29:26.464648Z",
+    "updateTime": "2020-10-07T10:19:28.022686Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ufojr.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ufojr.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Glass1Tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "345"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ufojr.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Glass1Tex.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ufojr.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "345"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffff99"
+    }
+}

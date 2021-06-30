@@ -1,0 +1,65 @@
+{
+    "name": "Test Model",
+    "description": "#GBPointFilter\nTesting compatibility between #Blockbench and #GameBuilder",
+    "authorId": "dTJzb-QQuDq",
+    "authorName": "SmiVan",
+    "createTime": "2019-08-30T16:20:18.077769Z",
+    "updateTime": "2020-10-05T10:22:47.303865Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "GBPointFilter",
+        "Blockbench",
+        "GameBuilder"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test-model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test-model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "test-model-texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "156"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "test-model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "test-model-texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "test-model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "156"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

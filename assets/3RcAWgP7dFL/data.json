@@ -1,0 +1,53 @@
+{
+    "name": "<svg/onload=alert(1)>",
+    "description": "<svg/onload=alert(1)>",
+    "authorId": "cAATtoXcbwA",
+    "authorName": "Manuel Sousa",
+    "createTime": "2018-12-06T01:15:38.733174Z",
+    "updateTime": "2020-09-25T09:38:13.894094Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "<svg:onload=alert(1)>.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "<svg:onload=alert(1)>.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "400"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "<svg:onload=alert(1)>.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lettere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "400"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

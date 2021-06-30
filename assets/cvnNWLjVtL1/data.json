@@ -1,0 +1,63 @@
+{
+    "name": "jumpdrive monitor",
+    "description": "monitors",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2019-01-14T08:26:23.548994Z",
+    "updateTime": "2020-08-27T10:18:57.417811Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "jumpdrive.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "jumpdrive.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "wire_000000000_baseColor_17832851910588591680.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10376"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "jumpdrive.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "jumpdrive.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "wire_000000000_baseColor_17832851910588591680.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10376"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

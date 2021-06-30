@@ -1,0 +1,61 @@
+{
+    "name": "BB Gun / Lever Action Rifle",
+    "description": "Simple lever action style BB gun.",
+    "authorId": "cFzR0z6xrVQ",
+    "authorName": "Mathew Cardoso",
+    "createTime": "2017-11-08T14:29:06.890046Z",
+    "updateTime": "2019-08-06T17:52:12.495868Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bbgun.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bbgun.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "bbgun.bmp",
+                    "contentType": "image/bmp"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1100"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bbgun.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bbgun.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bbgun.bmp",
+                    "contentType": "image/bmp"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1100"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffe0b2"
+    }
+}

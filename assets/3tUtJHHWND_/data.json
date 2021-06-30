@@ -1,0 +1,63 @@
+{
+    "name": "Voxel guy in bomber jacket",
+    "description": "Created with Magicavoxel",
+    "authorId": "fkkczSHJjQb",
+    "authorName": "Jua Harmon",
+    "createTime": "2019-05-12T04:23:22.087012Z",
+    "updateTime": "2020-10-04T09:41:16.122892Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dude.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dude.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "dude.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1010"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dude.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dude.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dude.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1010"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

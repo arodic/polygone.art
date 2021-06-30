@@ -1,0 +1,60 @@
+{
+    "name": "PANDA CUTE",
+    "authorId": "7-PItJEQHNM",
+    "authorName": "Suwimon Choosaengkit",
+    "createTime": "2019-12-25T03:37:15.195928Z",
+    "updateTime": "2020-07-10T05:28:55.926792Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "panda.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "panda.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "panda.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "956"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "panda.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "panda.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "panda.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "956"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

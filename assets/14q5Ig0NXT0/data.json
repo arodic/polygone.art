@@ -1,0 +1,55 @@
+{
+    "name": "A New Page Dome",
+    "description": "Here we will create an augmented reality experience by painting in VR blocks inside a simulated environment that really exists in Middletown ct.",
+    "authorId": "4_HS2_oPA__",
+    "authorName": "Kahlil Calavas",
+    "createTime": "2018-03-27T10:34:44.624729Z",
+    "updateTime": "2020-10-01T06:37:56.484780Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "blocks"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dome-with-door-triang.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dome-with-door-triang.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "198"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "dome-with-door-triang.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dome-with-door-triang.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "198"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

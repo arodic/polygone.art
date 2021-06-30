@@ -1,0 +1,68 @@
+{
+    "name": "Guitar",
+    "authorId": "3A4zfXXiMsD",
+    "authorName": "Ham",
+    "createTime": "2020-11-08T14:04:44.009424Z",
+    "updateTime": "2020-11-08T14:11:36.278488Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model.gltf",
+                    "contentType": "model/gltf+json"
+                },
+                {
+                    "relativePath": "model.obj",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model-triangulated.obj",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "thumbnail.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "116"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "116"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

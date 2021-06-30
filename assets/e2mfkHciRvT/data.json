@@ -1,0 +1,61 @@
+{
+    "name": "glitch roche",
+    "authorId": "eydM1PkrxH3",
+    "authorName": "N F",
+    "createTime": "2020-10-05T08:21:22.452865Z",
+    "updateTime": "2020-10-05T08:29:06.261808Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "belleroche.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "belleroche.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "granite.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "23380"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "belleroche.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "belleroche.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "granite.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "23380"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

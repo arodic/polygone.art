@@ -1,0 +1,63 @@
+{
+    "name": "Cow",
+    "authorId": "2iQzkI6_Moj",
+    "authorName": "Paul Gardiner",
+    "createTime": "2017-11-03T14:48:55.434227Z",
+    "updateTime": "2021-06-06T11:17:06.201433Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 25,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Cow expanded.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cow expanded.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Blender stuff/Initial Cow/Cow expanded 2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1001"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Cow expanded.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Blender stuff/Initial Cow/Cow expanded 2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Cow expanded.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1001"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

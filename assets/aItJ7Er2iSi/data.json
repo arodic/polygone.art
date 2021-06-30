@@ -1,0 +1,62 @@
+{
+    "name": "Come Play House plane",
+    "authorId": "35QHZFo0Up_",
+    "authorName": "Brent Watanabe",
+    "createTime": "2019-06-21T20:50:37.765965Z",
+    "updateTime": "2020-10-07T10:11:48.997240Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "girlInRain.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bookCover.JPG",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "girlInRain.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "girlInRain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "girlInRain.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bookCover.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

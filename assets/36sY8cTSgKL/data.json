@@ -1,0 +1,67 @@
+{
+    "name": "Truck",
+    "description": "#automobile #vehicle #motor",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T04:03:19.131141Z",
+    "updateTime": "2021-06-03T15:17:09.940376Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "automobile",
+        "vehicle",
+        "motor"
+    ],
+    "likes": 46,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Jeep.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Jeep.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Jeep_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1560"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Jeep.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Jeep.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Jeep_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1560"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f44336"
+    }
+}

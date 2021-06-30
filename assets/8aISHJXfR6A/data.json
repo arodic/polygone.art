@@ -1,0 +1,66 @@
+{
+    "name": "Brian's Orange",
+    "authorId": "ddf7k7yE4LJ",
+    "authorName": "Jarkko Mylläri",
+    "createTime": "2018-06-22T22:04:04.304086Z",
+    "updateTime": "2020-10-07T10:07:27.753553Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Orange.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Normal.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Color.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Orange.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1504"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Orange.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Orange.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Color.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1504"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name": "Gate",
+    "description": "#medieval",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-20T15:16:26.127278Z",
+    "updateTime": "2021-06-08T08:37:12.687609Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated",
+        "medieval"
+    ],
+    "likes": 36,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Archway.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Archway.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Archway Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Archway.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Archway.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Archway Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

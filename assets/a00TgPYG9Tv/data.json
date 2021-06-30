@@ -1,0 +1,64 @@
+{
+    "name": "Leuk",
+    "description": "Testobject",
+    "authorId": "1pmZphjZaSE",
+    "authorName": "002-NL_0008 XL",
+    "createTime": "2017-11-08T14:22:14.073657Z",
+    "updateTime": "2020-05-11T10:05:46.466876Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Pagoda.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Pagoda_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Pagoda.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2362"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Pagoda.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Pagoda.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Pagoda_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2362"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Leaf Head Wave",
+    "authorId": "7Cmyu9ePGeU",
+    "authorName": "Josh Miranda",
+    "createTime": "2021-03-29T20:57:04.884792Z",
+    "updateTime": "2021-03-29T21:04:27.977057Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "leafhead.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "leafhead.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "leafhead.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "leafhead.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "leafhead.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "leafhead.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

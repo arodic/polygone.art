@@ -1,0 +1,67 @@
+{
+    "name": "Elephant",
+    "description": "Elephant",
+    "authorId": "31dhyrUkAHN",
+    "authorName": "Wendell Yang",
+    "createTime": "2018-01-28T17:23:46.134586Z",
+    "updateTime": "2021-06-06T21:03:27.244041Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Elephant.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Elephant.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Elephant.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10492"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Elephant.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "1508427940521.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Elephant.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10492"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 1.6653345369377353e-16,
+            "y": -0.7071067811865474,
+            "z": -0.7071067811865478,
+            "w": 1.6653345369377353e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

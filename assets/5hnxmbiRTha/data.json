@@ -1,0 +1,61 @@
+{
+    "name": "Pyrobyte",
+    "description": "Pyrobyte",
+    "authorId": "2NcRnyQfFCZ",
+    "authorName": "Tommy Vercetty",
+    "createTime": "2021-02-06T15:04:36.621064Z",
+    "updateTime": "2021-02-06T15:14:22.445049Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Project Name.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Project Name.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "colorTexture&opacityTexture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "336"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Project Name.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Project Name.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "colorTexture&opacityTexture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "336"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

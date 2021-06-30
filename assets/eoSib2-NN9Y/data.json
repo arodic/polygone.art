@@ -1,0 +1,67 @@
+{
+    "name": "Electric guitar",
+    "description": "#string #instrument #music\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T01:10:50.463012Z",
+    "updateTime": "2021-06-08T11:20:25.651541Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "string",
+        "instrument",
+        "music"
+    ],
+    "likes": 73,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ElectricGuitar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ElectricGuitar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ElectricGuitar_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "560"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ElectricGuitar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ElectricGuitar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ElectricGuitar_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "560"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9800"
+    }
+}

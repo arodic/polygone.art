@@ -1,0 +1,60 @@
+{
+    "name": "test",
+    "authorId": "8IPU9hNNnCL",
+    "authorName": "Oodelay",
+    "createTime": "2019-06-21T18:36:25.661978Z",
+    "updateTime": "2020-06-06T09:51:06.949003Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fullsizemesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fullsizemesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "fullsizemesh_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1000000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "fullsizemesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fullsizemesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fullsizemesh_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1000000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

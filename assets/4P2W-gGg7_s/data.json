@@ -1,0 +1,79 @@
+{
+    "name": "Socrate",
+    "description": "Socrate",
+    "authorId": "17dGM5SY2h4",
+    "authorName": "David Callizaya",
+    "createTime": "2020-05-14T14:35:15.967313Z",
+    "updateTime": "2020-10-31T20:25:10.540053Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "socrate.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "socrate.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "socrate.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "socrate1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "socrate2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41996"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "socrate.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "socrate.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "socrate1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "socrate2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "socrate.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41996"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

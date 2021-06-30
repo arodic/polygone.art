@@ -1,0 +1,64 @@
+{
+    "name": "Cloud Plane",
+    "description": "Built in 3ds Max for an upcoming Tilt Brush project",
+    "authorId": "fa4m5c69h51",
+    "authorName": "Robert Mirabelle",
+    "createTime": "2017-11-16T02:54:42.216584Z",
+    "updateTime": "2020-12-24T19:49:19.116116Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wind_plane.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wind_plane.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "maps/wind_plane_diffuse_Smoke.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "81602"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "wind_plane.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "maps/wind_plane_diffuse_Smoke.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "wind_plane.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "81602"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#455a64"
+    }
+}

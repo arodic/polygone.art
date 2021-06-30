@@ -1,0 +1,63 @@
+{
+    "name": "Earth",
+    "description": "Γη",
+    "authorId": "5EZh3t9dUHZ",
+    "authorName": "Despina Ts.",
+    "createTime": "2020-12-23T14:21:30.490820Z",
+    "updateTime": "2020-12-23T14:30:05.125991Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earth.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "land_ocean_ice_2048.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "earth.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "land_ocean_ice_2048.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

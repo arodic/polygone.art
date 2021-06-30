@@ -1,0 +1,63 @@
+{
+    "name": "aqua drone",
+    "description": "drone",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T08:58:57.394090Z",
+    "updateTime": "2021-02-09T05:50:53.201824Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "depth drone.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "depth drone.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Material_35_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12191"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "depth drone.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "depth drone.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Material_35_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12191"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

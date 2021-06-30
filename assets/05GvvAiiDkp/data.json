@@ -1,0 +1,60 @@
+{
+    "name": "testeCubo3",
+    "authorId": "3SCASa-reP5",
+    "authorName": "Bem São Paulo City Experiences",
+    "createTime": "2020-02-04T19:01:54.262514Z",
+    "updateTime": "2020-10-04T09:18:20.490740Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "testeEstranho.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Ref_Big.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "testeEstranho.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "testeEstranho.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "testeEstranho.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Ref_Big.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Macstore prueba karlo",
+    "description": "Macstore prueba karlo",
+    "authorId": "1A3manDQpuo",
+    "authorName": "Carlos vera",
+    "createTime": "2018-10-10T22:52:23.353851Z",
+    "updateTime": "2020-08-16T09:56:16.493842Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "macstore-512.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "macstore-512.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3318"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "macstore-512.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "macstore-512.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3318"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

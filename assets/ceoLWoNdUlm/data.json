@@ -1,0 +1,72 @@
+{
+    "name": "FBX ch pro butterfly 2-side 23",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2019-12-23T16:52:16.561451Z",
+    "updateTime": "2020-10-02T10:24:11.847433Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "1503_Butterfly_N2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1503_Butterfly_D2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14316"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "1503_Butterfly_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "1503_Butterfly_D2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1503_butterfly_loda.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1503_butterfly_loda.fplmesh",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1503_Butterfly_N2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14316"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#44829b"
+    }
+}

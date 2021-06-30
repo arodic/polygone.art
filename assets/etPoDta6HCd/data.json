@@ -1,0 +1,63 @@
+{
+    "name": "flamingo",
+    "description": "flamingo",
+    "authorId": "1_pZZOjghSY",
+    "authorName": "Risa Pizza",
+    "createTime": "2018-10-14T12:44:18.012652Z",
+    "updateTime": "2020-12-29T05:58:28.200233Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "flamingo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "flamingo.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "flamingo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1158"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "flamingo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "flamingo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "flamingo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1158"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

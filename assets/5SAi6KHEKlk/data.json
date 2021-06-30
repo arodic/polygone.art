@@ -1,0 +1,65 @@
+{
+    "name": "Guy",
+    "description": "Yup, a Guy.",
+    "authorId": "fHdsatbDf3N",
+    "authorName": "Gersom Rink",
+    "createTime": "2020-12-12T19:19:17.473957Z",
+    "updateTime": "2020-12-12T19:27:52.730331Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "guy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "guy.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "guy_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "guy_Packed0_Specular.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "38250"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "guy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "guy.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "guy_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "38250"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Splatter 4:3 Poster TheWaveVR",
+    "description": "Find an image you would like to import in a 4:3 Aspect Ratio.\nI could not find a proper list that went higher than 2560 X 1920. \nHowever here is a Aspect Ratio Calculator you can use to verify correct resolutions. calculateaspectratio.com \nWhen uploading back into Google Poly the limit on resolution size is 4096 x 4096. The max 4:3 resolution possible is 4096 x 3072, however you will find many more pictures at 2560 X 1920 or possibly up to 3200 x 2400.\n\nDownload the OBJ from this page.\n\nYou will get a .Zip file such as. (poster_obj_6pGfDtbqI-B_2H87FlB4Jgh.zip)\nUnzip this to a folder and you will find 3 files. (poster.jpg, poster.mtl, poster.obj)\nYou can now delete the original poster.jpg and place your new image in this folder.\nThen rename the new image poster.jpg.\nNow you can Upload the 3 files back onto Google Poly you do not need to re-zip them.\n\nFirst click the upload icon at the top of the page on Google Poly next to the search bar.\n\nA popup will display which you can drag and drop the 3 files here or click the link to select files from your computer.\n\nIf you click the link be sure to select all 3 files and then click open.\n\nIt should take a moment to upload and then display a grid with no errors displayed to the right. You will not see the image immediately.\n\nClick anywhere in the display window and drag to reveal the image.",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-02-08T07:26:06.819070Z",
+    "updateTime": "2020-10-01T09:54:54.474215Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poster.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "poster.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "poster.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poster.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "poster.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

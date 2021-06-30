@@ -1,0 +1,55 @@
+{
+    "name": "Boeing 777",
+    "description": "Uno de los mejores aviones para vuelos de largo alcance.  https://www.expovacaciones.com.co/2x1-viajes-exito-cancun-santa-marta-cartagena/",
+    "authorId": "2EGV5t3OMVD",
+    "authorName": "Andres Currea",
+    "createTime": "2021-05-01T05:26:03.035093Z",
+    "updateTime": "2021-06-10T07:14:56.530227Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3d-model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d-model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30029"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "3d-model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d-model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30029"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Android Robot",
+    "description": "Just Andy.",
+    "authorId": "f8cGQY15_-g",
+    "authorName": "Anonymous",
+    "createTime": "2017-10-19T14:52:42.588339Z",
+    "updateTime": "2020-10-15T20:17:19.905728Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 118,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Andy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Andy_Diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Andy.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2304"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Andy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Andy.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Andy_Diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2304"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

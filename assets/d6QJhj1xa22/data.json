@@ -1,0 +1,63 @@
+{
+    "name": "3D heart",
+    "description": "Here is the heart ",
+    "authorId": "0SAZy1_BhxJ",
+    "authorName": "nathan stevens",
+    "createTime": "2019-07-10T14:04:02.971672Z",
+    "updateTime": "2021-04-27T14:53:43.729274Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "heart.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "heart.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "heart.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "34401"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "heart.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "heart.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "heart.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "34401"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

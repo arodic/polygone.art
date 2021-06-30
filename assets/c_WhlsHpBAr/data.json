@@ -1,0 +1,63 @@
+{
+    "name": "Sony KV 1300e",
+    "description": "A portable TV from 1972.",
+    "authorId": "1w6ADsJKozW",
+    "authorName": "Evan Banks",
+    "createTime": "2019-11-13T20:46:39.346946Z",
+    "updateTime": "2020-07-04T10:16:15.844963Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/TV_Black.002_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/TV_Black._lines_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/TV_Plastic_Panel_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/TV_Screen_metallicRoughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/TV_Wood_baseColor.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textures/TV_Wood_metallicRoughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49054"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

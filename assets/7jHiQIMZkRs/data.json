@@ -1,0 +1,68 @@
+{
+    "name": "Videogame",
+    "description": "#videogame #console #system #games\n",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T01:40:39.396051Z",
+    "updateTime": "2021-05-09T04:01:37.301984Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated",
+        "videogame",
+        "console",
+        "system",
+        "games"
+    ],
+    "likes": 70,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GameBoy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "GameBoy.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "GameBoy_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "310"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "GameBoy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GameBoy.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "GameBoy_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "310"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f44336"
+    }
+}

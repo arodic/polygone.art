@@ -1,0 +1,63 @@
+{
+    "name": "zombie_e",
+    "description": "drill",
+    "authorId": "f2QzikqIO_L",
+    "authorName": "cs_aaron",
+    "createTime": "2020-11-23T08:24:04.094900Z",
+    "updateTime": "2020-11-23T08:31:55.845739Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "zombies.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "zombies.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "MadZombies_Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2238"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "zombies.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "zombies.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "MadZombies_Texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2238"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

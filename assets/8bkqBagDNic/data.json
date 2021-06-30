@@ -1,0 +1,53 @@
+{
+    "name": "1wiredbunny",
+    "description": "tnp",
+    "authorId": "5G1-kJJUCtC",
+    "authorName": "UNT New Media",
+    "createTime": "2019-11-14T21:49:20.063342Z",
+    "updateTime": "2020-10-06T10:07:28.476816Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "1bunny.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "1bunny.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "602304"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "1bunny.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "1bunny.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "602304"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

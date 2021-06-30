@@ -1,0 +1,63 @@
+{
+    "name": "Evil sheep",
+    "description": "A sheep abducted by Martians, experimented on and returned to earth as a biological weapon (Zombie Sheep!)",
+    "authorId": "00B2f2gorl7",
+    "authorName": "Luke Cassar",
+    "createTime": "2018-03-19T20:50:31.873028Z",
+    "updateTime": "2021-05-17T09:12:47.412302Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sheep.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sheep.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sheep.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "776"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sheep.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sheep.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sheep.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "776"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

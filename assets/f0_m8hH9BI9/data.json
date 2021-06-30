@@ -1,0 +1,67 @@
+{
+    "name": "Horse",
+    "description": "#equestrian #pony #bridle",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T23:34:58.289045Z",
+    "updateTime": "2021-06-08T11:14:29.937849Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "equestrian",
+        "pony",
+        "bridle"
+    ],
+    "likes": 45,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Horse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Horse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Horse_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1272"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Horse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Horse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Horse_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1272"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#a5d6a7"
+    }
+}

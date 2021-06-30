@@ -1,0 +1,49 @@
+{
+    "name": "plateu",
+    "description": "base model for tilt brush",
+    "authorId": "dSkIaHszEu3",
+    "authorName": "hokeun oh",
+    "createTime": "2021-02-14T04:14:05.761018Z",
+    "updateTime": "2021-02-14T05:09:11.464083Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plateu.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "530"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "plateu.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plateu.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "530"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

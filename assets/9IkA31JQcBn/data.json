@@ -1,0 +1,83 @@
+{
+    "name": "DelorianHover",
+    "description": "From Back to the Future",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-05T03:43:15.399875Z",
+    "updateTime": "2020-09-26T09:55:12.637027Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 22,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Delorian.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Delorian.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "body.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "backbox.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "wheel.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1144"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Delorian.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Delorian.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "backbox.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "body.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "wheel.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1144"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

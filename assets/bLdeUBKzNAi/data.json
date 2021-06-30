@@ -1,0 +1,62 @@
+{
+    "name": "Mizaky - Horse Test",
+    "authorId": "07J3_esD8X8",
+    "authorName": "TIS Student (zaka2019)",
+    "createTime": "2019-02-15T02:04:23.297398Z",
+    "updateTime": "2021-03-09T04:45:27.090705Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Horse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Horse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Horse/Horse_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1272"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Horse/Horse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Horse/Horse_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Horse/Horse.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1272"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Mandala 05",
+    "description": "Arte",
+    "authorId": "cnPPduWcFR2",
+    "authorName": "Nacho Ornelas Cravioto",
+    "createTime": "2019-08-23T03:12:56.246368Z",
+    "updateTime": "2020-06-23T09:48:19.967815Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mandala.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mandala.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Mandala/Mandala_01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mandala.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mandala.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Mandala/Mandala_01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

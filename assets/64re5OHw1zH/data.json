@@ -1,0 +1,71 @@
+{
+    "name": "high quality wood",
+    "description": "bacon",
+    "authorId": "a1FSanXG1kH",
+    "authorName": "will bryant",
+    "createTime": "2019-10-31T04:12:37.302635Z",
+    "updateTime": "2020-02-25T20:52:37.131133Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Floor/Floor.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Floor/Floor.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Floor/download_COLOR.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Floor/download_NRM.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Floor/download_SPEC.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Floor.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Floor.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Floor/download_COLOR.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

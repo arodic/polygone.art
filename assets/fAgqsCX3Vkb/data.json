@@ -1,0 +1,64 @@
+{
+    "name": "Telescope",
+    "description": "Author of model : Francesco Coldesina",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-16T09:42:10.625012Z",
+    "updateTime": "2020-10-05T10:31:14.326308Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "telescope.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Separato_UV1_default_color.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "telescope.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "31044"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "telescope.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "telescope.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Separato_UV1_default_color.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "31044"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

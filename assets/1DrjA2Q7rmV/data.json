@@ -1,0 +1,63 @@
+{
+    "name": "ravvenor wall panel",
+    "description": "walls",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2019-01-11T23:23:12.530192Z",
+    "updateTime": "2020-09-27T09:27:45.088695Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "copper opus.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "copper opus.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "images.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15432"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "copper opus.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "copper opus.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "images.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15432"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

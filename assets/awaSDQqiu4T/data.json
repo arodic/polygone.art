@@ -1,0 +1,76 @@
+{
+    "name": "Placemats",
+    "description": "#mat #table #dinnertable #placesetting",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T19:14:47.515361Z",
+    "updateTime": "2021-06-08T10:52:37.935490Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "mat",
+        "table",
+        "dinnertable",
+        "placesetting"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plateMats.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "plateMats.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "plateMatSquareTxt.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "plateMatCircleTxt.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "560"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "plateMats.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plateMats.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "plateMatSquareTxt.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "plateMatCircleTxt.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "560"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "name": "Whale",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2017-11-19T10:15:37.133329Z",
+    "updateTime": "2021-04-27T13:18:46.529309Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 90,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "whale.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "whale.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "WHALMPIE.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "37728"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "whale.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "whale.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "WHALMPIE.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "37728"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865476,
+            "y": 1.1102230246251565e-16,
+            "z": 0.7071067811865475,
+            "w": 2.465190328815662e-32
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "name": "Car",
+    "authorId": "a6arPw3mjdC",
+    "authorName": "Rishab Rai",
+    "createTime": "2018-08-16T07:07:13.492018Z",
+    "updateTime": "2020-10-07T10:32:37.431345Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CAR.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CAR.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "E:/car/wheel.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "E:/car/car.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8274"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CAR.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CAR.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "E:/car/car.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "E:/car/wheel.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8274"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

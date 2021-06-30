@@ -1,0 +1,63 @@
+{
+    "name": "AIBaby",
+    "description": "My First VoxelMagica Model",
+    "authorId": "6-075u07ZUD",
+    "authorName": "川崎絢司",
+    "createTime": "2019-10-05T12:58:36.970366Z",
+    "updateTime": "2020-10-04T09:56:20.334459Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "aibaby.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "aibaby.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "aibaby.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "748"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "aibaby.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "aibaby.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "aibaby.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "748"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#6fa6d1"
+    }
+}

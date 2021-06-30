@@ -1,0 +1,63 @@
+{
+    "name": "Bosque Marechal Rondon",
+    "description": "Modelagem baseado em nuvem de pontos. ",
+    "authorId": "fmY3dO-NkDp",
+    "authorName": "GPUE IPPUL",
+    "createTime": "2019-09-10T20:58:01.531284Z",
+    "updateTime": "2020-10-07T09:35:26.446203Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Bosque Central_simplified_3d_mesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bosque Central_simplified_3d_mesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bosque Central_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "999999"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Bosque Central_simplified_3d_mesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bosque Central_simplified_3d_mesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Bosque Central_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "999999"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

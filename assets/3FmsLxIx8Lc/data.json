@@ -1,0 +1,65 @@
+{
+    "name": "Stone",
+    "description": "#rock",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-14T21:20:23.106405Z",
+    "updateTime": "2021-06-08T05:42:19.219382Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "rock"
+    ],
+    "likes": 120,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PUSHILIN_stone.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PUSHILIN_stone.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PUSHILIN_stone.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "195"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "PUSHILIN_stone.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PUSHILIN_stone.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "PUSHILIN_stone.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "195"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#795548"
+    }
+}

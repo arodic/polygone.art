@@ -1,0 +1,66 @@
+{
+    "name": "Chanterelle- Photogrammetry",
+    "description": "261 photo reconstruction of a chanterelle. Note the white 'scar'; despite the high number of photos, they were at about 6x the density necessary and did not actually fully capture underneath the canopy of the mushroom. Future uses of the photo burst feature (on Pixel) will necessitate only importing ~1/5 of the photos",
+    "authorId": "7uqTwvd2mwr",
+    "authorName": "Colin Keenan",
+    "createTime": "2018-08-15T20:52:57.074988Z",
+    "updateTime": "2021-03-20T10:02:44.983091Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "obj Chanterelle photogrammetry/Chanterelle photogrammetry.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "obj Chanterelle photogrammetry/Chanterelle photogrammetry.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "obj Chanterelle photogrammetry/Chanterelle photogrammetry.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59999"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Chanterelle photogrammetry.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Chanterelle photogrammetry.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "obj Chanterelle photogrammetry/Chanterelle photogrammetry.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59999"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -2.220446049250313e-16,
+            "y": 2.220446049250313e-16,
+            "z": 1,
+            "w": 4.930380657631324e-32
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

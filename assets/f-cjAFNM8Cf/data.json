@@ -1,0 +1,70 @@
+{
+    "name": "Plant in pot",
+    "authorId": "f_ncNE8VvrC",
+    "authorName": "Akeshma Webster",
+    "createTime": "2019-04-18T05:21:47.940291Z",
+    "updateTime": "2020-06-23T10:25:10.557196Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plant.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dirt 2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "flower_pot2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "plant.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6486"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "plant.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plant.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dirt 2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "flower_pot2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6486"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

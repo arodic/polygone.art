@@ -1,0 +1,52 @@
+{
+    "name": "MY FIRST 3D MODEL",
+    "authorId": "a_ByaD_Je8k",
+    "authorName": "Kyle Arthur Gabriel",
+    "createTime": "2019-08-06T04:10:33.773414Z",
+    "updateTime": "2020-02-25T22:10:27.089793Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "my first character.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "my first character.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "442"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "my first character.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "my first character.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "442"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Fox",
+    "description": "#mammal #forest #vulpes #predator",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T06:13:20.084434Z",
+    "updateTime": "2021-06-10T06:22:45.315710Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "mammal",
+        "forest",
+        "vulpes",
+        "predator"
+    ],
+    "likes": 141,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Fox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Fox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Fox_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "980"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Fox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Fox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Fox_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "980"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#dce775"
+    }
+}

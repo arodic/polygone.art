@@ -1,0 +1,61 @@
+{
+    "name": "Rockside",
+    "description": "Alpine Sampling phase 1",
+    "authorId": "cjUiv8DCWJj",
+    "authorName": "Peter Marius Jensen",
+    "createTime": "2020-10-21T09:16:12.296669Z",
+    "updateTime": "2020-12-13T20:11:35.862921Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "moos.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "moos.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "moos01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "46958"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "moos.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "moos01.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "moos.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "46958"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Cedar tree",
+    "description": "#plant #timber #forest #woods",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T06:30:44.563001Z",
+    "updateTime": "2021-05-22T15:46:27.139440Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "plant",
+        "timber",
+        "forest",
+        "woods"
+    ],
+    "likes": 18,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CedarTree.OBJ",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CedarTree.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "CedarTree_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3357"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CedarTree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CedarTree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CedarTree_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3357"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fdd835"
+    }
+}

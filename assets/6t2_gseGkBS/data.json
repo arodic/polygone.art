@@ -1,0 +1,68 @@
+{
+    "name": "RIZPA",
+    "authorId": "f7DeFfnCZbw",
+    "authorName": "Katya Kamenkovich",
+    "createTime": "2020-11-11T12:22:36.937056Z",
+    "updateTime": "2020-11-11T12:31:34.376666Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "texturedMesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture_1001.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_1002.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texturedMesh.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1803"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "texturedMesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture_1001.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_1002.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1803"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

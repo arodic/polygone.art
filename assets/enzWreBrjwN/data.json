@@ -1,0 +1,60 @@
+{
+    "name": "Small Carved Mexican Ram",
+    "description": "This model was generated using photogrametry by extracting frames from a video. I didn’t filter out the blurry frames.",
+    "authorId": "csPHwZ4hSEw",
+    "authorName": "Austin Godber",
+    "createTime": "2018-08-28T13:19:10.865533Z",
+    "updateTime": "2020-07-24T10:22:19.098091Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ram.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "model/gltf-binary"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "21682"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ram.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "ram.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "21682"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

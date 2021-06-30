@@ -1,0 +1,63 @@
+{
+    "name": "Test4",
+    "description": "testetstt",
+    "authorId": "8j2EGsiY5xd",
+    "authorName": "VinceBlok",
+    "createTime": "2020-11-10T00:19:09.340684Z",
+    "updateTime": "2020-11-10T00:28:02.111482Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rasta.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rasta.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rasta_Laag_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "165404"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "rasta.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rasta_Laag_1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "rasta.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "165404"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

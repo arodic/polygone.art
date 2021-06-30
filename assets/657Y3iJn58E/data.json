@@ -1,0 +1,71 @@
+{
+    "name": "Half Wales",
+    "description": "From National Museum of Wales",
+    "authorId": "fCDtq6KVXZ-",
+    "authorName": "Thomas Burmeister",
+    "createTime": "2019-04-18T09:44:22.736103Z",
+    "updateTime": "2020-10-03T09:54:04.614734Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "HalfWhale.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "HalfWhale.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14006"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "HalfWhale.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "HalfWhale.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14006"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

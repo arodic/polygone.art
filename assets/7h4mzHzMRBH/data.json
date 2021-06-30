@@ -1,0 +1,65 @@
+{
+    "name": "test upload",
+    "description": "oooh shiny",
+    "authorId": "9nPhL9_Ej6k",
+    "authorName": "Scott Nielsen",
+    "createTime": "2018-05-05T14:23:51.192745Z",
+    "updateTime": "2020-10-04T09:56:46.118262Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3d girl.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d girl.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "3d_girl_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "3d_girl_Packed0_Specular.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "38076"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "3d girl.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d girl.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "3d_girl_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "38076"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "name": "Plutonians",
+    "description": "ATHF",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-12T21:03:51.391947Z",
+    "updateTime": "2020-10-02T09:41:45.106997Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plutonians.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "plutonians.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "orangePlutonian.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "greenPlutonian.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19504"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "plutonians.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plutonians.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "orangePlutonian.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "greenPlutonian.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19504"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": -0.5,
+            "z": -0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

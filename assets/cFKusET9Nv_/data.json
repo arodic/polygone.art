@@ -1,0 +1,63 @@
+{
+    "name": "GRID 3x3",
+    "description": "Tool for aiding in hard surface modeling for VR paint and art programs that do not have a grid function built in.",
+    "authorId": "0haFmgQ6r71",
+    "authorName": "Laddie Ervin",
+    "createTime": "2018-03-10T21:48:29.543680Z",
+    "updateTime": "2021-01-03T00:43:42.536894Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Grid 3x3 RGB.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Grid 3x3 RGB.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ClonerSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1944"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Grid 3x3 RGB.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ClonerSurface_Color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Grid_3x3_RGB.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1944"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

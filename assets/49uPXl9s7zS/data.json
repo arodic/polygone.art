@@ -1,0 +1,46 @@
+{
+    "name": "TIERRA",
+    "authorId": "aPvW5biPjug",
+    "authorName": "sara mendez",
+    "createTime": "2018-08-07T15:59:39.047982Z",
+    "updateTime": "2020-02-25T20:29:24.543955Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earth.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "7936"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "earth.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7936"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Starry Night by Van Gogh",
+    "description": "A virtual reality painting by Avery Hodges, Jared Tree, and Eli Jimenez for a digital painting class at Texas Tech University.",
+    "authorId": "bOcpxw8OIoe",
+    "authorName": "Transmedia TTU",
+    "createTime": "2019-11-11T14:55:48.114497Z",
+    "updateTime": "2021-01-01T07:16:18.996961Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "art",
+        "curated"
+    ],
+    "likes": 52,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "921948"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

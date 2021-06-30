@@ -1,0 +1,60 @@
+{
+    "name": "ghg",
+    "authorId": "dCacOW8S6Va",
+    "authorName": "pierkiroule artefactory",
+    "createTime": "2019-07-23T16:03:32.059638Z",
+    "updateTime": "2020-10-04T09:33:39.031068Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "vroum.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturCouleur.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "vroum.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4855"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "vroum.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "vroum.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texturCouleur.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4855"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

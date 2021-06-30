@@ -1,0 +1,49 @@
+{
+    "name": "asdf\">",
+    "description": "asdf\">",
+    "authorId": "bz5kSWCVOEr",
+    "authorName": "Bug Bounty",
+    "createTime": "2018-01-22T16:11:40.246772Z",
+    "updateTime": "2020-09-23T09:56:29.310439Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "xss.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "10"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "xss.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "xss.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

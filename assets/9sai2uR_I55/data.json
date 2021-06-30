@@ -1,0 +1,45 @@
+{
+    "name": "mario ds",
+    "description": "credit nintedo",
+    "authorId": "0PARi__pHfP",
+    "authorName": "Randy Saenz",
+    "createTime": "2020-12-09T23:32:03.137556Z",
+    "updateTime": "2021-03-12T15:59:42.417590Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/mario_all_tx.001_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/mario_eye_tx.001_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "666"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

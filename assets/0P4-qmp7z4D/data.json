@@ -1,0 +1,64 @@
+{
+    "name": "treeorb",
+    "description": "lv10\n#lv10",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2019-03-17T23:31:04.589683Z",
+    "updateTime": "2020-10-06T09:30:49.454412Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "lv10"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "OrbGreen.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TexturesCom_JapanForest_1K_hdri_sphere_tone.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "OrbGreen.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "39680"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "OrbGreen.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "OrbGreen.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TexturesCom_JapanForest_1K_hdri_sphere_tone.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "39680"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

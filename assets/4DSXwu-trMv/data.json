@@ -1,0 +1,55 @@
+{
+    "name": "Janet Wallace Music Department",
+    "description": "Paper like replica for Janet Wallace at Macalester College",
+    "authorId": "fGaEjwvUcjv",
+    "authorName": "Mphatso Simbao",
+    "createTime": "2019-01-22T07:43:06.009875Z",
+    "updateTime": "2020-06-21T09:38:34.234392Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "jwm.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9204"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "jwm.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "jwm.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9204"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f44336"
+    }
+}

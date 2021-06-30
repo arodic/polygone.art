@@ -1,0 +1,60 @@
+{
+    "name": "TNEG regalo libro",
+    "authorId": "e7pOs54S0UW",
+    "authorName": "Mauricio Martínez González",
+    "createTime": "2018-07-06T19:39:40.640270Z",
+    "updateTime": "2020-10-06T09:27:07.587515Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "libro.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "libro.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "libro.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "libro.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "libro.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "libro.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

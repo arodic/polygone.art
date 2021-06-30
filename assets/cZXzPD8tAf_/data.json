@@ -1,0 +1,71 @@
+{
+    "name": "Mindshow Glass",
+    "description": "A glass with the Mindshow characters on it.\n\nMindshow is a brilliant VR app that lets you create animated videos - for free\nhttps://store.steampowered.com/app/382000/Mindshow/",
+    "authorId": "3lQ_wwCf22q",
+    "authorName": "David Jeffries",
+    "createTime": "2018-08-03T12:56:46.651204Z",
+    "updateTime": "2020-10-06T10:29:21.182661Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 12,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Glass.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Glass.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "character group blue.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Mindshow logo white.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12544"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Glass.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Glass.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "character group blue.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Mindshow logo white.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12544"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff5722"
+    }
+}

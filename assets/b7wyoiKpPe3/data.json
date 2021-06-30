@@ -1,0 +1,55 @@
+{
+    "name": "Tetrahedral Planetoid",
+    "description": "A 3d model reconstruction of the two visible faces of M.C. Escher's Tetrahedral planetoid.\n\nLike this model, but need something a bit different? I take commissions! http://peripheralarbor.com/commission/",
+    "authorId": "ej5So4VLSng",
+    "authorName": "Paul Spooner",
+    "createTime": "2018-09-25T23:21:26.364038Z",
+    "updateTime": "2021-05-19T04:10:44.980953Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tetrahedral planetoid.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tetrahedral planetoid.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "268899"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tetrahedral planetoid.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tetrahedral planetoid.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "268899"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

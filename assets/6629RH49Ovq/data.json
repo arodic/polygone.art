@@ -1,0 +1,61 @@
+{
+    "name": "dangerbox",
+    "description": "relent311",
+    "authorId": "8qC68ooAFzP",
+    "authorName": "Relent311",
+    "createTime": "2018-09-23T18:24:20.408966Z",
+    "updateTime": "2020-09-24T09:57:51.362478Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "box.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "box.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "box.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "box.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "box.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "box.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

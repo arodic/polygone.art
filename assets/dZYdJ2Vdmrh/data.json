@@ -1,0 +1,70 @@
+{
+    "name": "Mr. Meowzer parts",
+    "description": "I made a character for my son...just piecing it out.",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-24T15:10:33.787650Z",
+    "updateTime": "2020-05-19T10:30:54.646327Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "torso2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "torso2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "torso2_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "torso2_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49999"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "torso2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "torso2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "torso2_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49999"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865476,
+            "y": 0.7071067811865475,
+            "z": 1.1102230246251565e-16,
+            "w": 1.1102230246251565e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

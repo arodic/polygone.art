@@ -1,0 +1,64 @@
+{
+    "name": "goos",
+    "description": "lv12\n#lv12",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2019-06-03T19:26:12.111686Z",
+    "updateTime": "2020-10-01T09:55:30.894181Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "lv12"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "goos.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gooos.001.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "goos.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "goos.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "goos.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gooos.001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

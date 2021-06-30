@@ -1,0 +1,64 @@
+{
+    "name": "Oculus Go",
+    "description": "Oculus Goです",
+    "authorId": "99VuVXH6oer",
+    "authorName": "Kenta Imai",
+    "createTime": "2018-05-15T13:00:19.026217Z",
+    "updateTime": "2021-02-20T21:10:43.456276Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated"
+    ],
+    "likes": 10,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "oculus_go.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "oculus_go.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "oculus_go.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1236"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "oculus_go.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "oculus_go.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "oculus_go.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1236"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

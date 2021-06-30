@@ -1,0 +1,63 @@
+{
+    "name": "Reef Ball Bay Ball-Textured",
+    "description": "This Bay Ball sized Reef Ball is textured, color should be grey/concrete seems a bit pink in this rendering",
+    "authorId": "4whRR8Y1PBj",
+    "authorName": "Todd Barber",
+    "createTime": "2018-03-15T15:46:00.520525Z",
+    "updateTime": "2020-10-03T09:35:37.795326Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bayballCOLOR.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bayballCOLOR.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "bayballCOLOR/texture0.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13856"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bayballCOLOR.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bayballCOLOR.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bayballCOLOR/texture0.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13856"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

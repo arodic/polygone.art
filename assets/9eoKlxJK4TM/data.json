@@ -1,0 +1,62 @@
+{
+    "name": "coco3d",
+    "authorId": "8IPU9hNNnCL",
+    "authorName": "Oodelay",
+    "createTime": "2020-03-31T01:37:22.891259Z",
+    "updateTime": "2020-03-31T01:42:43.401114Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "coco3d.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "coco3d.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "coco3d.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "437436"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "coco3d.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "coco3d.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "coco3d.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "437436"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

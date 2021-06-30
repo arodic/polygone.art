@@ -1,0 +1,60 @@
+{
+    "name": "busto",
+    "authorId": "29rZoFNuPVD",
+    "authorName": "Inkazz Fellas",
+    "createTime": "2019-09-06T16:01:35.557081Z",
+    "updateTime": "2020-10-05T09:44:12.990259Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "busto.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "busto.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "busto.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "502"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "busto.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "busto.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "busto.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "502"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

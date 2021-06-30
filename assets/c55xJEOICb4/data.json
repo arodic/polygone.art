@@ -1,0 +1,66 @@
+{
+    "name": "Blender",
+    "description": "#cooking #kitchen",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T03:29:25.613477Z",
+    "updateTime": "2021-05-29T09:14:43.390716Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "cooking",
+        "kitchen"
+    ],
+    "likes": 45,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Blender 2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Blender 2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Blender tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1278"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Blender 2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Blender 2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Blender tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1278"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+    }
+}

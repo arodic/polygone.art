@@ -1,0 +1,69 @@
+{
+    "name": "Churro",
+    "description": "#snack #sweets #dough #Spanish #fried",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-11T23:24:09.583294Z",
+    "updateTime": "2021-04-28T13:17:25.981283Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "snack",
+        "sweets",
+        "dough",
+        "Spanish",
+        "fried"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "churro.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "churro.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "churroTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1392"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "churro.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "churro.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "churroTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1392"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

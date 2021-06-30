@@ -1,0 +1,63 @@
+{
+    "name": "spongebob squarepants",
+    "description": "The spongebob squarepants Modele",
+    "authorId": "0GJw32doznq",
+    "authorName": "Nouri Mohamed",
+    "createTime": "2018-02-06T18:44:44.428951Z",
+    "updateTime": "2021-04-15T16:02:04.546323Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "spongegar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "spongegar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "t0133_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3022"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "spongegar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "spongegar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "t0133_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3022"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

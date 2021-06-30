@@ -1,0 +1,61 @@
+{
+    "name": "Blue Sky Gradient ORB IN",
+    "description": "Simple blue sky for a skybox",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-09-22T22:58:29.722903Z",
+    "updateTime": "2020-10-07T09:53:42.448549Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bluskyGradientinv.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bluesky.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "bluskyGradientinv.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "528"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bluskyGradientinv.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bluskyGradientinv.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bluesky.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "528"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

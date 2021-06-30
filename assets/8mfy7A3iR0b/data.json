@@ -1,0 +1,63 @@
+{
+    "name": "confucius",
+    "description": "lab4",
+    "authorId": "6LikLXMrulg",
+    "authorName": "Sining NIU",
+    "createTime": "2018-10-09T05:07:47.192662Z",
+    "updateTime": "2020-09-23T10:03:01.995662Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "confucius.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "confucius.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "confucius.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2273"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "confucius.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "confucius.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "confucius.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2273"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

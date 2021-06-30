@@ -1,0 +1,55 @@
+{
+    "name": "Bağlama",
+    "description": "Bağlama",
+    "authorId": "btx-7IMZ4eS",
+    "authorName": "Ali Cihan Tül",
+    "createTime": "2017-11-05T21:17:31.159763Z",
+    "updateTime": "2020-09-23T10:19:39.980869Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "baglama.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "baglama.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1261"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "baglama.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "baglama.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1261"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

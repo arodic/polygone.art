@@ -1,0 +1,79 @@
+{
+    "name": "VR Combat Prototype Arena1",
+    "description": "Initial mockup of mid-battle scene of a 4v4 line up in a gametype consisting of collecting and depositing power crystals located on the outskirts of the map  and depositing them into a central container. Once one team has filled 51% of the container, the opposing team can no longer respawn. This is the opposing team's forced last stand. Once opposing team is eliminated the remaining team wins. \n\nLocomotion is based on timed teleportation and room-scale dodging. Weapons are projectile based and designed to allow timing for room-scale based maneuvering at mid-range. This accomodates for VR HMD resolution, latency, and player familiarity to full body hand eye coordination. \n\nProtected spawn shields provide safe view to the central container, while covering long range approaches. Central container control keeps these shields up. There is a period where these shields go down but spawning continues for a \"power phase\" if team places two power crystals in the container at once].\n\nEach hexagon has a power crystal which when taken to the center gains that team ownership over the hex. \n\nIf territory reaches enemy's spawn, their spawn shields go down revealing their hex's crystal.  Once captured, the enemy team wins.   A time limit ends games and the territory controlled is recorded, as well as the win/loss. Global leader-boards sort by both wins and total territory taken over.\n\nProjectiles ~the size of a tennis ball can be stored 6 at a time. 1 Hit knock outs. Each territory has 6 \"ammo\" placed in the center which replenish ~30 seconds.\n\nWhen a power crystal is collected, the territory is taken over. When a crystal is taken, the territory is no longer controlled but neutral and will remain so until a crystal is captured in the center. \n\nA simple concept to combine the worlds of fitness, martial arts, and gaming.\n\nIf you like the idea, lets build it.",
+    "authorId": "9G9awA9cHPd",
+    "authorName": "Michael Eichenseer",
+    "createTime": "2018-03-13T22:33:52.635891Z",
+    "updateTime": "2020-10-01T09:56:07.610405Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2008"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "model.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {},
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "model/gltf-binary"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2008"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "materials.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1426"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

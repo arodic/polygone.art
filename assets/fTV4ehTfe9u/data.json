@@ -1,0 +1,60 @@
+{
+    "name": "zillion test",
+    "authorId": "fnHgC3jtMZw",
+    "authorName": "Maxximum Ism",
+    "createTime": "2020-03-29T20:30:56.422840Z",
+    "updateTime": "2020-03-30T10:19:09.948605Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "zillion.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "zillion.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "zillion.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "324"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "zillion.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "zillion.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "zillion.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "324"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

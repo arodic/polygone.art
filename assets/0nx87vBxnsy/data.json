@@ -1,0 +1,62 @@
+{
+    "name": "Pirate Spaceship",
+    "authorId": "cC4kkGcHd1k",
+    "authorName": "Виталий Исаченко",
+    "createTime": "2020-10-30T20:22:17.328372Z",
+    "updateTime": "2021-03-09T10:02:05.405305Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pirate.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pirate.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "pirate.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1022"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "pirate.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pirate.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "pirate.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1022"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

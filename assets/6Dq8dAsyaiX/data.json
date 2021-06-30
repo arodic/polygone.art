@@ -1,0 +1,55 @@
+{
+    "name": "Candy Carrusel",
+    "description": "Carrusel para dulces",
+    "authorId": "3tTd2e-3NMC",
+    "authorName": "Patrick Corico B.",
+    "createTime": "2018-02-21T15:21:52.254824Z",
+    "updateTime": "2020-09-25T10:00:35.788275Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "carrusel.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "carrusel.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "65024"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "carrusel.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "carrusel.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "65024"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

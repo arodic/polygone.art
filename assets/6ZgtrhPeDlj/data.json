@@ -1,0 +1,79 @@
+{
+    "name": "Super Mario (N64 Promo Model)",
+    "description": "DISCLAIMER: I did not create this. The original can be found here: https://www.models-resource.com/custom_edited/mariocustoms/model/24096/",
+    "authorId": "4JIV0bIuBfk",
+    "authorName": "SuperNerdMomMabel",
+    "createTime": "2020-08-07T08:39:27.414476Z",
+    "updateTime": "2021-03-29T16:51:02.429646Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mario_64.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mario_64.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "colors.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "hat.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MarioEye.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22134"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mario_64.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hat.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "mario_64.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "MarioEye.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "colors.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22134"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

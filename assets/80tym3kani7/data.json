@@ -1,0 +1,46 @@
+{
+    "name": "masterpiece vr export",
+    "authorId": "4FS4cExnwnT",
+    "authorName": "Greg Mertz",
+    "createTime": "2019-05-21T16:49:10.932775Z",
+    "updateTime": "2020-06-06T09:57:24.368071Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "export test full.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "75668"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "export test full.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "export test full.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "75668"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

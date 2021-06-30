@@ -1,0 +1,63 @@
+{
+    "name": "グリーンロードグリーン",
+    "description": "東京都小平市のプログラミング教室ハッピーコンピューティングです。\n小平市のご当地ヒーローコダレンジャーのグリーンロードグリーンを生徒さんにMagicaVoxelでモデリングしてもらいました。",
+    "authorId": "fPAvBoyugWy",
+    "authorName": "Takahiro Yamamoto",
+    "createTime": "2019-11-28T11:10:37.456032Z",
+    "updateTime": "2020-08-10T09:33:08.394324Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "green.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "green.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "green.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "460"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "green.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "green.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "green.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "460"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffff60"
+    }
+}

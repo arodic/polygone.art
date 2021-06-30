@@ -1,0 +1,55 @@
+{
+    "name": "very cute airplane",
+    "description": "a very cute airplane",
+    "authorId": "aBPF_UAGUow",
+    "authorName": "Akash Rudra",
+    "createTime": "2018-07-24T16:14:08.014078Z",
+    "updateTime": "2021-06-10T07:12:56.303968Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 12,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "airplane_.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "airplane_.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18676"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "airplane_.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "airplane_.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18676"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

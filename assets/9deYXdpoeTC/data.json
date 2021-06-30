@@ -1,0 +1,63 @@
+{
+    "name": "Rhino",
+    "authorId": "ffg8gYj2ooG",
+    "authorName": "Tom VanAntwerp",
+    "createTime": "2017-11-01T17:51:09.756574Z",
+    "updateTime": "2021-06-06T11:19:49.589805Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 41,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rhino.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rhino.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rhino-uv.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1025"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "rhino.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rhino.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rhino-uv.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1025"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

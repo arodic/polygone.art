@@ -1,0 +1,63 @@
+{
+    "name": "PFL Decagon Fight Cage",
+    "description": "This is the official fight cage of the Professional Fighters Leage",
+    "authorId": "fY9qaio3HK6",
+    "authorName": "Chris Diaz",
+    "createTime": "2018-03-22T17:02:02.026073Z",
+    "updateTime": "2020-10-06T10:01:57.519580Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PFL-Cage-3D-2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PFL-Cage-3D-2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "PFL-Cage-3D-2/_.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "676"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "PFL-Cage-3D-2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PFL-Cage-3D-2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PFL-Cage-3D-2/_.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "676"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#616161"
+    }
+}

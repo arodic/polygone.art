@@ -1,0 +1,72 @@
+{
+    "name": "Bedroom",
+    "description": "A simple bedroom",
+    "authorId": "8ASD9VID3yW",
+    "authorName": "Khor Chin Heong",
+    "createTime": "2017-11-02T04:45:27.953637Z",
+    "updateTime": "2021-05-24T22:09:04.385009Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated"
+    ],
+    "likes": 44,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bed.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bed.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "bedclock.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "non_touch_bar_macbook_pro.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2550"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bed.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bed.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "non_touch_bar_macbook_pro.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "bedclock.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2550"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

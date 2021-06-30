@@ -1,0 +1,60 @@
+{
+    "name": "shoe test",
+    "authorId": "2rEjHb3W75X",
+    "authorName": "Andrea Zvinakis",
+    "createTime": "2018-03-29T15:26:50.545664Z",
+    "updateTime": "2020-10-02T09:52:17.264295Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "white2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "white2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textured-0016384-diffuse_map.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16384"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "white2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured-0016384-diffuse_map.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "white2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16384"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#5062b0"
+    }
+}

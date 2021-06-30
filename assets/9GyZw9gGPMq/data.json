@@ -1,0 +1,66 @@
+{
+    "name": "T-Rex",
+    "description": "#dinosaur #tyrannosaurus",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-27T20:30:05.065849Z",
+    "updateTime": "2021-06-08T09:57:17.307629Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "dinosaur",
+        "tyrannosaurus"
+    ],
+    "likes": 63,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Dinosaur.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Dinosaur.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Dinosaur.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1022"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Dinosaur.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Dinosaur.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Dinosaur.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1022"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b71c1c"
+    }
+}

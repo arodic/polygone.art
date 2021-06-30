@@ -1,0 +1,62 @@
+{
+    "name": "Floating target",
+    "authorId": "eEv2UraXO4E",
+    "authorName": "Jason Anderson",
+    "createTime": "2019-10-07T18:09:07.556883Z",
+    "updateTime": "2020-10-06T10:39:43.149563Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ring.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ring.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ring.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ring.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ring.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ring.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

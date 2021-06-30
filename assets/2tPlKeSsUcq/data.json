@@ -1,0 +1,66 @@
+{
+    "name": "Don quijote",
+    "description": "Reconstrucción de un Quijote de madera fabricado a mano, tarea para realidad virtual UMNG 1802938",
+    "authorId": "arkd6liY__U",
+    "authorName": "EDINSON PORRAS HILARION",
+    "createTime": "2020-05-26T05:11:50.548893Z",
+    "updateTime": "2020-06-03T09:39:52.315799Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Quijote.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Quijote.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Quijote.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "40491"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Quijote.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Quijote.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Quijote.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "40491"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.6644630243886747,
+            "y": -0.24184476264797522,
+            "z": 2.7755575615628914e-17,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

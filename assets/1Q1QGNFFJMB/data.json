@@ -1,0 +1,71 @@
+{
+    "name": "car_revised 2",
+    "description": "car model",
+    "authorId": "d6tmHcslaM8",
+    "authorName": "Anuj Kumar",
+    "createTime": "2020-04-02T08:03:13.271454Z",
+    "updateTime": "2020-05-14T09:35:57.136269Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "car.FBX",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "wheel-spec.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "wheel.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "wheel-normalsmap.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "car.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "spec-red.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "92596"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "92596"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

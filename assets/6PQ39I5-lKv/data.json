@@ -1,0 +1,67 @@
+{
+    "name": "Diner",
+    "description": "#restaurant #eatery #fastfood",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T03:20:52.022948Z",
+    "updateTime": "2021-05-23T12:52:37.703482Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "restaurant",
+        "eatery",
+        "fastfood"
+    ],
+    "likes": 27,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_DINER.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_DINER.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "dinerSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2580"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_DINER.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_DINER.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dinerSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2580"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

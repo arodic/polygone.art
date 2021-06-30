@@ -1,0 +1,63 @@
+{
+    "name": "Just a test",
+    "description": "Testing images",
+    "authorId": "35QHZFo0Up_",
+    "authorName": "Brent Watanabe",
+    "createTime": "2019-06-19T02:28:10.196328Z",
+    "updateTime": "2020-09-30T09:28:02.211835Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "asPlane3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "asPlane3.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "IMG_0603.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "asPlane3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "asPlane3.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "IMG_0603.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "bloodorb",
+    "description": "lv10\n#lv10",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2019-03-17T23:31:13.307249Z",
+    "updateTime": "2020-10-07T10:24:33.809726Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "lv10"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "OrbBlood.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "blood-texture-2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "OrbBlood.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "39680"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "OrbBlood.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "OrbBlood.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "blood-texture-2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "39680"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

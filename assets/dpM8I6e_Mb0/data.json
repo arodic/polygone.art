@@ -1,0 +1,60 @@
+{
+    "name": "Iceland Photo",
+    "authorId": "8sfu31EpV_W",
+    "authorName": "Dan Medel",
+    "createTime": "2019-08-18T23:09:41.414209Z",
+    "updateTime": "2020-06-23T10:18:33.847049Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Iceland.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Iceland.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Layer 1.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "800"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Iceland.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Iceland.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Layer 1.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "800"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

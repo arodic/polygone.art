@@ -1,0 +1,48 @@
+{
+    "name": "Ember Ritual",
+    "description": "My first attempt at a Tiltbrush artwork, and also my first forray into VR and/or 3D art !\n\nHopefully my skills shall improve so that I can feel confident in the works and that they can be uploaded to Superrare.co, where I sell my artwork, but I think this one is a nice start",
+    "authorId": "eg1jTrSa4W-",
+    "authorName": "Peter Bock",
+    "createTime": "2020-06-29T09:40:58.928567Z",
+    "updateTime": "2020-10-01T10:22:11.820820Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "36250"
+            },
+            "formatType": "GLTF"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

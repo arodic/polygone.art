@@ -1,0 +1,49 @@
+{
+    "name": "figureA",
+    "description": "raw file",
+    "authorId": "6Jf8O5llq5A",
+    "authorName": "Tristan Klancke",
+    "createTime": "2018-11-29T21:41:31.529656Z",
+    "updateTime": "2020-09-28T10:31:04.794416Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "figure.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "21854"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "figure.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "figure.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "21854"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

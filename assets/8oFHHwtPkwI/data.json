@@ -1,0 +1,60 @@
+{
+    "name": "long plateau",
+    "authorId": "eGovNLf2UJT",
+    "authorName": "Natasha M",
+    "createTime": "2020-03-06T18:56:43.006605Z",
+    "updateTime": "2020-04-06T10:04:05.023122Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "longplateau/longplateau.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "longplateau/ColorMap_Darker.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "longplateau/longplateau.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14224"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "longplateau.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "longplateau.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "longplateau/ColorMap_Darker.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14224"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

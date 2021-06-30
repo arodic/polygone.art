@@ -1,0 +1,62 @@
+{
+    "name": "cheese burger",
+    "authorId": "3beVlvkQS0V",
+    "authorName": "Sergio Sanchez",
+    "createTime": "2019-09-09T02:09:09.044270Z",
+    "updateTime": "2020-10-27T13:45:27.844459Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "burger.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "burger_diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "burger.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "428"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "burger.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "burger.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "burger_diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "428"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

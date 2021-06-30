@@ -1,0 +1,68 @@
+{
+    "name": "Bear",
+    "description": "#bear #mammal #predator #omnivore",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-28T19:53:42.910542Z",
+    "updateTime": "2021-06-08T10:19:35.416633Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "bear",
+        "mammal",
+        "predator",
+        "omnivore"
+    ],
+    "likes": 26,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Bear.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Bear.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Bear.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "570"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Bear.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Bear.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Bear.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "570"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#bcaaa4"
+    }
+}

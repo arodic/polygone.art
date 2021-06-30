@@ -1,0 +1,60 @@
+{
+    "name": "Fun Cool Gazebo",
+    "authorId": "bsWSGscRwof",
+    "authorName": "Harold Sikkema",
+    "createTime": "2019-07-08T15:18:51.350181Z",
+    "updateTime": "2020-09-28T10:06:14.064678Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "threeWords.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Layer 1.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "threeWords.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "156"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "threeWords.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "threeWords.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Layer 1.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "156"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

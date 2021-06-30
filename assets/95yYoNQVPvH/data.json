@@ -1,0 +1,64 @@
+{
+    "name": "Test 1",
+    "authorId": "5dZZs-JXiOH",
+    "authorName": "Alvin Huang",
+    "createTime": "2020-02-25T09:18:33.198380Z",
+    "updateTime": "2020-02-25T21:31:20.419492Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "source/00_crossbow_mesh.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/Crossbow_Metallic.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Crossbow_Normal_DirectX.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Crossbow_Roughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Crossbow_Diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "29374"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "29374"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

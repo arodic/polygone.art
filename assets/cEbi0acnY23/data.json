@@ -1,0 +1,71 @@
+{
+    "name": "Bar scene",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T22:59:37.213098Z",
+    "updateTime": "2021-06-08T09:42:40.514204Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated"
+    ],
+    "likes": 59,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Bar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Bar_A_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Bar_B_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6284"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Bar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bar_A_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Bar_B_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6284"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#80cbc4"
+    }
+}

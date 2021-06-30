@@ -1,0 +1,88 @@
+{
+    "name": "Old Wire",
+    "description": "Photogrammetry, old wire. ",
+    "authorId": "eir2wO1PnVF",
+    "authorName": "Keenan Gray",
+    "createTime": "2020-09-10T21:51:54.413608Z",
+    "updateTime": "2020-09-12T09:44:14.097032Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture0.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture3.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "216616"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture0.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture2.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "texture3.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "216616"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

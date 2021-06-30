@@ -1,0 +1,63 @@
+{
+    "name": "kirb",
+    "description": "frien",
+    "authorId": "5yRKycVIJpe",
+    "authorName": "Richard Ziegler",
+    "createTime": "2021-04-01T01:48:13.928446Z",
+    "updateTime": "2021-04-01T01:54:56.724521Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "KirborbTextured.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "KirbDiffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "KirborbTextured.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2824"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "KirborbTextured.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "KirborbTextured.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "KirbDiffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2824"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e2b62"
+    }
+}

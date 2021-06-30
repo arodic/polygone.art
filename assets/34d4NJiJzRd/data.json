@@ -1,0 +1,62 @@
+{
+    "name": "SwampPlanet #FV1",
+    "authorId": "01O5AGZco7f",
+    "authorName": "Fragmastre TV",
+    "createTime": "2020-07-01T16:39:22.732314Z",
+    "updateTime": "2020-07-11T09:35:39.289482Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "swampplanet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "swampplanet.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TexturesForPlanets-HabitableWorldsPack/Swamp.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "swampplanet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "swampplanet.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "TexturesForPlanets-HabitableWorldsPack/Swamp.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

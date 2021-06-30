@@ -1,0 +1,63 @@
+{
+    "name": "RQPoster001",
+    "description": "RQPoster001",
+    "authorId": "6c0JrgmV9Cm",
+    "authorName": "Jake K-H",
+    "createTime": "2020-05-16T13:26:04.514884Z",
+    "updateTime": "2020-05-22T09:56:32.563589Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "RQ-Poster.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rq-png.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "RQ-Poster.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "RQ-Poster.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "RQ-Poster.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rq-png.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

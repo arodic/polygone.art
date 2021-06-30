@@ -1,0 +1,66 @@
+{
+    "name": "Garden",
+    "description": "#flower #foliage",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T22:54:30.882353Z",
+    "updateTime": "2021-06-10T15:43:47.554059Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "flower",
+        "foliage"
+    ],
+    "likes": 71,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Garden.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Garden.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Garden_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18410"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Garden.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Garden.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Garden_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18410"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c5e1a5"
+    }
+}

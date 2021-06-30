@@ -1,0 +1,56 @@
+{
+    "name": "Catapult (siege)",
+    "description": "Catapult (part of the \"Castle Kit\")",
+    "authorId": "eXHWcA97LIw",
+    "authorName": "Kenney",
+    "createTime": "2017-11-01T19:42:45.231433Z",
+    "updateTime": "2020-10-04T10:37:39.967753Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "siegeCatapult.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "siegeCatapult.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2096"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "siegeCatapult.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "siegeCatapult.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2096"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

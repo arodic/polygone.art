@@ -1,0 +1,63 @@
+{
+    "name": "voxel Zero-Fighter type21",
+    "description": "Japanese wartime attack aircraft.",
+    "authorId": "49ohsQTCbte",
+    "authorName": "spacedogs",
+    "createTime": "2019-02-26T18:57:01.785392Z",
+    "updateTime": "2021-05-17T04:24:27.456465Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "zeroFighter.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "zeroFighter.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "zeroFighter.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "488"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "zeroFighter.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "zeroFighter.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "zeroFighter.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "488"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

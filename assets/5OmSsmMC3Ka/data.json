@@ -1,0 +1,63 @@
+{
+    "name": "simple05 5OmSsmMC3Ka",
+    "description": "simple .obj, .mtl and .png 5OmSsmMC3Ka\n\nシンプルオブジェクト",
+    "authorId": "1WW26PGEhA7",
+    "authorName": "平井貴明",
+    "createTime": "2019-07-02T12:57:52.078065Z",
+    "updateTime": "2020-02-25T20:44:03.741440Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "simple05.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple05.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "simple05.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "simple05.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "simple05.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "simple05.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

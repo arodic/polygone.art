@@ -1,0 +1,47 @@
+{
+    "name": "Andys Avatar test",
+    "description": "Avatar testing",
+    "authorId": "f_uYg_Ji_8B",
+    "authorName": "Andy Wood",
+    "createTime": "2018-03-22T03:26:15.753602Z",
+    "updateTime": "2020-10-03T09:33:45.460885Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "avatar.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "4253"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "avatar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "avatar.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4253"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

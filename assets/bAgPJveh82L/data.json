@@ -1,0 +1,70 @@
+{
+    "name": "Kangaroo",
+    "authorId": "9oD47BdnwL9",
+    "authorName": "Sarah Burton",
+    "createTime": "2019-07-31T06:02:55.265691Z",
+    "updateTime": "2020-02-25T21:59:32.973452Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "kangaroo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "kangaroo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kangaroo_body_diffuse_v01.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "kangaroo_eyes_diffuse_v01.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "37826"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "kangaroo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kangaroo_body_diffuse_v01.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "kangaroo_eyes_diffuse_v01.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "kangaroo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "37826"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#7bd667"
+    }
+}

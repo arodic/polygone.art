@@ -1,0 +1,57 @@
+{
+    "name": "Satellite Projection",
+    "description": "Visualization of how camera pixels on a satellite project onto the surface of the Earth. Blue is camera pixel grid, green is Earth lat/long.",
+    "authorId": "eEmiBTJuh-5",
+    "authorName": "Adrian Campbell",
+    "createTime": "2018-04-22T15:33:45.788525Z",
+    "updateTime": "2020-10-02T10:07:25.480208Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TILTBRUSH_whiteTextureMap.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50784"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    },
+    "remixInfo": {
+        "sourceAsset": [
+            "assets/7QMEqafOyI4"
+        ]
+    }
+}

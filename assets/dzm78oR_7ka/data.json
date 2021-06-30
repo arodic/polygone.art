@@ -1,0 +1,40 @@
+{
+    "name": "2d reference image for oculus",
+    "authorId": "6KC3RskGDJ-",
+    "authorName": "Francis Szakacs",
+    "createTime": "2019-06-08T18:50:19.125911Z",
+    "updateTime": "2020-09-23T10:26:14.916199Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fileName.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fileName.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

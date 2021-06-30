@@ -1,0 +1,65 @@
+{
+    "name": "Laptop",
+    "description": "#computer",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-26T14:45:23.672640Z",
+    "updateTime": "2021-06-08T09:50:58.464473Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated",
+        "computer"
+    ],
+    "likes": 50,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Laptop.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Laptop.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Laptop_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1240"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Laptop.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Laptop.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Laptop_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1240"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#bdbdbd"
+    }
+}

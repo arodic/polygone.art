@@ -1,0 +1,67 @@
+{
+    "name": "Cowboy boots",
+    "description": "#shoes #footwear #bronco",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T19:03:01.690436Z",
+    "updateTime": "2021-05-28T09:18:48.078953Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "shoes",
+        "footwear",
+        "bronco"
+    ],
+    "likes": 22,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CowboyBoots.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CowboyBoots.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "CowboyBoots_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1540"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CowboyBoots.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CowboyBoots.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CowboyBoots_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1540"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f06292"
+    }
+}

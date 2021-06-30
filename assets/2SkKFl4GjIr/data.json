@@ -1,0 +1,56 @@
+{
+    "name": "Earth - Terrain",
+    "description": "Simple terrain map created in 3ds Max for use in an upcoming Tilt Brush project",
+    "authorId": "fa4m5c69h51",
+    "authorName": "Robert Mirabelle",
+    "createTime": "2017-11-16T02:32:50.585925Z",
+    "updateTime": "2021-06-10T07:51:41.549961Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 64,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earth_terrain.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_terrain.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "194626"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "earth_terrain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_terrain.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "194626"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

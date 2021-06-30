@@ -1,0 +1,63 @@
+{
+    "name": "Metronome",
+    "authorId": "3PWod2CaKEQ",
+    "authorName": "Aubrey Backscheider",
+    "createTime": "2017-12-17T23:16:54.622708Z",
+    "updateTime": "2020-09-20T10:18:21.046663Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "metronome.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "metronome.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "metronome.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "209165"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "metronome.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "metronome.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "metronome.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "209165"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

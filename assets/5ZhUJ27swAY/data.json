@@ -1,0 +1,50 @@
+{
+    "name": "elefante",
+    "description": "OBJETO 3D ",
+    "authorId": "1dXBsR2pDiv",
+    "authorName": "EMILIO MURO",
+    "createTime": "2017-11-04T14:39:26.477030Z",
+    "updateTime": "2020-10-07T09:49:31.949561Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "elefante.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "90916"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "elefante.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "elefante.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90916"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

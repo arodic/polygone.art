@@ -1,0 +1,60 @@
+{
+    "name": "Whatever",
+    "authorId": "0Mj-3GAAYOh",
+    "authorName": "Praphassorn Deesue",
+    "createTime": "2018-12-19T06:46:27.471420Z",
+    "updateTime": "2020-02-25T21:08:57.629562Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "whatever.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "whatever.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "whatever.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4826"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "whatever.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "whatever.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "whatever.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4826"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

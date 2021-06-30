@@ -1,0 +1,62 @@
+{
+    "name": "Bottle of Wine",
+    "authorId": "4b_WIg3Ydqr",
+    "authorName": "Darrell Hargett",
+    "createTime": "2020-02-05T08:28:22.245832Z",
+    "updateTime": "2020-10-06T10:29:20.240766Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wine.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "f85b9ac4-13fa-4c36-953c-acb0844496c1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wine.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10464"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "wine.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wine.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "f85b9ac4-13fa-4c36-953c-acb0844496c1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10464"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#27ba9f"
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "name": "Cren One & Akte One Museum",
+    "description": "Berlin float",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-02-26T10:37:29.676706Z",
+    "updateTime": "2020-10-07T09:41:54.101408Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "museumwallberlinfloat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "museumwallberlinfloat.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "berlin-frei-blackbg.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "trabbihaube.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wall-placeholder.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12532"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "museumwallberlinfloat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "berlin-frei-blackbg.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "museumwallberlinfloat.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "trabbihaube.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wall-placeholder.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12532"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

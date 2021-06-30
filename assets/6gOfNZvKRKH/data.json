@@ -1,0 +1,55 @@
+{
+    "name": "Foam Plate",
+    "description": "www.spaulmichael.us",
+    "authorId": "6ByGydIGpMy",
+    "authorName": "Paul Michael",
+    "createTime": "2018-04-04T17:03:17.365415Z",
+    "updateTime": "2020-02-25T21:00:17.711844Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "foam_plate.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "foam_plate.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2700"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "foam_plate.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "foam_plate.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2700"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

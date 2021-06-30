@@ -1,0 +1,68 @@
+{
+    "name": "Unfinished Eyez Wavvy Model",
+    "description": "Testing model for our Eyez Wavvy Character in the upcoming \"PROJECT Ark\"",
+    "authorId": "2JGG4bDg29-",
+    "authorName": "David Pijan",
+    "createTime": "2019-05-13T06:13:11.121383Z",
+    "updateTime": "2020-09-27T09:34:48.120973Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "EY.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "EY.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "EY_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "EY_Packed0_Specular.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32433"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "EY.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "EY.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "EY_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32433"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

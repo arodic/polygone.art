@@ -1,0 +1,60 @@
+{
+    "name": "apt",
+    "authorId": "74EYXsXYcze",
+    "authorName": "Poly Siggraph",
+    "createTime": "2018-08-14T22:32:57.088480Z",
+    "updateTime": "2020-10-01T09:25:54.586419Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "unnamed.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Apartment_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "unnamed.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2088"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "unnamed.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "unnamed.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Apartment_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2088"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

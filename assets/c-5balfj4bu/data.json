@@ -1,0 +1,67 @@
+{
+    "name": "Cinema",
+    "description": "#building #town #movies",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T20:36:27.312380Z",
+    "updateTime": "2021-06-08T11:14:07.082509Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated",
+        "building",
+        "town",
+        "movies"
+    ],
+    "likes": 39,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Cinema.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cinema.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Cinema_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "958"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Cinema.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cinema.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Cinema_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "958"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2e7d32"
+    }
+}

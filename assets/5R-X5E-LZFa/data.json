@@ -1,0 +1,68 @@
+{
+    "name": "pony",
+    "authorId": "cu2_HmszmiB",
+    "authorName": "Elisa Baron",
+    "createTime": "2019-10-09T08:41:49.168513Z",
+    "updateTime": "2020-10-04T09:48:08.004432Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ponyrun.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ponyrun.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ponyrunImage1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ponyrunImageColorPerFace.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "150642"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ponyrun.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ponyrun.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ponyrunImage1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ponyrunImageColorPerFace.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "150642"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

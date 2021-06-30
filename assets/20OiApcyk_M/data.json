@@ -1,0 +1,63 @@
+{
+    "name": "me test",
+    "description": "me test",
+    "authorId": "6EtNmSLiPSa",
+    "authorName": "artur coelho",
+    "createTime": "2020-02-19T13:04:03.163142Z",
+    "updateTime": "2020-09-14T09:35:46.794656Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "20200219_121246.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "model_face.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "898"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "20200219_121246.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "20200219_121246.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "model_face.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "898"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Liquigull",
+    "description": "Model for BattlePets.",
+    "authorId": "4D7wzThTIh0",
+    "authorName": "Valrok",
+    "createTime": "2018-12-07T23:04:15.138206Z",
+    "updateTime": "2020-06-23T10:19:48.760796Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Liquigull.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Liquigull.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Liquigull.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "300"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Liquigull.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Liquigull.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Liquigull.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "300"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

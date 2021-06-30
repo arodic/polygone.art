@@ -1,0 +1,68 @@
+{
+    "name": "TestMol4",
+    "authorId": "0ixnnc84cwe",
+    "authorName": "Daniel Caspi",
+    "createTime": "2020-07-15T14:08:55.141880Z",
+    "updateTime": "2020-07-16T09:36:45.639205Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "blender_export.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "blender_export.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "0_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "0_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9968"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "blender_export.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "blender_export.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "0_1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "0_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9968"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

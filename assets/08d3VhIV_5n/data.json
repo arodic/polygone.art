@@ -1,0 +1,65 @@
+{
+    "name": "test",
+    "description": "test",
+    "authorId": "7ppQJX4AIIO",
+    "authorName": "René Aymar García",
+    "createTime": "2019-04-18T12:30:02.613600Z",
+    "updateTime": "2020-02-25T19:52:37.975428Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Lamborghini_Aventador.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lamborghini_Aventador.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Lamborginhi Aventador_diffuse.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10374"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Lamborghini_Aventador.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Lamborghini_Aventador.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Lamborginhi Aventador_diffuse.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Lamborginhi Aventador_spec.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10374"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

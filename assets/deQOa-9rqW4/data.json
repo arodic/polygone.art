@@ -1,0 +1,63 @@
+{
+    "name": "Liquor - Smirnoff vodka",
+    "description": "EVOL\nTheWaveVR",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-04-10T04:44:54.013296Z",
+    "updateTime": "2020-05-01T15:47:41.045116Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 11,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Smir.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Smir.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Smir/smirnoff_vodka_946.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1964"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Smir.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Smir.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Smir/smirnoff_vodka_946.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1964"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b71c1c"
+    }
+}

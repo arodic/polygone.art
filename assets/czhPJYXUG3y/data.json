@@ -1,0 +1,63 @@
+{
+    "name": "test1e pic1",
+    "description": "test1e #test1e",
+    "authorId": "6EAUO9l9EA2",
+    "authorName": "micah O",
+    "createTime": "2019-09-16T02:17:17.504393Z",
+    "updateTime": "2020-06-21T10:13:30.308010Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "test1e"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model_with_alpha_test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "3ae8c2d8-b661-45e5-ab81-5afcce9c1841.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model_with_alpha_test.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "model_with_alpha_test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model_with_alpha_test.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "3ae8c2d8-b661-45e5-ab81-5afcce9c1841.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

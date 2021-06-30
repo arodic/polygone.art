@@ -1,0 +1,63 @@
+{
+    "name": "Seed",
+    "description": "A seed scaned using photogrammetry",
+    "authorId": "dnajruEXWvY",
+    "authorName": "Mauricio Fernandez Medina",
+    "createTime": "2017-11-02T16:28:17.993112Z",
+    "updateTime": "2020-12-27T19:28:50.669329Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Seed.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Seed.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SeedLow_Albedo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7604"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Seed.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SeedLow_Albedo.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Seed.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7604"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

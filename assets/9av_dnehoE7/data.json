@@ -1,0 +1,60 @@
+{
+    "name": "plaque 1",
+    "authorId": "2HqS8eksUEG",
+    "authorName": "Tim Hennessey",
+    "createTime": "2018-05-04T22:00:17.656983Z",
+    "updateTime": "2020-09-06T09:59:41.779016Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "plaque.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "plaque.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Baja_Blast_Logo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "plaque.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "plaque.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Baja_Blast_Logo.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

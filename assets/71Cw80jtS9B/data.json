@@ -1,0 +1,71 @@
+{
+    "name": "honeycomb FBX stag 091918",
+    "description": "stag FBX upload 091918",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-09-19T18:41:57.557867Z",
+    "updateTime": "2020-08-26T09:55:56.725635Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "model/gltf-binary"
+                },
+                {
+                    "relativePath": "459_Honey_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "459_Honey_D.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35918"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "459_Honey_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "459_Honey_R.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "459_Honey_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "459_Honey_D.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35918"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff5722"
+    }
+}

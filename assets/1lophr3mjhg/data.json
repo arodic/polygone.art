@@ -1,0 +1,54 @@
+{
+    "name": "House",
+    "authorId": "6VPG2bq3lY9",
+    "authorName": "Jordan Diamante (djiordhan)",
+    "createTime": "2018-06-10T14:11:38.516944Z",
+    "updateTime": "2021-06-02T18:56:41.926311Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "house.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "house.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5884"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "house.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "house.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5884"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

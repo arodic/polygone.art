@@ -1,0 +1,63 @@
+{
+    "name": "Single 360 Photo to 3D",
+    "description": "An example of a single 360 photo converted into a 3D VR environment'",
+    "authorId": "2kVeLkCJT5n",
+    "authorName": "hasoevo",
+    "createTime": "2019-11-30T00:50:10.983421Z",
+    "updateTime": "2020-10-28T07:41:31.418377Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "combined.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "combined.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "image1573053205820.JPG.obj.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4305"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "combined.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "image1573053205820.JPG.obj.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "combined.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4305"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Bowling Alley",
+    "description": "Noticed some issue on export such as the finger holes showing on the ball. Will fix this later and re-upload. ",
+    "authorId": "blo-le7YgF8",
+    "authorName": "Nicholas Johannsen",
+    "createTime": "2017-11-07T21:15:19.464964Z",
+    "updateTime": "2020-10-04T10:01:57.547002Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BowlingSetup.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BowlingSetup.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19048"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "BowlingSetup.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BowlingSetup.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "19048"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

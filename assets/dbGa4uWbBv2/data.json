@@ -1,0 +1,49 @@
+{
+    "name": "Face Mesh",
+    "description": "Spark AR Face Mesh ",
+    "authorId": "c_fbOOR9JuK",
+    "authorName": "Damara Yolanda Inglês",
+    "createTime": "2020-12-21T18:41:37.236075Z",
+    "updateTime": "2021-04-30T23:31:28.424512Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "faceMesh.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "2518"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "faceMesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "faceMesh.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2518"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

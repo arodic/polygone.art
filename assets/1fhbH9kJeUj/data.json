@@ -1,0 +1,64 @@
+{
+    "name": "Ruine de guerre",
+    "description": "Ruine de guerre située sur le champ de bataille de Verdun (Meuse).",
+    "authorId": "b7FGAh1V-Bc",
+    "authorName": "JMCdrone",
+    "createTime": "2019-10-31T11:23:09.969236Z",
+    "updateTime": "2020-09-29T09:33:17.521450Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Ornes.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Ornes.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Ornes.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "160416"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Ornes.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Ornes.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Ornes.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "160416"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

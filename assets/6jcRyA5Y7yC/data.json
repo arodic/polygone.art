@@ -1,0 +1,71 @@
+{
+    "name": "MoikeDNALounge",
+    "description": "TheWaveVR",
+    "authorId": "9-GSRLfpTro",
+    "authorName": "Moike",
+    "createTime": "2018-07-31T08:44:19.450853Z",
+    "updateTime": "2020-09-13T09:50:17.685849Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dna-lounge.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "furniture-bake.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "mainroom-diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dna-lounge.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "72239"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dna-lounge.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dna-lounge.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mainroom-diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "furniture-bake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "72239"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

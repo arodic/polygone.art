@@ -1,0 +1,61 @@
+{
+    "name": "Andrews Mouse",
+    "description": "Andrews Mouse",
+    "authorId": "4tOBgToLvFn",
+    "authorName": "Andrew VR",
+    "createTime": "2018-08-12T11:30:09.771879Z",
+    "updateTime": "2020-09-25T22:33:46.054902Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ComputerMouse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ComputerMouse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ComputerMouse_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "210"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "ComputerMouse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ComputerMouse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ComputerMouse_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "210"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

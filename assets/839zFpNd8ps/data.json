@@ -1,0 +1,67 @@
+{
+    "name": "royal4",
+    "description": "royal4",
+    "authorId": "e-3GMrSCN9K",
+    "authorName": "Nabs Ishaq",
+    "createTime": "2020-08-14T20:19:50.019481Z",
+    "updateTime": "2020-08-14T20:26:04.729257Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "new/Sample01Obj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "new/Sample01Obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "new/Sample1Test_copy_defaultMat_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "new/Sample1Test_copy_defaultMat_normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5760"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Sample01Obj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Sample01Obj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "new/Sample1Test_copy_defaultMat_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5760"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

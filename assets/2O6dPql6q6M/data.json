@@ -1,0 +1,71 @@
+{
+    "name": "house model",
+    "description": "inspiration: \nhttp://andgatherer.tumblr.com/image/28117366076",
+    "authorId": "e5-VcJm2NW1",
+    "authorName": "Ali Haider",
+    "createTime": "2017-11-08T03:08:17.942690Z",
+    "updateTime": "2020-10-06T09:39:26.248978Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "house_model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "house_model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "balsa_wood.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "drywall.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "769"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "house_model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "balsa_wood.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "drywall.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "house_model.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "769"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

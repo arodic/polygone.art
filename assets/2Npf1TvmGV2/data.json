@@ -1,0 +1,66 @@
+{
+    "name": "Cat eyes",
+    "description": "#cat #eyes",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T19:33:21.262441Z",
+    "updateTime": "2021-06-05T21:49:10.093987Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "cat",
+        "eyes"
+    ],
+    "likes": 26,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "catEye.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "catEye.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cateyeTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "408"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "catEye.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "catEye.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "cateyeTxt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "408"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

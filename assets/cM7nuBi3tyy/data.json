@@ -1,0 +1,63 @@
+{
+    "name": "Test",
+    "description": "Test",
+    "authorId": "cnPPduWcFR2",
+    "authorName": "Nacho Ornelas Cravioto",
+    "createTime": "2019-08-23T03:26:47.263171Z",
+    "updateTime": "2020-05-29T10:20:19.143914Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Test/Screen_Shot_2019_08_19_at_1_47_17_PM.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Test/Screen_Shot_2019_08_19_at_1_47_17_PM.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

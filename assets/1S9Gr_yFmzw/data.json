@@ -1,0 +1,63 @@
+{
+    "name": "doll01",
+    "description": "第一号号です",
+    "authorId": "cf8OT6MGKqm",
+    "authorName": "門間康起",
+    "createTime": "2021-02-16T07:34:40.056810Z",
+    "updateTime": "2021-02-16T07:40:54.295438Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "doll01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "doll01.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "doll01/doll0101.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "doll01/doll01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "doll01/doll0101.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "doll01/doll01.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "mask",
+    "authorId": "2_0Du7O_2cI",
+    "authorName": "alex wechter",
+    "createTime": "2020-02-20T06:59:24.795317Z",
+    "updateTime": "2020-02-25T20:37:02.272548Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "texturedMesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture_1001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "690706"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "texturedMesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture_1001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "690706"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

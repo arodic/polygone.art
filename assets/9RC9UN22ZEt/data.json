@@ -1,0 +1,61 @@
+{
+    "name": "Holy Cow",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-11-23T12:14:38.073521Z",
+    "updateTime": "2021-01-15T00:55:10.328263Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "holycow.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "holycow.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rust3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "17484"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "holycow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "holycow.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rust3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "17484"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

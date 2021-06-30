@@ -1,0 +1,60 @@
+{
+    "name": "minecraft",
+    "authorId": "0qYze-rTxZ2",
+    "authorName": "passakorn jantanabubpha",
+    "createTime": "2019-01-04T05:25:44.258624Z",
+    "updateTime": "2020-07-28T09:54:23.331850Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "minecreft.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "minecreft.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "minecreft.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3146"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "minecreft.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "minecreft.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "minecreft.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3146"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

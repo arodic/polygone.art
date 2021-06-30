@@ -1,0 +1,60 @@
+{
+    "name": "spirit mural 2",
+    "authorId": "9eF8Zyc4Q-o",
+    "authorName": "Paul Deo",
+    "createTime": "2020-09-09T20:54:01.319363Z",
+    "updateTime": "2020-09-09T21:00:02.764766Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "paul-light.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "paul-light.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "paul.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "paul-light.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "paul.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "paul-light.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

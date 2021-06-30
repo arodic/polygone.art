@@ -1,0 +1,71 @@
+{
+    "name": "Gas Container",
+    "description": "Small gas container",
+    "authorId": "1lytaElREdg",
+    "authorName": "cayu2008",
+    "createTime": "2018-04-23T14:40:30.929234Z",
+    "updateTime": "2020-10-06T10:00:13.234599Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gas.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gas.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "gas_diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "gas_gloss.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "gas_normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6770"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "gas.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gas.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gas_diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6770"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

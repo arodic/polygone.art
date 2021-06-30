@@ -1,0 +1,62 @@
+{
+    "name": "hill",
+    "authorId": "bIp-6QZS_RD",
+    "authorName": "Nathan Pierzchalski",
+    "createTime": "2020-08-15T18:43:27.827266Z",
+    "updateTime": "2020-08-15T18:52:09.769077Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_HILL.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hillSurface_Color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "CUPIC_HILL.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "800"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_HILL.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_HILL.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hillSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "800"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

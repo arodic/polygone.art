@@ -1,0 +1,64 @@
+{
+    "name": "Cone TFX",
+    "description": "Another TFX for #TheWaveVR",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-04-07T21:30:50.909451Z",
+    "updateTime": "2020-02-25T21:22:25.007769Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "TheWaveVR"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "magiccone.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bkblmg.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "magiccone.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "62"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "magiccone.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "magiccone.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bkblmg.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "62"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1a237e"
+    }
+}

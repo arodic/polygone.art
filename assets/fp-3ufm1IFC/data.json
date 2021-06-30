@@ -1,0 +1,64 @@
+{
+    "name": "Abandoned City",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-05-15T14:50:54.451410Z",
+    "updateTime": "2021-03-22T05:56:36.560508Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "abandoned_city.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "abandoned_city.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "abandoned_city_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "abandoned_city_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "58887"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "abandoned_city.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "abandoned_city.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "abandoned_city_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "58887"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

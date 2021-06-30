@@ -1,0 +1,60 @@
+{
+    "name": "Icosaeder",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-11-15T09:58:53.739950Z",
+    "updateTime": "2020-10-04T09:59:51.017763Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "icosaeder.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "icosaeder.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rainbowgradien.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "576"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "icosaeder.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "icosaeder.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rainbowgradien.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "576"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#192659"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "name": "Apples_01",
+    "description": "Manzanas ",
+    "authorId": "3VtKN1gthmK",
+    "authorName": "Alejandro Castillo Martinez",
+    "createTime": "2020-10-12T14:47:50.775619Z",
+    "updateTime": "2020-10-12T14:53:21.164593Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Apple_Texture_by_AGF81.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "56.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2787"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "apples.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {
+                "triangleCount": "2787"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

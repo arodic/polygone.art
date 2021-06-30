@@ -1,0 +1,63 @@
+{
+    "name": "crab",
+    "description": "fantasy",
+    "authorId": "7wWSL6BMhDl",
+    "authorName": "M Smith Jonn",
+    "createTime": "2018-03-27T10:24:33.410411Z",
+    "updateTime": "2020-09-23T10:16:43.304545Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "google poly red.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "body-red.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "google poly red.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1220"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "google poly red.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "google poly red.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "body-red.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1220"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

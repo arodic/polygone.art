@@ -1,0 +1,68 @@
+{
+    "name": "Hotel",
+    "description": "#lodging #resort #motel #hostel",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-20T03:34:50.531813Z",
+    "updateTime": "2021-06-02T12:50:06.952941Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes",
+        "curated",
+        "lodging",
+        "resort",
+        "motel",
+        "hostel"
+    ],
+    "likes": 54,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_HOTEL.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_HOTEL.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "HotelSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13459"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_HOTEL.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_HOTEL.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "HotelSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13459"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

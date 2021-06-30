@@ -1,0 +1,63 @@
+{
+    "name": "cartoon banana car",
+    "description": "A simple banana car - low poly",
+    "authorId": "8vb9ErAwO2m",
+    "authorName": "Felipe Lujan-Bear",
+    "createTime": "2018-08-08T20:27:47.353671Z",
+    "updateTime": "2021-02-18T10:37:50.956256Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "banana-car-png-6.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "banana-car-png-6.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tire_color_mat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2916"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "banana-car-png-6.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "banana-car-png-6.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tire_color_mat.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2916"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "name": "M joints",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-24T16:20:29.618036Z",
+    "updateTime": "2020-02-25T22:33:04.739554Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "joints.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "joints.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "joints_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "joints.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "joints.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "joints_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "joints_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "y": 0.7071067811865476,
+            "z": -1.570092458683775e-16,
+            "w": 1.5700924586837752e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

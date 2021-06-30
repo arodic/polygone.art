@@ -1,0 +1,59 @@
+{
+    "name": "bomb",
+    "description": "simple bomb model\n\n#tnt #explosive #weapon #bomb",
+    "authorId": "9b_uFfqqH-b",
+    "authorName": "nebula",
+    "createTime": "2020-08-07T19:51:49.678204Z",
+    "updateTime": "2020-10-02T10:32:19.950439Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "tnt",
+        "explosive",
+        "weapon",
+        "bomb"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bomb.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bomb.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1084"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bomb.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bomb.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1084"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9bbfdb"
+    }
+}

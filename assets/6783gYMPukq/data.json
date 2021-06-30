@@ -1,0 +1,63 @@
+{
+    "name": "Liquor - Hendrick's Gin",
+    "description": "EVOL\nTheWaveVR",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-04-10T04:50:45.571713Z",
+    "updateTime": "2020-06-10T22:53:40.632112Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Hend.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Hend.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Hend/Hendricks_bottle_290107.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4416"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Hend.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Hend.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Hend/Hendricks_bottle_290107.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4416"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#757575"
+    }
+}

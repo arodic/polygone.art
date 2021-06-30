@@ -1,0 +1,64 @@
+{
+    "name": "Demo Room",
+    "authorId": "b3hKEdytX8J",
+    "authorName": "tsvi lev",
+    "createTime": "2020-05-18T08:37:24.477373Z",
+    "updateTime": "2020-09-22T10:26:17.579544Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Demo-Room.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Demo-Room.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Demo-Room/Demo-Room.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "762265"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Demo-Room.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Demo-Room/Demo-Room.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Demo-Room/Demo-Room_normal.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Demo-Room.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "762265"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

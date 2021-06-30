@@ -1,0 +1,63 @@
+{
+    "name": "東京",
+    "description": "東京都小平市のプログラミング教室ハッピーコンピューティングです。\n『まるごとわかる3Dドットモデリング』という書籍をもとに、小学6年生の生徒さんにモデリングしてもらいました。\nすばらしい書籍で子どもたちがとても力をつけてくれます。",
+    "authorId": "fPAvBoyugWy",
+    "authorName": "Takahiro Yamamoto",
+    "createTime": "2019-12-11T07:30:06.034741Z",
+    "updateTime": "2020-09-07T09:49:19.836049Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "toukyoutawa-.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "toukyoutawa-.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "toukyoutawa-.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13584"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "toukyoutawa-.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "toukyoutawa-.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "toukyoutawa-.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13584"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "name": "Wario (SS64DS",
+    "description": "Wario. Just Wario",
+    "authorId": "78QJD_p4GO9",
+    "authorName": "Anonymous",
+    "createTime": "2020-10-22T01:02:52.518807Z",
+    "updateTime": "2020-10-22T01:08:25.474151Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wario.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wario.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Wario/wario_body.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Wario/wario_head.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Wario/wario_eye_1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "429"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Wario/wario.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Wario/wario.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Wario/wario_body.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Wario/wario_eye_1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Wario/wario_head.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "429"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

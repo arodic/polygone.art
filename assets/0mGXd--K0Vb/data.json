@@ -1,0 +1,60 @@
+{
+    "name": "Test Cube",
+    "authorId": "35QHZFo0Up_",
+    "authorName": "Brent Watanabe",
+    "createTime": "2019-06-18T17:20:35.076439Z",
+    "updateTime": "2020-10-05T09:29:30.180083Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "testCube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "testCube.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "IMG_0603.PNG",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "testCube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "IMG_0603.PNG",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "testCube.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

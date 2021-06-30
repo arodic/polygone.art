@@ -1,0 +1,63 @@
+{
+    "name": "Wildcat Statue",
+    "description": "A statue on the campus of the University of Arizona. The 3D model was captured with the app Display.land and then processed in Blender",
+    "authorId": "2E_yxXvhmYl",
+    "authorName": "Kyle Pearson",
+    "createTime": "2020-03-21T01:03:22.012988Z",
+    "updateTime": "2020-09-16T10:13:14.152697Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wildcat_statue.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wildcat_statue.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "map_73ac481f-e698-425c-a5fe-61fb2f21b723_densified_mesh_textured_4096.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "224548"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "wildcat_statue.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "map_73ac481f-e698-425c-a5fe-61fb2f21b723_densified_mesh_textured_4096.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "wildcat_statue.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "224548"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

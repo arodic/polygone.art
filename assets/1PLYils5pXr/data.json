@@ -1,0 +1,49 @@
+{
+    "name": "<img src=x onerror=alert('X')>",
+    "description": "<img src=x onerror=alert('XSS')>",
+    "authorId": "2hJycSzPx3A",
+    "authorName": "Steve Musk",
+    "createTime": "2020-08-11T08:50:53.836610Z",
+    "updateTime": "2020-08-18T09:26:10.217354Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "<img src=x onerror=alert('XSS')>.html.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "276"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "<img src=x onerror=alert('XSS')>.html.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "<img src=x onerror=alert('XSS')>.html.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "276"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

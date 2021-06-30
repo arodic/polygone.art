@@ -1,0 +1,67 @@
+{
+    "name": "Etch a Sketch",
+    "description": "#drawing #easel #art",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-08T23:40:06.764427Z",
+    "updateTime": "2021-06-08T10:50:07.519164Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "drawing",
+        "easel",
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "etch a sketch.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "etch a sketch.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "etch a sketch Txt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "626"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "etch a sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "etch a sketch.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "etch a sketch Txt.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "626"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865477,
+            "w": -0.7071067811865474
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fff176"
+    }
+}

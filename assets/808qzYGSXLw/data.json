@@ -1,0 +1,63 @@
+{
+    "name": "Lampe à huile",
+    "description": "Provenance inconnue\n\nPâte rose jaune, couverte luisante rouge.\nForme carrée pour le réservoir avec disque rond en cuvette, entouré d'un tore. Bec long, en pelle, séparé par un trait horizontal  sans anse.\n",
+    "authorId": "6Rjxsb4SCr0",
+    "authorName": "Musée d'Archéologie de Nice / Cimiez",
+    "createTime": "2020-05-15T12:03:49.748969Z",
+    "updateTime": "2020-10-07T10:00:42.838328Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "lampecarree.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "lampecarree.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "lampecarree.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "lampecarree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "lampecarree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lampecarree.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "30000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

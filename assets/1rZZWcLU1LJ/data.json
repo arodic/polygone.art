@@ -1,0 +1,58 @@
+{
+    "name": "tree",
+    "description": "tiltbrush painting",
+    "authorId": "9c08qxDoD2I",
+    "authorName": "Hell Houndz Productions",
+    "createTime": "2018-03-31T14:47:45.105650Z",
+    "updateTime": "2021-02-26T03:48:48.636993Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TILTBRUSH_whiteTextureMap.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "32302"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    },
+    "remixInfo": {
+        "sourceAsset": [
+            "assets/2iA5lh_JZhd"
+        ]
+    }
+}

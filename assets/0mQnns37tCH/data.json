@@ -1,0 +1,55 @@
+{
+    "name": "ADN",
+    "description": "ADN bicatenario",
+    "authorId": "eABSzPDWQ0X",
+    "authorName": "Renato Rodolfo Rivera Tello",
+    "createTime": "2019-09-29T03:26:03.092363Z",
+    "updateTime": "2020-12-05T20:09:56.770449Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "adn.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "adn.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "541869"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "adn.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "adn.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "541869"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fff494"
+    }
+}

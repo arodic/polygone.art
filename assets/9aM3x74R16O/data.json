@@ -1,0 +1,63 @@
+{
+    "name": "A Caryatid",
+    "description": "A caryatid from the collection of the British Museum",
+    "authorId": "bQPmQzZ5ajd",
+    "authorName": "Daniel Pett",
+    "createTime": "2020-05-18T13:34:57.035814Z",
+    "updateTime": "2020-12-27T18:16:08.723809Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "caryatid.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "caryatid.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "caryatid.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "767794"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "caryatid.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "caryatid.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "caryatid.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "767794"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#141313"
+    }
+}

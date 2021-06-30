@@ -1,0 +1,53 @@
+{
+    "name": "LONE",
+    "description": "FDS\n",
+    "authorId": "8DZja8nGSPE",
+    "authorName": "Asdrúbal Gómez",
+    "createTime": "2020-10-20T19:01:10.440161Z",
+    "updateTime": "2020-10-20T19:09:23.482220Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "postnatural.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "postnatural.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35136"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "postnatural.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "postnatural.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "35136"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ededed"
+    }
+}

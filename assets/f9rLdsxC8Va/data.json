@@ -1,0 +1,50 @@
+{
+    "name": "Coletivo Neos",
+    "description": "Modelo Tridimensional  do relevo q envolve parte da praia do estaleiro e do coletivo Neos em Ubatuba - SP",
+    "authorId": "5UKcGxSMekz",
+    "authorName": "Aeroframesbr",
+    "createTime": "2020-01-17T16:53:24.945352Z",
+    "updateTime": "2020-10-07T10:37:42.693095Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "travel"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "coletivo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "coletivo.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "300013"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "coletivo.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "300013"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

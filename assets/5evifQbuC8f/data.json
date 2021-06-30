@@ -1,0 +1,48 @@
+{
+    "name": "virtuosity",
+    "authorId": "d2jze9GAXCS",
+    "authorName": "Madhav Shankhdhar",
+    "createTime": "2021-03-09T07:42:22.659291Z",
+    "updateTime": "2021-03-09T07:48:47.628342Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "virt.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "2660"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "virt.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "virt.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2660"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "sky2",
+    "authorId": "6lwV5fyyt7J",
+    "authorName": "derek glover",
+    "createTime": "2020-06-13T04:34:59.628699Z",
+    "updateTime": "2020-09-11T10:28:26.916312Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sky.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sky.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "lambert5_baseColor_2834719412083903128.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5120"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sky.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sky.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "lambert5_baseColor_2834719412083903128.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5120"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#c62828"
+    }
+}

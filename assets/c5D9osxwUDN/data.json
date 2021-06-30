@@ -1,0 +1,63 @@
+{
+    "name": "Birch log",
+    "description": "I piece of birch. First scan with photoscan. Filmed with iphone 7 then extracted to jpg:s",
+    "authorId": "aMJHbfwT657",
+    "authorName": "Martin Sjölander",
+    "createTime": "2018-03-22T14:33:47.059160Z",
+    "updateTime": "2021-01-25T11:59:33.450070Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "birch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "birch.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "birch.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "108807"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "birch.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "birch.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "birch.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "108807"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

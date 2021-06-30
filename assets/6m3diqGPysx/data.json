@@ -1,0 +1,67 @@
+{
+    "name": "Chimpanzee",
+    "description": "#monkey #primate #wildlife",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-27T20:44:55.650001Z",
+    "updateTime": "2021-06-08T10:02:04.240280Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "monkey",
+        "primate",
+        "wildlife"
+    ],
+    "likes": 33,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Chimpanzee.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Chimpanzee.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Chimpanzee.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "704"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Chimpanzee.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Chimpanzee.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Chimpanzee.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "704"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f0f4c3"
+    }
+}

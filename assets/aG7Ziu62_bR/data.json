@@ -1,0 +1,63 @@
+{
+    "name": "1234",
+    "description": "112334",
+    "authorId": "2R61MzY9V8C",
+    "authorName": "David Wolff",
+    "createTime": "2020-09-07T13:11:32.383395Z",
+    "updateTime": "2020-09-07T13:20:29.689996Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3d.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "3d.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50188"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "3d.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "3d.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "3d.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "50188"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

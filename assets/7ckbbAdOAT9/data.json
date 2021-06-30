@@ -1,0 +1,62 @@
+{
+    "name": "Pyramid incense photoscan",
+    "authorId": "8thLXW_3dT8",
+    "authorName": "Adam Gillikin",
+    "createTime": "2018-10-25T03:23:50.203476Z",
+    "updateTime": "2020-08-05T06:18:13.467669Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "p4/p4.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "p4/p4_pyramid-3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "p4/p4.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64824"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "p4.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "p4.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "p4/p4_pyramid-3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "64824"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

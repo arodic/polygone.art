@@ -1,0 +1,55 @@
+{
+    "name": "Everything is Real",
+    "description": "Text \"Everything is real\"",
+    "authorId": "9PvvREHmaVU",
+    "authorName": "Guillermo Federico Heinze",
+    "createTime": "2020-01-02T13:27:58.796245Z",
+    "updateTime": "2020-02-25T23:14:27.864827Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "EIR.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "EIR.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "213864"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "EIR.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "EIR.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "213864"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#11181c"
+    }
+}

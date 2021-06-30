@@ -1,0 +1,67 @@
+{
+    "name": "Dargon",
+    "description": "Consumate Vs",
+    "authorId": "5KUnOfCQbY8",
+    "authorName": "Andy B",
+    "createTime": "2018-02-03T01:00:32.364451Z",
+    "updateTime": "2020-07-13T10:29:30.318062Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dragon.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dragon.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dragon/dragonLow1_blinn2SG_Base_Color.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14042"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "dragon/dragon.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dragon/dragon.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "dragon/dragonLow1_blinn2SG_Base_Color.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "dragon/dragonLow1_blinn2SG_Normal_DirectX.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14042"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

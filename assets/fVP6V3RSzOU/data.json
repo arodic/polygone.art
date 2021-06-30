@@ -1,0 +1,60 @@
+{
+    "name": "Test Sphere Textured",
+    "authorId": "2lQ8NxXMExD",
+    "authorName": "Matt Greenhalgh",
+    "createTime": "2018-02-21T14:46:23.800004Z",
+    "updateTime": "2020-06-20T10:17:26.420728Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TestExportSphere/TestExportSphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TestExportSphere/Camoflage.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "TestExportSphere/TestExportSphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "TestExportSphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TestExportSphere.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TestExportSphere/Camoflage.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3968"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

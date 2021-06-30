@@ -1,0 +1,63 @@
+{
+    "name": "Liquor - Absolut Vodka",
+    "description": "EVOL\nTheWaveVR",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-04-10T04:42:11.455633Z",
+    "updateTime": "2020-10-02T09:36:13.612516Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "AbVod.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "AbVod.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "AbVod/absolut_vodka_gif.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7356"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "AbVod.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "AbVod/absolut_vodka_gif.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "AbVod.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7356"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#01579b"
+    }
+}

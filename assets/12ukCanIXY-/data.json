@@ -1,0 +1,79 @@
+{
+    "name": "littlest tokyo",
+    "description": "diorama 2",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T12:58:58.331228Z",
+    "updateTime": "2020-02-25T19:59:46.656969Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "littlest tokyo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "interiors_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "normal_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "alpha_glass_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "littlest tokyo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "80279"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "littlest tokyo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "littlest tokyo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "normal_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "alpha_glass_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "interiors_baseColor.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "80279"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

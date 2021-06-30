@@ -1,0 +1,54 @@
+{
+    "name": "Hot Dog",
+    "authorId": "6ZCYg_k59vn",
+    "authorName": "Jasmine Roberts",
+    "createTime": "2019-06-02T13:36:53.976002Z",
+    "updateTime": "2020-10-06T10:18:39.468104Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "HotDog.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "HotDog.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5156"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "HotDog.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "HotDog.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5156"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f5f5f5"
+    }
+}

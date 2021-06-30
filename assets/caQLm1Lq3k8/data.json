@@ -1,0 +1,61 @@
+{
+    "name": "test3",
+    "authorId": "9k6bkV12We_",
+    "authorName": "Mischa Schaub",
+    "createTime": "2019-06-07T05:49:15.769657Z",
+    "updateTime": "2020-06-22T10:14:31.753364Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Test2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "colorplan_003.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Test2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "colorplan_003.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Test2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Agua",
+    "description": "water Tank   tanque de agua",
+    "authorId": "2NcHE2U3k6E",
+    "authorName": "Miguel Angel",
+    "createTime": "2019-08-15T21:45:20.098796Z",
+    "updateTime": "2020-10-07T10:26:55.384641Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "WaterTank.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "WaterTank.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BAke.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "204"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "WaterTank.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BAke.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "WaterTank.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "204"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

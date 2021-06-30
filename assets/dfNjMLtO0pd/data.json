@@ -1,0 +1,68 @@
+{
+    "name": "Parrot",
+    "description": "#tropical #bird #avian #flying",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-23T00:28:27.763221Z",
+    "updateTime": "2021-06-12T09:55:22.739788Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "tropical",
+        "bird",
+        "avian",
+        "flying"
+    ],
+    "likes": 78,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh_Parrot.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Parrot.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Tex_Parrot.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "651"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh_Parrot.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh_Parrot.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Tex_Parrot.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "651"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#26c6da"
+    }
+}

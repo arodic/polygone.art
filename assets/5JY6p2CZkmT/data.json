@@ -1,0 +1,82 @@
+{
+    "name": "SportsCar",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-05T03:26:17.175782Z",
+    "updateTime": "2020-10-06T09:52:29.578621Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 25,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "SportsCar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "SportsCar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "carFrontBits.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carTire.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carBackBits.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "111642"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "SportsCar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SportsCar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "carBackBits.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carTire.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "carFrontBits.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "111642"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

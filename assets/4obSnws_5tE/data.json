@@ -1,0 +1,48 @@
+{
+    "name": "Back to the Future VR",
+    "description": "Back to the Future - Virtual Reality Painting (Tilt Brush) VR Artist Galip Yakınay",
+    "authorId": "1ldbMKYRVvH",
+    "authorName": "Galip Yakınay (Gineymay TV)",
+    "createTime": "2020-12-03T20:08:38.289232Z",
+    "updateTime": "2020-12-03T20:17:46.514530Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt",
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13784"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

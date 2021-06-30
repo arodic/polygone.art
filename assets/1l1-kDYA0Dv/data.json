@@ -1,0 +1,63 @@
+{
+    "name": "Nyaromon first draft",
+    "description": "First attempt at creating a Nyaromon from scratch.\nOriginal character featured in Digimon, created by Akiyoshi Hongo, Bandai & Toei Animation",
+    "authorId": "chVoMsmFR8k",
+    "authorName": "Ben Marshall (Jaguar)",
+    "createTime": "2020-02-12T00:59:10.121195Z",
+    "updateTime": "2020-02-25T20:06:03.287189Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Nyaromon2a.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4880"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Nyaromon_comp.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "Nyaromon_s.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Nyaromon2a.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4880"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

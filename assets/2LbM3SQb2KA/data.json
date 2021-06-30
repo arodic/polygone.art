@@ -1,0 +1,79 @@
+{
+    "name": "Tree Road",
+    "description": "Quick Road lined with trees from Google Poly\nMade in Blender",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-06-18T05:38:50.499464Z",
+    "updateTime": "2020-09-30T09:39:27.655454Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TREEROAD.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "OakTree_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "PineTree_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TREEROAD.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "WeepingWillowTree_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10017"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "TREEROAD.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TREEROAD.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "WeepingWillowTree_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "PineTree_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "OakTree_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10017"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#01579b"
+    }
+}

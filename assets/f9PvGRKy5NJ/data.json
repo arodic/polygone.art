@@ -1,0 +1,63 @@
+{
+    "name": "Coffee Maker",
+    "authorId": "cpxfoPRidko",
+    "authorName": "Daqian Dong",
+    "createTime": "2017-11-15T07:37:18.017207Z",
+    "updateTime": "2021-02-01T19:34:07.145282Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated"
+    ],
+    "likes": 29,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Coffee.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Coffee.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CoffeeMaker/Coffeemaker.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2192"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CoffeeMaker/Coffee.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CoffeeMaker/Coffee.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "CoffeeMaker/Coffeemaker.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2192"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

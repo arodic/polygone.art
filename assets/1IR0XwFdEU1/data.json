@@ -1,0 +1,56 @@
+{
+    "name": "Rubik's Cube",
+    "description": "A simple Rubik's Cube (or Magic cube), classic handy twisty puzzle game from 70's and 80's.\n\nOther info, models and works:\nwww.panebianco3d.com",
+    "authorId": "7EWk1ONVxmE",
+    "authorName": "Gianluca Panebianco",
+    "createTime": "2017-11-07T10:26:58.275296Z",
+    "updateTime": "2021-06-02T12:53:50.940876Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 61,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rubiks-cube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rubiks-cube.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "972"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "rubiks-cube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rubiks-cube.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "972"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

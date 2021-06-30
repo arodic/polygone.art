@@ -1,0 +1,64 @@
+{
+    "name": "BigBen",
+    "description": "LowPoly Architecture",
+    "authorId": "cpxfoPRidko",
+    "authorName": "Daqian Dong",
+    "createTime": "2017-11-14T13:48:08.685293Z",
+    "updateTime": "2021-05-19T15:28:49.410750Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 19,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BigBen.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BigBen.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BigBenUp/BigBen.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8754"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "BigBenUp/BigBen.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BigBenUp/BigBen.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "BigBenUp/BigBen.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8754"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

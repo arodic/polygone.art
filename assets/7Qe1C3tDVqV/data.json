@@ -1,0 +1,55 @@
+{
+    "name": "LP ROM 2.0",
+    "description": "LP ROM Test 2.0",
+    "authorId": "fwhGHrlvirC",
+    "authorName": "Gerard Baldsing",
+    "createTime": "2019-09-11T08:28:16.617619Z",
+    "updateTime": "2020-02-25T21:09:48.772172Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "LP-ROM.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "LP-ROM.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "N_Mat_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "N_Mat_occlusionRoughnessMetallic.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TT_Mat_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TT_Mat_occlusionRoughnessMetallic.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18752"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

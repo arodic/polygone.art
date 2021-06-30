@@ -1,0 +1,63 @@
+{
+    "name": "Pirate gold coin",
+    "description": "The only pirate coin left from the missing treasure",
+    "authorId": "fuRpkt2ESx0",
+    "authorName": "CAT Games",
+    "createTime": "2019-08-31T05:44:59.437894Z",
+    "updateTime": "2020-06-09T10:19:19.864869Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Coin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Coin.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Coin.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "588"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Coin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Coin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Coin.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "588"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#303f9f"
+    }
+}

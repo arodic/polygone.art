@@ -1,0 +1,62 @@
+{
+    "name": "doña pancha",
+    "authorId": "2Sp5exxmxWk",
+    "authorName": "Santiago Quintero",
+    "createTime": "2020-05-27T02:18:46.330348Z",
+    "updateTime": "2020-06-02T09:37:05.836845Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "donapancha2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "donapancha2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "donapancha.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "donapancha2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "donapancha.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "donapancha2.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

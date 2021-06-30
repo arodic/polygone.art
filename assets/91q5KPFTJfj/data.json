@@ -1,0 +1,73 @@
+{
+    "name": "ddoge o7 barrel",
+    "description": "credits: rotflol\nsource: https://sketchfab.com/3d-models/barrel-96985644dbce4045b0fc8636a9874bde",
+    "authorId": "72-7yT1sm07",
+    "authorName": "Robert S",
+    "createTime": "2020-02-19T06:55:30.388389Z",
+    "updateTime": "2020-06-25T09:58:51.373914Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "barrel.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "textures/Barrel_Base_Color.tga.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Barrel_Emissive.tga.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Barrel_Metallic_and_roughness.tga.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textures/Barrel_Normal.tga.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "barrel.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "480"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "barrel.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "barrel.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textures/Barrel_Base_Color.tga.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "480"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

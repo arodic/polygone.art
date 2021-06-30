@@ -1,0 +1,68 @@
+{
+    "name": "House",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-30T04:41:50.247040Z",
+    "updateTime": "2021-06-10T15:26:35.439508Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "house2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "house2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "house2_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "house2_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44395"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "house2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "house2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "house2_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44395"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

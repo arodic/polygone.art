@@ -1,0 +1,80 @@
+{
+    "name": "ig casualty",
+    "description": "wargaming terrain",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-05T09:35:06.109157Z",
+    "updateTime": "2021-03-20T21:54:26.296867Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ig fail.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ig fail.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "cadia 2014.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "genou-surface.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "epaulette sergent.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "27754"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ig fail.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "genou-surface.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "epaulette sergent.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "cadia 2014.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "ig fail.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "27754"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

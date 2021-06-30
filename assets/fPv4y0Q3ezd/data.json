@@ -1,0 +1,60 @@
+{
+    "name": "viking",
+    "authorId": "49ohsQTCbte",
+    "authorName": "spacedogs",
+    "createTime": "2019-02-26T12:18:04.693296Z",
+    "updateTime": "2021-05-17T04:37:43.820680Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "viking.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "viking.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "viking.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "768"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "viking.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "viking.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "viking.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "768"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

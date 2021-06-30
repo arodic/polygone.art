@@ -1,0 +1,71 @@
+{
+    "name": "buildings",
+    "description": "building",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-08T07:08:29.526396Z",
+    "updateTime": "2020-11-06T22:24:46.074084Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wasteland stores.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Material_3_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wasteland stores.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Material_2_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "712"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "wasteland stores.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wasteland stores.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Material_3_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Material_2_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "712"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

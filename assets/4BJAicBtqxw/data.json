@@ -1,0 +1,55 @@
+{
+    "name": "Laser Gun",
+    "description": "Just a simple laser gun",
+    "authorId": "4dH9c9H0d0T",
+    "authorName": "Nathan Merrill",
+    "createTime": "2018-06-17T17:14:34.356357Z",
+    "updateTime": "2020-10-07T09:47:15.733270Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "teleporter.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "teleporter.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6334"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "teleporter.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "teleporter.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6334"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

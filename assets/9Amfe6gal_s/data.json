@@ -1,0 +1,75 @@
+{
+    "name": "Engine FBX stag",
+    "description": "Engine FBX stag",
+    "authorId": "1Iy5xSPxzju",
+    "authorName": "special Budzone",
+    "createTime": "2018-11-06T19:03:18.451106Z",
+    "updateTime": "2020-09-30T10:13:05.631047Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "321_Sump_M.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "316_Valves_N.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41451"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "321_Sump_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "321_sump_loda.fplmesh",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "321_Sump_M.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "321_sump_loda_0.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "316_Valves_N.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41451"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#cddc39"
+    }
+}

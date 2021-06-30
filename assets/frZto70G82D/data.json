@@ -1,0 +1,60 @@
+{
+    "name": "WaterPlanet #FV1",
+    "authorId": "01O5AGZco7f",
+    "authorName": "Fragmastre TV",
+    "createTime": "2020-07-01T16:35:32.175942Z",
+    "updateTime": "2020-07-09T10:27:07.799906Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "waterplanet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "waterplanet.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "TexturesForPlanets-HabitableWorldsPack/Tropical.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "waterplanet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "waterplanet.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TexturesForPlanets-HabitableWorldsPack/Tropical.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "name": "KanadaBike",
+    "description": "From Akira",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-03T07:48:05.291827Z",
+    "updateTime": "2021-03-10T22:25:43.545162Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 15,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "KanBike.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Motoback.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Motofront.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Motowheels.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "KanBike.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44448"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "KanBike.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "KanBike.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Motowheels.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Motofront.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Motoback.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "44448"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Deep Space Sphere",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-10-27T09:28:50.326600Z",
+    "updateTime": "2020-06-09T15:51:39.218773Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "deepspacesphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "deepspacesphere.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "hubble.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4696"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "deepspacesphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "deepspacesphere.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hubble.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4696"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

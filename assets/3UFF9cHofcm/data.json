@@ -1,0 +1,45 @@
+{
+    "name": "glTF Animated Blk Prod",
+    "description": "glTF Animated Blk Prod",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-11-29T20:43:45.369762Z",
+    "updateTime": "2020-10-05T09:42:18.809296Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "AnimatedCube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "AnimatedCube_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "AnimatedCube_MetallicRoughness.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "AnimatedCube.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f44336"
+    }
+}

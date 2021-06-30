@@ -1,0 +1,62 @@
+{
+    "name": "Dreaming of Abraxas",
+    "description": "Remix of Paintings by the great Mati Klarwein. My first memory of sureal paintings was the recordcover \" Abraxas \" by Santana...this is a hommage with a collage of his paintings and a deepdream images style...",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-10-13T08:52:50.994336Z",
+    "updateTime": "2020-10-04T09:24:53.594647Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "matiklarwein.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "abraxasdreamlens.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "matiklarwein.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "matiklarwein.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "matiklarwein.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "abraxasdreamlens.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0038ba"
+    }
+}

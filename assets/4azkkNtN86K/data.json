@@ -1,0 +1,63 @@
+{
+    "name": "taipei",
+    "description": "my little dog",
+    "authorId": "3jEMTT9GZsy",
+    "authorName": "Koranit Suesatsakulchai",
+    "createTime": "2019-12-25T03:27:41.507160Z",
+    "updateTime": "2020-10-05T09:38:18.936850Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ting.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "ting.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "ting.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2390"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "ting.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "ting.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "ting.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2390"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

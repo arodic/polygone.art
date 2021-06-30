@@ -1,0 +1,64 @@
+{
+    "name": "Default.Avatar",
+    "description": "Base model for reference when making avatars/ characters in Blocks, Magicavoxel, etc. . .",
+    "authorId": "dwj2VpIj_i4",
+    "authorName": "Yogoshimo 2.0",
+    "createTime": "2019-02-02T22:46:40.639207Z",
+    "updateTime": "2020-02-25T20:40:14.160053Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "blocks",
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Defualt-Human 01 (Unified).gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Defualt-Human 01 (Unified).bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Defualt-Human 01 (Unified).png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "366"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Defualt-Human 01 (Unified).obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Defualt-Human 01 (Unified).png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Defualt-Human 01 (Unified).mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "366"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

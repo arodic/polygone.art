@@ -1,0 +1,61 @@
+{
+    "name": "MARLB_LIBBY_3D",
+    "description": "MARLB_LIBBY_3D",
+    "authorId": "21KXHNjcctq",
+    "authorName": "Anonymous",
+    "createTime": "2020-02-04T20:03:55.727403Z",
+    "updateTime": "2020-10-06T09:49:49.252292Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Libby_3d.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Libby_3d.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Libby_3d/Metal_Rough.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8004"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Libby_3d.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Libby_3d.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Libby_3d/Metal_Rough.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8004"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

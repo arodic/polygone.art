@@ -1,0 +1,63 @@
+{
+    "name": "Human Figure V Plane",
+    "description": "2D human figure diagram in vitruvian-man pose",
+    "authorId": "3wGFacXPrW2",
+    "authorName": "Brad Trivett",
+    "createTime": "2020-04-02T21:07:55.463085Z",
+    "updateTime": "2020-10-30T14:38:17.007929Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "human_figure_v.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "human_figure_v.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "human_figure_v.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "human_figure_v.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "human_figure_v.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "human_figure_v.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

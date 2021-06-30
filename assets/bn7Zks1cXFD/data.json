@@ -1,0 +1,63 @@
+{
+    "name": "Low Poly Chess - Queen",
+    "authorId": "ccxIgpSaIlA",
+    "authorName": "Leo Battle",
+    "createTime": "2017-12-22T15:00:20.028565Z",
+    "updateTime": "2020-09-30T10:24:09.340963Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "queen.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "white.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "queen.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "638"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "queen.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "queen.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "white.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "638"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "name": "Book",
+    "description": "#book #paper #library",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-28T18:34:08.549625Z",
+    "updateTime": "2021-06-14T15:03:58.050541Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "book",
+        "paper",
+        "library"
+    ],
+    "likes": 71,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CHAHIN_NOTEBOOK.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CHAHIN_NOTEBOOK.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "CHAHIN_NOTEBOOK_TEXTURE.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "68"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CHAHIN_NOTEBOOK.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CHAHIN_NOTEBOOK.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CHAHIN_NOTEBOOK_TEXTURE.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "68"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

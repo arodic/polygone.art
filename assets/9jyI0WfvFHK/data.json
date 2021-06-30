@@ -1,0 +1,54 @@
+{
+    "name": "机",
+    "description": "Tinkercadで練習で作った机です。\n\nTinkercadで3Dモデルをアップロードする時に、エラーが出るのですが、それの解消方法も書いておきます。\n\n１：tinkercadで作った作品を全て選択して、objでエクスポートする\n２：zipファイルでエクスポートされるので、展開してmtlファイルを見つける\n３：mtlデータをテキストエディットなどで開く\n４：「illum 0.0」という文字を全て削除する\n５：全部消したら保存します（⌘Sとかで大丈夫でした）\n６：保存されたmtlデータとobjデータをアップロードして完了！\n\n※正直なんで「illum 0.0」を消したら大丈夫になったのかよくわかっていないので、上の方法でうまくいかなくてもアドバイスできません！すいません！",
+    "authorId": "3pPqXPvFtzj",
+    "authorName": "LITALICOワンダー横浜",
+    "createTime": "2019-09-19T11:49:34.499853Z",
+    "updateTime": "2020-02-25T21:39:43.943274Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tinker.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tinker.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1228"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tinker.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1228"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865476,
+            "w": -0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

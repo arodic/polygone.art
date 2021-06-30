@@ -1,0 +1,62 @@
+{
+    "name": "Enderman 20112020",
+    "authorId": "f7wXM0obUwW",
+    "authorName": "Rory McJorrow",
+    "createTime": "2020-11-19T23:17:35.438130Z",
+    "updateTime": "2020-11-19T23:26:16.523513Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Enderman.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Enderman.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Enderman.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Enderman.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Enderman.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Enderman.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

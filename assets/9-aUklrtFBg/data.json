@@ -1,0 +1,71 @@
+{
+    "name": "dragon sign",
+    "description": "signs",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T09:15:36.207559Z",
+    "updateTime": "2021-04-24T03:36:08.907828Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dragon sign.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "blinn1_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "blinn2_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dragon sign.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "86788"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "dragon sign.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dragon sign.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "blinn2_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "blinn1_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "86788"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Horse spots",
+    "authorId": "9OR7jNjrU0w",
+    "authorName": "Dasty Daikini",
+    "createTime": "2020-03-16T12:56:00.308709Z",
+    "updateTime": "2020-09-30T09:32:41.228261Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "horse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "horse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Material.001_Base_Color.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "42962"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "horse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "horse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Material.001_Base_Color.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "42962"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1c4d2f"
+    }
+}

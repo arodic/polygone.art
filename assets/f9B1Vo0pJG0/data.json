@@ -1,0 +1,63 @@
+{
+    "name": "GRG",
+    "description": "GRG",
+    "authorId": "2-OmWKqO0tx",
+    "authorName": "Jesus Navas Aller",
+    "createTime": "2019-02-25T17:23:54.945177Z",
+    "updateTime": "2020-10-06T10:39:43.575970Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GRG.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GRG.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "GRG/Metal_Aluminum_Anodized.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "11730"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "GRG.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "GRG.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "GRG/Metal_Aluminum_Anodized.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "11730"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

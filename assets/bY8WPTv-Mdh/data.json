@@ -1,0 +1,60 @@
+{
+    "name": "TEST_DRONE_0808",
+    "authorId": "8IPU9hNNnCL",
+    "authorName": "Oodelay",
+    "createTime": "2019-07-07T06:18:09.477433Z",
+    "updateTime": "2020-02-25T22:05:05.611913Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fullsizemesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fullsizemesh.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "fullsizemesh_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1000000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "fullsizemesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fullsizemesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fullsizemesh_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1000000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

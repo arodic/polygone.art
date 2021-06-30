@@ -1,0 +1,61 @@
+{
+    "name": "Vive controller",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-03-17T09:55:52.757670Z",
+    "updateTime": "2020-02-25T21:40:55.667762Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 12,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "vive-controller.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "onepointfive_texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "vive-controller.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "17326"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "vive-controller.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "vive-controller.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "onepointfive_texture.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "17326"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

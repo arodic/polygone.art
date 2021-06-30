@@ -1,0 +1,55 @@
+{
+    "name": "Warehouse",
+    "description": "Warehouse for film",
+    "authorId": "aHRJm56D5pF",
+    "authorName": "Connor Whitfield",
+    "createTime": "2019-04-08T17:31:44.093368Z",
+    "updateTime": "2021-01-16T04:10:56.123658Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "OBJ.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "OBJ.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28383"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "OBJ.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "OBJ.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "28383"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e57373"
+    }
+}

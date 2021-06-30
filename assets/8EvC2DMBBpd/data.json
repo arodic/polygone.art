@@ -1,0 +1,60 @@
+{
+    "name": "Test of Vanessa",
+    "authorId": "7m08r0ZvZ4v",
+    "authorName": "Andreas Hronopoulos",
+    "createTime": "2020-08-07T16:35:15.868048Z",
+    "updateTime": "2021-05-24T13:45:15.636541Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 15,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mesh-F00042.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Atlas-F00042.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Matlib-F00042.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mesh-F00042.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesh-F00042.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Atlas-F00042.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

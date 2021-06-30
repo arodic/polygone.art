@@ -1,0 +1,62 @@
+{
+    "name": "FirePlanet #FV1",
+    "authorId": "01O5AGZco7f",
+    "authorName": "Fragmastre TV",
+    "createTime": "2020-07-01T16:34:21.496530Z",
+    "updateTime": "2020-07-09T10:18:06.334052Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fireplanet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fireplanet.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TexturesForPlanets-InhospitableWorldsPack/Volcanic.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "fireplanet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "fireplanet.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "TexturesForPlanets-InhospitableWorldsPack/Volcanic.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

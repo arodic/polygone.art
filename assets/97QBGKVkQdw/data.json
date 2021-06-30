@@ -1,0 +1,47 @@
+{
+    "name": "Singapore building data ulsg",
+    "description": "credit goes to https://github.com/ualsg/hdb3d-data",
+    "authorId": "fBarN-i9u6c",
+    "authorName": "MRITUNJOY DAS ae16b111",
+    "createTime": "2019-09-10T04:58:40.300342Z",
+    "updateTime": "2020-06-06T10:02:09.955060Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hdb.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hdb.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "687888"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "hdb.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "687888"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

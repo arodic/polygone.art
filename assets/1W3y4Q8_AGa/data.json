@@ -1,0 +1,63 @@
+{
+    "name": "Materials Test - Texture",
+    "description": "Final material test, this time for textured objects.\nDiffuse levels:\nM1 100% M2 50% M3 25%\nSpecular Hardness\nM4 50 M5 100 M6 200\nMirror with varying specular hardness\nM7 50 M8 100 M9 200\n",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-09-30T17:40:52.749168Z",
+    "updateTime": "2020-09-23T09:30:31.417271Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mat test texture.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat test texture.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "basicrainbow.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mat test texture.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mat test texture.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "basicrainbow.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59847"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

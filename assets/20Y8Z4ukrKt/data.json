@@ -1,0 +1,68 @@
+{
+    "name": "arbol",
+    "authorId": "8SQO_M20DJ0",
+    "authorName": "Valeria (Fam)",
+    "createTime": "2020-10-26T05:00:24.102960Z",
+    "updateTime": "2020-10-26T05:07:31.138524Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "arbol.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "arbol.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hojas.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "textTronco.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "232"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "arbol.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "textTronco.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "arbol.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "hojas.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "232"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

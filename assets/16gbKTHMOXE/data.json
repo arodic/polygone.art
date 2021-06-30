@@ -1,0 +1,66 @@
+{
+    "name": "Owl Sculpture",
+    "description": "Ceramic orange owl",
+    "authorId": "d32UOar5nvE",
+    "authorName": "Maaron Tesfaye",
+    "createTime": "2018-03-15T22:17:28.475907Z",
+    "updateTime": "2020-02-25T20:00:16.182996Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "owlpro.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "owlpro.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "owlpro.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "524860"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "owlpro.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "owlpro.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "owlpro.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "524860"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865476,
+            "y": -2.775557561562891e-16,
+            "z": -2.220446049250313e-16,
+            "w": 0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#bdbdbd"
+    }
+}

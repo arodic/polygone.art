@@ -1,0 +1,72 @@
+{
+    "name": "brick",
+    "description": "lv24\n#lv24",
+    "authorId": "54ihY1xa6MG",
+    "authorName": "Ryan C",
+    "createTime": "2020-04-20T23:29:50.643122Z",
+    "updateTime": "2020-10-07T09:39:02.678753Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "lv24"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wall2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wall2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "MagicStoneFloorQuadrangle_basecolor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "192"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "wall2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "MagicStoneFloorQuadrangle_basecolor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MagicStoneFloorQuadrangle_emissive.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MagicStoneFloorQuadrangle_metallic.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wall2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "192"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "name": "Flower",
+    "authorId": "a9EPUjKjCX5",
+    "authorName": "Sianvy",
+    "createTime": "2020-05-04T17:32:10.253989Z",
+    "updateTime": "2020-05-15T10:25:41.962866Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "flower.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Flower 2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "flower.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "flower.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "flower.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "flower.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "flower.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Flower 2.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

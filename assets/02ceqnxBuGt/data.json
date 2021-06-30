@@ -1,0 +1,55 @@
+{
+    "name": "H2O Molecule",
+    "description": "This is a H2O molecule. \n\nThe water molecule is composed of two hydrogen atoms and one oxygen atom.\n",
+    "authorId": "aD-rvn9BuLF",
+    "authorName": "Prakash Gangurde",
+    "createTime": "2020-07-14T14:30:01.799241Z",
+    "updateTime": "2021-04-23T17:29:39.044253Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tinker.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6116"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tinker.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tinker.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6116"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#d5dfe3"
+    }
+}

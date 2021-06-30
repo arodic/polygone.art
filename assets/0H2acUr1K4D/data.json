@@ -1,0 +1,68 @@
+{
+    "name": "6 Color TFX",
+    "description": "A super simple two faced six color tfx",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2020-03-20T05:06:16.524329Z",
+    "updateTime": "2020-10-06T09:31:10.861171Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "6col tfx.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "6col tfx.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "MGC.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "YBR.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "6col tfx.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "6col tfx.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "YBR.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "MGC.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR"
+    }
+}

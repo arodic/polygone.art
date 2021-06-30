@@ -1,0 +1,60 @@
+{
+    "name": "test",
+    "authorId": "a4vsp6G0NnA",
+    "authorName": "孙其瑞",
+    "createTime": "2018-09-08T13:17:58.795769Z",
+    "updateTime": "2020-07-18T09:27:22.344930Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "indoor.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "indoor.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "indoor_material0000_map_Kd.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "86919"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "indoor.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "indoor_material0000_map_Kd.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "indoor.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "86919"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

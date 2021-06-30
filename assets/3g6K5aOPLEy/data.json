@@ -1,0 +1,54 @@
+{
+    "name": "Joshua's car",
+    "authorId": "3ZjTqqpNoWz",
+    "authorName": "Richard Hall",
+    "createTime": "2019-08-16T09:46:17.442189Z",
+    "updateTime": "2020-10-06T09:43:35.264382Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "joshuas-car.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "joshuas-car.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "132282"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "joshuas-car.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "joshuas-car.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "132282"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

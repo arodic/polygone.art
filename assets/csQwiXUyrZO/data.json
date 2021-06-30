@@ -1,0 +1,61 @@
+{
+    "name": "Pamiątka z Pucka",
+    "description": "Skan wykonany skanerem Artec Micro. ",
+    "authorId": "4X472iPDdxL",
+    "authorName": "Marketing 3D MASTER",
+    "createTime": "2020-03-20T14:04:42.889955Z",
+    "updateTime": "2020-04-09T10:13:24.500574Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Puck.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Puck_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Puck.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Puck.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Puck.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Puck_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "600000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

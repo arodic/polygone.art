@@ -1,0 +1,63 @@
+{
+    "name": "Metro",
+    "authorId": "7nRsSwHlLib",
+    "authorName": "Solovey Taras",
+    "createTime": "2018-02-26T13:58:19.318296Z",
+    "updateTime": "2021-06-08T11:30:34.173534Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "metro.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "metro.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "metro.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4272"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "metro.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "metro.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "metro.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4272"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#673ab7"
+    }
+}

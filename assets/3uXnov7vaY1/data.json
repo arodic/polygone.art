@@ -1,0 +1,53 @@
+{
+    "name": "igloo",
+    "authorId": "9e4-l_qCmFA",
+    "authorName": "manolo golo",
+    "createTime": "2019-09-17T08:26:00.519884Z",
+    "updateTime": "2020-02-25T20:26:36.172838Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "igloo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "igloo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "51"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "igloo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "igloo.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "51"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.026176948307873153,
+            "w": 0.9996573249755573
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

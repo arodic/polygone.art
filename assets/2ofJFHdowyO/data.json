@@ -1,0 +1,60 @@
+{
+    "name": "Batman",
+    "authorId": "axu8SLAoRjt",
+    "authorName": "Sornrawit Raocharoen",
+    "createTime": "2019-01-04T05:16:28.341788Z",
+    "updateTime": "2020-09-23T09:35:29.341217Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Batman.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Batman.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Batman.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "996"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Batman.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Batman.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Batman.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "996"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

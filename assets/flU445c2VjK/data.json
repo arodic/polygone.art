@@ -1,0 +1,61 @@
+{
+    "name": "test1c  mesh only",
+    "description": "test1c ",
+    "authorId": "6EAUO9l9EA2",
+    "authorName": "micah O",
+    "createTime": "2019-09-15T11:57:01.382228Z",
+    "updateTime": "2020-02-25T23:16:22.445094Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mesh_only.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "eae6bb99-f3de-4cf9-bb87-0ac4cbaaa480.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "mesh_only.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mesh_only.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mesh_only.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "eae6bb99-f3de-4cf9-bb87-0ac4cbaaa480.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

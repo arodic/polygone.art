@@ -1,0 +1,71 @@
+{
+    "name": "tiny tina",
+    "description": "tiny tina",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T10:01:00.344288Z",
+    "updateTime": "2020-07-24T09:43:28.854150Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tiny tina.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tiny tina.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Material.002_mask.tga_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Material.001_tina.tga_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24610"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "tiny tina.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tiny tina.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Material.001_tina.tga_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Material.002_mask.tga_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24610"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

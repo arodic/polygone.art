@@ -1,0 +1,64 @@
+{
+    "name": "Fox Face",
+    "authorId": "czRhXb5_9A3",
+    "authorName": "Tim Psiaki",
+    "createTime": "2020-02-11T01:45:40.166599Z",
+    "updateTime": "2020-07-02T10:20:51.749203Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fox_face.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "ear_fur.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "nose_fur.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "944"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "nose_fur.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ear_fur.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "944"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

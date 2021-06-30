@@ -1,0 +1,62 @@
+{
+    "name": "Cat",
+    "authorId": "6zTVnfqbc30",
+    "authorName": "Supamon Yodboonheang",
+    "createTime": "2019-01-04T05:18:50.044530Z",
+    "updateTime": "2020-09-24T09:37:14.594093Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "3D.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "3D.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "3D.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "894"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "3D.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "3D.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "3D.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "894"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

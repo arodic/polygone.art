@@ -1,0 +1,71 @@
+{
+    "name": "The Aristocrat -- LiDAR iPad",
+    "description": "I captured this derelict RV, The Aristocrat, that’s up the street from my house. The other side is against some bushes so unfortunately I could only capture one half of it, but that half came out pretty well. This capture was created with the Polycam 3D capture app from a 30 second video clip, and processed into this colored mesh on device in under 60 seconds. Learn more at https://polycam.ai/",
+    "authorId": "dpLStUXgjZB",
+    "authorName": "Chris Heinrich",
+    "createTime": "2020-09-17T16:22:12.544184Z",
+    "updateTime": "2020-10-25T08:58:48.612249Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "textured.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textured_material0000_map_Kd.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textured_material0001_map_Kd.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24442"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "textured.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "textured_material0000_map_Kd.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textured_material0001_map_Kd.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "textured.obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24442"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

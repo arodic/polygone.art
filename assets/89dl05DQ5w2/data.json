@@ -1,0 +1,66 @@
+{
+    "name": "Baby Yoda",
+    "description": "3D Model ",
+    "authorId": "fS9uD8R1SIo",
+    "authorName": "Matthew Wisdom",
+    "createTime": "2021-01-13T01:54:55.954597Z",
+    "updateTime": "2021-03-01T23:32:37.396833Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture0.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "161098"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture0.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "161098"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -1,
+            "y": -6.123233995736767e-17,
+            "z": -6.123233995736765e-17,
+            "w": -1.2246467991473532e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#a4cfab"
+    }
+}

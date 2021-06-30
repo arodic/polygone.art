@@ -1,0 +1,55 @@
+{
+    "name": "Test Cube",
+    "description": "Created in 3D Builder, saved as .obj file and uploaded to Poly to use in Tiltbrush with HTC Vive",
+    "authorId": "8XigaalAh3Z",
+    "authorName": "Waitangi Museum",
+    "createTime": "2018-06-03T04:39:47.712326Z",
+    "updateTime": "2020-10-05T09:47:22.952481Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Test Cube from 3D builder.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test Cube from 3D builder.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Test Cube from 3D builder.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test Cube from 3D builder.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

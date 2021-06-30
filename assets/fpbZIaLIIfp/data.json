@@ -1,0 +1,49 @@
+{
+    "name": "Demo",
+    "description": "Poly Demo Project",
+    "authorId": "2by4i3H6FJI",
+    "authorName": "Remish Varsani",
+    "createTime": "2020-08-24T03:35:05.553784Z",
+    "updateTime": "2020-08-24T03:42:00.876853Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "try_b_obj.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "112472"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "try_b_obj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "try_b_obj.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "112472"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

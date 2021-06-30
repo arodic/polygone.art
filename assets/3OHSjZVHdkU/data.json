@@ -1,0 +1,60 @@
+{
+    "name": "blah",
+    "authorId": "94k0_zMUFgY",
+    "authorName": "Anonymous",
+    "createTime": "2018-03-29T14:13:29.313329Z",
+    "updateTime": "2020-10-07T09:42:29.715751Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "black2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "black2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "textured-0016384-diffuse_map.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16384"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "black2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "black2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "textured-0016384-diffuse_map.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "16384"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

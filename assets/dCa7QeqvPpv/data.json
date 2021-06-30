@@ -1,0 +1,75 @@
+{
+    "name": "Marble Dyramid",
+    "description": "Marble Dyramid for use in Wave Tunnels\ntwv\n#TheWaveVR",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2018-09-08T19:36:29.863481Z",
+    "updateTime": "2020-10-03T10:18:30.636578Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "TheWaveVR"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Marble Dyramid.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "grmarble.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Marble Dyramid.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "brmarble.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Marble Dyramid.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Marble Dyramid.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "brmarble.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "grmarble.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.49999999999999994,
+            "y": 0.5000000000000001,
+            "z": -0.5,
+            "w": 0.5
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

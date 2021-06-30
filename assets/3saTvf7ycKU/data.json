@@ -1,0 +1,60 @@
+{
+    "name": "sally",
+    "authorId": "eRtfXk_c6a0",
+    "authorName": "Chavalvit Kovitsathianchai",
+    "createTime": "2019-07-13T15:17:12.271121Z",
+    "updateTime": "2020-08-11T09:44:50.057276Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sally.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sally.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "sally.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4096"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sally.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sally.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sally.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4096"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

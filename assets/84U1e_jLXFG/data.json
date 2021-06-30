@@ -1,0 +1,54 @@
+{
+    "name": "Glasses",
+    "authorId": "74-Gk5MatMH",
+    "authorName": "Anonymous",
+    "createTime": "2018-04-03T21:38:44.210872Z",
+    "updateTime": "2020-06-30T09:59:13.097659Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "glasses.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "glasses.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14080"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "glasses.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "glasses.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14080"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#f8bbd0"
+    }
+}

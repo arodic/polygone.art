@@ -1,0 +1,67 @@
+{
+    "name": "Stylized Carrot",
+    "description": "Stylized lowpoly carrot.\n144 vert and 278 tris",
+    "authorId": "bX9xlIZAApY",
+    "authorName": "Антон Ефременков",
+    "createTime": "2020-04-09T11:07:33.231011Z",
+    "updateTime": "2020-10-03T09:53:10.294368Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Carot.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Carot.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Carot_Normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "278"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Carot.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Carot.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Carot_Normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Carot_Specular.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "278"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8cab95"
+    }
+}

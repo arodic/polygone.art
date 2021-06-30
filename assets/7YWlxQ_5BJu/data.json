@@ -1,0 +1,63 @@
+{
+    "name": "Blocky Beach",
+    "description": "Even voxels deserve a holiday!",
+    "authorId": "5tVqTog5BZk",
+    "authorName": "Lucas Hehir",
+    "createTime": "2018-08-08T08:08:51.023995Z",
+    "updateTime": "2020-09-24T10:06:58.606869Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BlockyBeach.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PaletteA.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "PaletteA.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1508"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "BlockyBeach.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BlockyBeach.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PaletteA.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1508"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

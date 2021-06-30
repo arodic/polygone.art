@@ -1,0 +1,66 @@
+{
+    "name": "Shiny Orange",
+    "authorId": "4ZbFNu080bK",
+    "authorName": "Brian Gibson",
+    "createTime": "2018-06-22T21:42:57.043572Z",
+    "updateTime": "2020-06-22T09:30:04.857703Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Orange.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Orange.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Color.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1504"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Orange.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Normal.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Color.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Orange.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1504"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

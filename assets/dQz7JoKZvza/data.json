@@ -1,0 +1,69 @@
+{
+    "name": "cursed bowser",
+    "description": "wired one ever",
+    "authorId": "3zDhvy_UTwR",
+    "authorName": "SHRIMP NOODLES ANIMATION",
+    "createTime": "2019-05-26T18:42:16.159588Z",
+    "updateTime": "2020-09-23T10:23:48.336626Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bw.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bw.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bowser/bowser_all.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Bowser/bowser_eye.0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "627"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Bowser/bw.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bowser/bowser_all.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Bowser/bowser_eye.0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Bowser/bw.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "627"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

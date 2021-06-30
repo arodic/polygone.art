@@ -1,0 +1,63 @@
+{
+    "name": "import test",
+    "authorId": "5RPCBXJj3S9",
+    "authorName": "Anavrin",
+    "createTime": "2017-12-08T23:08:05.049587Z",
+    "updateTime": "2020-10-05T09:55:11.294755Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bedroompaint.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bedroompaint.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bedroomjpg.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "bedroompaint.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bedroomjpg.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "bedroompaint.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.5,
+            "y": -0.5,
+            "z": 0.5,
+            "w": 0.5
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

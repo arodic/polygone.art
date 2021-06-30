@@ -1,0 +1,63 @@
+{
+    "name": "Voxel Character Male",
+    "description": "Voxel Character Male made with MagicaVoxel ready to rig",
+    "authorId": "35vK_FK0f_T",
+    "authorName": "Antonio Garcia del Rio",
+    "createTime": "2018-02-28T19:22:23.492611Z",
+    "updateTime": "2020-10-07T09:28:27.677714Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chr_01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_01.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chr_01.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1048"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "chr_01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_01.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "chr_01.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1048"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

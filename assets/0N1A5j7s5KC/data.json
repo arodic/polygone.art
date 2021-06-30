@@ -1,0 +1,60 @@
+{
+    "name": "Asgard ref plane",
+    "authorId": "0amLF__n6gQ",
+    "authorName": "Richard Garabedian",
+    "createTime": "2019-06-06T20:47:32.547587Z",
+    "updateTime": "2020-09-25T09:34:02.216260Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "asgard.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "asgard.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "asgard.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "asgard.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "asgard.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "asgard.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

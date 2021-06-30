@@ -1,0 +1,55 @@
+{
+    "name": "old car",
+    "description": "a old car",
+    "authorId": "2RE8K5PSE2x",
+    "authorName": "Aeron Quick",
+    "createTime": "2018-05-03T15:37:06.095241Z",
+    "updateTime": "2020-12-17T03:18:01.214472Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "curated"
+    ],
+    "likes": 35,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "FirstBike.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "FirstBike.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5742"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "FirstBike.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "FirstBike.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5742"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+    }
+}

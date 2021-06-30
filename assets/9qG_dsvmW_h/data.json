@@ -1,0 +1,64 @@
+{
+    "name": "Sport shoes",
+    "description": "3D scanning, for the Onepixelsoft website.\nWeb: https: //onepixelsoft.wixsite.com/site",
+    "authorId": "fKdiag9K6op",
+    "authorName": "Manuel Jimenez Parraga (Onepixelsoft)",
+    "createTime": "2017-11-06T12:14:15.024632Z",
+    "updateTime": "2020-10-30T08:45:01.926789Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 18,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "zapatillas.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "zapatillas.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "zapatillas_uv.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18090"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "zapatillas.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "zapatillas.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "zapatillas_uv.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18090"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

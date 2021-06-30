@@ -1,0 +1,65 @@
+{
+    "name": "Elephant",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-07-20T10:52:38.772516Z",
+    "updateTime": "2021-01-08T21:45:16.209147Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "elephant.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "elephant.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CH_NPC_MOB_Elephant_A01_D_GRN.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5998"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "elephant.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "elephant.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "CH_NPC_MOB_Elephant_A01_D_GRN.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "CH_NPC_MOB_Elephant_A01_SP_GRN.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5998"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

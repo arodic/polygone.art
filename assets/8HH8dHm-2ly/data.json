@@ -1,0 +1,70 @@
+{
+    "name": "SM - Metal Cube",
+    "authorId": "ff5AHSfMiEc",
+    "authorName": "Scott Marshall",
+    "createTime": "2019-10-03T14:32:01.901097Z",
+    "updateTime": "2020-09-25T10:11:56.435244Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "metal+cube.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "metal+cube.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "metal+cube/Steel_Brushed_Stainless.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "metal+cube/Metal_Rough.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4796"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "metal+cube.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "metal+cube/Metal_Rough.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "metal+cube/Steel_Brushed_Stainless.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "metal+cube.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4796"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#912323"
+    }
+}

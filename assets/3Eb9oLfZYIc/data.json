@@ -1,0 +1,56 @@
+{
+    "name": "Bear",
+    "description": "Toy",
+    "authorId": "9yZONiHpQZk",
+    "authorName": "jiang liu",
+    "createTime": "2017-11-03T11:37:04.525188Z",
+    "updateTime": "2021-06-06T11:20:58.919645Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 72,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "kuma.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kuma.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5119"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "kuma.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "kuma.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5119"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

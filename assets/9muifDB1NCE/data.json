@@ -1,0 +1,72 @@
+{
+    "name": "Plant",
+    "description": "For more info, visit: http://modelybayer.blogspot.cz",
+    "authorId": "6gLMM_MR-R5",
+    "authorName": "Tomáš Bayer",
+    "createTime": "2017-11-05T09:02:06.512842Z",
+    "updateTime": "2020-12-27T09:07:41.452286Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Plant.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Plant/Kvetinac__Dirt.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Plant.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Plant/Trava.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6845"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Plant.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Plant.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Plant/Kvetinac__Dirt.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Plant/Trava.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6845"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3e2723"
+    }
+}

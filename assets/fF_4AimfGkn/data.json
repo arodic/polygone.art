@@ -1,0 +1,48 @@
+{
+    "name": "my cat",
+    "authorId": "1dUlzn5jkOE",
+    "authorName": "Nanthachaphorn Pawakanan",
+    "createTime": "2019-07-15T12:22:41.299380Z",
+    "updateTime": "2020-02-25T23:07:03.048461Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": " cat3D.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": " cat3D.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "880"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": " cat3D.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "880"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff8a65"
+    }
+}

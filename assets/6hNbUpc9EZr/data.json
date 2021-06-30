@@ -1,0 +1,60 @@
+{
+    "name": "test 01",
+    "authorId": "ef9_9NNcnhK",
+    "authorName": "Kain Tietzel",
+    "createTime": "2019-12-04T05:11:58.370837Z",
+    "updateTime": "2020-02-25T21:00:34.118929Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tiltbrush-360.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tiltbrush-360.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tiltbrush-360.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12500"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tiltbrush-360.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tiltbrush-360.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tiltbrush-360.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12500"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Шлем Центуриона",
+    "description": "Шлем который носили Центурионы-командиры в древних Римских армиях",
+    "authorId": "72jIGS0Ufts",
+    "authorName": "Артем Грошев",
+    "createTime": "2020-01-23T20:50:47.769031Z",
+    "updateTime": "2020-09-15T10:23:25.155938Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "history"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Centurion_helmet obj/Centurion_helmet.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Centurion_helmet obj/Centurion_helmet.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Centurion_helmet obj/Centurion_helmet_0.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200000"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Centurion_helmet.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Centurion_helmet.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Centurion_helmet obj/Centurion_helmet_0.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "200000"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

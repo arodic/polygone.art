@@ -1,0 +1,49 @@
+{
+    "name": "PAW",
+    "description": "DOG PAW",
+    "authorId": "3L4hWAT0c-j",
+    "authorName": "faby.de.la vega",
+    "createTime": "2020-03-26T04:55:11.816476Z",
+    "updateTime": "2021-04-21T02:40:34.235236Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "paw.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "11467"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "paw.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "paw.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "11467"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

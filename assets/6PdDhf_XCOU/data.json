@@ -1,0 +1,60 @@
+{
+    "name": "LW job",
+    "authorId": "9gJM1F4d5gM",
+    "authorName": "Marcio Hanashiro",
+    "createTime": "2018-02-21T17:30:05.141369Z",
+    "updateTime": "2020-02-25T20:56:52.117767Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Laptop.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Laptop_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Laptop.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1240"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Laptop.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Laptop.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Laptop_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1240"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

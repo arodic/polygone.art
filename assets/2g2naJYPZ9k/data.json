@@ -1,0 +1,56 @@
+{
+    "name": "Water Tower",
+    "description": "Production note: The 360 image on the sphere was done in Tiltbrush, then rendered to the 360 image. Then the image was mapped to a sphere in Vectary, exported as an obj which was then uploaded to Poly so I could import the obj into a new Tiltbrush scene, paint the final items in and then publish that to Poly for the final.",
+    "authorId": "awhHWtFodSi",
+    "authorName": "Neil Nathanson",
+    "createTime": "2019-03-09T15:06:30.841571Z",
+    "updateTime": "2020-09-12T09:34:02.501934Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tilt"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sketch.tilt",
+                "contentType": "application/vnd-tiltbrush"
+            },
+            "formatComplexity": {},
+            "formatType": "TILT"
+        },
+        {
+            "root": {
+                "relativePath": "sketch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "0JofjJ4wFCw_0ae54735-3be5-4ff4-a2e4-f2c0f3d5fed5.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sketch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "45332"
+            },
+            "formatType": "GLTF"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    },
+    "remixInfo": {
+        "sourceAsset": [
+            "assets/0JofjJ4wFCw"
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Reizouko No Aitsu",
+    "description": "KouichiTV",
+    "authorId": "e-LzQKROP9y",
+    "authorName": "Anonymous Guitar",
+    "createTime": "2019-08-02T09:53:32.494933Z",
+    "updateTime": "2020-10-06T10:03:21.235597Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "reizouko.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "reizouko.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4580"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "reizouko.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "reizouko.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4580"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

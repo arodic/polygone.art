@@ -1,0 +1,63 @@
+{
+    "name": "The Brain",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-10-12T16:04:32.278666Z",
+    "updateTime": "2021-01-24T23:48:09.069969Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "brain.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "brain.JPG",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "brain.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "305526"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "brain.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "brain.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "brain.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "305526"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865476,
+            "y": 1.232595164407831e-32,
+            "z": 8.659560562354933e-17,
+            "w": -0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

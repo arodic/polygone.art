@@ -1,0 +1,55 @@
+{
+    "name": "juvy",
+    "description": "A 3D text",
+    "authorId": "55sJ3bSXv2o",
+    "authorName": "Juvy Boquil",
+    "createTime": "2020-07-22T15:14:22.185336Z",
+    "updateTime": "2020-07-22T15:19:39.994590Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "JUVY.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "JUVY.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8212"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "JUVY.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "JUVY.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8212"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

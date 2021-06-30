@@ -1,0 +1,62 @@
+{
+    "name": "chicken",
+    "authorId": "dis0WnvpHDv",
+    "authorName": "Pattarapong Krairaveevit",
+    "createTime": "2018-08-17T08:26:16.464837Z",
+    "updateTime": "2020-07-19T10:00:11.227254Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "kai.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "kai.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kai.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "280"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "kai.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kai.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "kai.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "280"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Anciano",
+    "description": "Personaje de MagicaVoxel",
+    "authorId": "d98V5i10Sd5",
+    "authorName": "pedro gavides",
+    "createTime": "2018-11-05T14:59:06.512932Z",
+    "updateTime": "2020-07-02T09:47:19.479480Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "chr_old.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_old.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "chr_old.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "326"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "chr_old.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "chr_old.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "chr_old.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "326"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

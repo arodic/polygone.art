@@ -1,0 +1,63 @@
+{
+    "name": "kinect scan test 1",
+    "description": "human figure scanned with a kinect v1 sensor using Skanect and retopologized with Instant Meshes for a managable poly count.  Tshirt by @chris_dokebi",
+    "authorId": "5z-KwFDeG7n",
+    "authorName": "chris withers",
+    "createTime": "2019-07-16T16:23:36.575545Z",
+    "updateTime": "2020-10-07T10:18:41.959963Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sammonsTexturePack.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sammonsTexturePack.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sammonsTextureBake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15165"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sammonsTexturePack.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sammonsTexturePack.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "sammonsTextureBake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "15165"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff8a65"
+    }
+}

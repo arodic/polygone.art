@@ -1,0 +1,69 @@
+{
+    "name": "Horse",
+    "description": "#equine #equestrian #mammal #stallion  #mustang",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-11T01:20:41.950349Z",
+    "updateTime": "2021-06-16T12:41:50.463511Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "equine",
+        "equestrian",
+        "mammal",
+        "stallion",
+        "mustang"
+    ],
+    "likes": 83,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "WildHorse.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "WildHorse.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "WildHorse_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1106"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "WildHorse.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "WildHorse.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "WildHorse_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1106"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

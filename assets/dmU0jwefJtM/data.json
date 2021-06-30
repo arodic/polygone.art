@@ -1,0 +1,68 @@
+{
+    "name": "Police car",
+    "description": "#emergency #vehicle #cop #siren",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-12T00:36:15.069094Z",
+    "updateTime": "2021-05-19T23:35:35.676908Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "emergency",
+        "vehicle",
+        "cop",
+        "siren"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_POLICE-CAR.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_POLICE-CAR.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "police_carSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3118"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_POLICE-CAR.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_POLICE-CAR.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "police_carSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3118"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ef9a9a"
+    }
+}

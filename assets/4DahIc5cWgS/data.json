@@ -1,0 +1,62 @@
+{
+    "name": "house",
+    "authorId": "4qWy3LjDpui",
+    "authorName": "kou",
+    "createTime": "2020-08-30T06:01:48.598929Z",
+    "updateTime": "2020-08-30T06:11:20.647708Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "town.vox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "town.vox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "town.vox.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49256"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "town.vox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "town.vox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "town.vox.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "49256"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#95bfbf"
+    }
+}

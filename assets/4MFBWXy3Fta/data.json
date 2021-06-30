@@ -1,0 +1,49 @@
+{
+    "name": "3D Print Test Arch",
+    "description": "A little part for testing how a 3d printer handles overhangs, thin walls, and dimensional stability. Scale is in mm. Angle marks are in 15deg increments, and labeled at 30 and 60.",
+    "authorId": "ej5So4VLSng",
+    "authorName": "Paul Spooner",
+    "createTime": "2019-04-01T12:54:05.694433Z",
+    "updateTime": "2020-10-02T09:45:52.650280Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TestArch.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TestArch.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3628"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "TestArch.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "3628"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4caf50"
+    }
+}

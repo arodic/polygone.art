@@ -1,0 +1,63 @@
+{
+    "name": "Voxel Martian",
+    "description": "A Tiny Martian, the basic footman soldier invading Earth.",
+    "authorId": "00B2f2gorl7",
+    "authorName": "Luke Cassar",
+    "createTime": "2018-03-19T20:19:36.422971Z",
+    "updateTime": "2020-10-05T10:05:29.511824Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Martian.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Martian.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Martian.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "512"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Martian.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Martian.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Martian.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "512"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "facebox",
+    "authorId": "4vBA5ry55WU",
+    "authorName": "Steven An",
+    "createTime": "2018-12-08T16:20:41.604445Z",
+    "updateTime": "2020-09-28T09:38:15.371111Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "facebox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "facebox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "facebox.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "140"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "facebox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "facebox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "facebox.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "140"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

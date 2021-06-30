@@ -1,0 +1,61 @@
+{
+    "name": "Mesona",
+    "description": "助教的測資一",
+    "authorId": "6tqEhwMkn21",
+    "authorName": "楊家安",
+    "createTime": "2019-05-06T17:46:18.791338Z",
+    "updateTime": "2020-02-25T20:20:19.588449Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Mesona1.JPG",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "404"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mesona1.JPG",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "404"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

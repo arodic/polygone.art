@@ -1,0 +1,64 @@
+{
+    "name": "Earth",
+    "description": "Made with Blender 3D (free Linux\\Mac PC app)\n\nNASA earth images used",
+    "authorId": "0g8ddPDWI7Q",
+    "authorName": "Smirnoff Alexander",
+    "createTime": "2017-11-03T23:27:32.084019Z",
+    "updateTime": "2021-06-07T10:41:29.095048Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 157,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earth_obj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_obj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "earth_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120576"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "earth_obj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "earth_texture.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "120576"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

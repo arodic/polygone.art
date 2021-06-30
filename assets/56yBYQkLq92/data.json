@@ -1,0 +1,77 @@
+{
+    "name": "FBX prod gutenberg bible 07",
+    "description": "orange",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2019-01-07T20:10:07.707870Z",
+    "updateTime": "2020-04-29T09:47:02.336938Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "1509_GutenbergBible_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "1509_GutenbergBible_LODa.fplmesh",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1509_GutenbergBible_LODa.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1509_GutenbergBible_R.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1509_GutenbergBible_D.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1509_GutenbergBible_N.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18430"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "1509_GutenbergBible_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "1509_GutenbergBible_D.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "18430"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffc107"
+    }
+}

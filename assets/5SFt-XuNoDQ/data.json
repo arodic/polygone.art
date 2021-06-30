@@ -1,0 +1,49 @@
+{
+    "name": "Car",
+    "authorId": "aRQKSgtWCEa",
+    "authorName": "Faisal Hassan",
+    "createTime": "2018-07-25T07:23:28.921737Z",
+    "updateTime": "2020-10-07T09:44:07.738120Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "object_car.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "14636"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "object_car.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "object_car.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14636"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

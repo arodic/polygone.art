@@ -1,0 +1,71 @@
+{
+    "name": "fern",
+    "description": "plants",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-15T08:32:50.221180Z",
+    "updateTime": "2021-06-05T13:15:57.659304Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 11,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "fern1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fern1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "325968"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "fern1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "fern1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texture_3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "325968"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Bunny",
+    "description": "its a bunny made with Magicavoxel",
+    "authorId": "eWZhX_6IQyr",
+    "authorName": "Harry Banda",
+    "createTime": "2020-06-05T19:14:35.904773Z",
+    "updateTime": "2020-06-08T10:10:37.659884Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bunny.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bunny.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "bunny.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "208"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "bunny.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bunny.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "bunny.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "208"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#27a32f"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "Axe Dual Sided",
+    "description": "A simple dual sided axe in a fire fighter styler.",
+    "authorId": "0G5zTWXOKUJ",
+    "authorName": "Troct Developer (Troctzul)",
+    "createTime": "2017-11-07T22:50:34.439406Z",
+    "updateTime": "2020-10-07T09:35:18.836180Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "axe.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "axe.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "484"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "axe.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "axe.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "484"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

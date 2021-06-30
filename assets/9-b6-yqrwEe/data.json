@@ -1,0 +1,69 @@
+{
+    "name": "Octopus",
+    "description": "#tentacles #ocean #sea #underwater #creature",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-29T02:16:50.730065Z",
+    "updateTime": "2021-06-08T10:30:18.795570Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "tentacles",
+        "ocean",
+        "sea",
+        "underwater",
+        "creature"
+    ],
+    "likes": 94,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Octopus.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Octopus.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Octopus_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "754"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Octopus.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Octopus.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Octopus_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "754"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ef9a9a"
+    }
+}

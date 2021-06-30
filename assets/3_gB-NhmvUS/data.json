@@ -1,0 +1,88 @@
+{
+    "name": "Dog Toy Experiment",
+    "description": "Experimental low-res Photogrammetry rendiering of a Child's toy.",
+    "authorId": "anF9MNWyPjH",
+    "authorName": "Paul Vincent",
+    "createTime": "2019-10-17T13:07:29.128437Z",
+    "updateTime": "2020-09-24T09:43:34.257547Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "dog.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "dog.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "dog_tex0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dog_tex1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dog_tex2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dog_tex3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "166217"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "dog.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "dog_tex0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dog_tex3.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dog_tex2.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dog_tex1.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "dog.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "166217"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.6626200482157375,
+            "w": 0.7489557207890021
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

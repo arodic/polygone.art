@@ -1,0 +1,60 @@
+{
+    "name": "ddd",
+    "authorId": "2b7JhuQue2k",
+    "authorName": "Stephen Emerson",
+    "createTime": "2019-07-19T01:49:02.353563Z",
+    "updateTime": "2020-09-24T10:19:03.534513Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TARDIS.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TARDIS.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "TARDIS2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "TARDIS.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TARDIS.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "TARDIS2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

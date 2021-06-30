@@ -1,0 +1,63 @@
+{
+    "name": "Generic Pixel Building",
+    "description": "Test Building for Game Builder jam",
+    "authorId": "dsKe8zsm7wK",
+    "authorName": "Jay Tholen",
+    "createTime": "2019-05-20T12:12:50.220851Z",
+    "updateTime": "2020-06-23T10:12:57.563373Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Standard_Building.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Standard_Building.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "56"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Standard_Building.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "material.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "texture_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "56"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "room",
+    "description": "room voxel model",
+    "authorId": "dfVTEEFCPaC",
+    "authorName": "げんげん（gengen）",
+    "createTime": "2018-08-25T05:06:29.715213Z",
+    "updateTime": "2020-09-28T09:47:31.071650Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "room_uni.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "room_uni.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "room_uni.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1416"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "room_uni.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "room_uni.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "room_uni.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1416"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

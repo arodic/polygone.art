@@ -1,0 +1,53 @@
+{
+    "name": "Rapier Sword 1",
+    "description": "First try at rendering a rapier for Google Poly. More accurate to actual rapiers than any of the renders I could find.",
+    "authorId": "85IG23oLwUQ",
+    "authorName": "Lupold Hass",
+    "createTime": "2020-12-02T04:04:54.198759Z",
+    "updateTime": "2020-12-02T04:55:27.027886Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "rapier_final2/rapier_final2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "rapier_final2/rapier_final2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3068"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "rapier_final2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "rapier_final2.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3068"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#307335"
+    }
+}

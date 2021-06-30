@@ -1,0 +1,63 @@
+{
+    "name": "Eureka Digger",
+    "description": "A 3d model of a Eureka Digger from the Eureka Stockade.",
+    "authorId": "1PDhlwqZ1S0",
+    "authorName": "Paul Hamilton",
+    "createTime": "2019-06-11T02:09:28.051561Z",
+    "updateTime": "2020-08-19T09:28:17.301673Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Digger.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Digger.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Digger_posed_body_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "76301"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Digger.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Digger.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Digger_posed_body_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "76301"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

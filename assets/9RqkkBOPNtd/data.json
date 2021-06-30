@@ -1,0 +1,67 @@
+{
+    "name": "Scooter",
+    "description": "#moped #vehicle #transport #bike",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T02:12:00.733468Z",
+    "updateTime": "2021-05-17T00:37:54.750790Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "moped",
+        "vehicle",
+        "bike"
+    ],
+    "likes": 14,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_SCOOTER.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_SCOOTER.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "scooterSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2116"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_SCOOTER.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_SCOOTER.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "scooterSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2116"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e64a19"
+    }
+}

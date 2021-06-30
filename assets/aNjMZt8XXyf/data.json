@@ -1,0 +1,61 @@
+{
+    "name": "Magnet",
+    "description": "How do they work?",
+    "authorId": "8FRCVPnlgJ8",
+    "authorName": "Alex Gunderman",
+    "createTime": "2020-02-12T21:31:14.255344Z",
+    "updateTime": "2021-01-31T17:55:04.014791Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mangnetn.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mangnetn.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "magnetstex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "164"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mangnetn.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "magnetstex.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "mangnetn.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "164"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffff99"
+    }
+}

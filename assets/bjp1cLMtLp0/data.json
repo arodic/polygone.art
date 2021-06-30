@@ -1,0 +1,63 @@
+{
+    "name": "panel_obj",
+    "description": "panel_obj",
+    "authorId": "9nrIdhBrw47",
+    "authorName": "Thommy Eriksson",
+    "createTime": "2020-09-17T14:17:22.513330Z",
+    "updateTime": "2021-02-03T12:42:03.058192Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "panel_obj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "panel_obj/GUI_logic_CityAirSim_scenarios_v2_0_september_2020.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "panel_obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "panel_obj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "panel_obj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "panel_obj/GUI_logic_CityAirSim_scenarios_v2_0_september_2020.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

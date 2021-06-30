@@ -1,0 +1,62 @@
+{
+    "name": "Batman",
+    "authorId": "3fOs_TWNTvw",
+    "authorName": "Rohan singh",
+    "createTime": "2017-11-02T15:25:22.195134Z",
+    "updateTime": "2020-10-06T10:17:22.455081Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Batman.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Batman.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Batman.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "584"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Batman.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Batman.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Batman.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "584"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

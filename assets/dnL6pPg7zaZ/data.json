@@ -1,0 +1,59 @@
+{
+    "name": "Arnis Mideris",
+    "authorId": "5R9nGu2SpqB",
+    "authorName": "Gatis Zvejnieks",
+    "createTime": "2020-02-11T09:37:12.284892Z",
+    "updateTime": "2020-02-25T22:41:36.517480Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "arnis.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "arnis.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "arnis_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "111548"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "arnis.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "arnis.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "arnis_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "111548"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR"
+    }
+}

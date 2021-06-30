@@ -1,0 +1,67 @@
+{
+    "name": "Submarine",
+    "description": "#naval #underwater #uboat",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-21T13:41:57.172317Z",
+    "updateTime": "2021-04-22T21:11:25.023383Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated",
+        "naval",
+        "underwater",
+        "uboat"
+    ],
+    "likes": 31,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_SUBMARINE.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_SUBMARINE.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "submarineSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2088"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_SUBMARINE.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_SUBMARINE.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "submarineSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2088"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ff9800"
+    }
+}

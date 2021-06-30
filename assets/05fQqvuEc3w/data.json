@@ -1,0 +1,62 @@
+{
+    "name": "meme",
+    "authorId": "7kOtLWefO_k",
+    "authorName": "Ryan Little",
+    "createTime": "2021-05-28T17:13:09.517366Z",
+    "updateTime": "2021-05-28T17:22:02.722365Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "meme.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "meme.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Project_Name&Project_Name_alpha.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12050"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "meme.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "meme.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Project_Name&Project_Name_alpha.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12050"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1d1a1a"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "Leonardo da Vinci",
+    "authorId": "3IZJKF2ZdVt",
+    "authorName": "Enter Inventive Studio",
+    "createTime": "2018-11-26T14:24:52.230569Z",
+    "updateTime": "2020-10-02T09:38:00.169498Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mona lisa.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mona lisa.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mona lisa.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "616950"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "mona lisa.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mona lisa.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mona lisa.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "616950"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

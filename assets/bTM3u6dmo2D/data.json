@@ -1,0 +1,62 @@
+{
+    "name": "balcony",
+    "authorId": "axelmRPIZvz",
+    "authorName": "Viktor Takács",
+    "createTime": "2020-01-03T11:07:28.758037Z",
+    "updateTime": "2020-09-06T10:09:27.647081Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "walk.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "walk.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "column.jpeg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22156"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "walk.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "column.jpeg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "walk.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22156"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

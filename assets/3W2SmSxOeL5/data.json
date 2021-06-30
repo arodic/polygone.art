@@ -1,0 +1,66 @@
+{
+    "name": "Soldier",
+    "authorId": "3cU5DA192r_",
+    "authorName": "Kevin Kandlbinder",
+    "createTime": "2018-10-08T21:03:17.829792Z",
+    "updateTime": "2020-08-27T09:38:40.897704Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "soldier.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "soldier.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "soldier_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "34119"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "soldier.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "soldier.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "soldier_Packed0_Diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "soldier_Packed0_Specular.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "34119"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

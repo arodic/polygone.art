@@ -1,0 +1,48 @@
+{
+    "name": "fractals workshop",
+    "authorId": "d2jze9GAXCS",
+    "authorName": "Madhav Shankhdhar",
+    "createTime": "2021-03-09T07:40:22.082390Z",
+    "updateTime": "2021-03-09T07:46:25.310083Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "frc.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "6260"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "frc.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "frc.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6260"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

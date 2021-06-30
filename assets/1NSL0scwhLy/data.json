@@ -1,0 +1,46 @@
+{
+    "name": "asteroids white",
+    "authorId": "2PXL5E9DDpV",
+    "authorName": "Gareth Bunting",
+    "createTime": "2018-03-18T17:36:17.308541Z",
+    "updateTime": "2020-03-02T10:29:26.365272Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "asteroids.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "645712"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "asteroids.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "asteroids.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "645712"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

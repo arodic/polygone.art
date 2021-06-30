@@ -1,0 +1,63 @@
+{
+    "name": "yellow camera",
+    "description": "cyberpunk",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-09T01:46:34.175742Z",
+    "updateTime": "2020-06-11T10:12:13.863124Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "yellow camera.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "defaultMat.1_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "yellow camera.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10550"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "yellow camera.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "yellow camera.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "defaultMat.1_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10550"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

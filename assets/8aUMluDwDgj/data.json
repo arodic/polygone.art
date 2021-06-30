@@ -1,0 +1,63 @@
+{
+    "name": "soda",
+    "description": "it was fun making this from scratch",
+    "authorId": "3beVlvkQS0V",
+    "authorName": "Sergio Sanchez",
+    "createTime": "2019-09-06T21:17:14.805714Z",
+    "updateTime": "2020-10-05T10:04:07.566829Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "soda.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "soda_diffuse.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "soda.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "478"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "soda.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "soda.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "soda_diffuse.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "478"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

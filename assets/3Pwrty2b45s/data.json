@@ -1,0 +1,60 @@
+{
+    "name": "red skybox",
+    "authorId": "eGovNLf2UJT",
+    "authorName": "Natasha M",
+    "createTime": "2020-03-06T08:18:09.223866Z",
+    "updateTime": "2020-11-01T01:58:29.534502Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "skybox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "D:/WAVEassets/GROUNDSWELL/skyboxred/skyboxgradient.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "skybox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "D:/WAVEassets/GROUNDSWELL/skyboxred/skyboxgradient.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

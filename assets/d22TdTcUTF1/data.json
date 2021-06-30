@@ -1,0 +1,49 @@
+{
+    "name": "Platonic Solids",
+    "description": "The five platonic solids.\nTetrahedron, four sided, D4.\nHexahedron, or cube, six sided, D6.\nOctohedron, eight sided, D8.\nDodecahedron, twelve sided, D12.\nIcosohedron, twenty sided, D20.\n\nLike this model, but need something a bit different? I take commissions! http://peripheralarbor.com/commission/",
+    "authorId": "ej5So4VLSng",
+    "authorName": "Paul Spooner",
+    "createTime": "2018-09-28T04:28:09.830842Z",
+    "updateTime": "2021-04-14T22:42:06.461235Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 20,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Solids.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "80"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Solids.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Solids.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "80"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

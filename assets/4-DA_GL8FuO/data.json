@@ -1,0 +1,60 @@
+{
+    "name": "3D_Ghibli",
+    "authorId": "ecyUfe-oXqt",
+    "authorName": "PedritoAngelo",
+    "createTime": "2019-06-07T16:53:51.617255Z",
+    "updateTime": "2020-09-24T09:46:23.013596Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Ghibli3d.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "714900cc977a8c7ddfc54337d4442a2b.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Ghibli3d.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Ghibli3d.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Ghibli3d.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "714900cc977a8c7ddfc54337d4442a2b.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

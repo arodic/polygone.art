@@ -1,0 +1,61 @@
+{
+    "name": "Caja cereal metal gear",
+    "description": "Caja cereal metal gear tarea",
+    "authorId": "70ksckue9Ya",
+    "authorName": "JUAN MANUEL BENITEZ BOTERO",
+    "createTime": "2020-04-13T02:52:55.761975Z",
+    "updateTime": "2020-05-11T10:26:32.092059Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "caja cereal.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "caja cereal.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "snake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "caja cereal.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "caja cereal.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "snake.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

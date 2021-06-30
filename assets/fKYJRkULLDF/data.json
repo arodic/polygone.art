@@ -1,0 +1,68 @@
+{
+    "name": "city backdrop for REDLINE",
+    "authorId": "eGovNLf2UJT",
+    "authorName": "Natasha M",
+    "createTime": "2020-06-20T20:08:31.440055Z",
+    "updateTime": "2020-09-09T10:19:32.149790Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "citybackground/citybackground.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "citybackground/citybackground.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "citybackground/citybackground1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "citybackground/citybackground2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "citybackground.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "citybackground.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "citybackground/citybackground1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "citybackground/citybackground2.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

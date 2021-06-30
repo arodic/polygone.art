@@ -1,0 +1,65 @@
+{
+    "name": "Skunk",
+    "description": "#animal",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T23:15:45.485694Z",
+    "updateTime": "2021-06-16T12:43:32.262505Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "animal"
+    ],
+    "likes": 28,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Skunk.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Skunk.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Skunk_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "636"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Skunk.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Skunk.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Skunk_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "636"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9ccc65"
+    }
+}

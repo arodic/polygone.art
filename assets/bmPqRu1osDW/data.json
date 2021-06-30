@@ -1,0 +1,62 @@
+{
+    "name": "Gyroid Animal Crossing",
+    "authorId": "6Fslh3nYPmb",
+    "authorName": "Kale Mathieson",
+    "createTime": "2020-03-19T02:13:24.001208Z",
+    "updateTime": "2021-02-13T16:33:08.055114Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "gyroid.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "gyroid.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "gyroid.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "380"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "gyroid.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "gyroid.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gyroid.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "380"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "招き猫",
+    "description": "写真計測のトライアルとして作成してみた招き猫です。",
+    "authorId": "c_zy0Z9aEIe",
+    "authorName": "Hideo Miyachi",
+    "createTime": "2018-10-24T04:03:05.034684Z",
+    "updateTime": "2020-02-25T21:24:42.408970Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "LucyCAT.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "LucyCAT.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "LucyCAT01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5001"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "LucyCAT.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "LucyCAT.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "LucyCAT01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5001"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

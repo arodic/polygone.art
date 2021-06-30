@@ -1,0 +1,60 @@
+{
+    "name": "My Room",
+    "authorId": "bfBz7u2TYVL",
+    "authorName": "Tanakrit Tinatin",
+    "createTime": "2020-01-03T07:26:19.030933Z",
+    "updateTime": "2020-02-25T21:57:05.281941Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "myRoom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "myRoom.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "myRoom.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4512"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "myRoom.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "myRoom.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "myRoom.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4512"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

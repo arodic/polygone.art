@@ -1,0 +1,49 @@
+{
+    "name": "Spike-ACE2 interaction overvie",
+    "description": "UnityMol 3D model export related to FAIR sharing of molecular visualization experiences illustrated with COVID-19-related data. See our paper (to come)",
+    "authorId": "2jUEGR5NX5c",
+    "authorName": "Marc Baaden",
+    "createTime": "2020-08-26T14:54:01.115153Z",
+    "updateTime": "2020-09-29T09:49:14.447015Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "ex1_spike.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "formatComplexity": {
+                "triangleCount": "1224061"
+            },
+            "formatType": "FBX"
+        },
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1224061"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

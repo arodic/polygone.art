@@ -1,0 +1,60 @@
+{
+    "name": "paint",
+    "authorId": "7S2jm15GzEy",
+    "authorName": "NYL VR",
+    "createTime": "2019-06-28T10:51:37.786883Z",
+    "updateTime": "2020-10-07T10:36:39.736944Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "paint.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "paint.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "0f0cf2a2-3ced-433b-8493-07308c04396d.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "paint.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "paint.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "0f0cf2a2-3ced-433b-8493-07308c04396d.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

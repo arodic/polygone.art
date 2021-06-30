@@ -1,0 +1,64 @@
+{
+    "name": "Bicho",
+    "description": "Bug at Mezquite",
+    "authorId": "4RcRzBYFCAG",
+    "authorName": "Ignacio Ornelas Cravioto",
+    "createTime": "2019-08-21T20:52:33.078502Z",
+    "updateTime": "2020-09-25T09:42:06.751815Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Bicho 01.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bicho 01.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bicho 01/M_20190630_185532.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Bicho 01.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bicho 01.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Bicho 01/M_20190630_185532.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

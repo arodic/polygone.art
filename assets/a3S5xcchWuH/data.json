@@ -1,0 +1,79 @@
+{
+    "name": "sea monster",
+    "description": "monsters",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-08-11T15:05:52.860561Z",
+    "updateTime": "2020-11-04T07:33:58.290577Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sea monster 2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sea monster 2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Fish_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "material_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "teeth_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12028"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sea monster 2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sea monster 2.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "material_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "teeth_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Fish_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12028"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#00bcd4"
+    }
+}

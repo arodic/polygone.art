@@ -1,0 +1,61 @@
+{
+    "name": "SAT",
+    "description": "Thank you poly by Google",
+    "authorId": "bDky1fJeI05",
+    "authorName": "Mason Lee",
+    "createTime": "2019-05-30T16:25:37.502884Z",
+    "updateTime": "2020-02-25T23:00:28.946530Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Satellite(1).gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Satellite(1).bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Satellite_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "914"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Satellite(1).obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Satellite_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Satellite.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "914"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

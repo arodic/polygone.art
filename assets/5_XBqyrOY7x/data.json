@@ -1,0 +1,67 @@
+{
+    "name": "Bat",
+    "description": "#flying\n#bat\n#cave",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T18:05:43.251477Z",
+    "updateTime": "2021-06-07T20:26:34.048736Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated",
+        "flying",
+        "bat",
+        "cave"
+    ],
+    "likes": 36,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Bat.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bat.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Bat_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "344"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Bat.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Bat.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Bat_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "344"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

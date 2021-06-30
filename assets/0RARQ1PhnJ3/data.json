@@ -1,0 +1,88 @@
+{
+    "name": "old skool arcade",
+    "description": "80s",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2018-07-31T22:55:15.530676Z",
+    "updateTime": "2021-06-08T18:22:54.615121Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated"
+    ],
+    "likes": 35,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "arcade_cabinet_01_flashback_B_MAT_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade_stool_01_A_MAT_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade_garbage_01_A_MAT_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade_cabinet_01_flashback_A_MAT_baseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9644"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "scene.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "arcade_cabinet_01_flashback_A_MAT_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade_cabinet_01_flashback_B_MAT_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade_stool_01_A_MAT_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "arcade_garbage_01_A_MAT_baseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "scene.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9644"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

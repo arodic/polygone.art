@@ -1,0 +1,63 @@
+{
+    "name": "prov1",
+    "description": "prov1test",
+    "authorId": "daQD3HNi7Qz",
+    "authorName": "pnud colombia",
+    "createTime": "2021-03-17T20:22:18.728562Z",
+    "updateTime": "2021-03-17T20:29:31.837536Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "scene_mesh_textured.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene_mesh_textured.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_00_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "751586"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "scene_mesh_textured.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "scene_mesh_textured.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "scene_mesh_textured_material_00_map_Kd.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "751586"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

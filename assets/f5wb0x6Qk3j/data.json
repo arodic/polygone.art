@@ -1,0 +1,65 @@
+{
+    "name": "Palace",
+    "description": "#castle",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-25T22:52:29.620953Z",
+    "updateTime": "2021-06-08T09:52:59.938168Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated",
+        "castle"
+    ],
+    "likes": 49,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Palace.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Palace.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Palace_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6472"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Palace.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Palace.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Palace_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "6472"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffeb3b"
+    }
+}

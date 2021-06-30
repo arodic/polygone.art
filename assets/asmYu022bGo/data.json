@@ -1,0 +1,91 @@
+{
+    "name": "Burg auf Fehmarn",
+    "description": "https://youtu.be/lMQqa5yqwHY?t=1m30s\n\n#photogrammetry\n#drone",
+    "authorId": "cZB48CfpyEn",
+    "authorName": "Florian Zeidler",
+    "createTime": "2018-04-18T21:22:21.605065Z",
+    "updateTime": "2020-11-27T16:04:22.673700Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated",
+        "photogrammetry",
+        "drone"
+    ],
+    "likes": 14,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "burg.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "burg.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "burg1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "burg1002.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "burg1003.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "burg1004.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "604717"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "burg.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "burg.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "burg1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "burg1002.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "burg1003.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "burg1004.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "604717"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

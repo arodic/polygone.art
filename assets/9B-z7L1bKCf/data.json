@@ -1,0 +1,61 @@
+{
+    "name": "OBJ ch scpr tree 03a P",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2019-04-04T14:52:00.939712Z",
+    "updateTime": "2020-09-28T10:04:59.412654Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tree.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tree.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tree_baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "204"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tree.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tree.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tree_baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "204"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.20791169081775934,
+            "w": 0.9781476007338057
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#bd6262"
+    }
+}

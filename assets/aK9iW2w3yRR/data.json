@@ -1,0 +1,68 @@
+{
+    "name": "GB pizza_tomato",
+    "authorId": "avTdnbYBjTL",
+    "authorName": "András Kassai",
+    "createTime": "2019-11-02T17:06:39.343363Z",
+    "updateTime": "2020-02-25T21:47:49.726706Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pizza_tomato.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pizza_tomato.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tomato.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "base.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "192"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "pizza_tomato.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "base.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "pizza_tomato.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tomato.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "192"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#283593"
+    }
+}

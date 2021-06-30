@@ -1,0 +1,64 @@
+{
+    "name": "cow",
+    "description": "thanhvinh modeler",
+    "authorId": "anoGlC6T-E0",
+    "authorName": "Kelli Ray",
+    "createTime": "2018-03-25T02:32:04.005365Z",
+    "updateTime": "2021-06-06T21:08:01.638657Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "da co map.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "download.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "da co map.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "720"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "da co map.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "da co map.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "download.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "720"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#546e7a"
+    }
+}

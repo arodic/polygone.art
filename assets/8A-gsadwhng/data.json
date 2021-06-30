@@ -1,0 +1,72 @@
+{
+    "name": "Voitures",
+    "description": "aucune",
+    "authorId": "8ARR8ps2Pu0",
+    "authorName": "Jean-Denis Vreux",
+    "createTime": "2017-11-02T21:34:48.062875Z",
+    "updateTime": "2020-10-03T10:03:34.632643Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "bricolage_voitures.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "bricolage_voitures.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "voiture_test_dif.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "plaque_r_test.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "116"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "bricolage_voitures.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "bricolage_voitures.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "voiture_test_dif.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "plaque_r_test.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "116"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

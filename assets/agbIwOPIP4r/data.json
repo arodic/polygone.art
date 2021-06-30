@@ -1,0 +1,65 @@
+{
+    "name": "Televisión",
+    "description": "LG",
+    "authorId": "2mIIF0NVg2K",
+    "authorName": "jonathan veytia",
+    "createTime": "2020-11-10T01:19:00.992836Z",
+    "updateTime": "2020-11-10T01:26:39.044830Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TeleVision.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BaseTelevision_03.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "lambert2SG_Metallic.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "TeleVision.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12010"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "TeleVision.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TeleVision.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BaseTelevision_03.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12010"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

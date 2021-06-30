@@ -1,0 +1,64 @@
+{
+    "name": "Waterfall 360 Image TheWaveVR",
+    "description": "Find a 360 image you would like to import, Resolutions for 360 images can vary a lot.\nWhen uploading back into Google Poly the limit on resolution size is 4096 x 4096. You can use any 360 image with a width up to 4096, height for a 360 image should always be half the size of the width. So the max resolution for 360 image is 4096 x 2048 most likely the best you can find is a 4000 x 2000 image. However you don't actually have to use a 360 image on the sphere but expect some distortion of the image if not. Some abstract images or pictures of planets can work fine at least on a good portion of the sphere. \n\nHere are some good high resolution 360 Images. http://texturify.com/category/environment-panoramas.html\n\nDownload the OBJ from this page. \n\nYou will get a .Zip file such as. (skybox_obj_arOojlgI4L0_1cDlEG02ocX.zip)\nUnzip this to a folder and you will find 3 files. (skybox.jpg, skybox.mtl, skybox.obj)\nYou can now delete the original skybox.jpg and place your new image in this folder.\nThen rename the new image skybox.jpg.\nNow you can Upload the 3 files back onto Google Poly you do not need to re-zip them.\n\nFirst click the upload icon at the top of the page on Google Poly next to the search bar.\n\nA popup will display which you can drag and drop the 3 files here or click the link to select files from your computer.\n\nIf you click the link be sure to select all 3 files and then click open.\n\nIt should take a moment to upload and then display the 360 sphere from the outside.\n\nClick anywhere in the display window and scroll in to reveal the full 360 image.",
+    "authorId": "0KYiq8tYHqj",
+    "authorName": "lovedoll",
+    "createTime": "2018-02-09T01:53:09.248952Z",
+    "updateTime": "2020-10-07T10:14:24.943475Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "skybox.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "skybox.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "skybox.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "skybox.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2520"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

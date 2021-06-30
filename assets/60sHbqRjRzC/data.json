@@ -1,0 +1,60 @@
+{
+    "name": "Platonic shape 1",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2019-11-15T09:53:42.262445Z",
+    "updateTime": "2021-01-17T22:57:14.917766Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "octaeder.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "octaeder.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "rainbowgradien.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "720"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "octaeder.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "octaeder.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "rainbowgradien.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "720"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0a0f2b"
+    }
+}

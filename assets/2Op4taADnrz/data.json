@@ -1,0 +1,65 @@
+{
+    "name": "Dog skull section",
+    "authorId": "9XqBD5JMl_l",
+    "authorName": "SS421",
+    "createTime": "2018-05-31T01:13:13.869323Z",
+    "updateTime": "2020-09-27T09:34:50.156412Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "halfskull.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "halfskull_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "halfskull.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "99992"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "halfskull.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "halfskull.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "halfskull_u1_v1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "99992"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.5,
+            "w": 0.5
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

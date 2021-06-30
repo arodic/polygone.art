@@ -1,0 +1,55 @@
+{
+    "name": "stingray",
+    "description": "stingray",
+    "authorId": "7bguSSSwgdy",
+    "authorName": "Esdras Silva",
+    "createTime": "2020-09-19T18:39:07.036124Z",
+    "updateTime": "2020-09-23T10:05:24.729159Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "arraia all.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "arraia all.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "95744"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "arraia all.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "arraia all.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "95744"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#b8adad"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "name": "Carriage",
+    "description": "LSU Virtual Space: Vehicle Project",
+    "authorId": "b8Z9-XSOThK",
+    "authorName": "AB W",
+    "createTime": "2020-06-25T14:48:54.615118Z",
+    "updateTime": "2020-08-27T10:24:59.422779Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "VehicleOBJExport.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "VehicleOBJExport.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10382"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "VehicleOBJExport.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "VehicleOBJExport.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10382"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

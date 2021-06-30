@@ -1,0 +1,55 @@
+{
+    "name": "Peppermint",
+    "description": "Peppermint candy",
+    "authorId": "0DDClfaG5yp",
+    "authorName": "Laurie ONeill",
+    "createTime": "2018-08-19T23:00:12.521118Z",
+    "updateTime": "2020-10-05T10:01:27.859910Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "candy_mint.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "candy_mint.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13914"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "candy_mint.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "candy_mint.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "13914"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

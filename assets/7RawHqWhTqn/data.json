@@ -1,0 +1,73 @@
+{
+    "name": "FutureAutoTruck",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-05T06:34:14.824761Z",
+    "updateTime": "2020-10-02T10:00:27.618730Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "AutoTruck.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "AutoTruck.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "trucktire.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "truck.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2304"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "AutoTruck.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "truck.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "trucktire.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "AutoTruck.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2304"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.5,
+            "y": 0.5,
+            "z": 0.4999999999999999,
+            "w": 0.5000000000000001
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#a1887f"
+    }
+}

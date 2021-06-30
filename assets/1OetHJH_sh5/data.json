@@ -1,0 +1,66 @@
+{
+    "name": "リスのオブジェ",
+    "description": "テストで作成したリスのオブジェ\niPhoneにて撮影",
+    "authorId": "eiCQ8kPGixn",
+    "authorName": "Fish Sleeping",
+    "createTime": "2019-12-26T04:32:57.440944Z",
+    "updateTime": "2020-10-05T09:34:30.055454Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "risu.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "risu.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "risu.1001.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "771137"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "risu.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "risu.1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "risu.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "771137"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -8.659560562354932e-17,
+            "y": -0.7071067811865476,
+            "z": 8.659560562354934e-17,
+            "w": 0.7071067811865475
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#5d6b87"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Eggs",
+    "description": "Low Poly Eggs",
+    "authorId": "fM3S1ABcci5",
+    "authorName": "Dario Demi (D911C)",
+    "createTime": "2017-12-07T15:19:11.626586Z",
+    "updateTime": "2021-04-03T16:58:59.594213Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "uovo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "uovo.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "uovo/textures/UVuovo1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2880"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "uovo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "uovo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "uovo/textures/UVuovo1.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2880"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#455a64"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "Earth",
+    "description": "Built with 3ds Max.  Understanding Tilt Brush's particular support for .obj files exported from 3ds Max has been challenging, but this model showcases support for texture mapping and smoothing.",
+    "authorId": "fa4m5c69h51",
+    "authorName": "Robert Mirabelle",
+    "createTime": "2017-11-15T22:11:19.527866Z",
+    "updateTime": "2021-06-02T12:44:45.143990Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated"
+    ],
+    "likes": 178,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "earth_ball.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_ball.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "earth_ball.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "earth_ball.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "earth_ball.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "earth_ball.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "960"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1b5e20"
+    }
+}

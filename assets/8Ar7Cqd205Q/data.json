@@ -1,0 +1,55 @@
+{
+    "name": "Barco Pirata",
+    "description": "El barco pirata trae una sensación emocionante a la gente. Consiste en un barco que oscila hacia adelante y hacia atrás, dando a los pasajeros una sensación de ingravidez. La estructura de soporte de acero se compone de cuatro montantes.\nTeniendo materiales de fierros de acero pulido, el barco y el mastil estan echos 100% de madera y en la parte trasera esta el cofre del tesoro que esta echo de oro y cristal.",
+    "authorId": "5gBCGwg0Xhg",
+    "authorName": "Muñante",
+    "createTime": "2019-12-05T03:32:13.159619Z",
+    "updateTime": "2020-02-25T21:18:56.150903Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "barco.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "barco.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2966"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "barco.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "barco.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "2966"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

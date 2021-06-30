@@ -1,0 +1,64 @@
+{
+    "name": "Double laser",
+    "description": "Double laser game asset. #GameBuilder",
+    "authorId": "7e9P7_4EiLH",
+    "authorName": "Tarryn van der Byl",
+    "createTime": "2019-06-22T16:04:39.560683Z",
+    "updateTime": "2020-10-05T10:16:44.120142Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "GameBuilder"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Double laser.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Double laser.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Double laser.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Double laser.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Double laser.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Double laser.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "24"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

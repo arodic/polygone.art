@@ -1,0 +1,65 @@
+{
+    "name": "Vines",
+    "description": "#plant",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-22T22:14:15.507211Z",
+    "updateTime": "2021-06-10T15:14:56.393478Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature",
+        "curated",
+        "plant"
+    ],
+    "likes": 80,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Vines.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Vines.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Vines_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1436"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Vines.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Vines.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Vines_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1436"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#795548"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "name": "PIEZA 1 - VASIJA CERÁMICA",
+    "description": "Colección de Referencia - Corporación Sipah - David Wolff",
+    "authorId": "7gNQIGrAyoo",
+    "authorName": "CorporacionSIPAH",
+    "createTime": "2020-11-14T14:06:59.465392Z",
+    "updateTime": "2020-12-05T17:38:39.664256Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "texturedMesh.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texture_1001.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "texturedMesh.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180548"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "texturedMesh.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "texture_1001.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180548"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -1,
+            "w": 6.123233995736766e-17
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

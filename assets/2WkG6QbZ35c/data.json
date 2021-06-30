@@ -1,0 +1,71 @@
+{
+    "name": "Magic Splorgicorn",
+    "description": "A Unicorn variant of the Splorg Horse",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-04-10T18:25:46.235570Z",
+    "updateTime": "2020-02-25T20:13:32.965410Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Splorgicorn.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Splorgicorn.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "unibody.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Magic Mane.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "70590"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Splorgicorn.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Magic Mane.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Splorgicorn.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "unibody.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "70590"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

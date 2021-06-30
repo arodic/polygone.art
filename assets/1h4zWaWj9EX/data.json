@@ -1,0 +1,73 @@
+{
+    "name": "321 Sump FBX",
+    "description": "321 Sump FBX",
+    "authorId": "fES9mpwk3vE",
+    "authorName": "Robert Mark",
+    "createTime": "2018-11-28T19:48:33.476279Z",
+    "updateTime": "2020-09-25T09:37:08.415570Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "321_Sump_M.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "316_Valves_N.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41451"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "321_Sump_LODa.fbx",
+                "contentType": "application/octet-stream"
+            },
+            "resources": [
+                {
+                    "relativePath": "316_Valves_N.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "321_Sump_M.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "321_sump_loda_0.fplmat",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "321_sump_loda.fplmesh",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "41451"
+            },
+            "formatType": "FBX"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

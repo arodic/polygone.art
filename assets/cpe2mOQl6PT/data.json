@@ -1,0 +1,63 @@
+{
+    "name": "razer setup",
+    "description": "keyboards",
+    "authorId": "ew9uXCUrhu9",
+    "authorName": "Jeremy Eyring",
+    "createTime": "2019-01-14T11:20:36.013856Z",
+    "updateTime": "2020-10-07T10:22:43.494125Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "razer.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "razer.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Scene_-_Root_baseColor_17832851910588591680.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10715"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "razer.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "razer.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Scene_-_Root_baseColor_17832851910588591680.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "10715"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#009688"
+    }
+}

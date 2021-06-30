@@ -1,0 +1,67 @@
+{
+    "name": "Paw Paws",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-04-24T15:22:45.156898Z",
+    "updateTime": "2020-09-26T10:12:03.844363Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "glove.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "glove.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "glove_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "glove.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "glove.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "glove_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "glove_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "20000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -1.1102230246251565e-16,
+            "y": 0.7071067811865476,
+            "z": 0.7071067811865475,
+            "w": 1.1102230246251565e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

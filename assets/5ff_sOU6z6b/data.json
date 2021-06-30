@@ -1,0 +1,62 @@
+{
+    "name": "gallery_vr",
+    "authorId": "1-AVBxP-w2g",
+    "authorName": "Anonymous",
+    "createTime": "2018-03-23T02:12:07.156286Z",
+    "updateTime": "2020-02-25T20:47:40.686469Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "galleryv3.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "galleryv3.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "WOOD1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1010"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "galleryv3.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "galleryv3.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "WOOD1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1010"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

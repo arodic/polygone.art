@@ -1,0 +1,61 @@
+{
+    "name": "drcd wetfloor v3",
+    "description": "Changes for version 3:\n- Changed diffuse color value from grayscale 0.8 to 0.3 to reduce effects of directional lighting in WaveXR.\n\nRemixed from: https://poly.google.com/view/fCZ3TDYzSO0\nOriginal Model Author: Paul Spooner https://poly.google.com/user/ej5So4VLSng",
+    "authorId": "cDuZFsigMIu",
+    "authorName": "Y. Z.",
+    "createTime": "2020-05-01T01:11:32.372097Z",
+    "updateTime": "2020-09-29T09:56:28.321939Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "caution.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Untitled.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "caution.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "888"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "caution.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "caution.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Untitled.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "888"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

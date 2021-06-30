@@ -1,0 +1,55 @@
+{
+    "name": "Low poly Airoplane",
+    "description": "Low poly airplane using blender 2.8.",
+    "authorId": "7013QSvAhaV",
+    "authorName": "Pratik Mohite",
+    "createTime": "2019-11-29T11:22:35.888344Z",
+    "updateTime": "2020-07-18T09:28:44.714379Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "airoplane1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "airoplane1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3547"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "airoplane1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "airoplane1.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "3547"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#37abbd"
+    }
+}

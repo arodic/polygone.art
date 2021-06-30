@@ -1,0 +1,66 @@
+{
+    "name": "Banana",
+    "description": "#fruit #tropical ",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-09-29T01:47:57.563034Z",
+    "updateTime": "2021-06-08T10:23:54.177424Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated",
+        "fruit",
+        "tropical"
+    ],
+    "likes": 50,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CHAHIN_BANANA.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CHAHIN_BANANA.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "CHAHIN_BANANA_TEXTURE.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "144"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CHAHIN_BANANA.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CHAHIN_BANANA.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "CHAHIN_BANANA_TEXTURE.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "144"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#a1887f"
+    }
+}

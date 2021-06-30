@@ -1,0 +1,63 @@
+{
+    "name": "ひよこ",
+    "description": "MagicaVoxelで作成したひよこです",
+    "authorId": "8---9AxxClI",
+    "authorName": "今井健太",
+    "createTime": "2018-02-01T13:02:06.276299Z",
+    "updateTime": "2020-09-23T09:54:50.856012Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hiyoko.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hiyoko.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hiyoko.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "hiyoko.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hiyoko.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "hiyoko.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "180"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

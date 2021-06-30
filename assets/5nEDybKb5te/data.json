@@ -1,0 +1,56 @@
+{
+    "name": "Meta Eiffel Tower",
+    "description": "Meta-structure of the Eiffel Tower base frame. Low poly version. Original has ~10M polygons (quad-tri mix).",
+    "authorId": "dMVJnuGoz8K",
+    "authorName": "tod doeh",
+    "createTime": "2019-10-29T15:49:36.476096Z",
+    "updateTime": "2020-08-07T09:56:50.011009Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Eiffel_02.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Eiffel_02.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1190020"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Eiffel_02.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Eiffel_02.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1190020"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#a8a8a8"
+    }
+}

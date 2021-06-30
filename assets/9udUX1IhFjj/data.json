@@ -1,0 +1,61 @@
+{
+    "name": "yoshi",
+    "description": "yoshi form nintendo wii",
+    "authorId": "7tyY--f7CG7",
+    "authorName": "onix m",
+    "createTime": "2019-12-22T21:35:59.496441Z",
+    "updateTime": "2021-04-12T04:57:16.437106Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Yoshi/yoshi.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Yoshi/Tex_0002_0.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Yoshi/yoshi.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4440"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "yoshi.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "yoshi.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Yoshi/Tex_0002_0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4440"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Hardback Book",
+    "description": "Model of a general hardback book. The model is broken into shader groups for the pages, front cover, spine, and back cover.",
+    "authorId": "eCq2cla1OwT",
+    "authorName": "Hope Moore",
+    "createTime": "2020-06-24T23:54:41.276844Z",
+    "updateTime": "2020-10-07T10:23:13.596172Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "book.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "book.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "book.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "360"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2e293b"
+    }
+}

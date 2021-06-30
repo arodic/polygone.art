@@ -1,0 +1,63 @@
+{
+    "name": "CoV SARS2 protease",
+    "description": "coarse molecular surface, colored by NtoC ranbow",
+    "authorId": "5tssF9YcoNC",
+    "authorName": "Arthur Olson",
+    "createTime": "2020-10-07T21:37:22.568790Z",
+    "updateTime": "2020-10-07T21:46:50.448904Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "science"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sars-protease-rainbow.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sars-protease-rainbow.obj.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "sars-protease-rainbow_tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5292"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sars-protease-rainbow.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sars-protease-rainbow.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sars-protease-rainbow_tex.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5292"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

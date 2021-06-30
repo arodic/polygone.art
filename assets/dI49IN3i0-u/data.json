@@ -1,0 +1,67 @@
+{
+    "name": "Classic Car Body",
+    "authorId": "eNB83SKVx7o",
+    "authorName": "VR XRTIST",
+    "createTime": "2018-03-16T06:09:53.553208Z",
+    "updateTime": "2020-02-25T22:33:54.426988Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "paintedcar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "paintedcar.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "paintedcar_default_color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "paintedcar_default_nmap.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "85188"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "paintedcar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "paintedcar.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "paintedcar_default_color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "85188"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 1,
+            "w": 2.220446049250313e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

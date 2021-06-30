@@ -1,0 +1,63 @@
+{
+    "name": "botanic garden piece",
+    "description": "grand central",
+    "authorId": "fVVTh4ouZB2",
+    "authorName": "Edward Yee",
+    "createTime": "2018-01-12T15:17:29.684610Z",
+    "updateTime": "2020-10-05T10:03:44.311561Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "grandcentral.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "grandcentral.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "grandcentral.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "60000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "grandcentral.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "grandcentral.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "grandcentral.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "60000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 1.1102230246251565e-16,
+            "z": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

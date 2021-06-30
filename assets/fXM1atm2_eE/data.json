@@ -1,0 +1,62 @@
+{
+    "name": "Debris 1",
+    "authorId": "7uZfrtZt-gw",
+    "authorName": "Sam Welker (SamTheIntern)",
+    "createTime": "2019-01-16T21:48:23.976515Z",
+    "updateTime": "2020-10-07T10:37:46.219987Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "nature"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "debris1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "debris1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "236"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "debris1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "debris1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "236"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

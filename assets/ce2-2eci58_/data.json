@@ -1,0 +1,72 @@
+{
+    "name": "A carved gate at Petra, Jordan",
+    "description": "A Photogrammetric reconstructed gate have been captured using digital photos, using Agisoft Metashape   ",
+    "authorId": "cK6dZKvq7gl",
+    "authorName": "Nemeh Rihani",
+    "createTime": "2020-06-30T11:40:35.352236Z",
+    "updateTime": "2020-09-13T11:33:59.802167Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "PetraDetail.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "PetraDetail.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "PetraDetail.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "PetraDetail1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "349939"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "PetraDetail.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "PetraDetail.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "PetraDetail.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "PetraDetail1.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "349939"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "z": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

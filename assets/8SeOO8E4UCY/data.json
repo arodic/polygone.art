@@ -1,0 +1,61 @@
+{
+    "name": "桜餅を適当に3Dモデル化",
+    "authorId": "eiCQ8kPGixn",
+    "authorName": "Fish Sleeping",
+    "createTime": "2020-03-25T05:18:33.500652Z",
+    "updateTime": "2020-03-25T05:26:32.905352Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sakura.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sakura.1001.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "sakura.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "769995"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "sakura.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sakura.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sakura.1001.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "769995"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.6427876096865393,
+            "w": 0.766044443118978
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#6b4646"
+    }
+}

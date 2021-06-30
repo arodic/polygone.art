@@ -1,0 +1,95 @@
+{
+    "name": "Motorhome",
+    "description": "A motorhome /camper van / camper / campervan / motor home.",
+    "authorId": "7Yevy9BwO-2",
+    "authorName": "Franziska Haaf",
+    "createTime": "2019-08-23T12:31:50.462916Z",
+    "updateTime": "2020-10-06T10:12:01.515511Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "campervan.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "campervan.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "fahrerkabine.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fenster.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "reifen.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "spiegel.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wohnhaenger.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1974"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "campervan.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "campervan.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "fahrerkabine.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "fenster.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "reifen.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "spiegel.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wohnhaenger.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1974"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#e91e63"
+    }
+}

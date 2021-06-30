@@ -1,0 +1,79 @@
+{
+    "name": "Castle Kit",
+    "description": "This package includes different medieval and castle objects for use in any type of project (personal, educational or commercial).\n\nIf you'd like to download each part separately you can download the pack for free here: https://kenney.nl/assets/castle-kit",
+    "authorId": "eXHWcA97LIw",
+    "authorName": "Kenney",
+    "createTime": "2018-10-16T15:55:12.882177Z",
+    "updateTime": "2021-06-14T01:58:07.736414Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 28,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "castleKit.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "castleKit/knightRed.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "castleKit.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "castleKit/knightBlue.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "castleKit/king.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "21540"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "castleKit.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "castleKit.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "castleKit/knightRed.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "castleKit/king.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "castleKit/knightBlue.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "21540"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

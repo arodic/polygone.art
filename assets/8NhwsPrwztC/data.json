@@ -1,0 +1,63 @@
+{
+    "name": "Spirit Mural 01",
+    "description": "mural  imag01e ",
+    "authorId": "9eF8Zyc4Q-o",
+    "authorName": "Paul Deo",
+    "createTime": "2020-09-06T01:28:28.351911Z",
+    "updateTime": "2020-09-06T01:37:28.226254Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "paulmaster-obj.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "paul.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "paulmaster-obj.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "paulmaster-obj.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "paulmaster-obj.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "paul.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

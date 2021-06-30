@@ -1,0 +1,63 @@
+{
+    "name": "Continuite",
+    "description": "Continuite by José de Graaf, Smithsonian American Art Museum\n\n",
+    "authorId": "bQPmQzZ5ajd",
+    "authorName": "Daniel Pett",
+    "createTime": "2020-05-18T13:52:15.460304Z",
+    "updateTime": "2020-12-27T18:17:08.872452Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "contin.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "contin.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "contin.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500000"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "contin.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "contin.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "contin.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "500000"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#241f1f"
+    }
+}

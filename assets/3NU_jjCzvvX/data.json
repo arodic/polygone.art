@@ -1,0 +1,56 @@
+{
+    "name": "Pizza",
+    "description": "Remix: Colorized version of Pizza by Michael Fuchs (https://poly.google.com/view/5sM2zFhfiIC)",
+    "authorId": "bEccv7pFhKt",
+    "authorName": "Jesse Jackson",
+    "createTime": "2017-11-21T07:43:19.120156Z",
+    "updateTime": "2021-02-11T17:07:44.546132Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "food",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pizza-color.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pizza-color.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1176"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "pizza-color/pizza-color.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pizza-color/pizza-color.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1176"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#424242"
+    }
+}

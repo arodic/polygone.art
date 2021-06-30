@@ -1,0 +1,59 @@
+{
+    "name": "Boogey",
+    "description": "Jeep",
+    "authorId": "2mIIF0NVg2K",
+    "authorName": "jonathan veytia",
+    "createTime": "2020-11-09T19:00:16.992670Z",
+    "updateTime": "2021-04-20T01:04:05.607706Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "JeepBuggy.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Buggy_Emission.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "JeepBuggy.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14135"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "JeepBuggy.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "JeepBuggy.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "14135"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#ffffff"
+    }
+}

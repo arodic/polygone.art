@@ -1,0 +1,70 @@
+{
+    "name": "P_Hidalgo",
+    "authorId": "8SQO_M20DJ0",
+    "authorName": "Valeria (Fam)",
+    "createTime": "2020-09-21T06:55:24.240341Z",
+    "updateTime": "2020-09-23T10:04:55.837275Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "scenes"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hidalgo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "initialShadingGroup_Base_Color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "initialShadingGroup_Normal.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "hidalgo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59589"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "hidalgo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hidalgo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "initialShadingGroup_Base_Color.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "initialShadingGroup_Normal.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "59589"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9e9e9e"
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "name": "vsar_test1",
+    "authorId": "6pFISo25gjf",
+    "authorName": "Bernat B",
+    "createTime": "2019-08-07T13:34:04.247035Z",
+    "updateTime": "2020-09-30T09:39:03.623046Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "test_obj_vs1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "normal_map_rock_or_weird_plastic.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "test_obj_vs1.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9939"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "test_obj_vs1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "test_obj_vs1.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "9939"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

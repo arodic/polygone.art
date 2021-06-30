@@ -1,0 +1,47 @@
+{
+    "name": "Cosmic Voyager",
+    "description": "Space Turtle",
+    "authorId": "0URBPFKuiPU",
+    "authorName": "Martin Taylor",
+    "createTime": "2019-08-22T19:35:52.879234Z",
+    "updateTime": "2020-09-23T10:01:35.403164Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "turtle.obj",
+                "contentType": "text/plain"
+            },
+            "formatComplexity": {
+                "triangleCount": "716"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "turtle.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "turtle.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "716"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

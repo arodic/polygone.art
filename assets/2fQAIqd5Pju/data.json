@@ -1,0 +1,60 @@
+{
+    "name": "petblo Watery TFX",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-05-13T02:36:17.023211Z",
+    "updateTime": "2020-09-28T09:34:52.789739Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "watery.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "watery.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Watery.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "watery.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "watery.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Watery.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "90"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#880e4f"
+    }
+}

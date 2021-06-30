@@ -1,0 +1,66 @@
+{
+    "name": "Gamecube",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-07T07:09:10.618571Z",
+    "updateTime": "2020-11-08T06:57:32.357988Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "tech",
+        "curated"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "GC.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "GC.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "gamecube.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "76"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "GC.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "GC.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "gamecube.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "76"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -1.1102230246251565e-16,
+            "y": 0.7071067811865476,
+            "z": 0.7071067811865475,
+            "w": 1.1102230246251565e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#9c27b0"
+    }
+}

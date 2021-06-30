@@ -1,0 +1,63 @@
+{
+    "name": "Doll",
+    "authorId": "4IMPPwdOLGp",
+    "authorName": "RogueMapper",
+    "createTime": "2019-05-31T07:36:21.075019Z",
+    "updateTime": "2020-09-23T09:36:29.936487Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Test.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Test.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "86168"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Test.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Test.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Test.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "86168"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

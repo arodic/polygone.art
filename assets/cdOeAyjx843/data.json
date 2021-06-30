@@ -1,0 +1,63 @@
+{
+    "name": "Fotogrametria 20200104",
+    "description": "Corporación Sipah",
+    "authorId": "2R61MzY9V8C",
+    "authorName": "David Wolff",
+    "createTime": "2020-10-05T20:57:08.774279Z",
+    "updateTime": "2020-10-07T10:24:03.840221Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "20200104.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "20200104.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "20200104.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "243572"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "20200104.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "20200104.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "20200104.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "243572"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

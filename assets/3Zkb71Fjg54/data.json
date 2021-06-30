@@ -1,0 +1,63 @@
+{
+    "name": "Duck",
+    "description": "Simple Voxel Duck",
+    "authorId": "42-aJ5But3i",
+    "authorName": "lnx00",
+    "createTime": "2018-12-06T19:05:19.581221Z",
+    "updateTime": "2021-04-07T05:27:52.738117Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "animals"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Duck.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Duck.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Duck.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "392"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Duck.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Duck.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Duck.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "392"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#8bc34a"
+    }
+}

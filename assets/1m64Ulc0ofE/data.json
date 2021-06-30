@@ -1,0 +1,60 @@
+{
+    "name": "town",
+    "authorId": "fqku5zc2Bdf",
+    "authorName": "kenta tanaka",
+    "createTime": "2019-04-13T06:39:12.344066Z",
+    "updateTime": "2020-04-30T09:31:31.545540Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tokyo-0.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tokyo-0.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tokyo-0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1444"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tokyo-0.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tokyo-0.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tokyo-0.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1444"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "Cubo Rubik",
+    "authorId": "6NpnxHT5DPK",
+    "authorName": "ANDRES FORERO GARCIA",
+    "createTime": "2020-11-12T18:03:04.954590Z",
+    "updateTime": "2020-11-12T18:11:23.223042Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Cubo.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cubo.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "Cubo.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4389"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Cubo.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Cubo.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Cubo.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4389"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

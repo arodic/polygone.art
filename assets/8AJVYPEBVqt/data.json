@@ -1,0 +1,55 @@
+{
+    "name": "Simple Pillar",
+    "description": "A simple white pillar for use in a garden or temple setting.",
+    "authorId": "0G5zTWXOKUJ",
+    "authorName": "Troct Developer (Troctzul)",
+    "createTime": "2017-11-06T23:39:49.034458Z",
+    "updateTime": "2021-05-07T19:18:13.891140Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture"
+    ],
+    "likes": 53,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "pillar.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "pillar.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "436"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "pillar.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "pillar.bin",
+                    "contentType": "application/octet-stream"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "436"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#0097a7"
+    }
+}

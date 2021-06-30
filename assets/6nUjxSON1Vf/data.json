@@ -1,0 +1,67 @@
+{
+    "name": "Yoruba Mask",
+    "description": "Photogrammatry based model of a Yoruba African Mask.",
+    "authorId": "15OoLWtPb6r",
+    "authorName": "Mike Goddard",
+    "createTime": "2020-10-13T16:20:42.227290Z",
+    "updateTime": "2020-10-13T16:30:23.739816Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "culture"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "texturedMesh_clean_retopo_baked.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh_clean_retopo_baked.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Diffuse_Baked.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Normals_Baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "184640"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "texturedMesh_clean_retopo_baked.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "texturedMesh_clean_retopo_baked.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Diffuse_Baked.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "184640"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#1e1e1e"
+    }
+}

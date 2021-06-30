@@ -1,0 +1,63 @@
+{
+    "name": "Sword",
+    "description": "Friendly, cartoon sword for you to use in your projects.",
+    "authorId": "5Amq0WgPA0_",
+    "authorName": "Aidan Wolf",
+    "createTime": "2018-11-14T23:20:48.967133Z",
+    "updateTime": "2020-03-30T09:34:29.987303Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Sword.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Sword.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sword.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "422"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "Sword.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Sword.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "sword.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "422"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#2196f3"
+    }
+}

@@ -1,0 +1,62 @@
+{
+    "name": "mushroomlamp",
+    "authorId": "b8jA-BdZU5J",
+    "authorName": "Allan Dodds",
+    "createTime": "2020-05-05T08:53:55.776944Z",
+    "updateTime": "2020-08-04T10:07:23.538585Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "mushroom.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "mushroom.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mermaidscales.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "504734"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "mushroom.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "mushroom.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mermaidscales.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "504734"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

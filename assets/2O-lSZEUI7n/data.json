@@ -1,0 +1,61 @@
+{
+    "name": "totc tfx 138b 24bit",
+    "description": "For unknown reasons, tunnel objects that have textures that are 32 bit no longer work properly, but saving the texture as 24 bit works.",
+    "authorId": "3ATUx2alQMG",
+    "authorName": "Ar Fell",
+    "createTime": "2019-08-03T16:32:14.637329Z",
+    "updateTime": "2020-02-25T20:12:13.832881Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "tfx138b.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "tfx138b.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "tfx138b.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "tfx138b.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "tfx138b.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "tfx138b.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "22"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4a148c"
+    }
+}

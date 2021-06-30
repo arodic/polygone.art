@@ -1,0 +1,60 @@
+{
+    "name": "sun sphere 1",
+    "authorId": "abkZuWzaKVW",
+    "authorName": "Edrea Martin",
+    "createTime": "2020-10-21T14:27:43.183675Z",
+    "updateTime": "2020-10-21T14:37:29.244897Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "model! sphere.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "model! sphere.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sun.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "54056"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "model! sphere.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sun.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "model! sphere.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "54056"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

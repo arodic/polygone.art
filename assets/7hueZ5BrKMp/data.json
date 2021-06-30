@@ -1,0 +1,61 @@
+{
+    "name": "AAA",
+    "description": "AAA",
+    "authorId": "1GOvUR8NmJe",
+    "authorName": "Apichaya Nimkoompai",
+    "createTime": "2019-07-15T12:47:34.722700Z",
+    "updateTime": "2020-10-07T09:58:33.098637Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "sample.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "sample.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "sample.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "sample.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "sample.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "sample.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#4e342e"
+    }
+}

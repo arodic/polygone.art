@@ -1,0 +1,63 @@
+{
+    "name": "nuPrim Sphere - mecha",
+    "description": "nuPrims are a collection of 'Modern Primitives'. These are objects that are simple enough for prototyping and fancy enough for your final build. Shapes with no purpose but the ones you give them. These could be: the mysterious Orbs of Lerp hidden in the dark depths of a dungeon for hundreds of years, the power cell for a Uranium 238 Modulator, an ornate Power-Up.\n\nPart of the Brain Blinks Stockpile - a collection of free game assets. http://www.brainblinks.com/#/stockpile/",
+    "authorId": "eND1LxQUhNO",
+    "authorName": "Don Whitaker",
+    "createTime": "2017-12-02T23:27:06.707200Z",
+    "updateTime": "2020-10-04T09:35:15.935605Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "_1.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "_1.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "mech.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5996"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "_1.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "_1.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "mech.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "5996"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#263238"
+    }
+}

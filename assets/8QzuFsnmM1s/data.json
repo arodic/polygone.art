@@ -1,0 +1,63 @@
+{
+    "name": "1913210702",
+    "description": "poly",
+    "authorId": "c-6QoaO2z8J",
+    "authorName": "Sikawat Kotklangdon",
+    "createTime": "2019-12-26T03:35:29.047648Z",
+    "updateTime": "2020-02-25T21:22:09.123430Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poly.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poly.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "poly.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1616"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "poly.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poly.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "poly.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1616"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

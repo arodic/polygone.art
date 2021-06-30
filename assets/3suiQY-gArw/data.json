@@ -1,0 +1,68 @@
+{
+    "name": "Stoplight",
+    "description": "#traffic #light #pole",
+    "authorId": "4aEd8rQgKu2",
+    "authorName": "Poly by Google",
+    "createTime": "2017-10-10T21:00:33.431532Z",
+    "updateTime": "2021-06-02T02:30:26.304903Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects",
+        "curated",
+        "traffic",
+        "light",
+        "pole"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "CUPIC_TRAFFICLIGHT.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_TRAFFICLIGHT.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "traffic_lightSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "176"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "CUPIC_TRAFFICLIGHT.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "CUPIC_TRAFFICLIGHT.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "traffic_lightSurface_Color.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "176"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": -1,
+            "w": 2.220446049250313e-16
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#dce775"
+    }
+}

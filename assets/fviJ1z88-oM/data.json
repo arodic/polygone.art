@@ -1,0 +1,63 @@
+{
+    "name": "Calculator",
+    "authorId": "9NyyhqjusPS",
+    "authorName": "Mackenzie Porch",
+    "createTime": "2018-11-11T20:29:51.963416Z",
+    "updateTime": "2021-05-15T14:33:22.917198Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Calculator.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Calculator_BaseColor.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "Calculator.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "304"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Calculator.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Calculator.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Calculator_BaseColor.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "304"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": 0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#7e57c2"
+    }
+}

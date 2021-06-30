@@ -1,0 +1,63 @@
+{
+    "name": "ダルマ",
+    "description": "だるまです。",
+    "authorId": "6ZnCozMYD-1",
+    "authorName": "Takaoki Iwasaki",
+    "createTime": "2019-02-27T10:56:19.111229Z",
+    "updateTime": "2020-09-25T09:42:17.518602Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "objects"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "daruma03.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "daruma03.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "daruma03.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8386"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "daruma03.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "daruma03.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "daruma03.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "8386"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

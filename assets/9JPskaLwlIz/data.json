@@ -1,0 +1,64 @@
+{
+    "name": "Lamp Post",
+    "description": "An old lamp post.",
+    "authorId": "f8cGQY15_-g",
+    "authorName": "Anonymous",
+    "createTime": "2017-10-18T21:00:31.160601Z",
+    "updateTime": "2021-06-06T04:22:04.929985Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "architecture",
+        "curated"
+    ],
+    "likes": 48,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "LampPost.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "LampPost_Main.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "LampPost.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7817"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "LampPost.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "LampPost.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "LampPost_Main.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "7817"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#fafafa"
+    }
+}

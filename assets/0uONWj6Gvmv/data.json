@@ -1,0 +1,81 @@
+{
+    "name": "Wallmodul-relief",
+    "authorId": "aeLnKHj7ECJ",
+    "authorName": "Miguelangelo Rosario",
+    "createTime": "2018-04-05T11:04:07.569974Z",
+    "updateTime": "2020-10-06T09:32:28.582760Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "wall-relief.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "kingspray-wall-orig-texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "kingspray-wall-relief.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ridge.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "tarmac.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "wall-relief.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "165856"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "wall-relief.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "wall-relief.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "kingspray-wall-orig-texture.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "tarmac.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "ridge.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "165856"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "y": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#3f51b5"
+    }
+}

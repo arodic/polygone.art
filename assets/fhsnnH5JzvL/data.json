@@ -1,0 +1,61 @@
+{
+    "name": "Magicavoxel 　キャラ１",
+    "description": "Magicavoxel 　キャラ１\n製作日数１日",
+    "authorId": "eAWZ8XHhAFj",
+    "authorName": "田中雄一郎",
+    "createTime": "2020-03-14T02:00:55.646135Z",
+    "updateTime": "2020-03-14T02:06:26.621594Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "hero.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "hero.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "hero.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1668"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "hero.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "hero.png",
+                    "contentType": "image/png"
+                },
+                {
+                    "relativePath": "hero.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1668"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "Mandala IOC",
+    "description": "Colorear",
+    "authorId": "4RcRzBYFCAG",
+    "authorName": "Ignacio Ornelas Cravioto",
+    "createTime": "2019-08-23T05:11:13.174881Z",
+    "updateTime": "2020-12-09T04:39:45.812818Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "art"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "Mandala 02.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mandala 02.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Mandala 02/Mandala_01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "Mandala 02.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "Mandala 02.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Mandala 02/Mandala_01.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#000000"
+    }
+}

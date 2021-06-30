@@ -1,0 +1,63 @@
+{
+    "name": "BearRide",
+    "description": "クマの乗り物",
+    "authorId": "7Iy-HJghMEF",
+    "authorName": "Anonymous",
+    "createTime": "2019-07-05T00:26:11.368304Z",
+    "updateTime": "2020-09-24T09:57:25.105486Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "BearRide.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "BearRide.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "BearRide.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1844"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "BearRide.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "BearRide.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "BearRide.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "1844"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#03a9f4"
+    }
+}

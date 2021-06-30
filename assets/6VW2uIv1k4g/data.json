@@ -1,0 +1,73 @@
+{
+    "name": "Master Chief",
+    "description": "Halo 2 Version",
+    "authorId": "16OslFgKSdN",
+    "authorName": "Teh LaughingMan",
+    "createTime": "2018-01-03T06:46:39.002446Z",
+    "updateTime": "2021-03-23T14:15:38.591726Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "people",
+        "curated"
+    ],
+    "likes": 29,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "MCf2.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "SpartanBody.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "helmet.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "MCf2.mtl",
+                    "contentType": "text/plain"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4056"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "MCf2.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "MCf2.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "SpartanBody.jpg",
+                    "contentType": "image/jpeg"
+                },
+                {
+                    "relativePath": "helmet.jpg",
+                    "contentType": "image/jpeg"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "4056"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "x": -0.7071067811865475,
+            "w": 0.7071067811865476
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#607d8b"
+    }
+}

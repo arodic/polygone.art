@@ -1,0 +1,60 @@
+{
+    "name": "Zeph TripStik",
+    "authorId": "6bgWN2YV65Z",
+    "authorName": "DJ Logitrax",
+    "createTime": "2019-04-12T19:30:24.738439Z",
+    "updateTime": "2020-10-04T10:37:36.056630Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "TripStik.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "TripStik.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "Trip3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "GLTF2"
+        },
+        {
+            "root": {
+                "relativePath": "TripStik.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "TripStik.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "Trip3.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "12"
+            },
+            "formatType": "OBJ"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#eeeeee"
+    }
+}

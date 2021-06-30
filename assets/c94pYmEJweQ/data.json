@@ -1,0 +1,63 @@
+{
+    "name": "Tank Body Only",
+    "description": "Blender model of tank body",
+    "authorId": "c499Vs7SFFM",
+    "authorName": "App Developer Academy",
+    "createTime": "2020-05-21T14:56:39.464534Z",
+    "updateTime": "2020-07-13T10:16:30.100710Z",
+    "license": "CREATIVE_COMMONS_BY",
+    "visibility": "PUBLIC",
+    "tags": [
+        "transport"
+    ],
+    "likes": 0,
+    "formats": [
+        {
+            "root": {
+                "relativePath": "poly_newtank.obj",
+                "contentType": "text/plain"
+            },
+            "resources": [
+                {
+                    "relativePath": "poly_newtank.mtl",
+                    "contentType": "text/plain"
+                },
+                {
+                    "relativePath": "war dark.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "121"
+            },
+            "formatType": "OBJ"
+        },
+        {
+            "root": {
+                "relativePath": "poly_newtank.gltf",
+                "contentType": "model/gltf+json"
+            },
+            "resources": [
+                {
+                    "relativePath": "poly_newtank.bin",
+                    "contentType": "application/octet-stream"
+                },
+                {
+                    "relativePath": "war dark.png",
+                    "contentType": "image/png"
+                }
+            ],
+            "formatComplexity": {
+                "triangleCount": "121"
+            },
+            "formatType": "GLTF2"
+        }
+    ],
+    "presentationParams": {
+        "orientingRotation": {
+            "w": 1
+        },
+        "colorSpace": "LINEAR",
+        "backgroundColor": "#5da169"
+    }
+}
