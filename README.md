@@ -8,4 +8,6 @@ This content is published under a [CC-BY License](https://creativecommons.org/li
 
 This website does not use cookies, it is open-source and hosted on [github](https://github.com/arodic/polygone.art).
 
+Follow [@PolygoneArt](https://twitter.com/PolygoneArt) on Twitter.
+
 Torrent download links will be added here later. Please come back soon.
