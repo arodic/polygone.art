@@ -222,7 +222,8 @@
       }
       static get Listeners() {
         return {
-          'thumbnail-clicked': 'onThumbnailClicked'
+          'thumbnail-clicked': 'onThumbnailClicked',
+          'filter-clicked': 'onFilterClicked'
         }
       }
       selectedChanged() {
@@ -238,6 +239,12 @@
       onThumbnailClicked(event) {
         this.guid = event.detail;
         $PAGE.value = 'model'
+      }
+      onFilterClicked(event) {
+        // TODO: set all hashes at once
+        $TYPE.value = '';
+        $PAGE.value = 'catalog';
+        $FILTER.value = event.detail;
       }
     }
     IoMainPage.Register();

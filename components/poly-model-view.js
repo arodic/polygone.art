@@ -129,11 +129,7 @@ export class PolyLink extends IoElement {
       link.click();
       document.body.removeChild(link);
     } else {
-      // TODO: set all hashes at once
-      // window.location.hash = `#page=catalog&filter=${this.value}`
-      $TYPE.value = '';
-      $PAGE.value = 'catalog';
-      $FILTER.value = this.value;
+      this.dispatchEvent('filter-clicked', this.value, true);
     }
   }
 }
