@@ -2,7 +2,7 @@ import {IoElement, IoStorageFactory as $} from "./iogui.js";
 import {$GUID, $TYPE, $PAGE, $FILTER} from './poly-state.js';
 
 const chachedAssets = {};
-const BLOB_HOST = "https://blob.polygone.art"
+const BLOB_HOST = "http://blob.polygone.art:3000"
 
 export class PolyModelView extends IoElement {
   static get Style() {

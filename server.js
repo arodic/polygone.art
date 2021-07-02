@@ -7,6 +7,9 @@ import morgan from 'morgan';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const app = express()
+
+app.enable("trust proxy")
+
 const port = 3000
 
 app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length]', {
