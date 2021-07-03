@@ -121,7 +121,7 @@ export class PolyLink extends IoElement {
     }
   }
   onClicked() {
-    if (this.value.search('https://') !== -1) {
+    if (this.value.search('://') !== -1) {
       const link = document.createElement('a');
       link.href = this.value;
       link.download = this.value.split('/').pop();
