@@ -16,9 +16,9 @@ app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:htt
   stream: fs.createWriteStream('./access.log', {flags: 'a'})
 }));
 
-app.use(express.static(path.join(__dirname, '/archives')));
+app.use(express.static(path.join(__dirname, '/')));
 
-app.use('/static', express.static(path.join(__dirname, '/archives')));
+app.use('/static', express.static(path.join(__dirname, '/')));
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
