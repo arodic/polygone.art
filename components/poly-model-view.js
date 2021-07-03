@@ -1,8 +1,8 @@
-import {IoElement, IoStorageFactory as $} from "./iogui.js";
-import {$GUID, $TYPE, $PAGE, $FILTER} from './poly-state.js';
+import {IoElement, IoStorageFactory} from "./iogui.js";
+import {$GUID} from './poly-state.js';
 
 const chachedAssets = {};
-const BLOB_HOST = "http://blob.polygone.art:3000"
+const BLOB_HOST = "http://blob.polygone.art:3080/archives"
 
 export class PolyModelView extends IoElement {
   static get Style() {
