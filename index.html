@@ -75,9 +75,14 @@
       io-notify {
         display: none !important;
       }
+      #button-load,
+      #default-poster {
+        background-size: cover !important;
+      }
     </style>
   </head>
   <body>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script type="module">
     import {Node, Options, Path} from "./components/iogui.js";
     import {IoSelectorTabs, IoThemeSingleton, IoStorageFactory as $} from "./components/iogui.js";
@@ -86,7 +91,7 @@
     import "./components/poly-icons.js";
     import "./components/poly-artist-list.js";
 
-    import {$PAGE, $TYPE, $SIZE, $FILTER, $GUID} from './components/poly-state.js';
+    import {$PAGE, $TYPE, $SIZE, $FILTER, $GUID} from './components/poly-env.js';
 
     IoThemeSingleton.cssSpacing = 8;
     IoThemeSingleton.cssFontSize = 15;

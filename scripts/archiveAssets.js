@@ -21,29 +21,28 @@ async function archiveModel(id, assetData) {
   assetData = JSON.parse(await fs.readFile(assetDataPath));
 
   for (let i = 0; i < assetData.formats.length; i++) {
-    const formatArchivePath = archivePath + `${assetData.formats[i].formatType}.zip`;
+    const formatArchivePath = archivePath + `${id}_${assetData.formats[i].formatType}.zip`;
     const archiveExists = await fileOrFolderExists(path.resolve(formatArchivePath));
 
     if (!archiveExists) {
 
       console.log('Archiving', formatArchivePath);
-      
 
-      const rootPath = `${assetPath}${assetData.formats[i].root.relativePath}`;
+      const dirPath = `${assetPath}${assetData.formats[i].formatType}/`;
 
       const output = fs_.createWriteStream(formatArchivePath);
       const archive = archiver('zip', {
         zlib: { level: 9 }
       });
 
-      // output.on('close', function() {
-      //   console.log(archive.pointer() + ' total bytes');
-      //   console.log('archiver has been finalized and the output file descriptor has closed.');
-      // });
+      output.on('close', function() {
+        console.log(archive.pointer() + ' total bytes');
+        console.log('archiver has been finalized and the output file descriptor has closed.');
+      });
 
-      // output.on('end', function() {
-      //   console.log('Data has been drained');
-      // });
+      output.on('end', function() {
+        console.log('Data has been drained');
+      });
 
       archive.on('warning', function(err) {
         if (err.code === 'ENOENT') {
@@ -64,13 +63,14 @@ async function archiveModel(id, assetData) {
       const licenseText = await fs.readFile('../LICENSE_CCBY.md', 'utf8');
 
       archive.append(licenseText.replace('CC-BY 3.0 License', `CC-BY 3.0 License ${assetData.authorName}`), { name: 'LICENSE.md' });
-      archive.file(rootPath, { name: assetData.formats[i].root.relativePath });
+      archive.directory(dirPath, false);
+
       if (thumbnailExists) archive.file(thumbnailPath, { name: 'thumbnail.png' });
 
-      if (assetData.formats[i].resources) for (let j = 0; j < assetData.formats[i].resources.length; j++) {
-        const resource = assetData.formats[i].resources[j];
-        archive.file(`${assetPath}${resource.relativePath}`, { name: resource.relativePath });
-      }
+      // if (assetData.formats[i].resources) for (let j = 0; j < assetData.formats[i].resources.length; j++) {
+      //   const resource = assetData.formats[i].resources[j];
+      //   archive.file(`${assetPath}${resource.relativePath}`, { name: resource.relativePath });
+      // }
 
       archive.finalize();
     }

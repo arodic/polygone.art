@@ -1,6 +1,6 @@
 import {IoElement, IoStorageFactory as $} from "./iogui.js";
 import "./poly-thumbnail.js";
-import {$TYPE, $SIZE, $FILTER} from './poly-state.js';
+import {$TYPE, $SIZE, $FILTER} from './poly-env.js';
 
 function nearestPowerOfTwo(size){
   return Math.pow(2, Math.ceil(Math.log(size)/Math.log(2))); 

@@ -35,29 +35,29 @@ async function downloadModel(id, assetData) {
   }
 
   for (let i = 0; i < assetData.formats.length; i++) {
-    const rootPath = `${assetPath}${assetData.formats[i].root.relativePath}`;
-    const rootExists = await fileOrFolderExists(path.resolve(rootPath));
-    if (!rootExists) {
-      await createDirectory(rootPath);
-      console.log(`Downloading root asset: ${rootPath}`);
-      pipelines.push(pipeline(
-        got.stream(assetData.formats[i].root.url),
-        fs_.createWriteStream(rootPath)
-      ));
-    }
+    // const rootPath = `${assetPath}${assetData.formats[i].formatType}/${assetData.formats[i].root.relativePath}`;
+    // const rootExists = await fileOrFolderExists(path.resolve(rootPath));
+    // if (!rootExists) {
+    //   await createDirectory(rootPath);
+    //   console.log(`Downloading root asset: ${rootPath}`);
+    //   pipelines.push(pipeline(
+    //     got.stream(assetData.formats[i].root.url),
+    //     fs_.createWriteStream(rootPath)
+    //   ));
+    // }
     delete strippedAssetData.formats[i].root.url;
     if (assetData.formats[i].resources) for (let j = 0; j < assetData.formats[i].resources.length; j++) {
-      const resource = assetData.formats[i].resources[j];
-      let resourcePath = `${assetPath}${resource.relativePath}`;
-      const resourceExists = await fileOrFolderExists(path.resolve(resourcePath));
-      if (!resourceExists) {
-        await createDirectory(resourcePath);
-        console.log(`Downloading resources asset: ${resourcePath}`);
-        pipelines.push(pipeline(
-          got.stream(resource.url),
-          fs_.createWriteStream(resourcePath)
-        ));
-      }
+      // const resource = assetData.formats[i].resources[j];
+      // let resourcePath = `${assetPath}${assetData.formats[i].formatType}/${resource.relativePath}`;
+      // const resourceExists = await fileOrFolderExists(path.resolve(resourcePath));
+      // if (!resourceExists) {
+      //   await createDirectory(resourcePath);
+      //   console.log(`Downloading resources asset: ${resourcePath}`);
+      //   pipelines.push(pipeline(
+      //     got.stream(resource.url),
+      //     fs_.createWriteStream(resourcePath)
+      //   ));
+      // }
       delete strippedAssetData.formats[i].resources[j].url;
     }
   };

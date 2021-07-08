@@ -1,8 +1,7 @@
-import {IoElement, IoStorageFactory} from "./iogui.js";
-import {$GUID} from './poly-state.js';
+import {IoElement} from "./iogui.js";
+import {$GUID, ARCHIVES_HOST, ASSET_HOST} from './poly-env.js';
 
 const chachedAssets = {};
-const BLOB_HOST = "https://blob.polygone.art/archives"
 
 export class PolyModelView extends IoElement {
   static get Style() {
@@ -14,6 +13,10 @@ export class PolyModelView extends IoElement {
       padding: var(--io-spacing);
       line-height: 1.4em;
       max-width: 512px;
+    }
+    :host model-viewer {
+      width: 100%;
+      height: var(--viewer-height);
     }
     :host .info {
       background: var(--io-background-color-dark);
@@ -58,6 +61,10 @@ export class PolyModelView extends IoElement {
     super();
     this.guidChanged();
   }
+  onResized() {
+    const height = Math.min(this.clientWidth, 512) / 1.333;
+    this.style.setProperty('--viewer-height', `${height}px`);
+  }
   guidChanged() {
     if (chachedAssets[this.guid]) {
       this.assetInfo = chachedAssets[this.guid];
@@ -75,7 +82,24 @@ export class PolyModelView extends IoElement {
       formats: [],
     }
     this.template([
-      ['img', {id: 'image', src: `./assets/${this.guid}/thumbnail-512.jpg`}],
+      ['model-viewer', {
+        id: 'reveal',
+        poster: `./assets/${this.guid}/thumbnail-512.jpg`,
+        alt: this.assetInfo?.description || this.assetInfo?.name,
+        'environmentImage': 'neutral',
+        'autoRotate': true,
+        'cameraControls': true,
+        // reveal: 'interaction',
+        // 'on-progress': (event) => { console.log(event) },
+        // 'on-error': (event) => { console.log(event) },
+        // 'on-preload': (event) => { console.log(event) },
+        // 'on-load': (event) => { console.log(event) },
+        // 'on-model-visibility': (event) => { console.log(event) },
+        src: `${ASSET_HOST}/${this.guid}/GLTF2/${"model.gltf"}`,
+        style: {
+          'background-color': this.assetInfo?.presentationParams?.backgroundColor || '#000000'
+        }
+      }, []],
       ['div', {class: 'info'}, [
         ['span', `${this.assetInfo.name} by `],
         ['poly-link', {value: this.assetInfo.authorId}, this.assetInfo.authorName],
@@ -89,7 +113,7 @@ export class PolyModelView extends IoElement {
       ['ul', {class: 'tags'}, this.assetInfo.tags.map((tag) => ['li', [['poly-link', {value: tag}, `#${tag}`]]])],
       ['h4', 'Downloads:'],
       ['ul', {class: 'downloads'}, this.assetInfo.formats.map((format) => ['li', [
-        ['poly-link', {value: `${BLOB_HOST}/${this.guid}/${format.formatType}.zip`}, `${format.formatType} ⇩`]
+        ['poly-link', {value: `${ARCHIVES_HOST}/${this.guid}/${this.guid}_${format.formatType}.zip`}, `${format.formatType} ⇩`]
       ]])],
     ])
   }
