@@ -93,7 +93,7 @@ export class PolyGallery extends IoElement {
     // TODO: clean up
     fetch('./data/thumbs.csv').then(async response => {
       const reader = response.body.getReader();
-      let textStream = "";
+      let textTail = "";
       const scope = this;
       new ReadableStream({
         start(controller) {
@@ -105,8 +105,8 @@ export class PolyGallery extends IoElement {
                 scope.dispatchEvent('object-mutated', {object: scope.thumbnails}, false, window);
                 return;
               }
-              let rows = value.split('\n');
-              textStream += rows[rows.length - 1];
+              let rows = (textTail + value).split('\n');
+              textTail = rows[rows.length - 1];
               rows.length = rows.length - 1;
               for (let i = 0; i < rows.length; i++) {
                 const data = rows[i].split(',');
@@ -126,7 +126,7 @@ export class PolyGallery extends IoElement {
     this.classList.toggle('io-loading', true);
     fetch('./data/assets.csv').then(async response => {
       const reader = response.body.getReader();
-      let textStream = "";
+      let textTail = "";
       const scope = this;
       new ReadableStream({
         start(controller) {
@@ -138,8 +138,8 @@ export class PolyGallery extends IoElement {
                 scope.applyFilter();
                 return;
               }
-              let rows = value.split('\n');
-              textStream += rows[rows.length - 1];
+              let rows = (textTail + value).split('\n');
+              textTail = rows[rows.length - 1];
               rows.length = rows.length - 1;
               for (let i = 0; i < rows.length; i++) {
                 const data = rows[i].split(',');
