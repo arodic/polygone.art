@@ -219,28 +219,31 @@ export class PolyGallery extends IoElement {
   }
   applyFilter() {
     const filtered = [];
-    // TODO: clean up
-    // TODO: ignore case with regex
+    const indexOf = (item, filter) => {
+      if (item instanceof Array) return item.findIndex(item => filter.toLowerCase() === item.toLowerCase());
+      return item.toLowerCase().indexOf(filter.toLowerCase());
+    }
+
     for (let id in this.assets) {
       if (this.type === 'all') {
         if (this.filter === '' ||
-          this.assets[id].tags.indexOf(this.filter) !== -1 ||
-          this.assets[id].name.indexOf(this.filter) !== -1 ||
+          indexOf(this.assets[id].tags, this.filter) !== -1 ||
+          indexOf(this.assets[id].name, this.filter) !== -1 ||
           this.assets[id].authorId === this.filter) {
           filtered.push(id);
         }
       } else if (this.type === 'tilt' && this.assets[id].tags.indexOf('tilt') !== -1) {
         if (this.filter === '' ||
-          this.assets[id].tags.indexOf(this.filter) !== -1 ||
-          this.assets[id].name.indexOf(this.filter) !== -1 ||
+          indexOf(this.assets[id].tags, this.filter) !== -1 ||
+          indexOf(this.assets[id].name, this.filter) !== -1 ||
           this.assets[id].authorId === this.filter
           ) {
           filtered.push(id);
         }
       } else if (this.type === '!tilt' && this.assets[id].tags.indexOf('tilt') === -1) {
         if (this.filter === '' ||
-          this.assets[id].tags.indexOf(this.filter) !== -1 ||
-          this.assets[id].name.indexOf(this.filter) !== -1 ||
+          indexOf(this.assets[id].tags, this.filter) !== -1 ||
+          indexOf(this.assets[id].name, this.filter) !== -1 ||
           this.assets[id].authorId === this.filter
           ) {
           filtered.push(id);
