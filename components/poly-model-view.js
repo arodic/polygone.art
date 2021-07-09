@@ -81,6 +81,10 @@ export class PolyModelView extends IoElement {
       tags: [],
       formats: [],
     }
+
+    const gltf2model = this.assetInfo.formats.find(format => format.formatType === 'GLTF2');
+    const fltf2Root = gltf2model?.root?.relativePath;
+
     this.template([
       ['model-viewer', {
         id: 'reveal',
@@ -95,7 +99,7 @@ export class PolyModelView extends IoElement {
         // 'on-preload': (event) => { console.log(event) },
         // 'on-load': (event) => { console.log(event) },
         // 'on-model-visibility': (event) => { console.log(event) },
-        src: `${ASSET_HOST}/${this.guid}/GLTF2/${"model.gltf"}`,
+        src: fltf2Root ? `${ASSET_HOST}/${this.guid}/GLTF2/${fltf2Root}` : '',
         style: {
           'background-color': this.assetInfo?.presentationParams?.backgroundColor || '#000000'
         }
