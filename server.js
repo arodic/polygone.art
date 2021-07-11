@@ -24,6 +24,12 @@ app.use('/static', express.static(path.join(__dirname, '/')));
 app.use('/page', function (req, res, next) {
   res.send('OK')
 });
+app.use('/guid', function (req, res, next) {
+  res.send('OK')
+});
+app.use('/filter', function (req, res, next) {
+  res.send('OK')
+});
 
 
 app.listen(port, () => {

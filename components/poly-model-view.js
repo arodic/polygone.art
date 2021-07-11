@@ -1,5 +1,5 @@
 import {IoElement} from "./iogui.js";
-import {$GUID, ARCHIVES_HOST, ASSET_HOST} from './poly-env.js';
+import {$GUID, BLOB_URL} from './poly-env.js';
 
 const chachedAssets = {};
 
@@ -75,6 +75,7 @@ export class PolyModelView extends IoElement {
         this.changed();
       });
     }
+    fetch(`${BLOB_URL}/guid/${this.guid}`);
   }
   changed() {
     this.assetInfo = this.assetInfo || {
@@ -99,7 +100,7 @@ export class PolyModelView extends IoElement {
         // 'on-preload': (event) => { console.log(event) },
         // 'on-load': (event) => { console.log(event) },
         // 'on-model-visibility': (event) => { console.log(event) },
-        src: fltf2Root ? `${ASSET_HOST}/${this.guid}/GLTF2/${fltf2Root}` : '',
+        src: fltf2Root ? `${BLOB_URL}/assets/${this.guid}/GLTF2/${fltf2Root}` : '',
         style: {
           'background-color': this.assetInfo?.presentationParams?.backgroundColor || '#000000'
         }
@@ -117,7 +118,7 @@ export class PolyModelView extends IoElement {
       ['ul', {class: 'tags'}, this.assetInfo.tags.map((tag) => ['li', [['poly-link', {value: tag}, `#${tag}`]]])],
       ['h4', 'Downloads:'],
       ['ul', {class: 'downloads'}, this.assetInfo.formats.map((format) => ['li', [
-        ['poly-link', {value: `${ARCHIVES_HOST}/${this.guid}/${this.guid}_${format.formatType}.zip`}, `${format.formatType} ⇩`]
+        ['poly-link', {value: `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip`}, `${format.formatType} ⇩`]
       ]])],
     ])
   }

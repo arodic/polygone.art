@@ -91,7 +91,7 @@
     import "./components/poly-icons.js";
     import "./components/poly-artist-list.js";
 
-    import {$PAGE, $TYPE, $SIZE, $FILTER, $GUID, BLOB_ACCESS} from './components/poly-env.js';
+    import {$PAGE, $TYPE, $SIZE, $FILTER, $GUID, BLOB_URL} from './components/poly-env.js';
 
     IoThemeSingleton.cssSpacing = 8;
     IoThemeSingleton.cssFontSize = 15;
@@ -233,6 +233,8 @@
       }
       selectedChanged() {
         super.selectedChanged();
+        const ref = document.referrer !== 'https://polygone.art/' ? `?ref=${document.referrer}` : '';
+        fetch(`${BLOB_URL}/page/${this.selected}${ref}`);
         // TODO: unhack. Fix ui-gui
         if (this.selected === 'model') {
           this.options[1].__properties.selected.value = false;
@@ -250,9 +252,6 @@
         $TYPE.value = '';
         $PAGE.value = 'catalog';
         $FILTER.value = event.detail;
-      }
-      changed() {
-        fetch(`${BLOB_ACCESS}/${location.hash.replace('#', '')}?ref=${document.referrer}`);
       }
     }
     IoMainPage.Register();
