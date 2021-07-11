@@ -233,7 +233,7 @@
       }
       selectedChanged() {
         super.selectedChanged();
-        const ref = document.referrer !== 'https://polygone.art/' ? `?ref=${document.referrer}` : '';
+        const ref = (document.referrer && document.referrer !== 'https://polygone.art/') ? `?ref=${document.referrer}` : '';
         fetch(`${BLOB_URL}/page/${this.selected}${ref}`);
         // TODO: unhack. Fix ui-gui
         if (this.selected === 'model') {
