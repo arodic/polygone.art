@@ -91,7 +91,7 @@
     import "./components/poly-icons.js";
     import "./components/poly-artist-list.js";
 
-    import {$PAGE, $TYPE, $SIZE, $FILTER, $GUID} from './components/poly-env.js';
+    import {$PAGE, $TYPE, $SIZE, $FILTER, $GUID, BLOB_ACCESS} from './components/poly-env.js';
 
     IoThemeSingleton.cssSpacing = 8;
     IoThemeSingleton.cssFontSize = 15;
@@ -250,6 +250,9 @@
         $TYPE.value = '';
         $PAGE.value = 'catalog';
         $FILTER.value = event.detail;
+      }
+      changed() {
+        fetch(`${BLOB_ACCESS}/${location.hash.replace('#', '')}`);
       }
     }
     IoMainPage.Register();
