@@ -31,7 +31,6 @@ app.use('/filter', function (req, res, next) {
   res.send('OK')
 });
 
-
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
