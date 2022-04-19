@@ -1,6 +1,6 @@
 import {IoElement, IoStorageFactory as $} from "./iogui.js";
 import "./poly-thumbnail.js";
-import {$TYPE, $SIZE, $FILTER} from './poly-env.js';
+import {$TYPE, $SIZE, $FILTER, BLOB_URL} from './poly-env.js';
 
 function nearestPowerOfTwo(size){
   return Math.pow(2, Math.ceil(Math.log(size)/Math.log(2))); 
@@ -93,7 +93,7 @@ export class PolyGallery extends IoElement {
     // TODO: clean up
     fetch('./data/thumbs.csv').then(async response => {
       const reader = response.body.getReader();
-      let textStream = "";
+      let textTail = "";
       const scope = this;
       new ReadableStream({
         start(controller) {
@@ -105,8 +105,8 @@ export class PolyGallery extends IoElement {
                 scope.dispatchEvent('object-mutated', {object: scope.thumbnails}, false, window);
                 return;
               }
-              let rows = value.split('\n');
-              textStream += rows[rows.length - 1];
+              let rows = (textTail + value).split('\n');
+              textTail = rows[rows.length - 1];
               rows.length = rows.length - 1;
               for (let i = 0; i < rows.length; i++) {
                 const data = rows[i].split(',');
@@ -126,7 +126,7 @@ export class PolyGallery extends IoElement {
     this.classList.toggle('io-loading', true);
     fetch('./data/assets.csv').then(async response => {
       const reader = response.body.getReader();
-      let textStream = "";
+      let textTail = "";
       const scope = this;
       new ReadableStream({
         start(controller) {
@@ -138,8 +138,8 @@ export class PolyGallery extends IoElement {
                 scope.applyFilter();
                 return;
               }
-              let rows = value.split('\n');
-              textStream += rows[rows.length - 1];
+              let rows = (textTail + value).split('\n');
+              textTail = rows[rows.length - 1];
               rows.length = rows.length - 1;
               for (let i = 0; i < rows.length; i++) {
                 const data = rows[i].split(',');
@@ -216,31 +216,35 @@ export class PolyGallery extends IoElement {
   }
   filterChanged() {
     this.applyFilter();
+    fetch(`${BLOB_URL}/filter/${this.filter}`);
   }
   applyFilter() {
     const filtered = [];
-    // TODO: clean up
-    // TODO: ignore case with regex
+    const indexOf = (item, filter) => {
+      if (item instanceof Array) return item.findIndex(item => filter.toLowerCase() === item.toLowerCase());
+      return item.toLowerCase().indexOf(filter.toLowerCase());
+    }
+
     for (let id in this.assets) {
       if (this.type === 'all') {
         if (this.filter === '' ||
-          this.assets[id].tags.indexOf(this.filter) !== -1 ||
-          this.assets[id].name.indexOf(this.filter) !== -1 ||
+          indexOf(this.assets[id].tags, this.filter) !== -1 ||
+          indexOf(this.assets[id].name, this.filter) !== -1 ||
           this.assets[id].authorId === this.filter) {
           filtered.push(id);
         }
       } else if (this.type === 'tilt' && this.assets[id].tags.indexOf('tilt') !== -1) {
         if (this.filter === '' ||
-          this.assets[id].tags.indexOf(this.filter) !== -1 ||
-          this.assets[id].name.indexOf(this.filter) !== -1 ||
+          indexOf(this.assets[id].tags, this.filter) !== -1 ||
+          indexOf(this.assets[id].name, this.filter) !== -1 ||
           this.assets[id].authorId === this.filter
           ) {
           filtered.push(id);
         }
       } else if (this.type === '!tilt' && this.assets[id].tags.indexOf('tilt') === -1) {
         if (this.filter === '' ||
-          this.assets[id].tags.indexOf(this.filter) !== -1 ||
-          this.assets[id].name.indexOf(this.filter) !== -1 ||
+          indexOf(this.assets[id].tags, this.filter) !== -1 ||
+          indexOf(this.assets[id].name, this.filter) !== -1 ||
           this.assets[id].authorId === this.filter
           ) {
           filtered.push(id);

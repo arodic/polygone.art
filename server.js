@@ -21,7 +21,15 @@ app.use(morgan(':remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:htt
 app.use(express.static(path.join(__dirname, '/')));
 
 app.use('/static', express.static(path.join(__dirname, '/')));
-
+app.use('/page', function (req, res, next) {
+  res.send('OK')
+});
+app.use('/guid', function (req, res, next) {
+  res.send('OK')
+});
+app.use('/filter', function (req, res, next) {
+  res.send('OK')
+});
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
