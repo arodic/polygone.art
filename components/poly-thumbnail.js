@@ -1,4 +1,4 @@
-import {IoElement} from "./iogui.js";
+import {IoElement, RegisterIoElement} from "./iogui.js";
 
 const cachedId = [];
 const queue = [];
@@ -80,4 +80,4 @@ export class PolyThumbnail extends IoElement {
   }
 }
 
-PolyThumbnail.Register();
+RegisterIoElement(PolyThumbnail);

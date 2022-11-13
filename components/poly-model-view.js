@@ -1,4 +1,4 @@
-import {IoElement} from "./iogui.js";
+import {IoElement, RegisterIoElement} from "./iogui.js";
 import {$GUID, BLOB_URL} from './poly-env.js';
 
 const chachedAssets = {};
@@ -54,7 +54,7 @@ export class PolyModelView extends IoElement {
   static get Properties() {
     return {
       guid: $GUID,
-      assetInfo: {notify: false},
+      assetInfo: {notify: true},
     };
   }
   constructor() {
@@ -77,7 +77,7 @@ export class PolyModelView extends IoElement {
     }
     fetch(`${BLOB_URL}/guid/${this.guid}`);
   }
-  changed() {
+  assetInfoChanged() {
     this.assetInfo = this.assetInfo || {
       tags: [],
       formats: [],
@@ -124,7 +124,7 @@ export class PolyModelView extends IoElement {
   }
 }
 
-PolyModelView.Register();
+RegisterIoElement(PolyModelView);
 
 export class PolyLink extends IoElement {
   static get Style() {
@@ -163,4 +163,4 @@ export class PolyLink extends IoElement {
   }
 }
 
-PolyLink.Register();
+RegisterIoElement(PolyLink);

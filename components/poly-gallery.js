@@ -1,4 +1,4 @@
-import {IoElement, IoStorageFactory as $} from "./iogui.js";
+import {IoElement, RegisterIoElement} from "./iogui.js";
 import "./poly-thumbnail.js";
 import {$TYPE, $SIZE, $FILTER, BLOB_URL} from './poly-env.js';
 
@@ -224,7 +224,6 @@ export class PolyGallery extends IoElement {
       if (item instanceof Array) return item.findIndex(item => filter.toLowerCase() === item.toLowerCase());
       return item.toLowerCase().indexOf(filter.toLowerCase());
     }
-
     for (let id in this.assets) {
       if (this.type === 'all') {
         if (this.filter === '' ||
@@ -285,4 +284,4 @@ export class PolyGallery extends IoElement {
   }
 }
 
-PolyGallery.Register();
+RegisterIoElement(PolyGallery);

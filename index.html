@@ -84,8 +84,7 @@
   <body>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
     <script type="module">
-    import {Node, Options, Path} from "./components/iogui.js";
-    import {IoSelectorTabs, IoThemeSingleton, IoStorageFactory as $} from "./components/iogui.js";
+    import {Options, Path, IoSelectorTabs, IoThemeSingleton, IoStorage as $, RegisterIoElement} from "./components/iogui.js";
     import "./components/poly-gallery.js";
     import "./components/poly-model-view.js";
     import "./components/poly-icons.js";
@@ -235,12 +234,20 @@
         super.selectedChanged();
         const ref = (document.referrer && document.referrer !== 'https://polygone.art/') ? `?ref=${document.referrer}` : '';
         fetch(`${BLOB_URL}/page/${this.selected}${ref}`);
-        // TODO: unhack. Fix ui-gui
-        if (this.selected === 'model') {
-          this.options[1].__properties.selected.value = false;
-          this.options[1].changed();
-        } else {
+
+        if (this.selected !== 'model') {
           this.guid = '';
+        }
+
+        if (this.selected !== 'catalog') {
+          $TYPE.value = 'all';
+          $FILTER.value = '';
+        }
+
+        if (this.selected === 'catalog') {
+          this.options[1].selected = true;
+        } else if (this.selected === 'model') {
+          this.options[1].selected = false;
         }
       }
       onThumbnailClicked(event) {
@@ -249,12 +256,12 @@
       }
       onFilterClicked(event) {
         // TODO: set all hashes at once
-        $TYPE.value = '';
+        $TYPE.value = 'all';
         $PAGE.value = 'catalog';
         $FILTER.value = event.detail;
       }
     }
-    IoMainPage.Register();
+    RegisterIoElement(IoMainPage);
     </script>
     <noscript>JavaScript is required to view this page!</noscript>
     <io-main-page></io-main-page>

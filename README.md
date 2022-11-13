@@ -10,4 +10,4 @@ This website does not use cookies, it is open-source and hosted on [github](http
 
 Follow [@PolygoneArt](https://twitter.com/PolygoneArt) on Twitter.
 
-Torrent download links will be added here later. Please come back soon.
+You can download the [entire archive of models here](https://blob.polygone.art/assets.zip) (725 GB zipped)

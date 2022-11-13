@@ -1,4 +1,4 @@
-import {IoStorageFactory as $, IoIconsetSingleton} from "./iogui.js";
+import {IoIconsetSingleton} from "./iogui.js";
 
 const icons = /* html */`
 <svg>
