@@ -55,6 +55,18 @@
     <meta property="og:description" content="This is an archive of free CC-BY-licensed 3D assets salvaged from poly.google.com before the shut down on June 30th 2021." />
     <meta property="og:image" content="https://polygone.art/images/polygone-512.png" />
     <meta property="og:locale" content="en_US" />
+
+    <!-- Import maps polyfill -->
+    <!-- Remove this when import maps will be widely supported -->
+    <script async src="https://unpkg.com/es-module-shims@1.6.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "io-gui": "./node_modules/io-gui/build/iogui.js"
+        }
+      }
+    </script>
+
     <style>
       html {
         font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
@@ -83,186 +95,7 @@
   </head>
   <body>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <script type="module">
-    import {Options, Path, IoSelectorTabs, IoThemeSingleton, IoStorage as $, RegisterIoElement} from "./components/iogui.js";
-    import "./components/poly-gallery.js";
-    import "./components/poly-model-view.js";
-    import "./components/poly-icons.js";
-    import "./components/poly-artist-list.js";
-
-    import {$PAGE, $TYPE, $SIZE, $FILTER, $GUID, BLOB_URL} from './components/poly-env.js';
-
-    IoThemeSingleton.ioSpacing = 8;
-    IoThemeSingleton.ioFontSize = 15;
-    IoThemeSingleton.ioBorderRadius = 0;
-
-    const NAVIGATION_OPTIONS = new Options([
-      {label: 'About', value: 'about'},
-      {label: 'Catalog', value: 'catalog'},
-      {label: 'Artists', value: 'artists'},
-    ], {
-      path: new Path({string: $PAGE})
-    });
-
-    const TYPE_OPTIONS = new Options([
-      {label: 'All Models', value: 'all'},
-      {label: 'Tilt Brush', value: 'tilt'},
-      {label: '3D Mesh', value: '!tilt'}
-    ], {
-      path: new Path({string: $TYPE})
-    });
-
-    const SIZE_OPTIONS = new Options([
-      {label: 'X-Small', value: '32x32'},
-      {label: 'Small', value: '64x64'},
-      {label: 'Medium', value: '128x128'},
-      {label: 'Large', value: '256x256'},
-      {label: 'X-Large', value: '512x512'}
-    ], {
-      path: new Path({string: $SIZE})
-    });
-
-    const FILTER_OPTIONS = new Options([
-      {label: 'All', value: ''},
-      {label: 'animals', value: 'animals'},
-      {label: 'architecture', value: 'architecture'},
-      {label: 'art', value: 'art'},
-      {label: 'culture', value: 'culture'},
-      {label: 'food', value: 'food'},
-      {label: 'history', value: 'history'},
-      {label: 'nature', value: 'nature'},
-      {label: 'objects', value: 'objects'},
-      {label: 'people', value: 'people'},
-      {label: 'scenes', value: 'scenes'},
-      {label: 'science', value: 'science'},
-      {label: 'tech', value: 'tech'},
-      {label: 'transport', value: 'transport'},
-      {label: 'travel', value: 'travel'},
-    ], {
-      path: new Path({string: $FILTER})
-    });
-
-    export class IoMainPage extends IoSelectorTabs {
-      static get Style() {
-        return /* css */`
-          :host .catalog {
-            flex-direction: column;
-            display: flex;
-            flex: 1 1 auto;
-            overflow: hidden;
-          }
-          :host .catalog > io-option-menu {
-            display: block;
-          }
-          :host .catalog > .settings {
-            display: flex;
-            padding: var(--io-spacing);
-            position: relative;
-          }
-          :host .catalog > .settings io-option-menu {
-            padding: 0;
-            margin-right: var(--io-spacing);
-            width: 8em;
-          }
-          :host .filterInput {
-            padding-right:var(--io-item-height);
-            flex: 1 1 auto;
-          }
-          :host .filterInput:empty:before {
-            content: '\\1F50D';
-            white-space: pre;
-            padding: 0 0.25em;
-            visibility: visible;
-            opacity: 0.33;
-          }
-          :host .filterButton {
-            position: absolute;
-            right: var(--io-spacing);
-            margin: var(--io-border-width);
-            height: calc(var(--io-item-height) - var(--io-border-width)  - var(--io-border-width));
-          }
-          :host .sizeButton {
-            position: fixed;
-            top: 0;
-            right: 0;
-            margin: var(--io-border-width);
-            height: calc(var(--io-item-height) - var(--io-border-width)  - var(--io-border-width));
-          }
-          :host io-icon g {
-            fill: var(--io-color);
-          }
-        `
-      }
-      static get Properties() {
-        return {
-          role: 'main',
-          class: 'main',
-          cache: true,
-          horizontal: true,
-          options: NAVIGATION_OPTIONS,
-          selected: NAVIGATION_OPTIONS.path.bind('root'),
-          guid: $GUID,
-          elements: [
-            ['io-md-view', {name: 'about', path: './README.md'}],
-            ['div', {name: 'catalog', class: 'catalog'}, [
-              ['div', {class: 'settings'}, [
-                ['io-option-menu', {options: TYPE_OPTIONS, value: $TYPE.value}],
-                ['io-string', {class: 'filterInput', value: $FILTER, live: true}],
-                ['div', [
-                  ['io-button', {class: 'filterButton', label: '▾'}],
-                  ['io-context-menu', {options: FILTER_OPTIONS, value: $FILTER.value, position: 'bottom'}],
-                ]],
-                ['div', {class: 'sizeButton'}, [
-                  ['io-icon', {icon: 'poly:grid'}],
-                  ['io-context-menu', {options: SIZE_OPTIONS, value: $SIZE.value, position: 'bottom'}],
-                ]]
-              ]],
-              ['poly-gallery'],
-            ]],
-            ['poly-model-view', {name: 'model'}],
-            ['poly-artist-list', {name: 'artists'}],
-          ]
-        };
-      }
-      static get Listeners() {
-        return {
-          'thumbnail-clicked': 'onThumbnailClicked',
-          'filter-clicked': 'onFilterClicked'
-        }
-      }
-      selectedChanged() {
-        super.selectedChanged();
-        const ref = (document.referrer && document.referrer !== 'https://polygone.art/') ? `?ref=${document.referrer}` : '';
-        fetch(`${BLOB_URL}/page/${this.selected}${ref}`);
-
-        if (this.selected !== 'model') {
-          this.guid = '';
-        }
-
-        if (this.selected !== 'catalog') {
-          $TYPE.value = 'all';
-          $FILTER.value = '';
-        }
-
-        if (this.selected === 'catalog') {
-          this.options[1].selected = true;
-        } else if (this.selected === 'model') {
-          this.options[1].selected = false;
-        }
-      }
-      onThumbnailClicked(event) {
-        this.guid = event.detail;
-        $PAGE.value = 'model'
-      }
-      onFilterClicked(event) {
-        // TODO: set all hashes at once
-        $TYPE.value = 'all';
-        $PAGE.value = 'catalog';
-        $FILTER.value = event.detail;
-      }
-    }
-    RegisterIoElement(IoMainPage);
-    </script>
+    <script type="module" src="./build/index.js"></script>
     <noscript>JavaScript is required to view this page!</noscript>
     <io-main-page></io-main-page>
   </body>

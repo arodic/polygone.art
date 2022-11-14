@@ -1,17 +1,18 @@
-import {IoElement, RegisterIoElement} from "./iogui.js";
+import {IoElement, RegisterIoElement, Property} from 'io-gui';
 
-const cachedId = [];
-const queue = [];
+const cachedId: string[] = [];
+const queue: Record<string, PolyThumbnail>[] = [];
 
 setInterval(() => {
   if (queue.length) {
     const i = Math.floor(Math.random() * queue.length);
     queue[i].$.image.style.setProperty('background-image', `url("./assets/${queue[i].guid}/thumbnail-${queue[i].size}.jpg")`);
-    cachedId.push(queue[i].guid);
+    cachedId.push((queue[i] as PolyThumbnail).guid);
     queue.splice(i, 1);
   }
 }, 1);
 
+@RegisterIoElement
 export class PolyThumbnail extends IoElement {
   static get Style() {
     return /* css */`
@@ -35,19 +36,20 @@ export class PolyThumbnail extends IoElement {
     }
     `;
   }
-  static get Properties() {
-    return {
-      guid: {
-        type: String,
-      },
-      size: 256,
-      thumbnails: {type: Object, observe: true},
-    };
-  }
+
+  @Property('')
+  declare guid: string;
+
+  @Property(256)
+  declare size: number;
+
+  @Property({type: Object, observe: true})
+  declare thumbnails: Record<string, string>;
+
   static get Listeners() {
     return {
       'click': 'onClicked'
-    }
+    };
   }
   onClicked() {
     this.dispatchEvent('thumbnail-clicked', this.guid, true);
@@ -76,8 +78,6 @@ export class PolyThumbnail extends IoElement {
     }
     this.template([
       ['div', {id: 'image'}]
-    ])
+    ]);
   }
 }
-
-RegisterIoElement(PolyThumbnail);

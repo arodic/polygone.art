@@ -1,8 +1,11 @@
-import {IoElement, RegisterIoElement} from "./iogui.js";
+/* eslint-disable @typescript-eslint/no-floating-promises */
+import {IoElement, RegisterIoElement, Property} from 'io-gui';
 import {$GUID, BLOB_URL} from './poly-env.js';
 
-const chachedAssets = {};
+type AssetInfo = Record<string, any>;
+const chachedAssets: Record<string, AssetInfo> = {};
 
+@RegisterIoElement
 export class PolyModelView extends IoElement {
   static get Style() {
     return /* css */`
@@ -71,7 +74,8 @@ export class PolyModelView extends IoElement {
       this.changed();
     } else if (this.guid) {
       fetch(`./assets/${this.guid}/data.json`).then(async response => {
-        this.assetInfo  = await response.json();
+        this.assetInfo = await response.json();
+        chachedAssets[this.guid] = this.assetInfo;
         this.changed();
       });
     }
@@ -81,9 +85,9 @@ export class PolyModelView extends IoElement {
     this.assetInfo = this.assetInfo || {
       tags: [],
       formats: [],
-    }
+    };
 
-    const gltf2model = this.assetInfo.formats.find(format => format.formatType === 'GLTF2');
+    const gltf2model = this.assetInfo.formats.find((format: any) => format.formatType === 'GLTF2');
     const fltf2Root = gltf2model?.root?.relativePath;
 
     this.template([
@@ -112,20 +116,19 @@ export class PolyModelView extends IoElement {
       ]],
       this.assetInfo.description ? ['div', {class: 'description'}, `${this.assetInfo.description}`] : [],
       ['div', {class: 'license'}, [
-        ['span', `This content is published under a CC-BY license. You're free to use this as long as you credit the author.`]
+        ['span', 'This content is published under a CC-BY license. You\'re free to use this as long as you credit the author.']
       ]],
       this.assetInfo.tags.length ? ['h4', 'Tags:'] : [],
-      ['ul', {class: 'tags'}, this.assetInfo.tags.map((tag) => ['li', [['poly-link', {value: tag}, `#${tag}`]]])],
+      ['ul', {class: 'tags'}, this.assetInfo.tags.map((tag: string) => ['li', [['poly-link', {value: tag}, `#${tag}`]]])],
       ['h4', 'Downloads:'],
-      ['ul', {class: 'downloads'}, this.assetInfo.formats.map((format) => ['li', [
+      ['ul', {class: 'downloads'}, this.assetInfo.formats.map((format: any) => ['li', [
         ['poly-link', {value: `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip`}, `${format.formatType} ⇩`]
       ]])],
-    ])
+    ]);
   }
 }
 
-RegisterIoElement(PolyModelView);
-
+@RegisterIoElement
 export class PolyLink extends IoElement {
   static get Style() {
     return /* css */`
@@ -139,21 +142,19 @@ export class PolyLink extends IoElement {
     }
     `;
   }
-  static get Properties() {
-    return {
-      value: String,
-    };
-  }
+  @Property('')
+  declare value: string;
+
   static get Listeners() {
     return {
       'click': 'onClicked'
-    }
+    };
   }
   onClicked() {
     if (this.value.search('://') !== -1) {
       const link = document.createElement('a');
       link.href = this.value;
-      link.download = this.value.split('/').pop();
+      link.download = this.value.split('/').pop() as string;
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
@@ -162,5 +163,3 @@ export class PolyLink extends IoElement {
     }
   }
 }
-
-RegisterIoElement(PolyLink);

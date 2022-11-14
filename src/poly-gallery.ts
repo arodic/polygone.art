@@ -1,11 +1,13 @@
-import {IoElement, RegisterIoElement} from "./iogui.js";
-import "./poly-thumbnail.js";
+/* eslint-disable @typescript-eslint/no-this-alias */
+import {IoElement, RegisterIoElement, Property} from 'io-gui';
+import './poly-thumbnail.js';
 import {$TYPE, $SIZE, $FILTER, BLOB_URL} from './poly-env.js';
 
-function nearestPowerOfTwo(size){
-  return Math.pow(2, Math.ceil(Math.log(size)/Math.log(2))); 
+function nearestPowerOfTwo(size: number){
+  return Math.pow(2, Math.ceil(Math.log(size)/Math.log(2)));
 }
 
+@RegisterIoElement
 export class PolyGallery extends IoElement {
   static get Style() {
     return /* css */`
@@ -66,46 +68,63 @@ export class PolyGallery extends IoElement {
     }
     `;
   }
-  static get Properties() {
-    return {
-      role: 'document',
-      size: $SIZE,
-      type: $TYPE,
-      filter: $FILTER,
-      computedSize: 256,
-      currentBase: Number,
-      assets: {type: Object, notify: false},
-      items: Array,
-      thumbnails: Object,
-    };
-  }
+
+
+  @Property('document')
+  declare role: string;
+
+  @Property($SIZE)
+  declare size: string;
+
+  @Property($TYPE)
+  declare type: string;
+
+  @Property($FILTER)
+  declare filter: string;
+
+  @Property(256)
+  declare computedSize: number;
+
+  @Property(0)
+  declare currentBase: number;
+
+  @Property({type: Object, notify: false})
+  declare assets: Record<string, any>;
+
+  @Property([])
+  declare items: any[];
+
+  @Property(Object)
+  declare thumbnails: Record<string, any>;
+
   static get Listeners() {
     return {
       scroll: 'onScroll'
-    }
+    };
   }
   constructor() {
     super();
 
     this.currentBase = this.currentBase === undefined ? 0 : this.currentBase;
     const jpegHeaderData = '/9j/2wBDAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/2wBDAQUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/wgARCAAYACADASIAAhEBAxEB/';
-    let utf8decoder = new TextDecoder();
+    const utf8decoder = new TextDecoder();
     // TODO: clean up
+    // eslint-disable-next-line
     fetch('./data/thumbs.csv').then(async response => {
-      const reader = response.body.getReader();
-      let textTail = "";
+      const reader = response.body?.getReader();
+      let textTail = '';
       const scope = this;
       new ReadableStream({
         start(controller) {
           function push() {
-            return reader.read().then(({ done, value }) => {
-              value = utf8decoder.decode(value);
+            return reader?.read().then(({done, value}) => {
+              const valueStr = utf8decoder.decode(value);
               if (done) {
                 controller.close();
                 scope.dispatchEvent('object-mutated', {object: scope.thumbnails}, false, window);
                 return;
               }
-              let rows = (textTail + value).split('\n');
+              const rows = (textTail + valueStr).split('\n');
               textTail = rows[rows.length - 1];
               rows.length = rows.length - 1;
               for (let i = 0; i < rows.length; i++) {
@@ -116,29 +135,30 @@ export class PolyGallery extends IoElement {
                 scope.dispatchEvent('object-mutated', {object: scope.thumbnails}, false, window);
                 scope.thumbnailLoaderTimeout = null;
               }, 1000);
-              push();
+              void push();
             });
-          };
-          push();
+          }
+          void push();
         }
-      })
+      });
     });
     this.classList.toggle('io-loading', true);
+    // eslint-disable-next-line
     fetch('./data/assets.csv').then(async response => {
-      const reader = response.body.getReader();
-      let textTail = "";
+      const reader = response.body?.getReader();
+      let textTail = '';
       const scope = this;
       new ReadableStream({
         start(controller) {
           function push() {
-            return reader.read().then(({ done, value }) => {
-              value = utf8decoder.decode(value);
+            return reader?.read().then(({ done, value }) => {
+              const valueStr = utf8decoder.decode(value);
               if (done) {
                 controller.close();
                 scope.applyFilter();
                 return;
               }
-              let rows = (textTail + value).split('\n');
+              const rows = (textTail + valueStr).split('\n');
               textTail = rows[rows.length - 1];
               rows.length = rows.length - 1;
               for (let i = 0; i < rows.length; i++) {
@@ -157,12 +177,12 @@ export class PolyGallery extends IoElement {
                 scope.assetLoaderTimeout = null;
                 scope.classList.toggle('io-loading', false);
               }, 100);
-              push();
+              void push();
             });
-          };
-          push();
+          }
+          void push();
         }
-      })
+      });
     });
   }
   connectedCallback() {
@@ -216,15 +236,16 @@ export class PolyGallery extends IoElement {
   }
   filterChanged() {
     this.applyFilter();
+    // eslint-disable-next-line
     fetch(`${BLOB_URL}/filter/${this.filter}`);
   }
   applyFilter() {
     const filtered = [];
-    const indexOf = (item, filter) => {
+    const indexOf = (item: any, filter: any) => {
       if (item instanceof Array) return item.findIndex(item => filter.toLowerCase() === item.toLowerCase());
       return item.toLowerCase().indexOf(filter.toLowerCase());
-    }
-    for (let id in this.assets) {
+    };
+    for (const id in this.assets) {
       if (this.type === 'all') {
         if (this.filter === '' ||
           indexOf(this.assets[id].tags, this.filter) !== -1 ||
@@ -273,7 +294,7 @@ export class PolyGallery extends IoElement {
         guid: filteredList[i],
         thumbnails: this.thumbnails,
         size: this.powTwoSize
-      }])
+      }]);
     }
     this.template([
       ['div', {className: 'height-padding'}],
@@ -283,5 +304,3 @@ export class PolyGallery extends IoElement {
     ]);
   }
 }
-
-RegisterIoElement(PolyGallery);
