@@ -5,16 +5,31 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf build && rm -rf bundle",
+    "lint": "eslint src --fix",
+    "build": "yarn clean && yarn lint && tsc && rollup -c && rm -rf build && mv bundle build",
+    "dev": "yarn clean && yarn lint && tsc -w"
   },
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.34.0",
+    "@typescript-eslint/parser": "^5.34.0",
+    "eslint": "^8.22.0",
+    "eslint-plugin-html": "^7.1.0",
+    "io-gui": "^1.3.6",
+    "rollup": "^2.78.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
   "dependencies": {
-    "got": "^11.8.2",
-    "sharp": "^0.28.3",
     "archiver": "^5.3.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "morgan": "^1.10.0"
+    "got": "^11.8.2",
+    "morgan": "^1.10.0",
+    "sharp": "^0.28.3"
   }
 }

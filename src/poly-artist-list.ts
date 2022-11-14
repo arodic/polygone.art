@@ -1,11 +1,13 @@
-import {IoElement, RegisterIoElement} from "./iogui.js";
-import "./poly-thumbnail.js";
+/* eslint-disable @typescript-eslint/no-this-alias */
+import {IoElement, RegisterIoElement} from 'io-gui';
+import './poly-thumbnail.js';
 import {$TYPE, $FILTER} from './poly-env.js';
 
-function nearestPowerOfTwo(size){
-  return Math.pow(2, Math.ceil(Math.log(size)/Math.log(2))); 
+function nearestPowerOfTwo(size: number){
+  return Math.pow(2, Math.ceil(Math.log(size)/Math.log(2)));
 }
 
+@RegisterIoElement
 export class PolyArtistList extends IoElement {
   static get Style() {
     return /* css */`
@@ -74,30 +76,31 @@ export class PolyArtistList extends IoElement {
   static get Listeners() {
     return {
       scroll: 'onScroll'
-    }
+    };
   }
   constructor() {
     super();
 
     this.currentBase = this.currentBase === undefined ? 0 : this.currentBase;
-    let utf8decoder = new TextDecoder();
+    const utf8decoder = new TextDecoder();
     this.classList.toggle('io-loading', true);
+    // eslint-disable-next-line
     fetch('./data/users.csv').then(async response => {
-      const reader = response.body.getReader();
-      let textStream = "";
+      const reader = response.body?.getReader();
+      // let textStream = "";
       const scope = this;
       new ReadableStream({
         start(controller) {
           function push() {
-            return reader.read().then(({ done, value }) => {
-              value = utf8decoder.decode(value);
+            return reader?.read().then(({ done, value }) => {
+              const valueStr = utf8decoder.decode(value);
               if (done) {
                 controller.close();
                 scope.sortNames();
                 return;
               }
-              let rows = value.split('\n');
-              textStream += rows[rows.length - 1];
+              const rows = valueStr.split('\n');
+              // textStream += rows[rows.length - 1];
               rows.length = rows.length - 1;
               for (let i = 0; i < rows.length; i++) {
                 const data = rows[i].split(',');
@@ -114,12 +117,12 @@ export class PolyArtistList extends IoElement {
                 scope.assetLoaderTimeout = null;
                 scope.classList.toggle('io-loading', false);
               }, 100);
-              push();
+              void push();
             });
-          };
-          push();
+          }
+          void push();
         }
-      })
+      });
     });
   }
   connectedCallback() {
@@ -132,7 +135,7 @@ export class PolyArtistList extends IoElement {
     this.onScroll();
   }
   calcSize() {
-    let size = 128;
+    const size = 128;
     this.powTwoSize = Math.max(32, Math.min(512, nearestPowerOfTwo(size)));
     this.wrapperHeight = this.clientHeight;
     this.computedSize = 22;
@@ -180,5 +183,3 @@ export class PolyArtistList extends IoElement {
     ]);
   }
 }
-
-RegisterIoElement(PolyArtistList);
