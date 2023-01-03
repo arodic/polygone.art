@@ -66,7 +66,6 @@ export class PolyModelView extends IoElement {
     this.style.setProperty('--polyViewerHeight', `${height}px`);
   }
   guidChanged() {
-    console.log('guid changed', this.guid);
     if (chachedAssets[this.guid]) {
       this.assetInfo = chachedAssets[this.guid];
       this.changed();

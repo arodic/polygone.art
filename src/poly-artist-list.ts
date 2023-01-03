@@ -29,11 +29,37 @@ export class PolyArtistList extends IoElement {
         height: var(--polyArtistsTop);
         margin-top: var(--iotLineHeight);
       }
+      @keyframes spinner {
+      to {transform: rotate(360deg);}
+    }
+    :host[loading] {
+      background-image: repeating-linear-gradient(135deg, var(--io-background-color-highlight), var(--io-background-color) 3px, var(--io-background-color) 7px, var(--io-background-color-highlight) 10px) !important;
+      background-repeat: repeat;
+      position: relative;
+    }
+    :host[loading]:after {
+      content: '';
+      box-sizing: border-box;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 40px;
+      height: 40px;
+      margin-top: -20px;
+      margin-left: -20px;
+      border-radius: 50%;
+      border: var(--iotBorder);
+      border-top-color: var(--iotColorSelected);
+      animation: spinner .6s linear infinite;
+    }
     `;
   }
 
   @Property('')
   declare src: string;
+
+  @Property({value: false, reflect: true})
+  declare loading: boolean;
 
   @Property({type: Object, reactive: false})
   declare users: Record<string, User>;
@@ -50,6 +76,7 @@ export class PolyArtistList extends IoElement {
   srcChanged() {
     this.users = {};
     this.ids = [];
+    this.loading = true;
     fetch(this.src)
     .then((response) => {
       if (!response.ok) {
@@ -75,6 +102,7 @@ export class PolyArtistList extends IoElement {
         if(this.users[a].name?.toLowerCase() > this.users[b].name?.toLowerCase()) { return 1; }
         return 0;
       });
+      this.loading = false;
       this.changed();
     })
     .catch(console.error);

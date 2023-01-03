@@ -13,10 +13,10 @@ export const BLOB_URL = 'https://blob.polygone.art';
 
 const $PAGE = $({key: 'page', storage: 'hash', value: 'About'});
 const PAGE_OPTIONS = new MenuOptions([
-  'About',
-  'Catalog',
+  {value: 'About'},
+  {value: 'Catalog'},
   {value: 'Model', hidden: true},
-  'Artists'
+  {value: 'Artists'}
 ], {path: $PAGE} as any);
 
 const $TYPE = $({key: 'type', storage: 'hash', value: 'All Models'});
@@ -33,14 +33,14 @@ const SIZE_OPTIONS = new MenuOptions([
   {label: 'Medium', value: '128x128'},
   {label: 'Large', value: '256x256'},
   {label: 'X-Large', value: '512x512'}
-], {path: $SIZE} as any);
+], {first: $SIZE} as any);
 
 const $FILTER = $({key: 'filter', storage: 'hash', value: ''});
 const FILTER_OPTIONS = new MenuOptions([
   {label: 'all', value: ''},
   'animals', 'architecture', 'art', 'culture', 'food', 'history', 'nature',
   'objects', 'people', 'scenes', 'science', 'tech', 'transport', 'travel',
-], {path: $FILTER} as any);
+], {first: $FILTER} as any);
 
 const $GUID = $({key: 'guid', storage: 'hash', value: ''});
 

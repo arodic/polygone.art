@@ -6,7 +6,7 @@ function nearestPowerOfTwo(size: number){
   return Math.pow(2, Math.ceil(Math.log(size)/Math.log(2)));
 }
 
-const sizes: Record<string, number> = {'X-Small': 32, 'Small': 64, 'Medium': 128, 'Large': 256, 'X-Large': 512};
+const sizes: Record<string, number> = {'32x32': 32, '64x64': 64, '128x128': 128, '256x256': 256, '512x512': 512};
 const jpegHeaderData = '/9j/2wBDAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/2wBDAQUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/wgARCAAYACADASIAAhEBAxEB/';
 const utf8decoder = new TextDecoder();
 
