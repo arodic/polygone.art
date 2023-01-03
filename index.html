@@ -62,7 +62,9 @@
     <script type="importmap">
       {
         "imports": {
-          "io-gui": "./node_modules/io-gui/build/iogui.js"
+          "io-gui": "./node_modules/io-gui/build/iogui.js",
+          "marked": "./node_modules/io-gui/node_modules/marked/lib/marked.esm.js",
+          "dompurify": "./node_modules/io-gui/node_modules/dompurify/dist/purify.es.js"
         }
       }
     </script>
@@ -79,13 +81,8 @@
         width: 100%;
         height: 100%;
       }
-      io-main-page {
-        display: flex;
-        flex-direction: column;
+      poly-app {
         height: 100%;
-      }
-      io-notify {
-        display: none !important;
       }
       #button-load,
       #default-poster {
@@ -95,8 +92,8 @@
   </head>
   <body>
     <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <script type="module" src="./build/index.js"></script>
+    <script type="module" src="./build/poly-app.js"></script>
     <noscript>JavaScript is required to view this page!</noscript>
-    <io-main-page></io-main-page>
+    <poly-app></poly-app>
   </body>
 </html>

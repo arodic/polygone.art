@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-floating-promises */
-import {IoElement, RegisterIoElement, Property} from 'io-gui';
-import {$GUID, BLOB_URL} from './poly-env.js';
+import { IoElement, RegisterIoElement, Property } from 'io-gui';
+import {BLOB_URL} from './poly-app.js';
 
 type AssetInfo = Record<string, any>;
 const chachedAssets: Record<string, AssetInfo> = {};
@@ -54,12 +54,12 @@ export class PolyModelView extends IoElement {
     }
     `;
   }
-  static get Properties() {
-    return {
-      guid: $GUID,
-      assetInfo: {notify: true},
-    };
-  }
+  @Property('')
+  declare guid: string;
+
+  @Property({reactive: true})
+  declare assetInfo: any;
+
   constructor() {
     super();
     this.guidChanged();
@@ -125,41 +125,5 @@ export class PolyModelView extends IoElement {
         ['poly-link', {value: `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip`}, `${format.formatType} ⇩`]
       ]])],
     ]);
-  }
-}
-
-@RegisterIoElement
-export class PolyLink extends IoElement {
-  static get Style() {
-    return /* css */`
-    :host {
-      color: var(--io-color-link);
-      cursor: pointer;
-    }
-    :host:hover {
-      color: var(--io-color-focus);
-      text-decoration: underline;
-    }
-    `;
-  }
-  @Property('')
-  declare value: string;
-
-  static get Listeners() {
-    return {
-      'click': 'onClicked'
-    };
-  }
-  onClicked() {
-    if (this.value.search('://') !== -1) {
-      const link = document.createElement('a');
-      link.href = this.value;
-      link.download = this.value.split('/').pop() as string;
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    } else {
-      this.dispatchEvent('filter-clicked', this.value, true);
-    }
   }
 }

@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-this-alias */
-import {IoElement, RegisterIoElement, Property} from 'io-gui';
+import {IoElement, RegisterIoElement, Property, IoNodeArgs} from 'io-gui';
 import './poly-thumbnail.js';
-import {$TYPE, $SIZE, $FILTER, BLOB_URL} from './poly-env.js';
+import {BLOB_URL} from './poly-app.js';
 
 function nearestPowerOfTwo(size: number){
   return Math.pow(2, Math.ceil(Math.log(size)/Math.log(2)));
@@ -12,6 +12,7 @@ export class PolyGallery extends IoElement {
   static get Style() {
     return /* css */`
     :host {
+      display: block;
       overflow-y: scroll;
       height: 100%;
       width: 100%;
@@ -69,17 +70,13 @@ export class PolyGallery extends IoElement {
     `;
   }
 
-
-  @Property('document')
-  declare role: string;
-
-  @Property($SIZE)
+  @Property('')
   declare size: string;
 
-  @Property($TYPE)
+  @Property('')
   declare type: string;
 
-  @Property($FILTER)
+  @Property('')
   declare filter: string;
 
   @Property(256)
@@ -88,7 +85,7 @@ export class PolyGallery extends IoElement {
   @Property(0)
   declare currentBase: number;
 
-  @Property({type: Object, notify: false})
+  @Property({type: Object, reactive: false})
   declare assets: Record<string, any>;
 
   @Property([])
@@ -102,8 +99,8 @@ export class PolyGallery extends IoElement {
       scroll: 'onScroll'
     };
   }
-  constructor() {
-    super();
+  constructor(properties: IoNodeArgs = {}) {
+    super(properties);
 
     this.currentBase = this.currentBase === undefined ? 0 : this.currentBase;
     const jpegHeaderData = '/9j/2wBDAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/2wBDAQUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/wgARCAAYACADASIAAhEBAxEB/';
@@ -246,14 +243,14 @@ export class PolyGallery extends IoElement {
       return item.toLowerCase().indexOf(filter.toLowerCase());
     };
     for (const id in this.assets) {
-      if (this.type === 'all') {
+      if (this.type === 'All Models') {
         if (this.filter === '' ||
           indexOf(this.assets[id].tags, this.filter) !== -1 ||
           indexOf(this.assets[id].name, this.filter) !== -1 ||
           this.assets[id].authorId === this.filter) {
           filtered.push(id);
         }
-      } else if (this.type === 'tilt' && this.assets[id].tags.indexOf('tilt') !== -1) {
+      } else if (this.type === 'Tilt Brush' && this.assets[id].tags.indexOf('tilt') !== -1) {
         if (this.filter === '' ||
           indexOf(this.assets[id].tags, this.filter) !== -1 ||
           indexOf(this.assets[id].name, this.filter) !== -1 ||
@@ -261,7 +258,7 @@ export class PolyGallery extends IoElement {
           ) {
           filtered.push(id);
         }
-      } else if (this.type === '!tilt' && this.assets[id].tags.indexOf('tilt') === -1) {
+      } else if (this.type === '3D Mesh' && this.assets[id].tags.indexOf('tilt') === -1) {
         if (this.filter === '' ||
           indexOf(this.assets[id].tags, this.filter) !== -1 ||
           indexOf(this.assets[id].name, this.filter) !== -1 ||

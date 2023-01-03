@@ -32,5 +32,5 @@ function makeBundleTarget(src, target) {
 }
 
 export default [
-  makeBundleTarget('build/index.js', 'bundle/index.js'),
+  makeBundleTarget('build/poly-app.js', 'bundle/poly-app.js'),
 ];

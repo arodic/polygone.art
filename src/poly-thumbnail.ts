@@ -60,6 +60,7 @@ export class PolyThumbnail extends IoElement {
     }
   }
   changed() {
+    this.template([['div', {$: 'image'}]]);
     if (this.thumbnails[this.guid]) {
       this.style.setProperty('background-image', `url("data:image/jpeg;base64,${this.thumbnails[this.guid]}")`);
     } else {
@@ -76,8 +77,5 @@ export class PolyThumbnail extends IoElement {
         if (queue.indexOf(this) === -1) queue.push(this);
       }
     }
-    this.template([
-      ['div', {id: 'image'}]
-    ]);
   }
 }
