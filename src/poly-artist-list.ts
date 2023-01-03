@@ -29,10 +29,6 @@ export class PolyArtistList extends IoElement {
         height: var(--polyArtistsTop);
         margin-top: var(--iotLineHeight);
       }
-      :host > .bottom-padding {
-        display: block;
-        height: var(--iotLineHeight);
-      }
     `;
   }
 
@@ -83,23 +79,13 @@ export class PolyArtistList extends IoElement {
     })
     .catch(console.error);
   }
-  connectedCallback() {
-    super.connectedCallback();
-    this.updateVirualList();
-  }
   onResized() {
-    this.updateVirualList();
+    this.throttle(this.changed);
   }
   onScroll() {
-    this.updateVirualList();
+    this.throttle(this.changed);
   }
-  updateVirualList() {
-    if (!this.scrollTick) this.scrollTick = window.requestAnimationFrame(() => {
-      delete this.scrollTick;
-      this.changed();
-    });
-  }
-  changed() {
+  changed = () => {
     const itemSize = this.querySelector('poly-link')?.clientHeight || IoThemeSingleton.iotLineHeight;
     const firstIndex = Math.max(0, Math.floor(this.scrollTop / itemSize) - 2);
 
@@ -116,7 +102,6 @@ export class PolyArtistList extends IoElement {
       ['div', {className: 'height-padding'}],
       ['div', {className: 'top-padding'}],
       ...visibleList.map((item: string) => ['poly-link', {value: item}, this.users[item].name]),
-      ['div', {className: 'bottom-padding'}],
     ]);
-  }
+  };
 }

@@ -1,4 +1,4 @@
-import {MenuOptions, IoNavigator, IoThemeSingleton, Property, RegisterIoElement, VDOMArray, IoStorage as $} from 'io-gui';
+import {MenuOptions, MenuItem, IoNavigator, IoThemeSingleton, Property, RegisterIoElement, VDOMArray, IoStorage as $} from 'io-gui';
 import './poly-artist-list.js';
 import './poly-gallery.js';
 import './poly-icons.js';
@@ -11,29 +11,38 @@ IoThemeSingleton.ioBorderRadius = 0;
 
 export const BLOB_URL = 'https://blob.polygone.art';
 
-const PAGE = $({key: 'page', storage: 'hash', value: 'About'});
-const PAGE_OPTIONS = new MenuOptions(['About', 'Catalog', 'Model', 'Artists'], {path: PAGE} as any);
+const $PAGE = $({key: 'page', storage: 'hash', value: 'About'});
+const PAGE_OPTIONS = new MenuOptions([
+  'About',
+  'Catalog',
+  {value: 'Model', hidden: true},
+  'Artists'
+], {path: $PAGE} as any);
 
-const TYPE = $({key: 'type', storage: 'hash', value: 'All Models'});
-const TYPE_OPTIONS = new MenuOptions(['All Models', 'Tilt Brush', '3D Mesh'], {path: TYPE} as any);
+const $TYPE = $({key: 'type', storage: 'hash', value: 'All Models'});
+const TYPE_OPTIONS = new MenuOptions([
+  'All Models',
+  'Tilt Brush',
+  '3D Mesh'
+], {path: $TYPE} as any);
 
-const SIZE = $({key: 'size', storage: 'hash', value: 'Medium'});
+const $SIZE = $({key: 'size', storage: 'hash', value: 'Medium'});
 const SIZE_OPTIONS = new MenuOptions([
   {label: 'X-Small', value: '32x32'},
   {label: 'Small', value: '64x64'},
   {label: 'Medium', value: '128x128'},
   {label: 'Large', value: '256x256'},
   {label: 'X-Large', value: '512x512'}
-], {path: SIZE} as any);
+], {path: $SIZE} as any);
 
-const FILTER = $({key: 'filter', storage: 'hash', value: ''});
+const $FILTER = $({key: 'filter', storage: 'hash', value: ''});
 const FILTER_OPTIONS = new MenuOptions([
   {label: 'all', value: ''},
   'animals', 'architecture', 'art', 'culture', 'food', 'history', 'nature',
   'objects', 'people', 'scenes', 'science', 'tech', 'transport', 'travel',
-], {path: FILTER} as any);
+], {path: $FILTER} as any);
 
-export const GUID = $({key: 'guid', storage: 'hash', value: ''});
+const $GUID = $({key: 'guid', storage: 'hash', value: ''});
 
 @RegisterIoElement
 export class PolyApp extends IoNavigator {
@@ -53,40 +62,27 @@ export class PolyApp extends IoNavigator {
       }
       :host .catalog > .settings {
         display: flex;
-        padding: var(--io-spacing);
+        padding: var(--iotSpacing);
         position: relative;
       }
       :host .catalog > .settings io-option-menu {
         padding: 0;
-        margin-right: var(--io-spacing);
+        margin-right: var(--iotSpacing);
         width: 8em;
       }
-      :host .filterInput {
-        padding-right:var(--io-item-height);
+      :host .catalog > .settings > .filterInput {
+        padding-right:var(--iotFieldHeight);
         flex: 1 1 auto;
       }
-      :host .filterInput:empty:before {
-        content: '\\1F50D';
-        white-space: pre;
-        padding: 0 0.25em;
-        visibility: visible;
-        opacity: 0.33;
+      :host .catalog > .settings > io-menu-item > .hasmore {
+        display: none;
       }
-      :host .filterButton {
-        position: absolute;
-        right: var(--io-spacing);
-        margin: var(--io-border-width);
-        height: calc(var(--io-item-height) - var(--io-border-width)  - var(--io-border-width));
-      }
-      :host .sizeButton {
-        position: fixed;
-        top: 0;
-        right: 0;
-        margin: var(--io-border-width);
-        height: calc(var(--io-item-height) - var(--io-border-width)  - var(--io-border-width));
+      :host .catalog > .settings > io-menu-item[selected] {
+        border-color: transparent;
+        background-color: inherit;
       }
       :host io-icon g {
-        fill: var(--io-color);
+        fill: var(--iotColor);
       }
     `;
   }
@@ -101,20 +97,37 @@ export class PolyApp extends IoNavigator {
     ['io-md-view', {id: 'About', src: './README.md'}],
     ['div', {id: 'Catalog', class: 'catalog'}, [
       ['div', {class: 'settings'}, [
-        ['io-option-menu', {options: TYPE_OPTIONS, value: TYPE}],
-        ['io-string', {class: 'filterInput', value: FILTER, live: true}],
-        // ['div', [
-        //   ['io-button', {class: 'filterButton', label: '▾'}],
-        //   // ['io-context-menu', {options: FILTER_OPTIONS, value: FILTER, position: 'bottom'}],
-        // ]],
-        // ['div', {class: 'sizeButton'}, [
-        //   ['io-icon', {icon: 'poly:grid'}],
-        //   // ['io-context-menu', {options: SIZE_OPTIONS, value: SIZE, position: 'bottom'}],
-        // ]]
+        ['io-option-menu', {options: TYPE_OPTIONS, value: $TYPE}],
+        ['io-string', {class: 'filterInput', value: $FILTER, live: true}],
+        ['io-menu-item', {
+          direction: 'down',
+          item: new MenuItem({
+            label: '',
+            icon: 'poly:filter',
+            first: $FILTER,
+            options: FILTER_OPTIONS,
+          })
+        }],
+        ['io-menu-item', {
+          direction: 'down',
+          item: new MenuItem({
+            label: '',
+            icon: 'poly:grid',
+            first: $SIZE,
+            options: SIZE_OPTIONS,
+          })
+        }]
       ]],
-      ['poly-gallery', {type: TYPE, filter: FILTER, size: SIZE}],
+      ['poly-gallery', {
+        assetsSrc: './data/assets.csv',
+        thumbsSrc: './data/thumbs.csv',
+        type: $TYPE, filter: $FILTER, size: $SIZE
+      }],
     ]],
-    ['poly-model-view', {id: 'Model'}],
+    ['poly-model-view', {
+      id: 'Model',
+      guid: $GUID,
+    }],
     ['poly-artist-list', {id: 'Artists', src: './data/users.csv'}],
   ]})
   declare elements: VDOMArray[];
@@ -127,32 +140,22 @@ export class PolyApp extends IoNavigator {
   }
   changed() {
     super.changed();
-  //   const ref = (document.referrer && document.referrer !== 'https://polygone.art/') ? `?ref=${document.referrer}` : '';
-  //   await fetch(`${BLOB_URL}/page/${this.selected}${ref}`);
+    const ref = (document.referrer && document.referrer !== 'https://polygone.art/') ? `?ref=${document.referrer}` : '';
+    fetch(`${BLOB_URL}/page/${this.selected}${ref}`).catch(console.error);
 
-    if (PAGE.value !== 'Model') {
-      GUID.value = '';
-      TYPE.value = 'All Models';
-      FILTER.value = '';
+    if ($PAGE.value !== 'Model') {
+      $GUID.value = '';
+      $TYPE.value = 'All Models';
+      $FILTER.value = '';
     }
-
-  //   if (this.selected !== 'Catalog') {
-  //     TYPE.first = 'All Models';
-  //     FILTER.value = '';
-  //   }
-
-  //   if (this.selected === 'model') {
-  //     this.options[1]._properties.get('selected').value = false;
-  //     this.options[1].changed();
-  //   }
   }
   onThumbnailClicked(event: CustomEvent) {
-    PAGE.value = 'Model';
-    GUID.value = event.detail;
+    $PAGE.value = 'Model';
+    $GUID.value = event.detail;
   }
   onFilterClicked(event: CustomEvent) {
-    TYPE.value = 'All Models';
-    PAGE.value = 'Catalog';
-    FILTER.value = event.detail;
+    $TYPE.value = 'All Models';
+    $PAGE.value = 'Catalog';
+    $FILTER.value = event.detail;
   }
 }

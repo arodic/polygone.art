@@ -1,11 +1,14 @@
 /* eslint-disable @typescript-eslint/no-this-alias */
-import {IoElement, RegisterIoElement, Property, IoNodeArgs} from 'io-gui';
+import { IoElement, RegisterIoElement, Property } from 'io-gui';
 import './poly-thumbnail.js';
-import {BLOB_URL} from './poly-app.js';
 
 function nearestPowerOfTwo(size: number){
   return Math.pow(2, Math.ceil(Math.log(size)/Math.log(2)));
 }
+
+const sizes: Record<string, number> = {'X-Small': 32, 'Small': 64, 'Medium': 128, 'Large': 256, 'X-Large': 512};
+const jpegHeaderData = '/9j/2wBDAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/2wBDAQUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/wgARCAAYACADASIAAhEBAxEB/';
+const utf8decoder = new TextDecoder();
 
 @RegisterIoElement
 export class PolyGallery extends IoElement {
@@ -21,23 +24,19 @@ export class PolyGallery extends IoElement {
     :host > .height-padding {
       display: block;
       width: 1px;
-      height: var(--vs-height);
+      height: var(--polyGalleryHeight);
       position: absolute;
     }
     :host > .top-padding {
       display: block;
-      height: var(--vs-top-height);
-    }
-    :host > .bottom-padding {
-      display: block;
-      height: var(--vs-bottom-height);
+      height: var(--polyGalleryTop);
     }
 
     :host > poly-thumbnail {
       border: 1px solid black;
       margin: 4px 0 0 4px;
-      width: calc(var(--vs-size) - 4px);
-      height: calc(var(--vs-size) - 4px);
+      width: calc(var(--polyGalleryCellSize) - 4px);
+      height: calc(var(--polyGalleryCellSize) - 4px);
       cursor: pointer;
     }
     :host > poly-thumbnail:hover {
@@ -79,11 +78,11 @@ export class PolyGallery extends IoElement {
   @Property('')
   declare filter: string;
 
-  @Property(256)
-  declare computedSize: number;
+  @Property('')
+  declare assetsSrc: string;
 
-  @Property(0)
-  declare currentBase: number;
+  @Property('')
+  declare thumbsSrc: string;
 
   @Property({type: Object, reactive: false})
   declare assets: Record<string, any>;
@@ -99,15 +98,13 @@ export class PolyGallery extends IoElement {
       scroll: 'onScroll'
     };
   }
-  constructor(properties: IoNodeArgs = {}) {
-    super(properties);
 
-    this.currentBase = this.currentBase === undefined ? 0 : this.currentBase;
-    const jpegHeaderData = '/9j/2wBDAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/2wBDAQUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX3/wgARCAAYACADASIAAhEBAxEB/';
-    const utf8decoder = new TextDecoder();
-    // TODO: clean up
-    // eslint-disable-next-line
-    fetch('./data/thumbs.csv').then(async response => {
+  thumbsSrcChanged() {
+    fetch(this.thumbsSrc)
+    .then(async response => {
+      if (!response.ok) {
+        throw new Error(`${response.url} ${response.status} ${response.statusText}`);
+      }
       const reader = response.body?.getReader();
       let textTail = '';
       const scope = this;
@@ -138,10 +135,15 @@ export class PolyGallery extends IoElement {
           void push();
         }
       });
-    });
-    this.classList.toggle('io-loading', true);
-    // eslint-disable-next-line
-    fetch('./data/assets.csv').then(async response => {
+    })
+    .catch(console.error);
+  }
+  assetsSrcChanged() {
+    fetch(this.assetsSrc)
+    .then(async response => {
+      if (!response.ok) {
+        throw new Error(`${response.url} ${response.status} ${response.statusText}`);
+      }
       const reader = response.body?.getReader();
       let textTail = '';
       const scope = this;
@@ -180,61 +182,20 @@ export class PolyGallery extends IoElement {
           void push();
         }
       });
-    });
-  }
-  connectedCallback() {
-    super.connectedCallback();
-    this.calcSize();
-    this.onScroll();
+    })
+    .catch(console.error);
   }
   onResized() {
-    this.calcSize();
-    this.onScroll();
-  }
-  calcSize() {
-    let size = 128;
-    switch (this.size) {
-      case '32x32':
-        size = 32;
-        break;
-      case '64x64':
-        size = 64;
-        break;
-      case '128x128':
-        size = 128;
-        break;
-      case '256x256':
-        size = 256;
-        break;
-      case '512x512':
-        size = 512;
-        break;
-    }
-    this.powTwoSize = Math.max(32, Math.min(512, nearestPowerOfTwo(size)));
-    this.wrapperHeight = this.clientHeight;
-    this.wrapperWidth = this.clientWidth;
-    this.columnCount = Math.ceil(this.wrapperWidth / size);
-    this.computedSize = (this.wrapperWidth) / this.columnCount;
+    this.throttle(this.changed);
   }
   onScroll() {
-    if (this.scrollTicking) {
-      window.cancelAnimationFrame(this.scrollTicking);
-    }
-    this.scrollTicking = window.requestAnimationFrame(() => {
-      this.currentBase = Math.floor(this.scrollTop / this.computedSize);
-    });
-  }
-  sizeChanged() {
-    this.calcSize();
-    this.onScroll();
+    this.throttle(this.changed);
   }
   typeChanged() {
     this.applyFilter();
   }
   filterChanged() {
     this.applyFilter();
-    // eslint-disable-next-line
-    fetch(`${BLOB_URL}/filter/${this.filter}`);
   }
   applyFilter() {
     const filtered = [];
@@ -270,34 +231,35 @@ export class PolyGallery extends IoElement {
     }
     this.items = filtered;
   }
-  changed() {
-    const listSize = Math.round(this.wrapperHeight / this.computedSize) * this.columnCount + 4 * this.columnCount;
+  changed = () => {
+    const size = sizes[this.size];
+    const powTwoSize = Math.max(32, Math.min(512, nearestPowerOfTwo(size)));
+    const columnCount = Math.ceil(this.clientWidth / size);
 
-    const filteredList = this.items.slice(
-      this.currentBase * this.columnCount,
-      this.currentBase * this.columnCount + listSize
+    const itemSize = (this.clientWidth) / columnCount;
+    const firstIndex = Math.floor(this.scrollTop / itemSize);
+
+    const visibleListSize = Math.round(this.clientHeight / itemSize) * columnCount + 4 * columnCount;
+    const visibleList = this.items.slice(
+      firstIndex * columnCount,
+      firstIndex * columnCount + visibleListSize
     );
 
-    const top = this.currentBase * this.computedSize;
-    const height = this.items.length * this.computedSize / this.columnCount;
+    const top = firstIndex * itemSize;
+    const height = this.items.length * itemSize / columnCount;
 
-    this.style.setProperty('--vs-size', `${this.computedSize}px`);
-    this.style.setProperty('--vs-height', `${height}px`);
-    this.style.setProperty('--vs-top-height', `${top}px`);
+    this.style.setProperty('--polyGalleryCellSize', `${itemSize}px`);
+    this.style.setProperty('--polyGalleryHeight', `${height}px`);
+    this.style.setProperty('--polyGalleryTop', `${top}px`);
 
-    const elements = [];
-    for (let i = 0; i < filteredList.length; i++) {
-      elements.push(['poly-thumbnail', {
-        guid: filteredList[i],
-        thumbnails: this.thumbnails,
-        size: this.powTwoSize
-      }]);
-    }
     this.template([
       ['div', {className: 'height-padding'}],
       ['div', {className: 'top-padding'}],
-      ...elements,
-      ['div', {className: 'bottom-padding'}],
+      ...visibleList.map((item: string) => ['poly-thumbnail', {
+        guid: item,
+        thumbnails: this.thumbnails,
+        size: powTwoSize
+      }]),
     ]);
-  }
+  };
 }

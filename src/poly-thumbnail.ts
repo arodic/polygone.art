@@ -1,4 +1,4 @@
-import {IoElement, RegisterIoElement, Property} from 'io-gui';
+import { IoElement, RegisterIoElement, Property } from 'io-gui';
 
 const cachedId: string[] = [];
 const queue: Record<string, PolyThumbnail>[] = [];
@@ -16,24 +16,21 @@ setInterval(() => {
 export class PolyThumbnail extends IoElement {
   static get Style() {
     return /* css */`
-    :host {
-      border: 1px solid black;
-      box-sizing: border-box;
-      display: inline-block;
-      float: left;
-      color: rgba(0, 0, 0, 0.1);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-    :host div {
-      white-space: nowrap;
-      width: 100%;
-      height: 100%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+      :host {
+        box-sizing: border-box;
+        display: inline-block;
+        float: left;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      :host div {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
     `;
   }
 

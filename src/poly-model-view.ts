@@ -13,27 +13,28 @@ export class PolyModelView extends IoElement {
       display: flex;
       flex-direction: column;
       flex: 1 1 auto;
-      padding: var(--io-spacing);
+      padding: var(--iotSpacing4) var(--iotLineHeight);
       line-height: 1.4em;
       max-width: 512px;
+      color: var(--iotColor);
     }
     :host model-viewer {
       width: 100%;
-      height: var(--viewer-height);
+      height: var(--polyViewerHeight);
     }
     :host .info {
-      background: var(--io-background-color-dark);
-      padding: var(--io-spacing);
+      background: var(--iotBackgroundColorStrong);
+      padding: var(--iotSpacing);
       margin: 0;
     }
     :host .description {
-      padding: var(--io-spacing) 0;
+      padding: var(--iotSpacing) 0;
     }
     :host .license {
-      border-top: var(--io-border);
-      border-bottom: var(--io-border);
-      padding: var(--io-spacing) 0;
-      margin-bottom: var(--io-spacing);
+      border-top: var(--iotBorder);
+      border-bottom: var(--iotBorder);
+      padding: var(--iotSpacing) 0;
+      margin-bottom: var(--iotSpacing);
     }
     :host .info :last-child {
       float: right;
@@ -60,15 +61,12 @@ export class PolyModelView extends IoElement {
   @Property({reactive: true})
   declare assetInfo: any;
 
-  constructor() {
-    super();
-    this.guidChanged();
-  }
   onResized() {
     const height = Math.min(this.clientWidth, 512) / 1.333;
-    this.style.setProperty('--viewer-height', `${height}px`);
+    this.style.setProperty('--polyViewerHeight', `${height}px`);
   }
   guidChanged() {
+    console.log('guid changed', this.guid);
     if (chachedAssets[this.guid]) {
       this.assetInfo = chachedAssets[this.guid];
       this.changed();
@@ -78,14 +76,16 @@ export class PolyModelView extends IoElement {
         chachedAssets[this.guid] = this.assetInfo;
         this.changed();
       });
+      fetch(`${BLOB_URL}/guid/${this.guid}`);
+    } else {
+      this.assetInfo = null;
     }
-    fetch(`${BLOB_URL}/guid/${this.guid}`);
   }
   assetInfoChanged() {
-    this.assetInfo = this.assetInfo || {
-      tags: [],
-      formats: [],
-    };
+    if (!this.assetInfo) {
+      this.template([]);
+      return;
+    }
 
     const gltf2model = this.assetInfo.formats.find((format: any) => format.formatType === 'GLTF2');
     const fltf2Root = gltf2model?.root?.relativePath;
