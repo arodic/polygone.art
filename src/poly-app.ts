@@ -26,13 +26,13 @@ const TYPE_OPTIONS = new MenuOptions([
   '3D Mesh'
 ], {path: $TYPE} as any);
 
-const $SIZE = $({key: 'size', storage: 'hash', value: 'Medium'});
+const $SIZE = $({key: 'size', storage: 'hash', value: '128x128'});
 const SIZE_OPTIONS = new MenuOptions([
-  {label: 'X-Small', value: '32x32'},
-  {label: 'Small', value: '64x64'},
-  {label: 'Medium', value: '128x128'},
-  {label: 'Large', value: '256x256'},
-  {label: 'X-Large', value: '512x512'}
+  '32x32',
+  '64x64',
+  '128x128',
+  '256x256',
+  '512x512'
 ], {first: $SIZE} as any);
 
 const $FILTER = $({key: 'filter', storage: 'hash', value: ''});
