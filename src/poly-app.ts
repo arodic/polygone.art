@@ -35,7 +35,7 @@ const SIZE_OPTIONS = new MenuOptions([
   '512x512'
 ], {first: $SIZE} as any);
 
-const $FILTER = $({key: 'filter', storage: 'hash', value: ''});
+const $FILTER = $({key: 'filter', storage: 'local', value: ''});
 const FILTER_OPTIONS = new MenuOptions([
   {label: 'all', value: ''},
   'animals', 'architecture', 'art', 'culture', 'food', 'history', 'nature',

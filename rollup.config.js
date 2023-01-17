@@ -17,8 +17,8 @@ function makeBundleTarget(src, target) {
       })
     ],
     treeshake: true,
-    inlineDynamicImports: true,
     output: [{
+      inlineDynamicImports: true,
       format: 'es',
       file: target,
       indent: '  '

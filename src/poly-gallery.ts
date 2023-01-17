@@ -154,7 +154,7 @@ export class PolyGallery extends IoElement {
               const valueStr = utf8decoder.decode(value);
               if (done) {
                 controller.close();
-                scope.applyFilter();
+                scope._applyFilter();
                 return;
               }
               const rows = (textTail + valueStr).split('\n');
@@ -172,7 +172,7 @@ export class PolyGallery extends IoElement {
                 }
               }
               if (!scope.assetLoaderTimeout) scope.assetLoaderTimeout = setTimeout(() => {
-                scope.applyFilter();
+                scope._applyFilter();
                 scope.assetLoaderTimeout = null;
                 scope.classList.toggle('io-loading', false);
               }, 100);
@@ -192,12 +192,12 @@ export class PolyGallery extends IoElement {
     this.throttle(this.changed);
   }
   typeChanged() {
-    this.applyFilter();
+    this._applyFilter();
   }
   filterChanged() {
-    this.applyFilter();
+    this.throttle(this._applyFilter, undefined, 1000);
   }
-  applyFilter() {
+  _applyFilter() {
     const filtered = [];
     const indexOf = (item: any, filter: any) => {
       if (item instanceof Array) return item.findIndex(item => filter.toLowerCase() === item.toLowerCase());

@@ -6,8 +6,10 @@ const queue: Record<string, PolyThumbnail>[] = [];
 setInterval(() => {
   if (queue.length) {
     const i = Math.floor(Math.random() * queue.length);
-    queue[i].$.image.style.setProperty('background-image', `url("./assets/${queue[i].guid}/thumbnail-${queue[i].size}.jpg")`);
-    cachedId.push((queue[i] as PolyThumbnail).guid);
+    if (!queue[i]._disposed) {
+      queue[i].$.image.style.setProperty('background-image', `url("./assets/${queue[i].guid}/thumbnail-${queue[i].size}.jpg")`);
+      cachedId.push((queue[i] as PolyThumbnail).guid);
+    }
     queue.splice(i, 1);
   }
 }, 1);
