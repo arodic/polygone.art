@@ -9,11 +9,7 @@ This content is published under a [CC-BY License]. You're free to use this as lo
 
 This website does not use cookies, it is open-source, made with [io-gui] and hosted on [github](https://github.com/arodic/polygone.art).
 
-You can download the [entire archive of models here](https://blob.polygone.art/assets.zip) (725 GB zipped).
-
-Alternatively you can [download the archive using torrent](https://blob.polygone.art/torrent/polygone.torrent) but please be patient, the download will take some time to start.
-
-Please consider seeding the torrent to help others download.
+You can [download the archive using torrent](https://blob.polygone.art/torrent/polygone.torrent).
 
 [CC-BY License]: https://creativecommons.org/licenses/by/4.0/
 [Google Poly]: https://support.google.com/poly/answer/10192635
