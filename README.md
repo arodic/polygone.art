@@ -29,6 +29,10 @@ Alternatively you can download the split archive
 [z15](https://blob.polygone.art/torrent/polygone/polygone-split.z15)
 [zip](https://blob.polygone.art/torrent/polygone/polygone-split.zip)
 
+You can also download the compressed assets and data directory
+[assets.zip](https://blob.polygone.art/torrent/assets.zip)
+[data.zip](https://blob.polygone.art/torrent/data.zip)
+
 
 [CC-BY License]: https://creativecommons.org/licenses/by/4.0/
 [Google Poly]: https://support.google.com/poly/answer/10192635

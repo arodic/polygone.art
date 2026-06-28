@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-this-alias */
-import { createVDOMElement, div, Property, ReactiveElement, ReactiveElementProps, Register, WithBinding } from '@io-gui/core'
-import './poly-thumbnail.js'
+import { div, Property, ReactiveElement, ReactiveElementProps, Register, WithBinding } from '@io-gui/core'
+import { polyThumbnail } from './poly-thumbnail.js'
 
 type PolyGalleryProps = ReactiveElementProps & {
   size: WithBinding<string>
@@ -272,7 +272,7 @@ export class PolyGallery extends ReactiveElement {
     this.render([
       div({ class: 'height-padding' }),
       div({ class: 'top-padding' }),
-      ...visibleList.map((item: string) => createVDOMElement('poly-thumbnail', {
+      ...visibleList.map((item: string) => polyThumbnail({
         guid: item,
         thumbnails: this.thumbnails,
         size: powTwoSize,
