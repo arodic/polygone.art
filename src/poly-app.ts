@@ -1,4 +1,4 @@
-import { div, Property, Register, Storage as $, VDOMElement } from '@io-gui/core'
+import { div, Property, Register, Storage as $, VDOMElement, DispatchTiming } from '@io-gui/core'
 import { ioString } from '@io-gui/inputs'
 import { ioMarkdown } from '@io-gui/markdown'
 import { ioMenuItem, MenuOption, ioOptionSelect } from '@io-gui/menus'
@@ -122,6 +122,9 @@ export class PolyApp extends IoNavigator {
   @Property('proactive')
   declare caching: CachingType
 
+  @Property({value: 'debounced'})
+  declare dispatchTiming: DispatchTiming
+
   @Property({
     value: [
       ioMarkdown({ id: 'about', src: './README.md' }),
@@ -164,14 +167,21 @@ export class PolyApp extends IoNavigator {
     this.mutated()
   }
 
+  optionMutated() {
+    super.optionMutated()
+    this.debounce(this.optionMutatedDebounced)
+  }
+
   override mutated() {
     super.mutated()
-    const ref = (document.referrer && document.referrer !== 'https://polygone.art/') ? `?ref=${document.referrer}` : ''
-    fetch(`${BLOB_URL}/page/${$PAGE.value}${ref}`).catch(console.error)
-
     if ($PAGE.value !== 'model') {
       $GUID.value = ''
     }
+  }
+
+  optionMutatedDebounced() {
+    const ref = (document.referrer && document.referrer !== 'https://polygone.art/') ? `?ref=${document.referrer}` : ''
+    fetch(`${BLOB_URL}/page/${$PAGE.value}${ref}`).catch(console.error)
   }
 
   onThumbnailClicked(event: CustomEvent<string>) {
