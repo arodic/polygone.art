@@ -80,6 +80,13 @@
       import { PolyApp } from "./dist/index.js"
       document.body.appendChild(new PolyApp())
     </script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/service-worker.js').catch(console.error)
+        })
+      }
+    </script>
     <noscript>JavaScript is required to view this page!</noscript>
   </body>
 </html>
