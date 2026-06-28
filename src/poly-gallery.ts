@@ -251,7 +251,8 @@ export class PolyGallery extends ReactiveElement {
     const columnCount = Math.max(1, Math.ceil(this.clientWidth / size))
 
     const itemSize = this.clientWidth / columnCount - 1 / columnCount
-    const firstIndex = Math.floor(this.scrollTop / itemSize)
+    const scrollTop = Math.max(0, this.scrollTop)
+    const firstIndex = Math.max(0, Math.floor(scrollTop / itemSize))
 
     const visibleListSize = Math.round(this.clientHeight / itemSize) * columnCount + 4 * columnCount
     const visibleList = this.items.slice(
