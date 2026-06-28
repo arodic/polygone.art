@@ -8,9 +8,6 @@ type PolyGalleryProps = ReactiveElementProps & {
   filter: WithBinding<string>
   assetsSrc: string
   thumbsSrc: string
-  // assets: Record<string, { authorId: string; name: string; tags: string[] }>
-  // items: string[]
-  // thumbnails: Record<string, string>
 }
 
 function nearestPowerOfTwo(size: number){
