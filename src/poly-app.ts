@@ -29,18 +29,18 @@ const TYPE_OPTION = new MenuOption({
   ],
 })
 
-const $SIZE = $({ key: 'size', storage: 'hash', value: '32' })
-// const SIZE_OPTION = new MenuOption({
-//   icon: 'poly:grid',
-//   selectedID: $SIZE,
-//   options: [
-//     {id: '32', label: '32x32'},
-//     {id: '64', label: '64x64'},
-//     {id: '128', label: '128x128'},
-//     {id: '256', label: '256x256'},
-//     {id: '512', label: '512x512'},
-//   ],
-// })
+const $SIZE = $({ key: 'size', storage: 'hash', value: '128' })
+const SIZE_OPTION = new MenuOption({
+  icon: 'poly:grid',
+  selectedID: $SIZE,
+  options: [
+    {id: '32', label: '32x32'},
+    {id: '64', label: '64x64'},
+    {id: '128', label: '128x128'},
+    {id: '256', label: '256x256'},
+    {id: '512', label: '512x512'},
+  ],
+})
 
 const $FILTER = $({ key: 'filter', storage: 'hash', value: '' })
 const FILTER_OPTION = new MenuOption({
@@ -130,7 +130,7 @@ export class PolyApp extends IoNavigator {
           ioOptionSelect({ option: TYPE_OPTION, value: $TYPE }),
           ioString({ class: 'filterInput', value: $FILTER, live: true }),
           ioMenuItem({ direction: 'down', option: FILTER_OPTION }),
-          // ioMenuItem({ direction: 'down', option: SIZE_OPTION }),
+          ioMenuItem({ direction: 'down', option: SIZE_OPTION }),
         ]),
         polyGallery({
           assetsSrc: `${BLOB_URL}/data/assets.csv`,
