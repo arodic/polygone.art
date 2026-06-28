@@ -1,0 +1,45 @@
+{
+  "name": "polygone.art",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "packageManager": "pnpm@10.26.1",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "sideEffects": [
+    "**/src/index.ts",
+    "**/src/index.js",
+    "**/src/poly-app.ts",
+    "**/src/poly-app.js",
+    "**/poly-icons.ts",
+    "**/poly-icons.js"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "pnpm clean && tsc",
+    "bundle": "pnpm lint && pnpm build && node bundle.js",
+    "lint": "eslint . --fix",
+    "clean": "rm -rf dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@io-gui/core": "2.0.0-alpha.3",
+    "@io-gui/icons": "2.0.0-alpha.3",
+    "@io-gui/inputs": "2.0.0-alpha.3",
+    "@io-gui/markdown": "2.0.0-alpha.3",
+    "@io-gui/menus": "2.0.0-alpha.3",
+    "@io-gui/navigation": "2.0.0-alpha.3",
+    "@rollup/plugin-strip": "^3.0.4",
+    "@stylistic/eslint-plugin": "^5.6.1",
+    "@types/node": "^25.0.3",
+    "eslint": "9.39.2",
+    "terser": "^5.44.1",
+    "tslib": "^2.8.1",
+    "typescript": "5.9.3",
+    "typescript-eslint": "8.50.0",
+    "vite": "^7.3.0"
+  }
+}
