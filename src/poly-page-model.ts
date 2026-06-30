@@ -1,17 +1,34 @@
  
-import { createVDOMElement, div, h4, li, Property, ReactiveElement, ReactiveElementProps, Register, span, ul, a, WithBinding } from '@io-gui/core'
+import { div, h4, li, Property, ReactiveElement, ReactiveElementProps, Register, span, ul, a, WithBinding, Color } from '@io-gui/core'
 import { polyLink } from './poly-link.js'
+// import { polyViewer } from './poly-viewer.js'
 import { BLOB_URL } from './constants.js'
+import type { AssetInfo } from './types/AssetInfo'
 
-type AssetInfo = Record<string, any>
+import { IoThreeViewport, ioThreeViewport, ThreeApplet } from '@io-gui/three';
+import { AmbientLight, Scene } from 'three/webgpu';
+import { gltfLoader } from './utils/loaders';
+
+// const cachedAssets: Record<string, AssetInfo> = {}
+
+const applet = new ThreeApplet({
+  scene: new Scene(),
+  // isPlaying: true
+});
+applet.scene.add(new AmbientLight(0xffffff, 1))
+
+type PolyViewerProps = ReactiveElementProps & {
+  guid: WithBinding<string>
+}
+
 const cachedAssets: Record<string, AssetInfo> = {}
 
-type PolyPageModelViewProps = ReactiveElementProps & {
+type PolyPageModelProps = ReactiveElementProps & {
   guid: WithBinding<string>
 }
 
 @Register
-export class PolyPageModelView extends ReactiveElement {
+export class PolyPageModel extends ReactiveElement {
   static override get Style() {
     return /* css */`
     :host {
@@ -23,7 +40,7 @@ export class PolyPageModelView extends ReactiveElement {
       max-width: 512px;
       color: var(--io_color);
     }
-    :host model-viewer {
+    :host poly-viewer {
       width: 100%;
       height: var(--polyViewerHeight);
     }
@@ -57,10 +74,6 @@ export class PolyPageModelView extends ReactiveElement {
     :host .tags > li {
       display: inline-block;
       margin-right: 0.5em;
-    }
-    :host .downloads > li > a {
-      text-decoration: none;
-      color: var(--io_colorBlue);
     }
     `
   }
@@ -100,23 +113,9 @@ export class PolyPageModelView extends ReactiveElement {
       return
     }
 
-    const gltf2model = this.assetInfo.formats.find((format: any) => format.formatType === 'GLTF2')
-    const fltf2Root = gltf2model?.root?.relativePath
-    const modelViewer = createVDOMElement('model-viewer', {
-      id: 'reveal',
-      poster: `${BLOB_URL}/assets/${this.guid}/thumbnail.jpg`,
-      alt: this.assetInfo.description || this.assetInfo.name,
-      environmentImage: 'neutral',
-      autoRotate: true,
-      cameraControls: true,
-      src: fltf2Root ? `${BLOB_URL}/assets/${this.guid}/GLTF2/${fltf2Root}` : '',
-      style: {
-        'background-color': this.assetInfo?.presentationParams?.backgroundColor || '#000000',
-      },
-    }, [])
-
     this.render([
-      modelViewer,
+      // polyViewer({ guid: this.guid }),
+      ioThreeViewport({id: 'viewport', applet: applet}),
       div({ class: 'info' }, [
         span(`${this.assetInfo.name} by `),
         polyLink({ value: this.assetInfo.authorId, label: this.assetInfo.authorName }),
@@ -135,20 +134,38 @@ export class PolyPageModelView extends ReactiveElement {
         ])
       )),
       h4('Downloads:'),
-      ul({ class: 'downloads' }, this.assetInfo.formats.map((format: any) => {
-        let link = `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip`
-        if (format.formatType === 'GLB') {
-          link = `${BLOB_URL}/assets/${this.guid}/GLB/${format.root.relativePath}`
-        }
-        return li([
-          a({ href: link }, `${format.formatType} ⇩`),
+      ul({ class: 'downloads' }, this.assetInfo.formats.map(format =>
+        li([
+          a({ href: `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip` }, `${format.formatType} ⇩`),
         ])
-      }
       )),
     ])
+
+    const viewport = (this.$['viewport'] as IoThreeViewport)
+
+    // TODO: Clear scene
+    if (this.guid) {
+      fetch(`${BLOB_URL}/assets/${this.guid}/data.json`).then(async response => {
+        const assetInfo = await response.json() as AssetInfo
+
+        const bgColor = assetInfo?.presentationParams?.backgroundColor || '#000000'
+
+        viewport.clearColor = Number(bgColor.replace('#', '0x'))
+
+        const gltf2model = assetInfo.formats.find(format => format.formatType === 'GLTF2')
+        const fltf2Root = gltf2model?.root?.relativePath
+
+        gltfLoader.load(`${BLOB_URL}/assets/${this.guid}/GLTF2/${fltf2Root}`, (gltf) => {
+          applet.scene.add(gltf.scene)
+          viewport.viewCameras.frameObjectAll(gltf.scene)
+          // TODO: Design a better API for this
+          applet.dispatch('three-applet-needs-render', undefined, true)
+        })
+      })
+    }
   }
 }
 
-export const polyPageModelView = function(props: PolyPageModelViewProps) {
-  return PolyPageModelView.vConstructor(props)
+export const polyPageModel = function(props: PolyPageModelProps) {
+  return PolyPageModel.vConstructor(props)
 }

@@ -13,6 +13,7 @@ export default defineConfig({
       '@io-gui/menus': fileURLToPath(new URL('./node_modules/@io-gui/menus/dist/index.js', import.meta.url)),
       '@io-gui/navigation': fileURLToPath(new URL('./node_modules/@io-gui/navigation/dist/index.js', import.meta.url)),
     },
+    dedupe: ['three'],
   },
   server: { port: 3000 },
   build: { target: 'esnext' },

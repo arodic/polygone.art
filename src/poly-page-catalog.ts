@@ -50,10 +50,10 @@ const FILTER_OPTION = new Menu({
   ],
 })
 
-type PolyPageGalleryProps = ReactiveElementProps & {}
+type PolyPageCatalogProps = ReactiveElementProps & {}
 
 @Register
-export class PolyPageGallery extends ReactiveElement {
+export class PolyPageCatalog extends ReactiveElement {
   static override get Style() {
     return /* css */`
       :host {
@@ -136,6 +136,6 @@ export class PolyPageGallery extends ReactiveElement {
   }
 }
 
-export const polyPageGallery = function(props: PolyPageGalleryProps) {
-  return PolyPageGallery.vConstructor(props)
+export const polyPageCatalog = function(props: PolyPageCatalogProps) {
+  return PolyPageCatalog.vConstructor(props)
 }
