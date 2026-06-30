@@ -1,11 +1,11 @@
  
-import { div, Property, ReactiveElement, ReactiveElementProps, Register, Storage as $ } from '@io-gui/core'
+import { div, Property, ReactiveElement, ReactiveElementProps, Register } from '@io-gui/core'
 import { ioButton, ioString } from '@io-gui/inputs'
 import { ioMenuItem, ioOptionSelect, MenuOption } from '@io-gui/menus'
 import { polyCatalog } from './poly-catalog'
 import { BLOB_URL } from './constants'
+import { $SIZE, $TYPE, $FILTER } from './routing'
 
-const $TYPE = $({ key: 'type', storage: 'hash', value: 'all' })
 const TYPE_OPTION = new MenuOption({
   options: [
     {id: 'all', label: 'All Models'},
@@ -14,7 +14,6 @@ const TYPE_OPTION = new MenuOption({
   ],
 })
 
-const $SIZE = $({ key: 'size', storage: 'hash', value: '128' })
 const SIZE_OPTION = new MenuOption({
   icon: 'poly:grid',
   selectedID: $SIZE,
@@ -27,7 +26,6 @@ const SIZE_OPTION = new MenuOption({
   ],
 })
 
-const $FILTER = $({ key: 'filter', storage: 'hash', value: '' })
 const FILTER_OPTION = new MenuOption({
   id: 'root',
   label: '',

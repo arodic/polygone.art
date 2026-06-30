@@ -6,9 +6,10 @@ import { polyPageGallery } from './poly-page-gallery.js'
 import { polyPageModelView } from './poly-page-model-view.js'
 import { polyPageArtistList } from './poly-page-artist-list.js'
 import './poly-icons.js'
-import { BLOB_URL } from './constants.js'
 
-const $PAGE = $({ key: 'page', storage: 'hash', value: 'about' })
+import { BLOB_URL } from './constants.js'
+import { $FILTER, $PAGE } from './routing.js'
+
 const PAGE_OPTION = new MenuOption({
   selectedID: $PAGE,
   options: [
@@ -60,7 +61,7 @@ export class PolyApp extends IoNavigator {
     return {
       ...super.Listeners,
       'thumbnail-clicked': 'onThumbnailClicked',
-      // 'poly-link-clicked': 'onFilterClicked',
+      'poly-link-clicked': 'onFilterClicked',
     }
   }
 
@@ -90,12 +91,10 @@ export class PolyApp extends IoNavigator {
     $GUID.value = event.detail
   }
 
-  // onFilterClicked(event: CustomEvent<string>) {
-  //   console.log(event.detail)
-  //   $TYPE.value = 'all'
-  //   $PAGE.value = 'catalog'
-  //   $FILTER.value = event.detail
-  // }
+  onFilterClicked(event: CustomEvent<string>) {
+    $PAGE.value = 'catalog'
+    $FILTER.value = event.detail
+  }
 }
 
 export const polyApp = function(props?: IoNavigatorProps) {
