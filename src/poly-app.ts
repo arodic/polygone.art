@@ -2,9 +2,9 @@ import { Property, Register, Storage as $, VDOMElement, DispatchTiming } from '@
 import { ioMarkdown } from '@io-gui/markdown'
 import { MenuOption } from '@io-gui/menus'
 import { CachingType, IoNavigator, IoNavigatorProps, MenuPosition, SelectType } from '@io-gui/navigation'
-import { polyPageGallery } from './poly-page-gallery.js'
-import { polyPageModelView } from './poly-page-model-view.js'
-import { polyPageArtistList } from './poly-page-artist-list.js'
+import { polyPageCatalog } from './poly-page-catalog.js'
+import { polyPageModel } from './poly-page-model.js'
+import { polyPageArtists } from './poly-page-artists.js'
 import './poly-icons.js'
 
 import { BLOB_URL } from './constants.js'
@@ -50,9 +50,9 @@ export class PolyApp extends IoNavigator {
   @Property({
     value: [
       ioMarkdown({ id: 'about', src: './README.md' }),
-      polyPageGallery({ id: 'catalog' }),
-      polyPageModelView({ id: 'model', guid: $GUID }),
-      polyPageArtistList({ id: 'artists', src: `${BLOB_URL}/data/artists.csv` }),
+      polyPageCatalog({ id: 'catalog' }),
+      polyPageModel({ id: 'model', guid: $GUID }),
+      polyPageArtists({ id: 'artists', src: `${BLOB_URL}/data/artists.csv` }),
     ],
   })
   declare elements: VDOMElement[]
