@@ -15,11 +15,11 @@ When using any model, attribute the named author. When reusing the code, follow 
 
 - An archive (not the original service). Google Poly was shut down by Google; these assets were salvaged before the shutdown. Background: https://support.google.com/poly/answer/10192635 and https://killedbygoogle.com/.
 - A static frontend (`index.html` + compiled `dist/index.js`) that fetches all data at runtime from the blob host. There is no application backend or database in this repo; the repo is the viewer, the data lives at `https://blob.polygone.art`.
-- Privacy-respecting: no cookies. The app does fire lightweight `fetch` "pings" to the blob host for page/asset view counts (see `src/poly-app.ts` and `src/poly-model-view.ts`), but stores nothing in the browser beyond URL-hash state (current page, filter, grid size).
+- Privacy-respecting: no cookies. The app does fire lightweight `fetch` "pings" to the blob host for page/asset view counts, but stores nothing in the browser beyond URL-hash state (current page, filter, grid size).
 
 ## Data model and endpoints
 
-All data is served from the blob host. In the code this base URL is `BLOB_URL = 'https://blob.polygone.art'` (`src/poly-app.ts`). Assets are identified by an opaque `guid` string (the original Google Poly asset ID).
+All data is served from the blob host. In the code this base URL is `BLOB_URL = 'https://blob.polygone.art'`. Assets are identified by an opaque `guid` string (the original Google Poly asset ID).
 
 ### Catalog: `https://blob.polygone.art/data/assets.csv`
 A headerless, streamed CSV. Each row describes one asset:
@@ -30,20 +30,8 @@ A headerless, streamed CSV. Each row describes one asset:
 - Columns 3+: zero or more free-form `tags`
 A model is considered a **Tilt Brush** painting if its tags include `tilt`; otherwise it is treated as a **3D mesh**.
 
-### Inline thumbnails: `https://blob.polygone.art/data/thumbs.csv`
-A headerless, streamed CSV of tiny preview thumbnails used for the grid: `guid,base64jpeg`. The base64 string omits a shared JPEG header that the app re-prepends at runtime (see `jpegHeaderData` in `src/poly-gallery.ts`); it is not a complete standalone JPEG on its own.
-
-### Artists: `https://blob.polygone.art/data/artists.csv`
-A headerless CSV mapping each author to their work: `authorId,authorName,assetGuid1,assetGuid2,...`.
-
 ### Per-asset metadata: `https://blob.polygone.art/assets/{guid}/data.json`
-Full JSON record for a single asset. Fields used by the viewer (`src/poly-model-view.ts`) include:
-- `name`, `description`
-- `authorId`, `authorName` (use these for CC-BY attribution)
-- `createTime` (timestamp)
-- `tags` (array of strings)
-- `presentationParams.backgroundColor` (suggested viewer background)
-- `formats`: array of available export formats. Each entry has a `formatType` (e.g. `GLTF2`, `OBJ`, `FBX`, `TILT`) and a `root.relativePath` pointing at the entry file. The web viewer renders the `GLTF2` format.
+Full JSON record for a single asset.
 
 ### Asset files and thumbnails
 - Rendered model file: `https://blob.polygone.art/assets/{guid}/GLTF2/{root.relativePath}`
@@ -59,7 +47,6 @@ Full JSON record for a single asset. Fields used by the viewer (`src/poly-model-
 For mirroring or offline/research use, prefer the torrent over hammering the blob host:
 - Torrent: https://blob.polygone.art/torrent/polygone.torrent
 - Split archive parts: https://blob.polygone.art/torrent/polygone/polygone-split.z01 ... `.z15` plus https://blob.polygone.art/torrent/polygone/polygone-split.zip
-- Compressed assets and data directories: https://blob.polygone.art/torrent/assets.zip and https://blob.polygone.art/torrent/data.zip
 
 ## Notes for automated agents
 
