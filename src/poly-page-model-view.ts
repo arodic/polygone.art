@@ -1,17 +1,17 @@
  
 import { createVDOMElement, div, h4, li, Property, ReactiveElement, ReactiveElementProps, Register, span, ul, a, WithBinding } from '@io-gui/core'
-import { BLOB_URL } from './poly-app.js'
 import { polyLink } from './poly-link.js'
+import { BLOB_URL } from './constants.js'
 
 type AssetInfo = Record<string, any>
 const cachedAssets: Record<string, AssetInfo> = {}
 
-type PolyModelViewProps = ReactiveElementProps & {
+type PolyPageModelViewProps = ReactiveElementProps & {
   guid: WithBinding<string>
 }
 
 @Register
-export class PolyModelView extends ReactiveElement {
+export class PolyPageModelView extends ReactiveElement {
   static override get Style() {
     return /* css */`
     :host {
@@ -140,6 +140,6 @@ export class PolyModelView extends ReactiveElement {
   }
 }
 
-export const polyModelView = function(props: PolyModelViewProps) {
-  return PolyModelView.vConstructor(props)
+export const polyPageModelView = function(props: PolyPageModelViewProps) {
+  return PolyPageModelView.vConstructor(props)
 }

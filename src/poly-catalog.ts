@@ -2,7 +2,7 @@
 import { div, Property, ReactiveElement, ReactiveElementProps, Register, WithBinding } from '@io-gui/core'
 import { polyThumbnail } from './poly-thumbnail.js'
 
-type PolyGalleryProps = ReactiveElementProps & {
+type PolyCatalogProps = ReactiveElementProps & {
   size: WithBinding<string>
   type: WithBinding<string>
   filter: WithBinding<string>
@@ -18,60 +18,59 @@ const jpegHeaderData = '/9j/2wBDAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQ
 const utf8decoder = new TextDecoder()
 
 @Register
-export class PolyGallery extends ReactiveElement {
+export class PolyCatalog extends ReactiveElement {
   static override get Style() {
     return /* css */`
-    :host {
-      display: block;
-      overflow-y: scroll;
-      height: 100%;
-      width: 100%;
-      position: relative;
+      :host {
+        display: block;
+        overflow-y: scroll;
+        height: 100%;
+        width: 100%;
+        position: relative;
+      }
+      :host > .height-padding {
+        display: block;
+        width: 1px;
+        height: var(--polyCatalogHeight);
+        position: absolute;
+      }
+      :host > .top-padding {
+        display: block;
+        height: var(--polyCatalogTop);
+      }
 
-    }
-    :host > .height-padding {
-      display: block;
-      width: 1px;
-      height: var(--polyGalleryHeight);
-      position: absolute;
-    }
-    :host > .top-padding {
-      display: block;
-      height: var(--polyGalleryTop);
-    }
-
-    :host > poly-thumbnail {
-      width: calc(var(--polyGalleryCellSize) - 0px);
-      height: calc(var(--polyGalleryCellSize) - 0px);
-      cursor: pointer;
-    }
-    :host > poly-thumbnail:hover {
-      border-color: white;
-      opacity: 0.75;
-    }
-    @keyframes spinner {
-      to {transform: rotate(360deg);}
-    }
-    :host .io-loading {
-      background-image: repeating-linear-gradient(135deg, var(--io_bgColorLight), var(--io_bgColor) 3px, var(--io_bgColor) 7px, var(--io_bgColorLight) 10px) !important;
-      background-repeat: repeat;
-      position: relative;
-    }
-    :host .io-loading:after {
-      content: '';
-      box-sizing: border-box;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 40px;
-      height: 40px;
-      margin-top: -20px;
-      margin-left: -20px;
-      border-radius: 50%;
-      border: var(--io_border);
-      border-top-color: #000;
-      animation: spinner .6s linear infinite;
-    }
+      :host > poly-thumbnail {
+        width: calc(var(--polyCatalogCellSize) - 0px);
+        height: calc(var(--polyCatalogCellSize) - 0px);
+        cursor: pointer;
+      }
+      :host > poly-thumbnail:hover {
+        border-color: white;
+        opacity: 0.75;
+      }
+      @keyframes spinner {
+        to {transform: rotate(360deg);}
+      }
+      :host .io-loading {
+        background-image: repeating-linear-gradient(135deg, var(--io_bgColorLight), var(--io_bgColor) 3px, var(--io_bgColor) 7px, var(--io_bgColorLight) 10px) !important;
+        background-repeat: repeat;
+        position: relative;
+      }
+      :host .io-loading:after {
+        content: '';
+        box-sizing: border-box;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 40px;
+        height: 40px;
+        margin-top: -20px;
+        margin-left: -20px;
+        border-radius: 50%;
+        border: var(--io_border);
+        border-top-color: #000;
+        animation: spinner .6s linear infinite;
+      }
     `
   }
 
@@ -108,6 +107,12 @@ export class PolyGallery extends ReactiveElement {
       scroll: 'onScroll',
     }
   }
+
+  override ready() {
+    this.assetsSrcChanged()
+    this.thumbsSrcChanged()
+  }
+
 
   thumbsSrcChanged() {
     fetch(this.thumbsSrc)
@@ -263,9 +268,9 @@ export class PolyGallery extends ReactiveElement {
     const top = firstIndex * itemSize
     const height = this.items.length * itemSize / columnCount
 
-    this.style.setProperty('--polyGalleryCellSize', `${itemSize}px`)
-    this.style.setProperty('--polyGalleryHeight', `${height}px`)
-    this.style.setProperty('--polyGalleryTop', `${top}px`)
+    this.style.setProperty('--polyCatalogCellSize', `${itemSize}px`)
+    this.style.setProperty('--polyCatalogHeight', `${height}px`)
+    this.style.setProperty('--polyCatalogTop', `${top}px`)
 
     this.render([
       div({ class: 'height-padding' }),
@@ -279,6 +284,6 @@ export class PolyGallery extends ReactiveElement {
   }
 }
 
-export const polyGallery = function(props: PolyGalleryProps) {
-  return PolyGallery.vConstructor(props)
+export const polyCatalog = function(props: PolyCatalogProps) {
+  return PolyCatalog.vConstructor(props)
 }

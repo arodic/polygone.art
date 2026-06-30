@@ -6,12 +6,12 @@ type Artist = {
   assets: string[]
 }
 
-type PolyArtistListProps = ReactiveElementProps & {
+type PolyPageArtistListProps = ReactiveElementProps & {
   src: string
 }
 
 @Register
-export class PolyArtistList extends ReactiveElement {
+export class PolyPageArtistList extends ReactiveElement {
   static override get Style() {
     return /* css */`
       :host {
@@ -136,6 +136,6 @@ export class PolyArtistList extends ReactiveElement {
   }
 }
 
-export const polyArtistList = function(props?: PolyArtistListProps) {
-  return PolyArtistList.vConstructor(props)
+export const polyPageArtistList = function(props?: PolyPageArtistListProps) {
+  return PolyPageArtistList.vConstructor(props)
 }

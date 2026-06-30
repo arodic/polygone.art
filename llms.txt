@@ -33,7 +33,7 @@ A model is considered a **Tilt Brush** painting if its tags include `tilt`; othe
 ### Inline thumbnails: `https://blob.polygone.art/data/thumbs.csv`
 A headerless, streamed CSV of tiny preview thumbnails used for the grid: `guid,base64jpeg`. The base64 string omits a shared JPEG header that the app re-prepends at runtime (see `jpegHeaderData` in `src/poly-gallery.ts`); it is not a complete standalone JPEG on its own.
 
-### Artists: `https://blob.polygone.art/data/users.csv`
+### Artists: `https://blob.polygone.art/data/artists.csv`
 A headerless CSV mapping each author to their work: `authorId,authorName,assetGuid1,assetGuid2,...`.
 
 ### Per-asset metadata: `https://blob.polygone.art/assets/{guid}/data.json`

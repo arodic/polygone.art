@@ -14,7 +14,7 @@ const CACHE = 'polygone-blob-v1'
 const BLOB_HOST = 'blob.polygone.art'
 // Generous cap so the cache can't grow without bound if someone scrolls the whole
 // archive at every thumbnail size. Oldest entries (insertion order) are trimmed first.
-const MAX_ENTRIES = 4000
+const MAX_ENTRIES = 10000
 
 // Everything under /assets/ is immutable (thumbnails, data.json, posters, GLTF models).
 // We intentionally do NOT cache /data/*.csv (those grow as the archive is updated) or

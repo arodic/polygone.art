@@ -1,5 +1,5 @@
 import { div, Property, ReactiveElement, ReactiveElementProps, Register } from '@io-gui/core'
-import { BLOB_URL } from './poly-app.js'
+import { BLOB_URL } from './constants.js'
 
 type PolyThumbnailProps = ReactiveElementProps & {
   guid: string
