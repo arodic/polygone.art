@@ -20,7 +20,7 @@ const MAX_ENTRIES = 1000
 // We intentionally do NOT cache /data/*.csv (those grow as the archive is updated) or
 // /archives/*.zip (large explicit downloads).
 function shouldCache(url) {
-  return url.hostname === BLOB_HOST && url.pathname.startsWith('/assets/')
+  return url.hostname === BLOB_HOST && (url.pathname.startsWith('/assets/') || url.pathname.startsWith('/data/'))
 }
 
 self.addEventListener('install', () => {
