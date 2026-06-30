@@ -10,11 +10,11 @@
  * request at all. This also makes the gallery work offline.
  */
 
-const CACHE = 'polygone-blob-v1'
+const CACHE = 'polygone-blob-v2'
 const BLOB_HOST = 'blob.polygone.art'
 // Generous cap so the cache can't grow without bound if someone scrolls the whole
 // archive at every thumbnail size. Oldest entries (insertion order) are trimmed first.
-const MAX_ENTRIES = 10000
+const MAX_ENTRIES = 1000
 
 // Everything under /assets/ is immutable (thumbnails, data.json, posters, GLTF models).
 // We intentionally do NOT cache /data/*.csv (those grow as the archive is updated) or
@@ -44,6 +44,22 @@ async function trim(cache) {
   }
 }
 
+async function storeInCache(cache, request, response) {
+  try {
+    await trim(cache)
+    await cache.put(request, response)
+  } catch {
+    // QuotaExceededError (common on mobile) must not break the fetch handler.
+    // Trim what we can and retry once; if that still fails, skip caching.
+    try {
+      await trim(cache)
+      await cache.put(request, response)
+    } catch {
+      // Serve the network response without storing it.
+    }
+  }
+}
+
 self.addEventListener('fetch', (event) => {
   const request = event.request
   if (request.method !== 'GET') return
@@ -57,19 +73,18 @@ self.addEventListener('fetch', (event) => {
   if (!shouldCache(url)) return
 
   event.respondWith((async () => {
-    const cache = await caches.open(CACHE)
-
-    const cached = await cache.match(url.href)
-    if (cached) return cached // hit: no network, no 304
-
-    // Miss: fetch once and store. The server sends `Access-Control-Allow-Origin: *`,
-    // so we request in `cors` mode to store a readable (non-opaque) response, which
-    // avoids the large storage-quota padding browsers apply to opaque responses.
     try {
-      const response = await fetch(url.href, { mode: 'cors', credentials: 'omit' })
+      const cache = await caches.open(CACHE)
+
+      const cached = await cache.match(request)
+      if (cached) return cached // hit: no network, no 304
+
+      // Miss: fetch once and store. The server sends `Access-Control-Allow-Origin: *`,
+      // so we request in `cors` mode to store a readable (non-opaque) response, which
+      // avoids the large storage-quota padding browsers apply to opaque responses.
+      const response = await fetch(request.url, { mode: 'cors', credentials: 'omit' })
       if (response.ok) {
-        await cache.put(url.href, response.clone())
-        event.waitUntil(trim(cache))
+        event.waitUntil(storeInCache(cache, request, response.clone()))
       }
       return response
     } catch {
