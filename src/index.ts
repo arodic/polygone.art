@@ -1,1 +1,2 @@
-export * from './poly-app.js'
+export * from './PolyGone.js'
+import './icons.js'
