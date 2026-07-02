@@ -1,5 +1,5 @@
-import { Property, ReactiveObject, Register, WithBinding } from "@io-gui/core"
-import { BLOB_URL } from "../constants"
+import { Property, ReactiveObject, Register, WithBinding } from '@io-gui/core'
+import { BLOB_URL } from '../constants'
 
 // Poly API v1 (revision 20201006) enums and nested types.
 // AssetInfo is the blob.polygone.art data.json shape (Poly Asset + archive fields).

@@ -1,10 +1,10 @@
-import { Property, Register, rt } from "@io-gui/core";
-import { ThreeApplet } from "@io-gui/three";
-import { Color, GridHelper, Mesh, Object3D, WebGPURenderer } from 'three/webgpu';
+import { Property, Register } from '@io-gui/core'
+import { ThreeApplet } from '@io-gui/three'
+import { Color, GridHelper, Mesh, Object3D, WebGPURenderer } from 'three/webgpu'
 import { BLOB_URL } from '../constants.js'
-import { gltfLoader } from '../utils/loaders';
-import { Environment } from '../models/Environment.js';
-import { AssetInfo } from "../models/AssetInfo";
+import { gltfLoader } from '../utils/loaders'
+import { Environment } from '../models/Environment.js'
+import { AssetInfo } from '../models/AssetInfo'
 
 
 @Register
