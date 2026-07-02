@@ -1,8 +1,8 @@
-import { div, h4, Property, Register, ReactiveElement, ReactiveElementProps, span, WithBinding } from "@io-gui/core";
-import { ioButton } from "@io-gui/inputs";
-import { AssetInfo } from "../models/AssetInfo";
-import { polyLink } from "../poly-link";
-import { BLOB_URL } from "../constants";
+import { div, h4, Property, Register, ReactiveElement, ReactiveElementProps, span, WithBinding } from '@io-gui/core'
+import { ioButton } from '@io-gui/inputs'
+import { AssetInfo } from '../models/AssetInfo'
+import { polyLink } from '../poly-link'
+import { BLOB_URL } from '../constants'
 
 type AssetInfoViewProps = ReactiveElementProps & {
   assetInfo: AssetInfo

@@ -1,10 +1,10 @@
  
 import { Property, ReactiveElement, ReactiveElementProps, Register, WithBinding } from '@io-gui/core'
-import { IoSplit, ioSplit, Split } from '@io-gui/layout'
-import { ioThreeViewport } from '@io-gui/three';
+import { ioSplit, Split } from '@io-gui/layout'
+import { ioThreeViewport } from '@io-gui/three'
 import { AssetInfo } from '../models/AssetInfo'
 import { assetInfoView } from '../views/AssetInfoView.js'
-import { ModelViewer } from '../applets/ModelViewer.js';
+import { ModelViewer } from '../applets/ModelViewer.js'
 
 type PageModelProps = ReactiveElementProps & {
   guid: WithBinding<string>
@@ -60,10 +60,8 @@ export class PageModel extends ReactiveElement {
 
   onResized() {
     const rect = this.getBoundingClientRect()
-    const width = rect.width
-    const height = rect.height
-    const aspectRatio = width / height
-    if (aspectRatio > 1) {
+    const aspect = rect.width / rect.height
+    if (aspect > 1) {
       split.orientation = 'horizontal'
     } else {
       split.orientation = 'vertical'

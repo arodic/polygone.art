@@ -44,10 +44,8 @@ export class PageCatalog extends ReactiveElement {
 
   onResized() {
     const rect = this.getBoundingClientRect()
-    const width = rect.width
-    const height = rect.height
-    const aspectRatio = width / height
-    if (aspectRatio > 1) {
+    const aspect = rect.width / rect.height
+    if (aspect > 1) {
       split.orientation = 'horizontal'
     } else {
       split.orientation = 'vertical'
