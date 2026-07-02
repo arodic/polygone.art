@@ -68,16 +68,13 @@
         width: 100%;
         height: 100%;
       }
-      poly-app {
-        height: 100%;
-      }
     </style>
   </head>
   <body>
     <script type="module" src="./index.js"></script>
     <script type="module">
-      import { PolyApp } from "./dist/index.js"
-      document.body.appendChild(new PolyApp())
+      import { PolyGone } from "./dist/index.js"
+      document.body.appendChild(new PolyGone())
     </script>
     <script>
       if ('serviceWorker' in navigator) {
