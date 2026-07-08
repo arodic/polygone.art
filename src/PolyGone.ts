@@ -1,5 +1,5 @@
 import { Property, Register, VDOMElement } from '@io-gui/core'
-import { MenuOption } from '@io-gui/menus'
+import { Menu } from '@io-gui/menus'
 import { CachingType, IoNavigator, IoNavigatorProps, MenuPosition } from '@io-gui/navigation'
 
 import { pageArtists } from './pages/PageArtists.js'
@@ -10,7 +10,7 @@ import { pageModel } from './pages/PageModel.js'
 import { BLOB_URL } from './constants.js'
 import { $FILTER, $GUID, $PAGE } from './routing.js'
 
-const PAGE_OPTION = new MenuOption({
+const PAGE_OPTION = new Menu({
   selectedID: $PAGE,
   options: [
     { id: 'catalog', label: 'Polygone Catalog' },
@@ -34,7 +34,7 @@ export class PolyGone extends IoNavigator {
   declare menu: MenuPosition
 
   @Property({ value: PAGE_OPTION })
-  declare option: MenuOption
+  declare model: Menu
 
   @Property('proactive')
   declare caching: CachingType
@@ -60,8 +60,8 @@ export class PolyGone extends IoNavigator {
     this.mutated()
   }
 
-  optionMutated() {
-    super.optionMutated()
+  override modelMutated() {
+    super.modelMutated()
     this.debounce(this.optionMutatedDebounced)
   }
 

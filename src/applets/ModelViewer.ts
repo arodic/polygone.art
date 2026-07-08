@@ -37,7 +37,14 @@ export class ModelViewer extends ThreeApplet {
 
   assetInfoMutated() {
     this.clearModel()
-    this.loadModel()
+    const bgColor = this.assetInfo?.presentationParams?.backgroundColor || '#000000'
+    this.scene.background = new Color(Number(bgColor.replace('#', '0x')))
+    const gltf2 = this.assetInfo?.formats?.find(
+      (format) => format.formatType === 'GLTF2' && format.root?.relativePath
+    )
+    if (gltf2) {
+      this.loadModel()
+    }
   }
 
   clearModel() {
@@ -54,23 +61,14 @@ export class ModelViewer extends ThreeApplet {
   }
 
   loadModel() {
-
-    const bgColor = this.assetInfo?.presentationParams?.backgroundColor || '#000000'
-    this.scene.background = new Color(Number(bgColor.replace('#', '0x')))
-
-    if (this.assetInfo.guid) {
-      const gltf2model = this.assetInfo?.formats.find((format) => format.formatType === 'GLTF2')
-      const fltf2Root = gltf2model?.root?.relativePath
-      if (fltf2Root) {
-        gltfLoader.load(`${BLOB_URL}/assets/${this.assetInfo.guid}/GLTF2/${fltf2Root}`, (gltf) => {
-          this.modelRoot.add(gltf.scene)
-          // TODO: Design a better API for this
-          this.dispatch('three-applet-frame-object-all', gltf.scene, true)
-          this.dispatch('three-applet-needs-render', undefined, true)
-        })    
-      }
-  
-    }
-
+    const gltf2model = this.assetInfo.formats.find((format) => format.formatType === 'GLTF2')
+    const fltf2Root = gltf2model!.root.relativePath
+    gltfLoader.load(`${BLOB_URL}/assets/${this.assetInfo.guid}/GLTF2/${fltf2Root}`, (gltf) => {
+      console.log(gltf.scene)
+      this.modelRoot.add(gltf.scene)
+      // TODO: Design a better API for this
+      this.dispatch('three-applet-frame-object-all', gltf.scene, true)
+      this.dispatch('three-applet-needs-render', undefined, true)
+    })
   }
 }
