@@ -13,8 +13,8 @@ type PageModelProps = ReactiveElementProps & {
 const split = new Split({
   type: 'split', orientation: 'horizontal',
   children: [
-    { tabs: [{id: 'model', label: 'Model'}], type: 'panel' },
-    { type: 'panel', flex: '0 0 430px', tabs: [{id: 'assetInfo', label: 'Model Info'}] }
+    { type: 'panel', size: 'auto', tabs: [{id: 'model', label: 'Model'}] },
+    { type: 'panel', size: '330px', tabs: [{id: 'assetInfo', label: 'Model Info'}] }
   ]
 })
 
@@ -28,6 +28,9 @@ export class PageModel extends ReactiveElement {
       overflow: hidden;
       height: 100%;
       width: 100%;
+    }
+    :host io-tabs {
+      display: none;
     }
     `
   }
@@ -49,7 +52,7 @@ export class PageModel extends ReactiveElement {
     this.render([
       ioSplit({
         id: 'split',
-        split: split,
+        model: split,
         elements: [
           ioThreeViewport({id: 'model', applet: this.applet}),
           assetInfoView({ id: 'assetInfo', assetInfo: this.assetInfo, guid: this.bind('guid') }),

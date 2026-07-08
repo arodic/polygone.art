@@ -23,17 +23,16 @@ export class AssetInfoView extends ReactiveElement {
         color: var(--io_color);
       }
       :host .info {
+        font-size: calc(0.86 * var(--io_fontSize));
         background: var(--io_bgColorStrong);
       }
       :host poly-link {
         display: inline-block;
         margin: 0 var(--io_spacing);
       }
-      
       :host .info > span {
         display: block;
         opacity: 0.5;
-        margin-top: var(--io_spacing2);
       }
       :host .downloads > div {
         display: block;
@@ -44,7 +43,8 @@ export class AssetInfoView extends ReactiveElement {
         min-width: 120px;
       }
       :host .license {
-        font-weight: bold;
+        font-size: calc(0.98 * var(--io_fontSize));
+        /* font-weight: bold; */
         border-top: var(--io_border);
         border-bottom: var(--io_border);
         margin-bottom: var(--io_spacing);

@@ -69,6 +69,9 @@ importers:
       three:
         specifier: '>=0.182.0'
         version: 0.185.0
+      three-tiltloader:
+        specifier: 0.4.2-alpha.4
+        version: 0.4.2-alpha.4(three@0.185.0)
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -899,6 +902,16 @@ packages:
     resolution: {integrity: sha512-J/9An6vs9Us6wKRriSFXBWdRZapREHqFzdNUKk0pmu804EMR6dr6winwo7e5JDxN4xahxQsuysyYFwlwj4XN/Q==}
     engines: {node: '>=10'}
     hasBin: true
+
+  three-icosa@0.4.2-alpha.18:
+    resolution: {integrity: sha512-NMG2SGPngHsQyNJL+OBwAIwhjevaoSquAUiYsvFlgJMiSjRL950sU8/esZDpqi+dxACd/QNcJrUGIVOzTbE8rQ==}
+    peerDependencies:
+      three: '>=0.139.0'
+
+  three-tiltloader@0.4.2-alpha.4:
+    resolution: {integrity: sha512-+LwyYCa1wfeLv1qFu22NpIj9IA0oWukQPgbxduB+g/3uheghNPIjl0AJeyMaYBEFiuyC/LPqEQb/dBdYYEfukg==}
+    peerDependencies:
+      three: '>=0.139.0'
 
   three@0.185.0:
     resolution: {integrity: sha512-+yRrcRO2iZa8uzvNNl0d7cL4huhgKgBvVJ0njcTe8xFqZ6DMAFZdCKDP91SEAuj25bNAj7k1QQdf+srZywVK6w==}
@@ -1740,6 +1753,15 @@ snapshots:
       acorn: 8.17.0
       commander: 2.20.3
       source-map-support: 0.5.21
+
+  three-icosa@0.4.2-alpha.18(three@0.185.0):
+    dependencies:
+      three: 0.185.0
+
+  three-tiltloader@0.4.2-alpha.4(three@0.185.0):
+    dependencies:
+      three: 0.185.0
+      three-icosa: 0.4.2-alpha.18(three@0.185.0)
 
   three@0.185.0: {}
 

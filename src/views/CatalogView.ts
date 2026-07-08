@@ -1,12 +1,12 @@
  
 import { div, Property, ReactiveElement, ReactiveElementProps, Register } from '@io-gui/core'
 import { ioButton, ioString } from '@io-gui/inputs'
-import { ioMenuItem, ioOptionSelect, MenuOption } from '@io-gui/menus'
+import { ioOption, ioOptionSelect, Menu } from '@io-gui/menus'
 import { catalogGrid } from './CatalogGrid.js'
 import { BLOB_URL } from '../constants.js'
 import { $SIZE, $TYPE, $FILTER } from '../routing.js'
 
-const TYPE_OPTION = new MenuOption({
+const TYPE_OPTION = new Menu({
   options: [
     {id: 'all', label: 'All Models'},
     {id: 'tilt', label: 'Tilt Brush'},
@@ -14,7 +14,7 @@ const TYPE_OPTION = new MenuOption({
   ],
 })
 
-const SIZE_OPTION = new MenuOption({
+const SIZE_OPTION = new Menu({
   icon: 'poly:grid',
   selectedID: $SIZE,
   options: [
@@ -26,7 +26,7 @@ const SIZE_OPTION = new MenuOption({
   ],
 })
 
-const FILTER_OPTION = new MenuOption({
+const FILTER_OPTION = new Menu({
   id: 'root',
   label: '',
   icon: 'poly:filter',
@@ -89,10 +89,10 @@ export class CatalogView extends ReactiveElement {
         align-items: center;
         z-index: 1;
       }
-      :host .settings > io-menu-item {
+      :host .settings > io-option {
         margin: 0 var(--io_spacing2);
       }
-      :host .settings > io-menu-item[selected] {
+      :host .settings > io-option[selected] {
         border-color: transparent;
         background-color: inherit;
       }
@@ -118,11 +118,11 @@ export class CatalogView extends ReactiveElement {
   override mutated() {
     this.render([
       div({ class: 'settings' }, [
-        ioOptionSelect({ option: TYPE_OPTION, value: $TYPE }),
+        ioOptionSelect({ model: TYPE_OPTION, value: $TYPE }),
         ioString({ class: 'filterInput', value: $FILTER, live: true, placeholder: 'Search' }),
         ioButton({ class: 'clearButton', icon: 'io:close', action: () => $FILTER.value = '' }),
-        ioMenuItem({ direction: 'down', option: SIZE_OPTION }),
-        ioMenuItem({ direction: 'down', option: FILTER_OPTION }),
+        ioOption({ direction: 'down', model: SIZE_OPTION }),
+        ioOption({ direction: 'down', model: FILTER_OPTION }),
       ]),
       catalogGrid({
         id: 'catalog',

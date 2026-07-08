@@ -7,8 +7,8 @@ import { catalogView } from '../views/CatalogView'
 const split = new Split({
   type: 'split', orientation: 'horizontal',
   children: [
-    { type: 'panel', flex: '1 1 auto', tabs: [{id: 'catalog', label: 'Catalog'}] },
-    { type: 'panel', flex: '0 0 430px', tabs: [{id: 'about', label: 'About'}] }
+    { type: 'panel', size: 'auto', tabs: [{id: 'catalog', label: 'Catalog'}] },
+    { type: 'panel', size: '430px', tabs: [{id: 'about', label: 'About'}] }
   ]
 })
 
@@ -33,7 +33,7 @@ export class PageCatalog extends ReactiveElement {
     this.render([
       ioSplit({
         id: 'split',
-        split: split,
+        model: split,
         elements: [
           catalogView({ id: 'catalog' }),
           ioMarkdown({ id: 'about', src: './README.md' }),
