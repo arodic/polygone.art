@@ -64,7 +64,6 @@ export class ModelViewer extends ThreeApplet {
     const gltf2model = this.assetInfo.formats.find((format) => format.formatType === 'GLTF2')
     const fltf2Root = gltf2model!.root.relativePath
     gltfLoader.load(`${BLOB_URL}/assets/${this.assetInfo.guid}/GLTF2/${fltf2Root}`, (gltf) => {
-      console.log(gltf.scene)
       this.modelRoot.add(gltf.scene)
       // TODO: Design a better API for this
       this.dispatch('three-applet-frame-object-all', gltf.scene, true)
