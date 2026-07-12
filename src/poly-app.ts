@@ -1,6 +1,6 @@
-import { Property, Register, Storage as $, VDOMElement, DispatchTiming } from '@io-gui/core'
+import { Property, Register, Storage as $, VDOMElement } from '@io-gui/core'
 import { ioMarkdown } from '@io-gui/markdown'
-import { MenuOption } from '@io-gui/menus'
+import { Menu, Option } from '@io-gui/menus'
 import { CachingType, IoNavigator, IoNavigatorProps, MenuPosition, SelectType } from '@io-gui/navigation'
 import { polyPageGallery } from './poly-page-gallery.js'
 import { polyPageModelView } from './poly-page-model-view.js'
@@ -10,7 +10,7 @@ import './poly-icons.js'
 import { BLOB_URL } from './constants.js'
 import { $FILTER, $PAGE } from './routing.js'
 
-const PAGE_OPTION = new MenuOption({
+const PAGE_OPTION = new Menu({
   selectedID: $PAGE,
   options: [
     { id: 'about', value: 'About' },
@@ -36,16 +36,13 @@ export class PolyApp extends IoNavigator {
   declare menu: MenuPosition
 
   @Property({ value: PAGE_OPTION })
-  declare option: MenuOption
+  declare model: Menu | Option
 
   @Property('deep')
   declare select: SelectType
 
   @Property('proactive')
   declare caching: CachingType
-
-  @Property({value: 'debounced'})
-  declare dispatchTiming: DispatchTiming
 
   @Property({
     value: [
@@ -70,7 +67,7 @@ export class PolyApp extends IoNavigator {
   }
 
   optionMutated() {
-    super.optionMutated()
+    super.modelMutated()
     this.debounce(this.optionMutatedDebounced)
   }
 

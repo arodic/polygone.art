@@ -58,6 +58,10 @@ export class PolyPageModelView extends ReactiveElement {
       display: inline-block;
       margin-right: 0.5em;
     }
+    :host .downloads > li > a {
+      text-decoration: none;
+      color: var(--io_colorBlue);
+    }
     `
   }
 
@@ -131,10 +135,15 @@ export class PolyPageModelView extends ReactiveElement {
         ])
       )),
       h4('Downloads:'),
-      ul({ class: 'downloads' }, this.assetInfo.formats.map((format: any) => 
-        li([
-          a({ href: `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip` }, `${format.formatType} ⇩`),
+      ul({ class: 'downloads' }, this.assetInfo.formats.map((format: any) => {
+        let link = `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip`
+        if (format.formatType === 'GLB') {
+          link = `${BLOB_URL}/assets/${this.guid}/GLB/${format.root.relativePath}`
+        }
+        return li([
+          a({ href: link }, `${format.formatType} ⇩`),
         ])
+      }
       )),
     ])
   }
