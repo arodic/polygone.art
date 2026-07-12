@@ -8,7 +8,7 @@ type License = 'UNKNOWN' | 'CREATIVE_COMMONS_BY' | 'ALL_RIGHTS_RESERVED'
 
 type Visibility = 'VISIBILITY_UNSPECIFIED' | 'PRIVATE' | 'UNLISTED' | 'PUBLIC'
 
-type FormatType = 'FBX' | 'GLTF' | 'GLTF2' | 'OBJ' | 'TILT'
+type FormatType = 'FBX' | 'GLTF' | 'GLTF2' | 'OBJ' | 'TILT' | 'GLB'
 
 type ColorSpace = 'UNKNOWN' | 'LINEAR' | 'GAMMA'
 

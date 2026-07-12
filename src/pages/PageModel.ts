@@ -54,7 +54,7 @@ export class PageModel extends ReactiveElement {
         id: 'split',
         model: split,
         elements: [
-          ioThreeViewport({id: 'model', applet: this.applet}),
+          ioThreeViewport({id: 'model', applet: this.applet, cameraSelect: 'scene'}),
           assetInfoView({ id: 'assetInfo', assetInfo: this.assetInfo, guid: this.bind('guid') }),
         ]
       })
