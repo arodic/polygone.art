@@ -1,11 +1,13 @@
 import { Property, ReactiveObject, ReactiveObjectProps, Register, Field } from '@io-gui/core'
+import { HDRLoader } from 'three/examples/jsm/loaders/HDRLoader.js'
 import {
   EquirectangularReflectionMapping,
   PMREMGenerator,
   WebGPURenderer,
   Texture,
 } from 'three/webgpu'
-import { hdrLoader } from '../utils/loaders.js'
+
+const hdrLoader = new HDRLoader()
 
 export type EnvironmentProps = ReactiveObjectProps & {
   path?: string
