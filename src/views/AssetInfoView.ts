@@ -93,7 +93,9 @@ export class AssetInfoView extends ReactiveElement {
         div(this.assetInfo.formats.map(format =>
           ioButton({
             label: `${format.formatType}`, icon: 'poly:download',
-            value: `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip`,
+            value: format.formatType === 'GLB' ?
+              `${BLOB_URL}/assets/${this.guid}/GLB/${format.root.relativePath}` :
+              `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip`,
             action: this.onDownloadClicked
           }))
         )

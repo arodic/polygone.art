@@ -1,6 +1,6 @@
 import { Property, Register } from '@io-gui/core'
 import { ThreeApplet } from '@io-gui/three'
-import { Color, GridHelper, LinearSRGBColorSpace, Mesh, Object3D, PerspectiveCamera, WebGPURenderer } from 'three/webgpu'
+import { AmbientLight, Color, DirectionalLight, GridHelper, LinearSRGBColorSpace, Mesh, Object3D, PerspectiveCamera, WebGPURenderer } from 'three/webgpu'
 import { BLOB_URL } from '../constants.js'
 // import { Environment } from '../models/Environment.js'
 import { AssetInfo } from '../models/AssetInfo'
@@ -79,33 +79,40 @@ export class ModelViewer extends ThreeApplet {
         }
       })
     }
-    const ambient = this.scene.getObjectByName('SceneAmbient')
-    if (ambient) this.scene.remove(ambient)
     this.isPlaying = false
     this.scene.fog = null
   }
 
-  loadGLTF2Model(url: string) {
-    gltfLoader.load(url, (gltf) => {
+  async loadGLTF2Model(url: string) {
+    this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
+    await gltfLoader.load(url, (gltf) => {
+
+      const ambient = new AmbientLight(0xffffff, 0.5)
+      gltf.scene.add(ambient)
+
+      const light0 = new DirectionalLight(0xffffff, 2)
+      light0.position.set(15, 5, -5).normalize()
+      gltf.scene.add(light0)
+
+      const light1 = new DirectionalLight(0xffffff, 4)
+      light1.position.set(-10, 2, 5).normalize()
+      gltf.scene.add(light1)
+
       this.modelRoot.add(gltf.scene)
       // TODO: Design a better API for this
-      this.dispatch('three-applet-frame-object-all', gltf.scene, true)
       this.dispatch('three-applet-needs-render', undefined, true)
     })
-    this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
   }
 
   async loadLegacyGLTFModelWithTiltMaterials(url: string) {
-    
     this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
 
-    const gltf = await legacyLoader.loadAsync(url)
+    const gltf = await legacyLoader.loadAsync(url)    
+    await replaceGltf1Materials(gltf.scene, BRUSH_PATH)
     this.modelRoot.add(gltf.scene)
 
-    await replaceGltf1Materials(gltf.scene, BRUSH_PATH)
-
     const { ambient, fog } = await tiltEnvironmentLoader.load(gltf.scene, gltf.scene.userData)
-    this.scene.add(ambient)
+    this.modelRoot.add(ambient)
     this.scene.fog = fog
 
     this.isPlaying = true
