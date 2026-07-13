@@ -2,7 +2,7 @@ import { Property, Register } from '@io-gui/core'
 import { ThreeApplet } from '@io-gui/three'
 import { AmbientLight, Color, DirectionalLight, GridHelper, LinearSRGBColorSpace, Mesh, Object3D, PerspectiveCamera, WebGPURenderer } from 'three/webgpu'
 import { BLOB_URL } from '../constants.js'
-// import { Environment } from '../models/Environment.js'
+import { Environment } from '../models/Environment.js'
 import { AssetInfo } from '../models/AssetInfo'
 import { LegacyGLTFLoader } from '../utils/LegacyGLTFLoader.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
@@ -23,8 +23,8 @@ export class ModelViewer extends ThreeApplet {
   @Property({ type: AssetInfo })
   declare assetInfo: AssetInfo
 
-  // @Property({ type: Environment, init: {path: './assets/hdr/monochrome_studio_02_1k.hdr'} })
-  // declare environment: Environment
+  @Property({ type: Environment, init: {path: './assets/hdr/monochrome_studio_02_1k.hdr'} })
+  declare environment: Environment
 
   @Property({ type: Object3D, init: null })
   declare modelRoot: Object3D
@@ -45,9 +45,7 @@ export class ModelViewer extends ThreeApplet {
 
   onRendererInitialized(renderer: WebGPURenderer) {
     renderer.outputColorSpace = LinearSRGBColorSpace;
-    // this.environment.initPMREMGeneratorWithRenderer(renderer)
-    // this.scene.environment = this.environment.texture
-    // this.scene.environmentIntensity = 0.25
+    this.environment.initPMREMGeneratorWithRenderer(renderer)
   }
 
   assetInfoMutated() {
@@ -85,6 +83,10 @@ export class ModelViewer extends ThreeApplet {
 
   async loadGLTF2Model(url: string) {
     this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
+
+    this.scene.environment = this.environment.texture
+    this.scene.environmentIntensity = 0.25
+
     await gltfLoader.load(url, (gltf) => {
 
       const ambient = new AmbientLight(0xffffff, 0.5)
@@ -106,6 +108,9 @@ export class ModelViewer extends ThreeApplet {
 
   async loadLegacyGLTFModelWithTiltMaterials(url: string) {
     this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
+
+    this.scene.environment = null
+    this.scene.environmentIntensity = 0
 
     const gltf = await legacyLoader.loadAsync(url)    
     await replaceGltf1Materials(gltf.scene, BRUSH_PATH)

@@ -1,16 +1,11 @@
  
 import { ReactiveElement, ReactiveElementProps, Register } from '@io-gui/core'
 import { ioMarkdown } from '@io-gui/markdown'
-import { ioSplit, Split } from '@io-gui/layout'
 import { catalogView } from '../views/CatalogView'
+import { BottomDrawer } from '../layout/BottomDrawer.js'
+import { bottomDrawerSplit } from '../layout/BottomDrawerSplit.js'
 
-const split = new Split({
-  type: 'split', orientation: 'horizontal',
-  children: [
-    { type: 'panel', size: 'auto', tabs: [{id: 'catalog', label: 'Catalog'}] },
-    { type: 'panel', size: '430px', tabs: [{id: 'about', label: 'About'}] }
-  ]
-})
+const drawer = new BottomDrawer({ drawerSize: '430px' })
 
 @Register
 export class PageCatalog extends ReactiveElement {
@@ -23,33 +18,29 @@ export class PageCatalog extends ReactiveElement {
       height: 100%;
       width: 100%;
     }
-    :host io-tabs {
-      display: none;
+    :host bottom-drawer-split .drawer-panel {
+      background-color: color-mix(in srgb, var(--io_bgColorStrong) 80%, transparent);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    :host io-markdown {
+      background-color: transparent;
     }
     `
   }
 
   ready() {
     this.render([
-      ioSplit({
-        id: 'split',
-        model: split,
+      bottomDrawerSplit({
+        id: 'layout',
+        model: drawer,
+        revealSelector: 'h1',
         elements: [
           catalogView({ id: 'catalog' }),
           ioMarkdown({ id: 'about', src: './README.md' }),
         ]
       })
     ])
-  }
-
-  onResized() {
-    const rect = this.getBoundingClientRect()
-    const aspect = rect.width / rect.height
-    if (aspect > 1) {
-      split.orientation = 'horizontal'
-    } else {
-      split.orientation = 'vertical'
-    }
   }
 }
 
