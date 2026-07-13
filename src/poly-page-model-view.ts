@@ -104,7 +104,7 @@ export class PolyPageModelView extends ReactiveElement {
     const fltf2Root = gltf2model?.root?.relativePath
     const modelViewer = createVDOMElement('model-viewer', {
       id: 'reveal',
-      poster: `${BLOB_URL}/assets/${this.guid}/thumbnail-512.jpg`,
+      poster: `${BLOB_URL}/assets/${this.guid}/thumbnail.jpg`,
       alt: this.assetInfo.description || this.assetInfo.name,
       environmentImage: 'neutral',
       autoRotate: true,

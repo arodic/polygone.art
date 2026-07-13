@@ -35,7 +35,7 @@ Full JSON record for a single asset.
 
 ### Asset files and thumbnails
 - Rendered model file: `https://blob.polygone.art/assets/{guid}/GLTF2/{root.relativePath}`
-- Preview images: `https://blob.polygone.art/assets/{guid}/thumbnail-{size}.jpg` where `size` is one of `32`, `64`, `128`, `256`, `512`.
+- Preview images: `https://blob.polygone.art/assets/{guid}/thumbnail.jpg`
 - Per-format download archive: `https://blob.polygone.art/archives/{guid}/{guid}_{formatType}.zip`
 
 ### Browsing taxonomy (UI filters)
