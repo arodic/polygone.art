@@ -8,7 +8,7 @@ import { Property, Register } from '@io-gui/core';
 import { ThreeApplet } from '@io-gui/three';
 import { AmbientLight, Color, DirectionalLight, GridHelper, LinearSRGBColorSpace, Mesh, Object3D, PerspectiveCamera } from 'three/webgpu';
 import { BLOB_URL } from '../constants.js';
-// import { Environment } from '../models/Environment.js'
+import { Environment } from '../models/Environment.js';
 import { AssetInfo } from '../models/AssetInfo';
 import { LegacyGLTFLoader } from '../utils/LegacyGLTFLoader.js';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
@@ -30,9 +30,7 @@ let ModelViewer = class ModelViewer extends ThreeApplet {
     }
     onRendererInitialized(renderer) {
         renderer.outputColorSpace = LinearSRGBColorSpace;
-        // this.environment.initPMREMGeneratorWithRenderer(renderer)
-        // this.scene.environment = this.environment.texture
-        // this.scene.environmentIntensity = 0.25
+        this.environment.initPMREMGeneratorWithRenderer(renderer);
     }
     assetInfoMutated() {
         this.clearModel();
@@ -66,23 +64,26 @@ let ModelViewer = class ModelViewer extends ThreeApplet {
         this.scene.fog = null;
     }
     async loadGLTF2Model(url) {
-        this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`);
-        await gltfLoader.load(url, (gltf) => {
-            const ambient = new AmbientLight(0xffffff, 0.5);
-            gltf.scene.add(ambient);
-            const light0 = new DirectionalLight(0xffffff, 2);
-            light0.position.set(15, 5, -5).normalize();
-            gltf.scene.add(light0);
-            const light1 = new DirectionalLight(0xffffff, 4);
-            light1.position.set(-10, 2, 5).normalize();
-            gltf.scene.add(light1);
-            this.modelRoot.add(gltf.scene);
-            // TODO: Design a better API for this
-            this.dispatch('three-applet-needs-render', undefined, true);
-        });
+        await this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`);
+        this.scene.environment = this.environment.texture;
+        this.scene.environmentIntensity = 0.25;
+        const gltf = await gltfLoader.loadAsync(url);
+        const ambient = new AmbientLight(0xffffff, 0.5);
+        gltf.scene.add(ambient);
+        const light0 = new DirectionalLight(0xffffff, 2);
+        light0.position.set(15, 5, -5).normalize();
+        gltf.scene.add(light0);
+        const light1 = new DirectionalLight(0xffffff, 4);
+        light1.position.set(-10, 2, 5).normalize();
+        gltf.scene.add(light1);
+        this.modelRoot.add(gltf.scene);
+        this.dispatch('model-viewer-ready', undefined, true);
+        this.dispatch('three-applet-needs-render', undefined, true);
     }
     async loadLegacyGLTFModelWithTiltMaterials(url) {
-        this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`);
+        await this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`);
+        this.scene.environment = null;
+        this.scene.environmentIntensity = 0;
         const gltf = await legacyLoader.loadAsync(url);
         await replaceGltf1Materials(gltf.scene, BRUSH_PATH);
         this.modelRoot.add(gltf.scene);
@@ -90,6 +91,7 @@ let ModelViewer = class ModelViewer extends ThreeApplet {
         this.modelRoot.add(ambient);
         this.scene.fog = fog;
         this.isPlaying = true;
+        this.dispatch('model-viewer-ready', undefined, true);
         this.dispatch('three-applet-needs-render', undefined, true);
     }
     async loadPresentation(jsonUrl) {
@@ -105,12 +107,18 @@ let ModelViewer = class ModelViewer extends ThreeApplet {
         else {
             this.dispatch('three-applet-frame-object-all', this.modelRoot, true);
         }
+        if (this.modelRoot.children.length) {
+            this.dispatch('model-viewer-ready', undefined, true);
+        }
         this.dispatch('three-applet-needs-render', undefined, true);
     }
 };
 __decorate([
     Property({ type: AssetInfo })
 ], ModelViewer.prototype, "assetInfo", void 0);
+__decorate([
+    Property({ type: Environment, init: { path: './assets/hdr/monochrome_studio_02_1k.hdr' } })
+], ModelViewer.prototype, "environment", void 0);
 __decorate([
     Property({ type: Object3D, init: null })
 ], ModelViewer.prototype, "modelRoot", void 0);

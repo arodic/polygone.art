@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import * as THREE from 'three';
-import type { LoadingManager } from 'three';
-import type { MeshBasicNodeMaterial } from 'three/webgpu';
-import { createNodeBrushMaterial, hasNodeBrush } from './brushMaterials';
+import * as THREE from 'three'
+import type { LoadingManager } from 'three'
+import type { MeshBasicNodeMaterial } from 'three/webgpu'
+import { createNodeBrushMaterial, hasNodeBrush } from './brushMaterials'
 
 /** Values stored on tilt-brush material uniform templates. */
 export type BrushUniformValue =
@@ -25,7 +25,7 @@ export type BrushUniformValue =
 	| null
 	| THREE.Vector3
 	| THREE.Vector4
-	| THREE.Texture;
+	| THREE.Texture
 
 export interface BrushUniform {
 	/** Typically a {@link BrushUniformValue}; `any` allows duck-typed clone/copy helpers. */
@@ -55,11 +55,11 @@ type TextureLabel =
 	| 'BaseColorTex'
 	| 'SpecTex'
 	| 'DisplaceTex'
-	| 'SecondaryTex';
+	| 'SecondaryTex'
 
 // Cached default textures to prevent creating multiple instances
-let defaultWhiteTexture: THREE.DataTexture | null = null;
-let defaultNormalTexture: THREE.DataTexture | null = null;
+let defaultWhiteTexture: THREE.DataTexture | null = null
+let defaultNormalTexture: THREE.DataTexture | null = null
 
 function getDefaultWhiteTexture(): THREE.DataTexture {
 	if (!defaultWhiteTexture) {
@@ -69,12 +69,12 @@ function getDefaultWhiteTexture(): THREE.DataTexture {
 			1,
 			THREE.RGBAFormat,
 			THREE.UnsignedByteType,
-		);
-		defaultWhiteTexture.name = 'DefaultWhiteTexture';
-		defaultWhiteTexture.colorSpace = THREE.SRGBColorSpace;
-		defaultWhiteTexture.needsUpdate = true;
+		)
+		defaultWhiteTexture.name = 'DefaultWhiteTexture'
+		defaultWhiteTexture.colorSpace = THREE.SRGBColorSpace
+		defaultWhiteTexture.needsUpdate = true
 	}
-	return defaultWhiteTexture;
+	return defaultWhiteTexture
 }
 
 function getDefaultNormalTexture(): THREE.DataTexture {
@@ -85,12 +85,12 @@ function getDefaultNormalTexture(): THREE.DataTexture {
 			1,
 			THREE.RGBAFormat,
 			THREE.UnsignedByteType,
-		);
-		defaultNormalTexture.name = 'DefaultNormalTexture';
-		defaultNormalTexture.colorSpace = THREE.NoColorSpace;
-		defaultNormalTexture.needsUpdate = true;
+		)
+		defaultNormalTexture.name = 'DefaultNormalTexture'
+		defaultNormalTexture.colorSpace = THREE.NoColorSpace
+		defaultNormalTexture.needsUpdate = true
 	}
-	return defaultNormalTexture;
+	return defaultNormalTexture
 }
 
 function cloneUniformValue(value: any): any {
@@ -100,17 +100,17 @@ function cloneUniformValue(value: any): any {
 		!Array.isArray(value) &&
 		typeof value.clone === 'function'
 	) {
-		return value.clone();
+		return value.clone()
 	}
-	return value;
+	return value
 }
 
 export class TiltShaderLoader extends THREE.Loader<MeshBasicNodeMaterial, string> {
-	loadedMaterials: Record<string, MeshBasicNodeMaterial>;
+	loadedMaterials: Record<string, MeshBasicNodeMaterial>
 
 	constructor(manager?: LoadingManager) {
-		super(manager);
-		this.loadedMaterials = {};
+		super(manager)
+		this.loadedMaterials = {}
 	}
 
 	async load(
@@ -119,611 +119,611 @@ export class TiltShaderLoader extends THREE.Loader<MeshBasicNodeMaterial, string
 		_onProgress?: (event: ProgressEvent) => void,
 		onError?: (err: unknown) => void,
 	): Promise<void> {
-		const scope = this;
+		const scope = this
 
-		const isAlreadyLoaded = this.loadedMaterials[brushName];
+		const isAlreadyLoaded = this.loadedMaterials[brushName]
 
 		if (isAlreadyLoaded !== undefined) {
-			onLoad(scope.parse(isAlreadyLoaded));
-			return;
+			onLoad(scope.parse(isAlreadyLoaded))
+			return
 		}
 
-		const textureLoader = new THREE.TextureLoader(this.manager);
-		textureLoader.setPath(this.path);
-		textureLoader.setWithCredentials(this.withCredentials);
+		const textureLoader = new THREE.TextureLoader(this.manager)
+		textureLoader.setPath(this.path)
+		textureLoader.setWithCredentials(this.withCredentials)
 
-		const materialParamsTemplate = tiltBrushMaterialParams[brushName];
+		const materialParamsTemplate = tiltBrushMaterialParams[brushName]
 
-		if (!materialParamsTemplate) return;
+		if (!materialParamsTemplate) return
 
 		if (!hasNodeBrush(brushName)) {
-			console.warn(`[TiltShaderLoader] No NodeMaterial for ${brushName}`);
-			if (onError) onError(new Error(`No NodeMaterial for ${brushName}`));
-			return;
+			console.warn(`[TiltShaderLoader] No NodeMaterial for ${brushName}`)
+			if (onError) onError(new Error(`No NodeMaterial for ${brushName}`))
+			return
 		}
 
 		// Shallow-clone so we never mutate the shared template.
 		const materialParams: BrushMaterialParams = {
 			...materialParamsTemplate,
 			uniforms: { ...materialParamsTemplate.uniforms },
-		};
+		}
 		for (const key of Object.keys(materialParams.uniforms)) {
-			const entry = materialParamsTemplate.uniforms[key];
-			materialParams.uniforms[key] = { value: cloneUniformValue(entry.value) };
+			const entry = materialParamsTemplate.uniforms[key]
+			materialParams.uniforms[key] = { value: cloneUniformValue(entry.value) }
 		}
 
-		const normalizeTexPath = (p: string) => p.replace(/\\/g, '/');
+		const normalizeTexPath = (p: string) => p.replace(/\\/g, '/')
 
 		const loadBrushTexture = async (
 			uniformEntry: BrushUniform | undefined,
 			label: TextureLabel,
 		): Promise<THREE.Texture | null> => {
-			if (!uniformEntry) return null;
+			if (!uniformEntry) return null
 			if (uniformEntry.value === null) {
-				return label === 'BumpMap' ? getDefaultNormalTexture() : getDefaultWhiteTexture();
+				return label === 'BumpMap' ? getDefaultNormalTexture() : getDefaultWhiteTexture()
 			}
 			if (typeof uniformEntry.value === 'string') {
-				const tex = await textureLoader.loadAsync(normalizeTexPath(uniformEntry.value));
-				tex.name = `${brushName}_${label}`;
-				tex.wrapS = THREE.RepeatWrapping;
-				tex.wrapT = THREE.RepeatWrapping;
-				tex.flipY = false;
-				if (label === 'MainTex') tex.anisotropy = 4;
-				if (label === 'BumpMap') tex.colorSpace = THREE.NoColorSpace;
-				return tex;
+				const tex = await textureLoader.loadAsync(normalizeTexPath(uniformEntry.value))
+				tex.name = `${brushName}_${label}`
+				tex.wrapS = THREE.RepeatWrapping
+				tex.wrapT = THREE.RepeatWrapping
+				tex.flipY = false
+				if (label === 'MainTex') tex.anisotropy = 4
+				if (label === 'BumpMap') tex.colorSpace = THREE.NoColorSpace
+				return tex
 			}
 			if (uniformEntry.value instanceof THREE.Texture) {
-				return uniformEntry.value;
+				return uniformEntry.value
 			}
-			console.error(`[TiltShaderLoader] ${label} has unexpected type for ${brushName}:`, uniformEntry.value);
-			return null;
-		};
+			console.error(`[TiltShaderLoader] ${label} has unexpected type for ${brushName}:`, uniformEntry.value)
+			return null
+		}
 
-		const textures: Record<string, THREE.Texture | null> = {};
+		const textures: Record<string, THREE.Texture | null> = {}
 		if (materialParams.uniforms.u_MainTex) {
-			textures.u_MainTex = await loadBrushTexture(materialParams.uniforms.u_MainTex, 'MainTex');
+			textures.u_MainTex = await loadBrushTexture(materialParams.uniforms.u_MainTex, 'MainTex')
 		} else if (brushName === 'PassthroughHull' && materialParams.uniforms.u_Side) {
-			textures.u_MainTex = await loadBrushTexture(materialParams.uniforms.u_Side, 'MainTex');
+			textures.u_MainTex = await loadBrushTexture(materialParams.uniforms.u_Side, 'MainTex')
 		}
 		if (materialParams.uniforms.u_BumpMap) {
-			textures.u_BumpMap = await loadBrushTexture(materialParams.uniforms.u_BumpMap, 'BumpMap');
+			textures.u_BumpMap = await loadBrushTexture(materialParams.uniforms.u_BumpMap, 'BumpMap')
 		}
 		if (materialParams.uniforms.u_AlphaMask) {
-			textures.u_AlphaMask = await loadBrushTexture(materialParams.uniforms.u_AlphaMask, 'AlphaMask');
+			textures.u_AlphaMask = await loadBrushTexture(materialParams.uniforms.u_AlphaMask, 'AlphaMask')
 		}
 		if (materialParams.uniforms.u_BaseColorTex) {
 			textures.u_BaseColorTex = await loadBrushTexture(
 				materialParams.uniforms.u_BaseColorTex,
 				'BaseColorTex',
-			);
+			)
 		}
 		if (materialParams.uniforms.u_SpecTex) {
-			textures.u_SpecTex = await loadBrushTexture(materialParams.uniforms.u_SpecTex, 'SpecTex');
+			textures.u_SpecTex = await loadBrushTexture(materialParams.uniforms.u_SpecTex, 'SpecTex')
 		}
 		if (materialParams.uniforms.u_DisplaceTex) {
-			textures.u_DisplaceTex = await loadBrushTexture(materialParams.uniforms.u_DisplaceTex, 'DisplaceTex');
+			textures.u_DisplaceTex = await loadBrushTexture(materialParams.uniforms.u_DisplaceTex, 'DisplaceTex')
 		}
 		if (materialParams.uniforms.u_SecondaryTex) {
 			textures.u_SecondaryTex = await loadBrushTexture(
 				materialParams.uniforms.u_SecondaryTex,
 				'SecondaryTex',
-			);
+			)
 		}
 
-		const nodeMaterial = createNodeBrushMaterial(brushName, textures, materialParams);
+		const nodeMaterial = createNodeBrushMaterial(brushName, textures, materialParams)
 		if (!nodeMaterial) {
-			console.warn(`[TiltShaderLoader] NodeMaterial create failed for ${brushName}`);
-			if (onError) onError(new Error(`NodeMaterial create failed for ${brushName}`));
-			return;
+			console.warn(`[TiltShaderLoader] NodeMaterial create failed for ${brushName}`)
+			if (onError) onError(new Error(`NodeMaterial create failed for ${brushName}`))
+			return
 		}
 
 		// PbrTemplate instances each have unique BaseColorTex — never share one material.
 		if (brushName !== 'PbrTemplate' && brushName !== 'PbrTransparentTemplate') {
-			this.loadedMaterials[brushName] = nodeMaterial;
+			this.loadedMaterials[brushName] = nodeMaterial
 		}
-		onLoad(scope.parse(nodeMaterial));
+		onLoad(scope.parse(nodeMaterial))
 	}
 
 	parse(material: MeshBasicNodeMaterial): MeshBasicNodeMaterial {
-		return material;
+		return material
 	}
 
 	lookupMaterialParams(materialName: string | null | undefined): BrushMaterialParams | null {
-		if (!materialName) return null;
-		return tiltBrushMaterialParams[materialName] ?? null;
+		if (!materialName) return null
+		return tiltBrushMaterialParams[materialName] ?? null
 	}
 
 	lookupMaterialName(nameOrGuid: string | null | undefined): string | undefined {
 		// Open Brush "new glb" exports prefix the material names
 		if (nameOrGuid?.startsWith('ob-')) {
-			nameOrGuid = nameOrGuid.substring(3);
+			nameOrGuid = nameOrGuid.substring(3)
 		}
 
         switch(nameOrGuid) {
 
             // Standard brushes
 
-            case "BlocksBasic:":
-            case "BlocksPaper":
-            case "0e87b49c-6546-3a34-3a44-8a556d7d6c3e":
-                return "BlocksBasic";
+            case 'BlocksBasic:':
+            case 'BlocksPaper':
+            case '0e87b49c-6546-3a34-3a44-8a556d7d6c3e':
+                return 'BlocksBasic'
 
-            case "BlocksGem":
-            case "232998f8-d357-47a2-993a-53415df9be10":
-                return "BlocksGem";
+            case 'BlocksGem':
+            case '232998f8-d357-47a2-993a-53415df9be10':
+                return 'BlocksGem'
 
-            case "BlocksGlass":
-            case "3d813d82-5839-4450-8ddc-8e889ecd96c7":
-                return "BlocksGlass";
+            case 'BlocksGlass':
+            case '3d813d82-5839-4450-8ddc-8e889ecd96c7':
+                return 'BlocksGlass'
 
-            case "Bubbles":
-            case "89d104cd-d012-426b-b5b3-bbaee63ac43c":
-                return "Bubbles";
+            case 'Bubbles':
+            case '89d104cd-d012-426b-b5b3-bbaee63ac43c':
+                return 'Bubbles'
 
-            case "CelVinyl":
-            case "700f3aa8-9a7c-2384-8b8a-ea028905dd8c":
-                return "CelVinyl";
+            case 'CelVinyl':
+            case '700f3aa8-9a7c-2384-8b8a-ea028905dd8c':
+                return 'CelVinyl'
 
-            case "ChromaticWave":
-            case "0f0ff7b2-a677-45eb-a7d6-0cd7206f4816":
-                return "ChromaticWave";
+            case 'ChromaticWave':
+            case '0f0ff7b2-a677-45eb-a7d6-0cd7206f4816':
+                return 'ChromaticWave'
 
-            case "CoarseBristles":
-            case "1161af82-50cf-47db-9706-0c3576d43c43":
-            case "79168f10-6961-464a-8be1-57ed364c5600":
-                return "CoarseBristles";
+            case 'CoarseBristles':
+            case '1161af82-50cf-47db-9706-0c3576d43c43':
+            case '79168f10-6961-464a-8be1-57ed364c5600':
+                return 'CoarseBristles'
                 
-            case "Comet":
-            case "1caa6d7d-f015-3f54-3a4b-8b5354d39f81":
-                return "Comet";
+            case 'Comet':
+            case '1caa6d7d-f015-3f54-3a4b-8b5354d39f81':
+                return 'Comet'
             
-            case "DiamondHull":
-            case "c8313697-2563-47fc-832e-290f4c04b901":
-                return "DiamondHull";
+            case 'DiamondHull':
+            case 'c8313697-2563-47fc-832e-290f4c04b901':
+                return 'DiamondHull'
             
-            case "Disco":
-            case "4391aaaa-df73-4396-9e33-31e4e4930b27":
-                return "Disco";
+            case 'Disco':
+            case '4391aaaa-df73-4396-9e33-31e4e4930b27':
+                return 'Disco'
             
-            case "DotMarker":
-            case "d1d991f2-e7a0-4cf1-b328-f57e915e6260":
-                return "DotMarker";
+            case 'DotMarker':
+            case 'd1d991f2-e7a0-4cf1-b328-f57e915e6260':
+                return 'DotMarker'
             
-            case "Dots":
-            case "6a1cf9f9-032c-45ec-9b1d-a6680bee30f7":
-                return "Dots";
+            case 'Dots':
+            case '6a1cf9f9-032c-45ec-9b1d-a6680bee30f7':
+                return 'Dots'
 
-            case "DoubleTaperedFlat":
-            case "0d3889f3-3ede-470c-8af4-f44813306126":
-                return "DoubleTaperedFlat";
+            case 'DoubleTaperedFlat':
+            case '0d3889f3-3ede-470c-8af4-f44813306126':
+                return 'DoubleTaperedFlat'
             
-            case "DoubleTaperedMarker":
-            case "0d3889f3-3ede-470c-8af4-de4813306126":
-                return "DoubleTaperedMarker";
+            case 'DoubleTaperedMarker':
+            case '0d3889f3-3ede-470c-8af4-de4813306126':
+                return 'DoubleTaperedMarker'
             
-            case "DuctTape":
-            case "d0262945-853c-4481-9cbd-88586bed93cb":
-            case "3ca16e2f-bdcd-4da2-8631-dcef342f40f1":
-                return "DuctTape";
+            case 'DuctTape':
+            case 'd0262945-853c-4481-9cbd-88586bed93cb':
+            case '3ca16e2f-bdcd-4da2-8631-dcef342f40f1':
+                return 'DuctTape'
             
-            case "Electricity":
-            case "f6e85de3-6dcc-4e7f-87fd-cee8c3d25d51":
-                return "Electricity";
+            case 'Electricity':
+            case 'f6e85de3-6dcc-4e7f-87fd-cee8c3d25d51':
+                return 'Electricity'
 
-            case "Embers":
-            case "02ffb866-7fb2-4d15-b761-1012cefb1360":
-                return "Embers";
+            case 'Embers':
+            case '02ffb866-7fb2-4d15-b761-1012cefb1360':
+                return 'Embers'
             
-            case "EnvironmentDiffuse":
-            case "0ad58bbd-42bc-484e-ad9a-b61036ff4ce7": 
-                return "EnvironmentDiffuse";
+            case 'EnvironmentDiffuse':
+            case '0ad58bbd-42bc-484e-ad9a-b61036ff4ce7': 
+                return 'EnvironmentDiffuse'
             
-            case "EnvironmentDiffuseLightMap":
-            case "d01d9d6c-9a61-4aba-8146-5891fafb013b":
-                return "EnvironmentDiffuseLightMap";
+            case 'EnvironmentDiffuseLightMap':
+            case 'd01d9d6c-9a61-4aba-8146-5891fafb013b':
+                return 'EnvironmentDiffuseLightMap'
 
-            case "Fire":
-            case "cb92b597-94ca-4255-b017-0e3f42f12f9e":
-                return "Fire";
+            case 'Fire':
+            case 'cb92b597-94ca-4255-b017-0e3f42f12f9e':
+                return 'Fire'
 
-            case "2d35bcf0-e4d8-452c-97b1-3311be063130":
-            case "280c0a7a-aad8-416c-a7d2-df63d129ca70":
-            case "55303bc4-c749-4a72-98d9-d23e68e76e18":
-            case "Flat":
-                return "Flat";
+            case '2d35bcf0-e4d8-452c-97b1-3311be063130':
+            case '280c0a7a-aad8-416c-a7d2-df63d129ca70':
+            case '55303bc4-c749-4a72-98d9-d23e68e76e18':
+            case 'Flat':
+                return 'Flat'
             
-            case "cf019139-d41c-4eb0-a1d0-5cf54b0a42f3":
-            case "Highlighter":
-            case "geometry_Highlighter":
-                return "Highlighter";
+            case 'cf019139-d41c-4eb0-a1d0-5cf54b0a42f3':
+            case 'Highlighter':
+            case 'geometry_Highlighter':
+                return 'Highlighter'
             
-            case "Hypercolor":
-            case "dce872c2-7b49-4684-b59b-c45387949c5c":
-            case "e8ef32b1-baa8-460a-9c2c-9cf8506794f5":
-                return "Hypercolor";
+            case 'Hypercolor':
+            case 'dce872c2-7b49-4684-b59b-c45387949c5c':
+            case 'e8ef32b1-baa8-460a-9c2c-9cf8506794f5':
+                return 'Hypercolor'
             
-            case "HyperGrid":
-            case "6a1cf9f9-032c-45ec-9b6e-a6680bee32e9":
-                return "HyperGrid";
+            case 'HyperGrid':
+            case '6a1cf9f9-032c-45ec-9b6e-a6680bee32e9':
+                return 'HyperGrid'
 
-            case "Icing":
-            case "2f212815-f4d3-c1a4-681a-feeaf9c6dc37":
-                return "Icing";
+            case 'Icing':
+            case '2f212815-f4d3-c1a4-681a-feeaf9c6dc37':
+                return 'Icing'
             
-            case "Ink":
-            case "f5c336cf-5108-4b40-ade9-c687504385ab":
-            case "c0012095-3ffd-4040-8ee1-fc180d346eaa":
-                return "Ink";
+            case 'Ink':
+            case 'f5c336cf-5108-4b40-ade9-c687504385ab':
+            case 'c0012095-3ffd-4040-8ee1-fc180d346eaa':
+                return 'Ink'
 
-            case "Leaves":
-            case "4a76a27a-44d8-4bfe-9a8c-713749a499b0":
-            case "ea19de07-d0c0-4484-9198-18489a3c1487":
-                return "Leaves";
+            case 'Leaves':
+            case '4a76a27a-44d8-4bfe-9a8c-713749a499b0':
+            case 'ea19de07-d0c0-4484-9198-18489a3c1487':
+                return 'Leaves'
 
-            case "Light":
-            case "2241cd32-8ba2-48a5-9ee7-2caef7e9ed62":
-                return "Light";
+            case 'Light':
+            case '2241cd32-8ba2-48a5-9ee7-2caef7e9ed62':
+                return 'Light'
 
-            case "LightWire":
-            case "4391aaaa-df81-4396-9e33-31e4e4930b27":
-                return "LightWire";
+            case 'LightWire':
+            case '4391aaaa-df81-4396-9e33-31e4e4930b27':
+                return 'LightWire'
             
-            case "Lofted":
-            case "d381e0f5-3def-4a0d-8853-31e9200bcbda":
-                return "Lofted";
+            case 'Lofted':
+            case 'd381e0f5-3def-4a0d-8853-31e9200bcbda':
+                return 'Lofted'
 
-            case "Marker":
-            case "429ed64a-4e97-4466-84d3-145a861ef684":
-                return "Marker";
+            case 'Marker':
+            case '429ed64a-4e97-4466-84d3-145a861ef684':
+                return 'Marker'
             
-            case "MatteHull":
-            case "79348357-432d-4746-8e29-0e25c112e3aa":
-                return "MatteHull";
+            case 'MatteHull':
+            case '79348357-432d-4746-8e29-0e25c112e3aa':
+                return 'MatteHull'
 
-            case "NeonPulse":
-            case "b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6":
-                return "NeonPulse";
+            case 'NeonPulse':
+            case 'b2ffef01-eaaa-4ab5-aa64-95a2c4f5dbc6':
+                return 'NeonPulse'
 
-            case "OilPaint":
-            case "f72ec0e7-a844-4e38-82e3-140c44772699":
-            case "c515dad7-4393-4681-81ad-162ef052241b":
-                return "OilPaint";
+            case 'OilPaint':
+            case 'f72ec0e7-a844-4e38-82e3-140c44772699':
+            case 'c515dad7-4393-4681-81ad-162ef052241b':
+                return 'OilPaint'
 
-            case "Paper":
-            case "f1114e2e-eb8d-4fde-915a-6e653b54e9f5":
-            case "759f1ebd-20cd-4720-8d41-234e0da63716":
-                return "Paper";
+            case 'Paper':
+            case 'f1114e2e-eb8d-4fde-915a-6e653b54e9f5':
+            case '759f1ebd-20cd-4720-8d41-234e0da63716':
+                return 'Paper'
             
-            case "PbrTemplate":
-            case "f86a096c-2f4f-4f9d-ae19-81b99f2944e0":
+            case 'PbrTemplate':
+            case 'f86a096c-2f4f-4f9d-ae19-81b99f2944e0':
             // Per-instance imported-model GUIDs from Poly GLTF 1.0 (all share PbrTemplate shaders).
-            case "f7edbe29-48dc-4229-9c3e-a5faaa745728":
-            case "b3e152f9-a12f-4f92-a71e-29a9e9314c8b":
-            case "d92f3222-b941-49d2-9c51-de2b2ee39600":
-            case "7bdd3fe1-0ca6-422c-a250-e4597682a6b0":
-            case "5857d62d-a336-425c-8d3a-564a907b3f92":
-            case "2aa8f0bb-70e9-41a1-9368-407dc3e86d19":
-            case "a254bf3b-541e-4bf8-be44-a59b2ca14415":
-                return "PbrTemplate";
+            case 'f7edbe29-48dc-4229-9c3e-a5faaa745728':
+            case 'b3e152f9-a12f-4f92-a71e-29a9e9314c8b':
+            case 'd92f3222-b941-49d2-9c51-de2b2ee39600':
+            case '7bdd3fe1-0ca6-422c-a250-e4597682a6b0':
+            case '5857d62d-a336-425c-8d3a-564a907b3f92':
+            case '2aa8f0bb-70e9-41a1-9368-407dc3e86d19':
+            case 'a254bf3b-541e-4bf8-be44-a59b2ca14415':
+                return 'PbrTemplate'
             
-            case "PbrTransparentTemplate":
-            case "19826f62-42ac-4a9e-8b77-4231fbd0cfbf":
-                return "PbrTransparentTemplate";
+            case 'PbrTransparentTemplate':
+            case '19826f62-42ac-4a9e-8b77-4231fbd0cfbf':
+                return 'PbrTransparentTemplate'
             
-            case "Petal":
-            case "e0abbc80-0f80-e854-4970-8924a0863dcc":
-                return "Petal";
+            case 'Petal':
+            case 'e0abbc80-0f80-e854-4970-8924a0863dcc':
+                return 'Petal'
 
-            case "Plasma":
-            case "c33714d1-b2f9-412e-bd50-1884c9d46336":
-                return "Plasma";
+            case 'Plasma':
+            case 'c33714d1-b2f9-412e-bd50-1884c9d46336':
+                return 'Plasma'
             
-            case "Rainbow":
-            case "ad1ad437-76e2-450d-a23a-e17f8310b960":
-                return "Rainbow";
+            case 'Rainbow':
+            case 'ad1ad437-76e2-450d-a23a-e17f8310b960':
+                return 'Rainbow'
 
-            case "ShinyHull":
-            case "faaa4d44-fcfb-4177-96be-753ac0421ba3":
-                return "ShinyHull";
+            case 'ShinyHull':
+            case 'faaa4d44-fcfb-4177-96be-753ac0421ba3':
+                return 'ShinyHull'
 
-            case "Smoke":
-            case "70d79cca-b159-4f35-990c-f02193947fe8":
-                return "Smoke";
+            case 'Smoke':
+            case '70d79cca-b159-4f35-990c-f02193947fe8':
+                return 'Smoke'
             
-            case "Snow":
-            case "d902ed8b-d0d1-476c-a8de-878a79e3a34c":
-                return "Snow";
+            case 'Snow':
+            case 'd902ed8b-d0d1-476c-a8de-878a79e3a34c':
+                return 'Snow'
 
-            case "SoftHighlighter":
-            case "accb32f5-4509-454f-93f8-1df3fd31df1b":
-                return "SoftHighlighter";
+            case 'SoftHighlighter':
+            case 'accb32f5-4509-454f-93f8-1df3fd31df1b':
+                return 'SoftHighlighter'
             
-            case "Spikes":
-            case "cf7f0059-7aeb-53a4-2b67-c83d863a9ffa":
-                return "Spikes";
+            case 'Spikes':
+            case 'cf7f0059-7aeb-53a4-2b67-c83d863a9ffa':
+                return 'Spikes'
             
-            case "Splatter":
-            case "8dc4a70c-d558-4efd-a5ed-d4e860f40dc3":
-            case "7a1c8107-50c5-4b70-9a39-421576d6617e":
-                return "Splatter";
+            case 'Splatter':
+            case '8dc4a70c-d558-4efd-a5ed-d4e860f40dc3':
+            case '7a1c8107-50c5-4b70-9a39-421576d6617e':
+                return 'Splatter'
             
-            case "Stars":
-            case "0eb4db27-3f82-408d-b5a1-19ebd7d5b711":
-                return "Stars";
+            case 'Stars':
+            case '0eb4db27-3f82-408d-b5a1-19ebd7d5b711':
+                return 'Stars'
 
-            case "Streamers":
-            case "44bb800a-fbc3-4592-8426-94ecb05ddec3":
-                return "Streamers";
+            case 'Streamers':
+            case '44bb800a-fbc3-4592-8426-94ecb05ddec3':
+                return 'Streamers'
             
-            case "Taffy":
-            case "0077f88c-d93a-42f3-b59b-b31c50cdb414":
-                return "Taffy";
+            case 'Taffy':
+            case '0077f88c-d93a-42f3-b59b-b31c50cdb414':
+                return 'Taffy'
 
-            case "TaperedFlat":
-            case "b468c1fb-f254-41ed-8ec9-57030bc5660c":
-            case "c8ccb53d-ae13-45ef-8afb-b730d81394eb":
-                return "TaperedFlat";
+            case 'TaperedFlat':
+            case 'b468c1fb-f254-41ed-8ec9-57030bc5660c':
+            case 'c8ccb53d-ae13-45ef-8afb-b730d81394eb':
+                return 'TaperedFlat'
 
-            case "TaperedMarker_Flat":
-            case "1a26b8c0-8a07-4f8a-9fac-d2ef36e0cad0":
-                return "TaperedMarker_Flat";
+            case 'TaperedMarker_Flat':
+            case '1a26b8c0-8a07-4f8a-9fac-d2ef36e0cad0':
+                return 'TaperedMarker_Flat'
 
-            case "TaperedMarker":
-            case "d90c6ad8-af0f-4b54-b422-e0f92abe1b3c":
-                return "TaperedMarker";
+            case 'TaperedMarker':
+            case 'd90c6ad8-af0f-4b54-b422-e0f92abe1b3c':
+                return 'TaperedMarker'
 
-            case "ThickPaint":
-            case "75b32cf0-fdd6-4d89-a64b-e2a00b247b0f":
-            case "fdf0326a-c0d1-4fed-b101-9db0ff6d071f":
-                return "ThickPaint";
+            case 'ThickPaint':
+            case '75b32cf0-fdd6-4d89-a64b-e2a00b247b0f':
+            case 'fdf0326a-c0d1-4fed-b101-9db0ff6d071f':
+                return 'ThickPaint'
             
-            case "Toon":
-            case "4391385a-df73-4396-9e33-31e4e4930b27":
-                return "Toon";
+            case 'Toon':
+            case '4391385a-df73-4396-9e33-31e4e4930b27':
+                return 'Toon'
 
-            case "UnlitHull":
-            case "a8fea537-da7c-4d4b-817f-24f074725d6d":
-                return "UnlitHull";
+            case 'UnlitHull':
+            case 'a8fea537-da7c-4d4b-817f-24f074725d6d':
+                return 'UnlitHull'
             
-            case "VelvetInk":
-            case "d229d335-c334-495a-a801-660ac8a87360":
-                return "VelvetInk";
+            case 'VelvetInk':
+            case 'd229d335-c334-495a-a801-660ac8a87360':
+                return 'VelvetInk'
 
-            case "Waveform":
-            case "10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab":
-                return "Waveform";
+            case 'Waveform':
+            case '10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab':
+                return 'Waveform'
 
-            case "WetPaint":
-            case "b67c0e81-ce6d-40a8-aeb0-ef036b081aa3":
-            case "dea67637-cd1a-27e4-c9b1-52f4bbcb84e5":
-                return "WetPaint";
+            case 'WetPaint':
+            case 'b67c0e81-ce6d-40a8-aeb0-ef036b081aa3':
+            case 'dea67637-cd1a-27e4-c9b1-52f4bbcb84e5':
+                return 'WetPaint'
 
-            case "WigglyGraphite":
-            case "5347acf0-a8e2-47b6-8346-30c70719d763":
-            case "e814fef1-97fd-7194-4a2f-50c2bb918be2":
-                return "WigglyGraphite";
+            case 'WigglyGraphite':
+            case '5347acf0-a8e2-47b6-8346-30c70719d763':
+            case 'e814fef1-97fd-7194-4a2f-50c2bb918be2':
+                return 'WigglyGraphite'
 
-            case "Wire":
-            case "4391385a-cf83-4396-9e33-31e4e4930b27":
-                return "Wire";
+            case 'Wire':
+            case '4391385a-cf83-4396-9e33-31e4e4930b27':
+                return 'Wire'
 
             // Experimental brushes
 
-            case "cf3401b3-4ada-4877-995a-1aa64e7b604a":
-            case "SvgTemplate":
-                return "SvgTemplate";
+            case 'cf3401b3-4ada-4877-995a-1aa64e7b604a':
+            case 'SvgTemplate':
+                return 'SvgTemplate'
 
-            case "1b897b7e-9b76-425a-b031-a867c48df409":
-            case "4465b5ef-3605-bec4-2b3e-6b04508ddb6b":
-            case "Gouache":
-                return "Gouache";
+            case '1b897b7e-9b76-425a-b031-a867c48df409':
+            case '4465b5ef-3605-bec4-2b3e-6b04508ddb6b':
+            case 'Gouache':
+                return 'Gouache'
 
-            case "8e58ceea-7830-49b4-aba9-6215104ab52a":
-            case "MylarTube":
-                return "MylarTube";
+            case '8e58ceea-7830-49b4-aba9-6215104ab52a':
+            case 'MylarTube':
+                return 'MylarTube'
 
-            case "03a529e1-f519-3dd4-582d-2d5cd92c3f4f":
-            case "Rain":
-                return "Rain";
+            case '03a529e1-f519-3dd4-582d-2d5cd92c3f4f':
+            case 'Rain':
+                return 'Rain'
 
-            case "725f4c6a-6427-6524-29ab-da371924adab":
-            case "DryBrush":
-                return "DryBrush";
+            case '725f4c6a-6427-6524-29ab-da371924adab':
+            case 'DryBrush':
+                return 'DryBrush'
 
-            case "ddda8745-4bb5-ac54-88b6-d1480370583e":
-            case "LeakyPen":
-                return "LeakyPen";
+            case 'ddda8745-4bb5-ac54-88b6-d1480370583e':
+            case 'LeakyPen':
+                return 'LeakyPen'
 
-            case "50e99447-3861-05f4-697d-a1b96e771b98":
-            case "Sparks":
-                return "Sparks";
+            case '50e99447-3861-05f4-697d-a1b96e771b98':
+            case 'Sparks':
+                return 'Sparks'
 
-            case "7136a729-1aab-bd24-f8b2-ca88b6adfb67":
-            case "Wind":
-                return "Wind";
+            case '7136a729-1aab-bd24-f8b2-ca88b6adfb67':
+            case 'Wind':
+                return 'Wind'
 
-            case "a8147ce1-005e-abe4-88e8-09a1eaadcc89":
-            case "Rising Bubbles":
-                return "Rising Bubbles";
+            case 'a8147ce1-005e-abe4-88e8-09a1eaadcc89':
+            case 'Rising Bubbles':
+                return 'Rising Bubbles'
 
-            case "9568870f-8594-60f4-1b20-dfbc8a5eac0e":
-            case "TaperedWire":
-                return "TaperedWire";
+            case '9568870f-8594-60f4-1b20-dfbc8a5eac0e':
+            case 'TaperedWire':
+                return 'TaperedWire'
 
-            case "2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa":
-            case "SquarePaper":
-                return "SquarePaper";
+            case '2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa':
+            case 'SquarePaper':
+                return 'SquarePaper'
 
-            case "39ee7377-7a9e-47a7-a0f8-0c77712f75d3":
-            case "ThickGeometry":
-                return "ThickGeometry";
+            case '39ee7377-7a9e-47a7-a0f8-0c77712f75d3':
+            case 'ThickGeometry':
+                return 'ThickGeometry'
 
-            case "2c1a6a63-6552-4d23-86d7-58f6fba8581b":
-            case "Wireframe":
-                return "Wireframe";
+            case '2c1a6a63-6552-4d23-86d7-58f6fba8581b':
+            case 'Wireframe':
+                return 'Wireframe'
 
-            case "61d2ef63-ed60-49b3-85fb-7267b7d234f2":
-            case "CandyCane":
-                return "CandyCane";
+            case '61d2ef63-ed60-49b3-85fb-7267b7d234f2':
+            case 'CandyCane':
+                return 'CandyCane'
 
-            case "20a0bf1a-a96e-44e5-84ac-9823d2d65023":
-            case "HolidayTree":
-                return "HolidayTree";
+            case '20a0bf1a-a96e-44e5-84ac-9823d2d65023':
+            case 'HolidayTree':
+                return 'HolidayTree'
 
-            case "2b65cd94-9259-4f10-99d2-d54b6664ac33":
-            case "Snowflake":
-                return "Snowflake";
+            case '2b65cd94-9259-4f10-99d2-d54b6664ac33':
+            case 'Snowflake':
+                return 'Snowflake'
 
-            case "22d4f434-23e4-49d9-a9bd-05798aa21e58":
-            case "Braid3":
-                return "Braid3";
+            case '22d4f434-23e4-49d9-a9bd-05798aa21e58':
+            case 'Braid3':
+                return 'Braid3'
 
-            case "f28c395c-a57d-464b-8f0b-558c59478fa3":
-            case "Muscle":
-                return "Muscle";
+            case 'f28c395c-a57d-464b-8f0b-558c59478fa3':
+            case 'Muscle':
+                return 'Muscle'
 
-            case "99aafe96-1645-44cd-99bd-979bc6ef37c5":
-            case "Guts":
-                return "Guts";
+            case '99aafe96-1645-44cd-99bd-979bc6ef37c5':
+            case 'Guts':
+                return 'Guts'
 
-            case "53d753ef-083c-45e1-98e7-4459b4471219":
-            case "Fire2":
-                return "Fire2";
+            case '53d753ef-083c-45e1-98e7-4459b4471219':
+            case 'Fire2':
+                return 'Fire2'
 
-            case "9871385a-df73-4396-9e33-31e4e4930b27":
-            case "TubeToonInverted":
-                return "TubeToonInverted";
+            case '9871385a-df73-4396-9e33-31e4e4930b27':
+            case 'TubeToonInverted':
+                return 'TubeToonInverted'
 
-            case "4391ffaa-df73-4396-9e33-31e4e4930b27":
-            case "FacetedTube":
-                return "FacetedTube";
+            case '4391ffaa-df73-4396-9e33-31e4e4930b27':
+            case 'FacetedTube':
+                return 'FacetedTube'
 
-            case "6a1cf9f9-032c-45ec-9b6e-a6680bee30f7":
-            case "WaveformParticles":
-                return "WaveformParticles";
+            case '6a1cf9f9-032c-45ec-9b6e-a6680bee30f7':
+            case 'WaveformParticles':
+                return 'WaveformParticles'
 
-            case "eba3f993-f9a1-4d35-b84e-bb08f48981a4":
-            case "BubbleWand":
-                return "BubbleWand";
+            case 'eba3f993-f9a1-4d35-b84e-bb08f48981a4':
+            case 'BubbleWand':
+                return 'BubbleWand'
 
-            case "6a1cf9f9-032c-45ec-311e-a6680bee32e9":
-            case "DanceFloor":
-                return "DanceFloor";
+            case '6a1cf9f9-032c-45ec-311e-a6680bee32e9':
+            case 'DanceFloor':
+                return 'DanceFloor'
 
-            case "0f5820df-cb6b-4a6c-960e-56e4c8000eda":
-            case "WaveformTube":
-                return "WaveformTube";
+            case '0f5820df-cb6b-4a6c-960e-56e4c8000eda':
+            case 'WaveformTube':
+                return 'WaveformTube'
 
-            case "492b36ff-b337-436a-ba5f-1e87ee86747e":
-            case "Drafting":
-                return "Drafting";
+            case '492b36ff-b337-436a-ba5f-1e87ee86747e':
+            case 'Drafting':
+                return 'Drafting'
 
-            case "f0a2298a-be80-432c-9fee-a86dcc06f4f9":
-            case "SingleSided":
-                return "SingleSided";
+            case 'f0a2298a-be80-432c-9fee-a86dcc06f4f9':
+            case 'SingleSided':
+                return 'SingleSided'
 
-            case "f4a0550c-332a-4e1a-9793-b71508f4a454":
-            case "DoubleFlat":
-                return "DoubleFlat";
+            case 'f4a0550c-332a-4e1a-9793-b71508f4a454':
+            case 'DoubleFlat':
+                return 'DoubleFlat'
 
-            case "c1c9b26d-673a-4dc6-b373-51715654ab96":
-            case "TubeAdditive":
-                return "TubeAdditive";
+            case 'c1c9b26d-673a-4dc6-b373-51715654ab96':
+            case 'TubeAdditive':
+                return 'TubeAdditive'
 
-            case "a555b809-2017-46cb-ac26-e63173d8f45e":
-            case "Feather":
-                return "Feather";
+            case 'a555b809-2017-46cb-ac26-e63173d8f45e':
+            case 'Feather':
+                return 'Feather'
 
-            case "84d5bbb2-6634-8434-f8a7-681b576b4664":
-            case "DuctTapeGeometry":
-                return "DuctTapeGeometry";
+            case '84d5bbb2-6634-8434-f8a7-681b576b4664':
+            case 'DuctTapeGeometry':
+                return 'DuctTapeGeometry'
 
-            case "3d9755da-56c7-7294-9b1d-5ec349975f52":
-            case "TaperedHueShift":
-                return "TaperedHueShift";
+            case '3d9755da-56c7-7294-9b1d-5ec349975f52':
+            case 'TaperedHueShift':
+                return 'TaperedHueShift'
 
-            case "1cf94f63-f57a-4a1a-ad14-295af4f5ab5c":
-            case "Lacewing":
-                return "Lacewing";
+            case '1cf94f63-f57a-4a1a-ad14-295af4f5ab5c':
+            case 'Lacewing':
+                return 'Lacewing'
 
-            case "c86c058d-1bda-2e94-08db-f3d6a96ac4a1":
-            case "Marbled Rainbow":
-                return "Marbled Rainbow";
+            case 'c86c058d-1bda-2e94-08db-f3d6a96ac4a1':
+            case 'Marbled Rainbow':
+                return 'Marbled Rainbow'
 
-            case "fde6e778-0f7a-e584-38d6-89d44cee59f6":
-            case "Charcoal":
-                return "Charcoal";
+            case 'fde6e778-0f7a-e584-38d6-89d44cee59f6':
+            case 'Charcoal':
+                return 'Charcoal'
 
-            case "f8ba3d18-01fc-4d7b-b2d9-b99d10b8e7cf":
-            case "KeijiroTube":
-                return "KeijiroTube";
+            case 'f8ba3d18-01fc-4d7b-b2d9-b99d10b8e7cf':
+            case 'KeijiroTube':
+                return 'KeijiroTube'
 
-            case "c5da2e70-a6e4-63a4-898c-5cfedef09c97":
-            case "Lofted (Hue Shift)":
-                return "Lofted (Hue Shift)";
+            case 'c5da2e70-a6e4-63a4-898c-5cfedef09c97':
+            case 'Lofted (Hue Shift)':
+                return 'Lofted (Hue Shift)'
 
-            case "62fef968-e842-3224-4a0e-1fdb7cfb745c":
-            case "Wire (Lit)":
-                return "Wire (Lit)";
+            case '62fef968-e842-3224-4a0e-1fdb7cfb745c':
+            case 'Wire (Lit)':
+                return 'Wire (Lit)'
 
-            case "d120944d-772f-4062-99c6-46a6f219eeaf":
-            case "WaveformFFT":
-                return "WaveformFFT";
+            case 'd120944d-772f-4062-99c6-46a6f219eeaf':
+            case 'WaveformFFT':
+                return 'WaveformFFT'
 
-            case "d9cc5e99-ace1-4d12-96e0-4a7c18c99cfc":
-            case "Fairy":
-                return "Fairy";
+            case 'd9cc5e99-ace1-4d12-96e0-4a7c18c99cfc':
+            case 'Fairy':
+                return 'Fairy'
 
-            case "bdf65db2-1fb7-4202-b5e0-c6b5e3ea851e":
-            case "Space":
-                return "Space";
+            case 'bdf65db2-1fb7-4202-b5e0-c6b5e3ea851e':
+            case 'Space':
+                return 'Space'
 
-            case "355b3579-bf1d-4ff5-a200-704437fe684b":
-            case "SmoothHull":
-                return "SmoothHull";
+            case '355b3579-bf1d-4ff5-a200-704437fe684b':
+            case 'SmoothHull':
+                return 'SmoothHull'
 
-            case "7259cce5-41c1-ec74-c885-78af28a31d95":
-            case "Leaves2":
-                return "Leaves2";
+            case '7259cce5-41c1-ec74-c885-78af28a31d95':
+            case 'Leaves2':
+                return 'Leaves2'
 
-            case "7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb":
-            case "InkGeometry":
-                return "InkGeometry";
+            case '7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb':
+            case 'InkGeometry':
+                return 'InkGeometry'
 
-            case "7ae1f880-a517-44a0-99f9-1cab654498c6":
-            case "ConcaveHull":
-                return "ConcaveHull";
+            case '7ae1f880-a517-44a0-99f9-1cab654498c6':
+            case 'ConcaveHull':
+                return 'ConcaveHull'
 
-            case "d3f3b18a-da03-f694-b838-28ba8e749a98":
-            case "3D Printing Brush":
-                return "3D Printing Brush";
+            case 'd3f3b18a-da03-f694-b838-28ba8e749a98':
+            case '3D Printing Brush':
+                return '3D Printing Brush'
 
-            case "cc131ff8-0d17-4677-93e0-d7cd19fea9ac":
-            case "PassthroughHull":
-                return "PassthroughHull";
+            case 'cc131ff8-0d17-4677-93e0-d7cd19fea9ac':
+            case 'PassthroughHull':
+                return 'PassthroughHull'
 
-            case "b3e7f8c2-4d5a-1e9b-6c8f-3a7d2f1e9c4b":
-            case "QuillCube":
-                return "QuillCube";
+            case 'b3e7f8c2-4d5a-1e9b-6c8f-3a7d2f1e9c4b':
+            case 'QuillCube':
+                return 'QuillCube'
 
-            case "f1c4e3e7-2a9f-4b5d-8c3e-7d9a1f8e6b4c":
-            case "QuillCylinder":
-                return "QuillCylinder";
+            case 'f1c4e3e7-2a9f-4b5d-8c3e-7d9a1f8e6b4c':
+            case 'QuillCylinder':
+                return 'QuillCylinder'
 
-            case "a2d5f6b8-9c1e-4f3a-7b8d-2e6c9f4a1d5b":
-            case "QuillEllipse":
-                return "QuillEllipse";
+            case 'a2d5f6b8-9c1e-4f3a-7b8d-2e6c9f4a1d5b':
+            case 'QuillEllipse':
+                return 'QuillEllipse'
 
-            case "c4f8b3e2-9d1a-5e7f-4c3b-8a6d2f9e1c7b":
-            case "QuillRibbon":
-                return "QuillRibbon";
+            case 'c4f8b3e2-9d1a-5e7f-4c3b-8a6d2f9e1c7b':
+            case 'QuillRibbon':
+                return 'QuillRibbon'
 
         }
     }
 }
 
 const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
-    "BlocksBasic" : {
+    'BlocksBasic' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -742,7 +742,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "BlocksGem" : {
+    'BlocksGem' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -765,7 +765,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "BlocksGlass" : {
+    'BlocksGlass' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -786,7 +786,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Bubbles" : {
+    'Bubbles' : {
         uniforms: {
             u_time: { value: new THREE.Vector4() },
             u_ScrollRate: { value: 0.5 },
@@ -794,7 +794,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_ScrollJitterFrequency: { value: 0.2 },
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Bubbles-89d104cd-d012-426b-b5b3-bbaee63ac43c/Bubbles-89d104cd-d012-426b-b5b3-bbaee63ac43c-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Bubbles-89d104cd-d012-426b-b5b3-bbaee63ac43c/Bubbles-89d104cd-d012-426b-b5b3-bbaee63ac43c-v10.0-MainTex.png' },
         },
         side: 2,
         transparent: true,
@@ -803,12 +803,12 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "CelVinyl" : {
+    'CelVinyl' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_Cutoff: { value: 0.554 },
-            u_MainTex: { value: "CelVinyl-700f3aa8-9a7c-2384-8b8a-ea028905dd8c/CelVinyl-700f3aa8-9a7c-2384-8b8a-ea028905dd8c-v10.0-MainTex.png" },
+            u_MainTex: { value: 'CelVinyl-700f3aa8-9a7c-2384-8b8a-ea028905dd8c/CelVinyl-700f3aa8-9a7c-2384-8b8a-ea028905dd8c-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
         },
@@ -819,7 +819,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "ChromaticWave" : {
+    'ChromaticWave' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -842,14 +842,14 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blendSrcAlpha: 201,
         blendSrc: 201
     },
-    "CoarseBristles" : {
+    'CoarseBristles' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_ambient_light_color: { value: new THREE.Vector4(0.3922, 0.3922, 0.3922, 1) },
             u_SceneLight_0_color: { value: new THREE.Vector4(0.7780, 0.8157, 0.9914, 1) },
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
-            u_MainTex: { value: "CoarseBristles-1161af82-50cf-47db-9706-0c3576d43c43/CoarseBristles-1161af82-50cf-47db-9706-0c3576d43c43-v10.0-MainTex.png" },
+            u_MainTex: { value: 'CoarseBristles-1161af82-50cf-47db-9706-0c3576d43c43/CoarseBristles-1161af82-50cf-47db-9706-0c3576d43c43-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.25 },
             u_A2CEnabled: { value: 1.0 },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
@@ -862,12 +862,12 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 1
     },
-    "Comet" : {
+    'Comet' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Comet-1caa6d7d-f015-3f54-3a4b-8b5354d39f81/Comet-1caa6d7d-f015-3f54-3a4b-8b5354d39f81-v10.0-MainTex.png" },
-            u_AlphaMask: { value: "Comet-1caa6d7d-f015-3f54-3a4b-8b5354d39f81/Comet-1caa6d7d-f015-3f54-3a4b-8b5354d39f81-v10.0-AlphaMask.png" },
+            u_MainTex: { value: 'Comet-1caa6d7d-f015-3f54-3a4b-8b5354d39f81/Comet-1caa6d7d-f015-3f54-3a4b-8b5354d39f81-v10.0-MainTex.png' },
+            u_AlphaMask: { value: 'Comet-1caa6d7d-f015-3f54-3a4b-8b5354d39f81/Comet-1caa6d7d-f015-3f54-3a4b-8b5354d39f81-v10.0-AlphaMask.png' },
             u_AlphaMask_TexelSize: { value: new THREE.Vector4(0.0156, 1, 64, 1)},
             u_time: { value: new THREE.Vector4() },
             u_Speed: { value: 1 },
@@ -882,14 +882,14 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "DiamondHull" : {
+    'DiamondHull' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_ambient_light_color: { value: new THREE.Vector4(0.3922, 0.3922, 0.3922, 1) },
             u_SceneLight_0_color: { value: new THREE.Vector4(0.7780, 0.8157, 0.9914, 1) },
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
-            u_MainTex: { value: "DiamondHull-c8313697-2563-47fc-832e-290f4c04b901/DiamondHull-c8313697-2563-47fc-832e-290f4c04b901-v10.0-MainTex.png" },
+            u_MainTex: { value: 'DiamondHull-c8313697-2563-47fc-832e-290f4c04b901/DiamondHull-c8313697-2563-47fc-832e-290f4c04b901-v10.0-MainTex.png' },
             u_time: { value: new THREE.Vector4() },
             cameraPosition: { value: new THREE.Vector3() },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
@@ -908,7 +908,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blendSrcAlpha: 201,
         blendSrc: 201
     },
-    "Disco" : {
+    'Disco' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -928,11 +928,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "DotMarker" : {
+    'DotMarker' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "DotMarker-d1d991f2-e7a0-4cf1-b328-f57e915e6260/DotMarker-d1d991f2-e7a0-4cf1-b328-f57e915e6260-v10.0-MainTex.png" },
+            u_MainTex: { value: 'DotMarker-d1d991f2-e7a0-4cf1-b328-f57e915e6260/DotMarker-d1d991f2-e7a0-4cf1-b328-f57e915e6260-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 }
         },
@@ -944,11 +944,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blending: 0
         
     },
-    "Dots" : {
+    'Dots' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Dots-6a1cf9f9-032c-45ec-9b1d-a6680bee30f7/Dots-6a1cf9f9-032c-45ec-9b1d-a6680bee30f7-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Dots-6a1cf9f9-032c-45ec-9b1d-a6680bee30f7/Dots-6a1cf9f9-032c-45ec-9b1d-a6680bee30f7-v10.0-MainTex.png' },
             u_TintColor: { value: new THREE.Vector4(1, 1, 1, 1) },
             u_EmissionGain: { value: 300 },
             u_BaseGain: { value: 0.4 }
@@ -960,7 +960,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "DoubleTaperedFlat" : {
+    'DoubleTaperedFlat' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -979,7 +979,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "DoubleTaperedMarker" : {
+    'DoubleTaperedMarker' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -993,7 +993,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "DuctTape" : {
+    'DuctTape' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1002,11 +1002,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_SpecColor: { value: new THREE.Vector3(0.5372549, 0.5372549, 0.5372549) },
             u_Shininess: { value: 0.414 },
-            u_MainTex: { value: "DuctTape-3ca16e2f-bdcd-4da2-8631-dcef342f40f1/DuctTape-3ca16e2f-bdcd-4da2-8631-dcef342f40f1-v10.0-MainTex.png" },
+            u_MainTex: { value: 'DuctTape-3ca16e2f-bdcd-4da2-8631-dcef342f40f1/DuctTape-3ca16e2f-bdcd-4da2-8631-dcef342f40f1-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.2 },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "DuctTape-3ca16e2f-bdcd-4da2-8631-dcef342f40f1/DuctTape-3ca16e2f-bdcd-4da2-8631-dcef342f40f1-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'DuctTape-3ca16e2f-bdcd-4da2-8631-dcef342f40f1/DuctTape-3ca16e2f-bdcd-4da2-8631-dcef342f40f1-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
         },
         side: 2,
@@ -1016,7 +1016,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Electricity" : {
+    'Electricity' : {
         uniforms: {
             u_time: { value: new THREE.Vector4() },
             u_DisplacementIntensity: { value: 2.0 },
@@ -1029,7 +1029,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Embers" : {
+    'Embers' : {
         uniforms: {
             u_time: { value: new THREE.Vector4() },
             u_ScrollRate: { value: 0.6 },
@@ -1037,7 +1037,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_ScrollJitterIntensity: { value: 0.03 },
             u_ScrollJitterFrequency: { value: 5 },
             u_TintColor: { value: new THREE.Vector4(1, 1, 1, 1) },
-            u_MainTex: { value: "Embers-02ffb866-7fb2-4d15-b761-1012cefb1360/Embers-02ffb866-7fb2-4d15-b761-1012cefb1360-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Embers-02ffb866-7fb2-4d15-b761-1012cefb1360/Embers-02ffb866-7fb2-4d15-b761-1012cefb1360-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.2 }
         },
         side: 2,
@@ -1047,7 +1047,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "EnvironmentDiffuse" : {
+    'EnvironmentDiffuse' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1067,7 +1067,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "EnvironmentDiffuseLightMap" : {
+    'EnvironmentDiffuseLightMap' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1087,11 +1087,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Fire" : {
+    'Fire' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Fire-cb92b597-94ca-4255-b017-0e3f42f12f9e/Fire-cb92b597-94ca-4255-b017-0e3f42f12f9e-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Fire-cb92b597-94ca-4255-b017-0e3f42f12f9e/Fire-cb92b597-94ca-4255-b017-0e3f42f12f9e-v10.0-MainTex.png' },
             u_time: { value: new THREE.Vector4() },
             u_EmissionGain: { value: 0.5 }
         },
@@ -1108,7 +1108,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blendSrcAlpha: 201,
         blendSrc: 201
     },
-    "Flat" : {
+    'Flat' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1126,11 +1126,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Highlighter" : {
+    'Highlighter' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Highlighter-cf019139-d41c-4eb0-a1d0-5cf54b0a42f3/Highlighter-cf019139-d41c-4eb0-a1d0-5cf54b0a42f3-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Highlighter-cf019139-d41c-4eb0-a1d0-5cf54b0a42f3/Highlighter-cf019139-d41c-4eb0-a1d0-5cf54b0a42f3-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.12 }
         },
         side: 2,
@@ -1140,7 +1140,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Hypercolor" : {
+    'Hypercolor' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1149,12 +1149,12 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_Shininess: { value: 0.5 },
             u_SpecColor: { value: new THREE.Vector3(0.2745098, 0.2745098, 0.2745098) },
-            u_MainTex: { value: "Hypercolor-dce872c2-7b49-4684-b59b-c45387949c5c/Hypercolor-dce872c2-7b49-4684-b59b-c45387949c5c-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Hypercolor-dce872c2-7b49-4684-b59b-c45387949c5c/Hypercolor-dce872c2-7b49-4684-b59b-c45387949c5c-v10.0-MainTex.png' },
             u_time: { value: new THREE.Vector4() },
             u_Cutoff: { value: 0.5 },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Hypercolor-dce872c2-7b49-4684-b59b-c45387949c5c/Hypercolor-dce872c2-7b49-4684-b59b-c45387949c5c-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Hypercolor-dce872c2-7b49-4684-b59b-c45387949c5c/Hypercolor-dce872c2-7b49-4684-b59b-c45387949c5c-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
         },
         side: 2,
@@ -1164,12 +1164,12 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "HyperGrid" : {
+    'HyperGrid' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_TintColor: { value: new THREE.Vector4(1, 1, 1, 1) },
-            u_MainTex: { value: "HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9/HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9-v10.0-MainTex.png" }
+            u_MainTex: { value: 'HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9/HyperGrid-6a1cf9f9-032c-45ec-9b6e-a6680bee32e9-v10.0-MainTex.png' }
         },
         side: 2,
         transparent: true,
@@ -1178,7 +1178,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Icing" : {
+    'Icing' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1188,10 +1188,10 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SpecColor: { value: new THREE.Vector3(0.2352941, 0.2352941, 0.2352941) },
             u_Shininess: { value: 0.1500 },
             u_Cutoff: { value: 0.5 },
-            u_MainTex: { value: "Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-BumpMap.png" },
+            u_MainTex: { value: 'Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-BumpMap.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37/Icing-2f212815-f4d3-c1a4-681a-feeaf9c6dc37-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
         },
         side: 0,
@@ -1201,7 +1201,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Ink" : {
+    'Ink' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1211,10 +1211,10 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SpecColor: { value: new THREE.Vector3(0.2352941, 0.2352941, 0.2352941) },
             u_Shininess: { value: 0.4 },
             u_Cutoff: { value: 0.5 },
-            u_MainTex: { value: "Ink-c0012095-3ffd-4040-8ee1-fc180d346eaa/Ink-c0012095-3ffd-4040-8ee1-fc180d346eaa-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Ink-c0012095-3ffd-4040-8ee1-fc180d346eaa/Ink-c0012095-3ffd-4040-8ee1-fc180d346eaa-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Ink-c0012095-3ffd-4040-8ee1-fc180d346eaa/Ink-c0012095-3ffd-4040-8ee1-fc180d346eaa-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Ink-c0012095-3ffd-4040-8ee1-fc180d346eaa/Ink-c0012095-3ffd-4040-8ee1-fc180d346eaa-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
         },
         side: 2,
@@ -1224,7 +1224,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Leaves" : {
+    'Leaves' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1234,10 +1234,10 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SpecColor: { value: new THREE.Vector3(0, 0, 0) },
             u_Shininess: { value: 0.395 },
             u_Cutoff: { value: 0.5 },
-            u_MainTex: { value: "Leaves-ea19de07-d0c0-4484-9198-18489a3c1487/Leaves-ea19de07-d0c0-4484-9198-18489a3c1487-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Leaves-ea19de07-d0c0-4484-9198-18489a3c1487/Leaves-ea19de07-d0c0-4484-9198-18489a3c1487-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Leaves-ea19de07-d0c0-4484-9198-18489a3c1487/Leaves-ea19de07-d0c0-4484-9198-18489a3c1487-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Leaves-ea19de07-d0c0-4484-9198-18489a3c1487/Leaves-ea19de07-d0c0-4484-9198-18489a3c1487-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
         },
         // Preview fragment calls SurfaceShaderInternal / ShShaderWithSpec (no bump).
@@ -1248,11 +1248,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Light" : {
+    'Light' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62/Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62/Light-2241cd32-8ba2-48a5-9ee7-2caef7e9ed62-v10.0-MainTex.png' },
             u_EmissionGain: { value: 0.45 },
         },
         side: 2,
@@ -1268,7 +1268,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blendSrcAlpha: 201,
         blendSrc: 201,
     },
-    "LightWire" : {
+    'LightWire' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1280,7 +1280,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_time: { value: new THREE.Vector4() },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_MainTex: { value: "LightWire-4391aaaa-df81-4396-9e33-31e4e4930b27/LightWire-4391aaaa-df81-4396-9e33-31e4e4930b27-v10.0-MainTex.png"}
+            u_MainTex: { value: 'LightWire-4391aaaa-df81-4396-9e33-31e4e4930b27/LightWire-4391aaaa-df81-4396-9e33-31e4e4930b27-v10.0-MainTex.png'}
         },
         side: 0,
         transparent: false,
@@ -1289,7 +1289,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Lofted" : {
+    'Lofted' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1306,11 +1306,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Marker" : {
+    'Marker' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Marker-429ed64a-4e97-4466-84d3-145a861ef684/Marker-429ed64a-4e97-4466-84d3-145a861ef684-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Marker-429ed64a-4e97-4466-84d3-145a861ef684/Marker-429ed64a-4e97-4466-84d3-145a861ef684-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.067 },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
@@ -1323,7 +1323,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blending: 0
         
     },
-    "MatteHull" : {
+    'MatteHull' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1341,7 +1341,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "NeonPulse" : {
+    'NeonPulse' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1363,7 +1363,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blendSrcAlpha: 201,
         blendSrc: 201
     },
-    "OilPaint": {
+    'OilPaint': {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1373,10 +1373,10 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SpecColor: { value: new THREE.Vector3(0.2352941, 0.2352941, 0.2352941) },
             u_Shininess: { value: 0.4 },
             u_Cutoff: { value: 0.5 },
-            u_MainTex: { value: "OilPaint-f72ec0e7-a844-4e38-82e3-140c44772699/OilPaint-f72ec0e7-a844-4e38-82e3-140c44772699-v10.0-MainTex.png" },
+            u_MainTex: { value: 'OilPaint-f72ec0e7-a844-4e38-82e3-140c44772699/OilPaint-f72ec0e7-a844-4e38-82e3-140c44772699-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "OilPaint-f72ec0e7-a844-4e38-82e3-140c44772699/OilPaint-f72ec0e7-a844-4e38-82e3-140c44772699-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'OilPaint-f72ec0e7-a844-4e38-82e3-140c44772699/OilPaint-f72ec0e7-a844-4e38-82e3-140c44772699-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0020, 0.0020, 512, 512) },
         },
         side: 2,
@@ -1386,7 +1386,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Paper" : {
+    'Paper' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1396,10 +1396,10 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SpecColor: { value: new THREE.Vector3(0, 0, 0) },
             u_Shininess: { value: 0.145 },
             u_Cutoff: { value: 0.16 },
-            u_MainTex: { value: "Paper-759f1ebd-20cd-4720-8d41-234e0da63716/Paper-759f1ebd-20cd-4720-8d41-234e0da63716-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Paper-759f1ebd-20cd-4720-8d41-234e0da63716/Paper-759f1ebd-20cd-4720-8d41-234e0da63716-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Paper-759f1ebd-20cd-4720-8d41-234e0da63716/Paper-759f1ebd-20cd-4720-8d41-234e0da63716-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Paper-759f1ebd-20cd-4720-8d41-234e0da63716/Paper-759f1ebd-20cd-4720-8d41-234e0da63716-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
         },
         side: 2,
@@ -1409,7 +1409,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "PbrTemplate" : {
+    'PbrTemplate' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1430,7 +1430,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "PbrTransparentTemplate" : {
+    'PbrTransparentTemplate' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1452,7 +1452,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Petal" : {
+    'Petal' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1472,11 +1472,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blending: 0
     },
     // How did an experimental brush end up here?
-    "Plasma" : {
+    'Plasma' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Plasma-c33714d1-b2f9-412e-bd50-1884c9d46336/Plasma-c33714d1-b2f9-412e-bd50-1884c9d46336-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Plasma-c33714d1-b2f9-412e-bd50-1884c9d46336/Plasma-c33714d1-b2f9-412e-bd50-1884c9d46336-v10.0-MainTex.png' },
             u_MainTex_ST: { value: new THREE.Vector4(0.5, 1.0, 0.0, 0.0) },
             u_time: { value: new THREE.Vector4() }
         },
@@ -1487,7 +1487,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Rainbow" : {
+    'Rainbow' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1507,7 +1507,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blendSrcAlpha: 201,
         blendSrc: 201,
     },
-    "ShinyHull" : {
+    'ShinyHull' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1529,14 +1529,14 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Smoke": {
+    'Smoke': {
         uniforms: {
             u_time: { value: new THREE.Vector4() },
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_ScrollRate: { value: 0.75 },
             u_TintColor: { value: new THREE.Vector4(1, 1, 1, 1) },
-            u_MainTex: { value: "Smoke-70d79cca-b159-4f35-990c-f02193947fe8/Smoke-70d79cca-b159-4f35-990c-f02193947fe8-v10.0-MainTex.png" }
+            u_MainTex: { value: 'Smoke-70d79cca-b159-4f35-990c-f02193947fe8/Smoke-70d79cca-b159-4f35-990c-f02193947fe8-v10.0-MainTex.png' }
         },
         side: 2,
         transparent: true,
@@ -1545,7 +1545,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Snow" : {
+    'Snow' : {
         uniforms: {
             u_time: { value: new THREE.Vector4() },
             u_ScrollRate: { value: 0.2 },
@@ -1553,7 +1553,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_ScrollJitterIntensity: { value: 0.01 },
             u_ScrollJitterFrequency: { value: 12 },
             u_TintColor: { value: new THREE.Vector4(1, 1, 1, 1) },
-            u_MainTex: { value: "Snow-d902ed8b-d0d1-476c-a8de-878a79e3a34c/Snow-d902ed8b-d0d1-476c-a8de-878a79e3a34c-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Snow-d902ed8b-d0d1-476c-a8de-878a79e3a34c/Snow-d902ed8b-d0d1-476c-a8de-878a79e3a34c-v10.0-MainTex.png' },
         },
         side: 2,
         transparent: true,
@@ -1562,11 +1562,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "SoftHighlighter" : {
+    'SoftHighlighter' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b/SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b-v10.0-MainTex.png" },
+            u_MainTex: { value: 'SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b/SoftHighlighter-accb32f5-4509-454f-93f8-1df3fd31df1b-v10.0-MainTex.png' },
         },
         side: 2,
         transparent: true,
@@ -1581,7 +1581,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blendSrcAlpha: 201,
         blendSrc: 201,
     },
-    "Spikes" : {
+    'Spikes' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1598,14 +1598,14 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Splatter" : {
+    'Splatter' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_ambient_light_color: { value: new THREE.Vector4(0.3922, 0.3922, 0.3922, 1) },
             u_SceneLight_0_color: { value: new THREE.Vector4(0.7780, 0.8157, 0.9914, 1) },
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
-            u_MainTex: { value: "Splatter-7a1c8107-50c5-4b70-9a39-421576d6617e/Splatter-7a1c8107-50c5-4b70-9a39-421576d6617e-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Splatter-7a1c8107-50c5-4b70-9a39-421576d6617e/Splatter-7a1c8107-50c5-4b70-9a39-421576d6617e-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.2 },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
@@ -1617,13 +1617,13 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Stars" : {
+    'Stars' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_time: { value: new THREE.Vector4() },
             u_SparkleRate: { value: 5.3 },
-            u_MainTex: { value: "Stars-0eb4db27-3f82-408d-b5a1-19ebd7d5b711/Stars-0eb4db27-3f82-408d-b5a1-19ebd7d5b711-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Stars-0eb4db27-3f82-408d-b5a1-19ebd7d5b711/Stars-0eb4db27-3f82-408d-b5a1-19ebd7d5b711-v10.0-MainTex.png' },
         },
         side: 2,
         transparent: true,
@@ -1632,11 +1632,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Streamers" : {
+    'Streamers' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Streamers-44bb800a-fbc3-4592-8426-94ecb05ddec3/Streamers-44bb800a-fbc3-4592-8426-94ecb05ddec3-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Streamers-44bb800a-fbc3-4592-8426-94ecb05ddec3/Streamers-44bb800a-fbc3-4592-8426-94ecb05ddec3-v10.0-MainTex.png' },
             u_EmissionGain: { value: 0.4 },
             u_time: { value: new THREE.Vector4() },
         },
@@ -1647,11 +1647,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Taffy" : {
+    'Taffy' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "Taffy-0077f88c-d93a-42f3-b59b-b31c50cdb414/Taffy-0077f88c-d93a-42f3-b59b-b31c50cdb414-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Taffy-0077f88c-d93a-42f3-b59b-b31c50cdb414/Taffy-0077f88c-d93a-42f3-b59b-b31c50cdb414-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 }
         },
@@ -1662,14 +1662,14 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "TaperedFlat" : {
+    'TaperedFlat' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_ambient_light_color: { value: new THREE.Vector4(0.3922, 0.3922, 0.3922, 1) },
             u_SceneLight_0_color: { value: new THREE.Vector4(0.7780, 0.8157, 0.9914, 1) },
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
-            u_MainTex: { value: "TaperedFlat-b468c1fb-f254-41ed-8ec9-57030bc5660c/TaperedFlat-b468c1fb-f254-41ed-8ec9-57030bc5660c-v10.0-MainTex.png" },
+            u_MainTex: { value: 'TaperedFlat-b468c1fb-f254-41ed-8ec9-57030bc5660c/TaperedFlat-b468c1fb-f254-41ed-8ec9-57030bc5660c-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.067 },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
@@ -1681,13 +1681,13 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "TaperedMarker" : {
+    'TaperedMarker' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_MainTex: { value: "TaperedMarker-d90c6ad8-af0f-4b54-b422-e0f92abe1b3c\\TaperedMarker-d90c6ad8-af0f-4b54-b422-e0f92abe1b3c-v10.0-MainTex.png" }
+            u_MainTex: { value: 'TaperedMarker-d90c6ad8-af0f-4b54-b422-e0f92abe1b3c\\TaperedMarker-d90c6ad8-af0f-4b54-b422-e0f92abe1b3c-v10.0-MainTex.png' }
         },
         side: 2,
         transparent: false,
@@ -1696,7 +1696,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "TaperedMarker_Flat" : {
+    'TaperedMarker_Flat' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1707,7 +1707,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_Shininess: { value: 0.1500 },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_MainTex: { value: "TaperedMarker_Flat-1a26b8c0-8a07-4f8a-9fac-d2ef36e0cad0/TaperedMarker_Flat-1a26b8c0-8a07-4f8a-9fac-d2ef36e0cad0-v10.0-MainTex.png" },
+            u_MainTex: { value: 'TaperedMarker_Flat-1a26b8c0-8a07-4f8a-9fac-d2ef36e0cad0/TaperedMarker_Flat-1a26b8c0-8a07-4f8a-9fac-d2ef36e0cad0-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.2 }
         },
         side: 2,
@@ -1717,7 +1717,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "ThickPaint" : {
+    'ThickPaint' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1727,10 +1727,10 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SpecColor: { value: new THREE.Vector3(0.2352941, 0.2352941, 0.2352941) },
             u_Shininess: { value: 0.4 },
             u_Cutoff: { value: 0.5 },
-            u_MainTex: { value: "ThickPaint-75b32cf0-fdd6-4d89-a64b-e2a00b247b0f/ThickPaint-75b32cf0-fdd6-4d89-a64b-e2a00b247b0f-v10.0-MainTex.png" },
+            u_MainTex: { value: 'ThickPaint-75b32cf0-fdd6-4d89-a64b-e2a00b247b0f/ThickPaint-75b32cf0-fdd6-4d89-a64b-e2a00b247b0f-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "ThickPaint-75b32cf0-fdd6-4d89-a64b-e2a00b247b0f/ThickPaint-75b32cf0-fdd6-4d89-a64b-e2a00b247b0f-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'ThickPaint-75b32cf0-fdd6-4d89-a64b-e2a00b247b0f/ThickPaint-75b32cf0-fdd6-4d89-a64b-e2a00b247b0f-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
         },
         side: 2,
@@ -1740,7 +1740,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Toon" : {
+    'Toon' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1754,7 +1754,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "UnlitHull" : {
+    'UnlitHull' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1768,11 +1768,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "VelvetInk" : {
+    'VelvetInk' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
-            u_MainTex: { value: "VelvetInk-d229d335-c334-495a-a801-660ac8a87360/VelvetInk-d229d335-c334-495a-a801-660ac8a87360-v10.0-MainTex.png" },
+            u_MainTex: { value: 'VelvetInk-d229d335-c334-495a-a801-660ac8a87360/VelvetInk-d229d335-c334-495a-a801-660ac8a87360-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
         },
@@ -1783,13 +1783,13 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Waveform" : {
+    'Waveform' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_EmissionGain: { value: 0.5178571 },
             u_time: { value: new THREE.Vector4() },
-            u_MainTex: { value: "Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab/Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab/Waveform-10201aa3-ebc2-42d8-84b7-2e63f6eeb8ab-v10.0-MainTex.png' },
         },
         side: 2,
         transparent: true,
@@ -1798,7 +1798,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "WetPaint" : {
+    'WetPaint' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1807,7 +1807,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "WetPaint-b67c0e81-ce6d-40a8-aeb0-ef036b081aa3/WetPaint-b67c0e81-ce6d-40a8-aeb0-ef036b081aa3-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'WetPaint-b67c0e81-ce6d-40a8-aeb0-ef036b081aa3/WetPaint-b67c0e81-ce6d-40a8-aeb0-ef036b081aa3-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -1818,7 +1818,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "WetPaint-b67c0e81-ce6d-40a8-aeb0-ef036b081aa3/WetPaint-b67c0e81-ce6d-40a8-aeb0-ef036b081aa3-v10.0-MainTex.png" },
+            u_MainTex: { value: 'WetPaint-b67c0e81-ce6d-40a8-aeb0-ef036b081aa3/WetPaint-b67c0e81-ce6d-40a8-aeb0-ef036b081aa3-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -1838,7 +1838,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "WigglyGraphite" : {
+    'WigglyGraphite' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1847,7 +1847,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_0_color: { value: new THREE.Vector4(0.7780, 0.8157, 0.9914, 1) },
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_Cutoff: { value: 0.5 },
-            u_MainTex: { value: "WigglyGraphite-5347acf0-a8e2-47b6-8346-30c70719d763/WigglyGraphite-5347acf0-a8e2-47b6-8346-30c70719d763-v10.0-MainTex.png" },
+            u_MainTex: { value: 'WigglyGraphite-5347acf0-a8e2-47b6-8346-30c70719d763/WigglyGraphite-5347acf0-a8e2-47b6-8346-30c70719d763-v10.0-MainTex.png' },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
         },
@@ -1858,7 +1858,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Wire" : {
+    'Wire' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1875,7 +1875,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
 
 
 
-    "SvgTemplate" : {
+    'SvgTemplate' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1896,7 +1896,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Gouache" : {
+    'Gouache' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1905,7 +1905,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Gouache-4465b5ef-3605-bec4-2b3e-6b04508ddb6b/Gouache-4465b5ef-3605-bec4-2b3e-6b04508ddb6b-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Gouache-4465b5ef-3605-bec4-2b3e-6b04508ddb6b/Gouache-4465b5ef-3605-bec4-2b3e-6b04508ddb6b-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -1916,7 +1916,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Gouache-4465b5ef-3605-bec4-2b3e-6b04508ddb6b/Gouache-4465b5ef-3605-bec4-2b3e-6b04508ddb6b-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Gouache-4465b5ef-3605-bec4-2b3e-6b04508ddb6b/Gouache-4465b5ef-3605-bec4-2b3e-6b04508ddb6b-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             // u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -1936,7 +1936,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "MylarTube" : {
+    'MylarTube' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1950,7 +1950,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_DisplacementIntensity: { value: 0.1 },
             u_EmissionGain: { value: 0.25 },
             u_InvFade: { value: 1.0 },
-            u_MainTex: { value: "MylarTube-8e58ceea-7830-49b4-aba9-6215104ab52a/MylarTube-8e58ceea-7830-49b4-aba9-6215104ab52a-v10.0-MainTex.png" },
+            u_MainTex: { value: 'MylarTube-8e58ceea-7830-49b4-aba9-6215104ab52a/MylarTube-8e58ceea-7830-49b4-aba9-6215104ab52a-v10.0-MainTex.png' },
             u_Opacity: { value: 1.0 },
             u_OverrideTime: { value: 0.0 },
             u_Scroll1: { value: 2.0 },
@@ -1972,7 +1972,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Rain" : {
+    'Rain' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -1981,7 +1981,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_AlphaMask: { value: "Rain-03a529e1-f519-3dd4-582d-2d5cd92c3f4f/Rain-03a529e1-f519-3dd4-582d-2d5cd92c3f4f-v10.0-MainTex.png" },
+            u_AlphaMask: { value: 'Rain-03a529e1-f519-3dd4-582d-2d5cd92c3f4f/Rain-03a529e1-f519-3dd4-582d-2d5cd92c3f4f-v10.0-MainTex.png' },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
             u_Cutoff: { value: 0.5 },
@@ -1993,7 +1993,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Rain-03a529e1-f519-3dd4-582d-2d5cd92c3f4f/Rain-03a529e1-f519-3dd4-582d-2d5cd92c3f4f-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Rain-03a529e1-f519-3dd4-582d-2d5cd92c3f4f/Rain-03a529e1-f519-3dd4-582d-2d5cd92c3f4f-v10.0-MainTex.png' },
             u_MainTex_ST: { value: new THREE.Vector4(4.0, 1.0, 0.0, 0.0) }, // Unity tiling (4,1) and offset (0,0)
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
@@ -2019,7 +2019,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "DryBrush" : {
+    'DryBrush' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2028,7 +2028,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "DryBrush-725f4c6a-6427-6524-29ab-da371924adab/DryBrush-725f4c6a-6427-6524-29ab-da371924adab-v10.0-BumpMap.jpg" },
+            u_BumpMap: { value: 'DryBrush-725f4c6a-6427-6524-29ab-da371924adab/DryBrush-725f4c6a-6427-6524-29ab-da371924adab-v10.0-BumpMap.jpg' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -2039,7 +2039,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "DryBrush-725f4c6a-6427-6524-29ab-da371924adab/DryBrush-725f4c6a-6427-6524-29ab-da371924adab-v10.0-MainTex.png" },
+            u_MainTex: { value: 'DryBrush-725f4c6a-6427-6524-29ab-da371924adab/DryBrush-725f4c6a-6427-6524-29ab-da371924adab-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2059,7 +2059,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "LeakyPen" : {
+    'LeakyPen' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2078,14 +2078,14 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
             u_LineColor: { value: new THREE.Vector4(0.151581, 0.62766, 0.941176, 1) },
-            u_MainTex: { value: "LeakyPen-ddda8745-4bb5-ac54-88b6-d1480370583e/LeakyPen-ddda8745-4bb5-ac54-88b6-d1480370583e-v10.0-MainTex.png" },
+            u_MainTex: { value: 'LeakyPen-ddda8745-4bb5-ac54-88b6-d1480370583e/LeakyPen-ddda8745-4bb5-ac54-88b6-d1480370583e-v10.0-MainTex.png' },
             u_MainTex_ST: { value: new THREE.Vector4(1, 1, 0.0, 0.0) },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
             u_Parallax: { value: 0.02 },
             u_Ratio: { value: 0.57 },
-            u_SecondaryTex: { value: "LeakyPen-ddda8745-4bb5-ac54-88b6-d1480370583e/LeakyPen-ddda8745-4bb5-ac54-88b6-d1480370583e-v10.0-SecondaryTex.png" },
+            u_SecondaryTex: { value: 'LeakyPen-ddda8745-4bb5-ac54-88b6-d1480370583e/LeakyPen-ddda8745-4bb5-ac54-88b6-d1480370583e-v10.0-SecondaryTex.png' },
             u_SecondaryTex_ST: { value: new THREE.Vector4(0.3, 0.5, 0.0, 0.0) },
             u_Shininess: { value: 0.01 },
             u_SmoothnessTextureChannel: { value: 0.0 },
@@ -2103,7 +2103,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Sparks" : {
+    'Sparks' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2124,7 +2124,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Sparks-50e99447-3861-05f4-697d-a1b96e771b98/Sparks-50e99447-3861-05f4-697d-a1b96e771b98-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Sparks-50e99447-3861-05f4-697d-a1b96e771b98/Sparks-50e99447-3861-05f4-697d-a1b96e771b98-v10.0-MainTex.png' },
             u_MainTex_ST: { value: new THREE.Vector4(1.0, 1.0, 0.0, 0.0) },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
@@ -2147,7 +2147,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Wind" : {
+    'Wind' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2165,7 +2165,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Wind-7136a729-1aab-bd24-f8b2-ca88b6adfb67/Wind-7136a729-1aab-bd24-f8b2-ca88b6adfb67-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Wind-7136a729-1aab-bd24-f8b2-ca88b6adfb67/Wind-7136a729-1aab-bd24-f8b2-ca88b6adfb67-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2185,7 +2185,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Rising Bubbles" : {
+    'Rising Bubbles' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2205,7 +2205,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Rising Bubbles-a8147ce1-005e-abe4-88e8-09a1eaadcc89/Rising Bubbles-a8147ce1-005e-abe4-88e8-09a1eaadcc89-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Rising Bubbles-a8147ce1-005e-abe4-88e8-09a1eaadcc89/Rising Bubbles-a8147ce1-005e-abe4-88e8-09a1eaadcc89-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2238,7 +2238,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "TaperedWire" : {
+    'TaperedWire' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2256,7 +2256,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "TaperedWire-9568870f-8594-60f4-1b20-dfbc8a5eac0e/TaperedWire-9568870f-8594-60f4-1b20-dfbc8a5eac0e-v10.0-MainTex.png" },
+            u_MainTex: { value: 'TaperedWire-9568870f-8594-60f4-1b20-dfbc8a5eac0e/TaperedWire-9568870f-8594-60f4-1b20-dfbc8a5eac0e-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2276,7 +2276,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "SquarePaper" : {
+    'SquarePaper' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2285,7 +2285,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "SquarePaper-2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa/SquarePaper-2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'SquarePaper-2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa/SquarePaper-2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -2296,7 +2296,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "SquarePaper-2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa/SquarePaper-2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa-v10.0-MainTex.png" },
+            u_MainTex: { value: 'SquarePaper-2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa/SquarePaper-2e03b1bf-3ebd-4609-9d7e-f4cafadc4dfa-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2316,7 +2316,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "ThickGeometry" : {
+    'ThickGeometry' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2325,11 +2325,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_SpecColor: { value: new THREE.Vector3(0.5372549, 0.5372549, 0.5372549) },
             u_Shininess: { value: 0.414 },
-            u_MainTex: { value: "ThickGeometry-39ee7377-7a9e-47a7-a0f8-0c77712f75d3/ThickGeometry-39ee7377-7a9e-47a7-a0f8-0c77712f75d3-v10.0-MainTex.png" },
+            u_MainTex: { value: 'ThickGeometry-39ee7377-7a9e-47a7-a0f8-0c77712f75d3/ThickGeometry-39ee7377-7a9e-47a7-a0f8-0c77712f75d3-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.2 },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "ThickGeometry-39ee7377-7a9e-47a7-a0f8-0c77712f75d3/ThickGeometry-39ee7377-7a9e-47a7-a0f8-0c77712f75d3-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'ThickGeometry-39ee7377-7a9e-47a7-a0f8-0c77712f75d3/ThickGeometry-39ee7377-7a9e-47a7-a0f8-0c77712f75d3-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
         },
         side: 0,
@@ -2339,7 +2339,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "Wireframe" : {
+    'Wireframe' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2356,7 +2356,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Muscle" : {
+    'Muscle' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2365,7 +2365,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Muscle-f28c395c-a57d-464b-8f0b-558c59478fa3/Muscle-f28c395c-a57d-464b-8f0b-558c59478fa3-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Muscle-f28c395c-a57d-464b-8f0b-558c59478fa3/Muscle-f28c395c-a57d-464b-8f0b-558c59478fa3-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -2376,7 +2376,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.305 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Muscle-f28c395c-a57d-464b-8f0b-558c59478fa3/Muscle-f28c395c-a57d-464b-8f0b-558c59478fa3-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Muscle-f28c395c-a57d-464b-8f0b-558c59478fa3/Muscle-f28c395c-a57d-464b-8f0b-558c59478fa3-v10.0-MainTex.png' },
             u_MainTex_ST: { value: new THREE.Vector4(0.25, 1.0, 0.0, 0.0) },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
@@ -2397,7 +2397,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Guts" : {
+    'Guts' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2406,7 +2406,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Guts-99aafe96-1645-44cd-99bd-979bc6ef37c5/Guts-99aafe96-1645-44cd-99bd-979bc6ef37c5-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Guts-99aafe96-1645-44cd-99bd-979bc6ef37c5/Guts-99aafe96-1645-44cd-99bd-979bc6ef37c5-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -2417,7 +2417,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.305 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Guts-99aafe96-1645-44cd-99bd-979bc6ef37c5/Guts-99aafe96-1645-44cd-99bd-979bc6ef37c5-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Guts-99aafe96-1645-44cd-99bd-979bc6ef37c5/Guts-99aafe96-1645-44cd-99bd-979bc6ef37c5-v10.0-MainTex.png' },
             u_MainTex_ST: { value: new THREE.Vector4(0.15, 1.0, 0.0, 0.0) },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
@@ -2438,7 +2438,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Fire2" : {
+    'Fire2' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2448,13 +2448,13 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
-            u_DisplaceTex: { value: "Fire2-53d753ef-083c-45e1-98e7-4459b4471219/Fire2-53d753ef-083c-45e1-98e7-4459b4471219-v10.0-DisplaceTex.png" },
+            u_DisplaceTex: { value: 'Fire2-53d753ef-083c-45e1-98e7-4459b4471219/Fire2-53d753ef-083c-45e1-98e7-4459b4471219-v10.0-DisplaceTex.png' },
             u_DisplacementIntensity: { value: 0.04 },
             u_EmissionGain: { value: 0.405 },
             u_FlameFadeMax: { value: 30.0 },
             u_FlameFadeMin: { value: 8.53 },
             u_InvFade: { value: 1.0 },
-            u_MainTex: { value: "Fire2-53d753ef-083c-45e1-98e7-4459b4471219/Fire2-53d753ef-083c-45e1-98e7-4459b4471219-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Fire2-53d753ef-083c-45e1-98e7-4459b4471219/Fire2-53d753ef-083c-45e1-98e7-4459b4471219-v10.0-MainTex.png' },
             u_MainTex_ST: { value: new THREE.Vector4(1, 1.0, 0.0, 0.0) },
             u_Scroll1: { value: 15.0 },
             u_Scroll2: { value: 8.0 },
@@ -2468,7 +2468,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "TubeToonInverted" : {
+    'TubeToonInverted' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2485,7 +2485,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "FacetedTube" : {
+    'FacetedTube' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2505,7 +2505,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "WaveformParticles" : {
+    'WaveformParticles' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2514,7 +2514,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_MainTex: { value: "WaveformParticles-6a1cf9f9-032c-45ec-9b6e-a6680bee30f7/WaveformParticles-6a1cf9f9-032c-45ec-9b6e-a6680bee30f7-v10.0-MainTex.png" },
+            u_MainTex: { value: 'WaveformParticles-6a1cf9f9-032c-45ec-9b6e-a6680bee30f7/WaveformParticles-6a1cf9f9-032c-45ec-9b6e-a6680bee30f7-v10.0-MainTex.png' },
             u_TintColor: { value: new THREE.Vector4(0.5, 0.5, 0.5, 0.5) },
             u_Opacity: { value: 1.0 },
             u_time: { value: new THREE.Vector4() }
@@ -2526,7 +2526,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "BubbleWand" : {
+    'BubbleWand' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2540,7 +2540,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_DisplacementIntensity: { value: 0.1 },
             u_EmissionGain: { value: 0.25 },
             u_InvFade: { value: 1.0 },
-            u_MainTex: { value: "BubbleWand-eba3f993-f9a1-4d35-b84e-bb08f48981a4/BubbleWand-eba3f993-f9a1-4d35-b84e-bb08f48981a4-v10.0-MainTex.png" },
+            u_MainTex: { value: 'BubbleWand-eba3f993-f9a1-4d35-b84e-bb08f48981a4/BubbleWand-eba3f993-f9a1-4d35-b84e-bb08f48981a4-v10.0-MainTex.png' },
             u_Scroll1: { value: 2.0 },
             u_Scroll2: { value: -2.0 },
             u_ScrollJitterFrequency: { value: 1.0 },
@@ -2558,7 +2558,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "DanceFloor" : {
+    'DanceFloor' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2568,7 +2568,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
             u_time: { value: new THREE.Vector4() },
-            u_MainTex: { value: "DanceFloor-6a1cf9f9-032c-45ec-311e-a6680bee32e9/DanceFloor-6a1cf9f9-032c-45ec-311e-a6680bee32e9-v10.0-MainTex.png" },
+            u_MainTex: { value: 'DanceFloor-6a1cf9f9-032c-45ec-311e-a6680bee32e9/DanceFloor-6a1cf9f9-032c-45ec-311e-a6680bee32e9-v10.0-MainTex.png' },
             u_TintColor: { value: new THREE.Vector4(0.5, 0.5, 0.5, 0.5) }
         },
         side: 2,
@@ -2584,7 +2584,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blendSrcAlpha: 201,
         blendSrc: 201,
     },
-    "WaveformTube" : {
+    'WaveformTube' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2593,7 +2593,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_MainTex: { value: "WaveformTube-0f5820df-cb6b-4a6c-960e-56e4c8000eda/WaveformTube-0f5820df-cb6b-4a6c-960e-56e4c8000eda-v10.0-MainTex.png" },
+            u_MainTex: { value: 'WaveformTube-0f5820df-cb6b-4a6c-960e-56e4c8000eda/WaveformTube-0f5820df-cb6b-4a6c-960e-56e4c8000eda-v10.0-MainTex.png' },
             u_EmissionGain: { value: 0.5178571 },
             u_time: { value: new THREE.Vector4() }
         },
@@ -2604,7 +2604,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Drafting" : {
+    'Drafting' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2615,7 +2615,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_fogDensity: { value: 0 },
             u_Opacity: { value: 1.0 },
             u_DraftingVisibility01: { value: 1.0 },
-            u_MainTex: { value: "Drafting-492b36ff-b337-436a-ba5f-1e87ee86747e/Drafting-492b36ff-b337-436a-ba5f-1e87ee86747e-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Drafting-492b36ff-b337-436a-ba5f-1e87ee86747e/Drafting-492b36ff-b337-436a-ba5f-1e87ee86747e-v10.0-MainTex.png' },
         },
         side: 2,
         transparent: true,
@@ -2624,7 +2624,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "SingleSided" : {
+    'SingleSided' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2642,7 +2642,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "SingleSided-f0a2298a-be80-432c-9fee-a86dcc06f4f9/SingleSided-f0a2298a-be80-432c-9fee-a86dcc06f4f9-v10.0-MainTex.png" },
+            u_MainTex: { value: 'SingleSided-f0a2298a-be80-432c-9fee-a86dcc06f4f9/SingleSided-f0a2298a-be80-432c-9fee-a86dcc06f4f9-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2660,7 +2660,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "DoubleFlat" : {
+    'DoubleFlat' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2678,7 +2678,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "DoubleFlat-f4a0550c-332a-4e1a-9793-b71508f4a454/DoubleFlat-f4a0550c-332a-4e1a-9793-b71508f4a454-v10.0-MainTex.png" },
+            u_MainTex: { value: 'DoubleFlat-f4a0550c-332a-4e1a-9793-b71508f4a454/DoubleFlat-f4a0550c-332a-4e1a-9793-b71508f4a454-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2696,7 +2696,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "TubeAdditive" : {
+    'TubeAdditive' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2714,7 +2714,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Feather" : {
+    'Feather' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2733,7 +2733,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Feather-a555b809-2017-46cb-ac26-e63173d8f45e/Feather-a555b809-2017-46cb-ac26-e63173d8f45e-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Feather-a555b809-2017-46cb-ac26-e63173d8f45e/Feather-a555b809-2017-46cb-ac26-e63173d8f45e-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2751,7 +2751,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "DuctTapeGeometry" : {
+    'DuctTapeGeometry' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2760,11 +2760,11 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_SpecColor: { value: new THREE.Vector3(0.5372549, 0.5372549, 0.5372549) },
             u_Shininess: { value: 0.414 },
-            u_MainTex: { value: "DuctTapeGeometry-84d5bbb2-6634-8434-f8a7-681b576b4664/DuctTapeGeometry-84d5bbb2-6634-8434-f8a7-681b576b4664-v10.0-MainTex.png" },
+            u_MainTex: { value: 'DuctTapeGeometry-84d5bbb2-6634-8434-f8a7-681b576b4664/DuctTapeGeometry-84d5bbb2-6634-8434-f8a7-681b576b4664-v10.0-MainTex.png' },
             u_Cutoff: { value: 0.2 },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "DuctTapeGeometry-84d5bbb2-6634-8434-f8a7-681b576b4664/DuctTapeGeometry-84d5bbb2-6634-8434-f8a7-681b576b4664-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'DuctTapeGeometry-84d5bbb2-6634-8434-f8a7-681b576b4664/DuctTapeGeometry-84d5bbb2-6634-8434-f8a7-681b576b4664-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) }
         },
         side: 0,
@@ -2774,7 +2774,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "TaperedHueShift" : {
+    'TaperedHueShift' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2793,7 +2793,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "TaperedHueShift-3d9755da-56c7-7294-9b1d-5ec349975f52/TaperedHueShift-3d9755da-56c7-7294-9b1d-5ec349975f52-v10.0-MainTex.png" },
+            u_MainTex: { value: 'TaperedHueShift-3d9755da-56c7-7294-9b1d-5ec349975f52/TaperedHueShift-3d9755da-56c7-7294-9b1d-5ec349975f52-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2811,7 +2811,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Lacewing" : {
+    'Lacewing' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2820,7 +2820,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c/Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c/Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(0, 0, 0, 1) },
@@ -2831,7 +2831,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 0.741 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c/Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c/Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 1.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2839,8 +2839,8 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_Shininess: { value: 0.8 },
             u_SmoothnessTextureChannel: { value: 0.0 },
             u_SpecColor: { value: new THREE.Vector3(0.147059, 0.147059, 0.147059) },
-            u_SpecGlossMap: { value: "Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c/Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c-v10.0-SpecGlossMap.png" },
-            u_SpecTex: { value: "Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c/Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c-v10.0-SpecTex.png" },
+            u_SpecGlossMap: { value: 'Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c/Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c-v10.0-SpecGlossMap.png' },
+            u_SpecTex: { value: 'Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c/Lacewing-1cf94f63-f57a-4a1a-ad14-295af4f5ab5c-v10.0-SpecTex.png' },
             u_SpecularHighlights: { value: 1.0 },
             u_SrcBlend: { value: 1.0 },
             u_UVSec: { value: 0.0 },
@@ -2853,7 +2853,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Marbled Rainbow" : {
+    'Marbled Rainbow' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2862,7 +2862,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1/Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1/Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(0, 0, 0, 1) },
@@ -2873,7 +2873,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 0.741 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1/Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1/Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 1.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2881,8 +2881,8 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_Shininess: { value: 0.8 },
             u_SmoothnessTextureChannel: { value: 0.0 },
             u_SpecColor: { value: new THREE.Vector3(0.220588, 0.220588, 0.220588) },
-            u_SpecGlossMap: { value: "Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1/Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1-v10.0-SpecGlossMap.png" },
-            u_SpecTex: { value: "Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1/Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1-v10.0-SpecTex.png" },
+            u_SpecGlossMap: { value: 'Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1/Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1-v10.0-SpecGlossMap.png' },
+            u_SpecTex: { value: 'Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1/Marbled Rainbow-c86c058d-1bda-2e94-08db-f3d6a96ac4a1-v10.0-SpecTex.png' },
             u_SpecularHighlights: { value: 1.0 },
             u_SrcBlend: { value: 1.0 },
             u_UVSec: { value: 0.0 },
@@ -2895,7 +2895,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Charcoal" : {
+    'Charcoal' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2904,7 +2904,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Charcoal-fde6e778-0f7a-e584-38d6-89d44cee59f6/Charcoal-fde6e778-0f7a-e584-38d6-89d44cee59f6-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Charcoal-fde6e778-0f7a-e584-38d6-89d44cee59f6/Charcoal-fde6e778-0f7a-e584-38d6-89d44cee59f6-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -2915,7 +2915,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Charcoal-fde6e778-0f7a-e584-38d6-89d44cee59f6/Charcoal-fde6e778-0f7a-e584-38d6-89d44cee59f6-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Charcoal-fde6e778-0f7a-e584-38d6-89d44cee59f6/Charcoal-fde6e778-0f7a-e584-38d6-89d44cee59f6-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -2935,7 +2935,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "KeijiroTube" : {
+    'KeijiroTube' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2974,7 +2974,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Lofted (Hue Shift)" : {
+    'Lofted (Hue Shift)' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -2992,7 +2992,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Wire (Lit)" : {
+    'Wire (Lit)' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3029,7 +3029,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "WaveformFFT" : {
+    'WaveformFFT' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3047,7 +3047,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Fairy" : {
+    'Fairy' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3084,7 +3084,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 2
     },
-    "Space" : {
+    'Space' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3109,7 +3109,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         blendSrcAlpha: 201,
         blendSrc: 201,
     },
-    "SmoothHull" : {
+    'SmoothHull' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3118,7 +3118,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_Bottom: { value: "SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b/SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b-v10.0-Bottom.png" },
+            u_Bottom: { value: 'SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b/SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b-v10.0-Bottom.png' },
             u_BottomScale: { value: 0.3 },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -3134,13 +3134,13 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_OcclusionStrength: { value: 1.0 },
             u_Parallax: { value: 0.02 },
             u_Shininess: { value: 0.574 },
-            u_Side: { value: "SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b/SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b-v10.0-Side.png" },
+            u_Side: { value: 'SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b/SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b-v10.0-Side.png' },
             u_SideScale: { value: 5.21 },
             u_SmoothnessTextureChannel: { value: 0.0 },
             u_SpecColor: { value: new THREE.Vector3(0.294118, 0.294118, 0.294118) },
             u_SpecularHighlights: { value: 1.0 },
             u_SrcBlend: { value: 1.0 },
-            u_Top: { value: "SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b/SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b-v10.0-Top.png" },
+            u_Top: { value: 'SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b/SmoothHull-355b3579-bf1d-4ff5-a200-704437fe684b-v10.0-Top.png' },
             u_TopScale: { value: 0.3 },
             u_UVSec: { value: 0.0 },
             u_ZWrite: { value: 1.0 }
@@ -3152,7 +3152,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "Leaves2" : {
+    'Leaves2' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3161,7 +3161,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "Leaves2-7259cce5-41c1-ec74-c885-78af28a31d95/Leaves2-7259cce5-41c1-ec74-c885-78af28a31d95-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'Leaves2-7259cce5-41c1-ec74-c885-78af28a31d95/Leaves2-7259cce5-41c1-ec74-c885-78af28a31d95-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -3172,7 +3172,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "Leaves2-7259cce5-41c1-ec74-c885-78af28a31d95/Leaves2-7259cce5-41c1-ec74-c885-78af28a31d95-v10.0-MainTex.png" },
+            u_MainTex: { value: 'Leaves2-7259cce5-41c1-ec74-c885-78af28a31d95/Leaves2-7259cce5-41c1-ec74-c885-78af28a31d95-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -3193,7 +3193,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "InkGeometry" : {
+    'InkGeometry' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3202,7 +3202,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_BumpMap: { value: "InkGeometry-7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb/InkGeometry-7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb-v10.0-BumpMap.png" },
+            u_BumpMap: { value: 'InkGeometry-7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb/InkGeometry-7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb-v10.0-BumpMap.png' },
             u_BumpMap_TexelSize: { value: new THREE.Vector4(0.0010, 0.0078, 1024, 128) },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -3213,7 +3213,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_GlossMapScale: { value: 1.0 },
             u_Glossiness: { value: 0.5 },
             u_GlossyReflections: { value: 1.0 },
-            u_MainTex: { value: "InkGeometry-7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb/InkGeometry-7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb-v10.0-MainTex.png" },
+            u_MainTex: { value: 'InkGeometry-7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb/InkGeometry-7c972c27-d3c2-8af4-7bf8-5d9db8f0b7bb-v10.0-MainTex.png' },
             u_Metallic: { value: 0.0 },
             u_Mode: { value: 0.0 },
             u_OcclusionStrength: { value: 1.0 },
@@ -3234,7 +3234,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "ConcaveHull" : {
+    'ConcaveHull' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3257,7 +3257,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "3D Printing Brush" : {
+    '3D Printing Brush' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3274,7 +3274,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0,
     },
-    "PassthroughHull" : {
+    'PassthroughHull' : {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3283,7 +3283,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_SceneLight_1_color: { value: new THREE.Vector4(0.4282, 0.4212, 0.3459, 1) },
             u_fogColor: { value: new THREE.Vector3(0.0196, 0.0196, 0.0196) },
             u_fogDensity: { value: 0 },
-            u_Bottom: { value: "PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac/PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac-v10.0-Bottom.png" },
+            u_Bottom: { value: 'PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac/PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac-v10.0-Bottom.png' },
             u_BottomScale: { value: 0.3 },
             u_BumpScale: { value: 1.0 },
             u_Color: { value: new THREE.Vector4(1, 1, 1, 1) },
@@ -3299,13 +3299,13 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
             u_OcclusionStrength: { value: 1.0 },
             u_Parallax: { value: 0.02 },
             u_Shininess: { value: 0.574 },
-            u_Side: { value: "PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac/PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac-v10.0-Side.png" },
+            u_Side: { value: 'PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac/PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac-v10.0-Side.png' },
             u_SideScale: { value: 5.21 },
             u_SmoothnessTextureChannel: { value: 0.0 },
             u_SpecColor: { value: new THREE.Vector3(0.294118, 0.294118, 0.294118) },
             u_SpecularHighlights: { value: 1.0 },
             u_SrcBlend: { value: 1.0 },
-            u_Top: { value: "PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac/PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac-v10.0-Top.png" },
+            u_Top: { value: 'PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac/PassthroughHull-cc131ff8-0d17-4677-93e0-d7cd19fea9ac-v10.0-Top.png' },
             u_TopScale: { value: 0.3 },
             u_UVSec: { value: 0.0 },
             u_ZWrite: { value: 1.0 }
@@ -3317,7 +3317,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "QuillCube": {
+    'QuillCube': {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3337,7 +3337,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "QuillCylinder": {
+    'QuillCylinder': {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3357,7 +3357,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "QuillEllipse": {
+    'QuillEllipse': {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
@@ -3377,7 +3377,7 @@ const tiltBrushMaterialParams: Record<string, BrushMaterialParams> = {
         depthTest: true,
         blending: 0
     },
-    "QuillRibbon": {
+    'QuillRibbon': {
         uniforms: {
             u_SceneLight_0_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },
             u_SceneLight_1_matrix: { value: [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1] },

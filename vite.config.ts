@@ -15,7 +15,16 @@ export default defineConfig({
     },
     dedupe: ['three'],
   },
-  server: { port: 3000 },
+  server: {
+    port: 3000,
+    host: true,
+    allowedHosts: ['dev.tabanovic.xyz'],
+    // Behind HTTPS reverse proxy: client connects to the page host on 443.
+    hmr: {
+      protocol: 'wss',
+      clientPort: 443,
+    },
+  },
   build: { target: 'esnext' },
   optimizeDeps: { esbuildOptions: { target: 'esnext' } },
 })

@@ -4,6 +4,7 @@ import { ioThreeViewport } from '@io-gui/three'
 import { AssetInfo } from '../models/AssetInfo'
 import { assetInfoView } from '../views/AssetInfoView.js'
 import { ModelViewer } from '../applets/ModelViewer.js'
+import { ModelViewerCameraTool } from '../tools/ModelViewerCameraTool.js'
 import { BottomDrawer } from '../layout/BottomDrawer.js'
 import { bottomDrawerSplit } from '../layout/BottomDrawerSplit.js'
 
@@ -48,10 +49,14 @@ export class PageModel extends ReactiveElement {
   @Property({ type: ModelViewer, init: null })
   declare applet: ModelViewer
 
+  @Property({ type: ModelViewerCameraTool, init: null })
+  declare cameraTool: ModelViewerCameraTool
+
   ready() {
 
     this.assetInfo.guid = this.bind('guid')
     this.applet.assetInfo = this.assetInfo
+    this.cameraTool = new ModelViewerCameraTool({ applet: this.applet })
 
     this.render([
       bottomDrawerSplit({
@@ -59,7 +64,12 @@ export class PageModel extends ReactiveElement {
         model: drawer,
         revealSelector: '.info',
         elements: [
-          ioThreeViewport({id: 'model', applet: this.applet, cameraSelect: 'scene'}),
+          ioThreeViewport({
+            id: 'model',
+            applet: this.applet,
+            cameraSelect: 'scene',
+            tool: this.cameraTool,
+          }),
           assetInfoView({ id: 'assetInfo', assetInfo: this.assetInfo, guid: this.bind('guid') }),
         ]
       })

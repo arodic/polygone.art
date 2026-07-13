@@ -1,9 +1,11 @@
 import { ThreeApplet } from '@io-gui/three';
 import { GridHelper, Object3D, PerspectiveCamera, WebGPURenderer } from 'three/webgpu';
+import { Environment } from '../models/Environment.js';
 import { AssetInfo } from '../models/AssetInfo';
 export declare const BRUSH_PATH = "/assets/brushes/";
 export declare class ModelViewer extends ThreeApplet {
     assetInfo: AssetInfo;
+    environment: Environment;
     modelRoot: Object3D;
     gridHelper: GridHelper;
     camera: PerspectiveCamera;
