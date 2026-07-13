@@ -15,7 +15,7 @@ const presentationLoader = new PresentationLoader()
 const legacyLoader = new LegacyGLTFLoader()
 const tiltEnvironmentLoader = new TiltEnvironmentLoader()
 
-export const BRUSH_PATH = '/assets/brushes/';
+export const BRUSH_PATH = '/assets/brushes/'
 
 @Register
 export class ModelViewer extends ThreeApplet {
@@ -44,7 +44,7 @@ export class ModelViewer extends ThreeApplet {
   }
 
   onRendererInitialized(renderer: WebGPURenderer) {
-    renderer.outputColorSpace = LinearSRGBColorSpace;
+    renderer.outputColorSpace = LinearSRGBColorSpace
     this.environment.initPMREMGeneratorWithRenderer(renderer)
   }
 
@@ -82,37 +82,39 @@ export class ModelViewer extends ThreeApplet {
   }
 
   async loadGLTF2Model(url: string) {
-    this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
+    const hasPresentation = await this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
 
     this.scene.environment = this.environment.texture
     this.scene.environmentIntensity = 0.25
 
-    await gltfLoader.load(url, (gltf) => {
+    const gltf = await gltfLoader.loadAsync(url)
 
-      const ambient = new AmbientLight(0xffffff, 0.5)
-      gltf.scene.add(ambient)
+    const ambient = new AmbientLight(0xffffff, 0.5)
+    gltf.scene.add(ambient)
 
-      const light0 = new DirectionalLight(0xffffff, 2)
-      light0.position.set(15, 5, -5).normalize()
-      gltf.scene.add(light0)
+    const light0 = new DirectionalLight(0xffffff, 2)
+    light0.position.set(15, 5, -5).normalize()
+    gltf.scene.add(light0)
 
-      const light1 = new DirectionalLight(0xffffff, 4)
-      light1.position.set(-10, 2, 5).normalize()
-      gltf.scene.add(light1)
+    const light1 = new DirectionalLight(0xffffff, 4)
+    light1.position.set(-10, 2, 5).normalize()
+    gltf.scene.add(light1)
 
-      this.modelRoot.add(gltf.scene)
-      // TODO: Design a better API for this
-      this.dispatch('three-applet-needs-render', undefined, true)
-    })
+    this.modelRoot.add(gltf.scene)
+    if (!hasPresentation) {
+      this.dispatch('three-applet-frame-object-all', this.modelRoot, true)
+    }
+    this.dispatch('model-viewer-ready', undefined, true)
+    this.dispatch('three-applet-needs-render', undefined, true)
   }
 
   async loadLegacyGLTFModelWithTiltMaterials(url: string) {
-    this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
+    const hasPresentation = await this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
 
     this.scene.environment = null
     this.scene.environmentIntensity = 0
 
-    const gltf = await legacyLoader.loadAsync(url)    
+    const gltf = await legacyLoader.loadAsync(url)
     await replaceGltf1Materials(gltf.scene, BRUSH_PATH)
     this.modelRoot.add(gltf.scene)
 
@@ -122,10 +124,14 @@ export class ModelViewer extends ThreeApplet {
 
     this.isPlaying = true
 
+    if (!hasPresentation) {
+      this.dispatch('three-applet-frame-object-all', this.modelRoot, true)
+    }
+    this.dispatch('model-viewer-ready', undefined, true)
     this.dispatch('three-applet-needs-render', undefined, true)
   }
 
-  async loadPresentation(jsonUrl: string) {
+  async loadPresentation(jsonUrl: string): Promise<boolean> {
     const presentation = await presentationLoader.load(jsonUrl)
     if (presentation) {
       this.camera.fov = presentation.yfovDeg
@@ -134,9 +140,10 @@ export class ModelViewer extends ThreeApplet {
       this.camera.position.fromArray([...presentation.translation])
       this.camera.quaternion.fromArray([...presentation.rotation])
       this.camera.updateProjectionMatrix()
-    } else {
-      this.dispatch('three-applet-frame-object-all', this.modelRoot, true)
+      this.dispatch('three-applet-needs-render', undefined, true)
+      return true
     }
     this.dispatch('three-applet-needs-render', undefined, true)
+    return false
   }
 }

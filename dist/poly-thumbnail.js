@@ -12,7 +12,8 @@ setInterval(() => {
     if (queue.length) {
         const i = Math.floor(Math.random() * queue.length);
         if (!queue[i]._disposed && queue[i].$.image) {
-            queue[i].$.image.style.setProperty('background-image', `url("${BLOB_URL}/assets/${queue[i].guid}/thumbnail-${queue[i].size}.jpg")`);
+            // queue[i].$.image.style.setProperty('background-image', `url("${BLOB_URL}/assets/${queue[i].guid}/thumbnail-${queue[i].size}.jpg")`)
+            queue[i].$.image.style.setProperty('background-image', `url("${BLOB_URL}/assets/${queue[i].guid}/thumbnail.jpg")`);
             cachedId.push(queue[i].guid);
         }
         queue.splice(i, 1);
@@ -67,7 +68,8 @@ let PolyThumbnail = class PolyThumbnail extends ReactiveElement {
         }
         else {
             if (cachedId.indexOf(this.guid) !== -1) {
-                this.$.image?.style.setProperty('background-image', `url("${BLOB_URL}/assets/${this.guid}/thumbnail-${this.size}.jpg")`);
+                // this.$.image?.style.setProperty('background-image', `url("${BLOB_URL}/assets/${this.guid}/thumbnail-${this.size}.jpg")`)
+                this.$.image?.style.setProperty('background-image', `url("${BLOB_URL}/assets/${this.guid}/thumbnail.jpg")`);
             }
             else {
                 this.$.image?.style.setProperty('background-image', '');

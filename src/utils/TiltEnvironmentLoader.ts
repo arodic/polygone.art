@@ -1,17 +1,17 @@
-import { AmbientLight, BackSide, CanvasTexture, ClampToEdgeWrapping, Color, DirectionalLight, Euler, FogExp2, MathUtils, Mesh, MeshBasicMaterial, Object3D, Quaternion, RepeatWrapping, SphereGeometry, SRGBColorSpace, Vector3 } from 'three';
+import { AmbientLight, BackSide, CanvasTexture, ClampToEdgeWrapping, Color, DirectionalLight, Euler, FogExp2, MathUtils, Mesh, MeshBasicMaterial, Object3D, Quaternion, RepeatWrapping, SphereGeometry, SRGBColorSpace, Vector3 } from 'three'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 
 const gltfLoader = new GLTFLoader()
 
-const ENVIRONMENT_DIR = '/assets/environments/';
-const DEFAULT_ENVIRONMENT_NAME = 'Standard';
+const ENVIRONMENT_DIR = '/assets/environments/'
+const DEFAULT_ENVIRONMENT_NAME = 'Standard'
 
-type Rgb = readonly [number, number, number];
+type Rgb = readonly [number, number, number]
 type EnvLights = {
   ambient: Rgb;
   light0: { color: Rgb; rotation: Rgb };
   light1: { color: Rgb; rotation: Rgb };
-};
+}
 
 /** Open Brush environment presets (lights from gallery-viewer / Open Brush assets). */
 const ENVIRONMENT_MANIFEST = [
@@ -150,32 +150,32 @@ const ENVIRONMENT_MANIFEST = [
   guid: string;
   file: string;
   lights: EnvLights;
-}>;
+}>
 
-type EnvironmentEntry = (typeof ENVIRONMENT_MANIFEST)[number];
+type EnvironmentEntry = (typeof ENVIRONMENT_MANIFEST)[number]
 
-const ENVIRONMENT_BY_GUID = new Map<string, EnvironmentEntry>(ENVIRONMENT_MANIFEST.map((e) => [e.guid.toLowerCase(), e]));
-const ENVIRONMENT_BY_NAME = new Map<string, EnvironmentEntry>(ENVIRONMENT_MANIFEST.map((e) => [e.name.toLowerCase(), e]));
-const DEFAULT_ENVIRONMENT = ENVIRONMENT_BY_NAME.get(DEFAULT_ENVIRONMENT_NAME.toLowerCase())!;
+const ENVIRONMENT_BY_GUID = new Map<string, EnvironmentEntry>(ENVIRONMENT_MANIFEST.map((e) => [e.guid.toLowerCase(), e]))
+const ENVIRONMENT_BY_NAME = new Map<string, EnvironmentEntry>(ENVIRONMENT_MANIFEST.map((e) => [e.name.toLowerCase(), e]))
+const DEFAULT_ENVIRONMENT = ENVIRONMENT_BY_NAME.get(DEFAULT_ENVIRONMENT_NAME.toLowerCase())!
 
 function rgbColor(rgb: Rgb): Color {
-  return new Color(rgb[0], rgb[1], rgb[2]);
+  return new Color(rgb[0], rgb[1], rgb[2])
 }
 
 function rgbVector(rgb: Rgb): Vector3 {
-  return new Vector3(rgb[0], rgb[1], rgb[2]);
+  return new Vector3(rgb[0], rgb[1], rgb[2])
 }
 
 export function parseTBColorString(colorString: string | undefined, fallback: Color): Color {
-  if (!colorString) return fallback.clone();
-  const [r, g, b] = colorString.split(',').map(parseFloat);
-  return new Color(r, g, b);
+  if (!colorString) return fallback.clone()
+  const [r, g, b] = colorString.split(',').map(parseFloat)
+  return new Color(r, g, b)
 }
 
 export function parseTBVector3(vectorString: string | undefined, fallback: Vector3): Vector3 {
-  if (!vectorString) return fallback.clone();
-  const [x, y, z] = vectorString.split(',').map((p) => parseFloat(p.trim()));
-  return new Vector3(x, y, z);
+  if (!vectorString) return fallback.clone()
+  const [x, y, z] = vectorString.split(',').map((p) => parseFloat(p.trim()))
+  return new Vector3(x, y, z)
 }
 
 /**
@@ -188,25 +188,25 @@ function lightDirectionFromTBEuler(rotDeg: Vector3, flipY: boolean): Vector3 {
     MathUtils.degToRad(rotDeg.y),
     MathUtils.degToRad(rotDeg.z),
     'XYZ',
-  );
-  if (flipY) euler.y += Math.PI;
-  return new Vector3(0, 0, -1).applyEuler(euler).multiplyScalar(10);
+  )
+  if (flipY) euler.y += Math.PI
+  return new Vector3(0, 0, -1).applyEuler(euler).multiplyScalar(10)
 }
 
 /** Collect and detach Poly `node_SceneLight_*` dummies (rotation sources). */
 function takeSceneLightNodes(root: Object3D): Object3D[] {
-  const nodes: Object3D[] = [];
+  const nodes: Object3D[] = []
   root.traverse((node) => {
     if (node.name?.startsWith('node_SceneLight_')) {
-      nodes.push(node);
+      nodes.push(node)
     }
-  });
+  })
   // Stable order: SceneLight_0 before SceneLight_1 when names allow.
-  nodes.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+  nodes.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }))
   for (const node of nodes) {
-    node.parent?.remove(node);
+    node.parent?.remove(node)
   }
-  return nodes.slice(0, 2);
+  return nodes.slice(0, 2)
 }
 
 function eulerDegreesFromNode(node: Object3D): Vector3 {
@@ -214,7 +214,7 @@ function eulerDegreesFromNode(node: Object3D): Vector3 {
     MathUtils.radToDeg(node.rotation.x),
     MathUtils.radToDeg(node.rotation.y),
     MathUtils.radToDeg(node.rotation.z),
-  );
+  )
 }
 
 export class TiltEnvironmentLoader {
@@ -227,50 +227,50 @@ export class TiltEnvironmentLoader {
     ambient: AmbientLight;
     fog: FogExp2;
   }> {
-    const env = this.resolveEnvironment(userData);
-    const url = `${ENVIRONMENT_DIR}${env.file}`;
+    const env = this.resolveEnvironment(userData)
+    const url = `${ENVIRONMENT_DIR}${env.file}`
 
     // Prefer rotations from sketch `node_SceneLight_*` over env preset.
-    const sceneLightNodes = takeSceneLightNodes(sketchRoot);
+    const sceneLightNodes = takeSceneLightNodes(sketchRoot)
 
-    const envGltf = await gltfLoader.loadAsync(url);
+    const envGltf = await gltfLoader.loadAsync(url)
     // GLTF 1.0 / Poly exports need a 180° Y flip + 0.1 scale (same as gallery-viewer).
-    envGltf.scene.setRotationFromEuler(new Euler(0, Math.PI, 0));
-    envGltf.scene.scale.set(0.1, 0.1, 0.1);
-    envGltf.scene.name = `Environment_${env.name}`;
+    envGltf.scene.setRotationFromEuler(new Euler(0, Math.PI, 0))
+    envGltf.scene.scale.set(0.1, 0.1, 0.1)
+    envGltf.scene.name = `Environment_${env.name}`
 
     // Add gradient sky (under flipped env so it matches env orientation).
-    const skyColorA = parseTBColorString(userData['TB_SkyColorA'] as string | undefined, new Color(0.274509817, 0.274509817, 0.31764707));
-    const skyColorB = parseTBColorString(userData['TB_SkyColorB'] as string | undefined, new Color(0.03529412, 0.03529412, 0.08627451));
-    const skyDir = parseTBVector3(userData['TB_SkyGradientDirection'] as string | undefined, new Vector3(0, 1, 0));
-    envGltf.scene.add(this.generateGradientSky(skyColorA, skyColorB, skyDir));
+    const skyColorA = parseTBColorString(userData['TB_SkyColorA'] as string | undefined, new Color(0.274509817, 0.274509817, 0.31764707))
+    const skyColorB = parseTBColorString(userData['TB_SkyColorB'] as string | undefined, new Color(0.03529412, 0.03529412, 0.08627451))
+    const skyDir = parseTBVector3(userData['TB_SkyGradientDirection'] as string | undefined, new Vector3(0, 1, 0))
+    envGltf.scene.add(this.generateGradientSky(skyColorA, skyColorB, skyDir))
 
-    sketchRoot.add(envGltf.scene);
+    sketchRoot.add(envGltf.scene)
 
     // Poly / LegacyGLTF path is always V1 → +π Y.
-    const lights = this.resolveSceneLights(userData, env, sceneLightNodes);
-    const flipY = true;
+    const lights = this.resolveSceneLights(userData, env, sceneLightNodes)
+    const flipY = true
 
-    const l0 = new DirectionalLight(lights.light0Color, 1.0);
-    l0.name = 'SceneLight0';
-    const l1 = new DirectionalLight(lights.light1Color, 1.0);
-    l1.name = 'SceneLight1';
+    const l0 = new DirectionalLight(lights.light0Color, 1.0)
+    l0.name = 'SceneLight0'
+    const l1 = new DirectionalLight(lights.light1Color, 1.0)
+    l1.name = 'SceneLight1'
 
-    l0.position.copy(lightDirectionFromTBEuler(lights.light0Rotation, flipY));
-    l1.position.copy(lightDirectionFromTBEuler(lights.light1Rotation, flipY));
+    l0.position.copy(lightDirectionFromTBEuler(lights.light0Rotation, flipY))
+    l1.position.copy(lightDirectionFromTBEuler(lights.light1Rotation, flipY))
 
-    l0.castShadow = true;
-    sketchRoot.add(l0, l1);
+    l0.castShadow = true
+    sketchRoot.add(l0, l1)
 
-    const ambient = new AmbientLight(lights.ambient);
-    ambient.name = 'SceneAmbient';
+    const ambient = new AmbientLight(lights.ambient)
+    ambient.name = 'SceneAmbient'
 
-    const fogColor = parseTBColorString(userData['TB_FogColor'] as string | undefined, new Color(0.164705887, 0.164705887, 0.20784314));
-    const fogDensity = parseFloat(String(userData['TB_FogDensity'] ?? '0.0025')) || 0.0025;
+    const fogColor = parseTBColorString(userData['TB_FogColor'] as string | undefined, new Color(0.164705887, 0.164705887, 0.20784314))
+    const fogDensity = parseFloat(String(userData['TB_FogDensity'] ?? '0.0025')) || 0.0025
     // Match WebGL RawShader path: fog color fed to brushes is linear.
-    const fog = new FogExp2(fogColor.clone().convertSRGBToLinear(), fogDensity);
+    const fog = new FogExp2(fogColor.clone().convertSRGBToLinear(), fogDensity)
 
-    return { environment: envGltf.scene, ambient, fog };
+    return { environment: envGltf.scene, ambient, fog }
   }
 
   /**
@@ -278,28 +278,28 @@ export class TiltEnvironmentLoader {
    * Falls back to Standard with a console warning when metadata is missing or unknown.
    */
   resolveEnvironment(userData: Record<string, unknown>): EnvironmentEntry {
-    const guidRaw = userData?.['TB_EnvironmentGuid'];
-    const nameRaw = userData?.['TB_Environment'];
-    const guid = typeof guidRaw === 'string' ? guidRaw.trim().toLowerCase() : '';
-    const name = typeof nameRaw === 'string' ? nameRaw.trim() : '';
+    const guidRaw = userData?.['TB_EnvironmentGuid']
+    const nameRaw = userData?.['TB_Environment']
+    const guid = typeof guidRaw === 'string' ? guidRaw.trim().toLowerCase() : ''
+    const name = typeof nameRaw === 'string' ? nameRaw.trim() : ''
 
-    const byGuid = guid ? ENVIRONMENT_BY_GUID.get(guid) : undefined;
-    if (byGuid) return byGuid;
+    const byGuid = guid ? ENVIRONMENT_BY_GUID.get(guid) : undefined
+    if (byGuid) return byGuid
 
-    const byName = name ? ENVIRONMENT_BY_NAME.get(name.toLowerCase()) : undefined;
-    if (byName) return byName;
+    const byName = name ? ENVIRONMENT_BY_NAME.get(name.toLowerCase()) : undefined
+    if (byName) return byName
 
     if (!guid && !name) {
       console.warn(
         '[tilt] No TB_EnvironmentGuid / TB_Environment in sketch metadata; loading Standard.',
-      );
+      )
     } else {
       console.warn(
         `[tilt] Unknown environment metadata (guid=${guid || '—'}, name=${name || '—'}); loading Standard.`,
-      );
+      )
     }
 
-    return DEFAULT_ENVIRONMENT;
+    return DEFAULT_ENVIRONMENT
   }
 
   /**
@@ -313,67 +313,67 @@ export class TiltEnvironmentLoader {
     env: EnvironmentEntry,
     sceneLightNodes: Object3D[] = [],
   ) {
-    const preset = env.lights;
+    const preset = env.lights
     const ambient = parseTBColorString(
       userData?.['TB_AmbientLightColor'] as string | undefined,
       rgbColor(preset.ambient),
-    );
+    )
     const light0Color = parseTBColorString(
       userData?.['TB_SceneLight0Color'] as string | undefined,
       rgbColor(preset.light0.color),
-    );
+    )
     const light1Color = parseTBColorString(
       userData?.['TB_SceneLight1Color'] as string | undefined,
       rgbColor(preset.light1.color),
-    );
+    )
 
-    const hasTB0 = typeof userData?.['TB_SceneLight0Rotation'] === 'string';
-    const hasTB1 = typeof userData?.['TB_SceneLight1Rotation'] === 'string';
-    const node0 = sceneLightNodes[0];
-    const node1 = sceneLightNodes[1];
+    const hasTB0 = typeof userData?.['TB_SceneLight0Rotation'] === 'string'
+    const hasTB1 = typeof userData?.['TB_SceneLight1Rotation'] === 'string'
+    const node0 = sceneLightNodes[0]
+    const node1 = sceneLightNodes[1]
 
     const light0Rotation = hasTB0
       ? parseTBVector3(userData!['TB_SceneLight0Rotation'] as string, rgbVector(preset.light0.rotation))
       : node0
         ? eulerDegreesFromNode(node0)
-        : rgbVector(preset.light0.rotation);
+        : rgbVector(preset.light0.rotation)
 
     const light1Rotation = hasTB1
       ? parseTBVector3(userData!['TB_SceneLight1Rotation'] as string, rgbVector(preset.light1.rotation))
       : node1
         ? eulerDegreesFromNode(node1)
-        : rgbVector(preset.light1.rotation);
+        : rgbVector(preset.light1.rotation)
 
-    return { ambient, light0Color, light1Color, light0Rotation, light1Rotation };
+    return { ambient, light0Color, light1Color, light0Rotation, light1Rotation }
   }
 
   generateGradientSky(colorA: Color, colorB: Color, direction: Vector3): Mesh {
-    const canvas = document.createElement('canvas');
-    canvas.width = 1;
-    canvas.height = 256;
-    const context = canvas.getContext('2d')!;
-    const gradient = context.createLinearGradient(0, 0, 0, 256);
-    gradient.addColorStop(0, colorB.clone().convertSRGBToLinear().getStyle());
-    gradient.addColorStop(1, colorA.clone().convertSRGBToLinear().getStyle());
-    context.fillStyle = gradient;
-    context.fillRect(0, 0, 1, 256);
+    const canvas = document.createElement('canvas')
+    canvas.width = 1
+    canvas.height = 256
+    const context = canvas.getContext('2d')!
+    const gradient = context.createLinearGradient(0, 0, 0, 256)
+    gradient.addColorStop(0, colorB.clone().convertSRGBToLinear().getStyle())
+    gradient.addColorStop(1, colorA.clone().convertSRGBToLinear().getStyle())
+    context.fillStyle = gradient
+    context.fillRect(0, 0, 1, 256)
 
-    const texture = new CanvasTexture(canvas);
-    texture.wrapS = RepeatWrapping;
-    texture.wrapT = ClampToEdgeWrapping;
-    texture.colorSpace = SRGBColorSpace;
+    const texture = new CanvasTexture(canvas)
+    texture.wrapS = RepeatWrapping
+    texture.wrapT = ClampToEdgeWrapping
+    texture.colorSpace = SRGBColorSpace
 
     const material = new MeshBasicMaterial({
       map: texture,
       side: BackSide,
-    });
-    material.fog = false;
-    material.toneMapped = false;
+    })
+    material.fog = false
+    material.toneMapped = false
 
-    const skysphere = new Mesh(new SphereGeometry(5000, 64, 64), material);
-    skysphere.name = 'environmentSky';
-    const quaternion = new Quaternion().setFromUnitVectors(new Vector3(0, 1, 0), direction.clone().normalize());
-    skysphere.applyQuaternion(quaternion);
-    return skysphere;
+    const skysphere = new Mesh(new SphereGeometry(5000, 64, 64), material)
+    skysphere.name = 'environmentSky'
+    const quaternion = new Quaternion().setFromUnitVectors(new Vector3(0, 1, 0), direction.clone().normalize())
+    skysphere.applyQuaternion(quaternion)
+    return skysphere
   }
 }

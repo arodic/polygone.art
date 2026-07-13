@@ -9,6 +9,7 @@ import { ioThreeViewport } from '@io-gui/three';
 import { AssetInfo } from '../models/AssetInfo';
 import { assetInfoView } from '../views/AssetInfoView.js';
 import { ModelViewer } from '../applets/ModelViewer.js';
+import { ModelViewerCameraTool } from '../tools/ModelViewerCameraTool.js';
 import { BottomDrawer } from '../layout/BottomDrawer.js';
 import { bottomDrawerSplit } from '../layout/BottomDrawerSplit.js';
 const drawer = new BottomDrawer({ drawerSize: '330px' });
@@ -39,13 +40,19 @@ let PageModel = class PageModel extends ReactiveElement {
     ready() {
         this.assetInfo.guid = this.bind('guid');
         this.applet.assetInfo = this.assetInfo;
+        this.cameraTool = new ModelViewerCameraTool({ applet: this.applet });
         this.render([
             bottomDrawerSplit({
                 id: 'layout',
                 model: drawer,
                 revealSelector: '.info',
                 elements: [
-                    ioThreeViewport({ id: 'model', applet: this.applet, cameraSelect: 'scene' }),
+                    ioThreeViewport({
+                        id: 'model',
+                        applet: this.applet,
+                        cameraSelect: 'scene',
+                        tool: this.cameraTool,
+                    }),
                     assetInfoView({ id: 'assetInfo', assetInfo: this.assetInfo, guid: this.bind('guid') }),
                 ]
             })
@@ -61,6 +68,9 @@ __decorate([
 __decorate([
     Property({ type: ModelViewer, init: null })
 ], PageModel.prototype, "applet", void 0);
+__decorate([
+    Property({ type: ModelViewerCameraTool, init: null })
+], PageModel.prototype, "cameraTool", void 0);
 PageModel = __decorate([
     Register
 ], PageModel);
