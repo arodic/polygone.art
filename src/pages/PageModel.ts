@@ -1,22 +1,17 @@
  
 import { Property, ReactiveElement, ReactiveElementProps, Register, WithBinding } from '@io-gui/core'
-import { ioSplit, Split } from '@io-gui/layout'
 import { ioThreeViewport } from '@io-gui/three'
 import { AssetInfo } from '../models/AssetInfo'
 import { assetInfoView } from '../views/AssetInfoView.js'
 import { ModelViewer } from '../applets/ModelViewer.js'
+import { BottomDrawer } from '../layout/BottomDrawer.js'
+import { bottomDrawerSplit } from '../layout/BottomDrawerSplit.js'
 
 type PageModelProps = ReactiveElementProps & {
   guid: WithBinding<string>
 }
 
-const split = new Split({
-  type: 'split', orientation: 'horizontal',
-  children: [
-    { type: 'panel', size: 'auto', tabs: [{id: 'model', label: 'Model'}] },
-    { type: 'panel', size: '330px', tabs: [{id: 'assetInfo', label: 'Model Info'}] }
-  ]
-})
+const drawer = new BottomDrawer({ drawerSize: '330px' })
 
 @Register
 export class PageModel extends ReactiveElement {
@@ -29,8 +24,17 @@ export class PageModel extends ReactiveElement {
       height: 100%;
       width: 100%;
     }
-    :host io-tabs {
-      display: none;
+    :host bottom-drawer-split .main io-three-viewport {
+      width: 100%;
+      height: 100%;
+    }
+    :host bottom-drawer-split .drawer-panel {
+      background-color: color-mix(in srgb, var(--io_bgColorStrong) 80%, transparent);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    :host asset-info-view .info {
+      background: transparent;
     }
     `
   }
@@ -50,25 +54,16 @@ export class PageModel extends ReactiveElement {
     this.applet.assetInfo = this.assetInfo
 
     this.render([
-      ioSplit({
-        id: 'split',
-        model: split,
+      bottomDrawerSplit({
+        id: 'layout',
+        model: drawer,
+        revealSelector: '.info',
         elements: [
           ioThreeViewport({id: 'model', applet: this.applet, cameraSelect: 'scene'}),
           assetInfoView({ id: 'assetInfo', assetInfo: this.assetInfo, guid: this.bind('guid') }),
         ]
       })
     ])
-  }
-
-  onResized() {
-    const rect = this.getBoundingClientRect()
-    const aspect = rect.width / rect.height
-    if (aspect > 1) {
-      split.orientation = 'horizontal'
-    } else {
-      split.orientation = 'vertical'
-    }
   }
 }
 
