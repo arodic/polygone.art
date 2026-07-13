@@ -102,8 +102,8 @@ export class VirtualThumbsticks {
         position: absolute;
         /* Sit above the collapsed drawer peek (handle + revealed info). */
         bottom: calc(var(--io_drawerHandleSize, 40px) + var(--io_revealOffset, 0px) + 28px);
-        width: 120px;
-        height: 120px;
+        width: 156px;
+        height: 156px;
         border-radius: 50%;
         background: color-mix(in srgb, var(--io_bgColorStrong, #222) 35%, transparent);
         border: 1px solid color-mix(in srgb, var(--io_colorWhite, #fff) 20%, transparent);
@@ -120,8 +120,8 @@ export class VirtualThumbsticks {
         position: absolute;
         left: 50%;
         top: 50%;
-        width: 44px;
-        height: 44px;
+        width: 57px;
+        height: 57px;
         border-radius: 50%;
         background: color-mix(in srgb, var(--io_colorWhite, #fff) 55%, transparent);
         transform: translate(-50%, -50%);
@@ -193,7 +193,7 @@ export class VirtualThumbsticks {
     clientY: number,
     active: ActivePointer,
   ) {
-    const radius = 38
+    const radius = 49
     let dx = clientX - active.centerX
     let dy = clientY - active.centerY
     const len = Math.hypot(dx, dy)

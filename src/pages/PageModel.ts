@@ -12,7 +12,7 @@ type PageModelProps = ReactiveElementProps & {
   guid: WithBinding<string>
 }
 
-const drawer = new BottomDrawer({ drawerSize: '330px' })
+const drawer = new BottomDrawer({ drawerSize: '240px' })
 
 @Register
 export class PageModel extends ReactiveElement {
@@ -24,10 +24,23 @@ export class PageModel extends ReactiveElement {
       overflow: hidden;
       height: 100%;
       width: 100%;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -webkit-tap-highlight-color: transparent;
     }
     :host bottom-drawer-split .main io-three-viewport {
       width: 100%;
       height: 100%;
+      outline: none;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    :host bottom-drawer-split .main io-three-viewport:focus,
+    :host bottom-drawer-split .main io-three-viewport:focus-visible {
+      outline: none;
     }
     :host bottom-drawer-split .drawer-panel {
       background-color: color-mix(in srgb, var(--io_bgColorStrong) 80%, transparent);

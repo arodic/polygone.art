@@ -6,18 +6,16 @@ import { VirtualThumbsticks } from '../controls/VirtualThumbsticks.js'
 import { computeOrbitTargetFromCameraAndModel } from '../utils/presentationCameraRay.js'
 import { applyStickCurve, StickVector } from '../utils/stickCurve.js'
 
-const LOOK_SPEED = 1.6 / 3
+const LOOK_SPEED = 1.6 / 5
 const MOVE_SPEED = 1.2
 const PITCH_LIMIT = Math.PI / 2 - 0.05
 /** Radians per CSS pixel of mouse drag (left-stick equivalent). */
-const MOUSE_LOOK_SENSITIVITY = 0.005 / 3
+const MOUSE_LOOK_SENSITIVITY = 0.005 / 5
 
-/** Peak look response after the inverted-bell curve (left stick / mouse). */
+/** Peak look response after the half-sphere curve (left stick / mouse). */
 const LEFT_STICK_MAX_MAGNITUDE = 1
-/** Peak locomotion response after the inverted-bell curve (right stick / WASD). */
-const RIGHT_STICK_MAX_MAGNITUDE = 1
-/** Shared precision-basin width; smaller = more fine control near center. */
-const STICK_CURVE_SIGMA = 0.35
+/** Peak locomotion response after the half-sphere curve (right stick / WASD). */
+const RIGHT_STICK_MAX_MAGNITUDE = 0.4
 
 const _forward = new Vector3()
 const _right = new Vector3()
@@ -216,11 +214,9 @@ export class ModelViewerCameraTool extends ToolBase {
 
     if (this.touchMode && state.thumbsticks) {
       look = applyStickCurve(state.thumbsticks.leftStick, {
-        sigma: STICK_CURVE_SIGMA,
         maxMagnitude: LEFT_STICK_MAX_MAGNITUDE,
       })
       move = applyStickCurve(state.thumbsticks.rightStick, {
-        sigma: STICK_CURVE_SIGMA,
         maxMagnitude: RIGHT_STICK_MAX_MAGNITUDE,
       })
     } else if (!this.touchMode) {
@@ -230,7 +226,6 @@ export class ModelViewerCameraTool extends ToolBase {
           y: (this._keys.w ? 1 : 0) - (this._keys.s ? 1 : 0),
         },
         {
-          sigma: STICK_CURVE_SIGMA,
           maxMagnitude: RIGHT_STICK_MAX_MAGNITUDE,
         },
       )
