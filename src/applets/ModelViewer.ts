@@ -9,6 +9,8 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { PresentationLoader } from '../utils/PresentationLoader.js'
 import { replaceGltf1Materials } from '../utils/replaceGltf1Materials.js'
 import { TiltEnvironmentLoader } from '../utils/TiltEnvironmentLoader.js'
+import { disposeObject3D } from '../utils/disposeObject3D.js'
+import { cappedDevicePixelRatio } from '../utils/pixelRatio.js'
 
 const gltfLoader = new GLTFLoader()
 const presentationLoader = new PresentationLoader()
@@ -16,6 +18,24 @@ const legacyLoader = new LegacyGLTFLoader()
 const tiltEnvironmentLoader = new TiltEnvironmentLoader()
 
 export const BRUSH_PATH = '/assets/brushes/'
+
+function sketchNeedsContinuousPlayback(root: Object3D) {
+  let needsPlayback = false
+  root.traverse((object) => {
+    if (needsPlayback || !(object as Mesh).isMesh) return
+    const material = (object as Mesh).material as {
+      uniforms?: { u_time?: unknown }
+      userData?: { tiltUniforms?: { u_time?: unknown } }
+      positionNode?: unknown
+    } | Array<unknown> | undefined
+    if (!material || Array.isArray(material)) return
+    // Animated Tilt brushes drive u_time and/or a custom positionNode each frame.
+    if (material.uniforms?.u_time || material.userData?.tiltUniforms?.u_time || material.positionNode) {
+      needsPlayback = true
+    }
+  })
+  return needsPlayback
+}
 
 @Register
 export class ModelViewer extends ThreeApplet {
@@ -35,6 +55,8 @@ export class ModelViewer extends ThreeApplet {
   @Property({ type: PerspectiveCamera, init: null })
   declare camera: PerspectiveCamera
 
+  private _loadGeneration = 0
+
   constructor(assetInfo: AssetInfo) {
     super()
     this.assetInfo = assetInfo
@@ -45,6 +67,7 @@ export class ModelViewer extends ThreeApplet {
 
   onRendererInitialized(renderer: WebGPURenderer) {
     renderer.outputColorSpace = LinearSRGBColorSpace
+    renderer.setPixelRatio(cappedDevicePixelRatio())
     this.environment.initPMREMGeneratorWithRenderer(renderer)
   }
 
@@ -58,36 +81,38 @@ export class ModelViewer extends ThreeApplet {
     const gltf = this.assetInfo?.formats?.find((format) => format.formatType === 'GLTF' && format.root?.relativePath)
     const tilt = this.assetInfo?.formats?.find((format) => format.formatType === 'TILT' && format.root?.relativePath)
     if (gltf2) {
-      const url = `${BLOB_URL}/assets/${this.assetInfo.guid}/GLTF2/${gltf2.root.relativePath}`  
-      this.loadGLTF2Model(url)
+      const url = `${BLOB_URL}/assets/${this.assetInfo.guid}/GLTF2/${gltf2.root.relativePath}`
+      void this.loadGLTF2Model(url)
     } else if (gltf && tilt) {
       const url = `${BLOB_URL}/assets/${this.assetInfo.guid}/GLTF/${gltf.root.relativePath}`
-      this.loadLegacyGLTFModelWithTiltMaterials(url)
+      void this.loadLegacyGLTFModelWithTiltMaterials(url)
     }
   }
 
   clearModel() {
-    const model = this.modelRoot.children[0]
-    if (model) {
-      this.modelRoot.remove(model)
-      model.traverse((child) => {
-        if (child instanceof Mesh) {
-          child.geometry.dispose()
-          child.material.dispose()
-        }
-      })
+    this._loadGeneration++
+    while (this.modelRoot.children.length > 0) {
+      disposeObject3D(this.modelRoot.children[0])
     }
     this.isPlaying = false
     this.scene.fog = null
+    this.scene.environment = null
+    this.scene.environmentIntensity = 0
   }
 
   async loadGLTF2Model(url: string) {
+    const loadId = this._loadGeneration
     const hasPresentation = await this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
+    if (loadId !== this._loadGeneration) return
 
     this.scene.environment = this.environment.texture
     this.scene.environmentIntensity = 0.25
 
     const gltf = await gltfLoader.loadAsync(url)
+    if (loadId !== this._loadGeneration) {
+      disposeObject3D(gltf.scene)
+      return
+    }
 
     const ambient = new AmbientLight(0xffffff, 0.5)
     gltf.scene.add(ambient)
@@ -109,20 +134,38 @@ export class ModelViewer extends ThreeApplet {
   }
 
   async loadLegacyGLTFModelWithTiltMaterials(url: string) {
+    const loadId = this._loadGeneration
     const hasPresentation = await this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
+    if (loadId !== this._loadGeneration) return
 
     this.scene.environment = null
     this.scene.environmentIntensity = 0
 
     const gltf = await legacyLoader.loadAsync(url)
+    if (loadId !== this._loadGeneration) {
+      disposeObject3D(gltf.scene)
+      return
+    }
+
     await replaceGltf1Materials(gltf.scene, BRUSH_PATH)
+    if (loadId !== this._loadGeneration) {
+      disposeObject3D(gltf.scene)
+      return
+    }
+
     this.modelRoot.add(gltf.scene)
 
     const { ambient, fog } = await tiltEnvironmentLoader.load(gltf.scene, gltf.scene.userData)
+    if (loadId !== this._loadGeneration) {
+      disposeObject3D(gltf.scene)
+      ambient.removeFromParent()
+      return
+    }
+
     this.modelRoot.add(ambient)
     this.scene.fog = fog
 
-    this.isPlaying = true
+    this.isPlaying = sketchNeedsContinuousPlayback(gltf.scene)
 
     if (!hasPresentation) {
       this.dispatch('three-applet-frame-object-all', this.modelRoot, true)
@@ -145,5 +188,10 @@ export class ModelViewer extends ThreeApplet {
     }
     this.dispatch('three-applet-needs-render', undefined, true)
     return false
+  }
+
+  override dispose() {
+    this.clearModel()
+    super.dispose()
   }
 }

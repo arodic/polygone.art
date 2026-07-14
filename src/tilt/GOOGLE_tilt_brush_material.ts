@@ -28,6 +28,107 @@ type BrushFlags = { lights?: boolean; fog?: boolean }
 /** Brush meshes always carry a single dynamic material with uniforms. */
 type BrushMesh = THREE.Mesh & { material: any }
 
+// Reused across every brush mesh onBeforeRender — avoids GC storms on large sketches.
+const _time = new THREE.Vector4()
+const _tmpVec4 = new THREE.Vector4()
+const _lightDir = new THREE.Vector3()
+const _lightOrigin = new THREE.Vector3(0, 0, 0)
+const _lightUp = new THREE.Vector3(0, 1, 0)
+const _lightMatrix = new THREE.Matrix4()
+const _materialFrame = new WeakMap<object, number>()
+
+let _sceneFrame = -1
+let _sceneLight0: THREE.Object3D | null = null
+let _sceneLight1: THREE.Object3D | null = null
+let _sceneAmbient: THREE.AmbientLight | null = null
+let _a2cEnabled = 0
+
+function setBrushUniform(mat: any, name: string, value: any) {
+    if (!mat?.uniforms?.[name]) return
+    const target = mat.uniforms[name].value
+    // Color uses r/g/b; Vector3/Vector4 use x/y/z — .copy(Color) leaves components undefined.
+    if (value?.isColor && target?.isVector3) {
+        target.set(value.r, value.g, value.b)
+    } else if (value?.isColor && target?.isVector4) {
+        target.set(value.r, value.g, value.b, 1)
+    } else if (value?.isColor && target?.isColor) {
+        target.copy(value)
+    } else if (target?.copy && (value?.isVector3 || value?.isVector4 || value?.isMatrix4)) {
+        target.copy(value)
+    } else if (typeof value === 'number') {
+        mat.uniforms[name].value = value
+    } else if (target?.copy) {
+        target.copy(value)
+    } else {
+        mat.uniforms[name].value = value
+    }
+}
+
+function refreshSceneFrameCache(renderer: any, scene: THREE.Scene, timer: THREE.Timer) {
+    const frame = renderer?.info?.frame ?? 0
+    if (_sceneFrame === frame) return frame
+
+    _sceneFrame = frame
+    timer.update()
+    _sceneLight0 = scene.getObjectByName('SceneLight0') as THREE.Object3D | null
+    _sceneLight1 = scene.getObjectByName('SceneLight1') as THREE.Object3D | null
+    _sceneAmbient = scene.getObjectByName('SceneAmbient') as THREE.AmbientLight | null
+    if (!_sceneAmbient) {
+        scene.traverse((obj) => {
+            if (_sceneAmbient) return
+            if ((obj as THREE.AmbientLight).isAmbientLight) {
+                _sceneAmbient = obj as THREE.AmbientLight
+            }
+        })
+    }
+
+    _a2cEnabled = 0
+    try {
+        const gl = renderer.getContext?.()
+        if (gl?.SAMPLES != null) {
+            _a2cEnabled = gl.getParameter(gl.SAMPLES) > 0 ? 1 : 0
+            if (_a2cEnabled && gl.enable) gl.enable(gl.SAMPLE_ALPHA_TO_COVERAGE)
+        }
+    } catch {
+        // WebGPU backend may not expose a WebGL context
+    }
+
+    return frame
+}
+
+function writeLightUniforms(
+    mat: any,
+    light: any,
+    colorKey: string,
+    matrixKey: string,
+    camera: THREE.Camera,
+) {
+    if (!light) return
+    setBrushUniform(mat, colorKey, _tmpVec4.set(light.color.r, light.color.g, light.color.b, 1))
+    // World direction → view space (matches directionalLights[].direction).
+    _lightDir.copy(light.position).normalize().negate()
+    _lightDir.transformDirection(camera.matrixWorldInverse).normalize()
+    _lightMatrix.lookAt(_lightOrigin, _lightDir, _lightUp)
+    setBrushUniform(mat, matrixKey, _lightMatrix)
+}
+
+function writeDirectionalLightUniforms(
+    mat: any,
+    entry: any,
+    colorKey: string,
+    matrixKey: string,
+) {
+    if (!entry) return
+    if (mat.uniforms[colorKey]) {
+        const color = entry.color
+        mat.uniforms[colorKey].value.set(color.r, color.g, color.b, 1)
+    }
+    if (mat.uniforms[matrixKey]) {
+        _lightDir.copy(entry.direction).negate()
+        mat.uniforms[matrixKey].value.lookAt(_lightOrigin, _lightDir, _lightUp)
+    }
+}
+
 export class GLTFGoogleTiltBrushMaterialExtension {
     name: string
     altName: string
@@ -2395,152 +2496,62 @@ export class GLTFGoogleTiltBrushMaterialExtension {
             mesh.material.userData.tiltUniforms.u_isNewTiltExporter.value = isNewTiltExporter ? 1 : 0
         }
 
-        mesh.onBeforeRender = (renderer, scene, camera, _geometry, material, _group) => {
+        // Shared brush materials are reused across many stroke meshes. Update each
+        // material once per frame; later meshes with the same material early-out.
+        mesh.onBeforeRender = (renderer, scene, camera, _geometry, material) => {
             const mat: any = material
-            const setUniform = (name: string, value: any) => {
-                if (mat?.uniforms?.[name]) {
-                    const target = mat.uniforms[name].value
-                    // Color uses r/g/b; Vector3/Vector4 use x/y/z — .copy(Color) leaves components undefined.
-                    if (value?.isColor && target?.isVector3) {
-                        target.set(value.r, value.g, value.b)
-                    } else if (value?.isColor && target?.isVector4) {
-                        target.set(value.r, value.g, value.b, 1)
-                    } else if (value?.isColor && target?.isColor) {
-                        target.copy(value)
-                    } else if (target?.copy && (value?.isVector3 || value?.isVector4 || value?.isMatrix4)) {
-                        target.copy(value)
-                    } else if (typeof value === 'number') {
-                        mat.uniforms[name].value = value
-                    } else if (target?.copy) {
-                        target.copy(value)
-                    } else {
-                        mat.uniforms[name].value = value
-                    }
-                }
-            }
+            if (!mat) return
 
-            if (mat?.uniforms?.u_time || mat?.userData?.tiltUniforms?.u_time) {
-                this.timer.update()
+            const frame = refreshSceneFrameCache(renderer, scene, this.timer)
+            if (_materialFrame.get(mat) === frame) return
+            _materialFrame.set(mat, frame)
+
+            if (mat.uniforms?.u_time || mat.userData?.tiltUniforms?.u_time) {
                 const elapsedTime = this.timer.getElapsed()
                 // _Time from https://docs.unity3d.com/Manual/SL-UnityShaderVariables.html
-                const time = new THREE.Vector4(elapsedTime / 20, elapsedTime, elapsedTime * 2, elapsedTime * 3)
-                setUniform('u_time', time)
+                _time.set(elapsedTime / 20, elapsedTime, elapsedTime * 2, elapsedTime * 3)
+                setBrushUniform(mat, 'u_time', _time)
             }
 
-            if (mat?.uniforms?.cameraPosition) {
-                mat.uniforms['cameraPosition'].value = camera.position
+            if (mat.uniforms?.cameraPosition) {
+                mat.uniforms.cameraPosition.value = camera.position
             }
 
             // Prefer scene lights by name. Brush shaders expect view-space light directions.
-            const light0 = scene.getObjectByName('SceneLight0')
-            const light1 = scene.getObjectByName('SceneLight1')
-            const updateLight = (light: any, colorKey: string, matrixKey: string) => {
-                if (!light) return
-                setUniform(colorKey, new THREE.Vector4(light.color.r, light.color.g, light.color.b, 1))
-                // World direction → view space (matches directionalLights[].direction).
-                const direction = light.position.clone().normalize().negate()
-                direction.transformDirection(camera.matrixWorldInverse).normalize()
-                setUniform(
-                    matrixKey,
-                    new THREE.Matrix4().lookAt(
-                        new THREE.Vector3(0, 0, 0),
-                        direction,
-                        new THREE.Vector3(0, 1, 0),
-                    ),
+            writeLightUniforms(mat, _sceneLight0, 'u_SceneLight_0_color', 'u_SceneLight_0_matrix', camera)
+            writeLightUniforms(mat, _sceneLight1, 'u_SceneLight_1_color', 'u_SceneLight_1_matrix', camera)
+
+            const dirLights = mat.uniforms?.directionalLights?.value
+            if (dirLights) {
+                writeDirectionalLightUniforms(mat, dirLights[0], 'u_SceneLight_0_color', 'u_SceneLight_0_matrix')
+                writeDirectionalLightUniforms(mat, dirLights[1], 'u_SceneLight_1_color', 'u_SceneLight_1_matrix')
+            }
+
+            if (mat.uniforms?.ambientLightColor?.value && mat.uniforms.u_ambient_light_color) {
+                const colorArray = mat.uniforms.ambientLightColor.value
+                mat.uniforms.u_ambient_light_color.value.set(colorArray[0], colorArray[1], colorArray[2], 1)
+            } else if (_sceneAmbient) {
+                setBrushUniform(
+                    mat,
+                    'u_ambient_light_color',
+                    _tmpVec4.set(_sceneAmbient.color.r, _sceneAmbient.color.g, _sceneAmbient.color.b, 1),
                 )
             }
-            updateLight(light0, 'u_SceneLight_0_color', 'u_SceneLight_0_matrix')
-            updateLight(light1, 'u_SceneLight_1_color', 'u_SceneLight_1_matrix')
 
-            if(mat?.uniforms?.directionalLights?.value) {
-                // Main Light
-                if(mat.uniforms.directionalLights.value[0]) {
-
-                    // Color
-                    if(mat.uniforms.u_SceneLight_0_color) {
-                        const color = mat.uniforms.directionalLights.value[0].color
-                        mat.uniforms.u_SceneLight_0_color.value = new THREE.Vector4(color.r, color.g, color.b, 1)
-                    }
-                    // Transforms
-                    if(mat.uniforms.u_SceneLight_0_matrix) {
-                        const direction = mat.uniforms.directionalLights.value[0].direction.clone().negate()
-                        mat.uniforms.u_SceneLight_0_matrix.value = new THREE.Matrix4().lookAt(
-                            new THREE.Vector3(0, 0, 0),
-                            direction,
-                            new THREE.Vector3(0, 1, 0)
-                        )
-                    }
-                }
-
-                // Shadow Light
-                if(mat.uniforms.directionalLights.value[1]) {
-
-                    // Color
-                    if(mat.uniforms.u_SceneLight_1_color) {
-                        const color = mat.uniforms.directionalLights.value[1].color
-                        mat.uniforms.u_SceneLight_1_color.value = new THREE.Vector4(color.r, color.g, color.b, 1)
-                    }
-                    // Transforms
-                    if(mat.uniforms.u_SceneLight_1_matrix) {
-                        const direction = mat.uniforms.directionalLights.value[1].direction.clone().negate()
-                        mat.uniforms.u_SceneLight_1_matrix.value = new THREE.Matrix4().lookAt(
-                            new THREE.Vector3(0, 0, 0),
-                            direction,
-                            new THREE.Vector3(0, 1, 0)
-                        )
-                    }
-                }
-
-            }
-
-            // Ambient Light
-            if(mat?.uniforms?.ambientLightColor?.value) {
-                if(mat.uniforms.u_ambient_light_color) {
-                    const colorArray = mat.uniforms.ambientLightColor.value
-                    mat.uniforms.u_ambient_light_color.value = new THREE.Vector4(colorArray[0], colorArray[1], colorArray[2], 1)
-                }
-            } else if (scene?.children) {
-                const ambient = scene.children.find((c: any) => c.isAmbientLight) as THREE.AmbientLight | undefined
-                if (ambient) {
-                    setUniform(
-                        'u_ambient_light_color',
-                        new THREE.Vector4(ambient.color.r, ambient.color.g, ambient.color.b, 1),
-                    )
-                }
-            }
-
-            // Fog
-            if (scene?.fog) {
-                if (scene.fog.color) setUniform('u_fogColor', scene.fog.color)
+            if (scene.fog) {
+                if (scene.fog.color) setBrushUniform(mat, 'u_fogColor', scene.fog.color)
                 const fogDensity = (scene.fog as THREE.FogExp2).density
-                if (fogDensity != null) setUniform('u_fogDensity', fogDensity)
+                if (fogDensity != null) setBrushUniform(mat, 'u_fogDensity', fogDensity)
             }
-            if(mat?.uniforms?.fogColor?.value) {
-                if(mat.uniforms.u_fogColor) {
-                    const colorArray = mat.uniforms.fogColor.value
-                    mat.uniforms.u_fogColor.value = colorArray
-                }
+            if (mat.uniforms?.fogColor?.value && mat.uniforms.u_fogColor) {
+                mat.uniforms.u_fogColor.value = mat.uniforms.fogColor.value
             }
-            if(mat?.uniforms?.fogDensity?.value) {
-                if(mat.uniforms.u_fogDensity) {
-                    mat.uniforms.u_fogDensity.value = mat.uniforms.fogDensity.value
-                }
+            if (mat.uniforms?.fogDensity?.value && mat.uniforms.u_fogDensity) {
+                mat.uniforms.u_fogDensity.value = mat.uniforms.fogDensity.value
             }
 
-            if (mat?.alphaToCoverage) {
-                try {
-                    const gl = renderer.getContext?.()
-                    if (gl?.SAMPLES != null) {
-                        const samples = gl.getParameter(gl.SAMPLES)
-                        const a2cEnabled = samples > 0
-                        setUniform('u_A2CEnabled', a2cEnabled ? 1.0 : 0.0)
-                        if (a2cEnabled && gl.enable) {
-                            gl.enable(gl.SAMPLE_ALPHA_TO_COVERAGE)
-                        }
-                    }
-                } catch {
-                    // WebGPU backend may not expose a WebGL context
-                }
+            if (mat.alphaToCoverage) {
+                setBrushUniform(mat, 'u_A2CEnabled', _a2cEnabled)
             }
         }
     }
