@@ -1,5 +1,6 @@
 import { AmbientLight, BackSide, CanvasTexture, ClampToEdgeWrapping, Color, DirectionalLight, Euler, FogExp2, MathUtils, Mesh, MeshBasicMaterial, Object3D, Quaternion, RepeatWrapping, SphereGeometry, SRGBColorSpace, Vector3 } from 'three'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
+import { EXCLUDE_FROM_CAMERA_BOUNDS } from './presentationCameraRay.js'
 
 const gltfLoader = new GLTFLoader()
 
@@ -238,6 +239,8 @@ export class TiltEnvironmentLoader {
     envGltf.scene.setRotationFromEuler(new Euler(0, Math.PI, 0))
     envGltf.scene.scale.set(0.1, 0.1, 0.1)
     envGltf.scene.name = `Environment_${env.name}`
+    // Pedestal / sky bounds must not pull presentation orbit focus off the sketch.
+    envGltf.scene.userData[EXCLUDE_FROM_CAMERA_BOUNDS] = true
 
     // Add gradient sky (under flipped env so it matches env orientation).
     const skyColorA = parseTBColorString(userData['TB_SkyColorA'] as string | undefined, new Color(0.274509817, 0.274509817, 0.31764707))

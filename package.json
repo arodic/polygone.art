@@ -10,10 +10,10 @@
   "sideEffects": [
     "**/src/index.ts",
     "**/src/index.js",
-    "**/src/poly-app.ts",
-    "**/src/poly-app.js",
-    "**/poly-icons.ts",
-    "**/poly-icons.js"
+    "**/src/icons.ts",
+    "**/src/icons.js",
+    "**/src/utils/iconSet.ts",
+    "**/src/utils/iconSet.js"
   ],
   "scripts": {
     "dev": "vite",

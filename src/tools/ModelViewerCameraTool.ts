@@ -231,6 +231,10 @@ export class ModelViewerCameraTool extends ToolBase {
     }
   }
 
+  /**
+   * Recompute FPS/orbit pivot from the current presentation camera + model bounds.
+   * Intentionally does not reorient the camera — presentation pose must stay as loaded.
+   */
   private syncFocus(viewport: IoThreeViewport) {
     const state = this._viewportState.get(viewport)
     const camera = this.modelViewer.camera
@@ -239,7 +243,8 @@ export class ModelViewerCameraTool extends ToolBase {
 
     computeOrbitTargetFromCameraAndModel(camera, modelRoot, state.focus)
     state.orbitControls.target.copy(state.focus)
-    state.orbitControls.update()
+    // OrbitControls.update() calls lookAt(target) and would overwrite presentation rotation.
+    // Orbit mode picks up the new target via syncMode / its per-frame update instead.
     this.modelViewer.dispatch('three-applet-needs-render', undefined, true)
   }
 
