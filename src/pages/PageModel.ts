@@ -153,7 +153,6 @@ export class PageModel extends ReactiveElement {
     window.clearTimeout(this._chromeIdleTimer)
     this._chromeIdleTimer = window.setTimeout(() => {
       this.chromeIdle = true
-      console.log('chrome idle')
     }, CHROME_IDLE_MS)
   }
 

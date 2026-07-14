@@ -28,7 +28,6 @@ export class PresentationLoader {
       const res = await fetch(jsonUrl)
       if (res.ok) {
         const parsed = this.parsePresentationCamera((await res.json()) as Record<string, unknown>)
-        console.log(parsed)
         if (parsed) return parsed
       }
     } catch {

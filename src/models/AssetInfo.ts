@@ -145,7 +145,6 @@ export class AssetInfo extends ReactiveObject {
       return new Promise((resolve, reject) => {
         fetch(`${BLOB_URL}/assets/${guid}/data.json`).then(async response => {
           const assetInfoData = await response.json() as AssetInfoData
-          console.log(assetInfoData)
           this.applyJSON(assetInfoData)
           ASSET_INFO_CACHE.set(guid, assetInfoData)
           resolve(this)
