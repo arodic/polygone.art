@@ -1,6 +1,8 @@
 // Adapted from original GLTF 1.0 Loader in three.js r86
 // https://github.com/mrdoob/three.js/blob/r86/examples/js/loaders/GLTFLoader.js
 
+/* eslint-disable no-var, no-prototype-builtins, @typescript-eslint/no-this-alias */
+
 import * as THREE from 'three'
 
 export interface LegacyGLTF {

@@ -101,6 +101,7 @@ export class CatalogGrid extends ReactiveElement {
   assetLoaderTimeout: ReturnType<typeof setTimeout> | null = null
   thumbnailLoaderTimeout: ReturnType<typeof setTimeout> | null = null
   filterTimeout: ReturnType<typeof setTimeout> | null = null
+  #savedScrollTop = 0
 
   static override get Listeners() {
     return {
@@ -111,6 +112,23 @@ export class CatalogGrid extends ReactiveElement {
   override ready() {
     this.assetsSrcChanged()
     this.thumbsSrcChanged()
+  }
+
+  override connectedCallback() {
+    super.connectedCallback()
+    this.restoreScroll()
+  }
+
+  override disconnectedCallback() {
+    this.#savedScrollTop = this.scrollTop || this.#savedScrollTop
+    super.disconnectedCallback()
+  }
+
+  restoreScroll() {
+    if (this.#savedScrollTop > 0) {
+      this.scrollTop = this.#savedScrollTop
+    }
+    this.throttle(this.mutated)
   }
 
   thumbsSrcChanged() {
@@ -203,6 +221,7 @@ export class CatalogGrid extends ReactiveElement {
     this.throttle(this.mutated)
   }
   onScroll() {
+    this.#savedScrollTop = this.scrollTop
     this.throttle(this.mutated)
   }
   typeChanged() {
@@ -250,12 +269,15 @@ export class CatalogGrid extends ReactiveElement {
     this.items = filtered
   }
   override mutated() {
+    // Skip while detached/hidden — zero width collapses the virtual height and clamps scrollTop to 0.
+    if (!this.isConnected || this.clientWidth === 0) return
+
     const size = parseInt(this.size) || 128
     const powTwoSize = Math.max(32, Math.min(512, nearestPowerOfTwo(size)))
     const columnCount = Math.max(1, Math.ceil(this.clientWidth / size))
 
     const itemSize = this.clientWidth / columnCount - 1 / columnCount
-    const scrollTop = Math.max(0, this.scrollTop)
+    const scrollTop = Math.max(0, this.scrollTop || this.#savedScrollTop)
     const firstIndex = Math.max(0, Math.floor(scrollTop / itemSize))
 
     const visibleListSize = Math.round(this.clientHeight / itemSize) * columnCount + 4 * columnCount
@@ -280,6 +302,11 @@ export class CatalogGrid extends ReactiveElement {
         size: powTwoSize,
       })),
     ])
+
+    if (this.#savedScrollTop > 0 && this.scrollTop !== this.#savedScrollTop) {
+      this.scrollTop = this.#savedScrollTop
+      this.#savedScrollTop = this.scrollTop
+    }
   }
 }
 

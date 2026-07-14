@@ -17,6 +17,7 @@
   ],
   "scripts": {
     "dev": "vite",
+    "dev:proxy": "VITE_HMR_PROXY=1 vite",
     "build": "pnpm clean && tsc",
     "bundle": "pnpm lint && pnpm build && node bundle.js",
     "lint": "eslint . --fix",

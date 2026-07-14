@@ -19,11 +19,16 @@ export default defineConfig({
     port: 3000,
     host: true,
     allowedHosts: ['dev.tabanovic.xyz'],
-    // Behind HTTPS reverse proxy: client connects to the page host on 443.
-    hmr: {
-      protocol: 'wss',
-      clientPort: 443,
-    },
+    // Local: default ws on the Vite port. Behind HTTPS reverse proxy: set
+    // VITE_HMR_PROXY=1 so the client dials wss on 443 through the proxy.
+    ...(process.env.VITE_HMR_PROXY === '1'
+      ? {
+          hmr: {
+            protocol: 'wss' as const,
+            clientPort: 443,
+          },
+        }
+      : {}),
   },
   build: { target: 'esnext' },
   optimizeDeps: { esbuildOptions: { target: 'esnext' } },

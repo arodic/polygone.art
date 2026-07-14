@@ -1,10 +1,13 @@
-import { Property, Register } from '@io-gui/core'
+import { Property, Register, WithBinding } from '@io-gui/core'
 import { IoThreeViewport, ToolBase, ToolBaseProps } from '@io-gui/three'
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import { Vector3 } from 'three/webgpu'
 import { ModelViewer } from '../applets/ModelViewer.js'
 import { VirtualThumbsticks } from '../controls/VirtualThumbsticks.js'
 import { computeOrbitTargetFromCameraAndModel } from '../utils/presentationCameraRay.js'
 import { applyStickCurve, StickVector } from '../utils/stickCurve.js'
+
+export type ControlMode = 'FPS' | 'orbit'
 
 const LOOK_SPEED = 1.6 / 5
 const MOVE_SPEED = 1.2
@@ -24,8 +27,9 @@ const _moveDelta = new Vector3()
 const _worldUp = new Vector3(0, 1, 0)
 
 type ViewportCameraState = {
-  /** Point along the view ray used for locomotion distance scaling. */
+  /** Shared pivot: FPS focus distance / orbit target. */
   focus: Vector3
+  orbitControls: OrbitControls
   thumbsticks: VirtualThumbsticks | null
   dragPointerId: number | null
   desktopPointersAttached: boolean
@@ -55,6 +59,13 @@ export class ModelViewerCameraTool extends ToolBase {
   @Property({ type: Boolean, value: isCoarsePointerDevice() })
   declare touchMode: boolean
 
+  @Property({ value: 'FPS', type: String })
+  declare mode: ControlMode
+
+  /** Shared page chrome idle flag: hides FPS thumbsticks after inactivity. */
+  @Property({ value: false, type: Boolean })
+  declare chromeIdle: boolean
+
   private readonly _registeredViewports: IoThreeViewport[] = []
   private readonly _viewportState = new WeakMap<IoThreeViewport, ViewportCameraState>()
   private readonly _keys: KeyMoveState = { w: false, a: false, s: false, d: false }
@@ -67,7 +78,7 @@ export class ModelViewerCameraTool extends ToolBase {
   private readonly _onKeyUp = (event: KeyboardEvent) => this.onKeyChange(event, false)
   private readonly _onWindowBlur = () => this.clearKeys()
 
-  constructor(args?: ToolBaseProps) {
+  constructor(args?: ModelViewerCameraToolProps) {
     super(args)
     window.matchMedia('(pointer: coarse)').addEventListener('change', this._onPointerSchemeChanged)
     this.applet?.addEventListener('model-viewer-ready', this._onModelReady)
@@ -78,6 +89,17 @@ export class ModelViewerCameraTool extends ToolBase {
 
   get modelViewer(): ModelViewer {
     return this.applet as ModelViewer
+  }
+
+  modeChanged() {
+    this.clearKeys()
+    for (const viewport of this._registeredViewports) {
+      this.syncMode(viewport)
+    }
+  }
+
+  chromeIdleChanged() {
+    this.syncThumbstickVisibility()
   }
 
   override registerViewport(viewport: IoThreeViewport) {
@@ -129,6 +151,17 @@ export class ModelViewerCameraTool extends ToolBase {
     const camera = this.modelViewer.camera
     if (!camera) return
 
+    const orbitControls = new OrbitControls(camera)
+    orbitControls.connect(viewport)
+    orbitControls.enableDamping = true
+    orbitControls.dampingFactor = 0.08
+    orbitControls.screenSpacePanning = true
+    orbitControls.addEventListener('change', () => {
+      const state = this._viewportState.get(viewport)
+      if (state) state.focus.copy(orbitControls.target)
+      this.modelViewer.dispatch('three-applet-needs-render', undefined, true)
+    })
+
     let thumbsticks: VirtualThumbsticks | null = null
     let desktopPointersAttached = false
     if (this.touchMode) {
@@ -145,11 +178,13 @@ export class ModelViewerCameraTool extends ToolBase {
 
     this._viewportState.set(viewport, {
       focus: new Vector3(),
+      orbitControls,
       thumbsticks,
       dragPointerId: null,
       desktopPointersAttached,
     })
     this.syncFocus(viewport)
+    this.syncMode(viewport)
     this.startAnimationLoop()
   }
 
@@ -157,6 +192,7 @@ export class ModelViewerCameraTool extends ToolBase {
     const state = this._viewportState.get(viewport)
     if (!state) return
     state.thumbsticks?.unmount()
+    state.orbitControls.dispose()
     if (state.desktopPointersAttached) {
       viewport.removeEventListener('pointerdown', this._onDesktopPointerDown)
       viewport.removeEventListener('pointermove', this._onDesktopPointerMove)
@@ -167,6 +203,34 @@ export class ModelViewerCameraTool extends ToolBase {
     this._viewportState.delete(viewport)
   }
 
+  private syncMode(viewport: IoThreeViewport) {
+    const state = this._viewportState.get(viewport)
+    if (!state) return
+
+    // OrbitControls owns both desktop and touch when orbit mode is selected.
+    state.orbitControls.enabled = this.mode === 'orbit'
+    state.dragPointerId = null
+
+    if (this.mode === 'orbit') {
+      state.orbitControls.target.copy(state.focus)
+      state.orbitControls.update()
+    } else {
+      state.focus.copy(state.orbitControls.target)
+    }
+
+    this.syncThumbstickVisibility()
+    this.modelViewer.dispatch('three-applet-needs-render', undefined, true)
+  }
+
+  /** Sticks only in FPS touch mode; always hidden while orbiting or chrome-idle. */
+  private syncThumbstickVisibility() {
+    const show = this.mode === 'FPS' && this.touchMode && !this.chromeIdle
+    for (const viewport of this._registeredViewports) {
+      const state = this._viewportState.get(viewport)
+      state?.thumbsticks?.setVisible(show)
+    }
+  }
+
   private syncFocus(viewport: IoThreeViewport) {
     const state = this._viewportState.get(viewport)
     const camera = this.modelViewer.camera
@@ -174,6 +238,8 @@ export class ModelViewerCameraTool extends ToolBase {
     if (!state || !camera || !modelRoot?.children.length) return
 
     computeOrbitTargetFromCameraAndModel(camera, modelRoot, state.focus)
+    state.orbitControls.target.copy(state.focus)
+    state.orbitControls.update()
     this.modelViewer.dispatch('three-applet-needs-render', undefined, true)
   }
 
@@ -206,8 +272,20 @@ export class ModelViewerCameraTool extends ToolBase {
     this._lastFrameTime = 0
   }
 
-  /** Shared per-frame path: sticks on touch, WASD on desktop (mouse look is event-driven). */
+  /** Shared per-frame path for the active control mode. */
   private applyFrameControls(viewport: IoThreeViewport, dt: number) {
+    const state = this._viewportState.get(viewport)
+    if (!state) return false
+
+    if (this.mode === 'orbit') {
+      return state.orbitControls.update()
+    }
+
+    return this.applyFpsControls(viewport, dt)
+  }
+
+  /** FPS: sticks on touch, WASD on desktop (mouse look is event-driven). */
+  private applyFpsControls(viewport: IoThreeViewport, dt: number) {
     const state = this._viewportState.get(viewport)
     const camera = this.modelViewer.camera
     if (!state || !camera) return false
@@ -236,7 +314,7 @@ export class ModelViewerCameraTool extends ToolBase {
 
     let changed = false
     if (look.x !== 0 || look.y !== 0) {
-      this.applyLook(camera, state.focus, look.x * LOOK_SPEED * dt, look.y * LOOK_SPEED * dt)
+      this.applyLook(camera, state.focus, look.x * LOOK_SPEED * dt, -look.y * LOOK_SPEED * dt)
       changed = true
     }
     if (move.x !== 0 || move.y !== 0) {
@@ -247,7 +325,7 @@ export class ModelViewerCameraTool extends ToolBase {
   }
 
   private onKeyChange(event: KeyboardEvent, isDown: boolean) {
-    if (this.touchMode || event.metaKey || event.ctrlKey || event.altKey) return
+    if (this.mode !== 'FPS' || this.touchMode || event.metaKey || event.ctrlKey || event.altKey) return
     if (isTypingTarget(event.target)) return
 
     const key = event.key.toLowerCase()
@@ -265,7 +343,7 @@ export class ModelViewerCameraTool extends ToolBase {
   }
 
   private _onDesktopPointerDown = (event: PointerEvent) => {
-    if (this.touchMode || event.button !== 0) return
+    if (this.mode !== 'FPS' || this.touchMode || event.button !== 0) return
     const viewport = event.currentTarget as IoThreeViewport
     const state = this._viewportState.get(viewport)
     if (!state) return
@@ -275,7 +353,7 @@ export class ModelViewerCameraTool extends ToolBase {
   }
 
   private _onDesktopPointerMove = (event: PointerEvent) => {
-    if (this.touchMode) return
+    if (this.mode !== 'FPS' || this.touchMode) return
     const viewport = event.currentTarget as IoThreeViewport
     const state = this._viewportState.get(viewport)
     const camera = this.modelViewer.camera
@@ -358,7 +436,11 @@ export class ModelViewerCameraTool extends ToolBase {
   }
 }
 
-export type ModelViewerCameraToolProps = ToolBaseProps
+export type ModelViewerCameraToolProps = ToolBaseProps & {
+  mode?: WithBinding<ControlMode>
+  chromeIdle?: WithBinding<boolean>
+  touchMode?: WithBinding<boolean>
+}
 
 export function modelViewerCameraTool(props: ModelViewerCameraToolProps) {
   return new ModelViewerCameraTool(props)

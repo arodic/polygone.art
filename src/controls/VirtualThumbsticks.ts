@@ -27,6 +27,7 @@ export class VirtualThumbsticks {
   private _leftActive: ActivePointer | null = null
   private _rightActive: ActivePointer | null = null
   private _mounted = false
+  private _visible = true
 
   constructor() {
     this.element = document.createElement('div')
@@ -50,6 +51,18 @@ export class VirtualThumbsticks {
 
   get rightStick(): StickVector {
     return this._right
+  }
+
+  get visible(): boolean {
+    return this._visible
+  }
+
+  /** Fade sticks in/out. Hidden sticks release input and ignore pointers. */
+  setVisible(visible: boolean) {
+    if (this._visible === visible) return
+    this._visible = visible
+    this.element.classList.toggle('hidden', !visible)
+    if (!visible) this.reset()
   }
 
   mount(parent: HTMLElement) {
@@ -104,6 +117,11 @@ export class VirtualThumbsticks {
         pointer-events: none;
         z-index: 2;
         touch-action: none;
+        opacity: 1;
+        transition: opacity 0.35s ease;
+      }
+      .model-viewer-thumbsticks.hidden {
+        opacity: 0;
       }
       .model-viewer-thumbsticks .stick-zone {
         position: absolute;
@@ -116,6 +134,9 @@ export class VirtualThumbsticks {
         border: 1px solid color-mix(in srgb, var(--io_colorWhite, #fff) 20%, transparent);
         pointer-events: auto;
         touch-action: none;
+      }
+      .model-viewer-thumbsticks.hidden .stick-zone {
+        pointer-events: none;
       }
       .model-viewer-thumbsticks .stick-zone-left {
         left: 24px;
@@ -149,6 +170,7 @@ export class VirtualThumbsticks {
   }
 
   private onPointerDown = (event: PointerEvent) => {
+    if (!this._visible) return
     event.preventDefault()
     event.stopPropagation()
     const zone = event.currentTarget as HTMLDivElement
@@ -209,7 +231,8 @@ export class VirtualThumbsticks {
       dy = (dy / len) * radius
     }
     const x = dx / radius
-    const y = -(dy / radius)
+    // Screen Y grows downward; negate so up = +y. Left stick look is inverted.
+    const y = side === 'left' ? dy / radius : -(dy / radius)
     const knob = side === 'left' ? this._leftKnob : this._rightKnob
     knob.style.transform = `translate(calc(-50% + ${dx}px), calc(-50% + ${dy}px))`
     if (side === 'left') this._left = { x, y }

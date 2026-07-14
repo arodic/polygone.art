@@ -5,7 +5,7 @@ import { catalogView } from '../views/CatalogView'
 import { BottomDrawer } from '../layout/BottomDrawer.js'
 import { bottomDrawerSplit } from '../layout/BottomDrawerSplit.js'
 
-const drawer = new BottomDrawer({ drawerSize: '420px' })
+const drawer = new BottomDrawer({ drawerSize: '360px' })
 
 @Register
 export class PageCatalog extends ReactiveElement {

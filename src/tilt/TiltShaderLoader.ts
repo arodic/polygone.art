@@ -119,12 +119,10 @@ export class TiltShaderLoader extends THREE.Loader<MeshBasicNodeMaterial, string
 		_onProgress?: (event: ProgressEvent) => void,
 		onError?: (err: unknown) => void,
 	): Promise<void> {
-		const scope = this
-
 		const isAlreadyLoaded = this.loadedMaterials[brushName]
 
 		if (isAlreadyLoaded !== undefined) {
-			onLoad(scope.parse(isAlreadyLoaded))
+			onLoad(this.parse(isAlreadyLoaded))
 			return
 		}
 
@@ -221,7 +219,7 @@ export class TiltShaderLoader extends THREE.Loader<MeshBasicNodeMaterial, string
 		if (brushName !== 'PbrTemplate' && brushName !== 'PbrTransparentTemplate') {
 			this.loadedMaterials[brushName] = nodeMaterial
 		}
-		onLoad(scope.parse(nodeMaterial))
+		onLoad(this.parse(nodeMaterial))
 	}
 
 	parse(material: MeshBasicNodeMaterial): MeshBasicNodeMaterial {
@@ -394,9 +392,9 @@ export class TiltShaderLoader extends THREE.Loader<MeshBasicNodeMaterial, string
             case '759f1ebd-20cd-4720-8d41-234e0da63716':
                 return 'Paper'
             
+            // Per-instance imported-model GUIDs from Poly GLTF 1.0 (all share PbrTemplate shaders).
             case 'PbrTemplate':
             case 'f86a096c-2f4f-4f9d-ae19-81b99f2944e0':
-            // Per-instance imported-model GUIDs from Poly GLTF 1.0 (all share PbrTemplate shaders).
             case 'f7edbe29-48dc-4229-9c3e-a5faaa745728':
             case 'b3e152f9-a12f-4f92-a71e-29a9e9314c8b':
             case 'd92f3222-b941-49d2-9c51-de2b2ee39600':
