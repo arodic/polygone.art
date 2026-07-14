@@ -3,6 +3,7 @@ import { HDRLoader } from 'three/examples/jsm/loaders/HDRLoader.js'
 import {
   EquirectangularReflectionMapping,
   PMREMGenerator,
+  RenderTarget,
   WebGPURenderer,
   Texture,
 } from 'three/webgpu'
@@ -29,6 +30,7 @@ export class Environment extends ReactiveObject {
   declare _loadGeneration: number
 
   private _pmremGenerator: PMREMGenerator | null = null
+  private _pmremTarget: RenderTarget | null = null
 
   constructor(args: EnvironmentProps) {
     super(args)
@@ -63,8 +65,9 @@ export class Environment extends ReactiveObject {
   generateTextureFromRawTexture() {
     if (this._pmremGenerator === null) return
     if (this.rawTexture === undefined) return
-    const rt = this._pmremGenerator.fromEquirectangular(this.rawTexture)
-    this.texture = rt.texture
+    this._pmremTarget?.dispose()
+    this._pmremTarget = this._pmremGenerator.fromEquirectangular(this.rawTexture)
+    this.texture = this._pmremTarget.texture
   }
 
   initPMREMGeneratorWithRenderer(renderer: WebGPURenderer): void {

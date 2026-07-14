@@ -1,12 +1,20 @@
- 
 import { Property, ReactiveElement, ReactiveElementProps, Register, WithBinding } from '@io-gui/core'
 import { ioThreeViewport } from '@io-gui/three'
+import { WebGPURenderer } from 'three/webgpu'
 import { AssetInfo } from '../models/AssetInfo'
 import { assetInfoView } from '../views/AssetInfoView.js'
 import { ModelViewer } from '../applets/ModelViewer.js'
 import { ModelViewerCameraTool } from '../tools/ModelViewerCameraTool.js'
 import { BottomDrawer } from '../layout/BottomDrawer.js'
 import { bottomDrawerSplit } from '../layout/BottomDrawerSplit.js'
+import { installPixelRatioCap } from '../utils/pixelRatio.js'
+
+const renderer = new WebGPURenderer({
+  antialias: false,
+  alpha: true,
+  forceWebGL: true,
+})
+void renderer.init()
 
 type PageModelProps = ReactiveElementProps & {
   guid: WithBinding<string>
@@ -27,7 +35,6 @@ export class PageModel extends ReactiveElement {
       -webkit-user-select: none;
       user-select: none;
       -webkit-touch-callout: none;
-      -webkit-tap-highlight-color: transparent;
     }
     :host bottom-drawer-split .main io-three-viewport {
       width: 100%;
@@ -66,7 +73,6 @@ export class PageModel extends ReactiveElement {
   declare cameraTool: ModelViewerCameraTool
 
   ready() {
-
     this.assetInfo.guid = this.bind('guid')
     this.applet.assetInfo = this.assetInfo
     this.cameraTool = new ModelViewerCameraTool({ applet: this.applet })
@@ -82,11 +88,21 @@ export class PageModel extends ReactiveElement {
             applet: this.applet,
             cameraSelect: 'scene',
             tool: this.cameraTool,
+            renderer,
           }),
           assetInfoView({ id: 'assetInfo', assetInfo: this.assetInfo, guid: this.bind('guid') }),
         ]
       })
     ])
+
+    const viewport = this.querySelector('io-three-viewport')
+    if (viewport) installPixelRatioCap(viewport as Parameters<typeof installPixelRatioCap>[0])
+  }
+
+  override dispose() {
+    this.cameraTool?.dispose()
+    this.applet?.dispose()
+    super.dispose()
   }
 }
 

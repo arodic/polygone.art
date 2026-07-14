@@ -181,6 +181,9 @@ export class ModelViewerCameraTool extends ToolBase {
     if (this._rafId) return
     const tick = (time: number) => {
       this._rafId = requestAnimationFrame(tick)
+      // Proactive page cache keeps the tool alive off-DOM; skip work until visible again.
+      if (!this._registeredViewports.some((viewport) => viewport.isConnected)) return
+
       const dt = this._lastFrameTime ? (time - this._lastFrameTime) / 1000 : 0
       this._lastFrameTime = time
 

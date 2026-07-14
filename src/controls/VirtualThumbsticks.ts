@@ -42,7 +42,6 @@ export class VirtualThumbsticks {
     this.element.append(this._leftZone, this._rightZone)
 
     this.applyStyles()
-    this.bindEvents()
   }
 
   get leftStick(): StickVector {
@@ -55,12 +54,20 @@ export class VirtualThumbsticks {
 
   mount(parent: HTMLElement) {
     if (this._mounted) return
+    this.bindEvents()
     parent.appendChild(this.element)
     this._mounted = true
   }
 
   unmount() {
     if (!this._mounted) return
+    for (const zone of [this._leftZone, this._rightZone]) {
+      zone.removeEventListener('pointerdown', this.onPointerDown)
+      zone.removeEventListener('pointermove', this.onPointerMove)
+      zone.removeEventListener('pointerup', this.onPointerUp)
+      zone.removeEventListener('pointercancel', this.onPointerUp)
+      zone.removeEventListener('lostpointercapture', this.onPointerUp)
+    }
     this.element.remove()
     this._mounted = false
     this.reset()
