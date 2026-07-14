@@ -71,7 +71,10 @@
     </style>
   </head>
   <body>
-    <script type="module" src="./src/main.ts"></script>
+    <script type="module">
+      import { PolyGone } from './index.js'
+      document.body.appendChild(new PolyGone())
+    </script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {

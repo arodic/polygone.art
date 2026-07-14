@@ -16,6 +16,7 @@ export default defineConfig({
       '@io-gui/menus': path.resolve(rootDir, 'node_modules/@io-gui/menus/dist/index.js'),
       '@io-gui/navigation': path.resolve(rootDir, 'node_modules/@io-gui/navigation/dist/index.js'),
     },
+    dedupe: ['three'],
   },
   plugins: [strip({ functions: [], labels: ['debug'] })],
   build: {
