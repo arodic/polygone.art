@@ -10,7 +10,7 @@
  * request at all. This also makes the gallery work offline.
  */
 
-const CACHE = 'polygone-blob-v2'
+const CACHE = 'polygone-blob-v3'
 const BLOB_HOST = 'blob.polygone.art'
 // Generous cap so the cache can't grow without bound if someone scrolls the whole
 // archive at every thumbnail size. Oldest entries (insertion order) are trimmed first.
