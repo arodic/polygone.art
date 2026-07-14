@@ -13,8 +13,23 @@ export default defineConfig({
       '@io-gui/menus': fileURLToPath(new URL('./node_modules/@io-gui/menus/dist/index.js', import.meta.url)),
       '@io-gui/navigation': fileURLToPath(new URL('./node_modules/@io-gui/navigation/dist/index.js', import.meta.url)),
     },
+    dedupe: ['three'],
   },
-  server: { port: 3000 },
+  server: {
+    port: 3000,
+    host: true,
+    allowedHosts: ['dev.tabanovic.xyz'],
+    // Local: default ws on the Vite port. Behind HTTPS reverse proxy: set
+    // VITE_HMR_PROXY=1 so the client dials wss on 443 through the proxy.
+    ...(process.env.VITE_HMR_PROXY === '1'
+      ? {
+          hmr: {
+            protocol: 'wss' as const,
+            clientPort: 443,
+          },
+        }
+      : {}),
+  },
   build: { target: 'esnext' },
   optimizeDeps: { esbuildOptions: { target: 'esnext' } },
 })

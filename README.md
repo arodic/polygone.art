@@ -7,6 +7,8 @@ The goal of this project is to preserve the artwork and make it available to art
 
 This content is published under a [CC-BY License]. You're free to use this as long as you [credit the author].
 
+TiltBrush asset loading made possible by [Icosa Foundation / Open Brush Project](https://github.com/icosa-foundation/three-icosa)
+
 This website does not use cookies, it is open-source, made with [io-gui] and hosted on [github](https://github.com/arodic/polygone.art).
 
 You can [download the archive using torrent](https://blob.polygone.art/torrent/polygone.torrent).
