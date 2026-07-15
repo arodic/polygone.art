@@ -95,7 +95,6 @@ export class CatalogGrid extends ReactiveElement {
   declare thumbnails: Record<string, string>
 
   assetLoaderTimeout: ReturnType<typeof setTimeout> | null = null
-  thumbnailLoaderTimeout: ReturnType<typeof setTimeout> | null = null
   filterTimeout: ReturnType<typeof setTimeout> | null = null
   #savedScrollTop = 0
 
@@ -147,6 +146,8 @@ export class CatalogGrid extends ReactiveElement {
               const valueStr = utf8decoder.decode(value)
               if (done) {
                 controller.close()
+                // Single UI flush when the stream finishes. Mid-stream dispatchMutation
+                // (previously every ~1s) re-painted base64 thumbs and killed mobile inertia.
                 scope.dispatchMutation(scope.thumbnails)
                 return
               }
@@ -155,12 +156,9 @@ export class CatalogGrid extends ReactiveElement {
               rows.length = rows.length - 1
               for (let i = 0; i < rows.length; i++) {
                 const data = rows[i].split(',')
+                // In-place fill so scroll-driven mutated() can pick up thumbs as they arrive.
                 scope.thumbnails[data[0]] = jpegHeaderData + data[1]
               }
-              if (!scope.thumbnailLoaderTimeout) scope.thumbnailLoaderTimeout = setTimeout(() => {
-                scope.dispatchMutation(scope.thumbnails)
-                scope.thumbnailLoaderTimeout = null
-              }, 1000)
               void push()
             })
           }
