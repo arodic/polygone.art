@@ -4,6 +4,7 @@ import { WebGPURenderer } from 'three/webgpu'
 import { AssetInfo } from '../models/AssetInfo'
 import { assetInfoView } from '../views/AssetInfoView.js'
 import { controlSwitch } from '../views/ControlSwitch.js'
+import { gridToggle } from '../views/GridToggle.js'
 import { ModelViewer } from '../applets/ModelViewer.js'
 import { ModelViewerCameraTool } from '../tools/ModelViewerCameraTool.js'
 import { BottomDrawer } from '../layout/BottomDrawer.js'
@@ -62,15 +63,22 @@ export class PageModel extends ReactiveElement {
     :host asset-info-view .info {
       background: transparent;
     }
-    :host control-switch {
+    :host control-switch,
+    :host grid-toggle {
       position: absolute;
       top: var(--io_fontSize);
-      right: var(--io_fontSize);
       z-index: 3;
       opacity: 1;
       transition: opacity 0.35s ease;
     }
-    :host[chromeidle] control-switch {
+    :host control-switch {
+      right: var(--io_fontSize);
+    }
+    :host grid-toggle {
+      left: var(--io_fontSize);
+    }
+    :host[chromeidle] control-switch,
+    :host[chromeidle] grid-toggle {
       opacity: 0;
       pointer-events: none;
     }
@@ -129,6 +137,10 @@ export class PageModel extends ReactiveElement {
           }),
           assetInfoView({ id: 'assetInfo', assetInfo: this.assetInfo }),
         ]
+      }),
+      gridToggle({
+        id: 'gridToggle',
+        value: this.applet.bind('showGrid'),
       }),
       controlSwitch({
         id: 'controlSwitch',

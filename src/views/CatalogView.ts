@@ -34,7 +34,6 @@ export class CatalogView extends ReactiveElement {
   }
 
   override mutated() {
-    console.log('CatalogView mutated')
     this.render([
       catalogGrid({
         id: 'catalog',

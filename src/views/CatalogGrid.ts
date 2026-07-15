@@ -27,6 +27,10 @@ export class CatalogGrid extends ReactiveElement {
         width: 100%;
         position: relative;
       }
+      :host[isLoading] {
+        opacity: 0.25;
+        pointer-events: none;
+      }
       :host > .height-padding {
         display: block;
         width: 1px;
@@ -78,6 +82,9 @@ export class CatalogGrid extends ReactiveElement {
 
   @Property('')
   declare filter: string
+
+  @Property({ value: false, type: Boolean, reflect: true })
+  declare isLoading: boolean
 
   @Property('')
   declare assetsSrc: string
@@ -221,11 +228,12 @@ export class CatalogGrid extends ReactiveElement {
     this._applyFilter()
   }
   filterChanged() {
+    this.isLoading = true
     if (this.filterTimeout) clearTimeout(this.filterTimeout)
     this.filterTimeout = setTimeout(() => {
       this._applyFilter()
       this.filterTimeout = null
-    }, 1000)
+    }, 100)
   }
   _applyFilter() {
     const filtered: string[] = []
@@ -242,6 +250,7 @@ export class CatalogGrid extends ReactiveElement {
       }
     }
     this.items = filtered
+    this.isLoading = false
   }
   override mutated() {
     // Skip while detached/hidden — zero width collapses the virtual height and clamps scrollTop to 0.

@@ -1,4 +1,4 @@
-import { Property, Register } from '@io-gui/core'
+import { Property, Register, Storage as $ } from '@io-gui/core'
 import { ThreeApplet } from '@io-gui/three'
 import { AmbientLight, Box3, Color, DirectionalLight, GridHelper, LinearSRGBColorSpace, Mesh, Object3D, PerspectiveCamera, Vector3, WebGPURenderer } from 'three/webgpu'
 import { BLOB_URL } from '../constants.js'
@@ -18,6 +18,8 @@ const legacyLoader = new LegacyGLTFLoader()
 const tiltEnvironmentLoader = new TiltEnvironmentLoader()
 
 export const BRUSH_PATH = '/assets/brushes/'
+
+const $showGrid = $({key: 'grid', storage: 'local', value: false})
 
 function sketchNeedsContinuousPlayback(root: Object3D) {
   let needsPlayback = false
@@ -52,6 +54,9 @@ export class ModelViewer extends ThreeApplet {
   @Property({ type: GridHelper, init: [10, 10] })
   declare gridHelper: GridHelper
 
+  @Property({ binding: $showGrid, type: Boolean })
+  declare showGrid: boolean
+
   @Property({ type: PerspectiveCamera, init: null })
   declare camera: PerspectiveCamera
 
@@ -63,6 +68,12 @@ export class ModelViewer extends ThreeApplet {
     this.scene.add(this.modelRoot)
     this.scene.add(this.gridHelper)
     this.scene.add(this.camera)
+    this.showGridChanged()
+  }
+
+  showGridChanged() {
+    this.gridHelper.visible = this.showGrid
+    this.dispatch('three-applet-needs-render', undefined, true)
   }
 
   onRendererInitialized(renderer: WebGPURenderer) {
@@ -107,7 +118,8 @@ export class ModelViewer extends ThreeApplet {
       this.environment.whenReady(),
       gltfLoader.loadAsync(url, (event) => {
         if (!event.lengthComputable || event.total <= 0) return
-        console.log(`GLTF2 load progress: ${Math.round((event.loaded / event.total) * 100)}%`)
+        const progress = Math.round((event.loaded / event.total) * 100)
+        this.assetInfo.dispatch('model-viewer-progress', progress, true)
       }),
     ])
     if (loadId !== this._loadGeneration) {
@@ -154,7 +166,8 @@ export class ModelViewer extends ThreeApplet {
 
     const gltf = await legacyLoader.loadAsync(url, (event) => {
       if (!event.lengthComputable || event.total <= 0) return
-      console.log(`GLTF load progress: ${Math.round((event.loaded / event.total) * 100)}%`)
+      const progress = Math.round((event.loaded / event.total) * 100)
+      this.assetInfo.dispatch('model-viewer-progress', progress, true)
     })
     if (loadId !== this._loadGeneration) {
       disposeObject3D(gltf.scene)

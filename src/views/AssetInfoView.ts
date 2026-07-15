@@ -22,6 +22,16 @@ export class AssetInfoView extends ReactiveElement {
         padding: var(--io_spacing3);
         color: var(--io_color);
       }
+      :host #progress {
+        display: none;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: var(--io_spacing2);
+        background: var(--io_bgColorBlue);
+      }
       :host .info {
         display: flex;
         flex-direction: row;
@@ -65,6 +75,12 @@ export class AssetInfoView extends ReactiveElement {
     `
   }
 
+  static override get Listeners() {
+    return {
+      'model-viewer-progress': 'onModelViewerProgress',
+    }
+  }
+
   @Property({ type: AssetInfo})
   declare assetInfo: AssetInfo
 
@@ -76,8 +92,14 @@ export class AssetInfoView extends ReactiveElement {
     this.assetInfoMutated()
   }
 
+  onModelViewerProgress(event: CustomEvent<number>) {
+    this.$['progress'].style.display = event.detail !== 100 ? 'block' : 'none'
+    this.$['progress'].style.width = `${event.detail}%`
+  }
+
   assetInfoMutated() {
     this.render([
+      div({ id: 'progress' }),
       div({ class: 'info' }, [
         polyThumbnail({
           guid: this.assetInfo.guid,
