@@ -14,7 +14,7 @@ import { $FILTER, $GUID, $PAGE, $SIZE } from './routing.js'
 const PAGE_OPTION = new Menu({
   selectedID: $PAGE,
   options: [
-    { id: 'catalog', label: 'Polygone Catalog' },
+    { id: 'catalog', label: 'Polygone' },
     { id: 'artists', label: 'Artists', hidden: true },
     { id: 'model', label: 'Model', hidden: true },
   ],
