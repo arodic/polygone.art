@@ -108,11 +108,6 @@ export class CatalogGrid extends ReactiveElement {
     this.mutated()
   }
 
-  override ready() {
-    this.assetsSrcChanged()
-    this.thumbsSrcChanged()
-  }
-
   override connectedCallback() {
     super.connectedCallback()
     this.restoreScroll()

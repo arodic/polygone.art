@@ -50,6 +50,41 @@ export class LegacyGLTFLoader extends THREE.Loader<LegacyGLTF> {
             resourcePath = THREE.LoaderUtils.extractUrlBase( url )
 
         }
+
+        // Aggregate byte progress across the root glTF and any external buffers.
+        const progressByUrl = new Map<string, { loaded: number, total: number }>()
+
+        const emitProgress = () => {
+
+            if ( ! onProgress ) return
+
+            let loaded = 0
+            let total = 0
+
+            for ( const entry of progressByUrl.values() ) {
+
+                if ( entry.total <= 0 ) return
+
+                loaded += entry.loaded
+                total += entry.total
+
+            }
+
+            if ( total <= 0 ) return
+
+            onProgress( new ProgressEvent( 'progress', { lengthComputable: true, loaded, total } ) )
+
+        }
+
+        const trackProgress = ( resourceUrl: string ) => ( event: ProgressEvent ) => {
+
+            if ( ! event.lengthComputable ) return
+
+            progressByUrl.set( resourceUrl, { loaded: event.loaded, total: event.total } )
+            emitProgress()
+
+        }
+
         const loader = new THREE.FileLoader( scope.manager )
 
         loader.setPath( this.path )
@@ -57,13 +92,28 @@ export class LegacyGLTFLoader extends THREE.Loader<LegacyGLTF> {
 
         loader.load( url, function ( data ) {
 
-            scope.parse( data as ArrayBuffer, resourcePath, onLoad )
+            const byteLength = ( data as ArrayBuffer ).byteLength
 
-        }, onProgress as any, onError as any )
+            progressByUrl.set( url, {
+                loaded: byteLength,
+                total: byteLength,
+            } )
+
+            // Pre-register external buffers inside parse before emitting, so we don't
+            // briefly report 100% for the small root JSON alone.
+            scope.parse( data as ArrayBuffer, resourcePath, onLoad, trackProgress )
+            emitProgress()
+
+        }, undefined, onError as any )
 
     }
 
-    parse(data: ArrayBuffer, path: string, callback: (gltf: LegacyGLTF) => void): void {
+    parse(
+        data: ArrayBuffer,
+        path: string,
+        callback: (gltf: LegacyGLTF) => void,
+        trackProgress?: ( resourceUrl: string ) => ( event: ProgressEvent ) => void,
+    ): void {
 
         let content
         const extensions: AnyDict = {}
@@ -89,12 +139,33 @@ export class LegacyGLTFLoader extends THREE.Loader<LegacyGLTF> {
 
         }
 
+        // Pre-register external buffers so aggregate progress waits for their Content-Length
+        // instead of briefly reporting 100% after the small root JSON finishes.
+        if ( trackProgress && json.buffers ) {
+
+            for ( const name in json.buffers ) {
+
+                if ( name === BINARY_EXTENSION_BUFFER_NAME ) continue
+
+                const buffer = json.buffers[ name ]
+                if ( ! buffer?.uri ) continue
+
+                // Zero total = emitProgress holds until FileLoader reports Content-Length.
+                trackProgress( resolveURL( buffer.uri, path || this.resourcePath || '' ) )(
+                    new ProgressEvent( 'progress', { lengthComputable: true, loaded: 0, total: 0 } )
+                )
+
+            }
+
+        }
+
         const parser = new GLTFParser( json, extensions, {
 
             crossOrigin: this.crossOrigin,
             manager: this.manager,
             path: path || this.resourcePath || '',
-            assetBaseUrl: this.assetBaseUrl
+            assetBaseUrl: this.assetBaseUrl,
+            trackProgress,
         } )
 
         parser.parse( function ( scene: THREE.Scene, scenes: THREE.Scene[], cameras: THREE.Camera[], animations: unknown[] ) {
@@ -814,16 +885,22 @@ class GLTFParser {
 
             if ( buffer.type === 'arraybuffer' || buffer.type === undefined ) {
 
-                return new Promise( function ( resolve ) {
+                return new Promise( function ( resolve, reject ) {
 
+                    const bufferUrl = resolveURL( buffer.uri, options.path )
                     const loader = new THREE.FileLoader( options.manager )
                     loader.setResponseType( 'arraybuffer' )
                     loader.setCrossOrigin('no-cors')
-                    loader.load( resolveURL( buffer.uri, options.path ), function ( buffer ) {
+                    loader.load(
+                        bufferUrl,
+                        function ( buffer ) {
 
-                        resolve( buffer )
+                            resolve( buffer )
 
-                    } )
+                        },
+                        options.trackProgress ? options.trackProgress( bufferUrl ) : undefined,
+                        reject,
+                    )
 
                 } )
 

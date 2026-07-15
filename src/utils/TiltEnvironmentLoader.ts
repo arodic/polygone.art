@@ -1,5 +1,5 @@
 import { AmbientLight, BackSide, CanvasTexture, ClampToEdgeWrapping, Color, DirectionalLight, Euler, FogExp2, MathUtils, Mesh, MeshBasicMaterial, Object3D, Quaternion, RepeatWrapping, SphereGeometry, SRGBColorSpace, Vector3 } from 'three'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
+import { GLTFLoader } from './GLTFLoader.js'
 import { EXCLUDE_FROM_CAMERA_BOUNDS } from './presentationCameraRay.js'
 
 const gltfLoader = new GLTFLoader()

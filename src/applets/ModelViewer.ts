@@ -5,7 +5,7 @@ import { BLOB_URL } from '../constants.js'
 import { Environment } from '../models/Environment.js'
 import { AssetInfo } from '../models/AssetInfo'
 import { LegacyGLTFLoader } from '../utils/LegacyGLTFLoader.js'
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
+import { GLTFLoader } from '../utils/GLTFLoader.js'
 import { PresentationLoader } from '../utils/PresentationLoader.js'
 import { replaceGltf1Materials } from '../utils/replaceGltf1Materials.js'
 import { TiltEnvironmentLoader } from '../utils/TiltEnvironmentLoader.js'
@@ -102,17 +102,21 @@ export class ModelViewer extends ThreeApplet {
 
   async loadGLTF2Model(url: string) {
     const loadId = this._loadGeneration
-    const hasPresentation = await this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
-    if (loadId !== this._loadGeneration) return
-
-    this.scene.environment = this.environment.texture
-    this.scene.environmentIntensity = 0.25
-
-    const gltf = await gltfLoader.loadAsync(url)
+    const [hasPresentation, envTexture, gltf] = await Promise.all([
+      this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`),
+      this.environment.whenReady(),
+      gltfLoader.loadAsync(url, (event) => {
+        if (!event.lengthComputable || event.total <= 0) return
+        console.log(`GLTF2 load progress: ${Math.round((event.loaded / event.total) * 100)}%`)
+      }),
+    ])
     if (loadId !== this._loadGeneration) {
       disposeObject3D(gltf.scene)
       return
     }
+
+    this.scene.environment = envTexture
+    this.scene.environmentIntensity = envTexture ? 0.25 : 0
 
     // expand far by bounding box
     // TODO refactor in presentation/focus code
@@ -120,7 +124,6 @@ export class ModelViewer extends ThreeApplet {
     const size = boundingBox.getSize(new Vector3()).length()
     this.camera.far = Math.max(this.camera.far, size * 2)
     this.camera.near = Math.max(this.camera.near, this.camera.far / 100000)
-    console.log('camera', this.camera.near, this.camera.far)
 
     const ambient = new AmbientLight(0xffffff, 0.5)
     gltf.scene.add(ambient)
@@ -149,7 +152,10 @@ export class ModelViewer extends ThreeApplet {
     this.scene.environment = null
     this.scene.environmentIntensity = 0
 
-    const gltf = await legacyLoader.loadAsync(url)
+    const gltf = await legacyLoader.loadAsync(url, (event) => {
+      if (!event.lengthComputable || event.total <= 0) return
+      console.log(`GLTF load progress: ${Math.round((event.loaded / event.total) * 100)}%`)
+    })
     if (loadId !== this._loadGeneration) {
       disposeObject3D(gltf.scene)
       return
