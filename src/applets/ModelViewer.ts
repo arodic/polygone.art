@@ -1,6 +1,6 @@
 import { Property, Register } from '@io-gui/core'
 import { ThreeApplet } from '@io-gui/three'
-import { AmbientLight, Color, DirectionalLight, GridHelper, LinearSRGBColorSpace, Mesh, Object3D, PerspectiveCamera, WebGPURenderer } from 'three/webgpu'
+import { AmbientLight, Box3, Color, DirectionalLight, GridHelper, LinearSRGBColorSpace, Mesh, Object3D, PerspectiveCamera, Vector3, WebGPURenderer } from 'three/webgpu'
 import { BLOB_URL } from '../constants.js'
 import { Environment } from '../models/Environment.js'
 import { AssetInfo } from '../models/AssetInfo'
@@ -114,6 +114,14 @@ export class ModelViewer extends ThreeApplet {
       return
     }
 
+    // expand far by bounding box
+    // TODO refactor in presentation/focus code
+    const boundingBox = new Box3().setFromObject(gltf.scene)
+    const size = boundingBox.getSize(new Vector3()).length()
+    this.camera.far = Math.max(this.camera.far, size * 2)
+    this.camera.near = Math.max(this.camera.near, this.camera.far / 100000)
+    console.log('camera', this.camera.near, this.camera.far)
+
     const ambient = new AmbientLight(0xffffff, 0.5)
     gltf.scene.add(ambient)
 
@@ -183,6 +191,8 @@ export class ModelViewer extends ThreeApplet {
       this.camera.position.fromArray([...presentation.translation])
       this.camera.quaternion.fromArray([...presentation.rotation])
       this.camera.updateProjectionMatrix()
+      // Let camera tools pin orbit focus onto this view ray before any lookAt runs.
+      this.dispatch('model-viewer-presentation', undefined, true)
       this.dispatch('three-applet-needs-render', undefined, true)
       return true
     }

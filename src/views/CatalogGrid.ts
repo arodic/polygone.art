@@ -1,10 +1,9 @@
 /* eslint-disable @typescript-eslint/no-this-alias */
 import { div, Property, ReactiveElement, ReactiveElementProps, Register, WithBinding } from '@io-gui/core'
-import { polyThumbnail } from '../poly-thumbnail.js'
+import { polyThumbnail } from './PolyThumbnail.js'
 
 type CatalogGridProps = ReactiveElementProps & {
   size: WithBinding<string>
-  type: WithBinding<string>
   filter: WithBinding<string>
   assetsSrc: string
   thumbsSrc: string
@@ -78,9 +77,6 @@ export class CatalogGrid extends ReactiveElement {
   declare size: string
 
   @Property('')
-  declare type: string
-
-  @Property('')
   declare filter: string
 
   @Property('')
@@ -107,6 +103,10 @@ export class CatalogGrid extends ReactiveElement {
     return {
       scroll: 'onScroll',
     }
+  }
+
+  thumbnailsMutated() {
+    this.mutated()
   }
 
   override ready() {
@@ -241,29 +241,11 @@ export class CatalogGrid extends ReactiveElement {
       return item.toLowerCase().indexOf(filter.toLowerCase())
     }
     for (const id in this.assets) {
-      if (this.type === 'all') {
-        if (this.filter === '' ||
-          indexOf(this.assets[id].tags, this.filter) !== -1 ||
-          indexOf(this.assets[id].name, this.filter) !== -1 ||
-          this.assets[id].authorId === this.filter) {
-            filtered.push(id)
-        }
-      } else if (this.type === 'tilt' && this.assets[id].tags.indexOf('tilt') !== -1) {
-        if (this.filter === '' ||
-          indexOf(this.assets[id].tags, this.filter) !== -1 ||
-          indexOf(this.assets[id].name, this.filter) !== -1 ||
-          this.assets[id].authorId === this.filter
-          ) {
-            filtered.push(id)
-        }
-      } else if (this.type === '3d' && this.assets[id].tags.indexOf('tilt') === -1) {
-        if (this.filter === '' ||
-          indexOf(this.assets[id].tags, this.filter) !== -1 ||
-          indexOf(this.assets[id].name, this.filter) !== -1 ||
-          this.assets[id].authorId === this.filter
-          ) {
-            filtered.push(id)
-        }
+      if (this.filter === '' ||
+        indexOf(this.assets[id].tags, this.filter) !== -1 ||
+        indexOf(this.assets[id].name, this.filter) !== -1 ||
+        this.assets[id].authorId === this.filter) {
+          filtered.push(id)
       }
     }
     this.items = filtered
@@ -298,7 +280,7 @@ export class CatalogGrid extends ReactiveElement {
       div({ class: 'top-padding' }),
       ...visibleList.map((item: string) => polyThumbnail({
         guid: item,
-        thumbnails: this.thumbnails,
+        thumbnail: this.thumbnails[item] ?? '',
         size: powTwoSize,
       })),
     ])

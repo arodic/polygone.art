@@ -1,5 +1,5 @@
 import { div, Property, ReactiveElement, ReactiveElementProps, Register, ThemeSingleton } from '@io-gui/core'
-import { polyLink } from '../poly-link.js'
+import { polyLink } from '../views/PolyLink.js'
 import { BLOB_URL } from '../constants.js'
 
 type Artist = {

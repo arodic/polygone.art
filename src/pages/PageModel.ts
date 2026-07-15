@@ -1,4 +1,4 @@
-import { Property, ReactiveElement, ReactiveElementProps, Register, WithBinding } from '@io-gui/core'
+import { Property, ReactiveElement, ReactiveElementProps, Register, WithBinding, Storage as $ } from '@io-gui/core'
 import { ioThreeViewport } from '@io-gui/three'
 import { WebGPURenderer } from 'three/webgpu'
 import { AssetInfo } from '../models/AssetInfo'
@@ -24,6 +24,8 @@ type PageModelProps = ReactiveElementProps & {
 }
 
 const drawer = new BottomDrawer({ drawerSize: '360px' })
+
+const toolMode = $({key: 'mode', storage: 'local', value: 'orbit'})
 
 @Register
 export class PageModel extends ReactiveElement {
@@ -94,7 +96,7 @@ export class PageModel extends ReactiveElement {
   @Property({ type: ModelViewer, init: null })
   declare applet: ModelViewer
 
-  @Property({ type: ModelViewerCameraTool, init: null })
+  @Property({ type: ModelViewerCameraTool })
   declare cameraTool: ModelViewerCameraTool
 
   @Property({ value: false, type: Boolean, reflect: true })
@@ -109,6 +111,7 @@ export class PageModel extends ReactiveElement {
     this.cameraTool = new ModelViewerCameraTool({
       applet: this.applet,
       chromeIdle: this.bind('chromeIdle'),
+      mode: toolMode,
     })
 
     this.render([
@@ -124,7 +127,7 @@ export class PageModel extends ReactiveElement {
             tool: this.cameraTool,
             renderer,
           }),
-          assetInfoView({ id: 'assetInfo', assetInfo: this.assetInfo, guid: this.bind('guid') }),
+          assetInfoView({ id: 'assetInfo', assetInfo: this.assetInfo }),
         ]
       }),
       controlSwitch({

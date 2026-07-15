@@ -4,7 +4,10 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import { Vector3 } from 'three/webgpu'
 import { ModelViewer } from '../applets/ModelViewer.js'
 import { VirtualThumbsticks } from '../controls/VirtualThumbsticks.js'
-import { computeOrbitTargetFromCameraAndModel } from '../utils/presentationCameraRay.js'
+import {
+  computeOrbitTargetFromCameraAndModel,
+  placeTargetOnCameraViewRay,
+} from '../utils/presentationCameraRay.js'
 import { applyStickCurve, StickVector } from '../utils/stickCurve.js'
 
 export type ControlMode = 'FPS' | 'orbit'
@@ -53,35 +56,51 @@ function isTypingTarget(target: EventTarget | null) {
   return tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT'
 }
 
+export type ModelViewerCameraToolProps = ToolBaseProps & {
+  mode?: WithBinding<string>
+  chromeIdle?: WithBinding<boolean>
+  touchMode?: WithBinding<boolean>
+}
+
 @Register
 export class ModelViewerCameraTool extends ToolBase {
 
   @Property({ type: Boolean, value: isCoarsePointerDevice() })
   declare touchMode: boolean
 
-  @Property({ value: 'FPS', type: String })
+  @Property({ value: 'orbit', type: String })
   declare mode: ControlMode
 
   /** Shared page chrome idle flag: hides FPS thumbsticks after inactivity. */
   @Property({ value: false, type: Boolean })
   declare chromeIdle: boolean
 
-  private readonly _registeredViewports: IoThreeViewport[] = []
-  private readonly _viewportState = new WeakMap<IoThreeViewport, ViewportCameraState>()
-  private readonly _keys: KeyMoveState = { w: false, a: false, s: false, d: false }
-  private _rafId = 0
-  private _lastFrameTime = 0
+  declare private _registeredViewports: IoThreeViewport[]
+  declare private _viewportState
+  declare private _keys: KeyMoveState
+  declare private _rafId: number
+  declare private _lastFrameTime: number
 
   private readonly _onModelReady = () => this.syncAllViewports()
+  private readonly _onPresentation = () => this.pinAllViewportsToPresentationRay()
   private readonly _onPointerSchemeChanged = () => this.onPointerSchemeChanged()
   private readonly _onKeyDown = (event: KeyboardEvent) => this.onKeyChange(event, true)
   private readonly _onKeyUp = (event: KeyboardEvent) => this.onKeyChange(event, false)
   private readonly _onWindowBlur = () => this.clearKeys()
 
+  init() {
+    this._registeredViewports = []
+    this._viewportState = new WeakMap<IoThreeViewport, ViewportCameraState>()
+    this._keys = { w: false, a: false, s: false, d: false }
+    this._rafId = 0
+    this._lastFrameTime = 0
+  }
+
   constructor(args?: ModelViewerCameraToolProps) {
     super(args)
     window.matchMedia('(pointer: coarse)').addEventListener('change', this._onPointerSchemeChanged)
     this.applet?.addEventListener('model-viewer-ready', this._onModelReady)
+    this.applet?.addEventListener('model-viewer-presentation', this._onPresentation)
     window.addEventListener('keydown', this._onKeyDown)
     window.addEventListener('keyup', this._onKeyUp)
     window.addEventListener('blur', this._onWindowBlur)
@@ -119,6 +138,7 @@ export class ModelViewerCameraTool extends ToolBase {
   override dispose() {
     window.matchMedia('(pointer: coarse)').removeEventListener('change', this._onPointerSchemeChanged)
     this.applet?.removeEventListener('model-viewer-ready', this._onModelReady)
+    this.applet?.removeEventListener('model-viewer-presentation', this._onPresentation)
     window.removeEventListener('keydown', this._onKeyDown)
     window.removeEventListener('keyup', this._onKeyUp)
     window.removeEventListener('blur', this._onWindowBlur)
@@ -136,14 +156,26 @@ export class ModelViewerCameraTool extends ToolBase {
     }
   }
 
+  /** After presentation pose is applied, keep orbit target on the view ray so lookAt is a no-op. */
+  private pinAllViewportsToPresentationRay() {
+    for (const viewport of this._registeredViewports) {
+      this.pinFocusToPresentationRay(viewport)
+    }
+  }
+
+  private hasModel() {
+    return !!this.modelViewer.modelRoot?.children.length
+  }
+
   private onPointerSchemeChanged() {
     const touchMode = isCoarsePointerDevice()
     if (touchMode === this.touchMode) return
     this.touchMode = touchMode
     this.clearKeys()
+    // Keep OrbitControls alive — disposing it on scheme change hits a Three.js
+    // getRootNode()/keydown cleanup mismatch against io-gui's EventDispatcher.
     for (const viewport of this._registeredViewports) {
-      this.teardownViewport(viewport)
-      this.setupViewport(viewport)
+      this.syncPointerScheme(viewport)
     }
   }
 
@@ -162,44 +194,67 @@ export class ModelViewerCameraTool extends ToolBase {
       this.modelViewer.dispatch('three-applet-needs-render', undefined, true)
     })
 
-    let thumbsticks: VirtualThumbsticks | null = null
-    let desktopPointersAttached = false
-    if (this.touchMode) {
-      thumbsticks = new VirtualThumbsticks()
-      thumbsticks.mount(viewport)
-    } else {
-      viewport.addEventListener('pointerdown', this._onDesktopPointerDown)
-      viewport.addEventListener('pointermove', this._onDesktopPointerMove)
-      viewport.addEventListener('pointerup', this._onDesktopPointerUp)
-      viewport.addEventListener('pointercancel', this._onDesktopPointerUp)
-      viewport.addEventListener('lostpointercapture', this._onDesktopPointerUp)
-      desktopPointersAttached = true
-    }
-
     this._viewportState.set(viewport, {
       focus: new Vector3(),
       orbitControls,
-      thumbsticks,
+      thumbsticks: null,
       dragPointerId: null,
-      desktopPointersAttached,
+      desktopPointersAttached: false,
     })
+    this.syncPointerScheme(viewport)
     this.syncFocus(viewport)
     this.syncMode(viewport)
     this.startAnimationLoop()
+  }
+
+  /** Swap thumbsticks vs desktop FPS pointers without recreating OrbitControls. */
+  private syncPointerScheme(viewport: IoThreeViewport) {
+    const state = this._viewportState.get(viewport)
+    if (!state) return
+
+    this.detachDesktopPointers(viewport, state)
+    state.thumbsticks?.unmount()
+    state.thumbsticks = null
+    state.dragPointerId = null
+
+    if (this.touchMode) {
+      state.thumbsticks = new VirtualThumbsticks()
+      state.thumbsticks.mount(viewport)
+    } else {
+      this.attachDesktopPointers(viewport, state)
+    }
+
+    this.syncThumbstickVisibility()
+  }
+
+  private attachDesktopPointers(viewport: IoThreeViewport, state: ViewportCameraState) {
+    if (state.desktopPointersAttached) return
+    viewport.addEventListener('pointerdown', this._onDesktopPointerDown)
+    viewport.addEventListener('pointermove', this._onDesktopPointerMove)
+    viewport.addEventListener('pointerup', this._onDesktopPointerUp)
+    viewport.addEventListener('pointercancel', this._onDesktopPointerUp)
+    viewport.addEventListener('lostpointercapture', this._onDesktopPointerUp)
+    state.desktopPointersAttached = true
+  }
+
+  private detachDesktopPointers(viewport: IoThreeViewport, state: ViewportCameraState) {
+    if (!state.desktopPointersAttached) return
+    viewport.removeEventListener('pointerdown', this._onDesktopPointerDown)
+    viewport.removeEventListener('pointermove', this._onDesktopPointerMove)
+    viewport.removeEventListener('pointerup', this._onDesktopPointerUp)
+    viewport.removeEventListener('pointercancel', this._onDesktopPointerUp)
+    viewport.removeEventListener('lostpointercapture', this._onDesktopPointerUp)
+    state.desktopPointersAttached = false
   }
 
   private teardownViewport(viewport: IoThreeViewport) {
     const state = this._viewportState.get(viewport)
     if (!state) return
     state.thumbsticks?.unmount()
+    this.detachDesktopPointers(viewport, state)
+    // Disconnect while still attached when possible so OrbitControls removes its
+    // document keydown interceptor from the same root it registered on.
     state.orbitControls.dispose()
-    if (state.desktopPointersAttached) {
-      viewport.removeEventListener('pointerdown', this._onDesktopPointerDown)
-      viewport.removeEventListener('pointermove', this._onDesktopPointerMove)
-      viewport.removeEventListener('pointerup', this._onDesktopPointerUp)
-      viewport.removeEventListener('pointercancel', this._onDesktopPointerUp)
-      viewport.removeEventListener('lostpointercapture', this._onDesktopPointerUp)
-    }
     this._viewportState.delete(viewport)
   }
 
@@ -213,7 +268,8 @@ export class ModelViewerCameraTool extends ToolBase {
 
     if (this.mode === 'orbit') {
       state.orbitControls.target.copy(state.focus)
-      state.orbitControls.update()
+      // update() lookAt() would overwrite presentation while the model/focus are not ready.
+      if (this.hasModel()) state.orbitControls.update()
     } else {
       state.focus.copy(state.orbitControls.target)
     }
@@ -234,6 +290,8 @@ export class ModelViewerCameraTool extends ToolBase {
   /**
    * Recompute FPS/orbit pivot from the current presentation camera + model bounds.
    * Intentionally does not reorient the camera — presentation pose must stay as loaded.
+   * OrbitControls.update() is deferred to the next orbit frame; target stays on the view ray
+   * so that lookAt preserves orientation.
    */
   private syncFocus(viewport: IoThreeViewport) {
     const state = this._viewportState.get(viewport)
@@ -243,8 +301,18 @@ export class ModelViewerCameraTool extends ToolBase {
 
     computeOrbitTargetFromCameraAndModel(camera, modelRoot, state.focus)
     state.orbitControls.target.copy(state.focus)
-    // OrbitControls.update() calls lookAt(target) and would overwrite presentation rotation.
-    // Orbit mode picks up the new target via syncMode / its per-frame update instead.
+    this.modelViewer.dispatch('three-applet-needs-render', undefined, true)
+  }
+
+  /** Pin pivot to the current view ray (used right after presentation camera is applied). */
+  private pinFocusToPresentationRay(viewport: IoThreeViewport) {
+    const state = this._viewportState.get(viewport)
+    const camera = this.modelViewer.camera
+    if (!state || !camera) return
+
+    const distance = Math.max(camera.position.distanceTo(state.focus), 1)
+    placeTargetOnCameraViewRay(camera, state.focus, distance)
+    state.orbitControls.target.copy(state.focus)
     this.modelViewer.dispatch('three-applet-needs-render', undefined, true)
   }
 
@@ -283,6 +351,9 @@ export class ModelViewerCameraTool extends ToolBase {
     if (!state) return false
 
     if (this.mode === 'orbit') {
+      // During asset load, presentation may already be applied while focus is still stale.
+      // Skip lookAt until the model exists and syncFocus has placed the target on the view ray.
+      if (!this.hasModel()) return false
       return state.orbitControls.update()
     }
 
@@ -439,14 +510,4 @@ export class ModelViewerCameraTool extends ToolBase {
     focus.add(_moveDelta)
     camera.position.add(_moveDelta)
   }
-}
-
-export type ModelViewerCameraToolProps = ToolBaseProps & {
-  mode?: WithBinding<ControlMode>
-  chromeIdle?: WithBinding<boolean>
-  touchMode?: WithBinding<boolean>
-}
-
-export function modelViewerCameraTool(props: ModelViewerCameraToolProps) {
-  return new ModelViewerCameraTool(props)
 }
