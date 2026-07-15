@@ -1,2 +1,2 @@
 export * from './PolyGone.js'
-import './icons.js'
+export * from './utils/iconSet.js'

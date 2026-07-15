@@ -123,7 +123,7 @@ export class BottomDrawerSplit extends ReactiveElement {
       this.#introTimeout = undefined
       this.intro = false
       this.expanded = false
-    }, 200)
+    }, 1000)
   }
 
   onResized() {

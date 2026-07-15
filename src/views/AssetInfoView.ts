@@ -1,12 +1,12 @@
 import { div, h4, Property, Register, ReactiveElement, ReactiveElementProps, span, WithBinding } from '@io-gui/core'
 import { ioButton } from '@io-gui/inputs'
 import { AssetInfo } from '../models/AssetInfo'
-import { polyLink } from '../poly-link'
+import { polyLink } from './PolyLink'
 import { BLOB_URL } from '../constants'
+import { polyThumbnail } from './PolyThumbnail'
 
 type AssetInfoViewProps = ReactiveElementProps & {
-  assetInfo: AssetInfo
-  guid: WithBinding<string>
+  assetInfo: WithBinding<AssetInfo>
 }
 
 @Register
@@ -23,8 +23,18 @@ export class AssetInfoView extends ReactiveElement {
         color: var(--io_color);
       }
       :host .info {
-        font-size: calc(0.86 * var(--io_fontSize));
+        display: flex;
+        flex-direction: row;
         background: var(--io_bgColorStrong);
+      }
+      :host .info poly-thumbnail {
+        flex: 0 0 64px;
+        margin: 0 var(--io_spacing4) 0 0;
+      }
+      :host .info-text {
+        display: flex;
+        flex-direction: column;
+        font-size: calc(0.86 * var(--io_fontSize));
       }
       :host poly-link {
         display: inline-block;
@@ -58,9 +68,6 @@ export class AssetInfoView extends ReactiveElement {
   @Property({ type: AssetInfo})
   declare assetInfo: AssetInfo
 
-  @Property({ type: String, init: '' })
-  declare guid: string
-
   onDownloadClicked(value: any) {
     window.open(value as string, '_blank')
   }
@@ -72,9 +79,16 @@ export class AssetInfoView extends ReactiveElement {
   assetInfoMutated() {
     this.render([
       div({ class: 'info' }, [
-        `${this.assetInfo.name} by `,
-        polyLink({ value: this.assetInfo.authorId, label: this.assetInfo.authorName }),
-        span(new Date(this.assetInfo.createTime).toDateString()),
+        polyThumbnail({
+          guid: this.assetInfo.guid,
+          thumbnail: '',
+          size: 64,
+        }),
+        div({ class: 'info-text' }, [
+          `${this.assetInfo.name} by `,
+          polyLink({ value: this.assetInfo.authorId, label: this.assetInfo.authorName }),
+          span(new Date(this.assetInfo.createTime).toDateString()),
+        ]),
       ]),
       div({ class: 'description' },
         `${this.assetInfo.description || ''}`
@@ -94,8 +108,8 @@ export class AssetInfoView extends ReactiveElement {
           ioButton({
             label: `${format.formatType}`, icon: 'poly:download',
             value: format.formatType === 'GLB' ?
-              `${BLOB_URL}/assets/${this.guid}/GLB/${format.root.relativePath}` :
-              `${BLOB_URL}/archives/${this.guid}/${this.guid}_${format.formatType}.zip`,
+              `${BLOB_URL}/assets/${this.assetInfo.guid}/GLB/${format.root.relativePath}` :
+              `${BLOB_URL}/archives/${this.assetInfo.guid}/${this.assetInfo.guid}_${format.formatType}.zip`,
             action: this.onDownloadClicked
           }))
         )
