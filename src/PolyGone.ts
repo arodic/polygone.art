@@ -44,18 +44,22 @@ export class PolyGone extends IoNavigator {
       }
       :host > io-menu {
         padding: var(--io_spacing2) !important;
+        flex-direction: row-reverse !important;
+      }
+      :host > io-menu > * {
+        margin-right: auto;
       }
       :host[page="catalog"] .settings {
         display: flex;
       }
       :host .settings {
-        position: absolute;
-        right: 0;
+        flex: 1 1 auto;
         display: none;
       }
       :host .filterInput {
         min-width: 12em;
         padding-right: var(--io_fieldHeight);
+        margin-left: var(--io_spacing2);
         flex: 1 1 auto;
       }
       :host .clearButton {
