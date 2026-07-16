@@ -29,6 +29,15 @@ export default defineConfig({
           },
         }
       : {}),
+    headers: {
+      // SW script must not be HTTP-cached, or register()/update checks keep the old worker.
+      'Cache-Control': 'no-cache',
+    },
+  },
+  preview: {
+    headers: {
+      'Cache-Control': 'no-cache',
+    },
   },
   build: { target: 'esnext' },
   optimizeDeps: { esbuildOptions: { target: 'esnext' } },

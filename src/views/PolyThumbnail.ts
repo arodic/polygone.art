@@ -51,7 +51,7 @@ function enqueue(thumb: PolyThumbnail) {
     const i = Math.floor(Math.random() * queue.length)
     const item = queue.splice(i, 1)[0]
     if (!item._disposed) void item.applyFullRes()
-  }, 10)
+  }, 20)
 }
 
 function dequeue(thumb: PolyThumbnail) {
