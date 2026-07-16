@@ -23,14 +23,17 @@ export const DEFAULT_PRESENTATION: PresentationCamera = {
 
 export class PresentationLoader {
 
-  async load(jsonUrl: string): Promise<PresentationCamera | null> {
+  async load(jsonUrl: string, signal?: AbortSignal): Promise<PresentationCamera | null> {
     try {
-      const res = await fetch(jsonUrl)
+      const res = await fetch(jsonUrl, signal ? { signal } : undefined)
       if (res.ok) {
         const parsed = this.parsePresentationCamera((await res.json()) as Record<string, unknown>)
         if (parsed) return parsed
       }
-    } catch {
+    } catch (error) {
+      if (signal?.aborted || (error instanceof DOMException && error.name === 'AbortError')) {
+        return null
+      }
       // fall through
     }
     console.warn(`No local presentation camera for ${jsonUrl}`,)

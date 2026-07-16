@@ -1,6 +1,6 @@
 import { Property, Register, Storage as $ } from '@io-gui/core'
 import { ThreeApplet } from '@io-gui/three'
-import { AmbientLight, Box3, Color, DirectionalLight, GridHelper, LinearSRGBColorSpace, Mesh, Object3D, PerspectiveCamera, Vector3, WebGPURenderer } from 'three/webgpu'
+import { AmbientLight, Box3, Color, DirectionalLight, GridHelper, LinearSRGBColorSpace, LoadingManager, Mesh, Object3D, PerspectiveCamera, Vector3, WebGPURenderer } from 'three/webgpu'
 import { BLOB_URL } from '../constants.js'
 import { Environment } from '../models/Environment.js'
 import { AssetInfo } from '../models/AssetInfo'
@@ -12,14 +12,19 @@ import { TiltEnvironmentLoader } from '../utils/TiltEnvironmentLoader.js'
 import { disposeObject3D } from '../utils/disposeObject3D.js'
 import { cappedDevicePixelRatio } from '../utils/pixelRatio.js'
 
-const gltfLoader = new GLTFLoader()
+const modelLoadingManager = new LoadingManager()
+const gltfLoader = new GLTFLoader(modelLoadingManager)
 const presentationLoader = new PresentationLoader()
-const legacyLoader = new LegacyGLTFLoader()
-const tiltEnvironmentLoader = new TiltEnvironmentLoader()
+const legacyLoader = new LegacyGLTFLoader(modelLoadingManager)
+const tiltEnvironmentLoader = new TiltEnvironmentLoader(modelLoadingManager)
 
 export const BRUSH_PATH = '/assets/brushes/'
 
 const $showGrid = $({key: 'grid', storage: 'local', value: false})
+
+function isAbortError(error: unknown): boolean {
+  return (error instanceof DOMException || error instanceof Error) && error.name === 'AbortError'
+}
 
 function sketchNeedsContinuousPlayback(root: Object3D) {
   let needsPlayback = false
@@ -61,6 +66,7 @@ export class ModelViewer extends ThreeApplet {
   declare camera: PerspectiveCamera
 
   private _loadGeneration = 0
+  private _loadAbort = new AbortController()
 
   constructor(assetInfo: AssetInfo) {
     super()
@@ -102,6 +108,9 @@ export class ModelViewer extends ThreeApplet {
 
   clearModel() {
     this._loadGeneration++
+    this._loadAbort.abort()
+    this._loadAbort = new AbortController()
+    modelLoadingManager.abort()
     while (this.modelRoot.children.length > 0) {
       disposeObject3D(this.modelRoot.children[0])
     }
@@ -113,96 +122,109 @@ export class ModelViewer extends ThreeApplet {
 
   async loadGLTF2Model(url: string) {
     const loadId = this._loadGeneration
-    const [hasPresentation, envTexture, gltf] = await Promise.all([
-      this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`),
-      this.environment.whenReady(),
-      gltfLoader.loadAsync(url, (event) => {
-        if (!event.lengthComputable || event.total <= 0) return
-        const progress = Math.round((event.loaded / event.total) * 100)
-        this.assetInfo.dispatch('model-viewer-progress', progress, true)
-      }),
-    ])
-    if (loadId !== this._loadGeneration) {
-      disposeObject3D(gltf.scene)
-      return
+    const signal = this._loadAbort.signal
+    try {
+      const [hasPresentation, envTexture, gltf] = await Promise.all([
+        this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`, signal),
+        this.environment.whenReady(),
+        gltfLoader.loadAsync(url, (event) => {
+          if (!event.lengthComputable || event.total <= 0) return
+          const progress = Math.round((event.loaded / event.total) * 100)
+          this.assetInfo.dispatch('model-viewer-progress', progress, true)
+        }),
+      ])
+      if (loadId !== this._loadGeneration) {
+        disposeObject3D(gltf.scene)
+        return
+      }
+
+      this.scene.environment = envTexture
+      this.scene.environmentIntensity = envTexture ? 0.25 : 0
+
+      // expand far by bounding box
+      // TODO refactor in presentation/focus code
+      const boundingBox = new Box3().setFromObject(gltf.scene)
+      const size = boundingBox.getSize(new Vector3()).length()
+      this.camera.far = Math.max(this.camera.far, size * 2)
+      this.camera.near = Math.max(this.camera.near, this.camera.far / 100000)
+
+      const ambient = new AmbientLight(0xffffff, 0.5)
+      gltf.scene.add(ambient)
+
+      const light0 = new DirectionalLight(0xffffff, 2)
+      light0.position.set(15, 5, -5).normalize()
+      gltf.scene.add(light0)
+
+      const light1 = new DirectionalLight(0xffffff, 4)
+      light1.position.set(-10, 2, 5).normalize()
+      gltf.scene.add(light1)
+
+      this.modelRoot.add(gltf.scene)
+      if (!hasPresentation) {
+        this.dispatch('three-applet-frame-object-all', this.modelRoot, true)
+      }
+      this.dispatch('model-viewer-ready', undefined, true)
+      this.dispatch('three-applet-needs-render', undefined, true)
+    } catch (error) {
+      if (isAbortError(error) || loadId !== this._loadGeneration) return
+      console.error('Failed to load GLTF2 model', url, error)
     }
-
-    this.scene.environment = envTexture
-    this.scene.environmentIntensity = envTexture ? 0.25 : 0
-
-    // expand far by bounding box
-    // TODO refactor in presentation/focus code
-    const boundingBox = new Box3().setFromObject(gltf.scene)
-    const size = boundingBox.getSize(new Vector3()).length()
-    this.camera.far = Math.max(this.camera.far, size * 2)
-    this.camera.near = Math.max(this.camera.near, this.camera.far / 100000)
-
-    const ambient = new AmbientLight(0xffffff, 0.5)
-    gltf.scene.add(ambient)
-
-    const light0 = new DirectionalLight(0xffffff, 2)
-    light0.position.set(15, 5, -5).normalize()
-    gltf.scene.add(light0)
-
-    const light1 = new DirectionalLight(0xffffff, 4)
-    light1.position.set(-10, 2, 5).normalize()
-    gltf.scene.add(light1)
-
-    this.modelRoot.add(gltf.scene)
-    if (!hasPresentation) {
-      this.dispatch('three-applet-frame-object-all', this.modelRoot, true)
-    }
-    this.dispatch('model-viewer-ready', undefined, true)
-    this.dispatch('three-applet-needs-render', undefined, true)
   }
 
   async loadLegacyGLTFModelWithTiltMaterials(url: string) {
     const loadId = this._loadGeneration
-    const hasPresentation = await this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`)
-    if (loadId !== this._loadGeneration) return
+    const signal = this._loadAbort.signal
+    try {
+      const hasPresentation = await this.loadPresentation(`${BLOB_URL}/assets/${this.assetInfo.guid}/presentation.json`, signal)
+      if (loadId !== this._loadGeneration) return
 
-    this.scene.environment = null
-    this.scene.environmentIntensity = 0
+      this.scene.environment = null
+      this.scene.environmentIntensity = 0
 
-    const gltf = await legacyLoader.loadAsync(url, (event) => {
-      if (!event.lengthComputable || event.total <= 0) return
-      const progress = Math.round((event.loaded / event.total) * 100)
-      this.assetInfo.dispatch('model-viewer-progress', progress, true)
-    })
-    if (loadId !== this._loadGeneration) {
-      disposeObject3D(gltf.scene)
-      return
+      const gltf = await legacyLoader.loadAsync(url, (event) => {
+        if (!event.lengthComputable || event.total <= 0) return
+        const progress = Math.round((event.loaded / event.total) * 100)
+        this.assetInfo.dispatch('model-viewer-progress', progress, true)
+      })
+      if (loadId !== this._loadGeneration) {
+        disposeObject3D(gltf.scene)
+        return
+      }
+
+      await replaceGltf1Materials(gltf.scene, BRUSH_PATH)
+      if (loadId !== this._loadGeneration) {
+        disposeObject3D(gltf.scene)
+        return
+      }
+
+      this.modelRoot.add(gltf.scene)
+
+      const { ambient, fog } = await tiltEnvironmentLoader.load(gltf.scene, gltf.scene.userData)
+      if (loadId !== this._loadGeneration) {
+        disposeObject3D(gltf.scene)
+        ambient.removeFromParent()
+        return
+      }
+
+      this.modelRoot.add(ambient)
+      this.scene.fog = fog
+
+      this.isPlaying = sketchNeedsContinuousPlayback(gltf.scene)
+
+      if (!hasPresentation) {
+        this.dispatch('three-applet-frame-object-all', this.modelRoot, true)
+      }
+      this.dispatch('model-viewer-ready', undefined, true)
+      this.dispatch('three-applet-needs-render', undefined, true)
+    } catch (error) {
+      if (isAbortError(error) || loadId !== this._loadGeneration) return
+      console.error('Failed to load legacy GLTF model', url, error)
     }
-
-    await replaceGltf1Materials(gltf.scene, BRUSH_PATH)
-    if (loadId !== this._loadGeneration) {
-      disposeObject3D(gltf.scene)
-      return
-    }
-
-    this.modelRoot.add(gltf.scene)
-
-    const { ambient, fog } = await tiltEnvironmentLoader.load(gltf.scene, gltf.scene.userData)
-    if (loadId !== this._loadGeneration) {
-      disposeObject3D(gltf.scene)
-      ambient.removeFromParent()
-      return
-    }
-
-    this.modelRoot.add(ambient)
-    this.scene.fog = fog
-
-    this.isPlaying = sketchNeedsContinuousPlayback(gltf.scene)
-
-    if (!hasPresentation) {
-      this.dispatch('three-applet-frame-object-all', this.modelRoot, true)
-    }
-    this.dispatch('model-viewer-ready', undefined, true)
-    this.dispatch('three-applet-needs-render', undefined, true)
   }
 
-  async loadPresentation(jsonUrl: string): Promise<boolean> {
-    const presentation = await presentationLoader.load(jsonUrl)
+  async loadPresentation(jsonUrl: string, signal?: AbortSignal): Promise<boolean> {
+    const presentation = await presentationLoader.load(jsonUrl, signal)
+    if (signal?.aborted) return false
     if (presentation) {
       this.camera.fov = presentation.yfovDeg
       this.camera.near = presentation.znear

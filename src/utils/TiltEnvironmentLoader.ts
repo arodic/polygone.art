@@ -1,8 +1,6 @@
-import { AmbientLight, BackSide, CanvasTexture, ClampToEdgeWrapping, Color, DirectionalLight, Euler, FogExp2, MathUtils, Mesh, MeshBasicMaterial, Object3D, Quaternion, RepeatWrapping, SphereGeometry, SRGBColorSpace, Vector3 } from 'three'
+import { AmbientLight, BackSide, CanvasTexture, ClampToEdgeWrapping, Color, DirectionalLight, Euler, FogExp2, MathUtils, Mesh, MeshBasicMaterial, Object3D, Quaternion, RepeatWrapping, SphereGeometry, SRGBColorSpace, Vector3, type LoadingManager } from 'three'
 import { GLTFLoader } from './GLTFLoader.js'
 import { EXCLUDE_FROM_CAMERA_BOUNDS } from './presentationCameraRay.js'
-
-const gltfLoader = new GLTFLoader()
 
 const ENVIRONMENT_DIR = '/assets/environments/'
 const DEFAULT_ENVIRONMENT_NAME = 'Standard'
@@ -219,6 +217,12 @@ function eulerDegreesFromNode(node: Object3D): Vector3 {
 }
 
 export class TiltEnvironmentLoader {
+  private readonly gltfLoader: GLTFLoader
+
+  constructor(manager?: LoadingManager) {
+    this.gltfLoader = new GLTFLoader(manager)
+  }
+
   /**
    * Load environment geometry under `sketchRoot`, and attach scene lights as siblings
    * of the env (not children of the π-Y-flipped env mesh).
@@ -234,7 +238,7 @@ export class TiltEnvironmentLoader {
     // Prefer rotations from sketch `node_SceneLight_*` over env preset.
     const sceneLightNodes = takeSceneLightNodes(sketchRoot)
 
-    const envGltf = await gltfLoader.loadAsync(url)
+    const envGltf = await this.gltfLoader.loadAsync(url)
     // GLTF 1.0 / Poly exports need a 180° Y flip + 0.1 scale (same as gallery-viewer).
     envGltf.scene.setRotationFromEuler(new Euler(0, Math.PI, 0))
     envGltf.scene.scale.set(0.1, 0.1, 0.1)

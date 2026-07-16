@@ -102,10 +102,15 @@ export class AssetInfo extends ReactiveObject {
   @Property({type: Object, init: null})
   declare presentationParams: PresentationParams
 
+  private _loadAbort?: AbortController
+
   guidChanged() {
+    this._loadAbort?.abort()
+    this._loadAbort = new AbortController()
     this.clear()
     if (this.guid) {
-      this.load(this.guid as string).catch((error) => {
+      this.load(this.guid as string, this._loadAbort.signal).catch((error) => {
+        if (error instanceof DOMException && error.name === 'AbortError') return
         console.error(error)
       })
     }
@@ -137,20 +142,20 @@ export class AssetInfo extends ReactiveObject {
     }, true)
   }
 
-  load(guid: string) {
+  load(guid: string, signal?: AbortSignal) {
     if (ASSET_INFO_CACHE.has(guid)) {
-      this.applyJSON(ASSET_INFO_CACHE.get(guid)!)
+      if (this.guid === guid) this.applyJSON(ASSET_INFO_CACHE.get(guid)!)
       return Promise.resolve(this)
-    } else {
-      return new Promise((resolve, reject) => {
-        fetch(`${BLOB_URL}/assets/${guid}/data.json`).then(async response => {
-          const assetInfoData = await response.json() as AssetInfoData
-          this.applyJSON(assetInfoData)
-          ASSET_INFO_CACHE.set(guid, assetInfoData)
-          resolve(this)
-        }).catch(reject)
-      })
     }
+    return fetch(`${BLOB_URL}/assets/${guid}/data.json`, signal ? { signal } : undefined)
+      .then(async response => {
+        if (signal?.aborted || this.guid !== guid) return this
+        const assetInfoData = await response.json() as AssetInfoData
+        if (signal?.aborted || this.guid !== guid) return this
+        this.applyJSON(assetInfoData)
+        ASSET_INFO_CACHE.set(guid, assetInfoData)
+        return this
+      })
   }
 
   override applyJSON(assetInfoData: AssetInfoData) {

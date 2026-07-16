@@ -7,19 +7,57 @@ type PolyThumbnailProps = ReactiveElementProps & {
   thumbnail: string
 }
 
-const cachedId: string[] = []
+/** Keys (`guid:size`) whose webp has been decoded and is safe to paint. */
+const ready = new Set<string>()
+const inflight = new Map<string, Promise<void>>()
 const queue: PolyThumbnail[] = []
+let drainTimer: ReturnType<typeof setInterval> | null = null
 
-setInterval(() => {
-  if (queue.length) {
-    const i = Math.floor(Math.random() * queue.length)
-    if (!queue[i]._disposed && queue[i].$.image) {
-      queue[i].$.image.style.setProperty('background-image', `url("${BLOB_URL}/assets/${queue[i].guid}/thumbnail-${queue[i].size}.webp")`)
-      cachedId.push(queue[i].guid)
+function thumbKey(guid: string, size: number) {
+  return `${guid}:${size}`
+}
+
+function thumbUrl(guid: string, size: number) {
+  return `${BLOB_URL}/assets/${guid}/thumbnail-${size}.webp`
+}
+
+function decodeThumb(guid: string, size: number): Promise<void> {
+  const key = thumbKey(guid, size)
+  if (ready.has(key)) return Promise.resolve()
+  const pending = inflight.get(key)
+  if (pending) return pending
+
+  const img = new Image()
+  img.decoding = 'async'
+  img.src = thumbUrl(guid, size)
+  const promise = img.decode()
+    .then(() => { ready.add(key) })
+    .catch(() => {})
+    .finally(() => { inflight.delete(key) })
+  inflight.set(key, promise)
+  return promise
+}
+
+function enqueue(thumb: PolyThumbnail) {
+  if (queue.includes(thumb)) return
+  queue.push(thumb)
+  if (drainTimer) return
+  drainTimer = setInterval(() => {
+    if (!queue.length) {
+      clearInterval(drainTimer!)
+      drainTimer = null
+      return
     }
-    queue.splice(i, 1)
-  }
-}, 10)
+    const i = Math.floor(Math.random() * queue.length)
+    const item = queue.splice(i, 1)[0]
+    if (!item._disposed) void item.applyFullRes()
+  }, 10)
+}
+
+function dequeue(thumb: PolyThumbnail) {
+  const i = queue.indexOf(thumb)
+  if (i !== -1) queue.splice(i, 1)
+}
 
 @Register
 export class PolyThumbnail extends ReactiveElement {
@@ -52,6 +90,10 @@ export class PolyThumbnail extends ReactiveElement {
   @Property('')
   declare thumbnail: string
 
+  /** Overlay key currently painted on `#image`, or '' if cleared. */
+  // Plain field (not #private): base ctor may call mutated() before private fields init.
+  _paintedKey = ''
+
   static override get Listeners() {
     return {
       click: 'onClicked',
@@ -62,30 +104,49 @@ export class PolyThumbnail extends ReactiveElement {
     this.dispatch('thumbnail-clicked', this.guid, true)
   }
 
-  sizeChanged() {
-    if (cachedId.indexOf(this.guid) !== -1) {
-      cachedId.splice(cachedId.indexOf(this.guid), 1)
-    }
+  override disconnectedCallback() {
+    dequeue(this)
+    super.disconnectedCallback()
+  }
+
+  /** Decode (if needed) then paint full-res, ignoring stale recycles. */
+  async applyFullRes() {
+    const { guid, size } = this
+    if (!guid || size === 32) return
+    const key = thumbKey(guid, size)
+    await decodeThumb(guid, size)
+    if (this._disposed || this.guid !== guid || this.size !== size) return
+    if (!ready.has(key)) return
+    this.$.image?.style.setProperty('background-image', `url("${thumbUrl(guid, size)}")`)
+    this._paintedKey = key
   }
 
   override mutated() {
     this.render([div({ id: 'image' })])
+
+    const key = this.size === 32 ? '' : thumbKey(this.guid, this.size)
+    const isReady = key !== '' && ready.has(key)
+
+    // Paint full-res before low-res so iOS never flashes the host JPEG underneath.
+    if (isReady) {
+      if (this._paintedKey !== key) {
+        this.$.image?.style.setProperty('background-image', `url("${thumbUrl(this.guid, this.size)}")`)
+        this._paintedKey = key
+      }
+    } else if (this._paintedKey !== key) {
+      // Only clear when cell identity/size changed — not on every scroll mutate.
+      this.$.image?.style.setProperty('background-image', '')
+      this._paintedKey = ''
+    }
+
     if (this.thumbnail) {
       this.style.setProperty('background-image', `url("data:image/jpeg;base64,${this.thumbnail}")`)
     } else {
       this.style.setProperty('background-image', '')
     }
-    if (this.size === 32) {
-      this.$.image?.style.setProperty('background-image', '')
-    } else {
-      if (cachedId.indexOf(this.guid) !== -1) {
-        this.$.image?.style.setProperty('background-image', `url("${BLOB_URL}/assets/${this.guid}/thumbnail-${this.size}.webp")`)
-      } else {
-        this.$.image?.style.setProperty('background-image', '')
-        if (queue.indexOf(this) !== -1) queue.splice(queue.indexOf(this), 1)
-        if (queue.indexOf(this) === -1) queue.push(this)
-      }
-    }
+
+    if (!key) return
+    if (!isReady) enqueue(this)
   }
 }
 
